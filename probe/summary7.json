@@ -1,0 +1,1751 @@
+[
+ {
+  "key": "nyc-cornell-tech",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://tech.cornell.edu/events/",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://t.451.io/token/of0mqFWFBAoZDYs0zzGnlzIhBh4c3B0ZsbbQEJg5/config.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 137
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=459015247&t=pageview&_s=1&dl=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&ul=en-us&dt=Cornell%20Tech%20-%20Events&sr=1280x720&vp=1280x720&_u=YEBAAAABAAAAAC~&jid=53659995&gjid=1735227133&cid=59628389.1793543955&tid=UA-37946207-1&_gid=1068546158.1793543955&_r=1&_slc=1&gtm=45He6as1n81K4GW8NRv78677452za200zd78677452xf1&gcd=13l3l3l3l1l1&dma=0&tag_e",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r02.txt",
+     "bytes": 15
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=459015247&t=pageview&_s=1&dl=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&ul=en-us&dt=Cornell%20Tech%20-%20Events&sr=1280x720&vp=1280x720&_u=YEDAAAABAAAAAC~&jid=333393155&gjid=1167129130&cid=59628389.1793543955&tid=UA-325910-23&_gid=1068546158.1793543955&_r=1&_slc=1&gtm=45He6as1n81K4GW8NRv78677452za200zd78677452xf1&gcd=13l3l3l3l1l1&dma=0&tag_e",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r03.txt",
+     "bytes": 3
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/sa.jpeg",
+     "status": 200,
+     "type": "image/jpeg",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://cdn-cookieyes.com/client_data/9c9d7dfcb22033b5251c6e00/PoEFtunW.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r04.txt",
+     "bytes": 797
+    },
+    {
+     "url": "https://analytics.api.451.io/i?stm=1793543954913&e=pv&url=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&page=Cornell%20Tech%20-%20Events&eid=03d567fd-cd11-4f3f-9fa6-8755bc271429&tv=js-4.6.8&tna=cf&aid=of0mqFWFBAoZDYs0zzGnlzIhBh4c3B0ZsbbQEJg5&p=web&cookie=1&cs=UTF-8&lang=en-US&res=1280x720&cd=24&tz=UTC&dtm=1793543954911&vp=1280x720&ds=1280x2604&vid=1&sid=6fdad1f9-f422-4c33-ada8-8c0598fcc914&duid=39d1d",
+     "status": 200,
+     "type": "image/png",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=B-r9VYt5oJvRY20ENSO_pQ&is_js=true&landing_url=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&t=Cornell%20Tech%20-%20Events&tip=JYdSQNhhko4JpEk-vwdPeUTj-1ltHbwuqeR-xTF48hw&host=https%3A%2F%2Ftech.cornell.edu&sa_conv_data_css_value=%27CiQwMWExOTc4Yy1kZmE0LTdiZTEtOWI0YS05NzdmNDUzNjcxMTUQBBoCTkEgBQ%27&sa_conv_data_image_value=ffd8ffe000104a4649460001010100600060",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r05.txt",
+     "bytes": 141
+    },
+    {
+     "url": "https://directory.cookieyes.com/api/v1/ip",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r06.txt",
+     "bytes": 120
+    },
+    {
+     "url": "https://cdn-cookieyes.com/client_data/9c9d7dfcb22033b5251c6e00/config/U1qSNOU_.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r07.txt",
+     "bytes": 30378
+    },
+    {
+     "url": "https://cdn-cookieyes.com/client_data/9c9d7dfcb22033b5251c6e00/translations/XiNzBoPw.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r08.txt",
+     "bytes": 1845
+    },
+    {
+     "url": "https://cdn-cookieyes.com/client_data/9c9d7dfcb22033b5251c6e00/audit-table/j7IV8JVp.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r09.txt",
+     "bytes": 40728
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-PJ9SLZ1H8W&gtm=45je6at0h2v873028454z8860255551za20gzb860255551zd860255551xf1&_p=1793543953974&_gaz=1&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dY2Q2ZW&_eu=EAAAAGAC&are=1&cid=59628389.1793543955&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&ua",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-EVWW5ECS27&gtm=45je6as1v9135772951za20gxf1&_p=1793543953974&_gaz=1&gcs=G111&gcd=13v3v3v3v6l1&npa=0&dma=0&gdid=dY2Q2ZW&_eu=ABAIAGAC&are=1&cid=59628389.1793543955&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1352942544.1793543955&gtm=45He6at0h2v860255551za200zd860255551xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=1352942544.1793543955&dt=Cornell%20Tech%20-%20Events&tid=AW-464605245&en=page_view&dl=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&scrsrc=www.googletagmanager.com&rnd=1231204516.1793543955&navt=n&npa=0&ep.client_container_info=gtm-wnqz3mg%20v138&ep.client_timestamp_iso=2026-11-01t14%3A39%3A14.538%2B00%3A00&ep.client_timezone=0&ep.page_path=%",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&ae=g&auid=1352942544.1793543955&dt=Cornell%20Tech%20-%20Events&en=page_view&dl=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&scrsrc=www.googletagmanager.com&rnd=1231204516.1793543955&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dY2Q2ZW&_tu=CA&gtm=45He6at0h2v860255551za200zd860255551xeaxf1&gcs=G111&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938469~11",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/sa.jpeg",
+     "status": 200,
+     "type": "image/jpeg",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=Z0X8q0JMORz1xxdTyCC6jA&is_js=true&landing_url=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&t=Cornell%20Tech%20-%20Events&tip=JYdSQNhhko4JpEk-vwdPeUTj-1ltHbwuqeR-xTF48hw&host=https%3A%2F%2Ftech.cornell.edu&sa_conv_data_css_value=%27CiQwMWExOTc4Yy1kZmE0LTdiZTEtOWI0YS05NzdmNDUzNjcxMTUQBBoCTkEgBQ%27&sa_conv_data_image_value=ffd8ffe000104a4649460001010100600060",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r10.txt",
+     "bytes": 141
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_hvv40lrg6txn&event=PageVisit",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://rp.liadm.com/j?dtstmp=1793543955792&aid=b-01dn&se=e30&duid=7340e87fb695--01m6brss6mym16fehktnzpnk44&tv=v3.20.0&pu=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&ext__fbp=fb.1.1793543954971.397251545331603090&wpn=lc-bundle&wpv=v3.20.0&cd=.cornell.edu&cl=aHR0cHM6Ly90ZWNoLmNvcm5lbGwuZWR1L2V2ZW50cy8&pv=e03a7316-d809-458b-bd85-b0140ba53ffe",
+     "status": 302,
+     "type": "",
+     "kind": "xhr",
+     "method": "GET"
+    },
+    {
+     "url": "https://rp.liadm.com/j?dtstmp=1793543955792&aid=b-01dn&se=e30&duid=7340e87fb695--01m6brss6mym16fehktnzpnk44&tv=v3.20.0&pu=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&ext__fbp=fb.1.1793543954971.397251545331603090&wpn=lc-bundle&wpv=v3.20.0&cd=.cornell.edu&cl=aHR0cHM6Ly90ZWNoLmNvcm5lbGwuZWR1L2V2ZW50cy8&pv=e03a7316-d809-458b-bd85-b0140ba53ffe&n3pc=true",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r11.txt",
+     "bytes": 13
+    },
+    {
+     "url": "https://i.liadm.com/sync-container?duid=7340e87fb695--01m6brss6mym16fehktnzpnk44&appId=b-01dn&euns=1&s=&version=v3.20.0&cd=.cornell.edu&pv=e03a7316-d809-458b-bd85-b0140ba53ffe",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://g.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r12.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://g.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r13.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-PJ9SLZ1H8W&gtm=45je6at0h2v873028454z8860255551za20gzb860255551zd860255551xf1&_p=1793543953974&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dY2Q2ZW&_eu=EAAAAGQC&are=1&cid=59628389.1793543955&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&ua",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/js_tracking?url=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&uid=B-r9VYt5oJvRY20ENSO_pQ&v=1&host=https%3A%2F%2Ftech.cornell.edu&l_src=&l_src_d=&u_src=&u_src_d=&shop=false",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r14.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/js_tracking?url=https%3A%2F%2Ftech.cornell.edu%2Fevents%2F&uid=Z0X8q0JMORz1xxdTyCC6jA&v=1&host=https%3A%2F%2Ftech.cornell.edu&l_src=&l_src_d=&u_src=&u_src_d=&shop=false",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r15.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-PJ9SLZ1H8W&gtm=45je6at0h2v873028454z8860255551za20gzb860255551zd860255551xf1&_p=1793543953974&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dY2Q2ZW&_eu=EAAAAGQC&are=1&cid=59628389.1793543955&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&ua",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://g.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r16.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-PJ9SLZ1H8W&gtm=45je6at0h2v873028454za20gzb860255551zd860255551xf1&_p=1793543953974&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dY2Q2ZW&_eu=EEAAAGQC&ae=a&are=1&cid=59628389.1793543955&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linu",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://g.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r17.txt",
+     "bytes": 0
+    }
+   ],
+   "rendered_bytes": 258255,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nyc-jts",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.jtsa.edu/event/biblical-hebrew-iv-spring-2027-afternoon/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://www.jtsa.edu/event/biblical-hebrew-iv-spring-2027-afternoon/",
+    "file": "extra7/x01.html",
+    "bytes": 137947,
+    "jsonld_events": 0
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.jtsa.edu/events-calendar/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://www.jtsa.edu/events/",
+    "file": "extra7/x02.html",
+    "bytes": 164535,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "nyc-arch-league",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://archleague.org/event/from-field-to-form-ocean-flora/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://archleague.org/event/from-field-to-form-ocean-flora/",
+    "file": "extra7/x01.html",
+    "bytes": 67020,
+    "jsonld_events": 0
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://archleague.org/events",
+     "status": 301,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://archleague.org/events/",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2CHHBCQ82V&gtm=45je6as1v890749880za208zd890749880xf1&_p=1793543986425&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1686964410.1793543987&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-6M96V5XKEX&gtm=45je6as1v890749880za208zd890749880xf1&_p=1793543986425&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1686964410.1793543987&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://archleague.org/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.9305270264468525:1793539157:PEFqqxXrdM90_48HVOhhjN7X9I4rEshI5UpwhT_SsXE/a53ba69a9aebd648",
+     "status": 200,
+     "type": "text/plain; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-6M96V5XKEX&gtm=45je6as1v890749880za200zd890749880xf1&_p=1793543986425&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1686964410.1793543987&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2CHHBCQ82V&gtm=45je6as1v890749880za200zd890749880xf1&_p=1793543986425&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1686964410.1793543987&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 104863,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nyc-ipa",
+  "extra": [
+   {
+    "ok": false,
+    "error": "robots: robots.txt disallows https://secure.givelively.org/event/institute-for-public-architectire/2026-ipa-fellows-halloween-party-haunted-block-house",
+    "request": "https://secure.givelively.org/event/institute-for-public-architectire/2026-ipa-fellows-halloween-party-haunted-block-house"
+   }
+  ]
+ },
+ {
+  "key": "nyc-ny-building-congress",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://buildingcongress.com/event/council-on-innovation-and-best-practices-10/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://buildingcongress.com/event/council-on-innovation-and-best-practices-10/",
+    "file": "extra7/x01.html",
+    "bytes": 142937,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "nyc-urban-design-forum",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://urbandesignforum.org/event/equality-and-the-city-bogotas-sustainable-urbanism/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://urbandesignforum.org/event/equality-and-the-city-bogotas-sustainable-urbanism/",
+    "file": "extra7/x01.html",
+    "bytes": 137551,
+    "jsonld_events": 0
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://urbandesignforum.org/event/living-routes-ideas-launch/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://urbandesignforum.org/event/living-routes-ideas-launch/",
+    "file": "extra7/x02.html",
+    "bytes": 133996,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "nyc-hartman",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.hartman.org.il/event/two-democracies-one-uncertain-future/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://www.hartman.org.il/event/two-democracies-one-uncertain-future/",
+    "file": "extra7/x01.html",
+    "bytes": 254746,
+    "jsonld_events": 0
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.hartman.org.il/event/james-loeffler-exceptional-hatred/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://www.hartman.org.il/event/james-loeffler-exceptional-hatred/",
+    "file": "extra7/x02.html",
+    "bytes": 255995,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "nyc-uja",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://www.ujafedny.org/get-involved/attend-an-event",
+     "status": 403,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    }
+   ],
+   "rendered_bytes": 4269,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nyc-ncjw-ny",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://ncjwny.org/event/hoarding-behaviors/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://ncjwny.org/event/hoarding-behaviors/",
+    "file": "extra7/x01.html",
+    "bytes": 60078,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "nyc-ohny",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://ohny.org/calendar",
+     "status": 200,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://cdn.builder.io/api/v3/query/fc1101199ae44b6eb081e8c3d1d68c26/activity%3A0e568018?omit=meta.componentsUsed&apiKey=fc1101199ae44b6eb081e8c3d1d68c26&noTargeting=true&fields=id%2Cdata&noTraverse=true&userAttributes=%7B%22urlPath%22%3A%22%2Fcalendar%22%2C%22host%22%3A%22ohny.org%22%2C%22device%22%3A%22desktop%22%7D&options.activity%3A0e568018.limit=100&options.activity%3A0e568018.offset=0&optio",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 494137
+    },
+    {
+     "url": "https://ohny.org/activity/ny-episode-9",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/support/donate",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/festival",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-40VWHZ8QTM&gtm=45je6as1v894471111za208zd894471111xf1&_p=1793544053242&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=238361491.1793544053&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~1",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ohny.org/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 406
+    },
+    {
+     "url": "https://ohny.org/activity/ny-episode-9/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r03.txt",
+     "bytes": 591
+    },
+    {
+     "url": "https://ohny.org/festival/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r04.txt",
+     "bytes": 515
+    },
+    {
+     "url": "https://ohny.org/support/donate/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r05.txt",
+     "bytes": 521
+    },
+    {
+     "url": "https://ohny.org/__next._index.txt?_rsc=1ceog",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r06.txt",
+     "bytes": 27627
+    },
+    {
+     "url": "https://ohny.org/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r07.txt",
+     "bytes": 2288
+    },
+    {
+     "url": "https://ohny.org/activity/ny-episode-9/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r08.txt",
+     "bytes": 2414
+    },
+    {
+     "url": "https://ohny.org/activity/ny-episode-9/__next.activity.$c$page.txt?_rsc=1pc4v",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r09.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/activity/ny-episode-9/__next.activity.txt?_rsc=1wymw",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r10.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/support/donate/__next.$c$page.txt?_rsc=1bkzr",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r11.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/support/donate/__next.$c$page.__PAGE__.txt?_rsc=1073j",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r12.txt",
+     "bytes": 9613
+    },
+    {
+     "url": "https://ohny.org/activity/ny-episode-9/__next.activity.$c$page.__PAGE__.txt?_rsc=1pvwf",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r13.txt",
+     "bytes": 11177
+    },
+    {
+     "url": "https://ohny.org/support/donate/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r14.txt",
+     "bytes": 2331
+    },
+    {
+     "url": "https://ohny.org/festival/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r15.txt",
+     "bytes": 2187
+    },
+    {
+     "url": "https://ohny.org/festival/__next.$c$page.txt?_rsc=1bkzr",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r16.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/festival/__next.$c$page.__PAGE__.txt?_rsc=1073j",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r17.txt",
+     "bytes": 70708
+    },
+    {
+     "url": "https://ohny.org/__next.__PAGE__.txt?_rsc=4f9z4",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r18.txt",
+     "bytes": 25661
+    },
+    {
+     "url": "https://ohny.org/activity/2026-launch-party",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/calendar/past",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/activity/ulmer",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/activity/members-social-2026",
+     "status": 200,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "HEAD"
+    },
+    {
+     "url": "https://ohny.org/calendar/past/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r19.txt",
+     "bytes": 520
+    },
+    {
+     "url": "https://ohny.org/activity/2026-launch-party/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r20.txt",
+     "bytes": 596
+    },
+    {
+     "url": "https://ohny.org/activity/ulmer/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r21.txt",
+     "bytes": 584
+    },
+    {
+     "url": "https://ohny.org/activity/members-social-2026/__next._tree.txt?_rsc=lmijs",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r22.txt",
+     "bytes": 598
+    },
+    {
+     "url": "https://ohny.org/activity/ulmer/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r23.txt",
+     "bytes": 2397
+    },
+    {
+     "url": "https://ohny.org/calendar/past/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r24.txt",
+     "bytes": 2344
+    },
+    {
+     "url": "https://ohny.org/activity/ulmer/__next.activity.$c$page.txt?_rsc=1pc4v",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r25.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/activity/2026-launch-party/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r26.txt",
+     "bytes": 2412
+    },
+    {
+     "url": "https://ohny.org/activity/ulmer/__next.activity.$c$page.__PAGE__.txt?_rsc=1pvwf",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r27.txt",
+     "bytes": 9322
+    },
+    {
+     "url": "https://ohny.org/activity/members-social-2026/__next.activity.$c$page.txt?_rsc=1pc4v",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r28.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/activity/members-social-2026/__next._head.txt?_rsc=ejvb6",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r29.txt",
+     "bytes": 2461
+    },
+    {
+     "url": "https://ohny.org/activity/members-social-2026/__next.activity.$c$page.__PAGE__.txt?_rsc=1pvwf",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r30.txt",
+     "bytes": 11305
+    },
+    {
+     "url": "https://ohny.org/activity/2026-launch-party/__next.activity.$c$page.txt?_rsc=1pc4v",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r31.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/activity/2026-launch-party/__next.activity.$c$page.__PAGE__.txt?_rsc=1pvwf",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r32.txt",
+     "bytes": 9398
+    },
+    {
+     "url": "https://ohny.org/calendar/past/__next.$c$page.txt?_rsc=1bkzr",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r33.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://ohny.org/calendar/past/__next.$c$page.__PAGE__.txt?_rsc=1073j",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r34.txt",
+     "bytes": 5288
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-40VWHZ8QTM&gtm=45je6as1v894471111za200zd894471111xf1&_p=1793544053242&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=238361491.1793544053&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&ta",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 144850,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nyc-econ-club-ny",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://www.econclubny.org/web/pages/club-calendar",
+     "status": 200,
+     "type": "text/html;charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=548139929&t=pageview&_s=1&dl=https%3A%2F%2Fwww.econclubny.org%2Fweb%2Fpages%2Fclub-calendar&ul=en-us&dt=Club%20Calendar%20-%20The%20Economic%20Club%20of%20New%20York&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=148724903&gjid=1796748166&cid=490961116.1793544083&tid=UA-121819975-1&_gid=1903656340.1793544083&_r=1&_slc=1&z=815948789",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 15
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FHRKJ2VQKP&gtm=45je6at0h2v9136427674za20oxf1&_p=1793544082580&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid=490961116.1793544083&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=1159",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-2GN472M1S4&gtm=45je6at0h2v9136427674za20oxf1&_p=1793544082580&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIAGA&are=1&cid=490961116.1793544083&frm=0&ir=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_ex",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.econclubny.org/o/The-Economic-Club-NY-theme/images/clay/icons.svg",
+     "status": 200,
+     "type": "image/svg+xml",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 258343
+    },
+    {
+     "url": "https://www.econclubny.org/o/js_resolve_modules?modules=metal-dom%2Fsrc%2Fall%2Fdom%2Cclay-tooltip%2Fsrc%2FClayTooltip%2Cfrontend-taglib-clay%24clay-navigation-bar%402.18.1%2Flib%2FClayNavigationBar",
+     "status": 200,
+     "type": "application/json;charset=UTF-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r03.txt",
+     "bytes": 36362
+    },
+    {
+     "url": "https://www.econclubny.org/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.9305270264468525:1793539157:PEFqqxXrdM90_48HVOhhjN7X9I4rEshI5UpwhT_SsXE/a53ba8ecedf8d095",
+     "status": 200,
+     "type": "text/plain; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r04.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.econclubny.org/web/pages/club-calendar?p_p_id=com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_PBUyT7PizFAu&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&doAsUserId=&p_p_resource_id=calendarRenderingRules",
+     "status": 200,
+     "type": "text/html;charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r05.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.econclubny.org/web/pages/club-calendar?p_p_id=com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_PBUyT7PizFAu&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&doAsUserId=&p_p_resource_id=calendarRenderingRules",
+     "status": 200,
+     "type": "text/html;charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r06.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.econclubny.org/o/The-Economic-Club-NY-theme/images/lexicon/icons.svg",
+     "status": 200,
+     "type": "image/svg+xml",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r07.txt",
+     "bytes": 258343
+    },
+    {
+     "url": "https://www.econclubny.org/cdn-cgi/rum?",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r08.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.econclubny.org/web/pages/club-calendar?p_p_id=com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_PBUyT7PizFAu&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&doAsUserId=&p_p_resource_id=calendarBookings",
+     "status": 200,
+     "type": "application/json;charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r09.txt",
+     "bytes": 30713
+    },
+    {
+     "url": "https://www.econclubny.org/web/pages/club-calendar?p_p_id=com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_PBUyT7PizFAu&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&doAsUserId=&p_p_resource_id=calendarRenderingRules",
+     "status": 200,
+     "type": "application/json;charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r10.txt",
+     "bytes": 88
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-2GN472M1S4&gtm=45je6at0h2v9136427674za20gxf1&_p=1793544082580&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EEAIAGQ&ae=a&are=1&cid=490961116.1793544083&frm=0&ir=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FHRKJ2VQKP&gtm=45je6at0h2v9136427674za20gxf1&_p=1793544082580&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EEAIAAQ&ae=a&are=1&cid=490961116.1793544083&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 292790,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nyc-92ny",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://www.92ny.org/whats-on/events",
+     "status": 302,
+     "type": "",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://my.92ny.org/components/sharedsession?actionUrl=https%3a%2f%2fwww.92ny.org%2ftnew%2freceive&returnUrl=https%3a%2f%2fwww.92ny.org%2fwhats-on%2fevents",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.92ny.org/tnew/receive",
+     "status": 302,
+     "type": "",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.92ny.org/whats-on/events",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-SV9CMNFYCC&gtm=45je6as1v868580221za208zd868580221xf1&_p=1793544112622&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=441870825.1793544113&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://l.sharethis.com/pview?event=pview&hostname=www.92ny.org&location=%2Fwhats-on%2Fevents&product=sop&url=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Events%20%7C%2092NY&refDomain=my.92ny.org&cms=unknown&publisher=66fdaebd6b6d7100193f3ccc&sop=true&version=st_sop.js&lang=en&ua=%22Chromium%22%3Bv%3D%22130%22%2C%20%22Headles",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&auid=306872222.1793544113&dt=Events%20%7C%2092NY&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6as1h1v76993344za200zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=306872222.1793544113&gtm=45He6as1h1v76993344za200zd76993344xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://bzrcdn.openai.com/pixel-config/v1/QavLW4dZfxfr6AG7dgqGgw.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 44
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/755876785/?random=1793544113454&cv=11&fst=1793544113454&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1h1z8d_AW-755876785za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034~123691370~123814946&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.92ny.org%2Fwhats-on",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/755876785/?random=1793544113507&cv=11&fst=1793544113507&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034~123691370~123814946&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&ref=https%3",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-755876785&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&gtm=45be6as1h1z8d_AW-755876785za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~1",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-755876785&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&_tu=CA&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~11889792",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/627679010/?random=1793544113555&cv=11&fst=1793544113555&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1h1v890094673za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118012008~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123636747~123691370~123814944&u_w=1280&u_h=7",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-627679010&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&gtm=45be6as1h1v890094673za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~1159384",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1045810258/?random=1793544113659&cv=11&fst=1793544113659&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1h1z8e_AW-1045810258za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412527~120469145~120469153~121246026~121246034~123620776~123636747~123691370~123814945&u_w=1280&u_h=720",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1045810258&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&gtm=45be6as1h1z8e_AW-1045810258za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=t2_lkuc1msd&event=PageVisit",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_i8d9cevldxyu&event=gtm.js",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/724912609/?random=1793544113842&cv=11&fst=1793544113842&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1h1v9237358369za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=https%3A%2F%",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1071353817/?random=1793544113865&cv=11&fst=1793544113865&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1h1v9237358369za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=https%3A%2F",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/724912609/?random=1793544113881&cv=11&fst=1793544113881&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6as1h1v9237358369z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=https%3A%2F%2Fwww",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&ae=g&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-724912609&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&_tu=CA&gtm=45be6as1h1v9237358369z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~11593846",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-724912609&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&gtm=45be6as1h1v9237358369za20ozb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~1188979",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/963590642/?random=1793544114118&cv=11&fst=1793544114118&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034~123691370~123814944&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&r",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://gtm-mt7mg3sj-zmnhy.uc.r.appspot.com/data?v=2&event=page_view",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r03.txt",
+     "bytes": 68
+    },
+    {
+     "url": "https://yjqesjqhdi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.59.0)%3B%20JS%20Helper%20(3.15.0)&x-algolia-application-id=YJQESJQHDI&x-algolia-api-key=6d28dbd16e5728d3fe7fb4c1d80095f0",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r04.txt",
+     "bytes": 37340
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-963590642&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&_tu=CA&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~11593846",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.googleadservices.com/pagead/conversion/963590642/?random=1793544114074&cv=11&fst=1793544114074&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034~123691370~123814944&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.9",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r05.txt",
+     "bytes": 3108
+    },
+    {
+     "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963590642/?random=2017237318&cv=11&fst=1793544114074&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034~123691370~123814944&u_w=1280&u_h=720&url=https%3A",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.92ny.org/planneradverts/get",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r06.txt",
+     "bytes": 402
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r07.txt",
+     "bytes": 2569
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r08.txt",
+     "bytes": 2450
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r09.txt",
+     "bytes": 1934
+    },
+    {
+     "url": "https://www.google.com/pagead/1p-conversion/963590642/?random=2017237318&cv=11&fst=1793544114074&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1h1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034~123691370~123814944&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.92ny.org%2F",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.facebook.com/tr/",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.facebook.com/tr/",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://bzr.openai.com/v1/sdk/events?pid=QavLW4dZfxfr6AG7dgqGgw&st=oaiq-web&sv=0.1.97&t=1793544115420&ec=2",
+     "status": 202,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-SV9CMNFYCC&gtm=45je6as1v868580221za208zd868580221xf1&_p=1793544112622&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAACAGQC&are=1&cid=441870825.1793544113&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=11",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://yjqesjqhdi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.59.0)%3B%20JS%20Helper%20(3.15.0)&x-algolia-application-id=YJQESJQHDI&x-algolia-api-key=6d28dbd16e5728d3fe7fb4c1d80095f0",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r10.txt",
+     "bytes": 34290
+    },
+    {
+     "url": "https://www.92ny.org/planneradverts/get",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r11.txt",
+     "bytes": 2
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r12.txt",
+     "bytes": 1542
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r13.txt",
+     "bytes": 2450
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r14.txt",
+     "bytes": 2423
+    },
+    {
+     "url": "https://www.facebook.com/tr/",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://yjqesjqhdi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.59.0)%3B%20JS%20Helper%20(3.15.0)&x-algolia-application-id=YJQESJQHDI&x-algolia-api-key=6d28dbd16e5728d3fe7fb4c1d80095f0",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r15.txt",
+     "bytes": 34588
+    },
+    {
+     "url": "https://www.92ny.org/planneradverts/get",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r16.txt",
+     "bytes": 2
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r17.txt",
+     "bytes": 2075
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r18.txt",
+     "bytes": 2553
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r19.txt",
+     "bytes": 2444
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-SV9CMNFYCC&gtm=45je6as1v868580221z876993344za200zd868580221xf1&_p=1793544112622&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQC&are=1&cid=441870825.1793544113&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1045810258/?random=1793544130845&cv=11&fst=1793544130845&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412527~120469145~120469153~121246026~121246034~123620776~123636747~123691370~123814945&u_w=128",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1071353817/?random=1793544130875&cv=11&fst=1793544130875&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=ht",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1045810258&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=1159",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1071353817&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.facebook.com/tr/",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://yjqesjqhdi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.59.0)%3B%20JS%20Helper%20(3.15.0)&x-algolia-application-id=YJQESJQHDI&x-algolia-api-key=6d28dbd16e5728d3fe7fb4c1d80095f0",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r20.txt",
+     "bytes": 33453
+    },
+    {
+     "url": "https://www.92ny.org/planneradverts/get",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r21.txt",
+     "bytes": 2
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1045810258/?random=1793544132025&cv=11&fst=1793544132025&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412527~120469145~120469153~121246026~121246034~123620776~123636747~123691370~123814945&u_w=128",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1071353817/?random=1793544132047&cv=11&fst=1793544132047&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=ht",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1045810258&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=1159",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1071353817&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.facebook.com/tr/",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r22.txt",
+     "bytes": 2578
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r23.txt",
+     "bytes": 2056
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r24.txt",
+     "bytes": 1005
+    },
+    {
+     "url": "https://yjqesjqhdi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.59.0)%3B%20JS%20Helper%20(3.15.0)&x-algolia-application-id=YJQESJQHDI&x-algolia-api-key=6d28dbd16e5728d3fe7fb4c1d80095f0",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r25.txt",
+     "bytes": 35639
+    },
+    {
+     "url": "https://www.92ny.org/planneradverts/get",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r26.txt",
+     "bytes": 2
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r27.txt",
+     "bytes": 2574
+    },
+    {
+     "url": "https://www.facebook.com/tr/",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "document",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r28.txt",
+     "bytes": 2590
+    },
+    {
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r29.txt",
+     "bytes": 2586
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1045810258/?random=1793544133286&cv=11&fst=1793544133286&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412527~120469145~120469153~121246026~121246034~123620776~123636747~123691370~123814945&u_w=128",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1071353817/?random=1793544133318&cv=11&fst=1793544133318&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=ht",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1045810258&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=1159",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1071353817&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1045810258/?random=1793544134466&cv=11&fst=1793544134466&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412527~120469145~120469153~121246026~121246034~123620776~123636747~123691370~123814945&u_w=128",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1071353817/?random=1793544134485&cv=11&fst=1793544134485&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=ht",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1045810258&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1z8e_AW-1045810258za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=1159",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=306872222.1793544113&dt=Events%20%7C%2092NY&tid=AW-1071353817&en=page_view&dl=https%3A%2F%2Fwww.92ny.org%2Fwhats-on%2Fevents&dr=https%3A%2F%2Fmy.92ny.org%2F&scrsrc=www.googletagmanager.com&rnd=860426707.1793544113&navt=n&npa=0&ae=a&gtm=45be6as1h1v9237358369za20gzb76993344zd76993344xecxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115938465~",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-SV9CMNFYCC&gtm=45je6as1v868580221za200zd868580221xf1&_p=1793544112622&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&_eu=AEAAAGQC&ae=a&are=1&cid=441870825.1793544113&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 634723,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nyc-nypl",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://www.nypl.org/events/calendar?location=4",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://api.ipify.org/?format=json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 24
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=259519461.1793544147&dt=Calendar%20%7C%20The%20New%20York%20Public%20Library&en=page_view&dl=https%3A%2F%2Fwww.nypl.org%2Fevents%2Fcalendar%3Flocation%3D4&scrsrc=www.googletagmanager.com&rnd=730357697.1793544147&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6as1v6109239za200zd6109239xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~1159",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=259519461.1793544147&gtm=45He6as1v6109239za200zd6109239xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://api.omappapi.com/v2/embed/12468?d=nypl.org&device=desktop",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 500225
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1017625488/?random=1793544146702&cv=11&fst=1793544146702&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1v9221558977za20ozb6109239zd6109239xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123620777~123691370~123814184~123814944&u_w=1280&u_h=720&url=https%3A%2F%2Fw",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=259519461.1793544147&dt=Calendar%20%7C%20The%20New%20York%20Public%20Library&tid=AW-1017625488&en=page_view&dl=https%3A%2F%2Fwww.nypl.org%2Fevents%2Fcalendar%3Flocation%3D4&scrsrc=www.googletagmanager.com&rnd=730357697.1793544147&navt=n&npa=0&gtm=45be6as1v9221558977za20ozb6109239zd6109239xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-P03CNT7C31&gtm=45je6as1v9115477143za20ozb6109239zd6109239xf1&_p=1793544146289&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAACAC&are=1&cid=1311830856.1793544147&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1071887486/?random=1793544146877&cv=11&fst=1793544146877&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6as1v9115477143za20ozb6109239zd6109239xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814183&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.nypl.or",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=259519461.1793544147&dt=Calendar%20%7C%20The%20New%20York%20Public%20Library&tid=AW-1071887486&en=page_view&dl=https%3A%2F%2Fwww.nypl.org%2Fevents%2Fcalendar&scrsrc=www.googletagmanager.com&rnd=730357697.1793544147&navt=n&npa=0&ep.page_language=en&gtm=45je6as1v9115477143za20ozb6109239zd6109239xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://drupal.nypl.org/api/alerts/all",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r03.txt",
+     "bytes": 123
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-P03CNT7C31&gtm=45je6as1v9115477143z86109239za20gzb6109239zd6109239xf1&_p=1793544146289&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAACQC&are=1&cid=1311830856.1793544147&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&u",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-P03CNT7C31&gtm=45je6as1v9115477143z86109239za20gzb6109239zd6109239xf1&_p=1793544146289&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAACQC&are=1&cid=1311830856.1793544147&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&u",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 904554,
+   "jsonld_events": 0
+  }
+ }
+]

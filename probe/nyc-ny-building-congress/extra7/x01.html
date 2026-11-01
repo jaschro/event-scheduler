@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- GA4 Tag -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RF6653ST14"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-RF6653ST14');
+	</script>
+
+	<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["rum_v2"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-7d9a32fc23a23fcaa2a",applicationID:"1267630952",browserID:"1386184276"};;/*! For license information please see nr-loader-rum-1.324.1.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i=1e6,a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,i,"KC",0,a,"qh",0,"SESSION_ERROR","zd",0,5e5])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.324.1"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.324.1.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.324.1.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zuv39xzZ8AH/HwpVrtkixvcBuOFo2ydcFzMtXjx+3Iwr5g++inX+6YDH7J/8fOCAtBetz8aDyaYCRkGy2nnG/w=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.324.1.PROD"]=self["webpackChunk:NRBA-1.324.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://buildingcongress.com/wp-content/uploads/breeze/google/fonts/inter/inter.css" rel="stylesheet">
+
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Council on Innovation and Best Practices | New York Building Congress</title>
+	<link rel="canonical" href="https://buildingcongress.com/event/council-on-innovation-and-best-practices-10/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Council on Innovation and Best Practices | New York Building Congress" />
+	<meta property="og:url" content="https://buildingcongress.com/event/council-on-innovation-and-best-practices-10/" />
+	<meta property="og:site_name" content="New York Building Congress" />
+	<meta property="article:publisher" content="https://www.facebook.com/NewYorkBuildingCongress" />
+	<meta property="article:modified_time" content="2026-10-22T16:46:27+00:00" />
+	<meta property="og:image" content="https://buildingcongress.com/wp-content/uploads/2024/06/Innovation-Icon.png?ver=1735930909" />
+	<meta property="og:image:width" content="200" />
+	<meta property="og:image:height" content="200" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@bdgcongress" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/","url":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/","name":"Council on Innovation and Best Practices | New York Building Congress","isPartOf":{"@id":"https:\/\/buildingcongress.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/#primaryimage"},"image":{"@id":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/#primaryimage"},"thumbnailUrl":"https:\/\/buildingcongress.com\/wp-content\/uploads\/2024\/06\/Innovation-Icon.png?ver=1735930909","datePublished":"2026-10-22T16:45:36+00:00","dateModified":"2026-10-22T16:46:27+00:00","breadcrumb":{"@id":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/#primaryimage","url":"https:\/\/buildingcongress.com\/wp-content\/uploads\/2024\/06\/Innovation-Icon.png?ver=1735930909","contentUrl":"https:\/\/buildingcongress.com\/wp-content\/uploads\/2024\/06\/Innovation-Icon.png?ver=1735930909","width":200,"height":200},{"@type":"BreadcrumbList","@id":"https:\/\/buildingcongress.com\/event\/council-on-innovation-and-best-practices-10\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/buildingcongress.com\/"},{"@type":"ListItem","position":2,"name":"Council on Innovation and Best Practices"}]},{"@type":"WebSite","@id":"https:\/\/buildingcongress.com\/#website","url":"https:\/\/buildingcongress.com\/","name":"New York Building Congress","description":"Promoting the growth and success of the New York City Building Industry for more than 100 years.","publisher":{"@id":"https:\/\/buildingcongress.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/buildingcongress.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/buildingcongress.com\/#organization","name":"New York Building Congress","url":"https:\/\/buildingcongress.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/buildingcongress.com\/#\/schema\/logo\/image\/","url":"https:\/\/buildingcongress.com\/wp-content\/uploads\/2024\/03\/ny-building-congress-logo-square.jpeg","contentUrl":"https:\/\/buildingcongress.com\/wp-content\/uploads\/2024\/03\/ny-building-congress-logo-square.jpeg","width":696,"height":696,"caption":"New York Building Congress"},"image":{"@id":"https:\/\/buildingcongress.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/NewYorkBuildingCongress","https:\/\/x.com\/bdgcongress","https:\/\/www.linkedin.com\/company\/new-york-building-congress"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="New York Building Congress &raquo; Feed" href="https://buildingcongress.com/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cookie-notice-front-css' href='https://buildingcongress.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=3.1.17' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css' href='https://buildingcongress.com/wp-content/plugins/wp-pagenavi/css/wp-pagenavi.css?ver=3.0.1' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://buildingcongress.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.21' media='all' />
+<link rel='stylesheet' id='style-css' href='https://buildingcongress.com/wp-content/themes/bfcd-theme/style.css?ver=1.1.5' media='all' />
+<link rel='stylesheet' id='main-css' href='https://buildingcongress.com/wp-content/themes/bfcd-theme/build/main.css?ver=1.1.5' media='all' />
+<link rel='stylesheet' id='slickcss-css' href='https://buildingcongress.com/wp-content/themes/bfcd-theme/assets/scripts/slick/slick.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='slicktheme-css' href='https://buildingcongress.com/wp-content/themes/bfcd-theme/assets/scripts/slick/slick-theme.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='style_login_widget-css' href='https://buildingcongress.com/wp-content/plugins/miniorange-oauth-oidc-single-sign-on/resources/css/style_login_widget.css?ver=7.1.4' media='all' />
+<script id="breeze-prefetch-js-extra">
+var breeze_prefetch = {"local_url":"https://buildingcongress.com","ignore_remote_prefetch":"1","ignore_list":["wp-admin","wp-login.php"]};
+//# sourceURL=breeze-prefetch-js-extra
+</script>
+<script id="breeze-prefetch-js" src="https://buildingcongress.com/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js?ver=2.6.3"></script>
+<script id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/buildingcongress.com\/wp-admin\/admin-ajax.php","nonce":"63e86d2518","hideEffect":"fade","position":"bottom","onScroll":false,"onScrollOffset":300,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":15811200,"cookieTimeRejected":3600,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+
+//# sourceURL=cookie-notice-front-js-before
+</script>
+<script id="cookie-notice-front-js" src="https://buildingcongress.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=3.1.17"></script>
+<script id="jquery-core-js" src="https://buildingcongress.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://buildingcongress.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="search-filter-plugin-build-js-extra">
+var SF_LDATA = {"ajax_url":"https://buildingcongress.com/wp-admin/admin-ajax.php","home_url":"https://buildingcongress.com/","extensions":[]};
+//# sourceURL=search-filter-plugin-build-js-extra
+</script>
+<script id="search-filter-plugin-build-js" src="https://buildingcongress.com/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.21"></script>
+<script id="search-filter-plugin-chosen-js" src="https://buildingcongress.com/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.21"></script>
+<style type="text/css">
+.feedzy-rss-link-icon:after {
+	content: url("https://buildingcongress.com/wp-content/plugins/feedzy-rss-feeds/img/external-link.png");
+	margin-left: 3px;
+}
+</style>
+		<link rel="icon" href="https://buildingcongress.com/wp-content/uploads/2024/04/cropped-NYBC-Square-Blue-logo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://buildingcongress.com/wp-content/uploads/2024/04/cropped-NYBC-Square-Blue-logo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://buildingcongress.com/wp-content/uploads/2024/04/cropped-NYBC-Square-Blue-logo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://buildingcongress.com/wp-content/uploads/2024/04/cropped-NYBC-Square-Blue-logo-1-270x270.png" />
+<link rel='stylesheet' id='mo-wp-bootstrap-social-css' href='https://buildingcongress.com/wp-content/plugins/miniorange-oauth-oidc-single-sign-on/resources/css/bootstrap-social.css' media='' />
+<link rel='stylesheet' id='mo-wp-bootstrap-main-css' href='https://buildingcongress.com/wp-content/plugins/miniorange-oauth-oidc-single-sign-on/resources/css/bootstrap.min-preview.css' media='' />
+<link rel='stylesheet' id='mo-wp-font-awesome-css' href='https://buildingcongress.com/wp-content/plugins/miniorange-oauth-oidc-single-sign-on/resources/css/font-awesome.min.css?ver=38.5.2' media='' />
+<link rel='stylesheet' id='mo_oauth_customize_icon_tab-css' href='https://buildingcongress.com/wp-content/plugins/miniorange-oauth-oidc-single-sign-on/classes/Free/Customization/Customization.css?ver=38.5.2' media='' />
+<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://buildingcongress.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=3.2.1' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://buildingcongress.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=3.2.1' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://buildingcongress.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=3.2.1' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://buildingcongress.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=3.2.1' media='all' />
+
+</head>
+
+
+<body class="wp-singular event-template-default single single-event postid-12023 wp-theme-bfcd-theme cookies-not-set">
+
+
+<a href="#main" class="visually-hidden-focusable">Skip to main content</a>
+
+<div id="wrapper">
+	<header class="" id="header-main-container">
+		<!-- Desktop Menu -->
+
+<nav id="header" class="d-none d-xl-flex navbar navbar-expand-xl desktop-menu navbar-light bg-light">
+    <div class="container-xl">
+        <a class="navbar-brand" href="https://buildingcongress.com" title="New York Building Congress" rel="home">
+                            <img id="desktop-logo" src="https://buildingcongress.com/wp-content/uploads/2024/03/ny-building-congress-logo-horizontal-black.svg" alt="New York Building Congress" />
+                    </a>
+
+        <div class="menu-links-container">
+            <!-- top bar nav with user login links -->
+            <nav class="top-bar" id="top-nav">
+                <a class="top-menu-link " href="https://buildingcongress.com/who-we-are/" target="">Who We Are</a><a class="top-menu-link berry-red-on-highlight" href="https://buildingcongress.com/new-york-building-foundation/" target="">New York Building Foundation</a><a class="top-menu-link purple-on-highlight" href="https://buildingcongress.com/infrastructure-action-council/" target="">Infrastructure Action Council</a><a class="search" title="Global website search" href="/search/"><span class="visually-hidden">Search</span></a>	<script type="text/javascript">
+
+		function HandlePopupResult(result) {
+			window.location.href = result;
+		}
+
+		function moOAuthLogin(app_name) {
+			window.location.href = 'https://buildingcongress.com' + '/?option=generateDynmicUrl&app_name=' + app_name;
+		}
+		function moOAuthCommonLogin(app_name) {
+					}
+
+		function moOAuthLoginNew(app_name, redirect_url = '') {
+			var base_url = "https://buildingcongress.com";
+							// Setup localStorage event listener before opening the popup
+				const storageKey = "oauth_result_flag";
+				
+				// Function to handle storage events from the popup
+				function handleStorageEvent(event) {					
+					if (event.key === storageKey && event.newValue === "true") {
+						
+						// Get the redirect URL from localStorage if available
+						let redirectTarget = localStorage.getItem("oauth_redirect_url");
+						
+						// Clean up
+						localStorage.removeItem(storageKey);
+						localStorage.removeItem("oauth_redirect_url");
+						window.removeEventListener("storage", handleStorageEvent);
+						
+						// Redirect to the target URL
+						if (redirectTarget) {
+							window.location.href = redirectTarget;
+						} else {
+							// Fallback to current URL
+							window.location.reload();
+						}
+					}
+				}
+				
+				// Add the event listener
+				window.addEventListener("storage", handleStorageEvent);
+
+				if ( typeof localStorage !== 'undefined' ) {
+					try {
+						localStorage . setItem( 'setLocalStorage', 'true' );
+					} catch ( e ) {
+						console . error( 'Error setting localStorage item:', e );
+					}
+				}
+
+				var left = (screen.width-500) / 2; // to make pop window appear on center of screen
+				var top = (screen.height-500) / 4;
+				var popupConfig = 'width=500,height=500,top=' + top + ',left=' + left;
+				popupConfig += ',resizable=yes,scrollbars=yes,status=yes,toolbar=no,menubar=no,location=no';
+				var js_redirect_url = "https%3A%2F%2Fbuildingcongress.com%2Fevent%2Fcouncil-on-innovation-and-best-practices-10%2F";
+				var finalRedirect = '';
+				finalRedirect = redirect_url ? redirect_url : js_redirect_url;
+				finalRedirect = encodeURIComponent(finalRedirect);
+				var popupUrl = base_url + '/?option=oauthredirect&app_name=' + app_name + "&redirect_url=" + finalRedirect + "&time=" + Date.now();				
+				var myWindow = window.open(popupUrl, 'OAuth Login', popupConfig);
+				
+				// Add popup blocker detection
+				if (myWindow === null || typeof(myWindow)==='undefined') {
+					alert('Popup blocker detected. Please allow popups for this site to use the OAuth login.');
+					window.location.href = popupUrl;
+				}
+						}
+	</script>
+		<div class="oauth-button"><div class="mo_adjust_customize_button" style="display:;
+			flex-flow: row wrap;justify-content:initial"><div style="margin-bottom:0px"><a href="javascript:void(0)" onclick="moOAuthLoginNew('MemberClicks','');" style="text-decoration:none;box-sizing: initial"> <i style="margin:4px; height:31px;width:132px;padding:10px 8px 8px 20px;font-size: 29px;border-radius:0px;color:#FFFFFF; background:#000000" class="mofa fa-lock mo_oauth_btn_ mo_oauth_btn_"><span class="mo_oauth_login_button_font" style="margin-left: 18.857142857143px">Member Login </span></i></a></div></div></div>
+                    <a target="_blank" href="https://web.buildingcongress.com/atlas/forms/1" class="menu-button button grey-fill">Become a Member</a>
+
+                            </nav>
+            <!-- main navigation with drawers -->
+                            <div id="navbar" class="collapse navbar-collapse">
+                    <ul id="menu-main-menu" class="navbar-nav desktop">
+                                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-851" class="membership-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-1-851 dropdown">
+                                    <a title="Membership" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Membership                                    </a>
+                                    <ul role="menu" class="dropdown-menu drawer"><div class="container-xl drawer-container"><div class="tray-container"><div class="tray-col tray-left-col"><div class="tray-container-inner-links">                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-851" class="menu-item menu-item-1-851">
+                                                    <a title="Join" target="" href="https://buildingcongress.com/membership/" class="dropdown-item-inner button white-fill">Join                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/membership/#membership-benefits" class="menu-item menu-item-1-https://buildingcongress.com/membership/#membership-benefits">
+                                                    <a title="Membership Benefits" target="" href="https://buildingcongress.com/membership/#membership-benefits" class="dropdown-item-inner button white outline">Membership Benefits                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/membership/#membership-levels" class="menu-item menu-item-1-https://buildingcongress.com/membership/#membership-levels">
+                                                    <a title="Membership Levels" target="" href="https://buildingcongress.com/membership/#membership-levels" class="dropdown-item-inner button white outline">Membership Levels                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/membership/#faqs" class="menu-item menu-item-1-https://buildingcongress.com/membership/#faqs">
+                                                    <a title="FAQ" target="" href="https://buildingcongress.com/membership/#faqs" class="dropdown-item-inner button white outline">FAQ                                                    </a>
+                                                </li>
+                                            </div></div></div></div></ul>                                </li>
+                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-#" class="membership-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-1-# dropdown">
+                                    <a title="Events" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Events                                    </a>
+                                    <ul role="menu" class="dropdown-menu drawer"><div class="container-xl drawer-container"><div class="tray-container"><div class="tray-col tray-right-col event-aggregator-status">
+                                                    <div class="tray-container-featured"><div class="category-container"><p class="category">Featured Event</p></div></div><div class="featured-post-container"><div class="image"><a href="https://buildingcongress.com/event/2026-industry-recognition-gala/"><img width="300" height="300" src="https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" fetchpriority="high" srcset="https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-300x300.png 300w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-1024x1024.png 1024w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-150x150.png 150w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-768x768.png 768w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square.png 1500w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="featured-info"><h6><a href="https://buildingcongress.com/event/2026-industry-recognition-gala/">2026 Industry Recognition Gala</a></h6><p class="date">Thu, Dec 3, 2026</p></div></div></div><div class="tray-col tray-left-col"><div class="tray-container-inner-links">                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-/events/" class="menu-item menu-item-1-/events/">
+                                                    <a title="All Events" target="" href="/events/" class="dropdown-item-inner button white-fill">All Events                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://web.buildingcongress.com/events?ce=true" class="menu-item menu-item-1-https://web.buildingcongress.com/events?ce=true">
+                                                    <a title="Industry Calendar" target="_blank" href="https://web.buildingcongress.com/events?ce=true" class="dropdown-item-inner button white outline">Industry Calendar                                                    </a>
+                                                </li>
+                                            </div><div class="tray-container-bottom-links"><div class="title-container"><p class="category">Event Categories</p></div>
+                                                    <div class="list-container"><a class="list-link" href="/events/?_sft_event-type=building-congress#view-all">Building Congress</a><a class="list-link" href="/events/?_sft_event-type=committee-council#view-all">Committee &amp; Council Meetings</a><a class="list-link" href="/events/?_sft_event-type=building-foundation#view-all">Building Foundation</a></div></div></div></div></div></ul>                                </li>
+                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-847" class="membership-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-1-847 dropdown">
+                                    <a title="Reports" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Reports                                    </a>
+                                    <ul role="menu" class="dropdown-menu drawer"><div class="container-xl drawer-container"><div class="tray-container"><div class="tray-col tray-right-col report">
+                                                    <div class="tray-container-featured"><div class="category-container"><p class="category">Featured Report</p></div></div><div class="featured-post-container"><div class="image"><a href="https://buildingcongress.com/report/2026-2028-new-york-city-construction-outlook-report/"><img width="628" height="1024" src="https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-628x1024.png" class="attachment-large size-large" alt="" decoding="async" srcset="https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-628x1024.png 628w, https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-184x300.png 184w, https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-768x1252.png 768w, https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-943x1536.png 943w, https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-1257x2048.png 1257w, https://buildingcongress.com/wp-content/uploads/2026/10/2026-CO-Report-scaled.png 1571w" sizes="(max-width: 628px) 100vw, 628px" /></a></div><div class="featured-info"><h6><a href="https://buildingcongress.com/report/2026-2028-new-york-city-construction-outlook-report/">2026-2028 New York City Construction Outlook Report</a></h6></div></div></div><div class="tray-col tray-left-col"><div class="tray-container-inner-links">                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-847" class="menu-item menu-item-1-847">
+                                                    <a title="All Reports" target="" href="https://buildingcongress.com/reports/" class="dropdown-item-inner button white-fill">All Reports                                                    </a>
+                                                </li>
+                                            </div><div class="tray-container-bottom-links"><div class="title-container"><p class="category">Report Series</p></div>
+                                                    <div class="list-container columns"><a class="list-link" href="/reports/?_sft_report-series=annual-report#view-all">Annual Report</a><a class="list-link" href="/reports/?_sft_report-series=ascend#view-all">ASCEND</a><a class="list-link" href="/reports/?_sft_report-series=building-congress-across-new-york-state#view-all">Building Congress Across New York State</a><a class="list-link" href="/reports/?_sft_report-series=building-the-future-of-new-york#view-all">Building The Future of New York</a><a class="list-link" href="/reports/?_sft_report-series=construction-outlook#view-all">Construction Outlook</a><a class="list-link" href="/reports/?_sft_report-series=construction-outlook-update#view-all">Construction Outlook Update</a><a class="list-link" href="/reports/?_sft_report-series=electricity-outlook#view-all">Electricity Outlook</a><a class="list-link" href="/reports/?_sft_report-series=hundred-year-report-series#view-all">Hundred Year Report Series</a><a class="list-link" href="/reports/?_sft_report-series=infrastructure-update#view-all">Infrastructure Update</a><a class="list-link" href="/reports/?_sft_report-series=nybc-across-america#view-all">NYBC Across America</a><a class="list-link" href="/reports/?_sft_report-series=policy-agenda#view-all">Policy Agenda</a><a class="list-link" href="/reports/?_sft_report-series=sector-analysis#view-all">Sector Analysis</a><a class="list-link" href="/reports/?_sft_report-series=topical-analyses#view-all">Topical Analyses</a></div></div></div></div></div></ul>                                </li>
+                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-856" class="membership-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-1-856 dropdown">
+                                    <a title="Advocacy & News" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Advocacy & News                                    </a>
+                                    <ul role="menu" class="dropdown-menu drawer"><div class="container-xl drawer-container"><div class="tray-container"><div class="tray-col tray-left-col"><div class="tray-container-inner-links">                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-856" class="menu-item menu-item-1-856">
+                                                    <a title="All Advocacy & News" target="" href="https://buildingcongress.com/news/" class="dropdown-item-inner button white-fill">All Advocacy & News                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-/news/?_sft_news-topic=letters-position-statements#view-all" class="menu-item menu-item-1-/news/?_sft_news-topic=letters-position-statements#view-all">
+                                                    <a title="Advocacy" target="" href="/news/?_sft_news-topic=letters-position-statements#view-all" class="dropdown-item-inner button white outline">Advocacy                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/building-beat-archives/" class="menu-item menu-item-1-https://buildingcongress.com/building-beat-archives/">
+                                                    <a title="Building Beat Archive" target="" href="https://buildingcongress.com/building-beat-archives/" class="dropdown-item-inner button white outline">Building Beat Archive                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/infrastructure-action-council/" class="menu-item menu-item-1-https://buildingcongress.com/infrastructure-action-council/">
+                                                    <a title="Infrastructure Action Council" target="" href="https://buildingcongress.com/infrastructure-action-council/" class="dropdown-item-inner button white outline">Infrastructure Action Council                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-/news/?_sft_news-topic=in-the-news#view-all" class="menu-item menu-item-1-/news/?_sft_news-topic=in-the-news#view-all">
+                                                    <a title="In the News" target="" href="/news/?_sft_news-topic=in-the-news#view-all" class="dropdown-item-inner button white outline">In the News                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-/legislative-tracker/" class="menu-item menu-item-1-/legislative-tracker/">
+                                                    <a title="Legislative Tracker" target="" href="/legislative-tracker/" class="dropdown-item-inner button white outline">Legislative Tracker                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-/news/?_sft_news-topic=op-ed#view-all" class="menu-item menu-item-1-/news/?_sft_news-topic=op-ed#view-all">
+                                                    <a title="Op-Eds" target="" href="/news/?_sft_news-topic=op-ed#view-all" class="dropdown-item-inner button white outline">Op-Eds                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-/news/?_sft_news-topic=press-releases-statements#view-all" class="menu-item menu-item-1-/news/?_sft_news-topic=press-releases-statements#view-all">
+                                                    <a title="Press Releases & Statements" target="" href="/news/?_sft_news-topic=press-releases-statements#view-all" class="dropdown-item-inner button white outline">Press Releases & Statements                                                    </a>
+                                                </li>
+                                            </div></div></div></div></ul>                                </li>
+                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-849" class="membership-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-1-849 dropdown">
+                                    <a title="Committees & Councils" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Committees & Councils                                    </a>
+                                    <ul role="menu" class="dropdown-menu drawer"><div class="container-xl drawer-container"><div class="tray-container"><div class="tray-col tray-right-col event-aggregator-status">
+                                                    <div class="tray-container-featured"><div class="category-container"><p class="category">Featured Event</p></div></div><div class="featured-post-container"><div class="image"><a href="https://buildingcongress.com/event/2026-industry-recognition-gala/"><img width="300" height="300" src="https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-300x300.png 300w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-1024x1024.png 1024w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-150x150.png 150w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square-768x768.png 768w, https://buildingcongress.com/wp-content/uploads/2025/11/2026-Gala-Event-Square.png 1500w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div class="featured-info"><h6><a href="https://buildingcongress.com/event/2026-industry-recognition-gala/">2026 Industry Recognition Gala</a></h6><p class="date">Thu, Dec 3, 2026</p></div></div></div><div class="tray-col tray-left-col"><div class="tray-container-inner-links">                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-849" class="menu-item menu-item-1-849">
+                                                    <a title="All Committees & Councils" target="" href="https://buildingcongress.com/committees-councils/" class="dropdown-item-inner button white-fill">All Committees & Councils                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/events/?_sft_event-type=committee-council#view-all" class="menu-item menu-item-1-https://buildingcongress.com/events/?_sft_event-type=committee-council#view-all">
+                                                    <a title="Upcoming Meetings" target="" href="https://buildingcongress.com/events/?_sft_event-type=committee-council#view-all" class="dropdown-item-inner button white outline">Upcoming Meetings                                                    </a>
+                                                </li>
+                                                                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1-https://buildingcongress.com/committees-councils/#get-involved" class="menu-item menu-item-1-https://buildingcongress.com/committees-councils/#get-involved">
+                                                    <a title="Get Involved" target="" href="https://buildingcongress.com/committees-councils/#get-involved" class="dropdown-item-inner button white outline">Get Involved                                                    </a>
+                                                </li>
+                                            </div><div class="tray-container-bottom-links"><div class="title-container"><p class="category">Committees</p></div>
+                                                    <div class="list-container columns"><a class="list-link" href="/committees-councils/#architects-leadership-council">Architects Leadership Council</a><a class="list-link" href="/committees-councils/#construction-law-committee">Construction Law Committee</a><a class="list-link" href="/committees-councils/#council-of-industry-women">Council of Industry Women</a><a class="list-link" href="/committees-councils/#council-of-presidents">Council of Presidents</a><a class="list-link" href="/committees-councils/#council-on-innovaction-best-practices">Council on Innovation & Best Practices</a><a class="list-link" href="/committees-councils/#education-arts-culture-committee">Education, Arts & Culture Committee (EAC)</a><a class="list-link" href="/committees-councils/#energy-sustainability-committee">Energy & Sustainability Committee</a><a class="list-link" href="/committees-councils/#healthcare-life-sciences-committee">Healthcare & Life Sciences Committee</a><a class="list-link" href="/committees-councils/#public-building-procurement-committee">Public Building & Procurement Committee</a><a class="list-link" href="/committees-councils/#transportation-infrastructure-committee">Transportation & Infrastructure Committee</a><a class="list-link" href="/committees-councils/#young-professionals-committee">Young Professionals Committee (YPC)</a></div></div></div></div></div></ul>                                </li>
+                                                </ul>
+                </div><!-- /.navbar-collapse -->
+                    </div>
+    </div><!-- /.container -->
+</nav>		<!-- Mobile Menu Start -->
+		<nav id="header-mobile" class="d-xl-none navbar navbar-expand-xl ">
+			<div class="container-xl">
+				<a class="navbar-brand" href="https://buildingcongress.com" title="New York Building Congress" rel="home">
+											<img id="nav-logo" src="https://buildingcongress.com/wp-content/uploads/2024/03/ny-building-congress-logo-horizontal-black.svg" alt="New York Building Congress" />
+									</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div id="navbar-mobile" class="collapse navbar-collapse">
+					<ul id="menu-mobile-menu" class="navbar-nav me-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-862" class="membership-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-862 dropdown"><a title="Membership" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Membership <span class="caret"></span></a><ul role="menu" class="dropdown-menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4640"><a title="Join" href="https://buildingcongress.com/membership/" class="dropdown-item">Join</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-868"><a title="Membership Benefits" href="https://buildingcongress.com/membership/#membership-benefits" class="dropdown-item">Membership Benefits</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-869"><a title="Membership Levels" href="https://buildingcongress.com/membership/#membership-levels" class="dropdown-item">Membership Levels</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-870"><a title="FAQ" href="https://buildingcongress.com/membership/#faqs" class="dropdown-item">FAQ</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-865" class="events-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-865 dropdown"><a title="Events" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Events <span class="caret"></span></a><ul role="menu" class="dropdown-menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-872"><a title="All Events" href="https://buildingcongress.com/events/" class="dropdown-item">All Events</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"><a title="Industry Events Calendar" href="https://buildingcongress.com/events/" class="dropdown-item">Industry Events Calendar</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-864" class="reports-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-864 dropdown"><a title="Reports" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Reports <span class="caret"></span></a><ul role="menu" class="dropdown-menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-877"><a title="All Reports" href="https://buildingcongress.com/reports/" class="dropdown-item">All Reports</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-863" class="committees-tray menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav-item menu-item-863 dropdown"><a title="Committees &#038; Councils" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" aria-expanded="false">Committees &#038; Councils <span class="caret"></span></a><ul role="menu" class="dropdown-menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-889"><a title="All Committees &amp; Councils" href="https://buildingcongress.com/committees-councils/" class="dropdown-item">All Committees &#038; Councils</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-890"><a title="Upcoming Meetings" href="https://buildingcongress.com/events/?_sft_event-type=committee-council" class="dropdown-item">Upcoming Meetings</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-891"><a title="Get Involved" href="https://buildingcongress.com/committees-councils/#get-involved" class="dropdown-item">Get Involved</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5259" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-5259"><a title="Who We Are" href="https://buildingcongress.com/who-we-are/" class="nav-link">Who We Are</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5260" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-5260"><a title="Advocacy &amp; News" href="https://buildingcongress.com/news/" class="nav-link">Advocacy &#038; News</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5261" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-5261"><a title="New York Building Foundation" href="https://buildingcongress.com/new-york-building-foundation/" class="nav-link">New York Building Foundation</a></li>
+</ul><ul class="navbar-nav membership me-auto">	<script type="text/javascript">
+
+		function HandlePopupResult(result) {
+			window.location.href = result;
+		}
+
+		function moOAuthLogin(app_name) {
+			window.location.href = 'https://buildingcongress.com' + '/?option=generateDynmicUrl&app_name=' + app_name;
+		}
+		function moOAuthCommonLogin(app_name) {
+					}
+
+		function moOAuthLoginNew(app_name, redirect_url = '') {
+			var base_url = "https://buildingcongress.com";
+							// Setup localStorage event listener before opening the popup
+				const storageKey = "oauth_result_flag";
+				
+				// Function to handle storage events from the popup
+				function handleStorageEvent(event) {					
+					if (event.key === storageKey && event.newValue === "true") {
+						
+						// Get the redirect URL from localStorage if available
+						let redirectTarget = localStorage.getItem("oauth_redirect_url");
+						
+						// Clean up
+						localStorage.removeItem(storageKey);
+						localStorage.removeItem("oauth_redirect_url");
+						window.removeEventListener("storage", handleStorageEvent);
+						
+						// Redirect to the target URL
+						if (redirectTarget) {
+							window.location.href = redirectTarget;
+						} else {
+							// Fallback to current URL
+							window.location.reload();
+						}
+					}
+				}
+				
+				// Add the event listener
+				window.addEventListener("storage", handleStorageEvent);
+
+				if ( typeof localStorage !== 'undefined' ) {
+					try {
+						localStorage . setItem( 'setLocalStorage', 'true' );
+					} catch ( e ) {
+						console . error( 'Error setting localStorage item:', e );
+					}
+				}
+
+				var left = (screen.width-500) / 2; // to make pop window appear on center of screen
+				var top = (screen.height-500) / 4;
+				var popupConfig = 'width=500,height=500,top=' + top + ',left=' + left;
+				popupConfig += ',resizable=yes,scrollbars=yes,status=yes,toolbar=no,menubar=no,location=no';
+				var js_redirect_url = "https%3A%2F%2Fbuildingcongress.com%2Fevent%2Fcouncil-on-innovation-and-best-practices-10%2F";
+				var finalRedirect = '';
+				finalRedirect = redirect_url ? redirect_url : js_redirect_url;
+				finalRedirect = encodeURIComponent(finalRedirect);
+				var popupUrl = base_url + '/?option=oauthredirect&app_name=' + app_name + "&redirect_url=" + finalRedirect + "&time=" + Date.now();				
+				var myWindow = window.open(popupUrl, 'OAuth Login', popupConfig);
+				
+				// Add popup blocker detection
+				if (myWindow === null || typeof(myWindow)==='undefined') {
+					alert('Popup blocker detected. Please allow popups for this site to use the OAuth login.');
+					window.location.href = popupUrl;
+				}
+						}
+	</script>
+		<div class="oauth-button"><div class="mo_adjust_customize_button" style="display:;
+			flex-flow: row wrap;justify-content:initial"><div style="margin-bottom:0px"><a href="javascript:void(0)" onclick="moOAuthLoginNew('MemberClicks','');" style="text-decoration:none;box-sizing: initial"> <i style="margin:4px; height:31px;width:132px;padding:10px 8px 8px 20px;font-size: 29px;border-radius:0px;color:#FFFFFF; background:#000000" class="mofa fa-lock mo_oauth_btn_ mo_oauth_btn_"><span class="mo_oauth_login_button_font" style="margin-left: 18.857142857143px">Member Login </span></i></a></div></div></div>						<li class="menu-item"><a class="nav-link" target="_blank" href="https://web.buildingcongress.com/atlas/forms/1">Become a Member</a></li>
+					</ul>				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container -->
+		</nav><!-- /#header-mobile -->
+		<!-- Mobile Menu End -->
+	</header>
+
+	<main id="main" class="">
+<div id="post-12023" class="content post-12023 event type-event status-publish has-post-thumbnail hentry event-type-committee-council event-series-council-on-innovation-best-practices">
+	
+			<!-- nav back to s&f -->
+			<div class="container-xl py-3 py-lg-5 nav-container">
+				<a href="/events/#view-all" class="button black no-outline left-arrow-link no-padding">All Events</a>
+			</div>
+
+			<!-- header -->
+			<section class="header-wrapper report event" id="header">
+				<div class="container-xl py-5"> <!-- width limiter and padding-top and padding-bottom -->
+					<div class="report-header-container flex-parent">
+						<div class="flex-child top-container">
+							<p class="category"><a href="/events/?_sft_event-type=committee-council#view-all">Committee &amp; Council Meetings</a></p>							<h1>Council on Innovation and Best Practices</h1>
+							<div class="location-and-date">
+								<p class="date">Thu, Oct 29, 2026</p>								<div class="separator vertical"></div>
+								<div class="location body-small"><p class="location">New York Building Congress</p></div>							</div>
+															<div class="button-container">
+																												<a class="button" target="_blank" href="/cdn-cgi/l/email-protection#9cf1f9f1fef9eeeff4f5ecdcfee9f5f0f8f5f2fbfff3f2fbeef9efefb2fff3f1a3efe9fef6f9ffe8a1dff3e9f2fff5f0bcf3f2bcd5f2f2f3eafde8f5f3f2bcbabcdef9efe8bccceefdffe8f5fff9efbcdff3e9f2fff5f0bcdff3f1f1f5e8e8f9f9bcd1f9f9e8f5f2fb">Email Us About This Event</a>
+																	</div>
+													</div>
+
+						<div class="flex-child image image-container"><img width="200" height="200" src="https://buildingcongress.com/wp-content/uploads/2024/06/Innovation-Icon.png?ver=1735930909" class="attachment-full size-full" alt="" decoding="async" loading="lazy" srcset="https://buildingcongress.com/wp-content/uploads/2024/06/Innovation-Icon.png 200w, https://buildingcongress.com/wp-content/uploads/2024/06/Innovation-Icon-150x150.png 150w" sizes="auto, (max-width: 200px) 100vw, 200px" /></div>
+					</div>
+				</div>
+			</section>
+
+			
+			<!-- Sidebar and content -->
+			<div class="container-xl py-5 event-sidebar-container" id="event-info">
+				<div class="row">
+					<div class="col-lg-5 order-2 order-lg-1 pe-lg-5 sidebar">
+
+													<div class="sidebar-child py-5">
+																									<a class="button" target="_blank" href="/cdn-cgi/l/email-protection#4a272f27282f383922233a0a283f23262e23242d2925242d382f39396429252775393f28202f293e7709253f242923266a25246a032424253c2b3e2325246a6c6a082f393e6a1a382b293e23292f396a09253f242923266a09252727233e3e2f2f6a072f2f3e23242d">Email Us About This Event</a>
+																							</div>
+						
+						<!-- date -->
+						<div class="sidebar-child py-5"><div class="body-large"><p>Date</p></div>Thu, Oct 29, 2026</div>
+						<!-- time -->
+						<div class="sidebar-child py-5"><div class="body-large"><p>Time</p></div><p>Breakfast - 8:30 am - 8:45 am</p><p>Meeting Program - 8:45 am - 10:00 am</p></div>
+						<!-- location -->
+						<div class="sidebar-child py-5"><div class="body-large"><p>Location</p></div><p>New York Building Congress</p></div>
+
+						<div class="sidebar-child py-5"><div class="body-large"><p>Share</p></div><div class="share-links__container">
+		<button class="social__share-icon" id="copy-url-btn" type="button" aria-live="polite">
+            <span id="not-yet-copied">
+                <span class="visually-hidden">Copy share link</span>
+                <span aria-hidden="true"><?xml version="1.0" encoding="utf-8"?>
+<svg fill="currentColor" width="800px" height="800px" viewBox="4.0937, 4.0937, 47.8126, 47.8126" xmlns="http://www.w3.org/2000/svg"><path d="M 27.9999 51.9062 C 41.0546 51.9062 51.9063 41.0547 51.9063 28.0000 C 51.9063 14.9219 41.0312 4.0938 27.9765 4.0938 C 14.8983 4.0938 4.0937 14.9219 4.0937 28.0000 C 4.0937 41.0547 14.9218 51.9062 27.9999 51.9062 Z M 38.4062 17.1016 C 41.3124 19.9844 41.0546 23.5469 37.7030 26.875 L 33.6718 30.9297 C 33.9999 29.8047 33.9765 28.4922 33.6014 27.6016 L 35.9687 25.2344 C 38.2655 22.9844 38.5234 20.6172 36.6952 18.8125 C 34.8905 17.0313 32.5234 17.3125 30.2733 19.5625 L 26.9218 22.8672 C 24.6014 25.2109 24.2968 27.6016 26.1249 29.3828 C 26.6640 29.9453 27.4609 30.2969 28.4921 30.4844 C 28.1405 31.2344 27.4140 32.1016 26.7343 32.5703 C 26.0312 32.4531 25.1405 31.8906 24.3905 31.1172 C 21.4843 28.2344 21.7890 24.625 25.1874 21.2031 L 28.6093 17.8047 C 31.9609 14.4531 35.5234 14.2187 38.4062 17.1016 Z M 16.7499 38.7578 C 13.8436 35.875 14.1014 32.3125 17.4765 28.9844 L 21.5077 24.9297 C 21.1562 26.0547 21.1796 27.3672 21.5546 28.2578 L 19.1874 30.625 C 16.8905 32.8516 16.6327 35.2422 18.4609 37.0469 C 20.2655 38.8281 22.6562 38.5469 24.8827 36.2969 L 28.2343 32.9922 C 30.5546 30.6484 30.8593 28.2578 29.0312 26.4766 C 28.4921 25.9140 27.6952 25.5625 26.6640 25.375 C 27.0155 24.625 27.7421 23.7578 28.4218 23.2891 C 29.1249 23.4062 30.0155 23.9687 30.7890 24.7422 C 33.6718 27.625 33.3671 31.2109 29.9687 34.6328 L 26.5468 38.0547 C 23.1952 41.4063 19.6327 41.6406 16.7499 38.7578 Z"/></svg></span>
+            </span>
+            <span id="check-icon" style="display:none;">
+                <span class="visually-hidden">Copied!</span>
+                <span aria-hidden="true"><span class="visually-hidden">Copied!</span><span aria-hidden="true"><?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="800px" viewBox="2 2 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="currentColor"/>
+</svg></span></span>
+            </span>
+        </button>
+        <a aria-label="Share via X/Twitter" class="social__share-icon" href="https://x.com/intent/post?url=https%3A%2F%2Fbuildingcongress.com%2Fevent%2Fcouncil-on-innovation-and-best-practices-10%2F" title="Share via X/Twitter" rel="nofollow noopener" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z" fill="currentColor"/></svg></a>
+        <a aria-label="Share via Facebook" class="social__share-icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbuildingcongress.com%2Fevent%2Fcouncil-on-innovation-and-best-practices-10%2F" title="Share via Facebook" rel="nofollow noopener" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="1 2.5 22 21" fill="none">
+  <path d="M22 12.8306C22 7.27404 17.5229 2.76953 12 2.76953C6.47715 2.76953 2 7.27404 2 12.8306C2 17.8523 5.65684 22.0147 10.4375 22.7695V15.7389H7.89844V12.8306H10.4375V10.6141C10.4375 8.09249 11.9305 6.69965 14.2146 6.69965C15.3088 6.69965 16.4531 6.89616 16.4531 6.89616V9.37214H15.1922C13.95 9.37214 13.5625 10.1478 13.5625 10.9434V12.8306H16.3359L15.8926 15.7389H13.5625V22.7695C18.3432 22.0147 22 17.8525 22 12.8306Z" fill="currentColor"/>
+</svg></a>
+        <a aria-label="Share via Linkedin" class="social__share-icon" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fbuildingcongress.com%2Fevent%2Fcouncil-on-innovation-and-best-practices-10%2F" title="Share via Linkedin" rel="nofollow noopener" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="2 3 20 20" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 3.76953C3.67157 3.76953 3 4.4411 3 5.26953V20.2695C3 21.0979 3.67157 21.7695 4.5 21.7695H19.5C20.3284 21.7695 21 21.0979 21 20.2695V5.26953C21 4.4411 20.3284 3.76953 19.5 3.76953H4.5ZM8.52076 7.77225C8.52639 8.7285 7.81061 9.31772 6.96123 9.3135C6.16107 9.30928 5.46357 8.67225 5.46779 7.77366C5.47201 6.9285 6.13998 6.24928 7.00764 6.26897C7.88795 6.28866 8.52639 6.93413 8.52076 7.77225ZM12.2797 10.5313H9.75971H9.7583V19.0911H12.4217V18.8914C12.4217 18.5115 12.4214 18.1315 12.4211 17.7514C12.4203 16.7376 12.4194 15.7227 12.4246 14.7092C12.426 14.4631 12.4372 14.2072 12.5005 13.9723C12.7381 13.0948 13.5271 12.5281 14.4074 12.6674C14.9727 12.7559 15.3467 13.0836 15.5042 13.6166C15.6013 13.9498 15.6449 14.3084 15.6491 14.6558C15.6605 15.7034 15.6589 16.751 15.6573 17.7987C15.6567 18.1685 15.6561 18.5385 15.6561 18.9083V19.0897H18.328V18.8844C18.328 18.4324 18.3278 17.9805 18.3275 17.5286C18.327 16.3991 18.3264 15.2696 18.3294 14.1397C18.3308 13.6292 18.276 13.1258 18.1508 12.6322C17.9638 11.8981 17.5771 11.2906 16.9485 10.8519C16.5027 10.5397 16.0133 10.3386 15.4663 10.3161C15.404 10.3135 15.3412 10.3102 15.2781 10.3067C14.9984 10.2916 14.7141 10.2763 14.4467 10.3302C13.6817 10.4835 13.0096 10.8336 12.5019 11.4509C12.4429 11.5217 12.3852 11.5936 12.2991 11.7009L12.2797 11.7252V10.5313ZM5.68164 19.0939H8.33242V10.5369H5.68164V19.0939Z" fill="currentColor"/>
+</svg></a>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        const btn = document.getElementById("copy-url-btn");
+        const checkIcon = document.getElementById("check-icon").innerHTML;
+        const notYetIcon = document.getElementById("not-yet-copied").innerHTML;
+
+        btn.addEventListener("click", async () => {
+            try {
+                await navigator.clipboard.writeText(location.href);
+                btn.classList.add("success");
+                btn.innerHTML = checkIcon;
+
+                // revert back after 2 seconds
+                setTimeout(() => {
+                    btn.innerHTML = notYetIcon;
+                    btn.classList.remove("success");
+                }, 2000);
+
+            } catch (err) {
+                console.error("Copy failed", err);
+            }
+        });
+        </script>
+    </div></div>
+
+
+					</div>
+
+					<div class="col-lg-7 order-1 order-lg-2 event-information sidebar-main-content">
+													<section class="flex-wrapper" id="">
+    							<div class="container-xl pb-5">
+									<h2>Event Information</h2>
+									<p>The next meeting of the <strong>Council on Innovation &amp; Best Practices </strong>will take place on <strong>Thursday, October 29 </strong>at the <strong>New York Building Congress</strong>.<strong> Breakfast </strong>will be available at <strong>8:30 AM</strong> and the <strong>meeting </strong>will begin at <strong>8:45 AM</strong>.</p>
+<p>This session will feature the second installment of our interactive &#8220;AI Clinic&#8221; series, where a select group of AI-enabled construction startups will deliver brief presentations highlighting real-world applications of artificial intelligence on the jobsite. Presentations will focus on presenters&#8217; own technologies, from construction payroll to jobsite data collection and analysis tools.</p>
+<p>The format is designed to foster a candid, peer-to-peer exchange, giving members the opportunity to learn directly from firms developing innovative technologies across the industry.</p>
+<p>Committee meetings are free and open to members of the Building Congress but you must be registered to attend. To register, please contact our <strong><a href="/cdn-cgi/l/email-protection#f5989098979087869d9c85b597809c99919c9b92969a9b9287908686db969a98" target="_blank" rel="noopener">Membership Team.</a></strong></p>
+								</div>
+							</section>
+											</div>
+				</div>
+			</div>
+
+			
+</div><!-- /#post-12023 -->
+
+	<section class="flex-wrapper newsletter_container" id="footer-newsletter">
+		<div class="container-xl py-5"> <!-- width limiter and padding-top and padding-bottom -->
+			<div class="flex-parent whole-container">
+				<div class="flex-child text">
+					
+                <div class='gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_9' ><style>#gform_wrapper_9[data-form-index="0"].gform-theme{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg width='640' height='640' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-btn-bg-color-hover-tertiary: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style>
+                        <div class='gform_heading'>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_9'  action='/event/council-on-innovation-and-best-practices-10/' data-formid='9' novalidate>					<div style="display: none !important;" class="akismet-fields-container gf_invisible" data-prefix="ak_">
+						<label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label>
+						<input type="hidden" id="ak_js_1" name="ak_js" value="66" />
+						<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+</script>
+
+					</div><div class='gf_invisible ginput_recaptchav3' data-sitekey='6LdJ1gMqAAAAAJnKnpO8rrUiSNZctclgEJI5w62Q' data-tabindex='0'><input id="input_c1be3d2d2cc66e3cd85c0c31fd627f8c" class="gfield_recaptcha_response" type="hidden" name="input_c1be3d2d2cc66e3cd85c0c31fd627f8c" value=""/></div>
+                        <div class='gform-body gform_body'><div id='gform_fields_9' class='gform_fields top_label form_sublabel_below description_below validation_below' data-column-layout='fill'><div id="field_9_5" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"><label id='gfield_label_9_5' class='gfield_label gform-field-label' for='input_9_5'><span class='gform-field-label__text'>X/Twitter</span></label><div class='ginput_container'><input name='input_5' id='input_9_5' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_9_5'>This field is for validation purposes and should be left unchanged.</div></div><div id="field_9_3" class="gfield gfield--type-html gfield--input-type-html gfield--width-half gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-group-id="71995993" data-field-span="6"><h3>Join Our Mailing List to Stay Updated with the latest News and Events!</h3>
+<p>As a member you will receive our bi-weekly newsletter and updates on all upcoming events.</p></div><div id="field_9_1" class="gfield gfield--type-email gfield--input-type-email gfield--width-half field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible" data-group-id="71995993" data-field-span="6"><label id='gfield_label_9_1' class='gfield_label gform-field-label' for='input_9_1'><span class='gform-field-label__text'>Email</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_9_1' type='email' value='' class='large'   placeholder='Enter your email'  aria-invalid="false"  />
+                        </div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <button type='submit' id='gform_submit_button_9' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' >Subscribe</button> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_9' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_9' id='gform_theme_9' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_9' id='gform_style_settings_9' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_9' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='9' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='vOJ3Nde11ODjXhg7YAhvGgGO0S3dGF3vmTiZIBQc5BRz+fKT8Uc7fffi92SPgoCtIiOvapzwAWm4q+69BiH7i4xZBZwCuuW1wsOYlToFkaCfmCk=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_9' value='WyJ7XCI0LjFcIjpcImRmNzY2YTBjOWVkNzMyMjA4MmZiMmUxMmMxOTBmMTY2XCIsXCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjM2NmI1NjRlNzhmYmU2YWU2ZDA3M2NkY2I5MmRhMjlmXCIsXCIxYjIxN2E3Njk5Mjg1Y2Y3ODcyMmU3Y2E0YzQ5YjM1ZVwiXSxcImdmb3JtX3RoZW1lXCI6XCJhMTA4M2ZhY2Y3NjEwNzc1YmRjNDYzNzdlOThhZDk0ZFwiLFwiZ2Zvcm1fc3R5bGVfc2V0dGluZ3NcIjpcImViM2FkOTRmYTliYjc0YjQzN2JhMTcyYTcxYWRkYTZlXCIsXCJmb3JtX2lkXCI6XCI5MDI0Y2M0NmY1YzE5NDc1OTA5OWJlNGJmOWE2NWJhZVwiLFwidXJsXCI6XCI3MzBlNWJjYjIyMjU2OWExMDczMGIyNGRjNjZkOWQ5N1wiLFwic3RhdGVfdGltZXN0YW1wXCI6XCI3YmE3YzY5YTRhNTM5ODkxMWNhNWM0ZmQzYjYyZDY1MFwifSIsIjdmYzI1NTQ1Y2JiMjU5NzMzYzdlNmMxNzkyNjc4MWYzIiwxNzkzNTQ0MDE3XQ==' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_9' id='gform_target_page_number_9' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_9' id='gform_source_page_number_9' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>				</div>
+			</div>
+		</div>
+	</section>
+		</main><!-- /#main -->
+
+		
+		<footer class="overflow-hidden" id="footer">
+			<div class="container-xl py-5">
+				<div class="row pb-5 contact gx-lg-5 gy-3">
+					<div class="col-lg-2">
+					<img width="152px" height="87.687px" src="https://buildingcongress.com/wp-content/themes/bfcd-theme/assets/img/NYBC (H) White.svg">
+					</div>
+										<div class="info col-lg-3">
+						<p>Address:</p>
+						<p>1040 Avenue of the Americas, 21st Fl<br />
+New York, NY 10018</p>
+					</div>
+															<div class="info col-lg-2">
+						<p>Contact:</p>
+						<p>Phone: <a target="_blank" href="tel:212-481-9230">212-481-9230</a></p>						<p>Fax: 212-481-9290</p>						<p><a target="_blank" href="/cdn-cgi/l/email-protection#0861666e67486a7d61646c61666f6b67666f7a6d7b7b266b6765"><span class="__cf_email__" data-cfemail="6b02050d042b091e02070f02050c0804050c190e181845080406">[email&#160;protected]</span></a></p>					</div>
+														</div>
+				<div class="container-xl py-3 d-none d-lg-block"><div class="border-container full-opacity"></div></div>
+				<div class="row py-5 foundation gx-lg-5 gy-3">
+					<div class="col-lg-2">
+					<img width="149px" height="57.403px" src="https://buildingcongress.com/wp-content/themes/bfcd-theme/assets/img/NYBF-white.svg">
+					</div>
+											<div class="col-lg-4">
+															<h6>New York Building Foundation</h6>
+																						<p>Since 1998, the New York Building Foundation champions the growth and welfare of NYC's building industry and community through research, education, and philanthropy.</p>
+													</div>
+													<div class="col-lg d-flex justify-content-lg-end">
+								<a class="button white outline" href="https://buildingcongress.com/new-york-building-foundation/" target="_self">Learn More About the Foundation</a>
+							</div>
+															</div>
+				<div class="container-xl py-3 d-none d-lg-block"><div class="border-container full-opacity"></div></div>
+				<div class="row pt-5 privacy-socials gx-lg-5 gy-3">
+					<div class="col-lg-8">
+						<div class="row">
+							<p class="col-lg-7">&copy; 2026 New York Building Congress. All rights reserved.</p>
+																	<p class="footer-bottom"><a href="https://buildingcongress.com/privacy-policy/" target="_self">Privacy Policy</a></p>
+															</div>
+					</div>
+					<div class="col-lg-4 d-flex justify-content-lg-end socials">
+
+													<a href="https://www.linkedin.com/company/new-york-building-congress" target="_blank"><div class="ml-lg-auto me-3 icon linkedin"></div></a>
+						
+													<a href="https://twitter.com/bdgcongress" target="_blank"><div class="ml-lg-auto me-3 icon twitter"></div></a>
+						
+													<a href="https://www.instagram.com/nybuildingcongress/" target="_blank"><div class="ml-lg-auto me-3 icon instagram"></div></a>
+						
+						
+													<a target="_blank" href="/cdn-cgi/l/email-protection#11787f777e517364787d75787f76727e7f76637462623f727e7c" target="_blank"><div class="ml-lg-auto icon email"></div></a>
+						
+					</div>
+				</div>
+			</div><!-- /.container -->
+		</footer>
+		<!-- /#footer -->
+	</div><!-- /#wrapper -->
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bfcd-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				function convert_to_url(obj) {
+					return Object
+					.keys(obj)
+					.map(k => `${encodeURIComponent(k)}=${encodeURIComponent(obj[k])}`)
+					.join('&');
+				}
+
+				function pass_to_backend() {
+					if(window.location.hash) {
+						var hash = window.location.hash;
+						var elements = {};
+						hash.split("#")[1].split("&").forEach(element => {
+							var vars = element.split("=");
+							elements[vars[0]] = vars[1];
+						});
+						if(("access_token" in elements) || ("id_token" in elements) || ("token" in elements)) {
+							if(window.location.href.indexOf("?") !== -1) {
+								window.location = (window.location.href.split("?")[0] + window.location.hash).split('#')[0] + "?" + convert_to_url(elements);
+							} else {
+								window.location = window.location.href.split('#')[0] + "?" + convert_to_url(elements);
+							}
+						}
+					}
+				}
+
+				pass_to_backend();
+			</script>
+
+		<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://buildingcongress.com/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js" src="https://buildingcongress.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":0,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+</script>
+<script id="mainjs-js" src="https://buildingcongress.com/wp-content/themes/bfcd-theme/build/main.js?ver=1.1.5"></script>
+<script id="slickscript-js" src="https://buildingcongress.com/wp-content/themes/bfcd-theme/assets/scripts/slick/slick.min.js?ver=1.1"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"a06b37eae3","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://buildingcongress.com/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"1","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6LdJ1gMqAAAAAJnKnpO8rrUiSNZctclgEJI5w62Q"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6LdJ1gMqAAAAAJnKnpO8rrUiSNZctclgEJI5w62Q&#038;ver=2.2.2"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://buildingcongress.com/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.2"></script>
+<script id="wp-dom-ready-js" src="https://buildingcongress.com/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script id="wp-hooks-js" src="https://buildingcongress.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://buildingcongress.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://buildingcongress.com/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script id="gform_json-js" defer='defer' src="https://buildingcongress.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.2.1"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"wdOffset":0,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://buildingcongress.com/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://buildingcongress.com/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"a8d9ce29f40844fe14b2ff48ea6cef8d","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cabo Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://buildingcongress.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=3.2.1"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://buildingcongress.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=3.2.1"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://buildingcongress.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=d7e103405223e60d2719f4c330fd11cf"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://buildingcongress.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=ddae8d403393f0e5eaeedeb511ce46e0"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"a8d9ce29f40844fe14b2ff48ea6cef8d"},"ajax":{"ajaxurl":"https://buildingcongress.com/wp-admin/admin-ajax.php","ajax_submission_nonce":"2c23c7383b","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"fields":{"repeater":{"strings":{"item_added":"added.","item_removed":"removed.","renumbered":"and above renumbered.","max_items":"You have reached the maximum number of repeated items.","confirm_delete":"Are you sure you want to remove {label} {number}?"}}},"hmr_dev":"","public_path":"https://buildingcongress.com/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"3f24a4dae9"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://buildingcongress.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=f7ff0a7a4cbd950275384188b97da558"></script>
+<script defer id="akismet-frontend-js" src="https://buildingcongress.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1787851609"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://buildingcongress.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://buildingcongress.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 9) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "9", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_9" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_9";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_9" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 9, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+
+		<!-- Cookie Compliance for WordPress (formerly Compliance by Hu-manity.co) plugin v3.1.17 https://cookie-compliance.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Compliance" style="background-color: rgba(238,242,243,1);"><div class="cookie-notice-container" style="color: #111623"><span id="cn-notice-text" class="cn-text-container">This website utilizes technologies such as cookies to enable essential site functionality, as well as for anonymous analytics data.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="OK" style="background-color: #ffffff">OK</button></span><button type="button" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" aria-label="No" tabindex="0"></button></div>
+			
+		</div>
+		<!-- / Cookie Compliance for WordPress plugin --><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-7d9a32fc23a23fcaa2a","applicationID":"1267630952","transactionName":"ZFNXZxBWDUoABhZZWV0ZdFAWXgxXThYLXlFfUxhWFFINTQ==","queueTime":0,"applicationTime":1954,"atts":"SBRUEVhMHkQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- Cache served by breeze CACHE - Last modified: Sun, 01 Nov 2026 14:40:18 GMT -->
+
+<!-- plugin=object-cache-pro client=phpredis metric#hits=3692 metric#misses=19 metric#hit-ratio=99.5 metric#bytes=5898318 metric#prefetches=0 metric#store-reads=513 metric#store-writes=7 metric#store-hits=580 metric#store-misses=13 metric#sql-queries=27 metric#ms-total=1870.88 metric#ms-cache=118.65 metric#ms-cache-avg=0.2286 metric#ms-cache-ratio=6.3 -->
