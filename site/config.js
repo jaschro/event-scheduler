@@ -15,7 +15,10 @@ window.APP_CONFIG = {
   pxPerMinute: 1,          // 1 px per minute: one hour is 60 px
   minBlockPx: 20,          // shortest block, so short items stay clickable
   sideBySideMinutes: 30,   // overlapping items starting this close share the width
-  nestIndent: 0.12,        // later items inside a longer one: indent as a share of column width
+  nestIndent: 0.12,
+  maxLanes: 3,             // at most this many side by side; the rest go in a "+N more" block
+  maxDepth: 2,             // at most this many levels of nesting
+  longEventHours: 10,      // timed items at least this long go in the all-day strip        // later items inside a longer one: indent as a share of column width
   noEndDisplayMinutes: 60, // block length on the page for events with no end time
   addDefaultMinutes: 120,  // length used by "+" when an event has no end (step 3)
 

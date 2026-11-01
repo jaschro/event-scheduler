@@ -116,7 +116,8 @@ def collapse_timed_entry(events: list[RawEvent]) -> list[RawEvent]:
         first, last = timed[0], timed[-1]
         span = f"{first.start:%-I:%M %p} – {last.start:%-I:%M %p}"
         note = f"Timed entry: {len(timed)} entry times, {span}."
-        first.end = last.end or last.start
+        # Shown in the day's all-day strip rather than as a block filling the whole day.
+        first.start, first.end, first.all_day = first.start.date(), None, True
         first.source_id = f"{first.source_id}@day"
         first.description = f"{note}\n\n{first.description}" if first.description else note
         out.append(first)

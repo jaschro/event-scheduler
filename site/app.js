@@ -162,7 +162,8 @@
       if (hideEnded && endMs <= nowMs) continue;
 
       const e = ev.end ? wall(ev.end) : null;
-      const longTimed = !ev.all_day && ev.end && endMs - startMs >= DAY_MIN * 60000;
+      // Very long timed items (parties through the night, all-day passes) read better in the strip.
+      const longTimed = !ev.all_day && ev.end && endMs - startMs >= (CFG.longEventHours || 10) * 3600000;
 
       if (ev.all_day || longTimed) {
         // All-day and multi-day items go in the strip of every day they cover.
@@ -213,6 +214,15 @@
       else rows.push({ start: it.s, items: [it] });
     }
 
+    // Keep crowded times readable, like Google Calendar's "+N more": at most maxLanes side by
+    // side and maxDepth levels of nesting; the rest go into one "+N" block that lists them.
+    const maxLanes = CFG.maxLanes || 3;
+    const maxDepth = CFG.maxDepth || 2;
+    const overflow = (list, start) => {
+      const evs = list.flatMap((x) => (x.overflow ? x.overflow : [x]));
+      return { overflow: evs, s: start, e: start + 30, ve: start + Math.max(30, minMinutes) };
+    };
+
     const placed = [];
     rows.forEach((row, idx) => {
       // The deepest already-placed item still running when this row starts is its parent.
@@ -222,12 +232,17 @@
           parent = p;
         }
       }
+      const depth = parent ? parent.depth + 1 : 0;
+      let items = row.items;
+      if (depth > maxDepth && items.length > 1) items = [overflow(items, row.start)];
+      else if (items.length > maxLanes) items = items.slice(0, maxLanes - 1).concat([overflow(items.slice(maxLanes - 1), row.start)]);
       const base = parent ? Math.min(parent.left + CFG.nestIndent, 0.75) : 0;
-      const width = (1 - base) / row.items.length;
-      row.items.forEach((it, i) => {
+      const width = (1 - base) / items.length;
+      items.forEach((it, i) => {
         it.left = base + i * width;
         it.width = width;
         it.z = idx + 1;
+        it.depth = depth;
         it.nested = !!parent;
         placed.push(it);
       });
@@ -628,6 +643,17 @@
     return b;
   }
 
+  function renderOverflow(piece, bandStartMin) {
+    const b = el("button", "block more");
+    b.type = "button";
+    placeBlock(b, piece, bandStartMin);
+    const n = piece.overflow.length;
+    b.appendChild(el("span", "b-title", `+${n} more`));
+    b.setAttribute("aria-label", `${n} more events around ${fmtMin(piece.s)}`);
+    b.addEventListener("click", (e) => { e.stopPropagation(); openOverflowPopover(piece.overflow, b); });
+    return b;
+  }
+
   function renderAllDayChip(ev) {
     const b = el("button", `chip ${kindClass(ev.kind)}`);
     b.type = "button";
@@ -700,11 +726,15 @@
       grid.appendChild(gutter);
 
       const lc = el("div", "col col-events");
-      for (const piece of layoutColumn(left.timed)) lc.appendChild(renderBlock(piece, bandStart));
+      for (const piece of layoutColumn(left.timed)) {
+        lc.appendChild(piece.overflow ? renderOverflow(piece, bandStart) : renderBlock(piece, bandStart));
+      }
       grid.appendChild(lc);
 
       const rc = el("div", `col col-cal${calOn ? "" : " off"}`);
-      for (const piece of layoutColumn(right.timed)) rc.appendChild(renderCalBlock(piece, bandStart));
+      for (const piece of layoutColumn(right.timed)) {
+        rc.appendChild(piece.overflow ? renderOverflow(piece, bandStart) : renderCalBlock(piece, bandStart));
+      }
       grid.appendChild(rc);
 
       if (date === today) {
@@ -917,6 +947,33 @@
     });
     actions.appendChild(add);
     p.appendChild(actions);
+    showPopover(p, anchor);
+  }
+
+  function openOverflowPopover(pieces, anchor) {
+    const p = startPopover("more-pop");
+    p.appendChild(el("h3", "pop-title", `${pieces.length} more`));
+    const ul = el("ul", "more-list");
+    const sorted = pieces.slice().sort((a, b) => a.s - b.s || a.ev.title.localeCompare(b.ev.title));
+    for (const piece of sorted) {
+      const ev = piece.ev;
+      const li = el("li");
+      const btn = el("button", `more-item ${ev.gcal ? "cal" : kindClass(ev.kind)}`);
+      btn.type = "button";
+      if (ev.gcal) btn.style.setProperty("--gc", ev.color);
+      btn.appendChild(el("span", "b-time", piece.contStart ? "cont." : fmtMin(piece.s)));
+      btn.appendChild(el("span", "b-title", ev.title));
+      btn.appendChild(el("span", "b-venue", ev.gcal ? ev.location || "" : ev.venue));
+      if (!ev.gcal && state.google.added.has(ev.id)) btn.appendChild(el("span", "b-check", "✓"));
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (ev.gcal) openCalPopover(ev, anchor);
+        else openPopover(ev, anchor);
+      });
+      li.appendChild(btn);
+      ul.appendChild(li);
+    }
+    p.appendChild(ul);
     showPopover(p, anchor);
   }
 

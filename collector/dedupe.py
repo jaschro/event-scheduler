@@ -64,7 +64,9 @@ def dedupe(events: list[dict[str, Any]], sources: dict) -> list[dict[str, Any]]:
         key = (ev["city"], normalize_title(ev["title"]))
         match = None
         for cand in index.get(key, []):
-            if cand["source"] != ev["source"] and _same_slot(cand, ev):
+            # Across sources; within an aggregator too, which can list one show several times.
+            same_src_ok = cand["source"] != ev["source"] or getattr(sources.get(ev["source"]), "aggregator", False)
+            if same_src_ok and _same_slot(cand, ev):
                 match = cand
                 break
         if match is not None:

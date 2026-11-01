@@ -58,3 +58,13 @@ def test_not_merged_outside_15_minutes_or_same_source():
     # 21 and 16 minutes apart: no match; the two hello-miami sessions stay separate.
     assert len(out) == 3
     assert sum(1 for e in out if e["source"] == "hello-miami") == 2
+
+
+def test_aggregator_duplicates_within_one_source_merge():
+    events = [
+        ev("t1", "ticketmaster-nyc", "Little Shop of Horrors", "2026-11-04T14:00:00-05:00", city="nyc"),
+        ev("t2", "ticketmaster-nyc", "Little Shop Of Horrors", "2026-11-04T14:00:00-05:00", city="nyc"),
+        ev("t3", "ticketmaster-nyc", "Little Shop of Horrors", "2026-11-04T19:00:00-05:00", city="nyc"),
+    ]
+    out = dedupe(events, sources())
+    assert [e["start"][11:16] for e in out] == ["14:00", "19:00"]
