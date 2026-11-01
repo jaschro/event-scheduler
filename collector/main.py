@@ -72,6 +72,18 @@ def process_payload(adapter, payload, src: Source, ctx: Context, cfg: Config, fe
     return events
 
 
+def apply_kind_rules(events: list[dict[str, Any]], rules: dict[str, list[str]]) -> None:
+    """settings.kind_keywords: an event whose title or description matches moves to that kind
+    (e.g. anything mentioning architecture becomes "architecture"), whatever its source's kind."""
+    compiled = [(kind, [re.compile(p) for p in pats]) for kind, pats in (rules or {}).items()]
+    for ev in events:
+        hay = f"{ev.get('title', '')}\n{ev.get('description', '')}"
+        for kind, pats in compiled:
+            if any(p.search(hay) for p in pats):
+                ev["kind"] = kind
+                break
+
+
 def load_json(path: Path) -> dict[str, Any]:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -194,6 +206,7 @@ def run(
         status[src.key] = entry
     pool.shutdown(wait=False, cancel_futures=True)
 
+    apply_kind_rules(all_events, cfg.settings.get("kind_keywords") or {})
     sources_by_key = {s.key: s for s in cfg.sources}
     merged = dedupe(all_events, sources_by_key)
     keep_old_fetched_at(merged, prev_events)

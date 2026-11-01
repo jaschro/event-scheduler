@@ -7,6 +7,7 @@
 #   city       key from the cities block
 #   kind       tech, art (incl. museums), film, stage, music, talks,
 #              food and wine, wellness, community, sports
+#              (architecture is assigned by keyword: settings.kind_keywords)
 #   method     ics | eventbrite | (later: tribe | jsonld | custom | browser)
 #   url        feed URL (ics) ; organizer_id for eventbrite
 #   luma_calendar  Luma page name (luma.com/<name>); its iCal feed is looked up at run time
@@ -26,6 +27,9 @@ settings:
   default_duration_hours: 2      # used only for "has it ended?" when an event has no end
   default_minutes_by_kind:       # end time assumed when a listing gives none (a source can set default_minutes)
     film: 150
+  kind_keywords:                 # title or description matching moves an event to this category
+    architecture:
+      - "(?i)\\barchitectur(e|al)\\b"   # the words "architecture" / "architectural"
 
 cities:
   - key: miami

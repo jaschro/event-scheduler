@@ -78,3 +78,18 @@ def test_run_fails_only_when_every_source_fails(tmp_path):
     assert rc == 1
     status = json.loads((tmp_path / "status.json").read_text())
     assert status["summary"]["ok"] == 0
+
+
+def test_architecture_keyword_moves_events_to_architecture():
+    from collector.main import apply_kind_rules
+
+    cfg = config()
+    rules = cfg.settings["kind_keywords"]
+    events = [
+        {"title": "Representation Lecture | Mark West", "description": "School of Architecture lecture", "kind": "talks"},
+        {"title": "Architectural walking tour", "description": "", "kind": "art"},
+        {"title": "Gandhi and the Jew", "description": "an unlikely bond with a Jewish architect", "kind": "stage"},
+        {"title": "Truffle Dinner", "description": "Five courses", "kind": "food and wine"},
+    ]
+    apply_kind_rules(events, rules)
+    assert [e["kind"] for e in events] == ["architecture", "architecture", "stage", "food and wine"]

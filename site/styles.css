@@ -25,6 +25,7 @@
   --k-community: #e6e6e1;     --k-community-ink: #43443f;
   --k-outdoors: #d8ebd6;      --k-outdoors-ink: #2e5a2a;
   --k-sports: #e9e2d0;        --k-sports-ink: #57492a;
+  --k-architecture: #dde4e8;  --k-architecture-ink: #2c4352;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,6 +53,7 @@
     --k-community: #313230;     --k-community-ink: #deded8;
     --k-outdoors: #253823;      --k-outdoors-ink: #cce6c8;
     --k-sports: #3a3423;        --k-sports-ink: #e8dcbc;
+    --k-architecture: #26313a;  --k-architecture-ink: #cddae3;
   }
 }
 
@@ -308,6 +310,7 @@ button { font: inherit; color: inherit; }
 .kind-community, .kind-other { --kb: var(--k-community); --ki: var(--k-community-ink); }
 .kind-outdoors { --kb: var(--k-outdoors); --ki: var(--k-outdoors-ink); }
 .kind-sports { --kb: var(--k-sports); --ki: var(--k-sports-ink); }
+.kind-architecture { --kb: var(--k-architecture); --ki: var(--k-architecture-ink); }
 
 /* his calendar */
 .block.cal, .chip.cal {
