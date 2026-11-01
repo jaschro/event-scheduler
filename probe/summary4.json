@@ -1,0 +1,396 @@
+[
+ {
+  "key": "pamm",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.pamm.org/wp-json/wp/v2/event?per_page=30&orderby=date",
+    "type": "application/json; charset=UTF-8",
+    "request": "https://www.pamm.org/wp-json/wp/v2/event?per_page=30&orderby=date",
+    "file": "extra4/x01.json",
+    "bytes": 751338
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.pamm.org/wp-json/wp/v2/types/event",
+    "type": "application/json; charset=UTF-8",
+    "request": "https://www.pamm.org/wp-json/wp/v2/types/event",
+    "file": "extra4/x02.json",
+    "bytes": 6930
+   }
+  ]
+ },
+ {
+  "key": "wolfsonian",
+  "extra": []
+ },
+ {
+  "key": "ica-miami",
+  "extra": []
+ },
+ {
+  "key": "rubell",
+  "extra": []
+ },
+ {
+  "key": "oolite",
+  "extra": []
+ },
+ {
+  "key": "o-cinema",
+  "extra": []
+ },
+ {
+  "key": "gables-cinema",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://prod3.agileticketing.net/websales/feed.ashx?guid=1e59984b-ce2f-4c41-87f7-3f13ba11a892&showslist=true&withmedia=false&format=json&v=latest",
+    "type": "application/json; charset=utf-8",
+    "request": "https://prod3.agileticketing.net/websales/feed.ashx?guid=1e59984b-ce2f-4c41-87f7-3f13ba11a892&showslist=true&withmedia=false&format=json&v=latest",
+    "file": "extra4/x01.json",
+    "bytes": 242
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://gablescinema.com/calendar/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://gablescinema.com/calendar/",
+    "file": "extra4/x02.html",
+    "bytes": 146101,
+    "jsonld_events": 0
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://gablescinema.com/calendar/",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=407217765.1793510577&gtm=45He6as1v9102014660za200zd9102014660xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=407217765.1793510577&dt=Calendar%20Page%20-%20Gables%20Cinema&en=page_view&dl=https%3A%2F%2Fgablescinema.com%2Fcalendar%2F&scrsrc=www.googletagmanager.com&rnd=1196751562.1793510577&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6as1v9102014660za200zd9102014660xeaxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=115616985~115938466~115938469~1",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=747416798&t=pageview&_s=1&dl=https%3A%2F%2Fgablescinema.com%2Fcalendar%2F&ul=en-us&dt=Calendar%20Page%20-%20Gables%20Cinema&sr=1280x720&vp=1280x720&_u=YADAAEABAAAAACAAI~&jid=1196645352&gjid=2147157031&cid=1550572571.1793510577&tid=UA-68049618-1&_gid=296185756.1793510577&_r=1&_slc=1&gtm=45He6as1n71P6ZJHHza200xf1&gcd=13l3l3l3l1l1&dma=0&tag_exp",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 15
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-61W2JHKTFS&gtm=45Pe6as1v9240896777za208xf1&_p=1793510576115&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&gdid=dZTNiMT&are=1&cid=1550572571.1793510577&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_e",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&auid=407217765.1793510577&dt=Calendar%20Page%20-%20Gables%20Cinema&tid=AW-937690155&en=page_view&dl=https%3A%2F%2Fgablescinema.com%2Fcalendar%2F&scrsrc=www.googletagmanager.com&rnd=1196751562.1793510577&navt=n&npa=0&did=dZTNiMT&gdid=dZTNiMT&gtm=45be6as1z8d_AW-937690155za208xecxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=115616985~115938466~11593",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/937690155/?random=1793510576792&cv=11&fst=1793510576792&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6as1z8d_AW-937690155za208xecxf1&gcd=13l3l3l3l5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121191153~121246026~121246034~123620776~123691370~123814944&u_w=1280&u_h=720&url=https%3A%",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-J8KK0XTCZ3&gtm=45je6as1v9102025028za20ozb9102014660zd9102014660xf1&_p=1793510576115&_gaz=1&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=1550572571.1793510577&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-FTE0FKSFVD&gtm=45je6as1v9134515761za20gxf1&_p=1793510576115&_gaz=1&gcs=G1--&gcd=13l3l3l3l6l1&npa=0&dma=0&gdid=dZTNiMT&_eu=EBAIAGAC&_ng=1&are=1&cid=1550572571.1793510577&frm=0&ir=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-J8KK0XTCZ3&gtm=45je6as1v9102025028za20gzb9102014660zd9102014660xf1&_p=1793510576115&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AEAAAGQC&ae=a&are=1&cid=1550572571.1793510577&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 183583,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "arsht",
+  "extra": []
+ },
+ {
+  "key": "miami-new-drama",
+  "extra": []
+ },
+ {
+  "key": "nws",
+  "extra": []
+ },
+ {
+  "key": "mbjcc",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://mbjcc.org/sitemap/post-sitemap.xml",
+    "type": "application/xml; charset=UTF-8",
+    "request": "https://mbjcc.org/sitemap/post-sitemap.xml",
+    "file": "extra4/x01.xml",
+    "bytes": 4579
+   },
+   {
+    "ok": false,
+    "status": 404,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://mbjcc.org/wp-json/wp/v2/types",
+    "request": "https://mbjcc.org/wp-json/wp/v2/types"
+   },
+   {
+    "ok": false,
+    "status": 404,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://mbjcc.org/wp-json/wp/v2/posts?per_page=20&search=event",
+    "request": "https://mbjcc.org/wp-json/wp/v2/posts?per_page=20&search=event"
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://mbjcc.org/events",
+    "type": "text/html; charset=utf-8",
+    "request": "https://mbjcc.org/events/",
+    "file": "extra4/x04.html",
+    "bytes": 258467,
+    "jsonld_events": 0
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://mbjcc.org/events",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Le3JewsAAAAAPh5iG-oF-XDqHwBcQyFk9d_hQ_k&co=aHR0cHM6Ly9tYmpjYy5vcmc6NDQz&hl=en&type=image&v=NhfdZHzre166o-vFZrWsq3yu&theme=light&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=3v7iyayff60l",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/events?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 1621
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-ZFKXWLHEH0&gtm=45je6as1v9230537129za20ozb9253708759zd9253708759xf1&_p=1793510613621&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=949904104.1793510614&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_e",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://mbjcc.org/?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 1588
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=NhfdZHzre166o-vFZrWsq3yu&k=6Le3JewsAAAAAPh5iG-oF-XDqHwBcQyFk9d_hQ_k&bft=0dAFcWeA64JDk7KknzJSoykO9BOBr9fUXaEcmPZ_XvtJleVSEH-IPTphjaLJs5Zp67PyYb6Hw5noSsFGHbWvOaCYb0MnXn935jlA",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://j.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r03.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://j.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r04.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 301,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/wednesdays-at-the-j?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/blog/?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 308,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/blog?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u/games/?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 308,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u/games?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 301,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/lunch-and-learn?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/literary-events?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://j.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r05.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://j.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r06.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://mbjcc.org/api/blog-feed",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r07.txt",
+     "bytes": 3786
+    },
+    {
+     "url": "https://j.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r08.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    }
+   ],
+   "rendered_bytes": 271221,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "mb-botanical",
+  "extra": []
+ }
+]
