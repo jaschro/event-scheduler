@@ -19,7 +19,8 @@ window.APP_CONFIG = {
   noEndDisplayMinutes: 60, // block length on the page for events with no end time
   addDefaultMinutes: 120,  // length used by "+" when an event has no end (step 3)
 
-  // Step 3: Google sign-in.
-  googleClientId: "",
+  // Google sign-in (SPEC.md section 7). The client id is public by design; there is no secret.
+  googleClientId: "751040903219-pci7ahiuq87h7agk3d726avsbam77ba0.apps.googleusercontent.com",
+  googleLoginHint: "jasonchroman@gmail.com", // pre-selects this account in Google's window
   defaultCalendarColor: "#039be5",
 };

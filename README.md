@@ -6,9 +6,10 @@ See [SPEC.md](SPEC.md) for the full brief.
 
 ## Status
 
-Build steps 1-2 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
-status file and scheduled workflow; and the page (day bands, time grid, event blocks,
-popovers, city switch, footer). Google sign-in and the "+" come in step 3.
+Build steps 1-3 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
+status file and scheduled workflow; the page (day bands, time grid, event blocks,
+popovers, city switch, footer); and Google sign-in with your calendar on the right and
+the "+" that adds an event (with duplicate prevention).
 
 ## Layout
 
@@ -73,3 +74,8 @@ Regenerate an adapter's expected output after an intended change:
 3. Refresh Miami: confirm `https://refreshmiami.com/events/?ical=1` returns a feed.
 4. Eventbrite private token as the repository Actions secret `EVENTBRITE_TOKEN`.
 5. Settings → Pages → Source: "GitHub Actions" (needed from step 2, when there is a site).
+
+Done: Google Cloud project with the Calendar API, consent screen in Testing with
+jasonchroman@gmail.com as the only test user, `calendar.events` scope, and a web OAuth
+client (origins `https://jaschro.github.io`, `http://localhost:8000`) whose public client
+id is in `site/config.js`.
