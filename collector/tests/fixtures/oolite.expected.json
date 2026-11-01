@@ -1,0 +1,170 @@
+[
+ {
+  "id": "0c55e5d257dbdb65",
+  "title": "Four-Color Screen Printing",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-05T18:00:00-05:00",
+  "end": "2026-11-05T20:30:00-05:00",
+  "all_day": false,
+  "description": "Four-Week Workshop",
+  "url": "https://oolitearts.org/event/four-color-screen-printing/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "dde7cb3859207789",
+  "title": "Alebrije Makers: Form, Myth & Color",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-07T10:30:00-05:00",
+  "end": "2026-11-07T12:30:00-05:00",
+  "all_day": false,
+  "description": "Two-Hour Workshop",
+  "url": "https://oolitearts.org/event/alebrije-makers-form-myth-color/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "6e677ba84c2f9516",
+  "title": "Mini Bookmaking Workshop",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-08T11:00:00-05:00",
+  "end": "2026-11-08T15:00:00-05:00",
+  "all_day": false,
+  "description": "One-Day Workshop",
+  "url": "https://oolitearts.org/event/mini-bookmaking-workshop-3/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "7289210b85d5d974",
+  "title": "Textile Collage: A Mixed-Media Workshop",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-10T18:00:00-05:00",
+  "end": "2026-11-10T20:30:00-05:00",
+  "all_day": false,
+  "description": "One-Day Workshop",
+  "url": "https://oolitearts.org/event/painting-with-fabric-a-mixed-media-workshop-2/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "68203aaacc190440",
+  "title": "Four-Color Screen Printing",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-12T18:00:00-05:00",
+  "end": "2026-11-12T20:30:00-05:00",
+  "all_day": false,
+  "description": "Four-Week Workshop",
+  "url": "https://oolitearts.org/event/four-color-screen-printing/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "12f94e3284762d95",
+  "title": "Cuauhtémoc Medina",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-12T19:00:00-05:00",
+  "end": "2026-11-12T21:00:00-05:00",
+  "all_day": false,
+  "description": "",
+  "url": "https://oolitearts.org/event/cuauhtemoc-medina/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "7dbffafccff5477d",
+  "title": "The Shades of Indigo Blue",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-14T10:00:00-05:00",
+  "end": "2026-11-14T15:00:00-05:00",
+  "all_day": false,
+  "description": "One-Day Workshop",
+  "url": "https://oolitearts.org/event/the-shades-of-indigo-blue/",
+  "location": "Oolite Arts, 75 NW 72nd St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "ab91fade0c82f7a5",
+  "title": "Oolite Arts On the Move at Little Haiti Cultural Complex",
+  "venue": "Oolite Arts",
+  "kind": "art",
+  "start": "2026-11-14T11:00:00-05:00",
+  "end": "2026-11-14T13:00:00-05:00",
+  "all_day": false,
+  "description": "",
+  "url": "https://oolitearts.org/event/oolite-arts-on-the-move-at-little-haiti-cultural-complex-2/",
+  "location": "Little Haiti Cultural Complex",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "oolite",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ }
+]

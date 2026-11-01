@@ -10,9 +10,9 @@ import yaml
 
 KINDS = {
     "tech", "museum", "art", "film", "stage", "music", "talks", "science",
-    "food and wine", "wellness", "community", "outdoors",
+    "food and wine", "wellness", "community", "outdoors", "sports",
 }
-METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser"}
+METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster"}
 
 DEFAULT_SETTINGS = {
     "days_ahead": 14,
@@ -42,6 +42,9 @@ class Source:
     url: str | None = None
     organizer_id: str | None = None
     luma_calendar: str | None = None
+    reader: str | None = None
+    default_minutes: int | None = None  # assumed length when an event gives no end time
+    params: dict[str, Any] = field(default_factory=dict)  # adapter-specific settings
     page: str | None = None
     location: str | None = None
     aggregator: bool = False
@@ -68,6 +71,7 @@ def load_config(path: str | Path) -> Config:
     if not cities:
         raise ValueError("sources.yaml needs at least one city")
 
+    by_kind = settings.get("default_minutes_by_kind") or {}
     sources: list[Source] = []
     seen: set[str] = set()
     for s in raw.get("sources") or []:
@@ -81,6 +85,9 @@ def load_config(path: str | Path) -> Config:
             url=s.get("url"),
             organizer_id=str(s["organizer_id"]) if s.get("organizer_id") else None,
             luma_calendar=s.get("luma_calendar"),
+            reader=s.get("reader"),
+            default_minutes=s.get("default_minutes") or by_kind.get(s["kind"]),
+            params=s.get("params") or {},
             page=s.get("page"),
             location=s.get("location"),
             aggregator=bool(s.get("aggregator", False)),
@@ -94,6 +101,8 @@ def load_config(path: str | Path) -> Config:
             raise ValueError(f"source {src.key!r}: unknown city {src.city!r}")
         if src.kind not in KINDS:
             raise ValueError(f"source {src.key!r}: unknown kind {src.kind!r}")
+        if src.method in ("custom", "browser") and src.enabled and not src.reader:
+            raise ValueError(f"source {src.key!r}: method {src.method} needs a reader")
         if src.method not in METHODS:
             raise ValueError(f"source {src.key!r}: unknown method {src.method!r}")
         sources.append(src)

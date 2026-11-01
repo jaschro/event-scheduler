@@ -43,7 +43,7 @@ def test_run_writes_files_keeps_failed_sources_and_skips_unchanged(tmp_path):
     assert rc == 0
     events = json.loads((tmp_path / "events.json").read_text())
     status = json.loads((tmp_path / "status.json").read_text())
-    assert events["cities"] == [{"key": "miami", "name": "Miami", "tz": "America/New_York"}]
+    assert [c["key"] for c in events["cities"]] == ["miami", "nyc"]
     assert {e["source"] for e in events["events"]} == {"hello-miami", "el-carajo"}
     assert all(e["city"] == "miami" for e in events["events"])
     assert status["sources"]["hello-miami"]["result"] == "ok"

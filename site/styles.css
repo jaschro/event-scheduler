@@ -24,6 +24,7 @@
   --k-wellness: #dcefdf;      --k-wellness-ink: #285a33;
   --k-community: #e6e6e1;     --k-community-ink: #43443f;
   --k-outdoors: #d8ebd6;      --k-outdoors-ink: #2e5a2a;
+  --k-sports: #e9e2d0;        --k-sports-ink: #57492a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +51,7 @@
     --k-wellness: #24392a;      --k-wellness-ink: #cbe9d1;
     --k-community: #313230;     --k-community-ink: #deded8;
     --k-outdoors: #253823;      --k-outdoors-ink: #cce6c8;
+    --k-sports: #3a3423;        --k-sports-ink: #e8dcbc;
   }
 }
 
@@ -234,6 +236,7 @@ button { font: inherit; color: inherit; }
 .kind-wellness { --kb: var(--k-wellness); --ki: var(--k-wellness-ink); }
 .kind-community, .kind-other { --kb: var(--k-community); --ki: var(--k-community-ink); }
 .kind-outdoors { --kb: var(--k-outdoors); --ki: var(--k-outdoors-ink); }
+.kind-sports { --kb: var(--k-sports); --ki: var(--k-sports-ink); }
 
 /* his calendar */
 .block.cal, .chip.cal {

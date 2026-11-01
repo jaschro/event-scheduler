@@ -10,6 +10,7 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
@@ -28,6 +29,16 @@ from .polite import PoliteSession
 log = logging.getLogger("collector")
 
 SCHEMA_VERSION = 1
+SECRET_NAMES = ("EVENTBRITE_TOKEN", "TICKETMASTER_API_KEY")
+_SECRET_PARAM_RE = re.compile(r"(?i)\b(apikey|api_key|token|key|access_token)=[^&\s'\"]+")
+
+
+def redact(message: str, secrets: dict[str, str]) -> str:
+    """status.json is public: strip secret values and key-like URL parameters from errors."""
+    for value in secrets.values():
+        if value:
+            message = message.replace(value, "***")
+    return _SECRET_PARAM_RE.sub(r"\1=***", message)
 # Fields that change on every run; ignored when deciding whether the data changed.
 VOLATILE_TOP = {"generated_at"}
 VOLATILE_EVENT = {"fetched_at"}
@@ -122,7 +133,7 @@ def run(
 ) -> int:
     now_utc = now_utc or datetime.now(timezone.utc)
     fetched_at = now_utc.isoformat(timespec="seconds")
-    secrets = secrets if secrets is not None else {k: v for k, v in os.environ.items() if k == "EVENTBRITE_TOKEN"}
+    secrets = secrets if secrets is not None else {k: v for k, v in os.environ.items() if k in SECRET_NAMES and v}
     session = session or PoliteSession(
         cfg.settings["user_agent"],
         delay=float(cfg.settings["request_delay_seconds"]),
@@ -174,7 +185,7 @@ def run(
             elif isinstance(exc, SourceNotConfigured):
                 msg = f"not configured: {exc}"
             else:
-                msg = f"{type(exc).__name__}: {exc}"[:300]
+                msg = redact(f"{type(exc).__name__}: {exc}", secrets)[:300]
                 log.debug("%s", traceback.format_exc())
             kept = previous_events_for(prev_events, src.key, contexts[src.city], cfg)
             all_events.extend(kept)
