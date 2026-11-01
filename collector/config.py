@@ -45,6 +45,9 @@ class Source:
     organizer_id: str | None = None
     luma_calendar: str | None = None
     reader: str | None = None
+    blocked: str | None = None   # why it can't be collected (shown on the page)
+    download: str | None = None  # saved feed copies: where to get a fresh one
+    saved: str | None = None     # saved feed copies: date of the copy
     default_minutes: int | None = None  # assumed length when an event gives no end time
     params: dict[str, Any] = field(default_factory=dict)  # adapter-specific settings
     page: str | None = None
@@ -88,6 +91,9 @@ def load_config(path: str | Path) -> Config:
             organizer_id=str(s["organizer_id"]) if s.get("organizer_id") else None,
             luma_calendar=s.get("luma_calendar"),
             reader=s.get("reader"),
+            blocked=s.get("blocked"),
+            download=s.get("download"),
+            saved=str(s["saved"]) if s.get("saved") else None,
             default_minutes=s.get("default_minutes") or by_kind.get(KIND_ALIASES.get(s["kind"], s["kind"])),
             params=s.get("params") or {},
             page=s.get("page"),
