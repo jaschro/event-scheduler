@@ -1,9 +1,12 @@
-from . import eventbrite, ics, jsonld, tribe
+from . import custom, eventbrite, ics, jsonld, tribe
 
-# method name in sources.yaml -> adapter module
+# method name in sources.yaml -> adapter module.
+# "custom" and "browser" both dispatch to the per-venue module named by `reader`.
 ADAPTERS = {
     "ics": ics,
     "eventbrite": eventbrite,
     "tribe": tribe,
     "jsonld": jsonld,
+    "custom": custom,
+    "browser": custom,
 }

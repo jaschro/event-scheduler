@@ -26,17 +26,24 @@ BROWSER_KEYS = {"o-cinema", "gables-cinema", "nws"}
 # Round 2: specific follow-up URLs per source (feeds, detail pages, alternate hosts).
 EXTRA_URLS = {
     "gables-cinema": [
-        "https://prod3.agileticketing.net/websales/feed.ashx?guid=d14c295b-aa15-457f-8923-60a571db98a8&showslist=true&withmedia=false&format=json&v=latest",
-        "https://prod3.agileticketing.net/websales/feed.ashx?guid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&showslist=true&withmedia=false&format=json&v=latest",
+        "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=d14c295b-aa15-457f-8923-60a571db98a8&",
+        "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&",
     ],
-    "mb-botanical": ["https://www.mbgarden.org/calendar?format=json"],
-    "wolfsonian": ["https://www.wolfsonian.org/whats-on/events/index.html", "https://www.wolfsonian.org/"],
-    "ica-miami": ["https://icamiami.org/calendar/sheroanawe-hakihiiwe-opening/"],
-    "miami-new-drama": ["https://miaminewdrama.org/shows-events/gandhi-and-the-jew/"],
-    "pamm": ["https://www.pamm.org/robots.txt"],
+    "pamm": ["https://www.pamm.org/wp-json/", "https://www.pamm.org/wp-json/wp/v2/types", "https://www.pamm.org/sitemap_index.xml"],
+    "wolfsonian": ["http://wolfsonian.org/", "https://wolfsonian.fiu.edu/"],
+    "miami-new-drama": [
+        "https://tickets.miaminewdrama.org/miaminewdrama/api/v3/events",
+        "https://tickets.miaminewdrama.org/miaminewdrama/api/v3/instances",
+    ],
+    "mbjcc": ["https://mbjcc.org/sitemap.xml", "https://mbjcc.org/events/mega-game-night/"],
+    "nws": [
+        "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/music-in-motion/",
+        "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/debussys-influence/",
+    ],
+    "arsht": ["https://www.arshtcenter.org/robots.txt"],
 }
 # Round 2: sources to render in a browser, capturing every XHR/fetch response.
-BROWSER2_KEYS = {"arsht", "nws", "mbjcc", "ica-miami", "miami-new-drama"}
+BROWSER2_KEYS = {"arsht"}
 EVENT_WORDS = re.compile(r"event|exhibit|show|performance|program|calendar|film|concert", re.I)
 
 
@@ -157,7 +164,7 @@ def render(src, d: Path) -> dict:
 
 
 def extra(src, session, out: Path) -> dict:
-    d = out / src.key / "extra"
+    d = out / src.key / "extra3"
     res = []
     for i, url in enumerate(EXTRA_URLS.get(src.key, []), 1):
         r = try_get(session, url, check_robots=not url.endswith("robots.txt"))
@@ -165,9 +172,9 @@ def extra(src, session, out: Path) -> dict:
         entry["request"] = url
         if r["ok"]:
             body = r["resp"].text
-            ext = "json" if "json" in r["type"] else ("ics" if "calendar" in r["type"] else "html")
+            ext = "json" if "json" in r["type"] else ("ics" if "calendar" in r["type"] else ("xml" if "xml" in r["type"] else "html"))
             save(d / f"x{i:02d}.{ext}", body)
-            entry["file"] = f"extra/x{i:02d}.{ext}"
+            entry["file"] = f"extra3/x{i:02d}.{ext}"
             entry["bytes"] = len(body)
             if ext == "html":
                 entry["jsonld_events"] = len(find_events(body))
@@ -179,7 +186,7 @@ def render2(src, out: Path) -> dict:
     """Render, accept cookie banners, scroll, and record every XHR/fetch response."""
     from playwright.sync_api import sync_playwright
 
-    d = out / src.key / "browser2"
+    d = out / src.key / "browser3"
     result: dict = {"requests": []}
     with sync_playwright() as p:
         b = p.chromium.launch()
@@ -205,7 +212,8 @@ def render2(src, out: Path) -> dict:
 
         page.on("response", on_response)
         try:
-            page.goto(src.page, wait_until="networkidle", timeout=60_000)
+            page.goto(src.page, wait_until="domcontentloaded", timeout=60_000)
+            page.wait_for_timeout(15_000)
             for label in ("Accept", "Accept All", "Allow all", "I agree", "OK"):
                 btn = page.get_by_role("button", name=label, exact=True)
                 if btn.count():
@@ -225,7 +233,7 @@ def render2(src, out: Path) -> dict:
                         page.wait_for_timeout(2500)
                     except Exception:  # noqa: BLE001
                         pass
-            page.wait_for_load_state("networkidle", timeout=20_000)
+            page.wait_for_timeout(8_000)
             html = page.content()
             save(d / "rendered.html", html)
             result["rendered_bytes"] = len(html)
@@ -263,7 +271,7 @@ def main(argv=None) -> int:
             summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS))
         except Exception as e:  # noqa: BLE001
             summary.append({"key": src.key, "error": f"{type(e).__name__}: {e}"[:300]})
-    save(out / ("summary2.json" if args.round2 else "summary.json"), summary)
+    save(out / ("summary3.json" if args.round2 else "summary.json"), summary)
     for s in summary:
         print(json.dumps({k: s.get(k) for k in ("key", "jsonld_events", "tribe_api", "wordpress")})[:300])
     return 0

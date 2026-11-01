@@ -42,6 +42,7 @@ class Source:
     url: str | None = None
     organizer_id: str | None = None
     luma_calendar: str | None = None
+    reader: str | None = None
     page: str | None = None
     location: str | None = None
     aggregator: bool = False
@@ -81,6 +82,7 @@ def load_config(path: str | Path) -> Config:
             url=s.get("url"),
             organizer_id=str(s["organizer_id"]) if s.get("organizer_id") else None,
             luma_calendar=s.get("luma_calendar"),
+            reader=s.get("reader"),
             page=s.get("page"),
             location=s.get("location"),
             aggregator=bool(s.get("aggregator", False)),
@@ -94,6 +96,8 @@ def load_config(path: str | Path) -> Config:
             raise ValueError(f"source {src.key!r}: unknown city {src.city!r}")
         if src.kind not in KINDS:
             raise ValueError(f"source {src.key!r}: unknown kind {src.kind!r}")
+        if src.method in ("custom", "browser") and src.enabled and not src.reader:
+            raise ValueError(f"source {src.key!r}: method {src.method} needs a reader")
         if src.method not in METHODS:
             raise ValueError(f"source {src.key!r}: unknown method {src.method!r}")
         sources.append(src)
