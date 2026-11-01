@@ -1,0 +1,1792 @@
+[
+ {
+  "key": "nyc-fordham-jewish",
+  "page": "https://now.fordham.edu/events/category/jewish-life/",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://now.fordham.edu/events/category/jewish-life/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://now.fordham.edu/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-ny-jewish-week",
+  "page": "https://www.myjewishlearning.com/the-hub/category/new-york",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.myjewishlearning.com/the-hub/category/new-york/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "https://outlook.live.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fwww.myjewishlearning.com%2F%3Fpost_type%3Dtribe_events%26tribe_events_cat%3Dnew-york%26ical%3D1%26eventDisplay%3Dlist&#038;name=My+Jewish+Learning+My+Jewish+Learning",
+   "https://outlook.office.com/owa?path=/calendar/action/compose&#038;rru=addsubscription&#038;url=webcal%3A%2F%2Fwww.myjewishlearning.com%2F%3Fpost_type%3Dtribe_events%26tribe_events_cat%3Dnew-york%26ical%3D1%26eventDisplay%3Dlist&#038;name=My+Jewish+Learning+My+Jewish+Learning",
+   "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fwww.myjewishlearning.com%2F%3Fpost_type%3Dtribe_events%26tribe_events_cat%3Dnew-york%26ical%3D1%26eventDisplay%3Dlist",
+   "https://www.myjewishlearning.com/the-hub/?ical=1",
+   "https://www.myjewishlearning.com/the-hub/category/new-york/list/?ical=1",
+   "https://www.myjewishlearning.com/the-hub/category/new-york/list/?outlook-ical=1",
+   "https://www.myjewishlearning.com/wp-content/plugins/the-events-calendar/build/js/views/ical-links.js?ver=0dadaa0667a03645aee4",
+   "webcal://www.myjewishlearning.com/?post_type=tribe_events&#038;tribe_events_cat=new-york&#038;ical=1&#038;eventDisplay=list"
+  ],
+  "wordpress": true,
+  "generator": [
+   "WordPress 7.1.4"
+  ],
+  "has_tribe_markup": true,
+  "page_bytes": 741980,
+  "tribe_api": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.myjewishlearning.com/wp-json/tribe/events/v1/events?per_page=50",
+   "type": "application/json; charset=UTF-8",
+   "events": 50,
+   "total": 2457
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "podcast": "podcast",
+   "teachers": "teachers",
+   "feedback": "feedback",
+   "jetpack_form": "jetpack-forms",
+   "guest-author": "guest-author",
+   "tribe_venue": "tribe_venue",
+   "tribe_organizer": "tribe_organizer",
+   "tribe_events": "tribe_events",
+   "jp_act_log_event": "activity-log-events",
+   "dt_subscription": "dt_subscription",
+   "evergreen": "evergreen",
+   "recipe": "recipe",
+   "nosher": "nosher",
+   "here-now": "here-now",
+   "landing-page": "landing-page",
+   "quiz": "quiz",
+   "affiliates": "affiliates",
+   "definitions": "definitions",
+   "torah": "torah",
+   "eli-talks": "eli-talks",
+   "jp_pay_order": "jp_pay_order",
+   "jp_pay_product": "jp_pay_product",
+   "tec_calendar_embed": "tec_calendar_embed"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "jetpack/v4",
+   "coauthors/v1",
+   "elasticpress/v1",
+   "redirection/v1",
+   "tasty-roundups/v1",
+   "yoast/v1",
+   "tec/migrations/v1",
+   "liquidweb/harbor/v1",
+   "tribe/event-aggregator/v1",
+   "tribe/events/v1",
+   "tribe/views/v2",
+   "tec/v2/onboarding",
+   "tec/v1",
+   "tribe/zapier/v1",
+   "tribe/power-automate/v1",
+   "jetpack/v4/stats-app",
+   "duplicate-post/v1",
+   "tasty-recipes/v1",
+   "tasty-recipes-lite/v1",
+   "mls/v1",
+   "gf/v2",
+   "wp/v2",
+   "thehub/v1",
+   "two-factor/1.0",
+   "wp-parsely/v2",
+   "jetpack/v4/import",
+   "wpcom/v2",
+   "jetpack-boost/v1",
+   "my-jetpack/v1",
+   "jetpack/v4/explat",
+   "wpcom/v3",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-columbia-gsapp",
+  "page": "https://www.arch.columbia.edu/events",
+  "page_fetch": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://www.arch.columbia.edu/events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.arch.columbia.edu/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-cooper-union-arch",
+  "page": "https://cooper.edu/architecture/events-and-exhibitions",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://cooper.edu/architecture/events-and-exhibitions",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 92919,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://cooper.edu/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-nyu-furman",
+  "page": "https://www.furmancenter.org/events/",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.furmancenter.org/events/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.furmancenter.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-pratt-arch",
+  "page": "https://www.pratt.edu/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.pratt.edu/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 238163,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.pratt.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "course": "course",
+   "daily-hub": "daily-hub",
+   "service": "service",
+   "home-feature": "home-feature",
+   "menu": "menu",
+   "minor": "minor",
+   "person": "person",
+   "policy": "policy",
+   "prattfolio-ip": "prattfolio-ip",
+   "prattfolio-story": "prattfolio-story",
+   "press": "press",
+   "program": "program",
+   "resource": "resource",
+   "work": "work",
+   "location": "location",
+   "event": "event",
+   "email-template": "email-template",
+   "ad": "ad"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "pct/v1",
+   "kaltura/v1",
+   "wordfence-login-security/v1",
+   "wordfence/v1",
+   "yoast/v1",
+   "duplicate-post/v1",
+   "objectcache/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-nyu-stern",
+  "page": "https://www.stern.nyu.edu/experience-stern/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.stern.nyu.edu/experience-stern/events",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 92713,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.stern.nyu.edu/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-ai-now",
+  "page": "https://ainowinstitute.org/news/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://ainowinstitute.org/news/events",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "WordPress 7.1.4",
+   "WooCommerce 11.2.1",
+   "Site Kit by Google 1.190.0"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 53013,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://ainowinstitute.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "product": "product",
+   "feedback": "feedback",
+   "jetpack_form": "jetpack-forms",
+   "jp_act_log_event": "activity-log-events",
+   "jp_pay_order": "jp_pay_order",
+   "jp_pay_product": "jp_pay_product"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "jetpack/v4",
+   "wc/v3",
+   "wc/v1",
+   "wc/pos/v1/catalog",
+   "yoast/v1",
+   "jetpack/v4/stats-app",
+   "duplicate-post/v1",
+   "wc-admin",
+   "wc-analytics",
+   "wc/store",
+   "wc/store/v1",
+   "wc/private",
+   "payments/woopay",
+   "wc/v2",
+   "google-site-kit/v1",
+   "wc-admin-email",
+   "wc-push-notifications",
+   "wc-telemetry",
+   "wccom-site/v3",
+   "jetpack/v4/import",
+   "wpcom/v2",
+   "jetpack-boost/v1",
+   "my-jetpack/v1",
+   "jetpack/v4/explat",
+   "wpcom/v3",
+   "wp-abilities/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1"
+  ]
+ },
+ {
+  "key": "nyc-nyu-cds",
+  "page": "https://cds.nyu.edu/events-feed/",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://cds.nyu.edu/events-feed/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://cds.nyu.edu/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-cornell-tech",
+  "page": "https://tech.cornell.edu/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://tech.cornell.edu/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "https://tech.cornell.edu/programs/masters-programs/master-in-electrical-and-computer-engineering/"
+  ],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 218784,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://tech.cornell.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {},
+  "wp_namespaces": [
+   "oembed/1.0",
+   "coauthors/v1",
+   "ninjatables/v2",
+   "redirection/v1",
+   "yoast/v1",
+   "wp-all-import/v1",
+   "cptui/v1",
+   "wp-smush/v1",
+   "hub-connector/v1",
+   "wp",
+   "crn",
+   "gf/v2",
+   "notification/v1",
+   "wpmudev_blc/v1",
+   "regenerate-thumbnails/v1",
+   "wpmudev_pcs/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-cuny-gc",
+  "page": "https://www.gc.cuny.edu/events",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.gc.cuny.edu/events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.gc.cuny.edu/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-jts",
+  "page": "https://www.jtsa.edu/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.jtsa.edu/events-calendar/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "https://www.facebook.com/JewishTheologicalSeminary/",
+   "https://www.jtsa.edu/biblical-hebrew-at-jts/",
+   "https://www.jtsa.edu/ethical-life-curriculum-teens/",
+   "https://www.jtsa.edu/rabbinical-school-admissions/",
+   "https://www.jtsa.edu/school/the-rabbinical-school/"
+  ],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 164533,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.jtsa.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "post_sidebar": "post_sidebar",
+   "post_center": "post_center",
+   "post_program": "post_program",
+   "post_school": "post_school",
+   "post_school_subpage": "post_school_subpage",
+   "post_event": "post_event",
+   "post_faq": "post_faq",
+   "post_news": "post_news",
+   "post_team": "post_team",
+   "post_torah": "post_torah",
+   "post_blog_content": "post_blog_content",
+   "post_hidden_page": "post_hidden_page",
+   "post_testimonial": "post_testimonial",
+   "rm_content_editor": "rm_content_editor"
+  },
+  "wp_namespaces": [
+   "ithemes-security/rpc",
+   "ithemes-security/v1",
+   "oembed/1.0",
+   "wpe/cache-plugin/v1",
+   "wpe_sign_on_plugin/v1",
+   "akismet/v1",
+   "cky/v1",
+   "redirection/v1",
+   "rankmath/v1",
+   "rankmath/v1/setupWizard",
+   "duplicate-post/v1",
+   "llar/v1",
+   "rankmath/v1/ai-visibility",
+   "rankmath/v1/ca",
+   "rankmath/v1/an",
+   "rankmath/v1/status",
+   "hub-connector/v1",
+   "wpmudev_blc/v1",
+   "nftracking/v1",
+   "wpmudev_pcs/v1",
+   "mcp",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-arch-league",
+  "page": "https://archleague.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://archleague.org/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 78450,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://archleague.org/wp-json/tribe/events/v1/events"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "guest-author": "guest-author"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "wpe/cache-plugin/v1",
+   "wpe_sign_on_plugin/v1",
+   "akismet/v1",
+   "iawp",
+   "wordfence/v1",
+   "yoast/v1",
+   "coauthors/v1",
+   "facetwp/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-bwaf",
+  "page": "https://bwaf.org/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://bwaf.org/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 26723,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://bwaf.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-aiany",
+  "page": "https://calendar.aiany.org/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://calendar.aiany.org/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 112220,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://calendar.aiany.org/wp-json/tribe/events/v1/events"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces"
+  },
+  "wp_namespaces": [
+   "wpe/cache-plugin/v1",
+   "wpe_sign_on_plugin/v1",
+   "contact-form-7/v1",
+   "yoast/v1",
+   "wp/v2",
+   "redirection/v1",
+   "cptui/v1",
+   "duplicate-post/v1",
+   "regenerate-thumbnails/v1",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-ipa",
+  "page": "https://instituteforpublicarchitecture.org/Whats-On",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://instituteforpublicarchitecture.org/Whats-On",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 521832,
+  "tribe_api": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  }
+ },
+ {
+  "key": "nyc-icaa-ny",
+  "page": "https://www.classicist.org/ny/",
+  "page_fetch": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://www.classicist.org/ny/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://www.classicist.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-mas",
+  "page": "https://www.mas.org/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.mas.org/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "WordPress 7.1.4",
+   "Site Kit by Google 1.190.0"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 93565,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mas.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "google-site-kit/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-ny-building-congress",
+  "page": "https://buildingcongress.com/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://buildingcongress.com/events/",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "/reports/?_sft_report-series=topical-analyses#view-all"
+  ],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 136369,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://buildingcongress.com/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "bill": "bill",
+   "event": "event",
+   "industry-event": "industry-event",
+   "news-item": "news-item",
+   "person": "person",
+   "report": "report",
+   "feedzy_imports": "feedzy_imports",
+   "feedzy_categories": "feedzy_categories"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "akismet/v1",
+   "cookie-notice/v1",
+   "feedzy/v1",
+   "mo_oauth_idp_intiate",
+   "mo_oauth_jwks",
+   "redirection/v1",
+   "yoast/v1",
+   "wp-all-import/v1",
+   "duplicate-post/v1",
+   "objectcache/v1",
+   "wp-smush/v1",
+   "hub-connector/v1",
+   "regenerate-thumbnails/v1",
+   "folders-settings/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-noma-ny",
+  "page": "https://nomany.org/events/",
+  "page_fetch": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='nomany.org', port=443): Max retries exceeded with url: /events/ (Caused by NameResolutionError(\"HTTPSConnection(host='nomany.org', port=443): Failed to resolve 'nomany.org' ([Errno -2] Name or service not known)\"))"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='nomany.org', port=443): Max retries exceeded with url: /wp-json/tribe/events/v1/events?per_page=50 (Caused by NameResolutionError(\"HTTPSConnection(host='nomany.org', port=443): Failed to resolve 'nomany.org' ([Errno -2] Name or service not known)\"))"
+  }
+ },
+ {
+  "key": "nyc-rpa",
+  "page": "https://rpa.org/events/upcoming",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://rpa.org/events/upcoming",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 85254,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://rpa.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-skyscraper-museum",
+  "page": "https://www.skyscraper.org/programs/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.skyscraper.org/programs/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "Site Kit by Google 1.190.0"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 98870,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.skyscraper.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "feedback": "feedback",
+   "jetpack_form": "jetpack-forms",
+   "mailpoet_email": "mailpoet_email",
+   "jp_act_log_event": "activity-log-events",
+   "exhibitions": "exhibitions",
+   "programs": "programs",
+   "jetpack-portfolio": "jetpack-portfolio",
+   "jetpack-testimonial": "jetpack-testimonial",
+   "jp_pay_order": "jp_pay_order",
+   "jp_pay_product": "jp_pay_product"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "fl-controls/v1",
+   "jetpack/v4",
+   "akismet/v1",
+   "redirection/v1",
+   "wp-super-cache/v1",
+   "advanced-db-cleaner/v1",
+   "wpcom/v2",
+   "jetpack/v4/stats-app",
+   "wp-smush/v1",
+   "hub-connector/v1",
+   "duplicate-post/v1",
+   "seopress/mcp",
+   "seopress/v1",
+   "jetpack/v4/blaze-app",
+   "jetpack/v4/blaze",
+   "google-site-kit/v1",
+   "woocommerce-email-editor/v1",
+   "regenerate-thumbnails/v1",
+   "mailpoet/v1",
+   "jetpack/v4/import",
+   "jetpack-boost/v1",
+   "my-jetpack/v1",
+   "jetpack/v4/explat",
+   "wpcom/v3",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-urban-design-forum",
+  "page": "https://urbandesignforum.org/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://urbandesignforum.org/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "WordPress 7.1.4",
+   "WooCommerce 11.2.1"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 116366,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://urbandesignforum.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "event": "event",
+   "initiative": "initiative",
+   "product": "product",
+   "feedback": "feedback",
+   "jetpack_form": "jetpack-forms",
+   "jp_act_log_event": "activity-log-events",
+   "jp_pay_order": "jp_pay_order",
+   "jp_pay_product": "jp_pay_product"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "flywheel/v1",
+   "jetpack/v4",
+   "redirection/v1",
+   "wc/v3",
+   "wc/v1",
+   "wc/pos/v1/catalog",
+   "wordfence-login-security/v1",
+   "wordfence/v1",
+   "yoast/v1",
+   "wp-all-import/v1",
+   "jetpack/v4/stats-app",
+   "wc-admin",
+   "wc-analytics",
+   "wc/store",
+   "wc/store/v1",
+   "wc/private",
+   "payments/woopay",
+   "wc/v2",
+   "jetpack/v4/blaze-app",
+   "jetpack/v4/blaze",
+   "wc-admin-email",
+   "wc-push-notifications",
+   "wc-telemetry",
+   "wccom-site/v3",
+   "jetpack/v4/import",
+   "wpcom/v2",
+   "jetpack-boost/v1",
+   "my-jetpack/v1",
+   "jetpack/v4/explat",
+   "wpcom/v3",
+   "wp-abilities/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1"
+  ]
+ },
+ {
+  "key": "nyc-van-alen",
+  "page": "https://www.vanalen.org/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.vanalen.org/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "WordPress 7.1.4",
+   "Site Kit by Google 1.146.0"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 54559,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.vanalen.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "projects": "projects",
+   "people": "people",
+   "resources": "resources",
+   "events": "events",
+   "updates": "updates",
+   "press": "press"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "flywheel/v1",
+   "redirection/v1",
+   "yoast/v1",
+   "geo/v1",
+   "google-site-kit/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1",
+   "acf/v3"
+  ]
+ },
+ {
+  "key": "nyc-cfr",
+  "page": "https://www.cfr.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.cfr.org/events",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 457447,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.cfr.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-carnegie-council",
+  "page": "https://www.carnegiecouncil.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.carnegiecouncil.org/events",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "https://www.carnegiecouncil.org/media/video/moral-dilemmas-political-tradeoffs-un-peacekeeping"
+  ],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 132349,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.carnegiecouncil.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-fpa",
+  "page": "https://www.fpa.org/",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://fpa.org/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://fpa.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-paley-center",
+  "page": "https://www.paleycenter.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.paleycenter.org/events",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 42142,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.paleycenter.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-met",
+  "page": "https://www.metmuseum.org/events/calendar",
+  "page_fetch": {
+   "ok": false,
+   "status": 429,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.metmuseum.org/events/calendar"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 429,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.metmuseum.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-moma",
+  "page": "https://www.moma.org/calendar",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.moma.org/calendar"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.moma.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-club-free-time",
+  "page": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 77,
+  "ical_links": [
+   "/new-york-city-nyc/free-classical-music-jazz-blues-concerts",
+   "https://www.clubfreetime.com/new-york-city-nyc/free-classical-music/2026-11-28/event/763168"
+  ],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 440013,
+  "tribe_api": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.clubfreetime.com",
+   "type": "text/html; charset=UTF-8",
+   "error": "not JSON"
+  }
+ },
+ {
+  "key": "nyc-cjh",
+  "page": "https://programs.cjh.org/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://programs.cjh.org/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 262221,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://programs.cjh.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-yivo",
+  "page": "https://yivo.org/Calendar?show=evs",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://yivo.org/Calendar?show=evs",
+   "type": "text/html;charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 60146,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://yivo.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-tikvah",
+  "page": "https://tikvah.org/events",
+  "page_fetch": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://tikvah.org/events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://tikvah.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-hartman",
+  "page": "https://www.hartman.org.il/events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.hartman.org.il/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "Elementor 4.3.5; features: additional_custom_breakpoints; settings: css_print_method-internal, google_font-enabled, font_display-swap"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 350281,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.hartman.org.il/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "e-floating-buttons": "e-floating-buttons",
+   "elementor_library": "elementor_library",
+   "elementor_snippet": "elementor_snippet",
+   "event": "event",
+   "latest_updates": "latest_updates",
+   "people": "people",
+   "pmb_content": "pmb_content"
+  },
+  "wp_namespaces": [
+   "activity-log/v1",
+   "contact-form-7/v1",
+   "members/v1",
+   "redirection/v1",
+   "yoast/v1",
+   "v1",
+   "elementor-mcp-composer/v1.0.19",
+   "elementor-one/v1",
+   "image-optimizer/v1",
+   "cptui/v1",
+   "duplicate-post/v1",
+   "elementor/v1",
+   "elementor-pro/v1",
+   "filebird/v1",
+   "filebird/public/v1",
+   "wp-mail-smtp/setup-wizard/v1",
+   "change-yoast-settings/v1",
+   "elementor-hello-elementor/v1",
+   "elementor/v1/documents",
+   "elementor-ai/v1",
+   "elementor/v1/feedback",
+   "publishpress-future/v1",
+   "wpforms/v1",
+   "mcp",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nyc-ajc",
+  "page": "https://www.ajc.org/newyork",
+  "page_fetch": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://www.ajc.org/newyork"
+  },
+  "tribe_api": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://www.ajc.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-jewish-currents",
+  "page": "https://jewishcurrents.org/events",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://jewishcurrents.org/events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://jewishcurrents.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-uja",
+  "page": "https://www.ujafedny.org/get-involved/attend-an-event",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.ujafedny.org/get-involved/attend-an-event",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 346110,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.ujafedny.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-ncjw-ny",
+  "page": "https://ncjwny.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://ncjwny.org/events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "https://ncjwny.org/event/lyricalbliss/"
+  ],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 148137,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://ncjwny.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "product": "product",
+   "people": "people",
+   "publications": "publications",
+   "programs": "programs",
+   "success_stories": "success_stories"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "fluent-smtp",
+   "ninja-forms-submissions",
+   "ninja-forms-views",
+   "wc/v3",
+   "wc/v1",
+   "wc/pos/v1/catalog",
+   "jetpack/v4",
+   "cptui/v1",
+   "wc-admin",
+   "wc-analytics",
+   "wc/store",
+   "wc/store/v1",
+   "wc/private",
+   "wc/v2",
+   "wc-admin-email",
+   "wc-push-notifications",
+   "wc-telemetry",
+   "wccom-site/v3",
+   "wp-abilities/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1"
+  ]
+ },
+ {
+  "key": "nyc-congress-jewish-culture",
+  "page": "https://congressforjewishculture.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://congressforjewishculture.org/events",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 91762,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://congressforjewishculture.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "nyc-columbia-calendar",
+  "page": "https://events.columbia.edu/",
+  "page_fetch": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://events.columbia.edu/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "error": "robots: robots.txt disallows https://events.columbia.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 28723,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://events.columbia.edu/",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/6zjxh/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+    "blob:https://challenges.cloudflare.com/81a6a965-9e15-44be-9dd9-eb483191cd1e"
+   ]
+  }
+ },
+ {
+  "key": "nyc-columbia-sipa",
+  "page": "https://www.sipa.columbia.edu/communities-connections/events",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sipa.columbia.edu/communities-connections/events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sipa.columbia.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 28885,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.sipa.columbia.edu/communities-connections/events",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/vp9bo/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+    "blob:https://challenges.cloudflare.com/f7043fc4-23ce-4fbf-8a22-4ab36cd6605c"
+   ]
+  }
+ },
+ {
+  "key": "nyc-parsons",
+  "page": "https://www.newschool.edu/parsons/events/",
+  "page_fetch": {
+   "ok": false,
+   "status": 429,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.newschool.edu/parsons/events/"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 429,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.newschool.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 35749,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.newschool.edu/parsons/events/"
+   ]
+  }
+ },
+ {
+  "key": "nyc-ohny",
+  "page": "https://ohny.org/calendar",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://ohny.org/calendar",
+   "type": "text/html"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 114775,
+  "tribe_api": {
+   "ok": true,
+   "status": 200,
+   "url": "https://ohny.org/wp-json/tribe/events/v1/events?per_page=50",
+   "type": "text/html",
+   "error": "not JSON"
+  },
+  "browser": {
+   "json_responses": [
+    {
+     "file": "net_01.json",
+     "url": "https://cdn.builder.io/api/v3/query/fc1101199ae44b6eb081e8c3d1d68c26/activity%3A0e568018?omit=meta.componentsUsed&apiKey=fc1101199ae44b6eb081e8c3d1d68c26&noTargeting=true&fields=id%2Cdata&noTraverse=true&userAttributes=%7B%22urlPath%22%3A%22%2Fcalendar%22%2C%22host%22%3A%22ohny.org%22%2C%22device%22",
+     "bytes": 494150
+    }
+   ],
+   "rendered_bytes": 144384,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://ohny.org/calendar"
+   ]
+  }
+ },
+ {
+  "key": "nyc-storefront",
+  "page": "https://storefrontnews.org/",
+  "page_fetch": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='storefrontnews.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='storefrontnews.org', port=443): Failed to resolve 'storefrontnews.org' ([Errno -5] No address associated with hostname)\"))"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='storefrontnews.org', port=443): Max retries exceeded with url: /wp-json/tribe/events/v1/events?per_page=50 (Caused by NameResolutionError(\"HTTPSConnection(host='storefrontnews.org', port=443): Failed to resolve 'storefrontnews.org' ([Errno -5] No address as"
+  },
+  "browser": {
+   "json_responses": [],
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://storefrontnews.org/\nCall log:\nnavigating to \"https://storefrontnews.org/\", waiting until \"networkidle\"\n"
+  }
+ },
+ {
+  "key": "nyc-asia-society",
+  "page": "https://asiasociety.org/new-york/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://asiasociety.org/new-york/events",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 137026,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://asiasociety.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 28745,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://asiasociety.org/new-york/events",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/18t9n/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+    "blob:https://challenges.cloudflare.com/d64264e7-016d-4808-a246-d0c31475f140"
+   ]
+  }
+ },
+ {
+  "key": "nyc-econ-club-ny",
+  "page": "https://www.econclubny.org/web/pages/club-calendar",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.econclubny.org/web/pages/club-calendar",
+   "type": "text/html;charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 212180,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.econclubny.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [
+    {
+     "file": "net_01.json",
+     "url": "https://www.econclubny.org/o/js_resolve_modules?modules=metal-dom%2Fsrc%2Fall%2Fdom%2Cclay-tooltip%2Fsrc%2FClayTooltip%2Cfrontend-taglib-clay%24clay-navigation-bar%402.18.1%2Flib%2FClayNavigationBar",
+     "bytes": 36362
+    },
+    {
+     "file": "net_02.json",
+     "url": "https://www.econclubny.org/web/pages/club-calendar?p_p_id=com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_PBUyT7PizFAu&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&doAsUserId=&p_p_resource_id=calendarBookings",
+     "bytes": 30713
+    },
+    {
+     "file": "net_03.json",
+     "url": "https://www.econclubny.org/web/pages/club-calendar?p_p_id=com_liferay_calendar_web_portlet_CalendarPortlet_INSTANCE_PBUyT7PizFAu&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&doAsUserId=&p_p_resource_id=calendarRenderingRules",
+     "bytes": 88
+    }
+   ],
+   "rendered_bytes": 291999,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.econclubny.org/web/pages/club-calendar"
+   ]
+  }
+ },
+ {
+  "key": "nyc-brooklyn-museum",
+  "page": "https://www.brooklynmuseum.org/calendar",
+  "page_fetch": {
+   "ok": false,
+   "status": 429,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.brooklynmuseum.org/calendar"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 429,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.brooklynmuseum.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 35749,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.brooklynmuseum.org/calendar"
+   ]
+  }
+ },
+ {
+  "key": "nyc-92ny",
+  "page": "https://www.92ny.org/whats-on/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://my.92ny.org/components/sharedsession?actionUrl=https%3a%2f%2fwww.92ny.org%2ftnew%2freceive&returnUrl=https%3a%2f%2fwww.92ny.org%2fwhats-on%2fevents",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 1137,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.92ny.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [
+    {
+     "file": "net_01.json",
+     "url": "https://bzrcdn.openai.com/pixel-config/v1/QavLW4dZfxfr6AG7dgqGgw.json",
+     "bytes": 44
+    },
+    {
+     "file": "net_02.json",
+     "url": "https://gtm-mt7mg3sj-zmnhy.uc.r.appspot.com/data?v=2&event=page_view",
+     "bytes": 68
+    },
+    {
+     "file": "net_03.json",
+     "url": "https://www.googleadservices.com/pagead/conversion/963590642/?random=1793542679451&cv=11&fst=1793542679451&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1z876993344za20gzb76993344zd76993344xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~12",
+     "bytes": 3032
+    },
+    {
+     "file": "net_04.json",
+     "url": "https://yjqesjqhdi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.59.0)%3B%20JS%20Helper%20(3.15.0)&x-algolia-application-id=YJQESJQHDI&x-algolia-api-key=6d28dbd16e5728d3fe7fb4c1d80095f0",
+     "bytes": 37377
+    },
+    {
+     "file": "net_05.json",
+     "url": "https://www.92ny.org/planneradverts/get",
+     "bytes": 402
+    },
+    {
+     "file": "net_06.json",
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "bytes": 2569
+    },
+    {
+     "file": "net_07.json",
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "bytes": 1934
+    },
+    {
+     "file": "net_08.json",
+     "url": "https://www.92ny.org/BuyButton/ButtonsById",
+     "bytes": 2450
+    }
+   ],
+   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\nnavigating to \"https://www.92ny.org/whats-on/events\", waiting until \"networkidle\"\n"
+  }
+ },
+ {
+  "key": "nyc-nypl",
+  "page": "https://www.nypl.org/events/calendar?location=4",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.nypl.org/events/calendar?location=4",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 835075,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nypl.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [
+    {
+     "file": "net_01.json",
+     "url": "https://api.ipify.org/?format=json",
+     "bytes": 22
+    },
+    {
+     "file": "net_02.json",
+     "url": "https://api.omappapi.com/v2/embed/12468?d=nypl.org&device=desktop",
+     "bytes": 500225
+    },
+    {
+     "file": "net_03.json",
+     "url": "https://drupal.nypl.org/api/alerts/all",
+     "bytes": 123
+    }
+   ],
+   "rendered_bytes": 904520,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.nypl.org/events/calendar?location=4"
+   ]
+  }
+ },
+ {
+  "key": "nyc-thoughtgallery",
+  "page": "https://thoughtgallery.org",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://thoughtgallery.org/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "events/heated-rivalry-the-unauthorized-musical-parody-panel/",
+   "events/identical-lunch-alison-knowles-performance/",
+   "events/the-wisdom-bar-historical-migrations-of-tacos-in-the-usa-taco-lovers/",
+   "locations/brooklyn-historical-society/",
+   "locations/new-york-historical-society/",
+   "locations/new-york-society-for-ethical-culture/"
+  ],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 302960,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://thoughtgallery.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 28783,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://thoughtgallery.org/",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/r8e9f/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+    "blob:https://challenges.cloudflare.com/d9c44bd3-8587-4baf-8b7a-6e503fff3fcd"
+   ]
+  }
+ },
+ {
+  "key": "nyc-mjh",
+  "page": "https://mjhnyc.org/current-events",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://mjhnyc.org/current-events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://mjhnyc.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 28707,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://mjhnyc.org/current-events",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/j0oaf/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+    "blob:https://challenges.cloudflare.com/a82c3a20-33f3-4d27-9a5a-2e15dbf4098a"
+   ]
+  }
+ }
+]

@@ -1,0 +1,3159 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Book Launch --&nbsp;Absence/Presence: 30 Years of Day Without Art",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10012",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278920_0.jpg",
+  "description": "The afternoon will bring together former Visual AIDS staff and contributors to the book for a series of short conversations spanning the history of Day Without Art. Editors Kyle Croft and Risa Puleo will reflect on the project&rsquo;s emergence and its first decade; Amy Sadao and Nelson Santos will discuss its evolution through the 2000s; and Ted Kerr and Elizabeth Koke will consider Day Without Art from the 2010s to the present. Together, the conversations will reflect on the people who sustained the project, and how its strategies have changed alongside the AIDS epidem",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-01T19:00:00Z",
+  "endDate": "2026-11-01T21:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-01/event/769147",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-01T19:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Book Launch --&nbsp;Absence/Presence: 30 Years of Day Without Art"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Book Launch --&nbsp;Absence/Presence: 30 Years of Day Without Art",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-01/event/769147"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Magic Historian Shares Her Memoir about the \"Queen of Magic\" (In Person AND Online!)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10023",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278692_0.jpg",
+  "description": "The multi-media presentation will include an illustrated talk, magic performances, and a display of rarely seen Madame Adelaide Herrmann memorabilia, followed by a book signing. In her day, Madame Adelaide Herrmann was more famous than her younger colleague, Harry Houdini. For nearly sixty years, Adelaide Herrmann (1853-1932) ruled the global stage. She caught speeding bullets with her bare hands. She soared through the air as a human cannonball. Alongside her husband, Alexander, she executed the most mesmerizing illusions of the Golden Age of Magic. Then tragedy struck. Widowed at forty-three, Adelaide stepped into the magician's role as the sole headliner. For three thrilling decades, she reigned supreme as vaudeville's Queen of Magic.Copies of Queen of Magic: The Wondrous, Unstoppable Adelaide Herrmann will be available for purchase at the event.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-02T23:00:00Z",
+  "endDate": "2026-11-03T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-02/event/768649",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-02T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Magic Historian Shares Her Memoir about the \"Queen of Magic\" (In Person AND Online!)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Magic Historian Shares Her Memoir about the \"Queen of Magic\" (In Person AND Online!)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-02/event/768649"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Metropolitan Museum of Art-Featured Painter Shares His New Monograph (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277756_0.jpg",
+  "description": "A conversation with one of the leading contemporary landscape painters. Eric Aho celebrates his new book, the first comprehensive monograph of his contemporary landscapes; four decades of artwork that both honors and furthers the tradition of painting nature. He will be in conversation with John Yau, followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-02T23:00:00Z",
+  "endDate": "2026-11-03T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-02/event/766765",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-02T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Metropolitan Museum of Art-Featured Painter Shares His New Monograph (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Metropolitan Museum of Art-Featured Painter Shares His New Monograph (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-02/event/766765"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Visionary Sci-Fi Novel and a Blockbuster Actor",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/99745_0.jpg",
+  "description": "Visionary Sci-Fi Novel and a Blockbuster Actor",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-03T00:00:00Z",
+  "endDate": "2026-11-03T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-02/event/766933",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-03T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Visionary Sci-Fi Novel and a Blockbuster Actor"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Visionary Sci-Fi Novel and a Blockbuster Actor",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-02/event/766933"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Pulitzer Prize Winning Poet in Conversation",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277912_0.jpg",
+  "description": "Pulitzer Prize Winning Poet in Conversation",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-03T00:30:00Z",
+  "endDate": "2026-11-03T02:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-02/event/768532",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-03T00:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Pulitzer Prize Winning Poet in Conversation"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Pulitzer Prize Winning Poet in Conversation",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-02/event/768532"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Multidisciplinary Artist Discusses His Practice & Materiality (In Person AND Online!)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277558_0.jpg",
+  "description": "A talk by artist Jeffrey Meris.Jeffrey Meris (b. 1991, Ayiti, raised in the Bahamas) is a multidisciplinary artist whose practice engages with the relationship between materiality and larger cultural and social phenomena. Meris earned an associate of arts in arts and crafts from the University of the Bahamas, a bachelor of fine arts in sculpture from the Tyler School of Art, and a master of fine arts in visual arts from Columbia University. He has exhibited his work at the Amon Carter Museum; David Kordansky, Los Angeles, and more.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-03T20:00:00Z",
+  "endDate": "2026-11-03T22:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-03/event/766312",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-03T20:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Multidisciplinary Artist Discusses His Practice & Materiality (In Person AND Online!)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Multidisciplinary Artist Discusses His Practice & Materiality (In Person AND Online!)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-03/event/766312"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Streetscape Photographers Discuss Their Book Blending New York History, Culinary Culture, & Interior Design",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278260_0.jpg",
+  "description": "Photographers James T. and Karla L. Murray speak about their most recent book, Counter Culture, and some of our neighborhoods' and New York's most iconic lunch spots such as B&H Dairy and Veselka. For more than a century, New York City's Mom & Pop diners and luncheonettes have been serving the melting pot, piping fresh and hot. Under the warm glow of neon lights, local landmarks like the Lexington Candy Shop and La Bonbonniere offer an escape from the frenetic pace of daily life, while others like Tom's Restaurant are elevated to pop culture fame, appearing as an exterior locale on Seinfeld and inspiring Suzanne Vega's folk song turned club classic, \"Tom's Diner.\"Blending New York history, culinary culture, and interior design with epicurean delight, Counter Culture offers a wealth of details to be savored at length over a black-and-white cookie. Perch on a swivel stool along the sweeping Formica counter where the action is hot, or slide into a cozy booth, perusing the sumptuous array of comfort foods like syrup-soaked pancakes, classic burger and fries, and bottomless mugs of coffee -- or sample family favorites from the old country, like Greek gyros, Ukrainian borscht, Cuban sandwiches, Thai disco fries, and Korean fried chicken wings. In Counter Culture, there's a little something for everyone.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-03T23:00:00Z",
+  "endDate": "2026-11-04T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-03/event/767752",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-03T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Streetscape Photographers Discuss Their Book Blending New York History, Culinary Culture, & Interior Design"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Streetscape Photographers Discuss Their Book Blending New York History, Culinary Culture, & Interior Design",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-03/event/767752"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "name": "Metropolitan Museum of Art-Featured Artist Surveys His Work & Career (In Person AND Online!)&nbsp;",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278665_0.jpg",
+  "description": "Eric Aho, a painter known for his immense paintings of the natural world, gives an evening lecture.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-03T23:30:00Z",
+  "endDate": "2026-11-04T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Lecture",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-lecture/2026-11-03/event/768610",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-03T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Metropolitan Museum of Art-Featured Artist Surveys His Work & Career (In Person AND Online!)&nbsp;"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Metropolitan Museum of Art-Featured Artist Surveys His Work & Career (In Person AND Online!)&nbsp;",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-lecture/2026-11-03/event/768610"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "MIT Museum Professional Shares Interactive Projects Currently in the Works",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277150_0.jpg",
+  "description": "What if a museum worked less like a warehouse for finished objects and more like a lab where the experiment is still running? Ann Neumann is the Director of Galleries and Exhibitions at MIT Museum, and led its 2022 move into a new 56,000-square-foot space in Kendall Square. Ann will walk the group through the multiple interactive projects she's shepherded at the MIT Museum. These projects work as prototypes for engaging the public with technologies like CRISPR, machine learning, and sensory neuroscience. Through it all, she asks: can a museum work as infrastructure for public experimentation, rather than simply a room we walk through? Ann is a strategic museum leader, designer, and curator. She&rsquo;s the recipient of numerous awards for her work and was named a Lollop Museum Influencer in 2024.&nbsp;",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-04T00:00:00Z",
+  "endDate": "2026-11-04T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-03/event/765676",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-04T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "MIT Museum Professional Shares Interactive Projects Currently in the Works"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "MIT Museum Professional Shares Interactive Projects Currently in the Works",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-03/event/765676"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Journalists Share Their Books on Boundary-Breaking Art&nbsp;& the Ongoing Fight To Defend Creative Freedom",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10018",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277504_0.jpg",
+  "description": "Martha Wilson and Anne Turyn present two groundbreaking publications documenting 1970s-1980s New York Avant-Garde performance and bookmaking.Artist and Franklin Furnace founder&nbsp;Martha Wilson&nbsp;will discuss her new book,&nbsp;Back to the Present: 50 Years of Free Expression with Franklin Furnace,&nbsp;a 50th-anniversary celebration of the legendary arts institution Franklin Furnace. This visually rich volume captures five decades of boundary-breaking art and the ongoing fight to defend creative freedom. Further, it chronicles stories by individuals from arts groups across the U.S.A. who also fought in the Culture Wars of the Reagan 80s.&nbsp;Anne Turyn, a New York-based fine art photographer, will share&nbsp;Top Stories, a prose periodical&nbsp;that she edited and published from 1978 to 1991. Over the course of twenty-nine issues, it served as a pivotal platform for experimental fiction and art through single-artist issues and two anthologies. Primarily featuring female artists, though in Turyn&rsquo;s words a few men &ldquo;crept in as collaborators.\"",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-04T23:00:00Z",
+  "endDate": "2026-11-05T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-04/event/766234",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-04T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Journalists Share Their Books on Boundary-Breaking Art&nbsp;& the Ongoing Fight To Defend Creative Freedom"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Journalists Share Their Books on Boundary-Breaking Art&nbsp;& the Ongoing Fight To Defend Creative Freedom",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-04/event/766234"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Minds behind Storied Architecture Studio Share Their Book, JSa: Built in Mexico City (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277540_0.jpg",
+  "description": "A conversation with Aisha Ballesteros, Benedikt Fahlbusch, and Javier Sanchez, partners and principals of JSa, to celebrate their new book, a comprehensive overview of the firm's most prominent projects that helped it become one of Mexico City's leading architectural practices. The conversation will be followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-04T23:00:00Z",
+  "endDate": "2026-11-05T00:45:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-04/event/766273",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-04T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Minds behind Storied Architecture Studio Share Their Book, JSa: Built in Mexico City (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Minds behind Storied Architecture Studio Share Their Book, JSa: Built in Mexico City (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-04/event/766273"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Quiet Reading Meet Up",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/246838_0.jpg",
+  "description": "Bring a book or check one out of the library to read to yourself for one hour. After that, spend an hour socializing with those around you!",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-04T23:00:00Z",
+  "endDate": "2026-11-05T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-04/event/765814",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-04T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Quiet Reading Meet Up"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Quiet Reading Meet Up",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-04/event/765814"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "VisualArtsEvent",
+  "name": "Multidimensional Artist Discusses the Work of Pioneer in Minimalist Art Space",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278443_0.jpg",
+  "description": "Jordan Wolfson discusses the work of Donald Judd. Jordan Wolfson began his practice as a video artist, his recent work spans animatronics, robotics, virtual reality, holography, digital animation, and innovative sculpture. Contrasting physical, virtual, and imaginary realms, he examines the projection of internal impulses onto constructed selves and scenarios. As part of a generation that redefined artistic possibilities through emerging digital media, he uses technology to probe difficult, often controversial themes underlying American culture and contemporary society, offering a raw and immersive exploration of human vulnerabilities.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-04T23:30:00Z",
+  "endDate": "2026-11-05T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Gallery Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-04/event/768280",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-04T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Multidimensional Artist Discusses the Work of Pioneer in Minimalist Art Space"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Multidimensional Artist Discusses the Work of Pioneer in Minimalist Art Space",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-04/event/768280"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Classic Masterpiece Screen Adaptation - Writers Discuss",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10128",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277915_0.jpg",
+  "description": "Classic Masterpiece Screen Adaptation - Writers Discuss",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-05T00:00:00Z",
+  "endDate": "2026-11-05T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-04/event/769255",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-05T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Classic Masterpiece Screen Adaptation - Writers Discuss"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Classic Masterpiece Screen Adaptation - Writers Discuss",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-04/event/769255"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "VisualArtsEvent",
+  "name": "Emerging Photographers Share Their Work of Self-Discovery",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277156_0.jpg",
+  "description": "Alicia Hansen, photographer and founder and CEO of NYC Salt, discusses the mission and impact of the nonprofit arts organization. Founded by Hansen in 2005 as an after-school program in Washington Heights, NYC Salt engages, inspires, and empowers New York City youth through photography instruction, mentorship, and college-preparatory guidance. Hansen will explore how the camera serves as a catalyst for self-discovery and career opportunity. The event will feature students and alumni presenting their work, showing how these emerging photographers use the lens to cultivate agency, belonging, and identity while documenting their families, communities, and cultures.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-05T00:00:00Z",
+  "endDate": "2026-11-05T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Gallery Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-04/event/765679",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-05T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Emerging Photographers Share Their Work of Self-Discovery"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Emerging Photographers Share Their Work of Self-Discovery",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-04/event/765679"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Debut Novel Celebration:&nbsp;Flat Earth (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278146_0.jpg",
+  "description": "Anika Jade Levy celebrates the paperback release of her book. She will be in conversation with Lili Anolik, followed by a signing. \"A stunning debut novel about the trials of female friendship in New York.\"",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-05T23:00:00Z",
+  "endDate": "2026-11-06T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-05/event/767503",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-05T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Debut Novel Celebration:&nbsp;Flat Earth (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Debut Novel Celebration:&nbsp;Flat Earth (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-05/event/767503"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Professional Development Expert Discusses the Emotional Toll of Career Loss & Change",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278116_0.jpg",
+  "description": "In conversation with Tiffany Dufu, Jovian Zayne will explore the emotional realities that often accompany career transitions, job loss, burnout, caregiving, parenting, professional reinvention, and the everyday pressure to keep it all together. Together, they'll discuss practical ways to reframe challenging seasons, quiet the inner critic, ask for help, and create more room for relief, reflection, and renewed possibility.In Soft Landings for Hard Days, Jovian Zayne offers a compassionate companion for navigating the moments when life, work, and responsibility feel heavier than usual. Drawing from her work as an executive coach and her own experiences navigating career, motherhood, uncertainty, and difficult seasons, Jovian invites readers to question the pressure to simply push through--and consider what it might look like to meet hard days with greater compassion.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-05T23:00:00Z",
+  "endDate": "2026-11-06T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-05/event/767470",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-05T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Professional Development Expert Discusses the Emotional Toll of Career Loss & Change"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Professional Development Expert Discusses the Emotional Toll of Career Loss & Change",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-05/event/767470"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "VisualArtsEvent",
+  "name": "Award-Winning Illustrator&nbsp;& Fine Artist Shares Her New Book on Famous Modern Artist",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278596_0.jpg",
+  "description": "Janice Hechter shares her journey to writing and illustrating a new picture book about artist Theresa Bernstein. Hechter will discuss Bernstein&rsquo;s art and how she beat the odds by becoming a successful working artist, despite living in a time when women&rsquo;s art was frequently ignored.An award-winning illustrator and fine artist, Janice Hechter has exhibited her paintings in various galleries and museums throughout the country. Hechter&rsquo;s new picture book, The Power of Her Paintbrush: The Story of Theresa Bernstein, was published in March, and has received strong critical acclaim.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-05T23:30:00Z",
+  "endDate": "2026-11-06T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Gallery Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-05/event/768484",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-05T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Award-Winning Illustrator&nbsp;& Fine Artist Shares Her New Book on Famous Modern Artist"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Award-Winning Illustrator&nbsp;& Fine Artist Shares Her New Book on Famous Modern Artist",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-05/event/768484"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "name": "Princeton Archeologist Discusses the Traveling&nbsp;Craftsmen of Ancient Greece",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277159_0.jpg",
+  "description": "The designs of Greek temples, with their recognizable Doric and Ionic columns, spread widely in the ancient Mediterranean and Black Sea in the 6th and 5th centuries BCE. The dissemination of these architectural forms depended on highly mobile stone masons, who cross-pollinated design ideas as they worked far from home. Sam Holzman- Assistant Professor of Art & Archaeology at Princeton University- presents a talk that surveys a range of evidence for the mobility of ancient builders, from inscribed records to new lead-isotope analysis.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-06T00:30:00Z",
+  "endDate": "2026-11-06T02:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Lecture",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-lecture/2026-11-05/event/765685",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-06T00:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Princeton Archeologist Discusses the Traveling&nbsp;Craftsmen of Ancient Greece"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Princeton Archeologist Discusses the Traveling&nbsp;Craftsmen of Ancient Greece",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-lecture/2026-11-05/event/765685"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "True Crime and Fiction -&nbsp;with Highly Accomplished Authors",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/99748_0.jpg",
+  "description": "True Crime and Fiction -&nbsp;with Highly Accomplished Authors",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-06T00:30:00Z",
+  "endDate": "2026-11-06T02:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-05/event/768703",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-06T00:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "True Crime and Fiction -&nbsp;with Highly Accomplished Authors"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "True Crime and Fiction -&nbsp;with Highly Accomplished Authors",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-05/event/768703"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Clinical Psychologist Discusses Seasonal Affective Disorder & Management Strategies",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277258_0.jpg",
+  "description": "A discussion with William Lamson, Ph.D. including common symptoms, factors that may contribute to seasonal changes in mood, and strategies for managing symptoms and supporting mental and emotional wellbeing during the winter months. Seasonal Affective Disorder is a type of depression that occurs at certain times of the year, most commonly during the fall and winter months. Changes in daylight and seasonal routines may affect mood, sleep, energy, and daily functioning. Understanding the signs and symptoms of Seasonal Affective Disorder, as well as available treatment and management strategies, can help individuals recognize when seasonal changes may be affecting their wellbeing and identify approaches to support their mental health.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-06T16:00:00Z",
+  "endDate": "2026-11-06T17:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-06/event/767473",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-06T16:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Clinical Psychologist Discusses Seasonal Affective Disorder & Management Strategies"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Clinical Psychologist Discusses Seasonal Affective Disorder & Management Strategies",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-06/event/767473"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Pulitzer Prize&ndash;Winning Journalist Shares Her New Book,&nbsp;Safe Passage",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10018",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277507_0.jpg",
+  "description": "Evelyn Iritani uncovers the little-known story of the dangerous negotiations that led to the exchange of American and Japanese civilians during World War II. In the fall of 1943, as some of the Second World War&rsquo;s bloodiest battles unfolded across the Pacific, the United States and Japan pulled off a diplomatic coup&mdash;the return of civilians caught on the wrong side of the battlefield after Pearl Harbor. In&nbsp;Safe Passage, journalist&nbsp;Evelyn Iritani&nbsp;reveals the rarely told story behind this wartime exchange, featuring a cast of determined diplomats, sharp-tongued journalists, missionaries, and refugees&mdash;and the difficult choices involved in bringing everyone home.Iritani sheds new light on this remarkable story of diplomacy and survival.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-06T19:00:00Z",
+  "endDate": "2026-11-06T20:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-06/event/766240",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-06T19:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Pulitzer Prize&ndash;Winning Journalist Shares Her New Book,&nbsp;Safe Passage"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Pulitzer Prize&ndash;Winning Journalist Shares Her New Book,&nbsp;Safe Passage",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-06/event/766240"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Perfumist Shares Her New Book, The&nbsp;Cultures of Perfume (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278896_0.jpg",
+  "description": "A&nbsp;conversation with Saskia Wilson-Brown to celebrate her new book, a richly illustrated survey of the history and origins behind the most well known scents in the world. She will be in conversation with Rachel Syme, followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-06T23:00:00Z",
+  "endDate": "2026-11-07T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-06/event/769096",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-06T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Perfumist Shares Her New Book, The&nbsp;Cultures of Perfume (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Perfumist Shares Her New Book, The&nbsp;Cultures of Perfume (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-06/event/769096"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "VisualArtsEvent",
+  "name": "Artist & Scholar Discuss&nbsp;Ethical Quandaries of Creative Acts&nbsp;",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10002",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278878_0.jpg",
+  "description": "A&nbsp;conversation between artist Allie Tsubota and K Yin.&nbsp;The conversation is held on the occasion of the closing of Tsubota&rsquo;s solo exhibition Milk Teeth. Drawing on Yin&rsquo;s research into 19th-century photographic archives and representations of diasporic Asian labor in the American landscape, the speakers will pull on narrative and visual threads within the exhibition, including themes of extraction, critical and geological speculation, and the ethical quandaries of creative acts that unsettle historical space.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-07T19:00:00Z",
+  "endDate": "2026-11-07T21:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Gallery Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-07/event/769066",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-07T19:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Artist & Scholar Discuss&nbsp;Ethical Quandaries of Creative Acts&nbsp;"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Artist & Scholar Discuss&nbsp;Ethical Quandaries of Creative Acts&nbsp;",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-07/event/769066"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Art Director Shares New Art Book with Louis Vuitton Collaboration (+ Q&A)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10013",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278668_0.jpg",
+  "description": "An intimate conversation on League of Legends' virtual pop supergroup, K/DA, and their latest iterations across music, animation, and the recently debuted Tempo Point, a Louis Vuitton Travel Book imagining the home of Ahri, Akali, Evelynn, and Kai&rsquo;Sa. Airi Pan (Art Director, Tempo Point) discusses the creative process of bringing K/DA and their world to life through the recent Louis Vuitton collaboration, followed by an audience Q&A. Guests will also have an opportunity to view and purchase the Travel Book.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-08T00:00:00Z",
+  "endDate": "2026-11-08T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-07/event/768613",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-08T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Art Director Shares New Art Book with Louis Vuitton Collaboration (+ Q&A)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Art Director Shares New Art Book with Louis Vuitton Collaboration (+ Q&A)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-07/event/768613"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Makeup Artist Shares His New Book, Blue Velvet: A Polaroid Diary ( + Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278149_0.jpg",
+  "description": "Go behind the scenes of David Lynch&rsquo;s 1986 cult classic with on-set Polaroids taken by Jeff Goodwin. He celebrates his new book,&nbsp;Blue Velvet: A Polaroid Diary. He will be in conversation withTony Nourmand, followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-09T23:00:00Z",
+  "endDate": "2026-11-10T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-09/event/767506",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-09T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Makeup Artist Shares His New Book, Blue Velvet: A Polaroid Diary ( + Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Makeup Artist Shares His New Book, Blue Velvet: A Polaroid Diary ( + Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-09/event/767506"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "VisualArtsEvent",
+  "name": "Multi-Media Artist Breaks Down Her Practice",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10075",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277630_0.jpg",
+  "description": "A conversation between the artist, Tith Kanitha, and Sohrab Mohebbi, Director of SculptureCenter, New York. Tith and Mohebbi will introduce and contextualize Tith's practice, which moves across film, performance, sculpture, installation, and works on paper. A reception will follow.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-09T23:00:00Z",
+  "endDate": "2026-11-10T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Gallery Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-09/event/766498",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-09T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Multi-Media Artist Breaks Down Her Practice"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Multi-Media Artist Breaks Down Her Practice",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-09/event/766498"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Art Historian Shares His New Book on an Iconic Modern Artist (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278152_0.jpg",
+  "description": "James Cahill celebrates his book, The Beverly Hills Housewife: Hockney's Californian Muse and the World Beyond the Pool. He will be in conversation with Patrick Monahan, followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-10T23:00:00Z",
+  "endDate": "2026-11-11T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/767509",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-10T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Art Historian Shares His New Book on an Iconic Modern Artist (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Art Historian Shares His New Book on an Iconic Modern Artist (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/767509"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Debut Novel Celebration:&nbsp;The Squatters",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10013",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278356_0.jpg",
+  "description": "Saba Brelvi shares her new book.&nbsp;About the book:&nbsp;Two families collide in Saba Brelvi&rsquo;s The Squatters, a gripping debut that offers a piercing exploration of female friendship, particularly the kinds of bonds forged through proximity, motherhood, and social performance. Emotionally incisive, and morally unflinching,&nbsp;The Squatters explores the limits of compassion, the cost of solidarity, and interrogates the hidden boundaries of empathy within even the most intimate communities, revealing how quickly generosity can collapse when stability, property, and belonging feel under threat.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-10T23:00:00Z",
+  "endDate": "2026-11-11T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/767866",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-10T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Debut Novel Celebration:&nbsp;The Squatters"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Debut Novel Celebration:&nbsp;The Squatters",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/767866"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Ecologist Shares&nbsp;His New Book, Before New York&nbsp;(In Person AND Online!)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10018",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278899_0.jpg",
+  "description": "Eric Sanderson in conversation with Michael Kimmelman.&nbsp;In Before New York, Eric W. Sanderson invites&nbsp;readers on a breathtaking journey through the evolution of New York City&mdash;its natural features, inhabitants, and geography&mdash;from long before Henry Hudson's arrival in 1609 up to the present day. This monumental work is the culmination of more than 25 years of research, featuring 75 original maps, 200 color illustrations, and nearly 4,000 detailed descriptions of streams, wetlands, rocks, plants, animals, and Indigenous settlements. An epic expansion of Sanderson's bestselling and critically acclaimed book Mannahatta, this atlas and gazetteer brings to life the lost world of Welikia, land we now describe as the five boroughs of New York City, revealing what has vanished, what survives, and what could be restored with vision and care.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-10T23:00:00Z",
+  "endDate": "2026-11-11T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/769099",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-10T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Ecologist Shares&nbsp;His New Book, Before New York&nbsp;(In Person AND Online!)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Ecologist Shares&nbsp;His New Book, Before New York&nbsp;(In Person AND Online!)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/769099"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Filmmaker Roundtable Discussing Themes of&nbsp;Migration, Identity, & the Quest for Belonging",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277165_0.jpg",
+  "description": "Three powerful documentaries recently screened at the 2025 Queens World Film Festival:&nbsp;Home&nbsp;by Johanny Mota;&nbsp;So&ntilde;ando America&nbsp;by Judit Angle; and&nbsp;Safari&nbsp;by Seyeon Bang. Katha Cato, Executive Director, Queens World Film Festival, and the filmmakers will be present to discuss the films. These three films explore migration, identity, and the quest for belonging from different corners of the world.&nbsp;Home&nbsp;centers on the Dominican immigrant experience and the meaning of &ldquo;home&rdquo;;&nbsp;So&ntilde;ando America&nbsp;follows undocumented immigrants from Mexico striving for a better life;&nbsp;Safari&nbsp;tells the story of a North Korean defector whose escape and survival lead her toward a dream of freedom. Together, these films reveal shared themes of hope, resilience, and the human cost of seeking safety and opportunity.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-10T23:30:00Z",
+  "endDate": "2026-11-11T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-10/event/765691",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-10T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Filmmaker Roundtable Discussing Themes of&nbsp;Migration, Identity, & the Quest for Belonging"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Filmmaker Roundtable Discussing Themes of&nbsp;Migration, Identity, & the Quest for Belonging",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-10/event/765691"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "New York Times-Featured Photographer Shares Her Journey & Craft",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277561_0.jpg",
+  "description": "A&nbsp;talk by New York City-based commercial, editorial, and fine art photographer Emma Rose Milligan.Milligan is an Eddie Adams Workshop XXXVII alumnus. Her editorial writing and visual commissions have appeared in&nbsp;Bloomberg, The New York Times,&nbsp;USA Today,&nbsp;The Wall Street Journal, Zeit, and other publications. She is an&nbsp;American Photography&nbsp;40, 41, and 42 chosen and selected winner; an ADC 104 Merit and Bronze Cube winner; and an ADC 105 Bronze Cube winner. Her personal work has been published internationally by Paris-based magazine&nbsp;Courrier International, as well as London-based book publisher Hoxton Mini Press. Her commercial work focuses on product, lifestyle, and brand activations for clients like MOSCOT, Sotheby&rsquo;s, Vestiaire Collective, Warby Parker, and more.&nbsp;",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-11T00:00:00Z",
+  "endDate": "2026-11-11T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-10/event/766315",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-11T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "New York Times-Featured Photographer Shares Her Journey & Craft"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "New York Times-Featured Photographer Shares Her Journey & Craft",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-10/event/766315"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "MoMA-Featured Photographer Discusses His Approach to Art",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278224_0.jpg",
+  "description": "Stanley Wolukau-Wanambwa is joined by Associate Curator Phil Taylor of the George Eastman Museum, to discuss the role of order in the context of his practice as both an artist and a critic.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-11T00:00:00Z",
+  "endDate": "2026-11-11T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-10/event/767692",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-11T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "MoMA-Featured Photographer Discusses His Approach to Art"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "MoMA-Featured Photographer Discusses His Approach to Art",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-10/event/767692"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Read & Discuss Book Prize Shortlisted Author's Classic Novella&nbsp;",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10025",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278569_0.jpg",
+  "description": "A lively and engaging discussion of The Girls of Slender Means.&nbsp;The&nbsp;meeting will start with a short audio clip or recording of an interview with the author. Plan to discuss the book for 90 minutes.&nbsp;About the book:&nbsp;&ldquo;Long ago in 1945 all the nice people in England were poor, allowing for exceptions,&rdquo; begins one of Muriel Spark&rsquo;s most charming and wittiest novels, a portrait of young ladies living at the May of Teck Club, a London hostel in the postwar days of 1945.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-11T00:00:00Z",
+  "endDate": "2026-11-11T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Club",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-10/event/768457",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-11T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Read & Discuss Book Prize Shortlisted Author's Classic Novella&nbsp;"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Read & Discuss Book Prize Shortlisted Author's Classic Novella&nbsp;",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-10/event/768457"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Sociologist & Legal Scholar Discuss Their Books on the Economic Ecosystem",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278158_0.jpg",
+  "description": "Ho-fung Hung, author of Greenback Empire, and Will Bateman, author of The Fiscal Fed in conversation.&nbsp;Greenback Empire:A critical history of the US dollar&rsquo;s dominance in the world economy&mdash;and what has kept China&rsquo;s currency from overtaking it. The dollar is the primary currency of the world economy. With China now rivaling the United States on the world stage, a critical question hangs in the balance: will the Chinese renminbi challenge the status of the dollar and, in doing so, deprive America of its &ldquo;exorbitant privilege&rdquo;?The Fiscal Fed:A revelatory history of how the Federal Reserve finances American power. Central banks, we are told, are economic superpowers that must remain independent of modern democratic governments. The US Federal Reserve&rsquo;s presumed insulation from politics affords it autonomy and credibility to control inflation and promote economic stability&mdash;or so the story goes.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-11T00:00:00Z",
+  "endDate": "2026-11-11T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/767515",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-11T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Sociologist & Legal Scholar Discuss Their Books on the Economic Ecosystem"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Sociologist & Legal Scholar Discuss Their Books on the Economic Ecosystem",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-10/event/767515"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Pulitzer Prize-Winning Author and American History",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/268030_0.jpg",
+  "description": "Pulitzer Prize-Winning Author and American History",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-11T00:30:00Z",
+  "endDate": "2026-11-11T02:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-10/event/769087",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-11T00:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Pulitzer Prize-Winning Author and American History"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Pulitzer Prize-Winning Author and American History",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-10/event/769087"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Design Professionals Discuss the Legacy of an Iconic Fashion Accessory",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278155_0.jpg",
+  "description": "Liberty London&rsquo;s Paola Scala, Director of Products, and Mary-Ann Dunkley, Design Director, have a discussion about the beauty and legacy of Liberty&rsquo;s silk scarves. First launched in the early 1900s, the Liberty scarf is a timeless accessory central to the brand's reputation for luxury and excellence.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-11T23:00:00Z",
+  "endDate": "2026-11-12T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-11/event/767512",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-11T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Design Professionals Discuss the Legacy of an Iconic Fashion Accessory"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Design Professionals Discuss the Legacy of an Iconic Fashion Accessory",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-11/event/767512"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "New Yorker-Featured Author&nbsp;Shares His Latest Novel,&nbsp;West of Loveland",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278557_0.jpg",
+  "description": "A&nbsp;conversation with Tom Drury to celebrate his new book, a novel that returns readers to the Midwest in a moving portrait of contemporary life in a small rural county. The conversation will be followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-12T23:00:00Z",
+  "endDate": "2026-11-13T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/768445",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-12T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "New Yorker-Featured Author&nbsp;Shares His Latest Novel,&nbsp;West of Loveland"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "New Yorker-Featured Author&nbsp;Shares His Latest Novel,&nbsp;West of Loveland",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/768445"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "VisualArtsEvent",
+  "name": "Art History Talk: Discover the Life & legacy of Joan Miro",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278599_0.jpg",
+  "description": "Explore&nbsp;the life and work of an iconic modern artist. Mir&oacute;&rsquo;s works are hard to classify but do express his pride in his Catalan heritage (references to Barcelona and the countryside) and his contempt for conventional art. The unconscious and subconscious interact with a child-like wonder and dreamlike imagery so he might be dubbed a surrealist.After 1920, he spent winters in Paris and summers on the family farm near Barcelona. He directly influenced Pollock, Calder, and Rothko. His themes are sex, humor, nature, excrement, and playfulness along with fear and anger. He worked in oil, gouache, bronze, and ceramics.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-12T23:00:00Z",
+  "endDate": "2026-11-13T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Gallery Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-12/event/768487",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-12T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Art History Talk: Discover the Life & legacy of Joan Miro"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Art History Talk: Discover the Life & legacy of Joan Miro",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-gallery-talk/2026-11-12/event/768487"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Best-Selling Historian Shares His New Book on the Middle East",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277168_0.jpg",
+  "description": "The Cauldron, by Simon Sebag Montefiore, takes the reader on a spectacular journey from the Ottoman sultanate to the Trump presidency, from Morocco to Iran -- a panorama brought to life by an extraordinary cast of kings, warriors, poets, terrorists, and peacemakers. A master storyteller, Montefiore reveals the origins of the world we live in. Montefiore will appear in conversation with Tom Reiss, author of The Orientalist, The Black Count, and coming this spring, We Will Never Die, about the greatest rescue effort of World War II. &ldquo;Vivid and monumental . . . could not [be] more essential&rdquo; &ndash; Sunday Times.&nbsp;",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-12T23:30:00Z",
+  "endDate": "2026-11-13T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/765694",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-12T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Best-Selling Historian Shares His New Book on the Middle East"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Best-Selling Historian Shares His New Book on the Middle East",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/765694"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Interdisciplinary Artist Shares His Techniques of \"Hallucinatory\" Drawing (In Person AND Online!)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278227_0.jpg",
+  "description": "This presentation by Mark West will describe a practice that adopts methods of Finding rather than methods of Control. These include techniques of \"hallucinatory\" drawing utilizing the very human capacity for pareidolia, structural form-finding utilizing yielding and flexible materials, and somehow parallel sculptural findings as well. These are examples of how a longstanding fixation on Control may be softened and dissolved by surprisingly simple methods.&nbsp;The presentation will be followed by a Q & A.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-12T23:30:00Z",
+  "endDate": "2026-11-13T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-12/event/767695",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-12T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Interdisciplinary Artist Shares His Techniques of \"Hallucinatory\" Drawing (In Person AND Online!)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Interdisciplinary Artist Shares His Techniques of \"Hallucinatory\" Drawing (In Person AND Online!)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-12/event/767695"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "MacArthur Fellow Shares Discusses Her Creative Career",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10027",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278758_0.jpg",
+  "description": "An evening with Maaza Mengiste.&nbsp;Mengiste will be in conversation with writer and translator Lars Horn.&nbsp;Maaza Mengiste is a novelist, essayist, and the recipient of a 2026 MacArthur Fellowship. She is the author of the novel, The Shadow King, which was shortlisted for the Booker Prize, and was an LA Times Book Prize Fiction finalist. Her debut novel, Beneath the Lion&rsquo;s Gaze, was selected by the Guardian as one of the 10 best contemporary African books.&nbsp;",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-12T23:30:00Z",
+  "endDate": "2026-11-13T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/768760",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-12T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "MacArthur Fellow Shares Discusses Her Creative Career"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "MacArthur Fellow Shares Discusses Her Creative Career",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/768760"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "American Book Award-Winning Poet Shares Her New Collection, The Ghost Forest",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10013",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278359_0.jpg",
+  "description": "Kimiko Hahn in conversation with Sally Wen Mao. Kimiko Hahn introduces her new poetry collection The Ghost Forest. About the book: Opening with forty-three new formally inventive poems and leading the reader back in time through selections from her ten previous volumes, The Ghost Forest offers a contemplative and haunting narrative of a writer's artistic journey through craft and form while illuminating her personal history.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-13T00:00:00Z",
+  "endDate": "2026-11-13T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/767869",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-13T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "American Book Award-Winning Poet Shares Her New Collection, The Ghost Forest"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "American Book Award-Winning Poet Shares Her New Collection, The Ghost Forest",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-12/event/767869"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "National Book Award Finalist Discusses How Literature Can&nbsp;Shape Radical Political Moments",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10282",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277792_0.jpg",
+  "description": "In this hour-long craft talk, Camonghne Felix will depart from&nbsp;Let the Poets Govern&nbsp;to reflect on poetic principles.Over the past decade, Camonghne Felix has been at the center of American politics, working in strategy, communications, and as a speechwriter. Throughout it all, she has maintained her unwavering belief in language&rsquo;s foundational revolutionary potential, outside of its deployment for legislative and political ends. In&nbsp;Let the Poets Govern, she argues that Black radical poetic traditions model an ethical code and overcome entrenched structures of patriarchy and paternalism, inventing a new form that examines the historical and legislative, and the personal and poetic.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-13T00:00:00Z",
+  "endDate": "2026-11-13T02:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-12/event/766912",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-13T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "National Book Award Finalist Discusses How Literature Can&nbsp;Shape Radical Political Moments"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "National Book Award Finalist Discusses How Literature Can&nbsp;Shape Radical Political Moments",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-12/event/766912"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Celebrating the Photography of&nbsp; Asian & Asian American Artists",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10018",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278200_0.jpg",
+  "description": "A deep dive into the diverse voices shaping contemporary photography. This class highlights the Photography Collection's rich holdings of Asian and Asian American artists, offering a rare opportunity to study these compelling works up close.&nbsp;The group&nbsp;will explore themes of memory, identity, and artistic innovation through the lenses of artists such as Binh Danh, Thomas Holton, Michael Jang, Dayanita Singh, and Madoka Takagi.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-13T16:00:00Z",
+  "endDate": "2026-11-13T17:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-13/event/767611",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-13T16:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Celebrating the Photography of&nbsp; Asian & Asian American Artists"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Celebrating the Photography of&nbsp; Asian & Asian American Artists",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-13/event/767611"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Genre Painter Shares His Latest Monograph (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278560_0.jpg",
+  "description": "Doron Langberg to celebrates their&nbsp;book featuring more than 100 paintings spanning ten years of artistic practice. They will be in conversation with Gaby Collins-Fern&aacute;ndez, followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-13T23:00:00Z",
+  "endDate": "2026-11-14T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-13/event/768448",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-13T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Genre Painter Shares His Latest Monograph (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Genre Painter Shares His Latest Monograph (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-13/event/768448"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Industry Professionals Discuss How&nbsp;They Cultivate Sustainable Ecosystems for Filmmakers",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10001",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278914_0.jpg",
+  "description": "An engaging panel of filmmakers&nbsp;on navigating the tumultuous and changing landscape of entertainment to support filmmakers, artists, and creators.Panelists:Cassie Bradley (Creative Director, Impact Lounge)Brenda Vongova (President, UN Movie Society)Anuj Gupta (Founder & Managing Partner, WADR Law Firm)Sola Fasehun (Founder & Literary Manager, The Distribution Collective/TDC)Mehar Gujral (Producer, Gigantic Studios)Jodi Johnson (Founder, Thought Projectors Studio)Moderator: Jacqueline Pereda, on behalf of Latino Filmmakers Network/LFN",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-13T23:00:00Z",
+  "endDate": "2026-11-14T03:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-13/event/769144",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-13T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Industry Professionals Discuss How&nbsp;They Cultivate Sustainable Ecosystems for Filmmakers"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Industry Professionals Discuss How&nbsp;They Cultivate Sustainable Ecosystems for Filmmakers",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-13/event/769144"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Bilingual Conversation with Theater-Maker&nbsp;Carolina Cuervo",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10002",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277828_0.jpg",
+  "description": "An intimate conversation exploring&nbsp;the artist's work as a writer, playwright, screenwriter, showrunner, and creative artist.In conversation with Martha Schreiner, Carolina will take the audience behind the scenes of her work - from the first spark of an idea to developing characters, writing for theater and screen, collaborating with other artists, and navigating a career built around storytelling. This is not a masterclass or workshop. It&rsquo;s a TALK. A chance to hear directly from an artist about her body of work, her experiences, her creative process &mdash; and the stories behind the stories.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-14T16:00:00Z",
+  "endDate": "2026-11-14T18:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/766978",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-14T16:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Bilingual Conversation with Theater-Maker&nbsp;Carolina Cuervo"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Bilingual Conversation with Theater-Maker&nbsp;Carolina Cuervo",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/766978"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Celebrating the Photography of&nbsp; Asian & Asian American Artists",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10018",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278200_0.jpg",
+  "description": "A deep dive into the diverse voices shaping contemporary photography. This class highlights the Photography Collection's rich holdings of Asian and Asian American artists, offering a rare opportunity to study these compelling works up close.&nbsp;The group&nbsp;will explore themes of memory, identity, and artistic innovation through the lenses of artists such as Binh Danh, Thomas Holton, Michael Jang, Dayanita Singh, and Madoka Takagi.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-14T16:00:00Z",
+  "endDate": "2026-11-14T17:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/767647",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-14T16:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Celebrating the Photography of&nbsp; Asian & Asian American Artists"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Celebrating the Photography of&nbsp; Asian & Asian American Artists",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/767647"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Conference in a Landmark Art Museum: Artistic Representations of the Body & Fashion",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10028",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277405_0.jpg",
+  "description": "Dive deep into themes found in the exhibition Costume Art through dynamic conversations and presentations by leading scholars, designers, artists, models, and more. Explore the indivisible connection between clothing and the body, and the complex interplay between artistic representations of the body and fashion as an embodied art form.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-14T16:00:00Z",
+  "endDate": "2026-11-14T22:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Symposium",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-symposium/2026-11-14/event/765997",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-14T16:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Conference in a Landmark Art Museum: Artistic Representations of the Body & Fashion"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Conference in a Landmark Art Museum: Artistic Representations of the Body & Fashion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-symposium/2026-11-14/event/765997"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Actors from Chicago Fire, FBI, & Law & Order Discuss Their Franchises & the Future of Network TV (+ Reception)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10023",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/132733_0.jpg",
+  "description": "Hanako Greensmith, Zeeko Zaki, and David Ajala have a discussion on carrying forward the legacy of Wolf Entertainment's iconic franchises. From creating memorable characters to bringing new energy to beloved series, these stars will share how they're helping shape the next generation of television heroes.NBCUniversal Reception to follow immediately after the Panel. Complimentary refreshments from 1:00pm-3:00pm.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-14T17:00:00Z",
+  "endDate": "2026-11-14T20:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/767365",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-14T17:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Actors from Chicago Fire, FBI, & Law & Order Discuss Their Franchises & the Future of Network TV (+ Reception)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Actors from Chicago Fire, FBI, & Law & Order Discuss Their Franchises & the Future of Network TV (+ Reception)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/767365"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Death Cafe Discussion Group",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/132727_0.jpg",
+  "description": "An informal, group-directed discussion of death with no agenda, objectives or themes. The purpose of Death Cafe is \"to increase awareness of death with a view to helping people make the most of their (finite) lives.\" This is a discussion group rather than a grief support or counseling session.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-14T20:30:00Z",
+  "endDate": "2026-11-14T21:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/765289",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-14T20:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Death Cafe Discussion Group"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Death Cafe Discussion Group",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-14/event/765289"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Book Discussion:&nbsp;Moon of the Cursed Snow&nbsp;by&nbsp;Waubgeshig Rice",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/276943_0.jpg",
+  "description": "Readers who enjoy horror and other dark literature&nbsp;are welcome to this in-person discussion. This meeting focuses on Moon of the Crusted Snow by Waubgeshig Rice.&nbsp;This month&rsquo;s theme is: Native American Heritage.&nbsp;Moon of the Crusted Snow was originally published in 2018. With winter looming, a small northern Anishinaabe community goes dark. Cut off, people become passive and confused. Panic builds as the food supply dwindles. While the band council and a pocket of community members struggle to maintain order, an unexpected visitor arrives, escaping the crumbling society to the south. Soon after, others follow.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-16T23:30:00Z",
+  "endDate": "2026-11-17T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Club",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-16/event/765295",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-16T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Book Discussion:&nbsp;Moon of the Cursed Snow&nbsp;by&nbsp;Waubgeshig Rice"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Book Discussion:&nbsp;Moon of the Cursed Snow&nbsp;by&nbsp;Waubgeshig Rice",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-16/event/765295"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Hospitality Mogul Danny Meyer Shares Insights on Culture, Cuisine and Lasting Success",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277171_0.jpg",
+  "description": "Restaurateur Danny Meyer -- founder and owner of Union Square Cafe, Gramercy Tavern and the Shake Shack empire, among others -- has a conversation about his new book, What Could Possibly Go Right? Nearly twenty years after his bestselling book Setting the Table introduced the world to \"Enlightened Hospitality,\" Meyer returns with an honest, hard-won account of building a culture that scales -- through growth, setbacks, reinvention, and change. From a single burger kiosk called Shake Shack to a global company spanning 700 businesses in twenty-four countries, Meyer explains the mantras and leadership principles (Don't F'ing Settle, Change Your Grip, and Think Like a Winemaker) that have guided him. Come hear one of hospitality's great minds share how culture -- not just cuisine -- is what keeps people coming back.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-16T23:30:00Z",
+  "endDate": "2026-11-17T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-16/event/765697",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-16T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Hospitality Mogul Danny Meyer Shares Insights on Culture, Cuisine and Lasting Success"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Hospitality Mogul Danny Meyer Shares Insights on Culture, Cuisine and Lasting Success",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-16/event/765697"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Architects Discuss Their New Book on a Historic Structure (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278563_0.jpg",
+  "description": "A conversation with Sean E. Sawyer, President, The Olana Partnership, and Thomas L. Woltz, Principal, Nelson Byrd Woltz Landscape Architects, to celebrate the new book, OLANA: Frederic Church's Vision of Art and Landscape, timed with the 200th anniversary celebration of Church's birth. Sawyer and Woltz will be in conversation with freelance design journalist Ian Volner, followed by a book signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-17T23:00:00Z",
+  "endDate": "2026-11-18T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-17/event/768451",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-17T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Architects Discuss Their New Book on a Historic Structure (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Architects Discuss Their New Book on a Historic Structure (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-17/event/768451"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Art Scholars Discuss Newfound Recognition for 19th Century Women Artists",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10001",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278374_0.jpg",
+  "description": "A conversation about the women artists omitted from the dominant narrative of American landscape painting, and how artists, institutions, and scholars are reframing that history to bring visibility to long-overlooked women landscapists today.Artist Anna Plesset, scholar and art dealer Jennifer Krieger, and John Murphy from the Frances Lehman Loeb Art Center at Vassar College discuss these historical omissions and how institutions are giving these artists long-overdue recognition in a conversation moderated by Kate Menconeri.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-17T23:00:00Z",
+  "endDate": "2026-11-18T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-17/event/767905",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-17T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Art Scholars Discuss Newfound Recognition for 19th Century Women Artists"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Art Scholars Discuss Newfound Recognition for 19th Century Women Artists",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-17/event/767905"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "McSweeney's-Featured Writer Discusses Her New Book,&nbsp;Tiger's Mouth",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10013",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278701_0.jpg",
+  "description": "Lucy Tan in conversation with Joanne Kwong.&nbsp;About the Book;&nbsp;When two young men meet during a tech internship, it sparks an intense friendship&mdash;and even more intense competition&mdash;in this sweeping novel of privilege, identity, and ambition from the acclaimed author of What We Were Promised.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-17T23:30:00Z",
+  "endDate": "2026-11-18T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-17/event/768670",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-17T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "McSweeney's-Featured Writer Discusses Her New Book,&nbsp;Tiger's Mouth"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "McSweeney's-Featured Writer Discusses Her New Book,&nbsp;Tiger's Mouth",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-17/event/768670"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Book Launch:&nbsp;Between the River and the Railroad Tracks by Nicole R. Fleetwood (with Hanif Abdurraqib)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278449_0.jpg",
+  "description": "&nbsp;A special evening moderated by&nbsp;Hanif Abdurraqib, marking a celebration and conversation with Fleetwood, an NYPL Fellow, about family, place, memory, and history. In her debut memoir,&nbsp;Between the River and the Railroad Tracks, MacArthur Fellow Fleetwood&nbsp;weaves a multigenerational family story into a neighborhood&rsquo;s history, illuminating the often-overlooked Black Midwest.Following the public launch conversation, a book reception with the author will be accessible for all, with a copy of the book.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-17T23:30:00Z",
+  "endDate": "2026-11-18T02:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-17/event/768313",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-17T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Book Launch:&nbsp;Between the River and the Railroad Tracks by Nicole R. Fleetwood (with Hanif Abdurraqib)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Book Launch:&nbsp;Between the River and the Railroad Tracks by Nicole R. Fleetwood (with Hanif Abdurraqib)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-17/event/768313"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Contemporary Artist Discusses His New Exhibition & Approach",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278578_0.jpg",
+  "description": "Artist Tammam Azzam joins curator Saria AlMidani for a conversation about his artistic practice and A Horizon Remains. Together, they discuss the development of his work, his approach to painting, and the ideas and artistic influences behind the exhibition.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-17T23:30:00Z",
+  "endDate": "2026-11-18T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-17/event/768466",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-17T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Contemporary Artist Discusses His New Exhibition & Approach"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Contemporary Artist Discusses His New Exhibition & Approach",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-17/event/768466"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Artistic Director of Jazz Tap Ensemble Discusses the Craft & Its&nbsp;History (In Person AND Online!)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10023",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278242_0.jpg",
+  "description": "Lynn Dally tells the story of a unique collaboration between the Jazz Tap Ensemble and the legendary tap artist, Jimmy Slyde. Opening with Slyde&rsquo;s solo appearance as Guest Artist with the JTE at the Joyce in 1992 and complimented by Jerome Robbins Dance Division footage from Le Cave (midtown NY), Black and Blue (Broadway), and other sources, Dally will share rehearsal footage of Slyde, Dally, and young Derick Grant in Boston, along with Ensemble footage in LA, revealing how the piece Interplay was created from Slyde&rsquo;s &ldquo;motifs&rdquo; for the 1995 Joyce premiere, and how Slyde&rsquo;s vision of Interplay evolved in the JTE touring repertory for over a decade.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-18T18:00:00Z",
+  "endDate": "2026-11-18T19:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-18/event/767710",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-18T18:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Artistic Director of Jazz Tap Ensemble Discusses the Craft & Its&nbsp;History (In Person AND Online!)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Artistic Director of Jazz Tap Ensemble Discusses the Craft & Its&nbsp;History (In Person AND Online!)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-18/event/767710"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Artist Panel on the Creative Process",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10021",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278791_0.jpg",
+  "description": "What happens between the first idea and the finished piece? Hear from the makers, ask questions, and discover their creative processes. Agathe Saint Girons, Anneli Tammik, Lucie Houdkov&aacute;, Arouge, and Marty Ornish discuss their creative journeys in a conversation hosted by Lisa M. Berman, curator of Catalyst for Conversation.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-18T19:00:00Z",
+  "endDate": "2026-11-18T21:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-18/event/768823",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-18T19:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Artist Panel on the Creative Process"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Artist Panel on the Creative Process",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-18/event/768823"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Novella Discussion: Recent Novel by Award-Winning Author",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278689_0.jpg",
+  "description": "At this book club session, the group will discuss Olga Ravn's 2025 book, The Wax Child, translated from Danish by Martin Aitken.In seventeenth-century Denmark, Christenze Kruckow, an unmarried noblewoman, is accused of witchcraft. She and several other women are rumored to be possessed by the Devil, who has come to them in the form of a tall headless man and gives them dark powers: they can steal people's happiness, they have performed unchristian acts, and they can cause pestilence or even death. They are all in danger of the stake. The Wax Child, narrated by a wax doll created by Christenze Kruckow, is an unsettling horror story about brutality and power, nature and witchcraft, set in the fragile communities of premodern Europe.&nbsp;Deeply researched and steeped in visceral, atmospheric detail, The Wax Child is based on a series of real witchcraft trials that took place in Northern Jutland in the seventeenth century. Full of lush storytelling and alarmingly rich imagination, Olga Ravn weaves in quotes from original sources such as letters, magical spells and manuals, court documents, and Scandinavian grimoires.&nbsp;",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-18T21:30:00Z",
+  "endDate": "2026-11-18T22:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Club",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-18/event/768643",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-18T21:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Novella Discussion: Recent Novel by Award-Winning Author"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Novella Discussion: Recent Novel by Award-Winning Author",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-18/event/768643"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Filmmaker Shares Her New Book, Bountiful: Growing Up with Geraldine Page (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278566_0.jpg",
+  "description": "Angelica Page reflects on her mother, Oscar Award-winning film and stage actress Geraldine Page. She will be in conversation with F. Murray Abraham, followed by a signing.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-18T23:00:00Z",
+  "endDate": "2026-11-19T00:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-18/event/768454",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-18T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Filmmaker Shares Her New Book, Bountiful: Growing Up with Geraldine Page (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Filmmaker Shares Her New Book, Bountiful: Growing Up with Geraldine Page (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-18/event/768454"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Quiet Reading Meet Up",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/246838_0.jpg",
+  "description": "Bring a book or check one out of the library to read to yourself for one hour. After that, spend an hour socializing with those around you!",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-18T23:00:00Z",
+  "endDate": "2026-11-19T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-18/event/768634",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-18T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Quiet Reading Meet Up"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Quiet Reading Meet Up",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-18/event/768634"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "A Postwar German Literary Masterpiece Rediscovered: Translator & Novelest Discuss",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278581_0.jpg",
+  "description": "Illusions' translator Rob Madole joins&nbsp;writer Megan Nolan for a conversation about this book.Upon publication, critics were baffled by author Ruth Rehmann's frank treatment of sexuality&mdash;mistaking it for frivolousness&mdash;and faulted her style for &ldquo;an excess of contemporaneity.&rdquo; Read today, its focus on the poverty of human connection within an abundant and stubbornly traditional society feels shockingly prescient.&nbsp;Illusions follows four employees of the Wellis Corporation over one unsatisfactory weekend: grey-haired secretary Frau Schramm, frustrated translator Paul Westermann, fadingly glamorous Carmen Viol, and restless young assistant Therese Pfeiffer. Narrated in a prismatic, stream-of-consciousness style that jumps fluidly among characters, the book offers a portrait of the claustrophobic tension beneath postwar capitalism. Originally published by Suhrkamp in 1959 during West Germany's \"economic miracle,\" Illusions incisively examines a regime attempting to slough off its Nazi past through a zealous drive to modernize and a rhetoric of material abundance.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-19T23:30:00Z",
+  "endDate": "2026-11-20T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-19/event/768469",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-19T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "A Postwar German Literary Masterpiece Rediscovered: Translator & Novelest Discuss"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "A Postwar German Literary Masterpiece Rediscovered: Translator & Novelest Discuss",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-19/event/768469"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Johns Hopkins Bioethics Researchers Discuss Advances in Reproductive Technology",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/276958_0.jpg",
+  "description": "Speakers explore the promises, risks, and societal implications of a technology that could reshape the future of human reproduction. What if ordinary skin cells could be transformed into eggs or sperm? Scientists are exploring in vitro gametogenesis (IVG), a technology that could expand reproductive options while raising profound ethical questions.&nbsp;Jeffrey Kahn, PhD, MPH&nbsp;is the Andreas C. Dracopoulos Director of the Johns Hopkins Berman Institute of Bioethics and the Levi Professor of Bioethics and Public Policy. His work focuses on the ethics of research, ethics and public health including global health, and ethics and emerging biomedical technologies. He speaks widely in the US and abroad, has published five books and over 160 articles, and is a member of the National Academy of Medicine. Anna Mastroianni, JD, MPH, is Research Professor in Bioethics and Law at the Johns Hopkins Berman Institute of Bioethics. Her scholarship explores complex issues at the intersection of law, bioethics, public health, and health policy, with a particular focus on the challenges of research in pregnancy, genetic technologies, and family building through assisted reproductive technologies. She has published widely across these areas and is recognized for her contributions to major debates in bioethics and public policy.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-19T23:30:00Z",
+  "endDate": "2026-11-20T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-19/event/765325",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-19T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Johns Hopkins Bioethics Researchers Discuss Advances in Reproductive Technology"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Johns Hopkins Bioethics Researchers Discuss Advances in Reproductive Technology",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-discussion/2026-11-19/event/765325"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Luddite Book Club: The Last Human Job by&nbsp;Allison Pugh",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/276955_0.jpg",
+  "description": "Offline Book Club is a space for in-person conversation about the role technology plays in our world. This month's pick: The Last Human Job: The Work of Connecting in a Disconnected World by Allison Pugh (2024).About the Book: Reveals connective labor as a particular kind of mutual recognition of each other's humanity, essential in so many professional relationships, whether teacher-student, coach-player, or doctor-patient. Questions whether this work can ever be replaced using &ldquo;AI&rdquo;.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-19T23:30:00Z",
+  "endDate": "2026-11-20T00:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Club",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-19/event/765322",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-19T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Luddite Book Club: The Last Human Job by&nbsp;Allison Pugh"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Luddite Book Club: The Last Human Job by&nbsp;Allison Pugh",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-19/event/765322"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Electric Literature-Featured Writer Shares Her New Short Story Collection,&nbsp;Hot Fruit",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10013",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278704_0.jpg",
+  "description": "Erinrose Mage in conversation with&nbsp;Jesse Jae Hoon.About the book:&nbsp;Strange and incantatory, Erinrose Mager's debut collection Hot Fruit investigates the longing for self, the longing for another, and the longing for connection between the self and another when the other is inherently unknowable.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-20T00:00:00Z",
+  "endDate": "2026-11-20T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-19/event/768673",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-20T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Electric Literature-Featured Writer Shares Her New Short Story Collection,&nbsp;Hot Fruit"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Electric Literature-Featured Writer Shares Her New Short Story Collection,&nbsp;Hot Fruit",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-19/event/768673"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Historical Geographer Discusses What Has&nbsp;Influenced NYC&rsquo;s Culture&nbsp;&&nbsp;Identity",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10018",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/246847_0.jpg",
+  "description": "Rashad Shabazz traces how New York City evolved from its Dutch origins to the rise of hip-hop in the South Bronx. As part of his ongoing research for a book in progress, Shabazz, associate professor in the School of Social Transformation at Arizona State University, examines how figures such as Peter Stuyvesant, John Randel Jr., and Robert Moses transformed New York City through major urban planning projects. Shabazz considers the lasting impact of these choices, including how the Cross Bronx Expressway disrupted poor Black and Puerto Rican neighborhoods in the South Bronx while unintentionally creating the conditions from which hip-hop emerged.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-20T19:00:00Z",
+  "endDate": "2026-11-20T20:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-20/event/769141",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-20T19:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Historical Geographer Discusses What Has&nbsp;Influenced NYC&rsquo;s Culture&nbsp;&&nbsp;Identity"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Historical Geographer Discusses What Has&nbsp;Influenced NYC&rsquo;s Culture&nbsp;&&nbsp;Identity",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-20/event/769141"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Reading & Discussing&nbsp;Dealing With the Dead by Alain Mabanckou",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10016",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/276964_0.jpg",
+  "description": "This book club will be reading and discussing a fiction book set in a new country every month, with a high priority on reading books in translation that are written by authors from the countries&nbsp;the group is&nbsp;visiting. This month: Congo.&nbsp;Dealing With the Dead&nbsp;by Alain Mabanckou, translated from French by Helen Stevenson!About the book: Abruptly deceased at the age of twenty-four and trapped forever in flared purple trousers, Liwa Ekimakinga&iuml; encounters the other residents of Fr&egrave;re Lachaise cemetery, all of whom have their own complex stories of life and death.&nbsp; Unwilling to relinquish their tender bond, Liwa makes his way back home to Pointe-Noire to see his devoted grandmother one last time, against all spectral advice. But disturbing rumours swirl together with Liwa's jumbled memories of his last night on earth, leading him to pursue the riddle of his own untimely demise.&nbsp;A phantasmagorical tale of ambition, community and forces beyond human control,&nbsp;Dealing with the Dead&nbsp;is a scathing satire on corruption and political violence by one of the foremost chroniclers of modern Central Africa.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-20T21:30:00Z",
+  "endDate": "2026-11-20T22:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Club",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-20/event/765337",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-20T21:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Reading & Discussing&nbsp;Dealing With the Dead by Alain Mabanckou"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Reading & Discussing&nbsp;Dealing With the Dead by Alain Mabanckou",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-20/event/765337"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Artist Shares Her New Nonfiction Book of Artistic Musings (+ Signing)",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10010",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/278803_0.jpg",
+  "description": "A&nbsp;conversation between Jarrett Earnest, host of Private Life, The New York Review of Books podcast, and Celia Paul to celebrate Paul&rsquo;s new book, Objects of Desire: An Artist in Venice.Alone in Venice for an artist's residency, Celia Paul began keeping an ongoing record of her painting. Objects of Desire is a mesmerizing account of her perceptions in La Serenissima and of her preoccupations there: female desire and love, mortality, and memory. The book is a radiant record of a life devoted to art, a profound portrait of an artist who longs to confront herself and who invites the reader to do the same. After the talk, Celia Paul will sign copies of her book.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-20T23:00:00Z",
+  "endDate": "2026-11-21T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-20/event/768844",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-20T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Artist Shares Her New Nonfiction Book of Artistic Musings (+ Signing)"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Artist Shares Her New Nonfiction Book of Artistic Musings (+ Signing)",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-20/event/768844"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Fashion Museum Curator Discusses the Relationship between Dolls & Fashion",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277174_0.jpg",
+  "description": "As early as the fourteenth century, dolls circulated throughout Europe as miniature fashion models, showcasing the latest trends in three-dimensional detail. The first models for many aspiring creatives, dolls have inspired fashion designers from Marc Jacobs to Anna Sui. Dr. Colleen Hill, curator of The Museum at FIT&rsquo;s exhibition \"Doll Dressing\" and author of the companion book,&nbsp;provides an in-depth look at the often unexpected relationship between dolls and fashion. Hill is senior curator of costume at The Museum at the Fashion Institute of Technology. Since joining FIT, Colleen has curated 20 exhibitions, including \"Fashioning Wonder: A Cabinet of Curiosities\" (2025), and \"Shoes: Anatomy, Identity, Magic\" (2022). She has authored or co-authored nine books on fashion.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-21T00:00:00Z",
+  "endDate": "2026-11-21T01:30:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-20/event/765700",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-21T00:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Fashion Museum Curator Discusses the Relationship between Dolls & Fashion"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Fashion Museum Curator Discusses the Relationship between Dolls & Fashion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-20/event/765700"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Discuss Your Favorite Romance Books with Fellow Readers",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10022",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/272080_0.jpg",
+  "description": "If you love romance or want to get into it, you're welcome at this romance book club!&nbsp;Attendees will be discussing&nbsp;their favorite romance books, current reads, and more!",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-21T16:00:00Z",
+  "endDate": "2026-11-21T16:45:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Club",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-21/event/765010",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-21T16:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Discuss Your Favorite Romance Books with Fellow Readers"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Discuss Your Favorite Romance Books with Fellow Readers",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-club/2026-11-21/event/765010"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Puppetry Arts Expert Discusses the Legacy of Designer & Puppeteer Tony Sarg&nbsp;",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277177_0.jpg",
+  "description": "The Macy&rsquo;s Thanksgiving Day Parade is one of the world&rsquo;s biggest theatrical events and always an event characterized by iconic 100-foot balloons, whimsical floats, and character costumes that act as the ultimate street theater. The parade we know today &mdash;and what the whole world tunes into to see&mdash;was the vision of Tony Sarg, a prolific toy designer, illustrator, and puppeteer who served as the first creative director for the Macy&rsquo;s event. The charismatic Darin Johnson, Artistic Director of the American Theater for Puppetry Arts, and a Tony Sarg scholar, reveals the creative life of Sarg in an evening of storytelling, historic photos, and even a thrilling, live marionette demonstration. Come meet Johnson as he relates the life of a man who changed the meaning of Thanksgiving, and revel in the joy and drama that puppets can convey.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-23T23:30:00Z",
+  "endDate": "2026-11-24T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Talk",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-23/event/765703",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-23T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Puppetry Arts Expert Discusses the Legacy of Designer & Puppeteer Tony Sarg&nbsp;"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Puppetry Arts Expert Discusses the Legacy of Designer & Puppeteer Tony Sarg&nbsp;",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talk/2026-11-23/event/765703"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "name": "Archeology Scholar Discusses Preserving Significant Terrains & Indigenous Ancestral Homelands",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10003",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/277180_0.jpg",
+  "description": "This lecture by Brian Daniels of the University of Pennsylvania and President of the Archaeological Institute of America focuses on the Shasta Indian Nation, documenting the Kikaceki traditional cultural landscapes. It demonstrates vital historic links between the Tribe and its ancestral homeland. Native American tribes and archaeologists share a common interest in preserving significant terrains. Following negotiations with the State of California in 2024, Governor Gavin Newsom agreed that Kikaceki&rsquo;s 2,820 acres would be returned. This includes places sacred to the Shasta, serving as a reminder to maintain this territory for both its people and for future generations.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-24T23:30:00Z",
+  "endDate": "2026-11-25T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Lecture",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-lecture/2026-11-24/event/765706",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-24T23:30:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Archeology Scholar Discusses Preserving Significant Terrains & Indigenous Ancestral Homelands"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Archeology Scholar Discusses Preserving Significant Terrains & Indigenous Ancestral Homelands",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-lecture/2026-11-24/event/765706"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Quiet Reading Meet Up",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10011",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/246838_0.jpg",
+  "description": "Bring a book or check one out of the library to read to yourself for one hour. After that, spend an hour socializing with those around you!",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-25T23:00:00Z",
+  "endDate": "2026-11-26T01:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-25/event/768637",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-25T23:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Quiet Reading Meet Up"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Quiet Reading Meet Up",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-25/event/768637"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "LiteraryEvent",
+  "name": "Guided Poetry Discussion Group&nbsp;",
+  "location": {
+   "@type": "Place",
+   "name": "New York City ( NYC )",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "New York",
+    "postalCode": "10282",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+   }
+  },
+  "image": "https://www.clubfreetime.com/image_cache/99781_0.jpg",
+  "description": "Love reading poetry but wish you had someone to discuss it with?&nbsp;This event features an hour of guided poetry reading and discussion in the library.&nbsp;Take in the views of the Hudson River as the group chats about&nbsp;poems new and old, classic and cutting-edge. Staff will provide poems for discussion, but contributions from participants are always welcome.&nbsp;&nbsp;A&nbsp;staff member will lead a discussion about a set of poems.",
+  "isAccessibleForFree": true,
+  "startDate": "2026-11-28T17:00:00Z",
+  "endDate": "2026-11-28T18:00:00Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+   "@type": "Offer",
+   "category": "Book Discussion",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-28/event/766921",
+   "price": "0.00",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "validFrom": "2026-11-28T17:00:00Z"
+  },
+  "performer": {
+   "@type": "PerformingGroup",
+   "name": "Guided Poetry Discussion Group&nbsp;"
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Guided Poetry Discussion Group&nbsp;",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-book-discussion/2026-11-28/event/766921"
+  }
+ }
+]

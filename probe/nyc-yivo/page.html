@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta whichsite=".ORG">
+    
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	
+	<!-- site icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://yivo.org/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://yivo.org/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://yivo.org/favicon-16x16.png?v=2">
+    <link rel="manifest" href="https://yivo.org/site.webmanifest?v=2">
+    
+	
+	<link rel='stylesheet' type='text/css' href='/css/allcss.css?cfs[]=colorbox&cfs[]=decsslite&cfs[]=decss&v=1742586581' media='print' onload='this.media="all"'><script src='/scripts/jquery3.min.js' type='text/javascript'></script><script src='/scripts/jquery.colorbox-min.js' type='text/javascript'></script><script src='/scripts/dejs.js' type='text/javascript'></script><script type='text/javascript'>
+     $(document).ready(function(){
+         $('article a[href*="//"]').not('[href*="yivo.org"]').each(function(){
+             if(!$(this).hasClass('button') && $(this).text()!='')
+             {
+                 $(this).attr('target', '_blank');
+                 $(this).attr('rel', 'noopener');
+             }
+         });
+         
+         $('a').has('img').each(function(){
+            $(this).addClass('plain');
+         });  
+         
+         $(document).on('cbox_complete', function(){
+            $('#cboxClose').remove();
+          $('#colorbox').append('<button id="cboxClose" type="button" onClick="$.colorbox.close();">close this</button>');
+        });
+        
+        
+        
+        
+         
+     });
+     
+     $(window).on('load', function(){
+     	var toastw=$('.socialtoast').width() - 90;
+        //console.log($('.socialtoast').width());
+        
+        $('.socialtoast').css('left', 'calc(50% - ' + toastw + 'px)');
+     });
+     
+    </script>
+    <base target='_parent'>
+	<title>Calendar of Events | YIVO Institute for Jewish Research</title>	
+	
+	<meta property="fb:pages" content="197321186967584" />
+	<meta property="og:title" content="Calendar of Events | YIVO Institute for Jewish Research">
+	<meta property="og:site_name" content="YIVO Institute for Jewish Research">
+	<meta property="og:url" content="https://yivo.org/Calendar?show=evs">
+		<meta property="og:description" content=" Find out about upcoming YIVO programs and view a video &amp;amp; audio archive of past events.
+">
+	<meta name="Description" content=" Find out about upcoming YIVO programs and view a video &amp;amp; audio archive of past events.
+">
+		<meta property="og:image" content="https://yivo.org/cimages/20150910224428_p796178408-5.jpeg"></head>	
+
+<body id="Calendar?show=evs" class=" sub5654 id5653  Programs?show=evs subpage newsite  nosubdomain newAWS" >
+
+
+<!-- Google Tag Manager (noscript)  as per Alix 3/31/2017 -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNNH9B3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script>
+$(document).ready(function(){
+	if ( window.location !== window.parent.location ) {
+	  //console.log('The page is in an iframe');
+	  $('header li.withsub ul').css('display', 'none');
+	} else {
+	  //console.log('The page is not in an iframe');
+	}
+});
+</script>
+
+<style>
+
+
+#draftonly, #delonly {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px #fff;
+   font-size: 12px;
+bottom: 100px;
+width: 140px;
+    z-index: 9999999999999;
+    pointer-events: none;
+}
+
+#previewonly
+{
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 1em;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px #fff;
+    z-index: 9999999999999;
+    pointer-events: none;
+    font-size: 12px;
+bottom: 200px;
+width: 140px;
+}
+.sdheadlink.uk {
+
+}
+.uk + .logoplus .sdlogo {
+    position: absolute;
+    left: auto;
+    top: 0;
+    margin-left: 10px;
+}
+
+</style><header>
+
+<div class="topnavstack1">
+
+
+	<div class='logoetc'>
+		
+				
+				
+		
+		
+		<a href='/' class=logo>
+			<svg viewBox="0 0 216 23.83" xmlns="http://www.w3.org/2000/svg" height=60><path d="m14.08 0-9.11 7.39-3.73-7.39zm2.03 0-10.55 8.56 6.84 13.55 4.76-22.11zm-4.28 23.83-7.28-14.44-4.55 3.69v6.83h5.97c.46-.02.89.13 1.19.43.27.26.42.61.42.97v2.53h4.25zm-7.87-15.61-3.96-7.84v11.05zm19.87-.19v15.79h-10.48l5.12-23.82h2.87l-4.52 15.72 1.23.35 4.62-16.07h1.15v4.42l-4.56 12.02 1.2.45 3.36-8.86zm-6.28 9.49c0-.36-.29-.65-.65-.65s-.65.29-.65.65.29.65.65.65.65-.29.65-.65zm-11.25 3.78s0-.02-.03-.04c-.02-.02-.1-.08-.28-.07h-5.99v2.64h6.3z" fill="#bc8d2d"/><path d="m34.3 3.43 1.51 2.7 1.51-2.7h1.59l-2.4 4.04v2.55h-1.41v-2.55l-2.39-4.04h1.58zm5.73 6.59v-6.59h1.41v6.59zm5.88.1h-.05l-3.25-6.69h1.54l.86 1.9c.34.76.64 1.41.87 2.05.19-.47.59-1.4.89-2.05l.86-1.9h1.53l-3.24 6.69zm7.09-6.81c1.99 0 3.45 1.52 3.45 3.42s-1.46 3.42-3.45 3.42-3.45-1.5-3.45-3.42 1.46-3.42 3.45-3.42zm0 5.55c1.19 0 2.03-.95 2.03-2.13s-.84-2.13-2.03-2.13-2.03.96-2.03 2.13.84 2.13 2.03 2.13zm8.19 1.16v-6.59h1.41v6.59zm8.81.1-3.62-3.47-.43-.38v3.74h-1.38v-6.68h.05l3.61 3.47.42.38v-3.74h1.39v6.69h-.05zm1.83-.34v-1.35c.46.24 1.06.44 1.66.48.21 0 .41 0 .59-.04.5-.07.8-.27.8-.59 0-.44-.39-.67-1.3-1-1.15-.42-1.83-.91-1.83-2.05s.97-1.92 2.39-1.92c.66 0 1.31.15 1.72.33v1.3c-.38-.23-1.01-.4-1.61-.4-.68 0-1.12.27-1.12.69 0 .38.36.65 1.25.99 1.15.45 1.87.93 1.87 2.04 0 1.19-.9 1.9-2.45 1.9-.75 0-1.48-.16-1.96-.38zm8.51-5.17v5.41h-1.41v-5.41h-1.84v-1.18h5.1v1.18zm3.14 5.41v-6.59h1.41v6.59zm5.92-5.41v5.41h-1.41v-5.41h-1.84v-1.18h5.1v1.18zm8.61 3.02c0 1.54-1.02 2.53-2.76 2.53s-2.76-.99-2.76-2.53v-4.2h1.41v4.06c0 .86.49 1.37 1.35 1.37s1.35-.51 1.35-1.37v-4.06h1.41v4.19zm4.49-3.02v5.41h-1.41v-5.41h-1.84v-1.18h5.1v1.18zm3.13 5.41v-6.59h4.24v1.18h-2.83v1.5h2.4v1.14h-2.4v1.59h2.97v1.18zm8.69-3.69v1.38h1.58v.47h-1.58v1.84h-.55v-4.16h2.43v.47h-1.87zm4.7-.54c1.19 0 2.13.93 2.13 2.15s-.92 2.15-2.13 2.15-2.13-.93-2.13-2.15.92-2.15 2.13-2.15zm0 3.79c.9 0 1.57-.69 1.57-1.64s-.66-1.64-1.57-1.64-1.57.69-1.57 1.64.67 1.64 1.57 1.64zm4.63-3.72c.91 0 1.46.47 1.46 1.27 0 .62-.4 1.03-.85 1.17l.94 1.72h-.62l-.86-1.63h-.87v1.63h-.55v-4.16zm-.79.47v1.61h.82c.55 0 .88-.3.88-.8s-.35-.8-.92-.8h-.77zm7.8 2c0 1.16-.48 1.8-1.6 1.8-.37 0-.69-.08-.86-.18v-.8c.18.11.47.19.77.19.53 0 .81-.3.81-.86v-5.05h.88zm2.18 1.69v-6.59h4.05v.74h-3.17v2.14h2.67v.74h-2.67v2.22h3.3v.74h-4.18zm6.23-6.59 1.05 2.76c.26.67.48 1.34.64 1.82.17-.49.41-1.06.69-1.73l1.12-2.76h.02l1.12 2.76c.27.67.51 1.24.69 1.73.16-.49.38-1.15.64-1.82l1.05-2.76h.95l-2.65 6.7h-.02l-1.42-3.58c-.13-.32-.27-.68-.38-.99-.11.31-.26.68-.38.99l-1.42 3.58h-.02l-2.65-6.7h.95zm9.41 6.59v-6.59h.88v6.59zm2.72-.27v-.87c.47.23 1.14.47 1.86.47.82 0 1.44-.34 1.44-.94s-.36-.94-1.46-1.33c-1.26-.44-1.86-.98-1.86-1.99 0-1.12.93-1.77 2.2-1.77.66 0 1.27.17 1.64.34v.83c-.37-.19-1-.38-1.59-.38-.81 0-1.38.37-1.38.95 0 .54.32.92 1.45 1.32 1.26.46 1.88.97 1.88 1.96 0 1.13-.87 1.79-2.25 1.79-.76 0-1.46-.19-1.9-.38zm9.98.27v-2.97h-3.27v2.97h-.88v-6.59h.88v2.88h3.27v-2.88h.88v6.59zm8.54-6.59c1.45 0 2.32.75 2.32 2.01 0 .99-.64 1.63-1.35 1.85l1.49 2.73h-.98l-1.36-2.58h-1.37v2.58h-.88v-6.59zm-1.25.75v2.54h1.3c.87 0 1.39-.48 1.39-1.27s-.55-1.27-1.46-1.27zm5.44 5.84v-6.59h4.05v.74h-3.17v2.14h2.67v.74h-2.67v2.22h3.3v.74h-4.18zm5.51-.27v-.87c.47.23 1.14.47 1.86.47.82 0 1.44-.34 1.44-.94s-.36-.94-1.46-1.33c-1.26-.44-1.86-.98-1.86-1.99 0-1.12.93-1.77 2.2-1.77.66 0 1.27.17 1.64.34v.83c-.37-.19-1-.38-1.59-.38-.81 0-1.38.37-1.38.95 0 .54.32.92 1.45 1.32 1.26.46 1.88.97 1.88 1.96 0 1.13-.87 1.79-2.25 1.79-.76 0-1.46-.19-1.9-.38zm5.83.27v-6.59h4.05v.74h-3.17v2.14h2.67v.74h-2.67v2.22h3.3v.74h-4.18zm8.36-6.7h.02l3.04 6.7h-.93l-.65-1.46h-2.94l-.64 1.46h-.93l3.04-6.7zm1.15 4.52c-.45-1.01-.79-1.79-1.14-2.73-.37.93-.7 1.72-1.15 2.73h2.3zm5.42-4.41c1.45 0 2.32.75 2.32 2.01 0 .99-.64 1.63-1.35 1.85l1.49 2.73h-.98l-1.36-2.58h-1.37v2.58h-.88v-6.59zm-1.25.75v2.54h1.3c.87 0 1.39-.48 1.39-1.27s-.55-1.27-1.46-1.27zm10.34.45c-.43-.22-1.12-.49-1.96-.49-1.5 0-2.58 1.1-2.58 2.59s1.08 2.59 2.58 2.59c.89 0 1.57-.27 2-.49v.83c-.22.13-.96.47-2 .47-2 0-3.47-1.45-3.47-3.41s1.47-3.41 3.47-3.41c1 0 1.74.35 1.96.48v.83zm5.85 5.39v-2.97h-3.27v2.97h-.88v-6.59h.88v2.88h3.27v-2.88h.88v6.59zm-180.78 10.82h1.73v.52h-.55v1.14h-.54v-1.14h-.64zm-.71-1.7h.34c.06.13.1.33.1.59 0 .08 0 .16-.01.23h-1.32c0-.33.01-.63.04-.91s.06-.52.1-.72.1-.4.17-.57c.07-.18.14-.33.21-.44.07-.12.15-.23.25-.35s.19-.21.27-.28.18-.15.3-.25c-.38-.48-.83-.99-1.34-1.5h1.25c.7.75 1.32 1.51 1.87 2.26.3-.15.45-.57.45-1.27v-.17h-.38c0-.34.07-.62.22-.82h1.16s0 .13 0 .25v.27c0 .23-.01.43-.03.61s-.06.38-.13.6c-.06.22-.16.43-.3.63s-.32.37-.54.53c.62.84 1.08 1.55 1.38 2.15h-1.09c-.6-1.05-1.27-2.01-2.01-2.87-.28.2-.51.5-.68.89-.17.4-.26.78-.26 1.16zm6.53-4.2v5.03h-.94v-4.21h-.52v-.09c0-.1 0-.18 0-.24s.03-.13.06-.22.08-.18.15-.29h1.24zm2.87 0v5.03h-.94v-4.21h-.52v-.09c0-.1 0-.18 0-.24s.03-.13.06-.22.08-.18.15-.29h1.24zm2.07 2.76v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm.25 1.37c-.07-.06-.1-.14-.1-.24s.03-.17.1-.24.15-.1.24-.1.17.03.24.1.1.15.1.24-.03.17-.1.24c-.07.06-.15.1-.24.1s-.17-.03-.24-.1zm2.76-1.37v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm9.56-.46v.71h-3.21v-.71zm7.31-2.16c.3-.14.64-.21 1.01-.21.27 0 .52.05.73.14s.39.22.52.38.24.35.33.58.15.47.18.71c.04.25.05.52.05.81 0 .38-.05.73-.16 1.05s-.27.59-.48.83-.48.42-.82.56c-.34.13-.72.2-1.15.2-.65 0-1.18-.18-1.59-.55s-.62-.82-.62-1.37v-2.45h-.4c0-.36.08-.63.23-.82h1.14v3.28c0 .19.04.36.13.51s.19.27.33.37c.13.09.27.16.41.22s.28.09.42.1c.42 0 .77-.12 1.02-.35.26-.23.42-.52.49-.85.05-.23.08-.45.08-.67 0-1.28-.4-1.92-1.2-1.92-.05 0-.11 0-.16.01-.05 0-.1.02-.15.04-.04.02-.08.03-.12.05s-.07.03-.1.05-.05.04-.08.05c-.02.02-.04.03-.05.04h-.02s-.06-.13-.06-.38c0-.18.02-.32.06-.4zm5.4-.14v5.03h-.94v-4.21h-.52v-.09c0-.1 0-.18 0-.24s.03-.13.06-.22.08-.18.15-.29h1.24zm3.81.14c.3-.14.64-.21 1.01-.21.27 0 .52.05.73.14s.39.22.52.38.24.35.33.58.15.47.18.71c.04.25.05.52.05.81 0 .38-.05.73-.16 1.05s-.27.59-.48.83-.48.42-.82.56c-.34.13-.72.2-1.15.2-.65 0-1.18-.18-1.59-.55s-.62-.82-.62-1.37v-2.45h-.4c0-.36.08-.63.23-.82h1.14v3.28c0 .19.04.36.13.51s.19.27.33.37c.13.09.27.16.41.22s.28.09.42.1c.42 0 .77-.12 1.02-.35.26-.23.42-.52.49-.85.05-.23.08-.45.08-.67 0-1.28-.4-1.92-1.2-1.92-.05 0-.11 0-.16.01-.05 0-.1.02-.15.04-.04.02-.08.03-.12.05s-.07.03-.1.05-.05.04-.08.05c-.02.02-.04.03-.05.04h-.02s-.06-.13-.06-.38c0-.18.02-.32.06-.4zm4.42 2.62v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm4.78-2.62c.3-.14.64-.21 1.01-.21.27 0 .52.05.73.14s.39.22.52.38.24.35.33.58.15.47.18.71c.04.25.05.52.05.81 0 .38-.05.73-.16 1.05s-.27.59-.48.83-.48.42-.82.56c-.34.13-.72.2-1.15.2-.65 0-1.18-.18-1.59-.55s-.62-.82-.62-1.37v-2.45h-.4c0-.36.08-.63.23-.82h1.14v3.28c0 .19.04.36.13.51s.19.27.33.37c.13.09.27.16.41.22s.28.09.42.1c.42 0 .77-.12 1.02-.35.26-.23.42-.52.49-.85.05-.23.08-.45.08-.67 0-1.28-.4-1.92-1.2-1.92-.05 0-.11 0-.16.01-.05 0-.1.02-.15.04-.04.02-.08.03-.12.05s-.07.03-.1.05-.05.04-.08.05c-.02.02-.04.03-.05.04h-.02s-.06-.13-.06-.38c0-.18.02-.32.06-.4zm4.44-.14h2.44c.29 0 .55.05.79.14s.46.24.66.44.35.47.47.81c.11.34.17.74.17 1.19 0 .83-.22 1.47-.65 1.92s-1.06.68-1.87.68c-.33 0-.62-.05-.89-.15s-.48-.22-.65-.38-.3-.32-.42-.51-.19-.37-.24-.54c-.04-.17-.07-.33-.07-.49v-1.92l.27-.37h-.41c.05-.35.18-.63.38-.82zm.75.82v2.3c0 .12.03.25.09.39s.14.27.24.4c.11.13.24.23.42.32.17.09.36.13.57.13.31 0 .59-.08.82-.25s.4-.38.51-.65.16-.56.16-.89c0-.3-.04-.57-.11-.8s-.17-.41-.29-.54-.25-.23-.4-.3-.3-.1-.47-.1h-1.55zm5.33-.82h.9c.31 0 .57.09.76.28s.29.5.29.92v3.83h-2.57s0-.03 0-.06 0-.05 0-.06c0-.25.09-.48.28-.7h1.35v-2.87c0-.12-.01-.22-.04-.29-.02-.07-.06-.13-.11-.16s-.1-.05-.14-.06c-.04 0-.1-.01-.17-.01h-.86c0-.29.1-.56.3-.82zm3.76 2.76v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm3.33 1.44h.34c.06.13.1.33.1.59 0 .08 0 .16-.01.23h-1.32c0-.33.01-.63.04-.91s.06-.52.1-.72.1-.4.17-.57c.07-.18.14-.33.21-.44.07-.12.15-.23.25-.35s.19-.21.27-.28.18-.15.3-.25c-.38-.48-.83-.99-1.34-1.5h1.25c.7.75 1.32 1.51 1.87 2.26.3-.15.45-.57.45-1.27v-.17h-.38c0-.34.07-.62.22-.82h1.16s0 .13 0 .25v.27c0 .23-.01.43-.03.61s-.06.38-.13.6c-.06.22-.16.43-.3.63s-.32.37-.54.53c.62.84 1.08 1.55 1.38 2.15h-1.09c-.6-1.05-1.27-2.01-2.01-2.87-.28.2-.51.5-.68.89-.17.4-.26.78-.26 1.16zm11.39-2.14c0-.37-.1-.67-.31-.9s-.48-.34-.81-.34h-1.73c-.01-.06-.02-.12-.02-.2 0-.22.07-.43.2-.63h1.51c.54 0 .95.07 1.24.21s.51.36.67.66c.1.15.16.33.19.53s.05.53.05 1v2.63h-.98v-2.97zm5.73-2.06h1.18v2.21c0 .5-.09.95-.28 1.37s-.46.73-.81.95l-3.69 1.61c-.02-.08-.03-.16-.03-.24 0-.41.14-.74.43-1l1.22-.44-.97-3.65h-.52s0-.05 0-.09c0-.13.02-.26.05-.42.04-.15.09-.26.16-.32h1.12l1.08 4.07c.07-.03.14-.06.22-.1s.19-.11.32-.2.25-.2.35-.3.19-.24.27-.4.12-.32.12-.49v-1.75h-.48v-.07c0-.13.02-.28.07-.44.04-.16.11-.27.2-.31zm2.87 0h1.8c.19 0 .38.03.57.1s.38.17.56.31.35.31.49.5.26.43.34.71c.09.28.13.58.13.9s-.04.63-.12.91-.19.52-.33.71-.3.36-.48.49c-.18.14-.37.24-.57.3s-.4.1-.61.1h-2.02s0-.04 0-.07 0-.05 0-.07c0-.23.09-.46.27-.68h1.75c.32-.07.59-.26.82-.58s.34-.7.34-1.13c0-.29-.04-.55-.13-.77-.08-.22-.2-.4-.34-.53s-.3-.22-.48-.29c-.17-.06-.36-.09-.55-.09h-1.66c-.01-.05-.02-.12-.02-.22 0-.19.08-.39.24-.61zm8.38 0h1.18v2.21c0 .5-.09.95-.28 1.37s-.46.73-.81.95l-3.69 1.61c-.02-.08-.03-.16-.03-.24 0-.41.14-.74.43-1l1.22-.44-.97-3.65h-.52s0-.05 0-.09c0-.13.02-.26.05-.42.04-.15.09-.26.16-.32h1.12l1.08 4.07c.07-.03.14-.06.22-.1s.19-.11.32-.2.25-.2.35-.3.19-.24.27-.4.12-.32.12-.49v-1.75h-.48v-.07c0-.13.02-.28.07-.44.04-.16.11-.27.2-.31zm5.46.82h-2.83v-2.09h-.48c0-.18.02-.33.05-.46.04-.13.11-.25.23-.35h1.12v2.07h2.99v.92l-1.78 4.11h-1.06l1.77-4.21zm4.82-.68c.3-.14.64-.21 1.01-.21.27 0 .52.05.73.14s.39.22.52.38.24.35.33.58.15.47.18.71c.04.25.05.52.05.81 0 .38-.05.73-.16 1.05s-.27.59-.48.83-.48.42-.82.56c-.34.13-.72.2-1.15.2-.65 0-1.18-.18-1.59-.55s-.62-.82-.62-1.37v-2.45h-.4c0-.36.08-.63.23-.82h1.14v3.28c0 .19.04.36.13.51s.19.27.33.37c.13.09.27.16.41.22s.28.09.42.1c.42 0 .77-.12 1.02-.35.26-.23.42-.52.49-.85.05-.23.08-.45.08-.67 0-1.28-.4-1.92-1.2-1.92-.05 0-.11 0-.16.01-.05 0-.1.02-.15.04-.04.02-.08.03-.12.05s-.07.03-.1.05-.05.04-.08.05c-.02.02-.04.03-.05.04h-.02s-.06-.13-.06-.38c0-.18.02-.32.06-.4zm4.14-.14h2.87c.21 0 .4.04.58.11.17.07.32.17.44.3s.22.27.31.43.16.33.21.52.08.37.11.55.03.36.03.54c0 .41-.09.82-.26 1.22-.18.4-.42.73-.73.99s-.65.39-1.01.39h-2.54c0-.38.07-.65.21-.82h2.2c.29 0 .56-.17.81-.52s.37-.78.37-1.29c0-.46-.08-.84-.24-1.13-.16-.3-.4-.44-.71-.44h-1.67v1.14c.09.27.24.41.46.41.05 0 .12 0 .21-.02.09-.01.15-.02.17-.03.04.08.06.17.06.26 0 .08-.02.18-.06.3-.21.05-.41.07-.59.07-.64 0-1.05-.32-1.22-.95v-2.01zm2.84-1.14h-2.02v-.69h2.02zm3.75 5.34h.34c.06.13.1.33.1.59 0 .08 0 .16-.01.23h-1.32c0-.33.01-.63.04-.91s.06-.52.1-.72.1-.4.17-.57c.07-.18.14-.33.21-.44.07-.12.15-.23.25-.35s.19-.21.27-.28.18-.15.3-.25c-.38-.48-.83-.99-1.34-1.5h1.25c.7.75 1.32 1.51 1.87 2.26.3-.15.45-.57.45-1.27v-.17h-.38c0-.34.07-.62.22-.82h1.16s0 .13 0 .25v.27c0 .23-.01.43-.03.61s-.06.38-.13.6c-.06.22-.16.43-.3.63s-.32.37-.54.53c.62.84 1.08 1.55 1.38 2.15h-1.09c-.6-1.05-1.27-2.01-2.01-2.87-.28.2-.51.5-.68.89-.17.4-.26.78-.26 1.16zm2.35 2.22h-1.55v-.52h1.55zm4.09-6.42v2.72c.44 0 .77-.09 1.02-.27.24-.18.36-.4.36-.66v-.97h-.35c-.03-.11-.05-.22-.05-.33 0-.19.08-.36.25-.49h1.05v1.79c0 .26-.09.51-.27.76s-.43.45-.76.61c-.32.16-.67.24-1.05.24.21.31.43.54.67.67s.55.2.92.2c.23 0 .45-.02.64-.07.2-.05.36-.12.5-.2s.26-.18.36-.28c.11-.1.19-.21.25-.33s.11-.23.13-.34.04-.21.04-.31v-1.91h-.41c0-.07-.01-.15-.01-.24 0-.22.08-.41.24-.59h1.14v2.82c0 .19-.04.4-.13.61-.09.22-.22.43-.39.64s-.37.39-.6.56-.5.3-.81.41-.64.16-.97.16-.66-.05-.96-.14-.56-.22-.77-.39c-.21-.16-.4-.35-.55-.56s-.27-.44-.34-.67c-.07-.24-.11-.47-.11-.72v-1.89h-.37c-.02-.12-.03-.2-.03-.24 0-.21.09-.41.26-.58h1.11zm6.48 0h.9c.31 0 .57.09.76.28s.29.5.29.92v3.83h-2.57s0-.03 0-.06 0-.05 0-.06c0-.25.09-.48.28-.7h1.35v-2.87c0-.12-.01-.22-.04-.29-.02-.07-.06-.13-.11-.16s-.1-.05-.14-.06c-.04 0-.1-.01-.17-.01h-.86c0-.29.1-.56.3-.82zm3.81 0h2.44c.29 0 .55.05.79.14s.46.24.66.44.35.47.47.81c.11.34.17.74.17 1.19 0 .83-.22 1.47-.65 1.92s-1.06.68-1.87.68c-.33 0-.62-.05-.89-.15s-.48-.22-.65-.38-.3-.32-.42-.51-.19-.37-.24-.54c-.04-.17-.07-.33-.07-.49v-1.92l.27-.37h-.41c.05-.35.18-.63.38-.82zm.75.82v2.3c0 .12.03.25.09.39s.14.27.24.4c.11.13.24.23.42.32.17.09.36.13.57.13.31 0 .59-.08.82-.25s.4-.38.51-.65.16-.56.16-.89c0-.3-.04-.57-.11-.8s-.17-.41-.29-.54-.25-.23-.4-.3-.3-.1-.47-.1h-1.55zm5.32 1.94v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm3.82-2.76v5.03h-.94v-4.21h-.52v-.09c0-.1 0-.18 0-.24s.03-.13.06-.22.08-.18.15-.29h1.24zm2.87 0v5.03h-.94v-4.21h-.52v-.09c0-.1 0-.18 0-.24s.03-.13.06-.22.08-.18.15-.29h1.24zm7.72 2.06c0-.37-.1-.67-.31-.9s-.48-.34-.81-.34h-1.73c-.01-.06-.02-.12-.02-.2 0-.22.07-.43.2-.63h1.51c.54 0 .95.07 1.24.21s.51.36.67.66c.1.15.16.33.19.53s.05.53.05 1v2.63h-.98v-2.97zm5.73-2.06h1.18v2.21c0 .5-.09.95-.28 1.37s-.46.73-.81.95l-3.69 1.61c-.02-.08-.03-.16-.03-.24 0-.41.14-.74.43-1l1.22-.44-.97-3.65h-.52s0-.05 0-.09c0-.13.02-.26.05-.42.04-.15.09-.26.16-.32h1.12l1.08 4.07c.07-.03.14-.06.22-.1s.19-.11.32-.2.25-.2.35-.3.19-.24.27-.4.12-.32.12-.49v-1.75h-.48v-.07c0-.13.02-.28.07-.44.04-.16.11-.27.2-.31zm3.91 0v2.72c.44 0 .77-.09 1.02-.27.24-.18.36-.4.36-.66v-.97h-.35c-.03-.11-.05-.22-.05-.33 0-.19.08-.36.25-.49h1.05v1.79c0 .26-.09.51-.27.76s-.43.45-.76.61c-.32.16-.67.24-1.05.24.21.31.43.54.67.67s.55.2.92.2c.23 0 .45-.02.64-.07.2-.05.36-.12.5-.2s.26-.18.36-.28c.11-.1.19-.21.25-.33s.11-.23.13-.34.04-.21.04-.31v-1.91h-.41c0-.07-.01-.15-.01-.24 0-.22.08-.41.24-.59h1.14v2.82c0 .19-.04.4-.13.61-.09.22-.22.43-.39.64s-.37.39-.6.56-.5.3-.81.41-.64.16-.97.16-.66-.05-.96-.14-.56-.22-.77-.39c-.21-.16-.4-.35-.55-.56s-.27-.44-.34-.67c-.07-.24-.11-.47-.11-.72v-1.89h-.37c-.02-.12-.03-.2-.03-.24 0-.21.09-.41.26-.58h1.11zm6.51 2.76v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm4.79-1.94h-2.42c-.02-.09-.03-.16-.03-.21 0-.2.06-.41.18-.61h3.87c0 .34-.05.62-.16.82h-.4v4.21h-1.05v-4.21zm3.48 1.94v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27zm.25 1.37c-.07-.06-.1-.14-.1-.24s.03-.17.1-.24.15-.1.24-.1.17.03.24.1.1.15.1.24-.03.17-.1.24c-.07.06-.15.1-.24.1s-.17-.03-.24-.1zm2.76-1.37v-1.94h-.38c0-.34.09-.62.28-.82h1.08v2.27z" fill="#666"/></svg>			<!-- <div class=svglogobox><svg viewBox="0 0 215.65 215.65" width="25"><g fill="#ffffff"><path d="M184.07 184.07a107.12 107.12 0 0 0 31.58-76.24c0-28.8-11.22-55.88-31.58-76.24A107.12 107.12 0 0 0 107.82 0C81.01 0 55.7 9.73 35.9 27.5c-.37.21-.68.5-.92.84A107.12 107.12 0 0 0 0 107.83c0 28.8 11.22 55.88 31.58 76.24a107.12 107.12 0 0 0 76.24 31.58c28.8 0 55.88-11.21 76.25-31.58zM71.37 92.58L44.41 27.85a101.3 101.3 0 0 1 63.41-22.09c16.94 0 33.25 4.1 47.8 11.83l-84.25 75zm83.3-66.44l-37.8 175.7L73.71 98.21l80.96-72.07zm-87.85 70.5a314402 314402 0 0 0-21.95 19.53l-4.5-83.05 26.45 63.51zm18.13 110.7l-.26-19.27v-.16a6.98 6.98 0 0 0-7.25-6.84L48.5 183l-3.23-59.49 23.9-21.26L113.9 209.7a102.87 102.87 0 0 1-28.96-2.38zm-5.78-1.5c-12-3.5-23.27-9.2-33.3-16.89h.1l31.7-2.13c.8.01 1.19.47 1.26 1.46l.24 17.55zM181.61 37.3l-31.9 110.73a2.88 2.88 0 0 0 5.54 1.59l30.9-107.25c5 5.98 9.27 12.43 12.75 19.27l-35.85 94.39 5.38 2.04L202.27 69c5 12.16 7.62 25.3 7.62 38.84A101.4 101.4 0 0 1 180 180a101.3 101.3 0 0 1-58.77 29.02l40.43-187.95a102.82 102.82 0 0 1 19.96 16.24zM5.76 107.83c0-26.85 10.3-52.11 29.03-71.29l8.12 149.7c0 .13.03.27.06.4-2.53-2.08-4.97-4.3-7.32-6.64a101.4 101.4 0 0 1-29.9-72.17" /><path d="M152.49 163a4.57 4.57 0 1 1-9.15 0 4.57 4.57 0 0 1 9.15 0" /></g></svg></div><img src="/images/logotext.png" width="342" height="43" alt="logo" class=sitelogo><img class="sdlogo" src="/images/sdlogo2.png" width="584" height="33"> -->
+		</a>
+		
+		<a href="https://yivo.org" class='sdheadlink '>GO TO YIVO INSTITUTE HOME</a>
+		
+				
+
+					</div><!-- end .logoetc -->
+</div><!-- end .topnavstack1 -->
+
+<div class="topnavstack2">
+		<div class='xtranav'>
+			<a href='https://yivo.org/make_a_donation' class='donate button'>
+<style>
+.donateprop.two {
+    position: absolute;
+    left: -86px;
+    height: 55px;
+    top: -3px;
+}
+.donateprop.one {
+    position: absolute;
+    left: -246px;
+    height: 40px;
+    top: 4px;
+}
+
+@media (min-width: 740px) and (max-width: 1399px) {
+	.donateprop.two {
+		position: absolute;
+		left: -54px;
+		height: 35px;
+		top: 0px;
+
+	}
+	.donateprop.one {
+		position: absolute;
+		left: -164px;
+		height: 28px;
+		top: 4px;
+	}
+	
+	.donate.button
+	{
+		font-size: 1.8rem !important;
+	}
+
+}
+@media (max-width: 739px){
+
+	.donateprop{
+		display:none;
+	}
+}
+
+</style>
+<img alt='' src='/cimages/4starcharity.jpg' height='25' class='donateprop one'>
+<img alt='' src='/cimages/guidestar_platinum_seal_of_transparency.png' height='25' class='donateprop two'>
+<div class='dtext'>DONATE <span>NOW</span></div></a>
+			<div class='homemenu'><a href='/Home'><svg width="25" viewBox="0 0 42.172 42.172" xml:space="preserve"><g fill="#000"><path d="M42.045,21.498c-0.292,0.781-1.039,1.297-1.873,1.297h-4.734v15.231c0,1.104-0.896,2-2,2h-8.425c-1.104,0-2-0.896-2-2 v-7.38H19.16v7.381c0,1.104-0.896,2-2,2H8.735c-1.104,0-2-0.896-2-2V22.794H2c-0.834,0-1.58-0.518-1.873-1.298 c-0.293-0.781-0.07-1.661,0.558-2.209l19.086-16.65c0.754-0.656,1.875-0.656,2.629,0l2.86,2.497 c0.19-0.906,0.995-1.587,1.958-1.587h4.908c1.104,0,2,0.896,2,2v7.321l7.358,6.42C42.115,19.835,42.338,20.715,42.045,21.498z"/></g></svg></a></div>
+			<div class='mobilemenu'><svg viewBox="0 0 32 32" width="25"><path d="M4 10h24a2 2 0 0 0 0-4H4a2 2 0 0 0 0 4zm24 4H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4zm0 8H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4z" fill="#000"/></svg></div>
+		</div>
+<div class="navlinks"><ul class='dropdown'>	
+	<div class='mobileclose'>X</div><li class='menu-home '><a href='/Home' class=''>Home<svg width="25" viewBox="0 0 42.172 42.172" xml:space="preserve"><g fill="#000"><path d="M42.045,21.498c-0.292,0.781-1.039,1.297-1.873,1.297h-4.734v15.231c0,1.104-0.896,2-2,2h-8.425c-1.104,0-2-0.896-2-2 v-7.38H19.16v7.381c0,1.104-0.896,2-2,2H8.735c-1.104,0-2-0.896-2-2V22.794H2c-0.834,0-1.58-0.518-1.873-1.298 c-0.293-0.781-0.07-1.661,0.558-2.209l19.086-16.65c0.754-0.656,1.875-0.656,2.629,0l2.86,2.497 c0.19-0.906,0.995-1.587,1.958-1.587h4.908c1.104,0,2,0.896,2,2v7.321l7.358,6.42C42.115,19.835,42.338,20.715,42.045,21.498z"/></g></svg></a></li><li class='menu-about withsub'><a href='/about-1' class=''>About</a>
+			<ul>
+				<div class='navintro'>
+					<img data-src='thumb/w/500/./cimages/20150722151015_yivo_building.jpeg'>
+					<p>YIVO is dedicated to fostering knowledge of the history and culture of East European Jewry.</p>
+
+				</div>
+				<div class=sublist>
+					<div class=subpad>
+						<li class=''><a href='/About-YIVO' class=''>About YIVO</a> </li><li class=''><a href='/Contact-Us' class=''>Contact Us</a> <div class=subsubs></div></li><li class=''><a href='/Board-of-Directors' class=''>Board of Directors</a> <div class=subsubs></div></li><li class=''><a href='/Staff-Directory' class=''>Staff Directory</a> <div class=subsubs></div></li><li class=''><a href='/Scholarly-Advisory-Council' class=''>Scholarly Advisory Council</a> <div class=subsubs></div></li><li class=''><a href='/Branches' class=''>Branches</a> <div class=subsubs></div></li><li class=''><a href='/YIVO-News' class=''>News & Features</a> </li><li class=''><a href='/Publications' class=''>Publications</a> </li><li class=''><a href='/Partnerships-Affiliations' class=''>Partnerships & Affiliations</a> </li><li class=''><a href='/Employment' class=''>Careers & Volunteering</a> </li><li class=''><a href='/FAQ' class=''>FAQs</a> <div class=subsubs></div></li>
+					</div>
+				</div>
+			</ul></li><li class='menu-visit '><a href='/Visit' class=''>Visit</a></li><li class='menu-programs withsub'><a href='/Programs?show=evs' class='on'>Programs</a>
+			<ul>
+				<div class='navintro'>
+					<img data-src='thumb/w/500/./cimages/img_20210426123352.jpg'>
+					<p>Find out about upcoming YIVO programs and view a video &amp; audio archive of past events.</p>
+
+				</div>
+				<div class=sublist>
+					<div class=subpad>
+						<li class='subsel onsec'><a href='/Calendar?show=evs' class='on'>Calendar of Events</a> </li><li class=''><a href='/Centennial' class=''>YIVO Centennial</a> </li><li class=''><a href='/Past-Events' class=''>Past Events </a> </li><li class=''><a href='/Video' class=''>Event Recordings</a> <div class=subsubs></div></li><li class=''><a href='/Exhibitions' class=''>In-Person Exhibitions</a> </li><li class=''><a href='/Study-Tours' class=''>Study Tours</a> </li>
+					</div>
+				</div>
+			</ul></li><li class='menu-research withsub'><a href='/Research' class=''>Research</a>
+			<ul>
+				<div class='navintro'>
+					<img data-src='thumb/w/500/./cimages/20150722165428_rg_117_-_box_38_-_max_cohen_album_-_ilgwu_-_p1.jpeg'>
+					<p>Learn more about our Archives &amp; Library and how to do research on-site and online.</p>
+
+				</div>
+				<div class=sublist>
+					<div class=subpad>
+						<li class=''><a href='/Archives-Library' class=''>YIVO Archives & Library Collections</a> </li><li class=''><a href='/Research-Tools-Services' class=''>Guide to Using the Library & Archives</a> </li><li class=''><a href='/Remote-Research' class=''>Remote Research</a> <div class=subsubs></div></li><li class=''><a href='/Rights-Reproductions' class=''>Permissions & Reproductions </a> <div class=subsubs></div></li><li class=''><a href='/Donate-Materials' class=''>Donate Materials </a> <div class=subsubs></div></li><li class=''><a href='/JLPA' class=''>The Jewish Labor and Political Archives</a> <div class=subsubs></div></li><li class=''><a href='/Vilna-Collections-Project' class=''>The Edward Blank YIVO Vilna Online Collections</a> <div class=subsubs></div></li><li class=''><a href='/Encyclopedia' class=''>The YIVO Encyclopedia of Jews in Eastern Europe</a> <div class=subsubs></div></li><li class=''><a href='/Online-Resources' class=''>YIVO Archives Digital Resources</a> </li><li class=''><a href='/Family-History-Research' class=''>Family History Research </a> </li><li class=''><a href='/Research-Resources' class=''>Other Research Resources </a> </li><li class=''><a href='/Fellowships' class=''>Fellowships & Awards</a> </li><li class=''><a href='/Visiting-Professors' class=''>Visiting Professors</a> <div class=subsubs></div></li><li class=''><a href='/Translators-List' class=''>Find a Translator</a> <div class=subsubs></div></li>
+					</div>
+				</div>
+			</ul></li><li class='menu-education withsub'><a href='/Education' class=''>Education</a>
+			<ul>
+				<div class='navintro'>
+					<img data-src='thumb/w/500/./cimages/2015071693528_summer_program_2012.jpeg'>
+					<p>Learn about our educational initiatives in the Yiddish language and Jewish history and culture.</p>
+
+				</div>
+				<div class=sublist>
+					<div class=subpad>
+						<li class=''><a href='/Academic-Calendar?show=academic' class=''>Calendar of Classes</a> <div class=subsubs></div></li><li class=''><a href='/Max-Weinreich-Center' class=''>Max Weinreich Center</a> <div class=subsubs></div></li><li class=''><a href='/Classes' class=''>Fall & Spring Classes</a> </li><li class=''><a href='/Shine' class=''>YIVO's Shine Online Educational Series</a> </li><li class=''><a href='/Winter-Program' class=''>Winter Program on Ashkenazi Civilization</a> </li><li class=''><a href='/Winter-Yiddish' class=''>Winter Yiddish Seminars</a> </li><li class=''><a href='/Summer-Program' class=''>YIVO-Bard Uriel Weinreich Summer Program</a> <div class=subsubs></div></li><li class=''><a href='/Summer-Semester' class=''>Summer Semester</a> </li><li class=''><a href='/YLMC' class=''>YIVO Learning and Media Center</a> <div class=subsubs></div></li><li class=''><a href='/Yiddish' class=''>Learning Yiddish</a> </li>
+					</div>
+				</div>
+			</ul></li><li class='menu-join-give withsub'><a href='/Join-and-Give' class=''>Join & Give</a>
+			<ul>
+				<div class='navintro'>
+					<img data-src='thumb/w/500/./cimages/20150728103110_2268i2.jpeg'>
+					<p>Become a member of YIVO or make a donation. Find out about other ways of supporting YIVO.</p>
+
+				</div>
+				<div class=sublist>
+					<div class=subpad>
+						<li class=''><a href='/Donate' class=''>Make a Donation</a> <div class=subsubs></div></li><li class=''><a href='/Membership' class=''>Become a Member</a> <div class=subsubs></div></li><li class=''><a href='/RH2026' class=''>Support YIVO This High Holiday Season</a> </li><li class=''><a href='/Planned-Giving' class=''>Planned Giving</a> </li><li class=''><a href='/Other-Ways-to-Give' class=''>Other Ways to Give</a> </li><li class=''><a href='/Gifts-of-Securities' class=''>Gifts of Securities (Stocks)</a> <div class=subsubs></div></li><li class=''><a href='/IRA-Charitable-Rollover' class=''>Qualified Charitable Distributions (QCDs/IRAs)</a> <div class=subsubs></div></li><li class=''><a href='/Donor-Advised-Funds' class=''>Donor-Advised Funds</a> <div class=subsubs></div></li><li class=''><a href='/Newsletters' class=''>Newsletters</a> <div class=subsubs></div></li><li class=''><a href='/Our-Supporters' class=''>Donor Recognition Wall</a> <div class=subsubs></div></li><li class=''><a href='/Centennial-Honor-Roll' class=''>Centennial Honor Roll</a> <div class=subsubs></div></li><li class=''><a href='/Financial-Statements' class=''>Financial Information</a> <div class=subsubs></div></li><li class=''><a href='/Donor-Privacy-Policy' class=''>Donor Privacy Policy</a> <div class=subsubs></div></li><li class=''><a href='/CantorialCD' class=''>HIN'NI: Tradition in the American Synagogue</a> <div class=subsubs></div></li>
+					</div>
+				</div>
+			</ul></li><li class='menu-online-museum '><a href='https://museum.yivo.org' class=''>Online Museum</a></li><li class='menu-shop '><a href='https://yivo-institute.myshopify.com/' class=''>Shop</a></li>
+	
+			<style>
+		.menucharity .donateprop 
+		{
+			display: none;
+		}
+		@media (max-width: 739px){
+			.menucharity a {
+				display: inline-block !important;
+				vertical-align: middle;
+				margin-left: 15px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				padding: 0 !important;
+			}
+			.menucharity .donateprop {
+				display: inline-block;
+				position: static;
+			}
+		}
+		</style>
+	
+	<li class='menucharity'>
+
+		<a class='plain' href='https://www.charitynavigator.org/index.cfm?bay=search.summary&amp;orgid=8930' rel='noopener noreferrer' target='_blank'><img alt='' src='/cimages/4starcharity.jpg' height='25' class='donateprop one'></a>
+		<a class='plain' href='https://www.guidestar.org/profile/13-1641082' rel='noopener noreferrer' target='_blank'><img alt='' src='/cimages/guidestar_platinum_seal_of_transparency.png' height='25' class='donateprop two'></a>
+	</li>
+	</ul><!-- end dropdown -->	
+    <div class=extranav>	
+        <div class="social " >
+            <div class=sharewrap title='Social sharing' style=''>
+                <div class='sharedrop onesociallink'><svg viewBox="0 0 80 90" width="25"><path d="M65 60a14.912 14.912 0 0 0-9.121 3.112L29.783 47.455c.131-.801.217-1.618.217-2.455 0-.839-.086-1.654-.217-2.456l26.096-15.657A14.9 14.9 0 0 0 65 30c8.283 0 15-6.717 15-15S73.283 0 65 0 50 6.717 50 15c0 .837.086 1.654.219 2.455L24.123 33.112A14.913 14.913 0 0 0 15 30C6.717 30 0 36.717 0 45s6.717 15 15 15c3.438 0 6.594-1.167 9.123-3.113l26.096 15.657A14.953 14.953 0 0 0 50 75c0 8.283 6.717 15 15 15s15-6.717 15-15-6.717-15-15-15z" fill="#000"/></svg></div>
+                <div class='dropped'>
+            
+                    <a href='print' class='onesociallink printpage' title='print this page'><svg width="25" viewBox="0 0 475.078 475.077"><path fill="#000" d="M458.959 217.124c-10.759-10.758-23.654-16.134-38.69-16.134h-18.268v-73.089c0-7.611-1.91-15.99-5.719-25.122-3.806-9.136-8.371-16.368-13.699-21.698L339.18 37.683c-5.328-5.325-12.56-9.895-21.692-13.704-9.138-3.805-17.508-5.708-25.126-5.708H100.5c-7.614 0-14.087 2.663-19.417 7.993-5.327 5.327-7.994 11.799-7.994 19.414V200.99H54.818c-15.037 0-27.932 5.379-38.688 16.134C5.376 227.876 0 240.772 0 255.81v118.773c0 2.478.905 4.609 2.712 6.426 1.809 1.804 3.951 2.707 6.423 2.707h63.954v45.68c0 7.617 2.664 14.089 7.994 19.417 5.33 5.325 11.803 7.994 19.417 7.994h274.083c7.611 0 14.093-2.669 19.418-7.994 5.328-5.332 7.994-11.8 7.994-19.417v-45.68h63.953c2.471 0 4.613-.903 6.42-2.707 1.807-1.816 2.71-3.948 2.71-6.426V255.81c.004-15.038-5.37-27.934-16.119-38.686zm-93.51 203.138H109.636v-73.087h255.813v73.087zm0-182.725H109.636V54.816h182.726v45.679c0 7.614 2.669 14.083 7.991 19.414 5.328 5.33 11.799 7.993 19.417 7.993h45.679v109.635zm67.667 31.119c-3.614 3.614-7.898 5.428-12.847 5.428s-9.233-1.813-12.848-5.428c-3.613-3.61-5.42-7.898-5.42-12.847s1.807-9.232 5.42-12.847c3.614-3.617 7.898-5.426 12.848-5.426 4.948 0 9.232 1.809 12.847 5.426 3.613 3.614 5.427 7.898 5.427 12.847s-1.81 9.237-5.427 12.847z"/></svg></a>
+                
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://yivo.org/Calendar?show=evs" class=onesociallink title='share this page on FaceBook' target='_blank'><svg viewBox="0 0 512 512" width="25"><path fill="#020201" d="M223.22 71.227c16.066-15.298 38.918-20.465 60.475-21.109 22.799-.205 45.589-.081 68.388-.072.09 24.051.098 48.111-.009 72.161-14.734-.026-29.478.036-44.212-.026-9.343-.582-18.937 6.5-20.635 15.762-.224 16.093-.081 32.195-.072 48.289 21.61.089 43.22-.027 64.829.054-1.582 23.281-4.47 46.456-7.858 69.541-19.088.179-38.187-.018-57.274.099-.17 68.665.089 137.33-.134 205.995-28.352.116-56.721-.054-85.072.08-.537-68.674.044-137.383-.295-206.066-13.832-.144-27.672.099-41.503-.116.053-23.085.018-46.169.026-69.246 13.822-.169 27.654.036 41.477-.098.42-22.442-.421-44.91.438-67.333 1.386-17.758 8.154-35.649 21.431-47.915z"/></svg></a>
+                
+                    <a href="https://twitter.com/intent/tweet?text=Find+out+about+upcoming+YIVO+programs+and+view+a+video+%26amp%3B+audio+archive+of+past+events.%0D%0A - https://yivo.org/Calendar?show=evs" class=onesociallink title='share this page on Twitter' target='_blank'><svg viewBox="0 0 24 24" width="25"><path fill="#000" d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"/></svg></a>
+                
+                    <a href="http://yivo.convio.net/site/TellAFriend?pw_id=1521&s_AffiliateSecCatId=1121&page=https%3A%2F%2Fyivo.org%2FCalendar%3Fshow%3Devs" class='onesociallink emailpage samewin' title='email this page'><svg viewBox="0 0 1000 1000" width="25"><path d="M612 591.7C556.7 636 522.2 658 487.8 658c-33 0-66.4-20.6-118-60.8L62.7 867.5h864.9L615.5 589.1c-1.2.8-2.5 1.9-3.5 2.6zm-364.3-89C174.8 446.5 90.7 381.5 10 317.6v509.5c0 1.6.8 3 .9 4.5l309.6-272.5c-22.4-17.5-46.5-36-72.8-56.4zm739.9 336.2c1.2-3.7 2.4-7.6 2.4-11.8V296c-96.9 75.4-237.2 184.6-325.8 254.5l323.4 288.4z" fill="#000"/><path d="M928.8 132.5H71.3c-22.4 0-61.3 38.9-61.3 61.3V242c90.3 71.9 188.4 147.6 271.5 211.7 45.8 35.4 86.9 67.2 119.3 92.5 87.4 68.5 87.4 68.5 176.6-2.8C658.1 479 875.2 310.1 990 220.8v-26.9c0-22.5-38.9-61.4-61.2-61.4z" fill="#000"/></svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class='ssite'>
+            <form class='srch' action='/search' method='get'>
+                <!-- <input name='vv' value='2' type='hidden'> -->
+                                <span><input name='s' type="search" class="search rounded" placeholder="Search Website" value=''>
+                                </span>
+                <button type=button class='searchbut'><svg viewBox="0 0 1000 1000" width="25"><path d="M960.9 820.2c18 18 29.1 42.9 29.1 70.3 0 54.9-44.5 99.5-99.4 99.5-27.5 0-52.3-11.1-70.3-29.1L609.6 750.2c-59.2 35-128 55.4-201.8 55.4C188.1 805.6 10 627.5 10 407.8S188.1 10 407.8 10s397.8 178.1 397.8 397.8c0 73.7-20.4 142.6-55.4 201.8zM407.8 109.4C243 109.4 109.4 243 109.4 407.8S243 706.1 407.7 706.1 706 572.5 706 407.8c.1-164.8-133.4-298.4-298.2-298.4z" fill="#000"/></svg></button>
+                
+                <div class=close><svg width=25 viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve" width="25"><polygon fill="#AAAAAB" points="96,14 82,0 48,34 14,0 0,14 34,48 0,82 14,96 48,62 82,96 96,82 62,48 "></polygon></svg></div>
+                
+            </form>
+        </div>
+    </div><!-- end extanav -->
+
+</div> <!-- end  .navlinks-->
+
+</div><!-- .topnavstack2 -->
+
+</header><!-- end .topnav -->
+
+	<!-- <div id="content"> --><main><nav class='breadcrumbs'><!-- <div class='breadcrumbs'> --><span class='first'><nobr><a href='/'>Home</a></nobr></span> &nbsp;&gt;&nbsp; <a href="/Programs?show=evs"><nobr>Programs</nobr></a> &nbsp;&gt;&nbsp; <nobr>Calendar of Events</nobr></nav>
+			<nav class='subnavs'>
+				
+				<div class='sublinks'><li class='menu-programs withsub'><a href='/Programs?show=evs' class='on'>Programs</a>
+			<ul>
+				<div class='navintro'>
+					<img data-src='thumb/w/500/./cimages/img_20210426123352.jpg'>
+					<p>Find out about upcoming YIVO programs and view a video &amp; audio archive of past events.</p>
+
+				</div>
+				<div class=sublist>
+					<div class=subpad>
+						<li class='subsel onsec'><a href='/Calendar?show=evs' class='on'>Calendar of Events</a> </li><li class=''><a href='/Centennial' class=''>YIVO Centennial</a> </li><li class=''><a href='/Past-Events' class=''>Past Events </a> </li><li class=''><a href='/Video' class=''>Event Recordings</a> <div class=subsubs></div></li><li class=''><a href='/Exhibitions' class=''>In-Person Exhibitions</a> </li><li class=''><a href='/Study-Tours' class=''>Study Tours</a> </li>
+					</div>
+				</div>
+			</ul></li></div>
+			</nav>
+			
+			
+			<article class='elbowroom wider'>
+			<div class='littlehero oneonly shownav hhero y showsiden'><script src="/scripts/jquery.jcarousel.min.js" type="text/javascript"></script>
+			
+			<div class='jcarousel-wrapper'>
+				<div class='jcarousel'>
+					<dl>
+					
+				<dt>
+				 <div class='onehero'>
+					<div class='himg'><img data-src='/cimages/img_20210426123426.jpg' src='thumb/w/60/./cimages/img_20210426123426.jpg'></div>
+					<div class='htxt'></div>
+				 </div>
+				</dt>
+				
+					</dl>
+				</div>
+				<span class='jcarousel-control-prev'>&lsaquo;</span>
+				<span class='jcarousel-control-next'>&rsaquo;</span>
+		
+				<div class='jcarousel-pagination'>
+		
+				</div>
+		
+		
+			</div></div>
+			<script>
+			$(document).ready(function(){
+				var oneimg = $('.oneonly img');
+                if(oneimg.data('src')) {
+                    $('.oneonly .onehero').css('background-image', 'url(' + oneimg.data('src') + ')');
+                    var imgl = new Image();
+                    imgl.onload = function() {
+                        oneimg.addClass('loaded');
+                    }
+                    imgl.src = oneimg.data('src');
+                    if (imgl.complete) imgl.onload();
+                }
+			});
+			</script>
+			
+			
+			
+			
+			  
+			 
+			
+			
+<h2>Through our programs, YIVO makes discoveries and treasures from our collections accessible and fosters the creation of contemporary Jewish culture. Explore our upcoming events below.</h2>
+
+<p><span class="small">Be the first to know about upcoming programs and special events by <a href="http://yivo.convio.net/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&amp;SURVEY_ID=2701"><strong>signing up for our email list</strong></a>.</span><br>
+<span class="small"><strong><a href="https://yivo.org/Video">Watch recordings of previous events</a></strong>.<br>
+Follow us on <strong><a href="https://www.facebook.com/YIVOInstitute/">Facebook</a></strong>, <strong><a href="https://twitter.com/yivoinstitute">Twitter</a></strong>, and <strong><a href="https://www.instagram.com/yivoinstitute/">Instagram</a></strong>.<br>
+Subscribe to our <strong><a href="https://www.youtube.com/user/yivoinstitute">YouTube channel</a></strong>.</span></p>
+
+<hr>
+<p>
+			<div class='evs'>
+				<div class=calhead>
+					<div class=calshow>
+						<b>Show:</b> <label><input type=radio name='show' value=all >All</label>&nbsp;&nbsp;&nbsp;<label><input type=radio name='show' value=evs checked>Events Only</label>&nbsp;&nbsp;&nbsp;<label><input type=radio name='show' value=academic >Academic Only</label>
+					</div>
+					<script>
+					$(document).ready(function(){
+						$('input[name=show]').on('change', function(){
+							window.location.href='/Calendar?show=' + $('input[name=show]:checked').val(); 
+						});
+					});
+					</script>
+			
+					<div class='calnav'><a href='/Calendar?show=evs&eventsview=main' class='on'>Main View</a></div>
+					<div class='calnav'><a href='/Calendar?show=evs&eventsview=list' class=''>List View</a></div> 
+					<div class='calnav'><a href='/Calendar?show=evs&eventsview=calendar' class=''>Calendar View</a></div>  	
+				</div><div class=allboxes>
+		<div class="simplebox subsone subbox">
+		<a href="My-Name-is-Stramer">
+			<div class="numside">	
+				<div class='evdatetime'>Monday, Nov 2 | 6:30pm</div>
+				<img class="small_img" src="/cimages/img_2026081242719.jpg">
+				<div class="evtit">
+					My Name is Stramer
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Bund-in-History">
+			<div class="numside">	
+				<div class='evdatetime'>Tuesday, Nov 3 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026081793752.jpg">
+				<div class="evtit">
+					More than a Symbol: The Jewish Labor Bund in History
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Staged-Reading-of-The-Dybbuk">
+			<div class="numside">	
+				<div class='evdatetime'>Wednesday, Nov 11 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026080433018.jpg">
+				<div class="evtit">
+					A Staged Reading of 'The Dybbuk'
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Diamonds-of-the-Night">
+			<div class="numside">	
+				<div class='evdatetime'>Thursday, Nov 12 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_20260610121724.jpg">
+				<div class="evtit">
+					Diamonds of the Night
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="World-of-Our-Fathers">
+			<div class="numside">	
+				<div class='evdatetime'>Monday, Nov 16 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026080430720.jpg">
+				<div class="evtit">
+					World of Our Fathers at 50
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="YidCiv101-Literature">
+			<div class="numside">	
+				<div class='evdatetime'>Tuesday, Nov 17 | 1:00pm</div>
+				<img class="small_img" src="/cimages/img_2026081091835.jpg">
+				<div class="evtit">
+					Modern Yiddish Literature
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Fleeing-for-Survival">
+			<div class="numside">	
+				<div class='evdatetime'>Wednesday, Nov 18 | 7:30pm</div>
+				<img class="small_img" src="/cimages/img_20260909115339.jpg">
+				<div class="evtit">
+					Fleeing for Survival
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Making-a-Scene">
+			<div class="numside">	
+				<div class='evdatetime'>Sunday, Nov 22 | 12:00pm</div>
+				<img class="small_img" src="/cimages/img_2026010992551.jpg">
+				<div class="evtit">
+					‘Making a Scene’: Returning a Jewish Comic Opera Star to the Stage
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Fanias-World">
+			<div class="numside">	
+				<div class='evdatetime'>Monday, Nov 23 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_20260831104716.jpg">
+				<div class="evtit">
+					Fania's World of Flavors, Smells, and Colors
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Yiddish-Voices-2026">
+			<div class="numside">	
+				<div class='evdatetime'>Monday, Nov 30 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026080535746.jpg">
+				<div class="evtit">
+					New from Yiddish Voices: Mississippi and Hasidic Warsaw
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="YidCiv101-History-of-Yiddish">
+			<div class="numside">	
+				<div class='evdatetime'>Tuesday, Dec 1 | 1:00pm</div>
+				<img class="small_img" src="/cimages/img_2026081093301.jpg">
+				<div class="evtit">
+					History of Yiddish
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="HanukkahConcert2026">
+			<div class="numside">	
+				<div class='evdatetime'>Sunday, Dec 6 | 3:00pm</div>
+				<img class="small_img" src="/cimages/img_2026082091008.jpg">
+				<div class="evtit">
+					Hanukkah Concert 2026
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Child-Survivors">
+			<div class="numside">	
+				<div class='evdatetime'>Thursday, Dec 10 | 1:00pm</div>
+				<img class="small_img" src="/cimages/img_2026081891542.jpg">
+				<div class="evtit">
+					Through the Eyes of Jewish Child Survivors from Poland
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Walking-Tour-Dec26">
+			<div class="numside">	
+				<div class='evdatetime'>Sunday, Dec 13 | 11:00am</div>
+				<img class="small_img" src="/cimages/img_2026102032922.jpg">
+				<div class="evtit">
+					Yiddish Theater Walking Tour
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Preserving-History-Under-Fire">
+			<div class="numside">	
+				<div class='evdatetime'>Sunday, Dec 13 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026082422947.jpg">
+				<div class="evtit">
+					Gal Beckerman, Jonathan Brent, and 92NY's Rabbi David Ingber in Conversation: Preserving History Under Fire
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Immigrant-Songs">
+			<div class="numside">	
+				<div class='evdatetime'>Tuesday, Dec 15 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026081394058.jpg">
+				<div class="evtit">
+					Immigrant Songs: Yiddish Theater and the American Jewish Experience
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Christmas2026">
+			<div class="numside">	
+				<div class='evdatetime'>Monday, Dec 21 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_20260819120932.jpg">
+				<div class="evtit">
+					A Very Jewish Christmas: Christmas in Yiddish Tradition
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Third-Seder">
+			<div class="numside">	
+				<div class='evdatetime'>Tuesday, Apr 13 | 7:00pm</div>
+				<img class="small_img" src="/cimages/img_2026060932743.jpg">
+				<div class="evtit">
+					Music of the Third Seder: A Yiddish Passover Concert
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="LithuaniaPoland2027">
+			<div class="numside">	
+				<div class='evdatetime'>Trip starts <span class="dt">June 20</span></div>
+				<img class="small_img" src="/cimages/img_2026101545122.jpg">
+				<div class="evtit">
+					2027 Study Tour of Lithuania & Poland
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="NorthernItaly2027">
+			<div class="numside">	
+				<div class='evdatetime'>Trip starts <span class="dt">Oct 25</span></div>
+				<img class="small_img" src="/cimages/img_2026101545052.jpg">
+				<div class="evtit">
+					2027 Study Tour of Northern Italy
+				</div>	
+			</div>
+		</a>
+		</div>
+		<div class="simplebox subsone subbox">
+		<a href="Israel2027">
+			<div class="numside">	
+				<div class='evdatetime'>Trip starts <span class="dt">Nov 9</span></div>
+				<img class="small_img" src="/cimages/img_2026101545005.jpg">
+				<div class="evtit">
+					2027 Study Tour of Israel
+				</div>	
+			</div>
+		</a>
+		</div></div></div><div class='pastev'><a href='/Past-Events' class='button'>See List of Past Events</a></div></p>
+
+			
+		
+		</article></main>
+<footer>
+    <div class=footwrap>
+    <div class=connectbar>
+        <div>
+            <h2 class=connecttit>Connect with us</h2>
+            <div>
+                <a class='footsocial' href='https://www.facebook.com/YIVOInstitute' title="YIVO on FaceBook" target='_blank'><svg viewBox="0 0 512 512" width="25"><path fill="#020201" d="M223.22 71.227c16.066-15.298 38.918-20.465 60.475-21.109 22.799-.205 45.589-.081 68.388-.072.09 24.051.098 48.111-.009 72.161-14.734-.026-29.478.036-44.212-.026-9.343-.582-18.937 6.5-20.635 15.762-.224 16.093-.081 32.195-.072 48.289 21.61.089 43.22-.027 64.829.054-1.582 23.281-4.47 46.456-7.858 69.541-19.088.179-38.187-.018-57.274.099-.17 68.665.089 137.33-.134 205.995-28.352.116-56.721-.054-85.072.08-.537-68.674.044-137.383-.295-206.066-13.832-.144-27.672.099-41.503-.116.053-23.085.018-46.169.026-69.246 13.822-.169 27.654.036 41.477-.098.42-22.442-.421-44.91.438-67.333 1.386-17.758 8.154-35.649 21.431-47.915z"/></svg></a>
+                <a class='footsocial' href='https://twitter.com/yivoinstitute' title="YIVO on Twitter"><svg viewBox="0 0 24 24" width="25"><path fill="#000" d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"/></svg></a>
+                <a class='footsocial' href='https://www.instagram.com/yivoinstitute/?hl=en' title="YIVO on Instagram" target='_blank'><svg viewBox="0 0 24 24" width="25"><path d="M21.231 0H2.769A2.77 2.77 0 0 0 0 2.769v18.46A2.77 2.77 0 0 0 2.769 24h18.463A2.769 2.769 0 0 0 24 21.229V2.769A2.769 2.769 0 0 0 21.231 0zM12 7.385a4.615 4.615 0 1 1 .002 9.23A4.615 4.615 0 0 1 12 7.385zm9 12.693a.923.923 0 0 1-.924.922H3.924A.923.923 0 0 1 3 20.078V10h1.897a7.56 7.56 0 0 0-.2.971c-.05.337-.081.679-.081 1.029a7.384 7.384 0 1 0 14.768 0c0-.35-.031-.692-.081-1.028a7.56 7.56 0 0 0-.2-.971H21v10.077zm0-13.98a.924.924 0 0 1-.924.923h-2.174a.923.923 0 0 1-.923-.923V3.923c0-.51.412-.923.923-.923h2.174c.511 0 .924.413.924.923v2.175z" fill-rule="evenodd" clip-rule="evenodd" fill="#000"/></svg></a>
+                <a class='footsocial' href='https://www.linkedin.com/company/yivo-institute-for-jewish-research' title="YIVO on Linked-In" target='_blank'><svg viewBox="0 0 24 24" width="25"><path d="M4.98 3.5C4.98 4.881 3.87 6 2.5 6S.02 4.881.02 3.5C.02 2.12 1.13 1 2.5 1s2.48 1.12 2.48 2.5zM5 8H0v16h5V8zm7.982 0H8.014v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0V24H24V13.869c0-7.88-8.922-7.593-11.018-3.714V8z" fill="#000"/></svg></a>
+                <a class='footsocial' href='https://www.youtube.com/user/yivoinstitute' title="YIVO on YouTube" target='_blank'><svg viewBox="0 0 24 24" width="25"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 3.993L9 16z" fill="#000"/></svg></a>
+            </div>
+        </div>
+        <div>
+            <form method="POST" action="https://yivo.convio.net/site/Survey" id='newsletter'>
+               <input type="text"  name="cons_email" id="cons_email" placeholder="Sign up for our newsletter!" class="form-control">
+               <input type="hidden" name="cons_info_component" id="cons_info_component" value="t" />
+                <input type="hidden" name="SURVEY_ID" id="SURVEY_ID" value="1740" />
+                    <span style="display:none"><input type="text" name="denySubmit" id="denySubmit" value="" alt="This field is used to prevent form submission by scripts." />Please leave this field empty</span>
+               <span class="input-group-btn">
+                 <input type="submit" name="ACTION_SUBMIT_SURVEY_RESPONSE" id="ACTION_SUBMIT_SURVEY_RESPONSE" value="Sign up" class="button" />
+               </span>
+             </form>
+             <script type="text/javascript">
+                $(function() { 
+                    $("#newsletter").submit(function(e) {
+                        e.preventDefault();
+                        var dat = $(this).serialize() + '&ACTION_SUBMIT_SURVEY_RESPONSE=GO&ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&page=https://yivo.org';
+                        window.location.href = 'http://yivo.convio.net/site/Survey?' + dat;
+                    });
+                });
+             </script>
+        </div>
+    </div> <!-- end .connectbar -->
+    
+    <div class=footcols>
+	<div class='footcol'>
+		<div class=tit><a href='/about-1'>About</a></div><div class='list'><a href='/Contact-Us'>Contact Us</a></div><div class='list'><a href='/FAQ'>FAQs</a></div></div><div class='footcol'>
+		<div class=tit><a href='/Visit'>Visit</a></div></div><div class='footcol'>
+		<div class=tit><a href='/Join-and-Give'>Join & Give</a></div><div class='list'><a href='/Donate'>Make a Donation</a></div><div class='list'><a href='/Membership'>Become a Member</a></div><div class='list'><a href='/Financial-Statements'>Financial Information</a></div></div><div class='footcol'>
+		<div class=tit><a href='Research'>Research</a></div><div class='list'><a href='/Research-Access'>Hours & Access</a></div><div class='list'><a href='/Do-Research-Online'>Do Research Online</a></div><div class='list'><a href='/Rights-Reproductions'>Permissions & Reproductions </a></div></div><div class='footcol'>
+		<div class=tit><a href='Education'>Education</a></div><div class='list'><a href='/Classes'>Fall & Spring Classes</a></div><div class='list'><a href='/Yiddish'>Learning Yiddish</a></div></div>  
+    </div><!-- end .footcols -->
+    
+    <div class="footfoot">
+      	<nobr>&copy; 2026 YIVO Institute for Jewish Research</nobr> &bull; <nobr>All Rights Reserved</nobr> &bull; <nobr>15 W. 16th St. New York, NY 10011</nobr> &bull; <nobr>(212) 246-6080</nobr> &bull; <nobr>Charitable Tax ID# 13-1641082</nobr> &bull; <nobr><a href="/Privacy-Policy">Privacy Policy</a></nobr>
+  	</div><!-- end .footfoot -->
+  	
+  	</div> <!-- end footwrap -->
+  	
+  	
+  	  	
+  	<div class="socialtoast ">
+
+        <a href='https://yivo.org/make_a_donation' class='donate button'>DONATE <span>NOW</span></a>    
+        <a href='https://www.facebook.com/sharer/sharer.php?u=https://yivo.org/Calendar?show=evs' class="onesociallink fb" title='share this page on FaceBook' target='_blank'><svg viewBox="0 0 512 512" width="25"><path fill="#020201" d="M223.22 71.227c16.066-15.298 38.918-20.465 60.475-21.109 22.799-.205 45.589-.081 68.388-.072.09 24.051.098 48.111-.009 72.161-14.734-.026-29.478.036-44.212-.026-9.343-.582-18.937 6.5-20.635 15.762-.224 16.093-.081 32.195-.072 48.289 21.61.089 43.22-.027 64.829.054-1.582 23.281-4.47 46.456-7.858 69.541-19.088.179-38.187-.018-57.274.099-.17 68.665.089 137.33-.134 205.995-28.352.116-56.721-.054-85.072.08-.537-68.674.044-137.383-.295-206.066-13.832-.144-27.672.099-41.503-.116.053-23.085.018-46.169.026-69.246 13.822-.169 27.654.036 41.477-.098.42-22.442-.421-44.91.438-67.333 1.386-17.758 8.154-35.649 21.431-47.915z"/></svg></a>
+                
+        <a href='https://twitter.com/intent/tweet?text=Find+out+about+upcoming+YIVO+programs+and+view+a+video+%26amp%3B+audio+archive+of+past+events.%0D%0A - https://yivo.org/Calendar?show=evs' class="onesociallink tw" title='share this page on Twitter' target='_blank'><svg viewBox="0 0 24 24" width="25"><path fill="#000" d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"/></svg></a>
+                
+        <a href='http://yivo.convio.net/site/TellAFriend?pw_id=1521&s_AffiliateSecCatId=1121&page=https%3A%2F%2Fyivo.org%2FCalendar%3Fshow%3Devs' class='onesociallink emailpage samewin' title='email this page'><svg viewBox="0 0 1000 1000" width="25"><path d="M612 591.7C556.7 636 522.2 658 487.8 658c-33 0-66.4-20.6-118-60.8L62.7 867.5h864.9L615.5 589.1c-1.2.8-2.5 1.9-3.5 2.6zm-364.3-89C174.8 446.5 90.7 381.5 10 317.6v509.5c0 1.6.8 3 .9 4.5l309.6-272.5c-22.4-17.5-46.5-36-72.8-56.4zm739.9 336.2c1.2-3.7 2.4-7.6 2.4-11.8V296c-96.9 75.4-237.2 184.6-325.8 254.5l323.4 288.4z" fill="#000"/><path d="M928.8 132.5H71.3c-22.4 0-61.3 38.9-61.3 61.3V242c90.3 71.9 188.4 147.6 271.5 211.7 45.8 35.4 86.9 67.2 119.3 92.5 87.4 68.5 87.4 68.5 176.6-2.8C658.1 479 875.2 310.1 990 220.8v-26.9c0-22.5-38.9-61.4-61.2-61.4z" fill="#000"/></svg></a>
+    
+        <div class="close"><svg version="1.1" width="25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><polygon fill="#AAAAAB" points="96,14 82,0 48,34 14,0 0,14 34,48 0,82 14,96 48,62 82,96 96,82 62,48 "></polygon></svg></div>
+    
+    </div>
+  	
+  	
+</footer>
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager as per Alix 3/31/2017-->
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);	})(window,document,'script','dataLayer','GTM-TNNH9B3');</script> -->
+<!-- End Google Tag Manager -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1272514719502219'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1272514719502219&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Google analytics  -->
+<!-- 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-37768095-1', 'auto');
+ga('send', 'pageview');
+</script>
+ -->
+<!-- end Google analytics -->
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HJDYD4C341"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-HJDYD4C341');
+</script>
+
+
+
+
+
+<!-- Polyfills -->
+<script>
+      
+
+    if (navigator.userAgent.indexOf("MSIE ") != -1 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {    
+        // Call using defaults
+        $.getScript("/scripts/css-vars-ponyfill.min.js").done(function(script, textStatus) {
+            console.log("finished loading and running css-vars-ponyfill.js. with a status of" + textStatus);
+            cssVars();
+        });
+        $('head').append('<link rel="stylesheet" href="/css/ie.css" type="text/css" />');
+    }
+
+</script>
+<!-- end Polyfills -->
+</body>
+</html>
