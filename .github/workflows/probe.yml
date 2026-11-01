@@ -1,0 +1,56 @@
+name: Probe sources
+
+# Runs on pushes to probe/** branches: tries each method for the sources that have
+# no feed yet, then commits the saved pages and findings back to the same branch.
+on:
+  push:
+    branches: ["probe/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: probe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    if: "!contains(github.event.head_commit.message, '[skip probe]')"
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+
+      - name: Tests
+        run: python -m pytest -q collector/tests
+
+      - name: Probe
+        run: python -m collector.probe
+
+      - name: Dry-run collector (no commit to main)
+        env:
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+        run: |
+          mkdir -p probe/dryrun
+          cp data/events.json data/status.json probe/dryrun/ 2>/dev/null || true
+          python -m collector.main --data probe/dryrun || true
+
+      - name: Commit results to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A probe
+          git commit -m "Probe results [skip probe]" || exit 0
+          git push
