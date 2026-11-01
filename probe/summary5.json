@@ -1,0 +1,61 @@
+[
+ {
+  "key": "gables-cinema",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TFHQ2MCVV6&gtm=45je6as1v9115344153za208xf1&_p=1793510875103&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=2030255570.1793510875&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=994697095&t=pageview&_s=1&dl=https%3A%2F%2Fprod3.agileticketing.net%2Fwebsales%2Fpages%2Flist.aspx%3Fepguid%3D1faa2e3d-ec46-4512-9cc3-67d71f7a3e74%26&ul=en-us&dt=Coral%20Gables%20Art%20Cinema%20-%20Log%20In&sr=1280x720&vp=1280x720&_u=YADAAEABAAAAACAAI~&jid=1373811419&gjid=46293457&cid=2030255570.1793510875&tid=UA-68049618-1&_gid=143464414.17",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 15
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-FTE0FKSFVD&gtm=45je6as1v9134515761za20gxf1&_p=1793510875103&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&_ng=1&are=1&cid=2030255570.1793510875&frm=0&ir=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&t",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TFHQ2MCVV6&gtm=45je6as1v9115344153za200xf1&_p=1793510875103&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=2030255570.1793510875&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=1159384",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 15861,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "pamm",
+  "extra": []
+ },
+ {
+  "key": "arsht",
+  "extra": []
+ },
+ {
+  "key": "wolfsonian",
+  "extra": []
+ }
+]

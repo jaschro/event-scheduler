@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T04:56:45+00:00",
+ "generated_at": "2026-11-01T05:28:23+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -35,6 +35,69 @@
    "city": "miami"
   },
   {
+   "id": "892e8545cb7cf319",
+   "title": "THE ART & SCIENCE OF LIVING WELL",
+   "venue": "Miami Beach JCC",
+   "kind": "community",
+   "start": "2026-11-01T10:00:00-05:00",
+   "end": "2026-11-01T11:30:00-05:00",
+   "all_day": false,
+   "description": "A 90-Minute Interactive Wellness Experience with Ariela Jason, CFMP\nWe live in a world of constant information, stimulation, and distraction. We know more about health than ever before, yet with so much noise around us, it can be surprisingly difficult to recognize what our own bodies and minds are trying to tell us.\nThe Art & Science of Living Well is an engaging 90-minute experience that brings together personal storytelling, functional medicine insights, brain health, science-informed wellness, and practical tools for everyday life.\nTogether, we’ll explore how everyday patterns around…",
+   "url": "https://mbjcc.org/events/the-art-science-of-living-well/",
+   "location": "Miami Beach JCC, 4221 Pine Tree Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mbjcc",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "c887f1a6e726a8ff",
+   "title": "Family Sundays at ICA Miami: Storytelling with Ms. Krystal",
+   "venue": "ICA Miami",
+   "kind": "museum",
+   "start": "2026-11-01T11:00:00-05:00",
+   "end": "2026-11-01T19:00:00-05:00",
+   "all_day": false,
+   "description": "Join Ms. Krystal at ICA Miami on Sunday, November 1, 2026, for a bilingual musical storytime exploring nature and community. Free tickets; reservations required.",
+   "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-storytelling-with-ms-krystal-20261101/",
+   "location": "Institute of Contemporary Art, Miami, 61 NE 41st Street, Miami, FL",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "ica-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9afa3e77f9c5d19b",
+   "title": "Concert for Kids: Spooky Symphony",
+   "venue": "New World Center / NWS",
+   "kind": "music",
+   "start": "2026-11-01T11:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/concert-for-kids-spooky-symphony/",
+   "location": "New World Center, 500 17th St, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nws",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "6fae264109262224",
    "title": "Open Studio",
    "venue": "The Bass",
@@ -53,6 +116,48 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ac6daa95e995f220",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-01T13:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "85d656d7a87cb3e5",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-01T15:45:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -140,6 +245,27 @@
    "city": "miami"
   },
   {
+   "id": "e1d3eca317747134",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-01T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "8040685ba6800e65",
    "title": "The Rocky Horror Picture Show & Day of the Dead",
    "venue": "Miami Beach Bandshell",
@@ -158,6 +284,27 @@
    "source": "bandshell",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "53c8bd3fa884e445",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-01T21:15:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -242,6 +389,48 @@
    "source": "books-and-books",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9028d64d95c7cf75",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "aac0b759c14c5b9c",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-02T21:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -350,6 +539,69 @@
    "city": "miami"
   },
   {
+   "id": "b47260c3b3a7096a",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e30b7d6bd145780f",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-03T21:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "777330ec3bf4fefb",
+   "title": "Pilates in the Garden (Tuesdays)",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-03T21:30:00-05:00",
+   "end": "2026-11-03T22:30:00-05:00",
+   "all_day": false,
+   "description": "Step away from the everyday and reconnect with your body in the beautiful surroundings of the Miami Beach Botanical Garden.\nJoin The Pilates Place Studios for a rejuvenating Classical Mat Pilates class led by Victoria Collins , rooted in the original method developed by Joseph Pilates. This full-body practice combines mindful movement, focused breathing, core strength, mobility, and control to leave you feeling stronger, longer, and more connected to your body.\nWhether you are new to Pilates or have been practicing for years, this class offers an opportunity to experience the timeless Pilates…",
+   "url": "https://www.mbgarden.org/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "66f210838d6c10a1",
    "title": "WIRED World Fair: A Festival of the Future",
    "venue": "Refresh Miami",
@@ -368,6 +620,27 @@
    "source": "refresh-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "92fd7b9b70c5861d",
+   "title": "Tai Chi in the Garden (Wednesdays)",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-04T10:00:00-05:00",
+   "end": "2026-11-04T11:00:00-05:00",
+   "all_day": false,
+   "description": "Join teacher Silvia Salinas, AP, for Tai Chi in the Garden. The class takes place weekly from 10:00 am - 11:00 am in the Banyan Ballroom or on the patio/lawn (weather permitting).\nDesigned for beginners, but also enjoyable for long-time practitioners, this class focuses on the foundation of the movements. The health benefits of Tai Chi include improved flexibility, strength, and balance. Through its fluid movements, Tai Chi stimulates deep breathing and blood circulation without straining the heart and other muscles, making it safe for all physical levels.\nGeneral Admission Price: $18 |…",
+   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-gygfs-7z262",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -518,6 +791,27 @@
    "city": "miami"
   },
   {
+   "id": "f96e8b5df9187009",
+   "title": "TAKE ME HOME",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043259~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/take-me-home",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "549e378637ac3701",
    "title": "SoundScape Cinema Series: Project Hail Mary",
    "venue": "City of Miami Beach Arts Calendar",
@@ -536,6 +830,48 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "7239dd4d0cc774e4",
+   "title": "FJORD",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-04T21:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/fjord",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "97ae426dbf554ea9",
+   "title": "Pilates in the Garden (Thursdays)",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-05T09:30:00-05:00",
+   "end": "2026-11-05T10:30:00-05:00",
+   "all_day": false,
+   "description": "Find your center in the Garden. A classical mat Pilates class designed to strengthen, lengthen & refresh your body & mind.\nStep away from the everyday and reconnect with your body in the beautiful surroundings of the Miami Beach Botanical Garden.\nJoin The Pilates Place Studios for a rejuvenating Classical Mat Pilates class led by Victoria Collins, rooted in the original method developed by Joseph Pilates. This full-body practice combines mindful movement, focused breathing, core strength, mobility, and control to leave you feeling stronger, longer, and more connected to your body.\nWhether you…",
+   "url": "https://www.mbgarden.org/calendar/pilates-in-the-garden-ylxxa-mhamp",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -599,6 +935,48 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "413f95c454458a3d",
+   "title": "BEDFORD PARK (Miami Film Festival GEMS 2026)",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.o-cinema.org/events/miami-film-festival-gems-2026",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "0c55e5d257dbdb65",
+   "title": "Four-Color Screen Printing",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T20:30:00-05:00",
+   "all_day": false,
+   "description": "Four-Week Workshop",
+   "url": "https://oolitearts.org/event/four-color-screen-printing/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -728,6 +1106,27 @@
    "city": "miami"
   },
   {
+   "id": "fe20538c9ba00a44",
+   "title": "Mega Game Night",
+   "venue": "Miami Beach JCC",
+   "kind": "community",
+   "start": "2026-11-05T19:00:00-05:00",
+   "end": "2026-11-05T23:00:00-05:00",
+   "all_day": false,
+   "description": "Go all in for your community! Join us for an unforgettable night of games, food, and fun — all in support of the Miami Beach JCC. Test your luck and skill at Poker, Mah Jongg, Backgammon, and all your favorite casino games, from blackjack to roulette. Enjoy great food and an open bar throughout the night, all while helping raise MEGA funds for the programs and people that make the MBJCC community what it is. Because community is everything.\n“The Casino gaming tables are provided for entertainment purposes only by Casino Party Nights Florida Inc., tel. 954-993-4739”. All Donations and proceeds…",
+   "url": "https://mbjcc.org/events/mega-game-night/",
+   "location": "Miami Beach JCC, 4221 Pine Tree Dr, Miami Beach",
+   "price": {
+    "free": false,
+    "min": 75.0,
+    "text": "$75"
+   },
+   "source": "mbjcc",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "0b948230aa864391",
    "title": "The Radiance | An Evening with Ayad Akhtar",
    "venue": "Books & Books",
@@ -749,6 +1148,48 @@
    "city": "miami"
   },
   {
+   "id": "346b0025c4070527",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-05T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "be98cebd4418e478",
+   "title": "Tai Chi in the Garden (Fridays)",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-06T10:00:00-05:00",
+   "end": "2026-11-06T11:00:00-05:00",
+   "all_day": false,
+   "description": "Join teacher Silvia Salinas, AP, for Tai Chi in the Garden. The class takes place weekly from 10:00 am - 11:00 am in the Banyan Ballroom or on the patio/lawn (weather permitting).\nDesigned for beginners, but also enjoyable for long-time practitioners, this class focuses on the foundation of the movements. The health benefits of Tai Chi include improved flexibility, strength, and balance. Through its fluid movements, Tai Chi stimulates deep breathing and blood circulation without straining the heart and other muscles, making it safe for all physical levels.\nGeneral Admission Price: $18 |…",
+   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-b9w98-zy4pd-pwwkx-f2hjg-wc24l",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "401f7aa48659187e",
    "title": "Caracola Path to the Inner Self Retreat Sebastian, Florida",
    "venue": "Healthyme.Love",
@@ -767,6 +1208,27 @@
    "source": "healthyme-love",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "65f20d5ae0c18daa",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-06T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -938,6 +1400,27 @@
    "city": "miami"
   },
   {
+   "id": "9b07c678ba7da52a",
+   "title": "Music in Motion",
+   "venue": "New World Center / NWS",
+   "kind": "music",
+   "start": "2026-11-06T19:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/music-in-motion/",
+   "location": "New World Center, 500 17th St, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nws",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "01162dd2a27dc679",
    "title": "[CANCELED] Ben Katzman Homecoming",
    "venue": "Miami Beach Bandshell",
@@ -959,6 +1442,69 @@
    "city": "miami"
   },
   {
+   "id": "a4eeebf021780818",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-06T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "4939c80b012e2737",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-06T21:15:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e89580e983052368",
+   "title": "In the Lab: The Little Wetland",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-07T10:00:00-05:00",
+   "end": "2026-11-07T11:30:00-05:00",
+   "all_day": false,
+   "description": "The ecological intimacy of a swamp, none of the physical inconveniences. In the Lab: The Little Wetland brings children face-to-face with living swamp flora, including aquatic carnivorous plants. Children study the plants in individual aquariums, then come together to create a miniature living wetland in a shallow vessel.\n\nAbout Sasha Sikaffy:\nSasha S. Sikaffy, M.S., is an environmental scientist and educator informed by years spent in coral reef fieldwork and marine science education.\nHer work considers how children come to know the living world through direct ecological encounter—attention…",
+   "url": "https://www.mbgarden.org/calendar/in-the-lab-the-little-wetland",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "5773f52ed143db08",
    "title": "Member Morning: The Science Behind Pixar",
    "venue": "Frost Science",
@@ -977,6 +1523,27 @@
    "source": "frost-science",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "dde7cb3859207789",
+   "title": "Alebrije Makers: Form, Myth & Color",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-07T10:30:00-05:00",
+   "end": "2026-11-07T12:30:00-05:00",
+   "all_day": false,
+   "description": "Two-Hour Workshop",
+   "url": "https://oolitearts.org/event/alebrije-makers-form-myth-color/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1022,6 +1589,27 @@
    "city": "miami"
   },
   {
+   "id": "0a9411d872adfdc3",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-07T14:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "ea28038a7d13edd3",
    "title": "An Evening with Jan Carson & Lucy Caldwell",
    "venue": "Books & Books",
@@ -1061,6 +1649,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "a4bc53f6946fd932",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-07T17:15:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1106,6 +1715,27 @@
    "city": "miami"
   },
   {
+   "id": "7be1f3bc6b24fcf9",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-07T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "c15044f590d542ac",
    "title": "Roda de Samba with Soul Samba",
    "venue": "Miami Beach Bandshell",
@@ -1124,6 +1754,27 @@
    "source": "bandshell",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "42b98060ac11e4fb",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-07T20:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1148,6 +1799,27 @@
    "city": "miami"
   },
   {
+   "id": "70e9da5aed71b86e",
+   "title": "Sound Bath Meditation with Franci",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-08T09:30:00-05:00",
+   "end": "2026-11-08T10:30:00-05:00",
+   "all_day": false,
+   "description": "This immersive soothing sound session is designed to soothe the nervous system and support deep rest. The vibrations of sound help ease tension in the body and invite the nervous system into a more restorative state, offering moments of insight and a deeper connection to the body’s innate wisdom. The effects of this practice often continue throughout the day and sometimes into the week. Gentle breathwork and, at times, loving-kindness meditation may also be woven into these sessions.\nGeneral Admission Price: $22 | Member Price: $20\n\nRegister",
+   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-yynen-wmy7h-8d2hd-k4dnm-j3ssk-nj5la-6dlrr-zfwga",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "d9e30a7808f50451",
    "title": "Tech Lab Club: Animation (Session 3)",
    "venue": "Frost Science",
@@ -1169,6 +1841,111 @@
    "city": "miami"
   },
   {
+   "id": "58ce1d9c76479116",
+   "title": "Gentle Vinyasa Yoga with Franci",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-08T10:30:00-05:00",
+   "end": "2026-11-08T11:30:00-05:00",
+   "all_day": false,
+   "description": "A slow, meditative vinyasa practice guided by yogic breath. This class emphasizes subtle body awareness and nervous system support, with helpful verbal cues and gentle assists offered throughout the practice. Through this inward attention, we reconnect with the body’s innate wisdom and integrate that deeper essence into the rhythm of daily life. Each session closes with a longer savasana to rest deeply and absorb the nurturing energy of the garden, supporting integration.\n“It’s not a performance, it’s an inward journey.”\nGeneral Admission Price: $22 | Member Price: $20\n\nRegister",
+   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-yynen-zbxp8-r5gtt-8h75p-5696k-kgetp-3y9zr-hcahd-eples-clyh3",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "6343cc3cc88cb8a3",
+   "title": "Family Sundays at ICA Miami: Movement & Music with Paloma Dueñas",
+   "venue": "ICA Miami",
+   "kind": "museum",
+   "start": "2026-11-08T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Join ICA Miami for Family Sundays: Music & Movement with Paloma Dueñas on November 8, 2026. Explore movement, light, and dance inspired by artist Manuel Chavajay. Free admission.",
+   "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-music-movement-with-paloma-duenas-20261108/",
+   "location": "Institute of Contemporary Art, Miami, 61 NE 41st Street, Miami, FL",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "ica-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "31a6307e0ce32501",
+   "title": "From Plant to Music",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-08T11:00:00-05:00",
+   "end": "2026-11-09T13:00:00-05:00",
+   "all_day": false,
+   "description": "Join Miami-based musician and artist Bruno Esposito for a hands-on exploration of how plant materials become music. Discover the guacharaca, its Indigenous roots and role in Colombian Caribbean traditions, and the natural materials behind gaitas, maracas, and drums. Explore how plants, craftsmanship, rhythm, and culture come together to create sound.\n\nThis special Subtropicalist gathering is free and open to all Garden Circle Members to attend!",
+   "url": "https://www.mbgarden.org/calendar/simplifying-sourdough-baking-9kw6a-lmer9",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "543354132936b9ab",
+   "title": "Learning Watercolors with Alejandro Piñeiro Bello",
+   "venue": "ICA Miami",
+   "kind": "museum",
+   "start": "2026-11-08T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Explore watercolor painting with artist Alejandro Piñeiro Bello at ICA Miami on November 8, 2026. A workshop for families, with lunch included.",
+   "url": "https://icamiami.org/calendar/learning-watercolors-with-alejandro-pineiro-bello/",
+   "location": "Institute of Contemporary Art, Miami, 61 NE 41st Street, Miami, FL",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "ica-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "6e677ba84c2f9516",
+   "title": "Mini Bookmaking Workshop",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-08T11:00:00-05:00",
+   "end": "2026-11-08T15:00:00-05:00",
+   "all_day": false,
+   "description": "One-Day Workshop",
+   "url": "https://oolitearts.org/event/mini-bookmaking-workshop-3/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "42abd8727729e34c",
    "title": "Open Studio",
    "venue": "The Bass",
@@ -1187,6 +1964,111 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e4f3b60730d3045f",
+   "title": "Debussy's Influence",
+   "venue": "New World Center / NWS",
+   "kind": "music",
+   "start": "2026-11-08T14:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/debussys-influence/",
+   "location": "New World Center, 500 17th St, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nws",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e84afeb45c8a8060",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-08T14:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "478d1d46d16e224f",
+   "title": "The Art of Belonging: A Friendsgiving HypnoExpression",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-08T14:00:00-05:00",
+   "end": "2026-11-08T16:30:00-05:00",
+   "all_day": false,
+   "description": "HypnoExpression: Meditate • Create • Elevate\nCurated by Joanne Burgess , Founder of Flight of Minds\nA heart-opening afternoon of hypnotherapy meditation, creative expression through art, and somatic dance - each woven together to soothe loneliness, deepen connection, and awaken the power of community.\nThrough guided hypnomeditation, guests will gently release emotional walls and open the heart to authentic connection. They will then bring their inner world to life through expressive art - a visual reflection of belonging, gratitude, and shared humanity. The journey continues in a joyful…",
+   "url": "https://www.mbgarden.org/calendar/the-art-of-belonging-a-friendsgiving-hypnoexpression",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e561cdd624fa7792",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-08T15:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "62af7dfcc113a796",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-08T17:15:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1250,6 +2132,27 @@
    "source": "bandshell",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "061a80e3af465f71",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-08T20:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1400,6 +2303,27 @@
    "city": "miami"
   },
   {
+   "id": "23d9e568e6062c26",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-09T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "348832719011f320",
    "title": "Fort Lauderdale Tech Meetup",
    "venue": "Refresh Miami",
@@ -1463,6 +2387,27 @@
    "city": "miami"
   },
   {
+   "id": "7289210b85d5d974",
+   "title": "Textile Collage: A Mixed-Media Workshop",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": "2026-11-10T20:30:00-05:00",
+   "all_day": false,
+   "description": "One-Day Workshop",
+   "url": "https://oolitearts.org/event/painting-with-fabric-a-mixed-media-workshop-2/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "0d0091049744e29a",
    "title": "Fiction Book Club in Coconut Grove!",
    "venue": "Books & Books",
@@ -1523,6 +2468,27 @@
    "source": "books-and-books",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ff60364711de4ca7",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-10T21:15:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1607,6 +2573,27 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "fedd797ba9eea34f",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-11T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1801,6 +2788,27 @@
    "city": "miami"
   },
   {
+   "id": "68203aaacc190440",
+   "title": "Four-Color Screen Printing",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T20:30:00-05:00",
+   "all_day": false,
+   "description": "Four-Week Workshop",
+   "url": "https://oolitearts.org/event/four-color-screen-printing/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "a7281eb98df71a46",
    "title": "hack night v0.190 - South Beach",
    "venue": "Hello Miami",
@@ -1840,6 +2848,132 @@
    "source": "books-and-books",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "12f94e3284762d95",
+   "title": "Cuauhtémoc Medina",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": "2026-11-12T21:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://oolitearts.org/event/cuauhtemoc-medina/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "20cd265858ccd8a2",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "c00c01f1520acb7d",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-12T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9e36a7ffc4fb285a",
+   "title": "South Florida Symphony Orchestra: Tchaikovsky, Shostakovich & Higdon",
+   "venue": "New World Center / NWS",
+   "kind": "music",
+   "start": "2026-11-13T00:00:00-05:00",
+   "end": "2026-11-14T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/guest-presenters/south-florida-symphony-orchestra-nov-13/",
+   "location": "New World Center, 500 17th St, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nws",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e468b6a54f230d52",
+   "title": "Tai Chi in the Garden (Fridays)",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-13T10:00:00-05:00",
+   "end": "2026-11-13T11:00:00-05:00",
+   "all_day": false,
+   "description": "Join teacher Silvia Salinas, AP, for Tai Chi in the Garden. The class takes place weekly from 10:00 am - 11:00 am in the Banyan Ballroom or on the patio/lawn (weather permitting).\nDesigned for beginners, but also enjoyable for long-time practitioners, this class focuses on the foundation of the movements. The health benefits of Tai Chi include improved flexibility, strength, and balance. Through its fluid movements, Tai Chi stimulates deep breathing and blood circulation without straining the heart and other muscles, making it safe for all physical levels.\nGeneral Admission Price: $18 |…",
+   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-b9w98-zy4pd-pwwkx-f2hjg-wc24l-554k7",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ca589dae9af732e7",
+   "title": "Stillness in Motion",
+   "venue": "Miami Beach Botanical Garden",
+   "kind": "outdoors",
+   "start": "2026-11-13T11:15:00-05:00",
+   "end": "2026-11-13T12:15:00-05:00",
+   "all_day": false,
+   "description": "Find your way back to the present moment through movement, breath, and mindfulness. Set within the living sanctuary of the Garden.\n\nMove through intentional Vinyasa sequences that build functional strength and fluid mobility, anchored in the breath. This is a practice that meets you where you are. Mat required. Water and sunscreen recommended.\n\nAbout Carolina Jayaram:\n\nA yoga and meditation practitioner for 25 years and a teacher for six, Carolina Jayaram has found these practices to be a steady source of inner wisdom, balance, and renewal. Trained in the Jivamukti and rooted in Patanjali…",
+   "url": "https://www.mbgarden.org/calendar/stillness-in-motion-ramc4-ztyrc-yrz8p",
+   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "mb-botanical",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -1924,6 +3058,27 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "da04945be2b53e2c",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-13T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -2032,6 +3187,69 @@
    "city": "miami"
   },
   {
+   "id": "7dbffafccff5477d",
+   "title": "The Shades of Indigo Blue",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-14T10:00:00-05:00",
+   "end": "2026-11-14T15:00:00-05:00",
+   "all_day": false,
+   "description": "One-Day Workshop",
+   "url": "https://oolitearts.org/event/the-shades-of-indigo-blue/",
+   "location": "Oolite Arts, 75 NW 72nd St, Miami",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ab91fade0c82f7a5",
+   "title": "Oolite Arts On the Move at Little Haiti Cultural Complex",
+   "venue": "Oolite Arts",
+   "kind": "art",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": "2026-11-14T13:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://oolitearts.org/event/oolite-arts-on-the-move-at-little-haiti-cultural-complex-2/",
+   "location": "Little Haiti Cultural Complex",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "oolite",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "d0208f374dfb7c31",
+   "title": "DINORAH DE JESÚS RODRÍGUEZ RETROSPECTIVE: NOVIA DEL MEDIODÍA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-14T12:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.o-cinema.org/events/dinorah-de-jesus-rodriguez-retrospective-novia-del-mediodia",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
    "id": "2610f4080cfc68c9",
    "title": "Open Studio",
    "venue": "The Bass",
@@ -2092,6 +3310,27 @@
    "source": "luma-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "b1d257767da8d6ed",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-14T16:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   },
   {
@@ -2176,6 +3415,69 @@
    "source": "bandshell",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "011239ba07a28e2d",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-14T19:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8c09eb5cab22c92e",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-14T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "268064454796a38e",
+   "title": "Mozart's Requiem",
+   "venue": "New World Center / NWS",
+   "kind": "music",
+   "start": "2026-11-14T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/mozarts-requiem/",
+   "location": "New World Center, 500 17th St, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nws",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:28:23+00:00",
    "city": "miami"
   }
  ]
