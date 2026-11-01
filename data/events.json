@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T14:30:21+00:00",
+ "generated_at": "2026-11-01T14:38:38+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -18,6 +18,27 @@
   }
  ],
  "events": [
+  {
+   "id": "dd4ac263af42b45d",
+   "title": "Primers for a Handmade Utopia",
+   "venue": "Cooper Union School of Architecture",
+   "kind": "talks",
+   "start": "2026-10-08T00:00:00-04:00",
+   "end": "2026-11-16T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://cooper.edu/architecture/exhibitions/primers-handmade-utopia",
+   "location": "The Cooper Union, 7 E 7th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cooper-union-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
   {
    "id": "b7579f5c8118e00d",
    "title": "GCPE Graduate Admissions Information Session",
@@ -58,6 +79,27 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "04f067a628a56145",
+   "title": "Publishing Architecture at The Cooper Union",
+   "venue": "Cooper Union School of Architecture",
+   "kind": "talks",
+   "start": "2026-10-29T00:00:00-04:00",
+   "end": "2026-11-26T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://cooper.edu/events-and-exhibitions/exhibitions/publishing-architecture-cooper-union",
+   "location": "The Cooper Union, 7 E 7th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cooper-union-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -143,6 +185,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "7fb57cef633d63ac",
+   "title": "Art Deco Murray Hill / Gramercy",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-01T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/art-deco-murray-gramercy/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "c887f1a6e726a8ff",
@@ -649,6 +712,48 @@
    "city": "miami"
   },
   {
+   "id": "1957fcea17c0dd83",
+   "title": "My Name is Stramer",
+   "venue": "YIVO Institute for Jewish Research",
+   "kind": "talks",
+   "start": "2026-11-02T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://yivo.org/My-Name-is-Stramer",
+   "location": "YIVO, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yivo",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "16a1ea40398af642",
+   "title": "My Name is Stramer – In-person Program and Live on Zoom",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-02T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/stramer-2026-11-02",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "9028d64d95c7cf75",
    "title": "FJORD",
    "venue": "O Cinema South Beach",
@@ -751,6 +856,27 @@
    "source": "nyc-ny-jewish-week",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "506d1d161643a545",
+   "title": "Truth on Trial: 80 Years After Nuremberg A Conversation with Natalie Livingstone, Nadav Eyal & Gavriel Rosenfeld - In-person Program",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/nuremberg-2026-11-02",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -922,6 +1048,27 @@
    "city": "miami"
   },
   {
+   "id": "76c6bf0e89706ceb",
+   "title": "2026 AIA Tri-State Conference",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-03T10:25:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/03/2026-aia-tri-state-conference/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "38e558daf5ac0137",
    "title": "Multidisciplinary Artist Discusses His Practice & Materiality (In Person AND Online!)",
    "venue": "Club Free Time",
@@ -1090,6 +1237,27 @@
    "city": "nyc"
   },
   {
+   "id": "193eeb4f6b31cbf2",
+   "title": "ARE Workshop Fall 2026: Project Development & Documentation",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": "2026-11-03T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/03/are-workshop-fall-2026-project-development-documentation/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b47260c3b3a7096a",
    "title": "FJORD",
    "venue": "O Cinema South Beach",
@@ -1129,6 +1297,48 @@
    "source": "nyc-club-free-time",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "8834d089548791a8",
+   "title": "More than a Symbol: The Jewish Labor Bund in History",
+   "venue": "YIVO Institute for Jewish Research",
+   "kind": "talks",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://yivo.org/Bund-in-History",
+   "location": "YIVO, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yivo",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e31f9b2a86b02dc7",
+   "title": "More than a Symbol: The Jewish Labor Bund in History – In-person Program and Live on Zoom",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/symbol-2026-11-03",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -1279,6 +1489,27 @@
    "city": "miami"
   },
   {
+   "id": "83ff9a0a6888cbc2",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-04T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-4-2026-2/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "a8253872c3b4a5c2",
    "title": "\"The Jews of Asia Minor, 215 BCE to 500 CE: Text and Materiality\"",
    "venue": "Columbia Institute for Israel and Jewish Studies",
@@ -1405,6 +1636,27 @@
    "city": "nyc"
   },
   {
+   "id": "e97c87ee11d8bcbf",
+   "title": "Understanding LED Fixture Performance",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-04T13:00:00-05:00",
+   "end": "2026-11-04T14:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/04/understanding-led-fixture-performance/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "ac5c62e62400f662",
    "title": "WSSW SGA Meeting",
    "venue": "Yeshiva University",
@@ -1468,6 +1720,27 @@
    "city": "nyc"
   },
   {
+   "id": "7dc5ab815af818c4",
+   "title": "Curator’s Tour of The Invention of Park Avenue",
+   "venue": "The Skyscraper Museum",
+   "kind": "art",
+   "start": "2026-11-04T15:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.skyscraper.org/programs/curators-tour-of-the-invention-of-park-avenue/",
+   "location": "The Skyscraper Museum, 39 Battery Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-skyscraper-museum",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "4ecd796446b2f624",
    "title": "Moonlighter FabLab: Maker Club Afterschool Enrichment - 2026-2027",
    "venue": "City of Miami Beach Arts Calendar",
@@ -1489,6 +1762,27 @@
    "city": "miami"
   },
   {
+   "id": "e26ef1da504e3f83",
+   "title": "Here’s Johnny!: A Salute to NBC Icon Johnny Carson with Mark Malkoff",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-04T16:00:00-05:00",
+   "end": "2026-11-04T18:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.universe.com/events/conversation-with-a-curator-a-salute-to-johnny-carson-with-mark-malkoff-tickets-D2RKX8?unii-trigger-open=D2RKX8&unii-access-key=GENERALPUBLIC",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "f838e91dac409fb7",
    "title": "Book Talk: A Right to Housing? with Samuel Stein",
    "venue": "Van Alen Institute",
@@ -1507,6 +1801,27 @@
    "source": "nyc-van-alen",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "798a97a7e65c4664",
+   "title": "Book Talk: Claying Architecture, Making Machine and Material Kin",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/04/book-talk-claying-architecture-making-machine-and-material-kin/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -1552,6 +1867,27 @@
    "city": "nyc"
   },
   {
+   "id": "7a938d3d4da4ab46",
+   "title": "Methods of Measurement: Health, Safety, Welfare in Architecture and Happy Hour",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/04/methods-of-measurement-health-safety-welfare-in-architecture-and-happy-hour/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b8812c8e2c1922dd",
    "title": "Minds behind Storied Architecture Studio Share Their Book, JSa: Built in Mexico City (+ Signing)",
    "venue": "Club Free Time",
@@ -1570,6 +1906,27 @@
    "source": "nyc-club-free-time",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "8ccf5649166a54f1",
+   "title": "New York City Art Scene 1960s, Part 1 of 4",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/nyc-art-scene-1960s-1/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -1657,6 +2014,48 @@
    "city": "miami"
   },
   {
+   "id": "0f2a18fb29c45cbe",
+   "title": "It Started on Delancey Street! New York's Lower East Side in Jack Kirby's Comics - In-Person Event",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-04T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/delancey-street-2026-11-04",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "289f125be17925f1",
+   "title": "Jewish Women at Home in the World – Live on Zoom",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-04T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/jewish-women-2026-11-04",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "d9e582714f6b1b74",
    "title": "Multidimensional Artist Discusses the Work of Pioneer in Minimalist Art Space",
    "venue": "Club Free Time",
@@ -1697,6 +2096,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
+  },
+  {
+   "id": "a86e86a496866da9",
+   "title": "SANTOS BRAVOS: DUAL — Behind the Music",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-04T18:30:00-05:00",
+   "end": "2026-11-04T21:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.paleycenter.org/events/paleylive-santos-bravos",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "9f6c69bf0a139d5a",
@@ -1928,6 +2348,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "50846f1682b8d102",
+   "title": "The AI Playbook Series: Bart Consedine, Head of AI Engineering at Magnite",
+   "venue": "NYU Stern School of Business",
+   "kind": "talks",
+   "start": "2026-11-05T00:00:00-05:00",
+   "end": "2026-11-06T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/fubon-center/events-activities/ai-playbook",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-nyu-stern",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "3e50f6656a377fc1",
@@ -2707,6 +3148,27 @@
    "city": "nyc"
   },
   {
+   "id": "589eaad5560adea7",
+   "title": "Four Voices, Four Worlds - In-Person Concert & Live on YouTube",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-05T19:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/blavatnik-chamber-music-series-2026-11-05",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "5bfa3983237cc600",
    "title": "Princeton Archeologist Discusses the Traveling Craftsmen of Ancient Greece",
    "venue": "Club Free Time",
@@ -2791,6 +3253,27 @@
    "city": "nyc"
   },
   {
+   "id": "5fd54fc7b783419c",
+   "title": "2026 David K. Backus Memorial Lecture",
+   "venue": "NYU Stern School of Business",
+   "kind": "talks",
+   "start": "2026-11-06T00:00:00-05:00",
+   "end": "2026-11-07T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfrqwf1sDIN2sxt3n7ZYrj82Ru5YitwCtF5hdhJS890JBMM8Q/viewform",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-nyu-stern",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "32c1698eca6db13d",
    "title": "Jobim and the Music of Brazil",
    "venue": "Arsht Center",
@@ -2812,6 +3295,27 @@
    "city": "miami"
   },
   {
+   "id": "2c4199ef33834f1d",
+   "title": "NYU Stern Real Estate Club: The Trophy Asset",
+   "venue": "NYU Stern School of Business",
+   "kind": "talks",
+   "start": "2026-11-06T00:00:00-05:00",
+   "end": "2026-11-07T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://nyustern.campusgroups.com/SREC/rsvp_boot?id=1929467",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-nyu-stern",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b80f07b1804f2950",
    "title": "Age of Influence - 2026 CWIB Conference (Main)",
    "venue": "Columbia Business School",
@@ -2830,6 +3334,27 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "fbe9cfaf7a811878",
+   "title": "Women in Architecture Leadership Breakfast with Lissa So",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-06T08:00:00-05:00",
+   "end": "2026-11-06T09:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/06/women-in-architecture-leadership-breakfast-with-lissa-so/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -2978,6 +3503,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "e956d1d2905ad8ec",
+   "title": "Deans’ Roundtable 2026",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-06T18:00:00-05:00",
+   "end": "2026-11-06T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/06/deans-roundtable-2026/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "65f20d5ae0c18daa",
@@ -3337,6 +3883,27 @@
    "city": "miami"
   },
   {
+   "id": "5cb5802eba5d4f08",
+   "title": "EA SPORTS FC 27",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-07T00:00:00-05:00",
+   "end": "2026-11-08T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://www.paleycenter.org/events/paleygx-ea-sports-fc",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "4d3690e38e4fc2bc",
    "title": "Quinteto Astor Piazzolla",
    "venue": "Arsht Center",
@@ -3421,6 +3988,48 @@
    "city": "miami"
   },
   {
+   "id": "1bf50a39e21a3d4d",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-07T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-7-2026-2/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "c81254cf9ab5dc1f",
+   "title": "Get Smart on AI: Raising Independent Thinkers in the Age of AI",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-07T12:15:00-05:00",
+   "end": "2026-11-07T13:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.paleycenter.org/events/get-smart-on-ai",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "5af7ea483f42ec15",
    "title": "Open Studio",
    "venue": "The Bass",
@@ -3503,6 +4112,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
+  },
+  {
+   "id": "75727b3052c7ed0d",
+   "title": "Fort Greene",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-07T14:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/fort-greene-2/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "0a9411d872adfdc3",
@@ -3841,6 +4471,27 @@
    "city": "miami"
   },
   {
+   "id": "daa4f8051afec2e0",
+   "title": "Jews and American Democracy: 250 Years of Debate - In-Person Event",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-08T10:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/jews-and-democracy-2026-11-08",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "d9e30a7808f50451",
    "title": "Tech Lab Club: Animation (Session 3)",
    "venue": "Frost Science",
@@ -3862,6 +4513,27 @@
    "city": "miami"
   },
   {
+   "id": "299a8f9daa0031a1",
+   "title": "The Green-House at Green-Wood Cemetery",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-08T10:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/green-house-at-green-wood/",
+   "location": null,
+   "price": {
+    "free": true,
+    "min": null,
+    "text": "Free!"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "6343cc3cc88cb8a3",
    "title": "Family Sundays at ICA Miami: Movement & Music with Paloma Dueñas",
    "venue": "ICA Miami",
@@ -3881,6 +4553,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
+  },
+  {
+   "id": "5d5821deae9b6b07",
+   "title": "Gilded Age Mansions OFF Fifth Avenue",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-08T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/gilded-age-mansions-off-fifth-avenue-3/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "543354132936b9ab",
@@ -4175,6 +4868,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "84c2984d16bfa4c4",
+   "title": "2027 Study Tour of Israel",
+   "venue": "YIVO Institute for Jewish Research",
+   "kind": "talks",
+   "start": "2026-11-09T00:00:00-05:00",
+   "end": "2026-11-10T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://yivo.org/Israel2027",
+   "location": "YIVO, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yivo",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "17c2ca9c7d01eae6",
@@ -4510,6 +5224,27 @@
    "source": "nyc-van-alen",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "568fe519e34fa70c",
+   "title": "Breaking the Huddle: The Remarkable Story of Panther Pat with Eli Manning In Person",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T20:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.universe.com/events/paleylive-breaking-the-huddle-the-remarkable-story-of-panther-pat-tickets-GVMR1H?unii-trigger-open=GVMR1H&unii-access-key=GENERALPUBLIC",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -4849,6 +5584,27 @@
    "city": "nyc"
   },
   {
+   "id": "af78707fe2e60e65",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-10T12:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-4-2026/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "06434d8f1974c7b2",
    "title": "Lunch and Learn - Ventura",
    "venue": "Columbia Business School",
@@ -5078,6 +5834,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "1a4931f3966a7d5a",
+   "title": "Fire and Clay: How Bricks Reveal the Hidden History of Chicago",
+   "venue": "The Skyscraper Museum",
+   "kind": "art",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.skyscraper.org/programs/fire-and-clay-chicago/",
+   "location": "The Skyscraper Museum, 39 Battery Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-skyscraper-museum",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "f8cb108934518acc",
+   "title": "Hans Morgenthau and the Enduring Value of Realism",
+   "venue": "Carnegie Council for Ethics in International Affairs",
+   "kind": "talks",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://info.carnegiecouncil.org/value-of-realism",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-carnegie-council",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "7289210b85d5d974",
@@ -5605,6 +6403,27 @@
    "city": "miami"
   },
   {
+   "id": "107f07a82efaf5f2",
+   "title": "The Paley Museum & Southern Rounds Present: Southern Rounds: Bringing Nashville to New York!",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-11T17:00:00-05:00",
+   "end": "2026-11-11T19:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.paleycenter.org/events/southern-rounds",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "e94af1bd5b65f2c2",
    "title": "Once Upon a Time in Harlem",
    "venue": "Coral Gables Art Cinema",
@@ -5749,6 +6568,69 @@
    "source": "nyc-ny-jewish-week",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "d424ab021d7a9ee0",
+   "title": "What can the lives of Jewish midwives reveal about Jewish communities in early modern Europe? - In-person Program",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-11T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/midwives-2026-11-11",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e2bb0e0c5b1f6159",
+   "title": "A Staged Reading of 'The Dybbuk'",
+   "venue": "YIVO Institute for Jewish Research",
+   "kind": "talks",
+   "start": "2026-11-11T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://yivo.org/Staged-Reading-of-The-Dybbuk",
+   "location": "YIVO, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yivo",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "d2b09925ff9fa2fb",
+   "title": "A Staged Reading of 'The Dybbuk' – In-person Program",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-11T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/dybbuk-2026-11-11",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -6216,6 +7098,27 @@
    "city": "miami"
   },
   {
+   "id": "d1d53af5246da6d5",
+   "title": "Film Screening: The Social Life of Small Urban Spaces",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/the-social-life-of-small-urban-spaces-11-12-2026/",
+   "location": null,
+   "price": {
+    "free": true,
+    "min": 15.0,
+    "text": "Member: Free | Non-member: $15"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "68203aaacc190440",
    "title": "Four-Color Screen Printing",
    "venue": "Oolite Arts",
@@ -6321,6 +7224,27 @@
    "city": "nyc"
   },
   {
+   "id": "9cda6c0155cf94e7",
+   "title": "The New Nuclear Weapons Debate",
+   "venue": "Carnegie Council for Ethics in International Affairs",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://info.carnegiecouncil.org/new-nuclear-weapons-debate",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-carnegie-council",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "73e696c8cbb41f6f",
    "title": "Best-Selling Historian Shares His New Book on the Middle East",
    "venue": "Club Free Time",
@@ -6405,6 +7329,27 @@
    "city": "nyc"
   },
   {
+   "id": "215dfd8e21b2ae11",
+   "title": "Representation Lecture | Mark West: Seeing Things, Pareidolia and the Discovery of Form",
+   "venue": "Cooper Union School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-12T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://cooper.edu/events-and-exhibitions/events/representation-lecture-mark-west-seeing-things-pareidolia-and",
+   "location": "The Cooper Union, 7 E 7th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cooper-union-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "c3c372d90520ce59",
    "title": "American Book Award-Winning Poet Shares Her New Collection, The Ghost Forest",
    "venue": "Club Free Time",
@@ -6466,6 +7411,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "d64aa3c08e7c203d",
+   "title": "Diamonds of the Night",
+   "venue": "YIVO Institute for Jewish Research",
+   "kind": "talks",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://yivo.org/Diamonds-of-the-Night",
+   "location": "YIVO, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yivo",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "db95d5bd5532ba8a",
+   "title": "Diamonds of the Night – In-person Program",
+   "venue": "Center for Jewish History",
+   "kind": "talks",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://programs.cjh.org/event/diamonds-2026-11-12",
+   "location": "Center for Jewish History, 15 W 16th St, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cjh",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "20cd265858ccd8a2",
@@ -6696,6 +7683,48 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e29f874fe8526f60",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-13T12:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-13-2026/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "041fb3de30bd3a2c",
+   "title": "How Rod Serling and The Twilight Zone Transformed TV, with Serling biographer Alan Sepinwall",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-13T16:00:00-05:00",
+   "end": "2026-11-13T18:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.universe.com/events/conversation-with-a-curator-how-the-twilight-zone-transformed-tv-tickets-DSHYC4?unii-trigger-open=DSHYC4&unii-access-key=GENERALPUBLIC",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
    "city": "nyc"
   },
   {
@@ -7163,6 +8192,27 @@
    "city": "nyc"
   },
   {
+   "id": "b33ed0ec260c57cc",
+   "title": "Edgemere - Far Rockaway Walk & Talk to Build a Strong Parks System",
+   "venue": "Regional Plan Association",
+   "kind": "talks",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": "2026-11-14T16:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.eventbrite.com/e/edgemere-far-rockaway-walk-talk-to-build-a-strong-parks-system-tickets-2002305611986?aff=oddtdtcreator",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-rpa",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "2acf6396b6d00614",
    "title": "Fantastic Mr. Fox",
    "venue": "Coral Gables Art Cinema",
@@ -7203,6 +8253,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "270371303a98ceec",
+   "title": "Tenement Historic District: A History of Housing in Yorkville",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/tenement-historic-district/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "c7c5c67bf82783fc",
@@ -7308,6 +8379,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
+  },
+  {
+   "id": "b700dde3ff5cafd0",
+   "title": "Enduring Culture Spotlight: Neighborhood Heritage in West-Central Queens",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-14T14:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/enduring-culture-spotlight-neighborhood-heritage-in-west-central-queens/",
+   "location": null,
+   "price": {
+    "free": true,
+    "min": null,
+    "text": "Free!"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
   },
   {
    "id": "1275c8a3b0bed98d",
