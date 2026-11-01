@@ -12,7 +12,7 @@ KINDS = {
     "tech", "museum", "art", "film", "stage", "music", "talks", "science",
     "food and wine", "wellness", "community", "outdoors", "sports",
 }
-METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster"}
+METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster", "wprest"}
 
 DEFAULT_SETTINGS = {
     "days_ahead": 14,

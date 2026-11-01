@@ -1,0 +1,233 @@
+[
+ {
+  "id": "0977765b97402d9a",
+  "title": "Weekday Prayer Services",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T00:00:00-05:00",
+  "end": "2026-11-04T00:00:00-05:00",
+  "all_day": true,
+  "description": "Join one of the Hub’s partners for a weekday prayer service. Some synagogues hold morning prayer (shacharit), and some hold evening prayer. Please refer to the host’s website for more detailed information.\n\nMorning and Evening\n\n<a href=\"h",
+  "url": "https://www.myjewishlearning.com/the-hub/weekday-prayer-services-2/2026-11-03/",
+  "location": null,
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "69adbc7a04d80ae9",
+  "title": "Weekday Prayer Services",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T09:00:00-05:00",
+  "end": "2026-11-03T19:00:00-05:00",
+  "all_day": false,
+  "description": "Join one of the Hub’s partners for a weekday prayer service. Some synagogues hold morning prayer (shacharit), and some hold evening prayer. Please refer to the host’s website for more detailed information.\n\n<a href=\"https://bit.ly/3sKIwdY\" targ",
+  "url": "https://www.myjewishlearning.com/the-hub/weekday-prayer-services/2026-11-03/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "69651606069823e7",
+  "title": "Talmud: The Authority Of Jewish Customs",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T12:00:00-05:00",
+  "end": "2026-11-03T13:00:00-05:00",
+  "all_day": false,
+  "description": "The Pardes Institute of Jewish Studies presents Talmud: The Authority of Jewish Customs, diving into Talmudic discussions that explore the authority of Jewish customs and their power to shape communal identity.",
+  "url": "https://www.myjewishlearning.com/the-hub/talmud-the-authority-of-jewish-customs/2026-11-03/",
+  "location": null,
+  "price": {
+   "free": false,
+   "min": 100.0,
+   "text": "$100"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "d3a37cf9560306ca",
+  "title": "The Pin That Slew the Serpent: Unearthing the Objects of the Talmud",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T13:00:00-05:00",
+  "end": "2026-11-03T14:00:00-05:00",
+  "all_day": false,
+  "description": "The Community Scholar Program offers a course on everyday objects in the Talmudic text, from Hillel’s skylight to the hairpin of Rabbi Akiva’s daughter. While texts reflect the interests of the literate elite, objects such as furniture, clothes, and kitchenware open a window into the",
+  "url": "https://www.myjewishlearning.com/the-hub/the-pin-that-slew-the-serpent-unearthing-the-objects-of-the-talmud/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "efd4c7f506f7b01d",
+  "title": "The American Jewish Experience: A Reflection in this 250th Year of the US",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T15:00:00-05:00",
+  "end": "2026-11-03T16:00:00-05:00",
+  "all_day": false,
+  "description": "Keeping It Sacred hosts Rabbi Heather Miller for an Election Day program reflecting on the American Jewish experience over the past 250 years. The session marks America’s 250th anniversary with an exploration of the history of Jewish life in the United States.",
+  "url": "https://www.myjewishlearning.com/the-hub/the-american-jewish-experience-a-reflection-in-this-250th-year-of-the-us/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "4657156c51d81c73",
+  "title": "The Heart of Jewish Ukraine: A Free Online Journey",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T15:00:00-05:00",
+  "end": "2026-11-03T16:30:00-05:00",
+  "all_day": false,
+  "description": "The Online Jewish Travel Club presents a free online gathering with independent guide and lecturer Evgenia Kempinski on the diversity of Jewish life in the Pale of Settlement in Ukraine. The session explores the shtetls, each with its own traditions, along with the cultural and political centers",
+  "url": "https://www.myjewishlearning.com/the-hub/the-heart-of-jewish-ukraine-a-free-online-journey/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "930cc006fc8dba16",
+  "title": "The Karaite Jews of Egypt: A Hidden Chapter in Jewish History",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T15:00:00-05:00",
+  "end": "2026-11-03T16:30:00-05:00",
+  "all_day": false,
+  "description": "Qesher traces the lesser-known legacy of Karaite Jews in Egypt through the streets of Alexandria and the lecturer’s own family history. The session explores how Karaites differ from Rabbanite Jews in prayer, Torah interpretation, kashrut, and gender roles. The tradition continues to survive",
+  "url": "https://www.myjewishlearning.com/the-hub/the-karaite-jews-of-egypt-a-hidden-chapter-in-jewish-history/",
+  "location": null,
+  "price": {
+   "free": false,
+   "min": 9.0,
+   "text": "$9 – $18"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "e5e1e98a57559d65",
+  "title": "Kaddish Minyan (Weekdays)",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T16:00:00-05:00",
+  "end": "2026-11-03T16:15:00-05:00",
+  "all_day": false,
+  "description": "My Jewish Learning hosts an online minyan Sunday-Friday for those who wish to say Kaddish. The minyan is held every Monday-Friday at 4:00 PM U.S. Eastern time (2:00 PM on Fridays in the winter), and at 10:00 AM U.S. Eastern time on Sundays.\n\nEach session is led by a rabbi who will offer som",
+  "url": "https://www.myjewishlearning.com/the-hub/kaddish-minyan-weekdays/2026-11-03/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "71e2944ad02cec45",
+  "title": "Introduction to Bible with Rabbi Ephraim Buchwald",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T19:00:00-05:00",
+  "end": "2026-11-03T20:30:00-05:00",
+  "all_day": false,
+  "description": "The National Jewish Outreach Program presents a course with Rabbi Buchwald offering a general overview of the content and style of the Bible, covering the Five Books of the Torah. The sessions review basic literary and theological approaches to Bible study, both traditional and modern, through an",
+  "url": "https://www.myjewishlearning.com/the-hub/introduction-to-bible-with-rabbi-ephraim-buchwald/2026-11-03/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "37395a081df84c56",
+  "title": "More Than a Symbol: The Jewish Labor Bund in History",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-03T19:00:00-05:00",
+  "end": "2026-11-03T19:00:00-05:00",
+  "all_day": false,
+  "description": "The YIVO Institute for Jewish Research hosts Joshua Meyers for a talk on the Jewish Labor Bund, drawing on the Bund Archive preserved at YIVO. The session traces the Bund’s history from its origins through World War II, when it served as the standard bearer of Diaspora Socialism in the Jewi",
+  "url": "https://www.myjewishlearning.com/the-hub/more-than-a-symbol-the-jewish-labor-bund-in-history/",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free"
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "5d84323b5ff36167",
+  "title": "Weekday Prayer Services",
+  "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+  "kind": "community",
+  "start": "2026-11-04T00:00:00-05:00",
+  "end": "2026-11-05T00:00:00-05:00",
+  "all_day": true,
+  "description": "Join one of the Hub’s partners for a weekday prayer service. Some synagogues hold morning prayer (shacharit), and some hold evening prayer. Please refer to the host’s website for more detailed information.\n\nMorning and Evening\n\n<a href=\"h",
+  "url": "https://www.myjewishlearning.com/the-hub/weekday-prayer-services-2/2026-11-04/",
+  "location": null,
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "nyc-ny-jewish-week",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ }
+]

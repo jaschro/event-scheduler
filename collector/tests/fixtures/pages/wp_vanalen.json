@@ -1,0 +1,382 @@
+[
+ {
+  "id": 42682,
+  "link": "https://www.vanalen.org/events/what-a-way-to-make-a-living/",
+  "title": {
+   "rendered": "Panel: What a Way to Make a Living"
+  },
+  "excerpt": {
+   "rendered": "<p>Policy, design, and development leaders envision how NYC’s Block by Block housing plan can move beyond unit production to foster better living.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-11-12 18:00:00",
+   "end_date_time": "2026-11-12 20:00:00",
+   "rsvp_link": "https://luma.com/qtv786wp",
+   "contact": "abrown@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42541,
+  "link": "https://www.vanalen.org/events/re-forming-the-image-a-collage-walk-with-curry-j-hackett/",
+  "title": {
+   "rendered": "Re-Forming the Image: A Collage Walk with Curry J. Hackett"
+  },
+  "excerpt": {
+   "rendered": "<p>Presented by the Ace Hotel Brooklyn, join this architectural walk and collage workshop with Curry J. Hackett.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-10 13:00:00",
+   "end_date_time": "2026-10-10 15:00:00",
+   "rsvp_link": "https://acehotel.com/brooklyn/going-on/slow-series-curry-j-hackett-collage-salon-architecture-walk/",
+   "contact": "",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42371,
+  "link": "https://www.vanalen.org/events/reception-open-access/",
+  "title": {
+   "rendered": "Open Access: Exhibition Reception"
+  },
+  "excerpt": {
+   "rendered": "<p>Join us for a festive cocktail reception to toast the exhibition&#8217;s artists, who have each created an original response to Van Alen&#8217;s design archive.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-08 18:00:00",
+   "end_date_time": "2026-10-08 20:00:00",
+   "rsvp_link": "https://luma.com/jukhmezs",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42478,
+  "link": "https://www.vanalen.org/events/culture-of-place/",
+  "title": {
+   "rendered": "Panel: Culture of Place"
+  },
+  "excerpt": {
+   "rendered": "<p>Farida Abu-Bakare (WXY), Curry J. Hackett, and Tura Cousins Wilson (SOCA) to explore what architects can learn from the people already doing the work of building community.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-11-05 18:00:00",
+   "end_date_time": "2026-11-05 20:00:00",
+   "rsvp_link": "https://luma.com/srnst5kc",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42401,
+  "link": "https://www.vanalen.org/events/the-architectural-anarchive/",
+  "title": {
+   "rendered": "The Architectural Anarchive: Reimagining the Design Archive"
+  },
+  "excerpt": {
+   "rendered": "<p>Shannon Mattern (Metropolitan New York Library Council) leads a discussion around how archives determine what’s worthy of collection and preservation, and the role of the architectural archive in an age of extractive technologies.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-19 18:00:00",
+   "end_date_time": "2026-10-19 20:00:00",
+   "rsvp_link": "https://luma.com/ny64q9no",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42477,
+  "link": "https://www.vanalen.org/events/the-accidental-archive/",
+  "title": {
+   "rendered": "The Accidental Archive: A Community Workshop "
+  },
+  "excerpt": {
+   "rendered": "<p>Writer and artist Divya Mehra leads an interactive workshop to explore our own personal archives, asking questions about the value of the mundane and what it means to embrace our own archival practice.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-22 18:00:00",
+   "end_date_time": "2026-10-22 20:00:00",
+   "rsvp_link": "https://luma.com/egvpkebz",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42426,
+  "link": "https://www.vanalen.org/events/an-archival-seance-with-marina-otero-verzier/",
+  "title": {
+   "rendered": "[POSTPONED] An Archival Séance with Marina Otero Verzier"
+  },
+  "excerpt": {
+   "rendered": "<p>Due to unforeseen circumstances, this event will no longer take place on Thursday, October 29. Please stay tuned for further updates. Thank you!</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-29 19:00:00",
+   "end_date_time": "2026-10-19 20:00:30",
+   "rsvp_link": "",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42445,
+  "link": "https://www.vanalen.org/events/book-launch-material-variance-by-lola-ben-alon/",
+  "title": {
+   "rendered": "Book Launch: Material Variance by Lola Ben-Alon"
+  },
+  "excerpt": {
+   "rendered": "<p>Lola Ben-Alon debuts her new book <em>Material Variance</em> and a site-specific installation by the Natural Materials Lab at Columbia GSAPP.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-11-19 18:00:00",
+   "end_date_time": "2026-11-19 20:00:00",
+   "rsvp_link": "https://luma.com/n34iru6x",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42442,
+  "link": "https://www.vanalen.org/events/book-launch-junior-architects/",
+  "title": {
+   "rendered": "Book Launch: Junior Architects"
+  },
+  "excerpt": {
+   "rendered": "<p>Join a conversation hosted by Suzanne Lettieri and Anya Sirota, editors of <em>Junior Architects: New Paradigms in Design Education</em>, which examines equity in architecture and design education in the US.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-11-09 18:00:00",
+   "end_date_time": "2026-11-09 20:00:00",
+   "rsvp_link": "https://luma.com/uuwleqkb",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42439,
+  "link": "https://www.vanalen.org/events/book-talk-a-right-to-housing-with-samuel-stein/",
+  "title": {
+   "rendered": "Book Talk: A Right to Housing? with Samuel Stein"
+  },
+  "excerpt": {
+   "rendered": "<p>​In collaboration with AIA Brooklyn Housing Committee, Samuel Stein discusses his latest book <em>A Right to Housing?</em></p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-11-04 18:00:00",
+   "end_date_time": "2026-11-04 20:00:00",
+   "rsvp_link": "https://www.eventbrite.com/e/van-alen-institute-and-aia-brooklyn-present-a-right-to-housing-tickets-2001989873604?keep_tld=true",
+   "contact": "",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42430,
+  "link": "https://www.vanalen.org/events/book-launch-at-the-edge-of-where-god-built/",
+  "title": {
+   "rendered": "Book Launch: At the Edge of Where God Built"
+  },
+  "excerpt": {
+   "rendered": "<p>Celebrate the release of <em>At the Edge of Where God Built</em>, a new book from Actar Publishers by Ziad Jamaleddine &#038; Makram el Kadi of L.E.FT Architects.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-27 18:00:00",
+   "end_date_time": "2026-10-27 20:00:00",
+   "rsvp_link": "https://luma.com/rlybv05f",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42428,
+  "link": "https://www.vanalen.org/events/exhibition-talk-they-have-watches-but-we-have-time/",
+  "title": {
+   "rendered": "They Have Watches but We Have Time: A Takeover by WAI Architecture Think Tank"
+  },
+  "excerpt": {
+   "rendered": "<p>​For one evening, WAI Architecture Think Tank transforms Van Alen into a living postcolonial collage of books, artifacts, food, loudreadings, lectures, and performances.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-13 18:00:00",
+   "end_date_time": "2026-10-13 20:00:00",
+   "rsvp_link": "https://luma.com/ardh9b1w",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42385,
+  "link": "https://www.vanalen.org/events/brunch-build-competition/",
+  "title": {
+   "rendered": "Brunch &amp; Build Competition: Designing Housing for 2035"
+  },
+  "excerpt": {
+   "rendered": "<p>In this design sprint hosted by Slow Construct, explore one of architecture&#8217;s most urgent challenges: how we will live in 2035.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-09-27 12:00:00",
+   "end_date_time": "2026-09-27 15:00:00",
+   "rsvp_link": "https://luma.com/x6oi2rdt",
+   "contact": "",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42270,
+  "link": "https://www.vanalen.org/events/feminist-spatial-practices/",
+  "title": {
+   "rendered": "Feminist Spatial Practices: Poof Adoption and Conversations"
+  },
+  "excerpt": {
+   "rendered": "<p>Van Alen hosts ​Feminist Spatial Practices, a community that highlights, shares, and nurtures feminist practices in art, design, architecture and activism. </p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-09-03 18:00:00",
+   "end_date_time": "2026-09-03 20:00:00",
+   "rsvp_link": "https://luma.com/hcv948zi",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42248,
+  "link": "https://www.vanalen.org/events/please-dont-flush/",
+  "title": {
+   "rendered": "Performance: Please Don&#8217;t Flush!"
+  },
+  "excerpt": {
+   "rendered": "<p>For Climate Week NYC 2026, theater artist Sabina Sethi Unni presents <em>Please Don’t Flush</em> — a municipal comedy that pairs music and laughs with resources about flooding.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-09-22 18:00:00",
+   "end_date_time": "2026-09-22 20:00:00",
+   "rsvp_link": "https://docs.google.com/forms/d/e/1FAIpQLScFAY2LIkwicdEKq3yaFcv-g9zEf-N-0mTIMN-XR-3TnNSbcA/viewform?pli=1",
+   "contact": "unnisabina@gmail.com",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42160,
+  "link": "https://www.vanalen.org/events/public-art-party/",
+  "title": {
+   "rendered": "Public Art Party"
+  },
+  "excerpt": {
+   "rendered": "<p>Van Alen is delighted to host the fourth edition of the PUBLIC ART PARTY, a bi-annual community-building event for people working across every part of the public art ecosystem.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-20 17:30:00",
+   "end_date_time": "2026-10-20 20:30:00",
+   "rsvp_link": "https://www.eventbrite.com/e/public-art-party-4-tickets-2001385569113?aff=VAI",
+   "contact": "studio@miapearlman.com",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42158,
+  "link": "https://www.vanalen.org/events/van-alen-fall-fest-2026/",
+  "title": {
+   "rendered": "Van Alen Fall Fest 2026"
+  },
+  "excerpt": {
+   "rendered": "<p>Join us for our annual open house to learn more about Van Alen, meet your neighbors, and engage with our upcoming exhibition <em>Open Access: Exploring 130 Years of American Design</em>.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-17 12:00:00",
+   "end_date_time": "2026-10-17 16:00:00",
+   "rsvp_link": "https://luma.com/0rca9qf1",
+   "contact": "vai@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42193,
+  "link": "https://www.vanalen.org/events/public-space-as-a-living-lab/",
+  "title": {
+   "rendered": "Public Space as a Living Lab"
+  },
+  "excerpt": {
+   "rendered": "<p>Organized by ANFA and X-Topia, this three-day immersive workshop explores practical tools to design healthier, more livable, and human-centered public spaces.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-10-09 08:30:00",
+   "end_date_time": "2026-10-11 17:30:00",
+   "rsvp_link": "https://www.eventbrite.com/e/public-space-as-a-living-lab-scientific-protocols-for-human-dynamics-registration-1992587417605",
+   "contact": "info@x-topia.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42194,
+  "link": "https://www.vanalen.org/events/not-not-closing-talk-reception/",
+  "title": {
+   "rendered": "NOT NOT: Closing Talk + Fire Sale"
+  },
+  "excerpt": {
+   "rendered": "<p>To close out their exhibition, NOT NOT invites three founding principals to talk about their firms&#8217; unconventional beginnings.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-08-13 18:00:00",
+   "end_date_time": "2026-08-13 20:00:00",
+   "rsvp_link": "https://luma.com/bdwp9979",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": false,
+   "location": false
+  },
+  "meta": null
+ },
+ {
+  "id": 42181,
+  "link": "https://www.vanalen.org/events/aiany-an-evening-with-not-not/",
+  "title": {
+   "rendered": "AIANY Presents: An Evening with NOT NOT"
+  },
+  "excerpt": {
+   "rendered": "<p>Join AIANY’s Committee on Residential Architecture for a special summer gathering with NOT NOT.</p>\n"
+  },
+  "acf": {
+   "start_date_time": "2026-08-04 18:00:00",
+   "end_date_time": "2026-08-04 19:30:00",
+   "rsvp_link": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=TOeT0NegJEmKZE1KqhND3cj1W_AnoGdJiJQeSYAx1p1UNDZFOERHTldTUE1JWTVWRUkxUjNGVVIyTC4u&route=shorturl",
+   "contact": "econklin@vanalen.org",
+   "hide_featured": true,
+   "location": false
+  },
+  "meta": null
+ }
+]
