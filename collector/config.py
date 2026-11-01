@@ -41,6 +41,7 @@ class Source:
     enabled: bool = True
     url: str | None = None
     organizer_id: str | None = None
+    luma_calendar: str | None = None
     page: str | None = None
     location: str | None = None
     aggregator: bool = False
@@ -79,6 +80,7 @@ def load_config(path: str | Path) -> Config:
             enabled=s.get("enabled", True),
             url=s.get("url"),
             organizer_id=str(s["organizer_id"]) if s.get("organizer_id") else None,
+            luma_calendar=s.get("luma_calendar"),
             page=s.get("page"),
             location=s.get("location"),
             aggregator=bool(s.get("aggregator", False)),

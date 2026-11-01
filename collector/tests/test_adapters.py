@@ -52,3 +52,38 @@ def test_eventbrite_sample():
     assert dinner["location"] == "El Carajo, 2465 SW 17th Ave, Miami, FL 33145"
     assert yoga["price"] == {"free": True, "min": 0.0, "text": "Free (sold out)"}
     assert yoga["description"] == "Bring a towel."
+
+
+def test_luma_calendar_lookup():
+    from collector.adapters.base import Context
+
+    from .helpers import context
+
+    class Resp:
+        def __init__(self, data=None, text=""):
+            self._data, self.text, self.encoding = data, text, "utf-8"
+
+        def json(self):
+            return self._data
+
+    calls = []
+
+    class Session:
+        def get(self, url, **kw):
+            calls.append(url)
+            if "/url?url=manatech" in url:
+                return Resp({"kind": "calendar", "data": {"calendar": {"api_id": "cal-AbC123", "name": "ManaTech"}}})
+            if "/ics/get?entity=calendar&id=cal-AbC123" in url:
+                return Resp(text="BEGIN:VCALENDAR\nVERSION:2.0\nEND:VCALENDAR\n")
+            raise AssertionError(url)
+
+    cfg = config()
+    src = next(s for s in cfg.sources if s.key == "manatech")
+    assert src.url is None and src.luma_calendar == "manatech"
+    ctx = context(cfg)
+    ctx.session = Session()
+    assert ics.fetch(src, ctx).startswith("BEGIN:VCALENDAR")
+    assert calls == [
+        "https://api.luma.com/url?url=manatech",
+        "https://api.luma.com/ics/get?entity=calendar&id=cal-AbC123",
+    ]

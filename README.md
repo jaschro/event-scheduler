@@ -69,7 +69,8 @@ Regenerate an adapter's expected output after an intended change:
 
 ## Setup still needed (owner only)
 
-1. Luma feed URLs for ManaTech, Hello Miami and Miami AI Hub (and Luma Miami if it has one):
+1. ManaTech, Hello Miami and Miami AI Hub find their Luma feeds from the page name
+   (`luma_calendar`). If that lookup ever breaks, paste each calendar's link as `url`:
    on each calendar page, "Add iCal Subscription", copy the link into `sources.yaml`.
 2. Miami Beach arts calendar: copy its iCal subscribe link into `sources.yaml`.
 3. Refresh Miami: confirm `https://refreshmiami.com/events/?ical=1` returns a feed.

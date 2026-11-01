@@ -9,6 +9,7 @@
 #              food and wine, wellness, community, outdoors
 #   method     ics | eventbrite | (later: tribe | jsonld | custom | browser)
 #   url        feed URL (ics) ; organizer_id for eventbrite
+#   luma_calendar  Luma page name (luma.com/<name>); its iCal feed is looked up at run time
 #   aggregator true for sites that list other venues' events (lose in dedupe)
 #   priority   dedupe tie-break, higher wins (default 50, aggregators 10)
 #   enabled    false = not collected yet (adapter is a later build step)
@@ -74,7 +75,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    url: null   # TODO(Jason): luma.com/manatech -> "Add iCal Subscription" -> copy link
+    luma_calendar: manatech   # feed found from the page name at run time; a pasted iCal link as `url` takes precedence
     page: https://luma.com/manatech
 
   - key: hello-miami
@@ -82,7 +83,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    url: null   # TODO(Jason): luma.com/hello_miami -> "Add iCal Subscription" -> copy link
+    luma_calendar: hello_miami   # feed found from the page name at run time; a pasted iCal link as `url` takes precedence
     page: https://luma.com/hello_miami
 
   - key: miami-ai-hub
@@ -90,7 +91,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    url: null   # TODO(Jason): luma.com/miamiaihub -> "Add iCal Subscription" -> copy link
+    luma_calendar: miamiaihub   # feed found from the page name at run time; a pasted iCal link as `url` takes precedence
     page: https://luma.com/miamiaihub
 
   - key: el-carajo
