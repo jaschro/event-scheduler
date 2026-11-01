@@ -211,6 +211,7 @@ button { font: inherit; color: inherit; }
   line-height: 16px;
 }
 .block.nested { box-shadow: 0 0 0 1px var(--bg); }
+.col-events .block { box-shadow: 0 0 0 1px var(--bg); }
 .block:hover, .chip:hover { filter: brightness(0.97) saturate(1.15); }
 .block:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; z-index: 45 !important; }
 
@@ -249,6 +250,7 @@ button { font: inherit; color: inherit; }
 .block.cal .b-venue { opacity: 0.9; }
 .b-time-inline { flex: none; opacity: 0.9; font-size: 11px; }
 .block.cal.nested, .block.nested { box-shadow: 0 0 0 1px var(--bg); }
+.col-events .block { box-shadow: 0 0 0 1px var(--bg); }
 .block.cal.declined, .chip.cal.declined {
   background: var(--bg);
   color: var(--gc);
