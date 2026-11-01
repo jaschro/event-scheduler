@@ -1,0 +1,282 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-11-01T04:56:45+00:00",
+ "summary": {
+  "attempted": 15,
+  "ok": 15,
+  "failed": 0,
+  "events": 103
+ },
+ "sources": {
+  "miamibeach-arts": {
+   "name": "City of Miami Beach Arts Calendar",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 25,
+   "error": null
+  },
+  "refresh-miami": {
+   "name": "Refresh Miami",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 24,
+   "error": null
+  },
+  "luma-miami": {
+   "name": "Luma Miami",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 6,
+   "error": null
+  },
+  "manatech": {
+   "name": "ManaTech",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 3,
+   "error": null
+  },
+  "hello-miami": {
+   "name": "Hello Miami",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 4,
+   "error": null
+  },
+  "miami-ai-hub": {
+   "name": "Miami AI Hub",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 0,
+   "error": null
+  },
+  "el-carajo": {
+   "name": "El Carajo",
+   "city": "miami",
+   "method": "eventbrite",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 0,
+   "error": null
+  },
+  "840-miami": {
+   "name": "840 Miami",
+   "city": "miami",
+   "method": "eventbrite",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 1,
+   "error": null
+  },
+  "healthyme-love": {
+   "name": "Healthyme.Love",
+   "city": "miami",
+   "method": "eventbrite",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 1,
+   "error": null
+  },
+  "um-rosenstiel": {
+   "name": "UM Rosenstiel (Johnson Center)",
+   "city": "miami",
+   "method": "eventbrite",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 1,
+   "error": null
+  },
+  "the-bass": {
+   "name": "The Bass",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 10,
+   "error": null
+  },
+  "jmof": {
+   "name": "Jewish Museum of Florida-FIU",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 0,
+   "error": null
+  },
+  "frost-science": {
+   "name": "Frost Science",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 4,
+   "error": null
+  },
+  "bandshell": {
+   "name": "Miami Beach Bandshell",
+   "city": "miami",
+   "method": "ics",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 8,
+   "error": null
+  },
+  "books-and-books": {
+   "name": "Books & Books",
+   "city": "miami",
+   "method": "eventbrite",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": "2026-11-01T04:56:45+00:00",
+   "result": "ok",
+   "event_count": 17,
+   "error": null
+  },
+  "pamm": {
+   "name": "PAMM",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "wolfsonian": {
+   "name": "Wolfsonian-FIU",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "ica-miami": {
+   "name": "ICA Miami",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "rubell": {
+   "name": "Rubell Museum",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "oolite": {
+   "name": "Oolite Arts",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "o-cinema": {
+   "name": "O Cinema South Beach",
+   "city": "miami",
+   "method": "browser",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "gables-cinema": {
+   "name": "Coral Gables Art Cinema",
+   "city": "miami",
+   "method": "browser",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "arsht": {
+   "name": "Arsht Center",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "miami-new-drama": {
+   "name": "Miami New Drama (Colony)",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nws": {
+   "name": "New World Center / NWS",
+   "city": "miami",
+   "method": "browser",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "mbjcc": {
+   "name": "Miami Beach JCC",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "mb-botanical": {
+   "name": "Miami Beach Botanical Garden",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  }
+ }
+}

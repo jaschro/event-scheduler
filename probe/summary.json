@@ -1,0 +1,466 @@
+[
+ {
+  "key": "pamm",
+  "page": "https://pamm.org/events",
+  "page_fetch": {
+   "ok": false,
+   "status": 403,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.pamm.org/events"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.pamm.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "wolfsonian",
+  "page": "https://wolfsonian.org/whats-on/events/index.html",
+  "page_fetch": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='wolfsonian.org', port=443): Max retries exceeded with url: /whats-on/events/index.html (Caused by NameResolutionError(\"HTTPSConnection(host='wolfsonian.org', port=443): Failed to resolve 'wolfsonian.org' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  "tribe_api": {
+   "ok": false,
+   "status": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='wolfsonian.org', port=443): Max retries exceeded with url: /wp-json/tribe/events/v1/events?per_page=50 (Caused by NameResolutionError(\"HTTPSConnection(host='wolfsonian.org', port=443): Failed to resolve 'wolfsonian.org' ([Errno -3] Temporary failure in name"
+  }
+ },
+ {
+  "key": "ica-miami",
+  "page": "https://icamiami.org/calendar/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://icamiami.org/calendar/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 1,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 129959,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://icamiami.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "icam-sponsor": "icam-sponsor",
+   "exhibition": "exhibition",
+   "program": "program",
+   "seminar": "seminar",
+   "artist": "artist",
+   "calendar": "calendar",
+   "publication": "publication",
+   "video": "video",
+   "collection": "collection",
+   "courses": "courses",
+   "icam_artwork": "icam_artwork",
+   "icam_artist": "icam_artist",
+   "icam_uat": "icam_uat"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "veevart/v1",
+   "redirection/v1",
+   "simple-history/v1",
+   "sowb/v1",
+   "yoast/v1",
+   "udx/v2",
+   "wp-stateless/v1",
+   "two-factor/1.0",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "rubell",
+  "page": "https://rubellmuseum.org/support/member-events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://rubellmuseum.org/support/member-events",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 80455,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://rubellmuseum.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "oolite",
+  "page": "https://oolitearts.org/calendar/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://oolitearts.org/calendar/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 145213,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://oolitearts.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "grant": "grant",
+   "artwork": "artwork",
+   "video": "video",
+   "word": "word",
+   "chronicle": "chronicle",
+   "wpzoom-sharing": "wpzoom-sharing",
+   "popup": "popups",
+   "popup_theme": "popup-themes",
+   "pum_cta": "ctas",
+   "portfolio": "portfolio"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "iawp",
+   "redirection/v1",
+   "yamidoo/v1",
+   "yoast/v1",
+   "popup-maker/v2",
+   "pum/v1",
+   "cptui/v1",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1"
+  ]
+ },
+ {
+  "key": "o-cinema",
+  "page": "https://o-cinema.org/o-cinema-south-beach",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.o-cinema.org/o-cinema-south-beach",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 85125,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.o-cinema.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 92506,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.o-cinema.org/o-cinema-south-beach"
+   ]
+  }
+ },
+ {
+  "key": "gables-cinema",
+  "page": "https://gablescinema.com/calendar/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://gablescinema.com/calendar/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "https://gablescinema.com/programs-category/musicals-for-members/"
+  ],
+  "wordpress": true,
+  "generator": [
+   "All in One SEO (AIOSEO) 5.0.4",
+   "Site Kit by Google 1.190.0",
+   "Elementor 4.3.5; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 146101,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://gablescinema.com/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "e-floating-buttons": "e-floating-buttons",
+   "elementor_library": "elementor_library",
+   "elementor_snippet": "elementor_snippet",
+   "resource": "resource"
+  },
+  "wp_namespaces": [
+   "ithemes-security/rpc",
+   "ithemes-security/v1",
+   "oembed/1.0",
+   "aioseo/v1",
+   "wordfence-login-security/v1",
+   "wordfence/v1",
+   "v1",
+   "elementor-mcp-composer/v1.0.19",
+   "elementor-one/v1",
+   "elementor/v1",
+   "elementor-pro/v1",
+   "ea11y/v1",
+   "tenweb_so/v1",
+   "tenwebio/v2",
+   "wp-mail-smtp/setup-wizard/v1",
+   "google-site-kit/v1",
+   "elementor/v1/documents",
+   "elementor-ai/v1",
+   "elementor/v1/feedback",
+   "mcp",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ],
+  "browser": {
+   "json_responses": [],
+   "rendered_bytes": 183445,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://gablescinema.com/calendar/"
+   ]
+  }
+ },
+ {
+  "key": "arsht",
+  "page": "https://arshtcenter.org/calendar/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.arshtcenter.org/calendar/?date=2026-11-01",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "/subscription-series/classical-music/classical-music-2026-27/"
+  ],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 149341,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.arshtcenter.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "miami-new-drama",
+  "page": "https://miaminewdrama.org/shows-events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://miaminewdrama.org/shows-events/",
+   "type": "text/html; charset=UTF-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [
+   "Site Kit by Google 1.190.0",
+   "Powered by WPBakery Page Builder - drag and drop page builder for WordPress."
+  ],
+  "has_tribe_markup": false,
+  "page_bytes": 104745,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://miaminewdrama.org/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "wp_types": {
+   "post": "posts",
+   "page": "pages",
+   "attachment": "media",
+   "nav_menu_item": "menu-items",
+   "wp_block": "blocks",
+   "wp_template": "templates",
+   "wp_template_part": "template-parts",
+   "wp_global_styles": "global-styles",
+   "wp_navigation": "navigation",
+   "wp_font_family": "font-families",
+   "wp_font_face": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "salient_g_sections": "salient_g_sections",
+   "show": "show",
+   "education-event": "education-event",
+   "wpb_gutenberg_param": "wpb_gutenberg_param",
+   "rm_content_editor": "rm_content_editor"
+  },
+  "wp_namespaces": [
+   "oembed/1.0",
+   "wpe/cache-plugin/v1",
+   "wpe_sign_on_plugin/v1",
+   "rankmath/v1",
+   "rankmath/v1/setupWizard",
+   "userway/v1",
+   "complianz/v1",
+   "cptui/v1",
+   "wp-smush/v1",
+   "hub-connector/v1",
+   "rankmath/v1/ai-visibility",
+   "rankmath/v1/ca",
+   "rankmath/v1/an",
+   "rankmath/v1/in",
+   "rankmath/v1/status",
+   "google-site-kit/v1",
+   "forminator/v1",
+   "wpmudev_pcs/v1",
+   "mcp",
+   "wp/v2",
+   "wp-site-health/v1",
+   "wp-block-editor/v1",
+   "wp-abilities/v1"
+  ]
+ },
+ {
+  "key": "nws",
+  "page": "https://nws.edu/tickets/concerts-and-events/",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.nws.edu/tickets/concerts-and-events/",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 92332,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nws.edu/wp-json/tribe/events/v1/events?per_page=50"
+  },
+  "browser": {
+   "json_responses": [
+    {
+     "file": "net_01.json",
+     "url": "https://consentcdn.cookiebot.com/consentconfig/b5cd7564-52db-479e-9c69-bf1798055965/settings.json",
+     "bytes": 603
+    }
+   ],
+   "rendered_bytes": 180433,
+   "jsonld_events": 0,
+   "iframes": [
+    "https://www.nws.edu/tickets/concerts-and-events/",
+    "https://consentcdn.cookiebot.com/sdk/bc-v5.min.html"
+   ]
+  }
+ },
+ {
+  "key": "mbjcc",
+  "page": "https://mbjcc.org/events",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://mbjcc.org/events",
+   "type": "text/html; charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [],
+  "wordpress": true,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 258467,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://mbjcc.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ },
+ {
+  "key": "mb-botanical",
+  "page": "https://mbgarden.org/calendar",
+  "page_fetch": {
+   "ok": true,
+   "status": 200,
+   "url": "https://www.mbgarden.org/calendar",
+   "type": "text/html;charset=utf-8"
+  },
+  "jsonld_events": 0,
+  "ical_links": [
+   "/calendar/beginner-canasta-series?format=ical",
+   "/calendar/boo-tanical-garden-a-gnome-fairy-garden-adventure",
+   "/calendar/boo-tanical-garden-a-gnome-fairy-garden-adventure-dwetl",
+   "/calendar/boo-tanical-garden-a-gnome-fairy-garden-adventure-dwetl?format=ical",
+   "/calendar/boo-tanical-garden-a-gnome-fairy-garden-adventure?format=ical",
+   "/calendar/building-a-learning-garden?format=ical",
+   "/calendar/folklore-foliage?format=ical",
+   "/calendar/hunters-full-moon-sound-bash?format=ical",
+   "/calendar/in-the-lab-the-little-wetland?format=ical",
+   "/calendar/jam-in-the-jungle?format=ical",
+   "/calendar/mahj-101-with-mahj-in-miami-2w3ap?format=ical",
+   "/calendar/nature-in-community?format=ical",
+   "/calendar/perfumer-for-a-day?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-2p7rf?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe-mrjsz-4mnjp-wmtl3-gptpr-xbbg5?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe-mrjsz-4mnjp-wmtl3-gptpr?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe-mrjsz-4mnjp-wmtl3?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe-mrjsz-4mnjp?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe-mrjsz?format=ical",
+   "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe?format=ical"
+  ],
+  "wordpress": false,
+  "generator": [],
+  "has_tribe_markup": false,
+  "page_bytes": 983066,
+  "tribe_api": {
+   "ok": false,
+   "status": 404,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mbgarden.org/wp-json/tribe/events/v1/events?per_page=50"
+  }
+ }
+]
