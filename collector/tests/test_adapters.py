@@ -79,7 +79,7 @@ def test_luma_calendar_lookup():
 
     cfg = config()
     src = next(s for s in cfg.sources if s.key == "manatech")
-    assert src.url is None and src.luma_calendar == "manatech"
+    src.url, src.luma_calendar = None, "manatech"
     ctx = context(cfg)
     ctx.session = Session()
     assert ics.fetch(src, ctx).startswith("BEGIN:VCALENDAR")

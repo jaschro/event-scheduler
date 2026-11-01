@@ -69,11 +69,11 @@ Regenerate an adapter's expected output after an intended change:
 
 ## Setup still needed (owner only)
 
-1. ManaTech, Hello Miami and Miami AI Hub find their Luma feeds from the page name
-   (`luma_calendar`). If that lookup ever breaks, paste each calendar's link as `url`:
-   on each calendar page, "Add iCal Subscription", copy the link into `sources.yaml`.
+1. New Luma calendars: on the calendar page, "Add iCal Subscription", copy the link
+   into `sources.yaml` as `url`. (Or set `luma_calendar: <page name>` to have the
+   collector look the feed up itself, using Luma's unofficial page lookup.)
 
-Done: feed links for Miami Beach arts, Refresh Miami, Luma Miami and The Bass; the
+Done: feed links for Miami Beach arts, Refresh Miami, The Bass and the four Luma calendars; the
 `EVENTBRITE_TOKEN` Actions secret; Pages source set to GitHub Actions.
 
 Done: Google Cloud project with the Calendar API, consent screen in Testing with

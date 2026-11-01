@@ -32,7 +32,7 @@ def test_run_writes_files_keeps_failed_sources_and_skips_unchanged(tmp_path):
     hello = next(s for s in cfg.sources if s.key == "hello-miami")
     hello.url = "https://feeds.test/hello.ics"
     manatech = next(s for s in cfg.sources if s.key == "manatech")
-    manatech.luma_calendar = None  # no feed configured at all
+    manatech.url = manatech.luma_calendar = None  # no feed configured at all
     ics = (FIXTURES / "luma_sample.ics").read_text(encoding="utf-8")
     eb = (FIXTURES / "eventbrite_sample.json").read_text(encoding="utf-8")
     eb_page = json.dumps(json.loads(eb)[0])

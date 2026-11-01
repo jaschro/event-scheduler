@@ -75,7 +75,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    luma_calendar: manatech   # feed found from the page name at run time; a pasted iCal link as `url` takes precedence
+    url: "https://api.luma.com/ics/get?entity=calendar&id=cal-NgTwepzMKeP3Xlg"
     page: https://luma.com/manatech
 
   - key: hello-miami
@@ -83,7 +83,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    luma_calendar: hello_miami   # feed found from the page name at run time; a pasted iCal link as `url` takes precedence
+    url: "https://api.luma.com/ics/get?entity=calendar&id=cal-dIzfidGLJOmv2it"
     page: https://luma.com/hello_miami
 
   - key: miami-ai-hub
@@ -91,7 +91,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    luma_calendar: miamiaihub   # feed found from the page name at run time; a pasted iCal link as `url` takes precedence
+    url: "https://api.luma.com/ics/get?entity=calendar&id=cal-Fmb19yTwPm1wWRj"
     page: https://luma.com/miamiaihub
 
   - key: el-carajo
