@@ -107,7 +107,7 @@ button { font: inherit; color: inherit; }
 
 .colheads, .grid, .strip {
   display: grid;
-  grid-template-columns: var(--gutter) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: var(--gutter) minmax(0, var(--events-fr, 3fr)) minmax(0, var(--cal-fr, 1fr));
   column-gap: var(--gap);
 }
 
@@ -350,7 +350,7 @@ button { font: inherit; color: inherit; }
 /* ---------- narrow screens (full phone layout comes in step 5) ---------- */
 
 @media (max-width: 640px) {
-  :root { --gutter: 40px; --gap: 6px; }
+  :root { --gutter: 40px; --gap: 6px; --events-fr: 2fr; --cal-fr: 1fr; }
   .brand { font-size: 16px; }
   .block { padding: 2px 4px; font-size: 11px; }
   .b-time { display: none; }

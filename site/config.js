@@ -23,4 +23,8 @@ window.APP_CONFIG = {
   googleClientId: "751040903219-pci7ahiuq87h7agk3d726avsbam77ba0.apps.googleusercontent.com",
   googleLoginHint: "jasonchroman@gmail.com", // pre-selects this account in Google's window
   defaultCalendarColor: "#039be5",
+  // false (spec default): the Google pass lives only in memory, so a reloaded tab reconnects
+  // on your first click. true: also keep it in this tab's sessionStorage (cleared when the tab
+  // closes, gone after about an hour), so reloads keep you signed in without a click.
+  keepTokenInTab: false,
 };

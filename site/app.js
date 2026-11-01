@@ -10,6 +10,8 @@
 
   const CFG = window.APP_CONFIG;
   const STORE_CITY = "es.city";
+  const STORE_GCAL = "es.gcal";      // "you were signed in before" flag (no token), localStorage
+  const SESSION_TOKEN = "es.gtoken"; // only when CFG.keepTokenInTab: token + expiry, sessionStorage
   const DAY_MIN = 24 * 60;
   const SCOPE = "https://www.googleapis.com/auth/calendar.events";
   const CAL_API = "https://www.googleapis.com/calendar/v3/calendars/primary/events";
@@ -40,6 +42,21 @@
 
   function storeSet(key, value) {
     try { window.localStorage.setItem(key, value); } catch (e) { /* private mode etc. */ }
+  }
+
+  function storeRemove(key) {
+    try { window.localStorage.removeItem(key); } catch (e) { /* ignore */ }
+  }
+
+  function sessionGet(key) {
+    try { return window.sessionStorage.getItem(key); } catch (e) { return null; }
+  }
+
+  function sessionSet(key, value) {
+    try {
+      if (value == null) window.sessionStorage.removeItem(key);
+      else window.sessionStorage.setItem(key, value);
+    } catch (e) { /* ignore */ }
   }
 
   // Times are wall-clock ISO strings in the city's zone ("2026-11-04T18:30:00-05:00" or
@@ -289,6 +306,10 @@
         state.google.token = resp.access_token;
         // Treat it as expiring a minute early.
         state.google.expiresAt = Date.now() + (Number(resp.expires_in || 3600) - 60) * 1000;
+        storeSet(STORE_GCAL, "1");
+        if (CFG.keepTokenInTab) {
+          sessionSet(SESSION_TOKEN, JSON.stringify({ t: state.google.token, e: state.google.expiresAt }));
+        }
         resolve();
       };
       tokenClient.error_callback = (err) => reject(new Error(err && err.type === "popup_closed" ? "Sign-in window was closed." : (err && err.message) || "Sign-in failed."));
@@ -310,6 +331,7 @@
     if (resp.status === 401) {
       state.google.token = null;
       state.google.expiresAt = 0;
+      sessionSet(SESSION_TOKEN, null);
       throw new Error("Google sign-in expired. Sign in again.");
     }
     if (!resp.ok) {
@@ -397,7 +419,64 @@
     g.cal = null;
     g.added = new Set();
     g.error = null;
+    storeRemove(STORE_GCAL);
+    sessionSet(SESSION_TOKEN, null);
     render();
+  }
+
+  // ---------- staying connected ----------
+  //
+  // Google's browser sign-in gives a pass that lasts about an hour and can't be renewed
+  // in the background, and a reloaded tab (browsers unload idle tabs) starts with none.
+  // If you were signed in before, the first click anywhere asks Google again quietly
+  // (no consent screen; at most a brief flash of its window). Browsers only allow
+  // Google's window to open from a click, so it can't happen with no click at all.
+
+  let reconnectArmed = false;
+
+  function wantsReconnect() {
+    return storeGet(STORE_GCAL) === "1" && !signedIn() && !state.google.busy && !!CFG.googleClientId;
+  }
+
+  function armReconnect() {
+    if (reconnectArmed || !wantsReconnect()) return;
+    reconnectArmed = true;
+    document.addEventListener("click", (e) => {
+      reconnectArmed = false;
+      if (e.target.closest && e.target.closest("#auth")) return; // the sign-in button does this itself
+      if (wantsReconnect()) reconnect();
+    }, { capture: true, once: true });
+  }
+
+  async function reconnect() {
+    const g = state.google;
+    g.busy = true;
+    g.error = null;
+    renderAuth();
+    try {
+      await requestToken("");
+      await loadCalendar();
+    } catch (e) {
+      g.error = e.message;
+    } finally {
+      g.busy = false;
+      render(true);
+      armReconnect();
+    }
+  }
+
+  function restoreTabToken() {
+    if (!CFG.keepTokenInTab) return false;
+    try {
+      const saved = JSON.parse(sessionGet(SESSION_TOKEN) || "null");
+      if (saved && saved.t && Date.now() < saved.e) {
+        state.google.token = saved.t;
+        state.google.expiresAt = saved.e;
+        return true;
+      }
+    } catch (e) { /* ignore */ }
+    sessionSet(SESSION_TOKEN, null);
+    return false;
   }
 
   // Insert a venue event into the primary calendar.
@@ -449,7 +528,7 @@
       box.appendChild(out);
       return;
     }
-    const b = el("button", "signin", g.cal ? "Sign in again" : "Sign in with Google");
+    const b = el("button", "signin", storeGet(STORE_GCAL) === "1" ? "Reconnect calendar" : "Sign in with Google");
     b.type = "button";
     b.addEventListener("click", signIn);
     box.appendChild(b);
@@ -465,8 +544,8 @@
     }
     let msg = null;
     if (g.error) msg = g.error;
+    else if (storeGet(STORE_GCAL) === "1" && !signedIn()) msg = "Click anywhere on the page to reconnect your calendar.";
     else if (!g.cal) msg = "Sign in with Google to see your calendar and add events to it.";
-    else if (!signedIn()) msg = "Your Google sign-in has expired. Sign in again to refresh or add events.";
     banner.hidden = !msg;
     if (msg) {
       banner.appendChild(el("span", null, msg));
@@ -896,6 +975,23 @@
     }
     if (!knownCities().some((c) => c.key === state.city)) state.city = CFG.defaultCity;
     render();
+    if (restoreTabToken()) {
+      try {
+        await loadCalendar();
+      } catch (e) {
+        state.google.error = e.message;
+      }
+      render();
+    }
+    armReconnect();
+    // Notice an expired pass while the page sits open, and reconnect on the next click.
+    setInterval(() => {
+      if (state.google.cal && !signedIn() && !state.google.busy) {
+        renderAuth();
+        renderCityBanner();
+        armReconnect();
+      }
+    }, 60_000);
   }
 
   // Exposed for tests.
