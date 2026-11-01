@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T14:26:08+00:00",
+ "generated_at": "2026-11-01T14:30:21+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -18,6 +18,27 @@
   }
  ],
  "events": [
+  {
+   "id": "b7579f5c8118e00d",
+   "title": "GCPE Graduate Admissions Information Session",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-10-24T12:00:00-04:00",
+   "end": "2026-11-17T14:00:00-05:00",
+   "all_day": false,
+   "description": "Join the Directors of the Graduate Center for Planning and the Environment (GCPE) for an Information Session that covers graduate program offerings, the institution, and the application process, timeline, and requirements!\n\nThis information session will provide an opportunity for you to connect with the Directors and ask questions about the Master of Science programs and Graduate Advanced Certificates in Historic Preservation, Sustainable Environmental Systems, Urban and Community Planning, and Urban Placemaking and Management.\n\nFor questions about this event, please get in touch with us at…",
+   "url": "https://www.pratt.edu/events/gcpe-graduate-admissions-information-session-2/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
   {
    "id": "095bc67381cd0fc8",
    "title": "New York: All Night Diner: Problem First Entrepreneurship Program",
@@ -129,7 +150,7 @@
    "venue": "ICA Miami",
    "kind": "art",
    "start": "2026-11-01T11:00:00-05:00",
-   "end": null,
+   "end": "2026-11-01T19:00:00-05:00",
    "all_day": false,
    "description": "Join Ms. Krystal at ICA Miami on Sunday, November 1, 2026, for a bilingual musical storytime exploring nature and community. Free tickets; reservations required.",
    "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-storytelling-with-ms-krystal-20261101/",
@@ -141,8 +162,29 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "miami"
+  },
+  {
+   "id": "ed0e24f930fcab53",
+   "title": "The Village: Sites, Stories, & Synagogues Walking Tour",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-01T11:00:00-05:00",
+   "end": "2026-11-01T13:00:00-05:00",
+   "all_day": false,
+   "description": "The Lower East Side Jewish Conservancy hosts a tour of the often-overlooked Jewish history of Greenwich Village, which stretches back more than 200 years. Stops include Congregation Darech Amuno, housed in a 150-year-old converted townhouse and in the Village since 1838; one of the oldest Jewish cemeteries in the country, hidden in plain sight on West 11th Street; and an early home of Temple Emanu-El in a converted Baptist Church on East 12th Street. The walk also traces the many Jewish musicians, artists, and activists who shaped the neighborhood alongside figures like Dylan, Springsteen…",
+   "url": "https://www.myjewishlearning.com/the-hub/the-village-sites-stories-synagogues-walking-tour/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "$25"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "9afa3e77f9c5d19b",
@@ -206,6 +248,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "cd91b1261375c36e",
+   "title": "Navigating the Fall 2026 NYC Art Scene",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-01T13:00:00-05:00",
+   "end": "2026-11-01T14:00:00-05:00",
+   "all_day": false,
+   "description": "The Community Scholar Program hosts artist Tobi Kahn for a virtual tour of New York City gallery exhibitions in Fall 2026. Participants visit multiple galleries, hear from curators and art historians, and are introduced to new artists and contemporary works. The tour is designed to sharpen the eye and deepen appreciation of what is current in the art world.",
+   "url": "https://www.myjewishlearning.com/the-hub/navigating-the-fall-2026-nyc-art-scene/",
+   "location": null,
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "6f3a990a9b18d233",
+   "title": "Book Launch -- Absence/Presence: 30 Years of Day Without Art",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-01T14:00:00-05:00",
+   "end": "2026-11-01T16:00:00-05:00",
+   "all_day": false,
+   "description": "The afternoon will bring together former Visual AIDS staff and contributors to the book for a series of short conversations spanning the history of Day Without Art. Editors Kyle Croft and Risa Puleo will reflect on the project’s emergence and its first decade; Amy Sadao and Nelson Santos will discuss its evolution through the 2000s; and Ted Kerr and Elizabeth Koke will consider Day Without Art from the 2010s to the present. Together, the conversations will reflect on the people who sustained the project, and how its strategies have changed alongside the AIDS epidem",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "85d656d7a87cb3e5",
@@ -481,6 +565,69 @@
    "city": "miami"
   },
   {
+   "id": "16f3b7ae1bd1dae2",
+   "title": "Magic Historian Shares Her Memoir about the \"Queen of Magic\" (In Person AND Online!)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-02T18:00:00-05:00",
+   "end": "2026-11-02T19:30:00-05:00",
+   "all_day": false,
+   "description": "The multi-media presentation will include an illustrated talk, magic performances, and a display of rarely seen Madame Adelaide Herrmann memorabilia, followed by a book signing. In her day, Madame Adelaide Herrmann was more famous than her younger colleague, Harry Houdini. For nearly sixty years, Adelaide Herrmann (1853-1932) ruled the global stage. She caught speeding bullets with her bare hands. She soared through the air as a human cannonball. Alongside her husband, Alexander, she executed the most mesmerizing illusions of the Golden Age of Magic. Then tragedy struck. Widowed at…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "88e5c144199fe428",
+   "title": "Metropolitan Museum of Art-Featured Painter Shares His New Monograph (+ Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-02T18:00:00-05:00",
+   "end": "2026-11-02T19:30:00-05:00",
+   "all_day": false,
+   "description": "A conversation with one of the leading contemporary landscape painters. Eric Aho celebrates his new book, the first comprehensive monograph of his contemporary landscapes; four decades of artwork that both honors and furthers the tradition of painting nature. He will be in conversation with John Yau, followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b67a4e00521ed4c3",
+   "title": "The Floating City: Rome Between Land and Water",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-02T18:15:00-05:00",
+   "end": "2026-11-11T20:00:00-05:00",
+   "all_day": false,
+   "description": "On View: Nov. 2 – Nov. 11, 2026\n\nThe exhibition showcases the work of Pratt Institute School of Architecture students who participated in the Spring 2026 Rome program.\n\nThe projects investigate the transition between land and water in the city of Rome. Rome’s climate oscillates between scarcity in the hot, dry summer months and can also suffer from the extreme of intense storms where water becomes a flooding threat. The projects range yet each asked for the student to define their own “intervention,” providing public spaces for students, migrants, pilgrims, and tourists. The aim was to foster…",
+   "url": "https://www.pratt.edu/events/the-floating-city-rome-between-land-and-water/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "47aac83771daa35e",
    "title": "An Evening with Deesha Philyaw in conversation with Chantel Acevedo",
    "venue": "Books & Books",
@@ -586,6 +733,48 @@
    "city": "nyc"
   },
   {
+   "id": "617afac5c65c53c9",
+   "title": "Truth on Trial: 80 Years After Nuremberg",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": "2026-11-02T21:00:00-05:00",
+   "all_day": false,
+   "description": "The Center for Jewish History presents a conversation between historian Natalie Livingstone, author of “The Nuremberg Women,” and Israeli journalist Nadav Eyal on the Nuremberg Trials, justice after the Holocaust, and their legacy today, moderated by Gavriel Rosenfeld. Livingstone highlights the overlooked women — prosecutors, journalists, witnesses, and activists — who helped shape modern international justice, while Eyal turns to the present and the implications for Israel and Jewish communities worldwide. A book signing and light reception follow the program.",
+   "url": "https://www.myjewishlearning.com/the-hub/truth-on-trial-80-years-after-nuremberg/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 18.0,
+    "text": "$18"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "8eebcb1ebc35215a",
+   "title": "Visionary Sci-Fi Novel and a Blockbuster Actor",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": "2026-11-02T20:30:00-05:00",
+   "all_day": false,
+   "description": "Visionary Sci-Fi Novel and a Blockbuster Actor",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "2363587721de0758",
    "title": "Writers Guild November Meeting",
    "venue": "Yeshiva University",
@@ -604,6 +793,27 @@
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "6d91c0d77a9541db",
+   "title": "Pulitzer Prize Winning Poet in Conversation",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-02T19:30:00-05:00",
+   "end": "2026-11-02T21:00:00-05:00",
+   "all_day": false,
+   "description": "Pulitzer Prize Winning Poet in Conversation",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -712,6 +922,27 @@
    "city": "miami"
   },
   {
+   "id": "38e558daf5ac0137",
+   "title": "Multidisciplinary Artist Discusses His Practice & Materiality (In Person AND Online!)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-03T15:00:00-05:00",
+   "end": "2026-11-03T17:00:00-05:00",
+   "all_day": false,
+   "description": "A talk by artist Jeffrey Meris.Jeffrey Meris (b. 1991, Ayiti, raised in the Bahamas) is a multidisciplinary artist whose practice engages with the relationship between materiality and larger cultural and social phenomena. Meris earned an associate of arts in arts and crafts from the University of the Bahamas, a bachelor of fine arts in sculpture from the Tyler School of Art, and a master of fine arts in visual arts from Columbia University. He has exhibited his work at the Amon Carter Museum; David Kordansky, Los Angeles, and more.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "3f8708fa91b3290b",
    "title": "CLABLA Law Firm Month - Cleary Gottlieb",
    "venue": "Columbia Law School",
@@ -752,6 +983,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "676b46d40f4ce979",
+   "title": "Streetscape Photographers Discuss Their Book Blending New York History, Culinary Culture, & Interior Design",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-03T18:00:00-05:00",
+   "end": "2026-11-03T19:30:00-05:00",
+   "all_day": false,
+   "description": "Photographers James T. and Karla L. Murray speak about their most recent book, Counter Culture, and some of our neighborhoods' and New York's most iconic lunch spots such as B&H Dairy and Veselka. For more than a century, New York City's Mom & Pop diners and luncheonettes have been serving the melting pot, piping fresh and hot. Under the warm glow of neon lights, local landmarks like the Lexington Candy Shop and La Bonbonniere offer an escape from the frenetic pace of daily life, while others like Tom's Restaurant are elevated to pop culture fame, appearing as an exterior locale on Seinfeld…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "5cbf9ca5c166dec2",
@@ -817,6 +1069,27 @@
    "city": "nyc"
   },
   {
+   "id": "841ecd0acfb0714c",
+   "title": "Metropolitan Museum of Art-Featured Artist Surveys His Work & Career (In Person AND Online!)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-03T18:30:00-05:00",
+   "end": "2026-11-03T19:30:00-05:00",
+   "all_day": false,
+   "description": "Eric Aho, a painter known for his immense paintings of the natural world, gives an evening lecture.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b47260c3b3a7096a",
    "title": "FJORD",
    "venue": "O Cinema South Beach",
@@ -836,6 +1109,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "1871698d310df195",
+   "title": "MIT Museum Professional Shares Interactive Projects Currently in the Works",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": "2026-11-03T20:30:00-05:00",
+   "all_day": false,
+   "description": "What if a museum worked less like a warehouse for finished objects and more like a lab where the experiment is still running? Ann Neumann is the Director of Galleries and Exhibitions at MIT Museum, and led its 2022 move into a new 56,000-square-foot space in Kendall Square. Ann will walk the group through the multiple interactive projects she's shepherded at the MIT Museum. These projects work as prototypes for engaging the public with technologies like CRISPR, machine learning, and sensory neuroscience. Through it all, she asks: can a museum work as infrastructure for public experimentation…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "5ba33154128a130c",
@@ -1195,6 +1489,111 @@
    "city": "miami"
   },
   {
+   "id": "f838e91dac409fb7",
+   "title": "Book Talk: A Right to Housing? with Samuel Stein",
+   "venue": "Van Alen Institute",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "​In collaboration with AIA Brooklyn Housing Committee, Samuel Stein discusses his latest book A Right to Housing?",
+   "url": "https://www.vanalen.org/events/book-talk-a-right-to-housing-with-samuel-stein/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-van-alen",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "510c989119aa37ee",
+   "title": "Claying Architecture: Book Talk",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "The Center for Architecture is pleased to host a roundtable discussion celebrating the book launch of Claying Architecture: Making Machine and Material Kin (ORO Editions/Applied Research + Design Publishing, 2026 ) edited by Shelby Doyle, Frank Melendez, Jonathan A. Scelsa, and Kelley Van Dyck Murphy. This publication presents a curated collection of essays, interviews, and projects from leading architects, designers, and researchers who are analyzing the role of clay 3D printing in contemporary architecture. The book blends research, theory, and practice to highlight how this ancient…",
+   "url": "https://www.pratt.edu/events/claying-architecture-book-talk/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "5981a348db310d0a",
+   "title": "Journalists Share Their Books on Boundary-Breaking Art & the Ongoing Fight To Defend Creative Freedom",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:00:00-05:00",
+   "all_day": false,
+   "description": "Martha Wilson and Anne Turyn present two groundbreaking publications documenting 1970s-1980s New York Avant-Garde performance and bookmaking.Artist and Franklin Furnace founder Martha Wilson will discuss her new book, Back to the Present: 50 Years of Free Expression with Franklin Furnace, a 50th-anniversary celebration of the legendary arts institution Franklin Furnace. This visually rich volume captures five decades of boundary-breaking art and the ongoing fight to defend creative freedom. Further, it chronicles stories by individuals from arts groups across the U.S.A. who also fought in the…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b8812c8e2c1922dd",
+   "title": "Minds behind Storied Architecture Studio Share Their Book, JSa: Built in Mexico City (+ Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:45:00-05:00",
+   "all_day": false,
+   "description": "A conversation with Aisha Ballesteros, Benedikt Fahlbusch, and Javier Sanchez, partners and principals of JSa, to celebrate their new book, a comprehensive overview of the firm's most prominent projects that helped it become one of Mexico City's leading architectural practices. The conversation will be followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b061515ab7fbb66c",
+   "title": "Quiet Reading Meet Up",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "Bring a book or check one out of the library to read to yourself for one hour. After that, spend an hour socializing with those around you!",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "c940ff12f706cc07",
    "title": "Transatlantic Συν-Ergies: Energy, Capital & Global Ventures",
    "venue": "Columbia Business School",
@@ -1256,6 +1655,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "d9e582714f6b1b74",
+   "title": "Multidimensional Artist Discusses the Work of Pioneer in Minimalist Art Space",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-04T18:30:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "Jordan Wolfson discusses the work of Donald Judd. Jordan Wolfson began his practice as a video artist, his recent work spans animatronics, robotics, virtual reality, holography, digital animation, and innovative sculpture. Contrasting physical, virtual, and imaginary realms, he examines the projection of internal impulses onto constructed selves and scenarios. As part of a generation that redefined artistic possibilities through emerging digital media, he uses technology to probe difficult, often controversial themes underlying American culture and contemporary society, offering a raw and…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "6796a08cb04502eb",
@@ -1339,6 +1759,48 @@
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "f703e388f9e13a73",
+   "title": "Classic Masterpiece Screen Adaptation - Writers Discuss",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": "2026-11-04T20:30:00-05:00",
+   "all_day": false,
+   "description": "Classic Masterpiece Screen Adaptation - Writers Discuss",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "dff3b48c1c0ee8ad",
+   "title": "Emerging Photographers Share Their Work of Self-Discovery",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": "2026-11-04T20:30:00-05:00",
+   "all_day": false,
+   "description": "Alicia Hansen, photographer and founder and CEO of NYC Salt, discusses the mission and impact of the nonprofit arts organization. Founded by Hansen in 2005 as an after-school program in Washington Heights, NYC Salt engages, inspires, and empowers New York City youth through photography instruction, mentorship, and college-preparatory guidance. Hansen will explore how the camera serves as a catalyst for self-discovery and career opportunity. The event will feature students and alumni presenting their work, showing how these emerging photographers use the lens to cultivate agency, belonging…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -1531,6 +1993,27 @@
    "city": "nyc"
   },
   {
+   "id": "9162e4df406ef117",
+   "title": "Sustainable Supply Chains in Policy, Design, and Practice",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-05T10:30:00-05:00",
+   "end": "2026-11-05T12:00:00-05:00",
+   "all_day": false,
+   "description": "An interdisciplinary online workshop connecting supply chain requirements, sustainability labelling, and sustainable design.\n\nSupply chains are an integral part of sustainability and building a climate resilient future. This workshop will unpack and connect sustainable supply chain requirements (required and voluntary), sustainability labelling, and sustainable design to provide participants with an interdisciplinary approach to sustainable supply chains.\n\nSpeakers:\nMartha Molfetas – Visiting Assistant Professor, Graduate Center for Planning and the Environment\nCarolyn Shafer – Pratt…",
+   "url": "https://www.pratt.edu/events/sustainable-supply-chains-in-policy-design-and-practice/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "ca0cfe2dd2233882",
    "title": "AI makes fake invoices look real: can someone email as you? | Raileon AI Lab",
    "venue": "Refresh Miami",
@@ -1591,6 +2074,27 @@
    "source": "nyc-columbia-law",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "18e3d8b505d00d2c",
+   "title": "Climate and Political Storylines for the Future",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-05T12:30:00-05:00",
+   "end": "2026-11-05T14:00:00-05:00",
+   "all_day": false,
+   "description": "Scenario planning for alternative climate futures: what science, policy, economic, design, and societal changes are needed?\n\nRe-inventing the future: a storylines scenario-building workshop to help ideate on and center different climate futures. What are the science, political, economic, and societal changes and tools we need to achieve different climate futures? Are there existing tools and technologies, or are there things we’ve never created that have to be invented? The IPCC uses five core storylines to illustrate different climate outcomes and assess wider socio-economic impacts. The…",
+   "url": "https://www.pratt.edu/events/climate-and-political-storylines-for-the-future/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -1783,6 +2287,48 @@
    "city": "miami"
   },
   {
+   "id": "83b14d125761cd70",
+   "title": "Debut Novel Celebration: Flat Earth (+ Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T19:30:00-05:00",
+   "all_day": false,
+   "description": "Anika Jade Levy celebrates the paperback release of her book. She will be in conversation with Lili Anolik, followed by a signing. \"A stunning debut novel about the trials of female friendship in New York.\"",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e7d2084d4d1357b7",
+   "title": "Fluid Adaptation: Redesigning the Porous City in an Age of Extremes",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T19:30:00-05:00",
+   "all_day": false,
+   "description": "Sinking deltas and extreme climate shifts have exposed the limits of rigid grey infrastructure. Concrete sea walls and channelized canals can no longer withstand the compound threats of intense flooding and severe drought. Landscape architect Kotchakorn Voraakhom proposes a fundamental shift: moving from fighting water to designing for fluid adaptation.\n\nBy prioritizing porosity over resistance, urban land can be redesigned to act as a living sponge—absorbing, filtering, storing, and releasing water dynamically. This approach transforms single-use hard infrastructure into multifunctional…",
+   "url": "https://www.pratt.edu/events/fluid-adaptation-redesigning-the-porous-city-in-an-age-of-extremes/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "0c55e5d257dbdb65",
    "title": "Four-Color Screen Printing",
    "venue": "Oolite Arts",
@@ -1823,6 +2369,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "1bdb6c45b165d3dd",
+   "title": "Panel: Culture of Place",
+   "venue": "Van Alen Institute",
+   "kind": "talks",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T20:00:00-05:00",
+   "all_day": false,
+   "description": "Farida Abu-Bakare (WXY), Curry J. Hackett, and Tura Cousins Wilson (SOCA) to explore what architects can learn from the people already doing the work of building community.",
+   "url": "https://www.vanalen.org/events/culture-of-place/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-van-alen",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "acc6a855d36b1b79",
+   "title": "Professional Development Expert Discusses the Emotional Toll of Career Loss & Change",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T20:30:00-05:00",
+   "all_day": false,
+   "description": "In conversation with Tiffany Dufu, Jovian Zayne will explore the emotional realities that often accompany career transitions, job loss, burnout, caregiving, parenting, professional reinvention, and the everyday pressure to keep it all together. Together, they'll discuss practical ways to reframe challenging seasons, quiet the inner critic, ask for help, and create more room for relief, reflection, and renewed possibility.In Soft Landings for Hard Days, Jovian Zayne offers a compassionate companion for navigating the moments when life, work, and responsibility feel heavier than usual. Drawing…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "cce504b68716d8d4",
@@ -1928,6 +2516,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
+  },
+  {
+   "id": "e138a33a65263a62",
+   "title": "Award-Winning Illustrator & Fine Artist Shares Her New Book on Famous Modern Artist",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-05T18:30:00-05:00",
+   "end": "2026-11-05T19:30:00-05:00",
+   "all_day": false,
+   "description": "Janice Hechter shares her journey to writing and illustrating a new picture book about artist Theresa Bernstein. Hechter will discuss Bernstein’s art and how she beat the odds by becoming a successful working artist, despite living in a time when women’s art was frequently ignored.An award-winning illustrator and fine artist, Janice Hechter has exhibited her paintings in various galleries and museums throughout the country. Hechter’s new picture book, The Power of Her Paintbrush: The Story of Theresa Bernstein, was published in March, and has received strong critical acclaim.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "76f0ef8776211058",
@@ -2098,6 +2707,48 @@
    "city": "nyc"
   },
   {
+   "id": "5bfa3983237cc600",
+   "title": "Princeton Archeologist Discusses the Traveling Craftsmen of Ancient Greece",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-05T19:30:00-05:00",
+   "end": "2026-11-05T21:00:00-05:00",
+   "all_day": false,
+   "description": "The designs of Greek temples, with their recognizable Doric and Ionic columns, spread widely in the ancient Mediterranean and Black Sea in the 6th and 5th centuries BCE. The dissemination of these architectural forms depended on highly mobile stone masons, who cross-pollinated design ideas as they worked far from home. Sam Holzman- Assistant Professor of Art & Archaeology at Princeton University- presents a talk that surveys a range of evidence for the mobility of ancient builders, from inscribed records to new lead-isotope analysis.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "15e61f7ce974f797",
+   "title": "True Crime and Fiction - with Highly Accomplished Authors",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-05T19:30:00-05:00",
+   "end": "2026-11-05T21:00:00-05:00",
+   "all_day": false,
+   "description": "True Crime and Fiction - with Highly Accomplished Authors",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "346b0025c4070527",
    "title": "Gandhi and the Jew",
    "venue": "Miami New Drama (Colony)",
@@ -2182,6 +2833,48 @@
    "city": "nyc"
   },
   {
+   "id": "d3adbc4a66f443a7",
+   "title": "Pratt Public Sphere Geodesic Dome Build-Up",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-06T10:00:00-05:00",
+   "end": "2026-11-06T16:00:00-05:00",
+   "all_day": false,
+   "description": "Build a geodesic dome and explore sustainable design, ecological experimentation, and community resilience through hands-on collaboration.\n\nJoin us for a hands-on geodesic dome build-up at the Pratt Public Sphere, a living laboratory for sustainability, climate justice, and community resilience at Pratt Institute.\n\nWorking collaboratively, participants will engage with the assembly of a geodesic dome while exploring sustainable design, low-impact construction, and the relationship between the built environment and ecological systems. The activity offers an opportunity to learn through making…",
+   "url": "https://www.pratt.edu/events/pratt-public-sphere-geodesic-dome-build-up/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "4812bef2b48ec6a0",
+   "title": "Clinical Psychologist Discusses Seasonal Affective Disorder & Management Strategies",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-06T11:00:00-05:00",
+   "end": "2026-11-06T12:00:00-05:00",
+   "all_day": false,
+   "description": "A discussion with William Lamson, Ph.D. including common symptoms, factors that may contribute to seasonal changes in mood, and strategies for managing symptoms and supporting mental and emotional wellbeing during the winter months. Seasonal Affective Disorder is a type of depression that occurs at certain times of the year, most commonly during the fall and winter months. Changes in daylight and seasonal routines may affect mood, sleep, energy, and daily functioning. Understanding the signs and symptoms of Seasonal Affective Disorder, as well as available treatment and management strategies…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "0b64e48660371459",
    "title": "Once Upon a Time in Harlem",
    "venue": "Coral Gables Art Cinema",
@@ -2201,6 +2894,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "c77fbf918eeda63a",
+   "title": "Pulitzer Prize–Winning Journalist Shares Her New Book, Safe Passage",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-06T14:00:00-05:00",
+   "end": "2026-11-06T15:00:00-05:00",
+   "all_day": false,
+   "description": "Evelyn Iritani uncovers the little-known story of the dangerous negotiations that led to the exchange of American and Japanese civilians during World War II. In the fall of 1943, as some of the Second World War’s bloodiest battles unfolded across the Pacific, the United States and Japan pulled off a diplomatic coup—the return of civilians caught on the wrong side of the battlefield after Pearl Harbor. In Safe Passage, journalist Evelyn Iritani reveals the rarely told story behind this wartime exchange, featuring a cast of determined diplomats, sharp-tongued journalists, missionaries, and…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "401f7aa48659187e",
@@ -2348,6 +3062,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "b57ff8fb72fa52a0",
+   "title": "Perfumist Shares Her New Book, The Cultures of Perfume (+ Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-06T18:00:00-05:00",
+   "end": "2026-11-06T19:00:00-05:00",
+   "all_day": false,
+   "description": "A conversation with Saskia Wilson-Brown to celebrate her new book, a richly illustrated survey of the history and origins behind the most well known scents in the world. She will be in conversation with Rachel Syme, followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "fafc4f19a40e3025",
@@ -2728,6 +3463,27 @@
    "city": "miami"
   },
   {
+   "id": "dab57637f461d910",
+   "title": "Artist & Scholar Discuss Ethical Quandaries of Creative Acts",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-07T14:00:00-05:00",
+   "end": "2026-11-07T16:00:00-05:00",
+   "all_day": false,
+   "description": "A conversation between artist Allie Tsubota and K Yin. The conversation is held on the occasion of the closing of Tsubota’s solo exhibition Milk Teeth. Drawing on Yin’s research into 19th-century photographic archives and representations of diasporic Asian labor in the American landscape, the speakers will pull on narrative and visual threads within the exhibition, including themes of extraction, critical and geological speculation, and the ethical quandaries of creative acts that unsettle historical space.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "73feed78889b0ef6",
    "title": "Bass Babies | November 7",
    "venue": "The Bass",
@@ -2915,6 +3671,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "429edaee4b7c69f7",
+   "title": "Art Director Shares New Art Book with Louis Vuitton Collaboration (+ Q&A)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-07T19:00:00-05:00",
+   "end": "2026-11-07T20:00:00-05:00",
+   "all_day": false,
+   "description": "An intimate conversation on League of Legends' virtual pop supergroup, K/DA, and their latest iterations across music, animation, and the recently debuted Tempo Point, a Louis Vuitton Travel Book imagining the home of Ahri, Akali, Evelynn, and Kai’Sa. Airi Pan (Art Director, Tempo Point) discusses the creative process of bringing K/DA and their world to life through the recent Louis Vuitton collaboration, followed by an audience Q&A. Guests will also have an opportunity to view and purchase the Travel Book.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "c596ac5288c797a6",
@@ -3715,6 +4492,48 @@
    "city": "miami"
   },
   {
+   "id": "9f8bd2cb195cd625",
+   "title": "Book Launch: Junior Architects",
+   "venue": "Van Alen Institute",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join a conversation hosted by Suzanne Lettieri and Anya Sirota, editors of Junior Architects: New Paradigms in Design Education , which examines equity in architecture and design education in the US.",
+   "url": "https://www.vanalen.org/events/book-launch-junior-architects/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-van-alen",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "c0cbb4f452f003ef",
+   "title": "Fiction, Family, and the New Israeli Narrative with Author Noa Yedlin",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T19:00:00-05:00",
+   "all_day": false,
+   "description": "We are pleased to welcome Noa Yedlin to our monthly Folio Literary Series, author of House Arrest . In this conversation, Noa will discuss writing after October 7th, introducing the world to a secular, liberal, alternative Israel, adapting books for television, and the role of women in Israeli public life.\n\nHouse Arrest —which won the Sapir Prize and was adapted into a successful play—is a story about a secular, leftist Jerusalemite family that abruptly falls apart against the backdrop of the Israeli Left’s gradual decline in the 2000s. This discussion offers an opportunity to explore how the…",
+   "url": "https://www.myjewishlearning.com/the-hub/fiction-family-and-the-new-israeli-narrative-with-author-noa-yedlin/",
+   "location": null,
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "be8b815859fc2c24",
    "title": "Inside the AI-Powered VC: How Investors Are Actually Using AI",
    "venue": "Columbia Business School",
@@ -3733,6 +4552,48 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "3e94ccb84ed4d2fa",
+   "title": "Makeup Artist Shares His New Book, Blue Velvet: A Polaroid Diary ( + Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T19:30:00-05:00",
+   "all_day": false,
+   "description": "Go behind the scenes of David Lynch’s 1986 cult classic with on-set Polaroids taken by Jeff Goodwin. He celebrates his new book, Blue Velvet: A Polaroid Diary. He will be in conversation withTony Nourmand, followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "156faea526545c0f",
+   "title": "Multi-Media Artist Breaks Down Her Practice",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T19:30:00-05:00",
+   "all_day": false,
+   "description": "A conversation between the artist, Tith Kanitha, and Sohrab Mohebbi, Director of SculptureCenter, New York. Tith and Mohebbi will introduce and contextualize Tith's practice, which moves across film, performance, sculpture, installation, and works on paper. A reception will follow.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -3755,6 +4616,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
+  },
+  {
+   "id": "88c35a6cc316dfd3",
+   "title": "Hayley Eber: Digesting What Matters",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-09T18:15:00-05:00",
+   "end": "2026-11-09T20:00:00-05:00",
+   "all_day": false,
+   "description": "A lecture presented by Hayley Eber, Undergraduate Architecture’s 2026 Degree Project Eminent Analyst\n\nWhat does it mean to practice design as a form of digestion, taking in the discarded, overlooked, and systemic, and transforming it into new forms of knowledge and space? This lecture traces pedagogy, practice, and institutional leadership as a continuous exploration of creative practice, with each serving as a distinct mode of processing shared underlying material. It considers waste, infrastructure, and archives as raw matter, moving from installations that treat urban byproducts as design…",
+   "url": "https://www.pratt.edu/events/hayley-eber-digesting-what-matters/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "17356390ea7e4502",
@@ -4114,6 +4996,69 @@
    "city": "miami"
   },
   {
+   "id": "2bcf1332efd68fc1",
+   "title": "Art Historian Shares His New Book on an Iconic Modern Artist (+ Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": "2026-11-10T19:30:00-05:00",
+   "all_day": false,
+   "description": "James Cahill celebrates his book, The Beverly Hills Housewife: Hockney's Californian Muse and the World Beyond the Pool. He will be in conversation with Patrick Monahan, followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "aea394ccd5b9fb40",
+   "title": "Debut Novel Celebration: The Squatters",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": "2026-11-10T19:00:00-05:00",
+   "all_day": false,
+   "description": "Saba Brelvi shares her new book. About the book: Two families collide in Saba Brelvi’s The Squatters, a gripping debut that offers a piercing exploration of female friendship, particularly the kinds of bonds forged through proximity, motherhood, and social performance. Emotionally incisive, and morally unflinching, The Squatters explores the limits of compassion, the cost of solidarity, and interrogates the hidden boundaries of empathy within even the most intimate communities, revealing how quickly generosity can collapse when stability, property, and belonging feel under threat.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "875a53ddc383d02a",
+   "title": "Ecologist Shares His New Book, Before New York (In Person AND Online!)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": "2026-11-10T19:00:00-05:00",
+   "all_day": false,
+   "description": "Eric Sanderson in conversation with Michael Kimmelman. In Before New York, Eric W. Sanderson invites readers on a breathtaking journey through the evolution of New York City—its natural features, inhabitants, and geography—from long before Henry Hudson's arrival in 1609 up to the present day. This monumental work is the culmination of more than 25 years of research, featuring 75 original maps, 200 color illustrations, and nearly 4,000 detailed descriptions of streams, wetlands, rocks, plants, animals, and Indigenous settlements. An epic expansion of Sanderson's bestselling and critically…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b4c374588ac2db88",
    "title": "European Startups in Miami: Pitch Night",
    "venue": "Refresh Miami",
@@ -4175,6 +5120,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
+  },
+  {
+   "id": "24a158386d66d845",
+   "title": "Filmmaker Roundtable Discussing Themes of Migration, Identity, & the Quest for Belonging",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T18:30:00-05:00",
+   "end": "2026-11-10T20:00:00-05:00",
+   "all_day": false,
+   "description": "Three powerful documentaries recently screened at the 2025 Queens World Film Festival: Home by Johanny Mota; Soñando America by Judit Angle; and Safari by Seyeon Bang. Katha Cato, Executive Director, Queens World Film Festival, and the filmmakers will be present to discuss the films. These three films explore migration, identity, and the quest for belonging from different corners of the world. Home centers on the Dominican immigrant experience and the meaning of “home”; Soñando America follows undocumented immigrants from Mexico striving for a better life; Safari tells the story of a North…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "851fa1621eadf976",
@@ -4240,6 +5206,90 @@
    "city": "nyc"
   },
   {
+   "id": "f53d996a9fee8cd5",
+   "title": "MoMA-Featured Photographer Discusses His Approach to Art",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T20:30:00-05:00",
+   "all_day": false,
+   "description": "Stanley Wolukau-Wanambwa is joined by Associate Curator Phil Taylor of the George Eastman Museum, to discuss the role of order in the context of his practice as both an artist and a critic.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "55f8d52d2e1df0c9",
+   "title": "New York Times-Featured Photographer Shares Her Journey & Craft",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T20:30:00-05:00",
+   "all_day": false,
+   "description": "A talk by New York City-based commercial, editorial, and fine art photographer Emma Rose Milligan.Milligan is an Eddie Adams Workshop XXXVII alumnus. Her editorial writing and visual commissions have appeared in Bloomberg, The New York Times, USA Today, The Wall Street Journal, Zeit, and other publications. She is an American Photography 40, 41, and 42 chosen and selected winner; an ADC 104 Merit and Bronze Cube winner; and an ADC 105 Bronze Cube winner. Her personal work has been published internationally by Paris-based magazine Courrier International, as well as London-based book publisher…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "faea94fc3aaf6583",
+   "title": "Read & Discuss Book Prize Shortlisted Author's Classic Novella",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T20:30:00-05:00",
+   "all_day": false,
+   "description": "A lively and engaging discussion of The Girls of Slender Means. The meeting will start with a short audio clip or recording of an interview with the author. Plan to discuss the book for 90 minutes. About the book: “Long ago in 1945 all the nice people in England were poor, allowing for exceptions,” begins one of Muriel Spark’s most charming and wittiest novels, a portrait of young ladies living at the May of Teck Club, a London hostel in the postwar days of 1945.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "461409a52814e5b4",
+   "title": "Sociologist & Legal Scholar Discuss Their Books on the Economic Ecosystem",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T20:30:00-05:00",
+   "all_day": false,
+   "description": "Ho-fung Hung, author of Greenback Empire, and Will Bateman, author of The Fiscal Fed in conversation. Greenback Empire:A critical history of the US dollar’s dominance in the world economy—and what has kept China’s currency from overtaking it. The dollar is the primary currency of the world economy. With China now rivaling the United States on the world stage, a critical question hangs in the balance: will the Chinese renminbi challenge the status of the dollar and, in doing so, deprive America of its “exorbitant privilege”?The Fiscal Fed:A revelatory history of how the Federal Reserve…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "127b1a9c013e5214",
    "title": "Tuesday Night Live",
    "venue": "Yeshiva University",
@@ -4258,6 +5308,27 @@
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "24f75d9ff54edbbf",
+   "title": "Pulitzer Prize-Winning Author and American History",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-10T19:30:00-05:00",
+   "end": "2026-11-10T21:00:00-05:00",
+   "all_day": false,
+   "description": "Pulitzer Prize-Winning Author and American History",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -4555,6 +5626,27 @@
    "city": "miami"
   },
   {
+   "id": "42f1cac1528ea008",
+   "title": "Design Professionals Discuss the Legacy of an Iconic Fashion Accessory",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-11T18:00:00-05:00",
+   "end": "2026-11-11T19:30:00-05:00",
+   "all_day": false,
+   "description": "Liberty London’s Paola Scala, Director of Products, and Mary-Ann Dunkley, Design Director, have a discussion about the beauty and legacy of Liberty’s silk scarves. First launched in the early 1900s, the Liberty scarf is a timeless accessory central to the brand's reputation for luxury and excellence.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "062226ecd6278501",
    "title": "New York: WHAT'S YOUR STORY? How to Become More Memorable and Referable for What’s Next",
    "venue": "Columbia Business School",
@@ -4636,6 +5728,27 @@
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "690943ac4a1dadf1",
+   "title": "The Morning After: What’s Next for Israel and American Jews?",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-11T18:30:00-05:00",
+   "end": "2026-11-11T20:30:00-05:00",
+   "all_day": false,
+   "description": "Amir Tibon, 2026 Winner Sami Rohr Prize for Jewish Literature in conversation with acclaimed author Sarah Hurwitz\n\nLearn about the book that won this year’s prestigious Sami Rohr Prize for Jewish Literature in an exclusive conversation with two remarkable authors.\n\nAmir Tibon, 2026 Sami Rohr Prize winner for The Gates of Gaza, and Sarah Hurwitz, author of As a Jew and 2020 Sami Rohr Prize finalist for Here All Along, join us for a timely and fascinating discussion about the Israeli election, the U.S. midterm elections, and what the results of both mean for Israelis, Jewish Americans and the…",
+   "url": "https://www.myjewishlearning.com/the-hub/the-morning-after-whats-next-for-israel-and-american-jews/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 10.0,
+    "text": "$10 – $18"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -5061,6 +6174,27 @@
    "city": "nyc"
   },
   {
+   "id": "5d665a3d30d75abe",
+   "title": "Art History Talk: Discover the Life & legacy of Joan Miro",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T19:30:00-05:00",
+   "all_day": false,
+   "description": "Explore the life and work of an iconic modern artist. Miró’s works are hard to classify but do express his pride in his Catalan heritage (references to Barcelona and the countryside) and his contempt for conventional art. The unconscious and subconscious interact with a child-like wonder and dreamlike imagery so he might be dubbed a surrealist.After 1920, he spent winters in Paris and summers on the family farm near Barcelona. He directly influenced Pollock, Calder, and Rothko. His themes are sex, humor, nature, excrement, and playfulness along with fear and anger. He worked in oil, gouache…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "4a0d5d0d5634d920",
    "title": "European Startups in Miami: Panel Night",
    "venue": "Refresh Miami",
@@ -5101,6 +6235,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "70ef796e9cc9d0d8",
+   "title": "New Yorker-Featured Author Shares His Latest Novel, West of Loveland",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T19:00:00-05:00",
+   "all_day": false,
+   "description": "A conversation with Tom Drury to celebrate his new book, a novel that returns readers to the Midwest in a moving portrait of contemporary life in a small rural county. The conversation will be followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "96f0fa6c23d34265",
+   "title": "Panel: What a Way to Make a Living",
+   "venue": "Van Alen Institute",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T20:00:00-05:00",
+   "all_day": false,
+   "description": "Policy, design, and development leaders envision how NYC’s Block by Block housing plan can move beyond unit production to foster better living.",
+   "url": "https://www.vanalen.org/events/what-a-way-to-make-a-living/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-van-alen",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "edbd372d0db0d3f6",
@@ -5145,6 +6321,27 @@
    "city": "nyc"
   },
   {
+   "id": "73e696c8cbb41f6f",
+   "title": "Best-Selling Historian Shares His New Book on the Middle East",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T18:30:00-05:00",
+   "end": "2026-11-12T20:00:00-05:00",
+   "all_day": false,
+   "description": "The Cauldron, by Simon Sebag Montefiore, takes the reader on a spectacular journey from the Ottoman sultanate to the Trump presidency, from Morocco to Iran -- a panorama brought to life by an extraordinary cast of kings, warriors, poets, terrorists, and peacemakers. A master storyteller, Montefiore reveals the origins of the world we live in. Montefiore will appear in conversation with Tom Reiss, author of The Orientalist, The Black Count, and coming this spring, We Will Never Die, about the greatest rescue effort of World War II. “Vivid and monumental . . . could not [be] more essential” –…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "a7281eb98df71a46",
    "title": "hack night v0.190 - South Beach",
    "venue": "Hello Miami",
@@ -5164,6 +6361,69 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "7b75fddafc8fb110",
+   "title": "Interdisciplinary Artist Shares His Techniques of \"Hallucinatory\" Drawing (In Person AND Online!)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T18:30:00-05:00",
+   "end": "2026-11-12T20:30:00-05:00",
+   "all_day": false,
+   "description": "This presentation by Mark West will describe a practice that adopts methods of Finding rather than methods of Control. These include techniques of \"hallucinatory\" drawing utilizing the very human capacity for pareidolia, structural form-finding utilizing yielding and flexible materials, and somehow parallel sculptural findings as well. These are examples of how a longstanding fixation on Control may be softened and dissolved by surprisingly simple methods. The presentation will be followed by a Q & A.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "1c89ad44af612148",
+   "title": "MacArthur Fellow Shares Discusses Her Creative Career",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T18:30:00-05:00",
+   "end": "2026-11-12T20:00:00-05:00",
+   "all_day": false,
+   "description": "An evening with Maaza Mengiste. Mengiste will be in conversation with writer and translator Lars Horn. Maaza Mengiste is a novelist, essayist, and the recipient of a 2026 MacArthur Fellowship. She is the author of the novel, The Shadow King, which was shortlisted for the Booker Prize, and was an LA Times Book Prize Fiction finalist. Her debut novel, Beneath the Lion’s Gaze, was selected by the Guardian as one of the 10 best contemporary African books.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "c3c372d90520ce59",
+   "title": "American Book Award-Winning Poet Shares Her New Collection, The Ghost Forest",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": "2026-11-12T20:00:00-05:00",
+   "all_day": false,
+   "description": "Kimiko Hahn in conversation with Sally Wen Mao. Kimiko Hahn introduces her new poetry collection The Ghost Forest. About the book: Opening with forty-three new formally inventive poems and leading the reader back in time through selections from her ten previous volumes, The Ghost Forest offers a contemplative and haunting narrative of a writer's artistic journey through craft and form while illuminating her personal history.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "1d91ba8e8d33893c",
@@ -5227,6 +6487,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "ccd31e0c7777c7d0",
+   "title": "National Book Award Finalist Discusses How Literature Can Shape Radical Political Moments",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": "2026-11-12T21:00:00-05:00",
+   "all_day": false,
+   "description": "In this hour-long craft talk, Camonghne Felix will depart from Let the Poets Govern to reflect on poetic principles.Over the past decade, Camonghne Felix has been at the center of American politics, working in strategy, communications, and as a speechwriter. Throughout it all, she has maintained her unwavering belief in language’s foundational revolutionary potential, outside of its deployment for legislative and political ends. In Let the Poets Govern, she argues that Black radical poetic traditions model an ethical code and overcome entrenched structures of patriarchy and paternalism…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "65a25b7f00dccad2",
@@ -5355,6 +6636,48 @@
    "city": "nyc"
   },
   {
+   "id": "86be3527613dc5c1",
+   "title": "Celebrating the Photography of Asian & Asian American Artists",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-13T11:00:00-05:00",
+   "end": "2026-11-13T12:00:00-05:00",
+   "all_day": false,
+   "description": "A deep dive into the diverse voices shaping contemporary photography. This class highlights the Photography Collection's rich holdings of Asian and Asian American artists, offering a rare opportunity to study these compelling works up close. The group will explore themes of memory, identity, and artistic innovation through the lenses of artists such as Binh Danh, Thomas Holton, Michael Jang, Dayanita Singh, and Madoka Takagi.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "70170d48195cbced",
+   "title": "GA/LA/UD Virtual Information Session II",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-13T12:00:00-05:00",
+   "end": "2026-11-13T14:00:00-05:00",
+   "all_day": false,
+   "description": "Join the Graduate Architecture, Landscape Architecture and Urban Design department for an engaging midday session featuring a special behind-the-scenes walkthrough of a prominent New York architecture and landscape firm, highlighting their current projects.\n\nYou’ll also hear from Pratt faculty and students about our studio culture, curriculum, and creative opportunities that come with studying and working in New York City.",
+   "url": "https://www.pratt.edu/events/ga-la-ud-virtual-information-session-2/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "77b685a979812485",
    "title": "AI and Organizational Economics Seminar Series",
    "venue": "Columbia Business School",
@@ -5415,6 +6738,69 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "bac2f70968e5d6b0",
+   "title": "Sustainability Night",
+   "venue": "Pratt Institute School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-13T17:00:00-05:00",
+   "end": "2026-11-13T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join Pratt Institute’s Sustainable Environmental Systems (SES) program for Sustainability Night In, an evening celebrating student work, sustainability, and community. Enjoy sustainability themed trivia, three project spotlights featuring presentations from SES community members, and an open gallery showcasing student projects and research. Grab some food, meet fellow community members, and connect over the ideas and projects shaping a more sustainable future. Open to the public, this event is an opportunity to learn more about the SES program, celebrate student work, and build connections…",
+   "url": "https://www.pratt.edu/events/sustainability-night/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-pratt-arch",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "56ad96e4aa77f095",
+   "title": "Genre Painter Shares His Latest Monograph (+ Signing)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-13T18:00:00-05:00",
+   "end": "2026-11-13T19:00:00-05:00",
+   "all_day": false,
+   "description": "Doron Langberg to celebrates their book featuring more than 100 paintings spanning ten years of artistic practice. They will be in conversation with Gaby Collins-Fernández, followed by a signing.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "ec71db7891fdefab",
+   "title": "Industry Professionals Discuss How They Cultivate Sustainable Ecosystems for Filmmakers",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-13T18:00:00-05:00",
+   "end": "2026-11-13T22:00:00-05:00",
+   "all_day": false,
+   "description": "An engaging panel of filmmakers on navigating the tumultuous and changing landscape of entertainment to support filmmakers, artists, and creators.Panelists:Cassie Bradley (Creative Director, Impact Lounge)Brenda Vongova (President, UN Movie Society)Anuj Gupta (Founder & Managing Partner, WADR Law Firm)Sola Fasehun (Founder & Literary Manager, The Distribution Collective/TDC)Mehar Gujral (Producer, Gigantic Studios)Jodi Johnson (Founder, Thought Projectors Studio)Moderator: Jacqueline Pereda, on behalf of Latino Filmmakers Network/LFN",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
    "city": "nyc"
   },
   {
@@ -5714,6 +7100,69 @@
    "city": "miami"
   },
   {
+   "id": "af28daa1016b578f",
+   "title": "Bilingual Conversation with Theater-Maker Carolina Cuervo",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": "2026-11-14T13:00:00-05:00",
+   "all_day": false,
+   "description": "An intimate conversation exploring the artist's work as a writer, playwright, screenwriter, showrunner, and creative artist.In conversation with Martha Schreiner, Carolina will take the audience behind the scenes of her work - from the first spark of an idea to developing characters, writing for theater and screen, collaborating with other artists, and navigating a career built around storytelling. This is not a masterclass or workshop. It’s a TALK. A chance to hear directly from an artist about her body of work, her experiences, her creative process — and the stories behind the stories.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "80a407061b26d512",
+   "title": "Celebrating the Photography of Asian & Asian American Artists",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": "2026-11-14T12:00:00-05:00",
+   "all_day": false,
+   "description": "A deep dive into the diverse voices shaping contemporary photography. This class highlights the Photography Collection's rich holdings of Asian and Asian American artists, offering a rare opportunity to study these compelling works up close. The group will explore themes of memory, identity, and artistic innovation through the lenses of artists such as Binh Danh, Thomas Holton, Michael Jang, Dayanita Singh, and Madoka Takagi.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "9bfc94b0cfbc28a5",
+   "title": "Conference in a Landmark Art Museum: Artistic Representations of the Body & Fashion",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": "2026-11-14T17:00:00-05:00",
+   "all_day": false,
+   "description": "Dive deep into themes found in the exhibition Costume Art through dynamic conversations and presentations by leading scholars, designers, artists, models, and more. Explore the indivisible connection between clothing and the body, and the complex interplay between artistic representations of the body and fashion as an embodied art form.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "2acf6396b6d00614",
    "title": "Fantastic Mr. Fox",
    "venue": "Coral Gables Art Cinema",
@@ -5754,6 +7203,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "c7c5c67bf82783fc",
+   "title": "Actors from Chicago Fire, FBI, & Law & Order Discuss Their Franchises & the Future of Network TV (+ Reception)",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-14T12:00:00-05:00",
+   "end": "2026-11-14T15:00:00-05:00",
+   "all_day": false,
+   "description": "Hanako Greensmith, Zeeko Zaki, and David Ajala have a discussion on carrying forward the legacy of Wolf Entertainment's iconic franchises. From creating memorable characters to bringing new energy to beloved series, these stars will share how they're helping shape the next generation of television heroes.NBCUniversal Reception to follow immediately after the Panel. Complimentary refreshments from 1:00pm-3:00pm.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "d0208f374dfb7c31",
@@ -5838,6 +7308,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
+  },
+  {
+   "id": "1275c8a3b0bed98d",
+   "title": "Death Cafe Discussion Group",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-14T15:30:00-05:00",
+   "end": "2026-11-14T16:30:00-05:00",
+   "all_day": false,
+   "description": "An informal, group-directed discussion of death with no agenda, objectives or themes. The purpose of Death Cafe is \"to increase awareness of death with a view to helping people make the most of their (finite) lives.\" This is a discussion group rather than a grief support or counseling session.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "cf5fb7d4eff652ca",
