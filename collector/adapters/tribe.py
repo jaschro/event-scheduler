@@ -12,6 +12,13 @@ from .base import Context, SourceNotConfigured
 MAX_PAGES = 10
 
 
+def source_query(source) -> dict[str, str]:
+    from urllib.parse import parse_qsl
+
+    url = source.url or ""
+    return dict(parse_qsl(url.split("?", 1)[1])) if "/wp-json/tribe/events/v1/events?" in url else {}
+
+
 def api_base(source) -> str:
     url = source.url or source.page
     if not url:
@@ -28,6 +35,7 @@ def fetch(source, ctx: Context) -> list[dict[str, Any]]:
         "start_date": ctx.window_start.strftime("%Y-%m-%d %H:%M:%S"),
         "end_date": ctx.window_end.strftime("%Y-%m-%d %H:%M:%S"),
         "per_page": 50,
+        **source_query(source),
     }
     pages = []
     for _ in range(MAX_PAGES):

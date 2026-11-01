@@ -1,0 +1,86 @@
+[
+ {
+  "id": "f838e91dac409fb7",
+  "title": "Book Talk: A Right to Housing? with Samuel Stein",
+  "venue": "Van Alen Institute",
+  "kind": "talks",
+  "start": "2026-11-04T18:00:00-05:00",
+  "end": "2026-11-04T20:00:00-05:00",
+  "all_day": false,
+  "description": "​In collaboration with AIA Brooklyn Housing Committee, Samuel Stein discusses his latest book A Right to Housing?",
+  "url": "https://www.vanalen.org/events/book-talk-a-right-to-housing-with-samuel-stein/",
+  "location": null,
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "nyc-van-alen",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "1bdb6c45b165d3dd",
+  "title": "Panel: Culture of Place",
+  "venue": "Van Alen Institute",
+  "kind": "talks",
+  "start": "2026-11-05T18:00:00-05:00",
+  "end": "2026-11-05T20:00:00-05:00",
+  "all_day": false,
+  "description": "Farida Abu-Bakare (WXY), Curry J. Hackett, and Tura Cousins Wilson (SOCA) to explore what architects can learn from the people already doing the work of building community.",
+  "url": "https://www.vanalen.org/events/culture-of-place/",
+  "location": null,
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "nyc-van-alen",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "9f8bd2cb195cd625",
+  "title": "Book Launch: Junior Architects",
+  "venue": "Van Alen Institute",
+  "kind": "talks",
+  "start": "2026-11-09T18:00:00-05:00",
+  "end": "2026-11-09T20:00:00-05:00",
+  "all_day": false,
+  "description": "Join a conversation hosted by Suzanne Lettieri and Anya Sirota, editors of Junior Architects: New Paradigms in Design Education , which examines equity in architecture and design education in the US.",
+  "url": "https://www.vanalen.org/events/book-launch-junior-architects/",
+  "location": null,
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "nyc-van-alen",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ },
+ {
+  "id": "96f0fa6c23d34265",
+  "title": "Panel: What a Way to Make a Living",
+  "venue": "Van Alen Institute",
+  "kind": "talks",
+  "start": "2026-11-12T18:00:00-05:00",
+  "end": "2026-11-12T20:00:00-05:00",
+  "all_day": false,
+  "description": "Policy, design, and development leaders envision how NYC’s Block by Block housing plan can move beyond unit production to foster better living.",
+  "url": "https://www.vanalen.org/events/what-a-way-to-make-a-living/",
+  "location": null,
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "nyc-van-alen",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "nyc"
+ }
+]

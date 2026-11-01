@@ -14,7 +14,7 @@ KINDS = {
 }
 # Merged categories (Nov 2026): older names still accepted and folded in.
 KIND_ALIASES = {"museum": "art", "science": "tech", "outdoors": "wellness"}
-METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster"}
+METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster", "wprest"}
 
 DEFAULT_SETTINGS = {
     "days_ahead": 14,
