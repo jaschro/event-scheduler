@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Scheduler</title>
+  <meta name="description" content="Upcoming venue events, day by day, next to my calendar.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="brand">Event Scheduler</h1>
+    <nav class="city-switch" id="city-switch" aria-label="City"></nav>
+  </header>
+
+  <div class="colheads" aria-hidden="true">
+    <div class="gutter"></div>
+    <div class="colhead">Events</div>
+    <div class="colhead colhead-cal">
+      <span>My calendar</span>
+      <span class="auth" id="auth"></span>
+    </div>
+  </div>
+
+  <p class="cal-banner" id="cal-banner" hidden></p>
+
+  <main id="days" aria-live="polite">
+    <p class="notice">Loading events…</p>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <div class="popover" id="popover" role="dialog" aria-modal="false" hidden></div>
+</body>
+</html>

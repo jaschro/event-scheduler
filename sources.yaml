@@ -1,0 +1,183 @@
+# Event Scheduler sources. See SPEC.md sections 2-3.
+#
+# cities: one block per city. Adding a city = add a block here plus its venues below.
+# sources: one entry per venue / feed.
+#   key        stable id, used as `source` in events.json (never rename once live)
+#   name       display name shown on the page as the venue
+#   city       key from the cities block
+#   kind       tech, museum, art, film, stage, music, talks, science,
+#              food and wine, wellness, community, outdoors
+#   method     ics | eventbrite | (later: tribe | jsonld | custom | browser)
+#   url        feed URL (ics) ; organizer_id for eventbrite
+#   luma_calendar  Luma page name (luma.com/<name>); its iCal feed is looked up at run time
+#   aggregator true for sites that list other venues' events (lose in dedupe)
+#   priority   dedupe tie-break, higher wins (default 50, aggregators 10)
+#   enabled    false = not collected yet (adapter is a later build step)
+#   filter     optional {include: [regex...], exclude: [regex...]} on title+description
+#   location   optional default location when the feed gives none
+#   page       human page for the venue (fallback event link)
+
+settings:
+  days_ahead: 14
+  user_agent: "EventSchedulerBot/0.1 (+https://github.com/jaschro/event-scheduler; personal, non-commercial)"
+  request_delay_seconds: 1.0     # per host
+  request_timeout_seconds: 30
+  source_timeout_seconds: 120    # whole source, all pages
+  default_duration_hours: 2      # used only for "has it ended?" when an event has no end
+
+cities:
+  - key: miami
+    name: Miami
+    tz: America/New_York
+  # - key: nyc
+  #   name: New York
+  #   tz: America/New_York
+
+sources:
+  # ---------- Step 1: feeds ----------
+  - key: miamibeach-arts
+    name: City of Miami Beach Arts Calendar
+    city: miami
+    kind: art
+    method: ics
+    url: "webcal://events.miamibeachfl.gov/?post_type=tribe_events&ical=1&eventDisplay=list&tribe_events_cat=mbartsculture"
+    page: https://events.miamibeachfl.gov/arts-and-culture/
+    aggregator: true
+    priority: 0   # lowest priority in dedupe
+
+  - key: refresh-miami
+    name: Refresh Miami
+    city: miami
+    kind: tech
+    method: ics
+    url: "webcal://refreshmiami.com/?post_type=tribe_events&ical=1&eventDisplay=list"
+    page: https://refreshmiami.com/events/
+    aggregator: true
+    priority: 10
+
+  - key: luma-miami
+    name: Luma Miami
+    city: miami
+    kind: community
+    method: ics
+    url: "https://api.luma.com/ics/get?entity=discover&id=discplace-fSrrRYurTwydAGK"
+    page: https://luma.com/miami
+    aggregator: true
+    priority: 5
+    filter:
+      # "filter hard": drop obvious noise from a high-volume city feed. Tune after first runs.
+      exclude:
+        - "(?i)\\b(webinar|virtual|online only|zoom)\\b"
+        - "(?i)\\b(speed dating|singles)\\b"
+
+  - key: manatech
+    name: ManaTech
+    city: miami
+    kind: tech
+    method: ics
+    url: "https://api.luma.com/ics/get?entity=calendar&id=cal-NgTwepzMKeP3Xlg"
+    page: https://luma.com/manatech
+
+  - key: hello-miami
+    name: Hello Miami
+    city: miami
+    kind: tech
+    method: ics
+    url: "https://api.luma.com/ics/get?entity=calendar&id=cal-dIzfidGLJOmv2it"
+    page: https://luma.com/hello_miami
+
+  - key: miami-ai-hub
+    name: Miami AI Hub
+    city: miami
+    kind: tech
+    method: ics
+    url: "https://api.luma.com/ics/get?entity=calendar&id=cal-Fmb19yTwPm1wWRj"
+    page: https://luma.com/miamiaihub
+
+  - key: el-carajo
+    name: El Carajo
+    city: miami
+    kind: food and wine
+    method: eventbrite
+    organizer_id: "40632499343"
+    page: https://www.eventbrite.com/o/40632499343
+
+  - key: 840-miami
+    name: 840 Miami
+    city: miami
+    kind: wellness
+    method: eventbrite
+    organizer_id: "16691144833"
+    page: https://www.eventbrite.com/o/16691144833
+
+  - key: healthyme-love
+    name: Healthyme.Love
+    city: miami
+    kind: wellness
+    method: eventbrite
+    organizer_id: "27397413755"
+    page: https://www.eventbrite.com/o/27397413755
+
+  - key: um-rosenstiel
+    name: UM Rosenstiel (Johnson Center)
+    city: miami
+    kind: science
+    method: eventbrite
+    organizer_id: "121856689354"
+    page: https://www.eventbrite.com/o/121856689354
+    location: Key Biscayne
+
+  - key: the-bass
+    name: The Bass
+    city: miami
+    kind: museum
+    method: ics
+    url: "webcal://thebass.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+    page: https://thebass.org/events/
+
+  - key: jmof
+    name: Jewish Museum of Florida-FIU
+    city: miami
+    kind: museum
+    method: ics
+    url: "webcal://calendar.fiu.edu/jmof/calendar/ics"
+    page: https://calendar.fiu.edu/jmof
+
+  - key: frost-science
+    name: Frost Science
+    city: miami
+    kind: science
+    method: ics
+    url: "https://www.frostscience.org/events/?ical=1"
+    page: https://www.frostscience.org/calendar-events/
+
+  - key: bandshell
+    name: Miami Beach Bandshell
+    city: miami
+    kind: music
+    method: ics
+    url: "webcal://miamibeachbandshell.com/events/?ical=1"
+    page: https://miamibeachbandshell.com/events/
+
+  - key: books-and-books
+    name: Books & Books
+    city: miami
+    kind: talks
+    method: eventbrite
+    organizer_id: "16479775533"
+    page: https://www.eventbrite.com/o/books-books-16479775533
+
+  # ---------- Later steps (step 4): not collected yet ----------
+  # (Venture Café Miami removed: closed.)
+  - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://pamm.org/events"}
+  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}
+  - {key: ica-miami, name: ICA Miami, city: miami, kind: museum, method: custom, enabled: false, page: "https://icamiami.org/calendar/"}
+  - {key: rubell, name: Rubell Museum, city: miami, kind: museum, method: custom, enabled: false, page: "https://rubellmuseum.org/support/member-events"}
+  - {key: oolite, name: Oolite Arts, city: miami, kind: art, method: custom, enabled: false, page: "https://oolitearts.org/calendar/"}
+  - {key: o-cinema, name: O Cinema South Beach, city: miami, kind: film, method: browser, enabled: false, page: "https://o-cinema.org/o-cinema-south-beach"}
+  - {key: gables-cinema, name: Coral Gables Art Cinema, city: miami, kind: film, method: browser, enabled: false, page: "https://gablescinema.com/calendar/"}
+  - {key: arsht, name: Arsht Center, city: miami, kind: stage, method: custom, enabled: false, page: "https://arshtcenter.org/calendar/"}
+  - {key: miami-new-drama, name: Miami New Drama (Colony), city: miami, kind: stage, method: custom, enabled: false, page: "https://miaminewdrama.org/shows-events/"}
+  - {key: nws, name: New World Center / NWS, city: miami, kind: music, method: browser, enabled: false, page: "https://nws.edu/tickets/concerts-and-events/"}
+  - {key: mbjcc, name: Miami Beach JCC, city: miami, kind: community, method: custom, enabled: false, page: "https://mbjcc.org/events"}
+  - {key: mb-botanical, name: Miami Beach Botanical Garden, city: miami, kind: outdoors, method: custom, enabled: false, page: "https://mbgarden.org/calendar"}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh api -X PUT repos/jaschro/event-scheduler/pulls/*/merge *)",
+      "Bash(gh api --method PUT repos/jaschro/event-scheduler/pulls/*/merge *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}

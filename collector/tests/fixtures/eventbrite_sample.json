@@ -1,0 +1,43 @@
+[
+ {
+  "pagination": {"object_count": 3, "page_number": 1, "page_size": 50, "page_count": 1, "has_more_items": false},
+  "events": [
+   {
+    "id": "1001",
+    "name": {"text": "Truffle & Barolo Dinner"},
+    "description": {"text": "Five courses paired with Piedmont wines."},
+    "url": "https://www.eventbrite.com/e/truffle-barolo-dinner-tickets-1001",
+    "start": {"timezone": "America/New_York", "local": "2026-11-05T19:30:00", "utc": "2026-11-06T00:30:00Z"},
+    "end": {"timezone": "America/New_York", "local": "2026-11-05T22:30:00", "utc": "2026-11-06T03:30:00Z"},
+    "status": "live",
+    "is_free": false,
+    "online_event": false,
+    "venue": {"name": "El Carajo", "address": {"localized_address_display": "2465 SW 17th Ave, Miami, FL 33145"}},
+    "ticket_availability": {
+     "is_sold_out": false,
+     "minimum_ticket_price": {"currency": "USD", "major_value": "150.00", "display": "$150.00"},
+     "maximum_ticket_price": {"currency": "USD", "major_value": "185.00", "display": "$185.00"}
+    }
+   },
+   {
+    "id": "1002",
+    "name": {"text": "Full Moon Beach Yoga"},
+    "description": {"text": null},
+    "summary": "Bring a towel.",
+    "url": "https://www.eventbrite.com/e/full-moon-yoga-1002",
+    "start": {"timezone": "America/New_York", "local": "2026-11-12T19:00:00", "utc": "2026-11-13T00:00:00Z"},
+    "end": {"timezone": "America/New_York", "local": "2026-11-12T20:30:00", "utc": "2026-11-13T01:30:00Z"},
+    "status": "live",
+    "is_free": true,
+    "venue": null,
+    "ticket_availability": {"is_sold_out": true, "minimum_ticket_price": null}
+   },
+   {
+    "id": "1003",
+    "name": {"text": "Draft Event"},
+    "start": {"utc": "2026-11-10T00:00:00Z"},
+    "status": "draft"
+   }
+  ]
+ }
+]
