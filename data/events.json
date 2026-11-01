@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T14:54:31+00:00",
+ "generated_at": "2026-11-01T15:02:06+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -18,6 +18,27 @@
   }
  ],
  "events": [
+  {
+   "id": "16292f6ddfa70981",
+   "title": "Design Matters: In Favor of Urban Public Space",
+   "venue": "CCNY Spitzer School of Architecture",
+   "kind": "architecture",
+   "start": "2026-09-10T09:00:00-04:00",
+   "end": "2027-02-26T17:00:00-05:00",
+   "all_day": false,
+   "description": "The Spitzer School of Architecture joins the Centre de Cultura Contemporània de Barcelona (CCCB) in celebrating the twenty-fifth anniversary of the European Prize for Urban Public Space, a biennial competition organized by the CCCB that, since 2000, has recognized projects that create, transform, and recover public spaces understood to be clear indicators of the democratic health of cities within Europe. With a robust exhibition documenting a quarter-century of exemplary design focused on urban public space, and a robust program of public events, the Spitzer School and the CCCB insist that…",
+   "url": "https://ssa.ccny.cuny.edu/events/design-matters-in-favor-of-urban-public-space/",
+   "location": "Spitzer School Atrium Gallery, 141 Convent Avenue, New York, NY, 10031, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-ccny-ssa",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
   {
    "id": "dd4ac263af42b45d",
    "title": "Primers for a Handmade Utopia",
@@ -1825,6 +1846,27 @@
    "city": "nyc"
   },
   {
+   "id": "f3d10899397a8f98",
+   "title": "Intro to Data Visualization and Business Analytics with Microsoft Power BI - Cognitir",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-04T17:30:00-05:00",
+   "end": "2026-11-05T21:00:00-05:00",
+   "all_day": false,
+   "description": "There are no prerequisites for this course, though some may find it helpful to have experience with Microsoft Excel and Power Query, as Power BI uses similar formulas and frameworks.\nOverviewStrong data culture is a sine qua non for effective organizations in the digital age, and proprietary data insights are increasingly becoming the most important asset such organizations can accrue. Additionally, firms that are invested in crafting a compelling, authentic narrative from their data are uniquely positioned to establish enduring brands, often thriving in the dynamic markets and uncertain…",
+   "url": "https://cfany.org/event/intro-to-data-visualization-and-business-analytics-with-microsoft-power-bi-cognitir-4/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "f838e91dac409fb7",
    "title": "Book Talk: A Right to Housing? with Samuel Stein",
    "venue": "Van Alen Institute",
@@ -1867,6 +1909,27 @@
    "city": "nyc"
   },
   {
+   "id": "065f4e74628d1ea9",
+   "title": "CFA Society New York Book Club: Marketcrafters by Chris Hughes",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:00:00-05:00",
+   "all_day": false,
+   "description": "OverviewThe CFA Society New York Book Club® meets every other month and is designed to be an informal group discussion on a multitude of investment related topics. The author is not present as this is simply a discussion on the book of the month to help members further digest the material and meet other like-minded CFA Society NY members. We will generally have 2-3 books planned in advance so members can pick and choose which ones they are interested in reading prior to the meeting. Overall, a way to build on our investment knowledge and meet other members.\nTitle: Marketcrafters: The 100-Year…",
+   "url": "https://cfany.org/event/cfa-society-new-york-book-club-marketcrafters-by-chris-hughes/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "510c989119aa37ee",
    "title": "Claying Architecture: Book Talk",
    "venue": "Pratt Institute School of Architecture",
@@ -1885,6 +1948,27 @@
    "source": "nyc-pratt-arch",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "beefd3de57de0ff3",
+   "title": "Institutional Asset Management Group Meeting",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:30:00-05:00",
+   "all_day": false,
+   "description": "Group DescriptionThe Institutional Asset Management Group brings together professionals engaged in the management, oversight, and/or advisement of institutional investments. Its diverse member base includes investment consultants, plan sponsors, insurance professionals, risk managers, derivative product specialists, and portfolio managers and analysts in a wide variety of asset classes. The group nurtures a rich exchange of ideas and information by connecting professionals who are broadly in the same field, but would not otherwise collaborate and network with one another.\nJOIN THIS GROUP",
+   "url": "https://cfany.org/event/institutional-asset-management-group-meeting-69/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
    "city": "nyc"
   },
   {
@@ -1969,6 +2053,27 @@
    "source": "nyc-mas",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "1976413ef3267f92",
+   "title": "Performance & Risk Analytics Group Meeting",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:30:00-05:00",
+   "all_day": false,
+   "description": "Group DescriptionThe Performance & Risk Analytics Group (PRAG) brings together investment performance measurement & investment risk management professionals engaged in the asset management industry. It’s diverse membership consists of, but is not limited to, practitioners from asset management firms, as well as service & software providers. The group meets on a monthly basis to discuss relevant topics and provides networking and continuing education opportunities through its planned events.\nIf you would like to participate in this group, or attend industry events and networking opportunities…",
+   "url": "https://cfany.org/event/performance-risk-analytics-group-meeting-56/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
    "city": "nyc"
   },
   {
@@ -2539,6 +2644,27 @@
    "city": "miami"
   },
   {
+   "id": "0d5a499ca512be9e",
+   "title": "CFA Society New York Lunch & Learn Series",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-05T12:00:00-05:00",
+   "end": "2026-11-05T13:00:00-05:00",
+   "all_day": false,
+   "description": "Overview\n\nFiera Capital is hosting the Fiera Comox Natural Capital Luncheon in partnership with CFA Society of New York, covering key benefits of Natural Capital, opportunities, and risks.\n\nSarah Gal and Ben Lee, Senior Principals at Fiera Comox, will provide meaningful insights on the role of Agriculture & Sustainable Timberland asset classes in institutional portfolios and their growing relevance in today’s investment landscape.\n\nAttendees can expect a practical, educational discussion on the investment case for natural capital, its diversification potential, and its evolving role within…",
+   "url": "https://cfany.org/event/cfa-society-new-york-lunch-learn-series-18/",
+   "location": "CFA Society New York, 1540 Broadway, New York City, NY, 10036, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "d5c5f2be5261de8f",
    "title": "MRKT Fall Seminar Series - Tesary Lin (Boston University)",
    "venue": "Columbia Business School",
@@ -2747,6 +2873,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "970b201242f12f67",
+   "title": "Colloquium: Why Housing Matters",
+   "venue": "CCNY Spitzer School of Architecture",
+   "kind": "talks",
+   "start": "2026-11-05T16:00:00-05:00",
+   "end": "2026-11-05T17:30:00-05:00",
+   "all_day": false,
+   "description": "*Updated start time: 4 PM*\nPlease RSVP here.\nThis in-person colloquium is part of the exhibition and event series celebrating 25 years of the CCCB (Centre de Cultura Contemporània de Barcelona) European Prize for Urban Public Space, \"Design Matters: In Favor of Urban Public Space\".\nWhat defines “secure” housing today? Who has access to it, and who is left out? How do policies and markets shape these conditions? What role can design play in addressing displacement and aﬀordability? And how might housing respond to climate realities while remaining equitable? What would it mean to treat housing…",
+   "url": "https://ssa.ccny.cuny.edu/events/colloquium-why-housing-matters/",
+   "location": "Sciame Auditorium (Room 107), 141 Convent Avenue, New York, NY, 10031, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-ccny-ssa",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
   },
   {
    "id": "62449a12e9ab3b33",
@@ -5479,6 +5626,27 @@
    "city": "nyc"
   },
   {
+   "id": "02d57e35ee5a3c7d",
+   "title": "Value Investing Group Meeting",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T19:00:00-05:00",
+   "all_day": false,
+   "description": "The Value Investing Group provides a forum for the application and modification of Benjamin Graham’s principles as well as for other value investment approaches. The group’s focus is on organizing both one-off as well as regular events such as the bi-monthly value investment round-table, the annual Ben Graham conference and the value investing workshop.\nJOIN THIS GROUP",
+   "url": "https://cfany.org/event/value-investing-group-meeting-40/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "88c35a6cc316dfd3",
    "title": "Hayley Eber: Digesting What Matters",
    "venue": "Pratt Institute School of Architecture",
@@ -5876,6 +6044,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "e8bf148406c0dd14",
+   "title": "The Hedge Fund Landscape: Risk Mitigation, AI Integration, and Mega Funds",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-10T17:30:00-05:00",
+   "end": "2026-11-10T20:00:00-05:00",
+   "all_day": false,
+   "description": "OverviewThis panel explores how institutional investors are positioning hedge fund allocations within a total portfolio framework, examining shifting demand, manager selection dynamics, market competition, and the growing role of AI in investment strategies and the evolving hedge fund landscape.\n\n🎯 Target Audience\n\nSenior leaders in investment management, including investment officers and investment analysts.\n\nKey Discussion Topics\n\n📊\n\nPortfolio Integration: How institutional allocators are deploying hedge funds to manage risk, enhance diversification, and drive total portfolio…",
+   "url": "https://cfany.org/event/the-hedge-fund-landscape-risk-mitigation-ai-integration-and-mega-funds/",
+   "location": "Hybrid-CFA Society NY, 1540 Broadway, 10th Fl, New York, NY, 10036, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "c897450dce64dfd4",
+   "title": "Wealth Management Group Meeting",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-10T17:30:00-05:00",
+   "end": "2026-11-10T19:00:00-05:00",
+   "all_day": false,
+   "description": "Group DescriptionThe Wealth Management (WM) Volunteer Interest Group is a dynamic community dedicated to advancing the expertise, professionalism, and innovation of finance professionals serving high-net-worth individuals, families, and themselves. Wealth management requires more than just investment expertise—it demands holistic solutions integrating portfolio management, estate planning, tax strategies, behavioral finance, and risk management. Our mission is to foster a collaborative and forward-thinking environment where investment professionals can enhance their expertise, engage with top…",
+   "url": "https://cfany.org/event/wealth-management-group-meeting-20/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
   },
   {
    "id": "2bcf1332efd68fc1",
@@ -6403,6 +6613,27 @@
    "city": "nyc"
   },
   {
+   "id": "ebb54386a13d252f",
+   "title": "Financial & Valuation Modeling - Wall Street Prep",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-11T09:00:00-05:00",
+   "end": "2026-11-13T17:00:00-05:00",
+   "all_day": false,
+   "description": "Presented by Wall Street Prep | Hosted at CFA Society New York\nBoot Camp DetailsOverviewScheduleAdditional InformationOverviewThis boot camp is an intensive virtual training program where trainees learn financial and valuation modeling in Excel using an intuitive, step-by-step approach. Participants will use real case studies to build financial models from scratch the way it is done at financial institutions. The program is a synthesis of Excel modeling, navigating through various financial reports, and the application of accounting, corporate finance, and valuation courses.Schedule\nEach day…",
+   "url": "https://cfany.org/event/financial-valuation-modeling-wall-street-prep-6/",
+   "location": "CFA Society New York, 1540 Broadway, New York City, NY, 10036, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "ee69cbeda6c9f088",
    "title": "Moonlighter FabLab :",
    "venue": "City of Miami Beach Arts Calendar",
@@ -6422,6 +6653,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "24d6024f2b3fb9b1",
+   "title": "International Investment Group Meeting",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-11T12:00:00-05:00",
+   "end": "2026-11-11T13:00:00-05:00",
+   "all_day": false,
+   "description": "Group DescriptionThe International Investing Volunteer Interest Group is a dynamic community dedicated to advancing global investment expertise. As financial markets become increasingly interconnected, investors must navigate geopolitical risks, currency fluctuations, and evolving regulations to uncover international opportunities.\nJOIN THIS GROUP",
+   "url": "https://cfany.org/event/international-investment-group-meeting-9/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
+   "city": "nyc"
   },
   {
    "id": "4effa0300d7d825f",
@@ -7368,6 +7620,27 @@
    "source": "nyc-van-alen",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a1748dab4f6395c1",
+   "title": "Professional Development & Leadership Group Meeting",
+   "venue": "CFA Society New York",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T19:00:00-05:00",
+   "all_day": false,
+   "description": "Group DescriptionThe Professional Development & Leadership (PDL) Volunteer Interest Group plays a critical role in helping investment professionals successfully navigate career transitions, build leadership skills, and future-proof themselves in a rapidly changing industry. This group is designed for professionals exploring career transitions, mentoring opportunities, seeking leadership opportunities, strengthening workplace skills, or simply building their long-term career strategy. Given the evolution of the investment profession, impacted by technology, globalization, regulatory changes…",
+   "url": "https://cfany.org/event/copy-of-professional-development-leadership-group-meeting-4/",
+   "location": "Virtual Only",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-cfa-ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T15:02:06+00:00",
    "city": "nyc"
   },
   {
