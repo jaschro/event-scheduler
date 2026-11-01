@@ -6,7 +6,7 @@ See [SPEC.md](SPEC.md) for the full brief.
 
 ## Status
 
-Build steps 1-4 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
+Build steps 1-4 of 5 plus step 5's filters (SPEC.md section 9): the collector, feed sources, schema, dedupe,
 status file and scheduled workflow; the page (day bands, time grid, event blocks,
 popovers, city switch, footer); and Google sign-in with your calendar on the right and
 the "+" that adds an event (with duplicate prevention); and page readers for the
@@ -119,3 +119,10 @@ its own venue and a kind from Ticketmaster's classification. They are aggregator
 so a venue's own listing wins in dedupe. Timed-entry attractions (a ticket every
 15–30 minutes) are collapsed to one item per day. Errors written to `status.json`
 are scrubbed of the key.
+
+## Page filters (venue events only; your calendar always shows everything)
+
+Remembered per city in your browser: kind chips, "Hide this venue" / "Hide this title"
+from an event's popup (undo under "Hidden"), text search, jump to date, and "One card
+per show per day" (on by default), which turns repeated showtimes of the same film or
+show at one venue into one card listing its times.

@@ -103,6 +103,50 @@ button { font: inherit; color: inherit; }
 .city[aria-pressed="true"] { background: var(--bg); color: var(--text); font-weight: 600; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); }
 .city:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 
+/* ---------- filters ---------- */
+
+.filters { display: flex; flex-direction: column; gap: 8px; padding: 0 0 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip-toggle {
+  border: 1px solid var(--line-strong);
+  background: var(--bg);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 3px 11px;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: line-through;
+}
+.chip-toggle.on { background: var(--kb); color: var(--ki); border-color: transparent; text-decoration: none; }
+.chip-toggle:focus-visible, .filters input:focus-visible, .filters button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.filter-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; font-size: 13px; color: var(--muted); }
+.search {
+  flex: 1 1 220px;
+  max-width: 340px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+.jump, .group-toggle { display: inline-flex; align-items: center; gap: 6px; }
+.jump input { border: 1px solid var(--line-strong); border-radius: 8px; padding: 3px 6px; background: var(--bg); color: var(--text); font: inherit; }
+.hidden-btn, .hide-btn, .unhide {
+  border: 1px solid var(--line-strong);
+  background: var(--bg);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text);
+}
+.pop-hides { display: flex; gap: 8px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); }
+.hide-btn { color: var(--muted); }
+.hidden-list { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.hidden-list li { display: flex; justify-content: space-between; gap: 10px; align-items: center; font-size: 13px; }
+.hidden-label { overflow: hidden; text-overflow: ellipsis; }
+
 /* ---------- column heads ---------- */
 
 .colheads, .grid, .strip {

@@ -763,7 +763,7 @@
       band.appendChild(strip);
     }
 
-    const leftCards = layoutCards(left.timed);
+    const leftCards = layoutCards(filters().group ? groupRepeats(left.timed) : left.timed);
     const timed = leftCards.concat(right.timed);
     if (timed.length) {
       let first = DAY_MIN;
@@ -790,7 +790,8 @@
 
       const lc = el("div", "col col-events");
       for (const piece of leftCards) {
-        lc.appendChild(piece.overflow ? renderOverflow(piece, bandStart) : renderBlock(piece, bandStart));
+        lc.appendChild(piece.overflow ? renderOverflow(piece, bandStart)
+          : piece.group ? renderGroupCard(piece, bandStart) : renderBlock(piece, bandStart));
       }
       grid.appendChild(lc);
 
@@ -813,6 +814,235 @@
     return band;
   }
 
+  // ---------- filters (venue events only; never my calendar) ----------
+  //
+  // Per city, remembered in this browser: hidden kinds, hidden venues, hidden titles, a text
+  // search, and "group repeats" (one card per film/show per day, listing its times).
+
+  const KIND_LABELS = {
+    tech: "Tech", museum: "Museums", art: "Art", film: "Film", stage: "Stage", music: "Music",
+    talks: "Talks", science: "Science", "food and wine": "Food & wine", wellness: "Wellness",
+    community: "Community", outdoors: "Outdoors", sports: "Sports",
+  };
+
+  function filterKey(city) {
+    return `es.filters.${city}`;
+  }
+
+  function filters() {
+    const city = currentCity().key;
+    if (!state.filters || state.filters.city !== city) {
+      let saved = {};
+      try { saved = JSON.parse(storeGet(filterKey(city)) || "{}") || {}; } catch (e) { saved = {}; }
+      state.filters = {
+        city,
+        kinds: saved.kinds || [],
+        venues: saved.venues || [],
+        titles: saved.titles || [],
+        q: "",
+        group: saved.group !== false,
+      };
+    }
+    return state.filters;
+  }
+
+  function saveFilters() {
+    const f = filters();
+    storeSet(filterKey(f.city), JSON.stringify({ kinds: f.kinds, venues: f.venues, titles: f.titles, group: f.group }));
+  }
+
+  function normTitle(t) {
+    return String(t || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  }
+
+  function passesFilters(ev, f) {
+    if (f.kinds.includes(ev.kind)) return false;
+    if (f.venues.includes(ev.venue)) return false;
+    if (f.titles.includes(normTitle(ev.title))) return false;
+    if (f.q) {
+      const hay = `${ev.title} ${ev.venue} ${ev.location || ""} ${ev.description || ""}`.toLowerCase();
+      if (!f.q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  }
+
+  // One card per film/show per day: same title at the same venue becomes one piece listing its times.
+  function groupRepeats(pieces) {
+    const groups = new Map();
+    const out = [];
+    for (const p of pieces) {
+      if (p.contStart) { out.push(p); continue; }
+      const key = `${normTitle(p.ev.title)}|${p.ev.venue}`;
+      if (!groups.has(key)) {
+        groups.set(key, []);
+        out.push({ groupKey: key });
+      }
+      groups.get(key).push(p);
+    }
+    return out.map((p) => {
+      if (!p.groupKey) return p;
+      const list = groups.get(p.groupKey).sort((a, b) => a.s - b.s);
+      if (list.length === 1) return list[0];
+      return { ...list[0], group: list };
+    });
+  }
+
+  function renderFilters() {
+    const bar = document.getElementById("filters");
+    bar.replaceChildren();
+    if (!state.events) return;
+    const f = filters();
+    const cityEvents = (state.events.events || []).filter((e) => e.city === f.city);
+    const kinds = [...new Set(cityEvents.map((e) => e.kind))].sort((a, b) => (KIND_LABELS[a] || a).localeCompare(KIND_LABELS[b] || b));
+
+    const chips = el("div", "chips");
+    chips.setAttribute("role", "group");
+    chips.setAttribute("aria-label", "Kinds of events");
+    for (const k of kinds) {
+      const on = !f.kinds.includes(k);
+      const c = el("button", `chip-toggle ${kindClass(k)}${on ? " on" : ""}`, KIND_LABELS[k] || k);
+      c.type = "button";
+      c.setAttribute("aria-pressed", String(on));
+      c.title = on ? `Hide ${KIND_LABELS[k] || k}` : `Show ${KIND_LABELS[k] || k}`;
+      c.addEventListener("click", () => {
+        f.kinds = on ? f.kinds.concat(k) : f.kinds.filter((x) => x !== k);
+        saveFilters();
+        renderFilters();
+        renderDays();
+      });
+      chips.appendChild(c);
+    }
+    bar.appendChild(chips);
+
+    const tools = el("div", "filter-tools");
+    const search = el("input", "search");
+    search.type = "search";
+    search.placeholder = "Search events";
+    search.value = f.q;
+    search.setAttribute("aria-label", "Search events");
+    search.addEventListener("input", () => { f.q = search.value; renderDays(); });
+    tools.appendChild(search);
+
+    const jump = el("label", "jump");
+    jump.appendChild(el("span", null, "Jump to"));
+    const date = el("input");
+    date.type = "date";
+    const today = todayIn(currentCity().tz);
+    date.min = today;
+    date.max = addDays(today, (CFG.daysAhead || 14) - 1);
+    date.addEventListener("change", () => jumpTo(date.value));
+    jump.appendChild(date);
+    tools.appendChild(jump);
+
+    const grp = el("label", "group-toggle");
+    const box = el("input");
+    box.type = "checkbox";
+    box.checked = f.group;
+    box.addEventListener("change", () => { f.group = box.checked; saveFilters(); renderDays(); });
+    grp.appendChild(box);
+    grp.appendChild(el("span", null, "One card per show per day"));
+    tools.appendChild(grp);
+
+    const hiddenCount = f.venues.length + f.titles.length;
+    if (hiddenCount) {
+      const h = el("button", "hidden-btn", `Hidden (${hiddenCount})`);
+      h.type = "button";
+      h.addEventListener("click", (e) => { e.stopPropagation(); openHiddenPopover(h); });
+      tools.appendChild(h);
+    }
+    bar.appendChild(tools);
+  }
+
+  function jumpTo(dateStr) {
+    if (!dateStr) return;
+    const bands = [...document.querySelectorAll(".band")];
+    const target = bands.find((b) => b.dataset.date >= dateStr);
+    if (target) {
+      const head = document.querySelector(".colheads");
+      const y = target.getBoundingClientRect().top + window.scrollY - (head ? head.offsetHeight : 0) - 8;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  }
+
+  function hide(kind, value) {
+    const f = filters();
+    if (!f[kind].includes(value)) f[kind] = f[kind].concat(value);
+    saveFilters();
+    closePopover();
+    renderFilters();
+    renderDays();
+  }
+
+  function openHiddenPopover(anchor) {
+    const f = filters();
+    const p = startPopover("hidden-pop");
+    p.appendChild(el("h3", "pop-title", "Hidden"));
+    const ul = el("ul", "hidden-list");
+    const row = (label, kind, value) => {
+      const li = el("li");
+      li.appendChild(el("span", "hidden-label", label));
+      const b = el("button", "unhide", "Show");
+      b.type = "button";
+      b.addEventListener("click", (e) => {
+        e.stopPropagation();
+        f[kind] = f[kind].filter((x) => x !== value);
+        saveFilters();
+        renderFilters();
+        renderDays(true);
+        if (f.venues.length + f.titles.length) openHiddenPopover(document.querySelector(".hidden-btn") || anchor);
+        else closePopover();
+      });
+      li.appendChild(b);
+      ul.appendChild(li);
+    };
+    f.venues.forEach((v) => row(`Venue: ${v}`, "venues", v));
+    f.titles.forEach((t) => row(`Title: ${t}`, "titles", t));
+    p.appendChild(ul);
+    showPopover(p, anchor);
+  }
+
+  function renderGroupCard(piece, bandStartMin) {
+    const ev = piece.ev;
+    const b = el("button", `block group ${kindClass(ev.kind)}`);
+    b.type = "button";
+    placeBlock(b, piece, bandStartMin);
+    const line1 = el("span", "b-line1");
+    line1.appendChild(el("span", "b-time", fmtMin(piece.group[0].s)));
+    line1.appendChild(el("span", "b-title", ev.title));
+    b.appendChild(line1);
+    const times = piece.group.slice(1).map((g) => fmtMin(g.s)).join(" · ");
+    b.appendChild(el("span", "b-venue", `${ev.venue} · also ${times}`));
+    if (piece.group.some((g) => state.google.added.has(g.ev.id))) {
+      b.classList.add("added");
+      b.appendChild(el("span", "b-check", "✓"));
+    }
+    b.setAttribute("aria-label", `${ev.title}, ${piece.group.length} times today at ${ev.venue}`);
+    b.addEventListener("click", (e) => { e.stopPropagation(); openGroupPopover(piece.group, b); });
+    return b;
+  }
+
+  function openGroupPopover(list, anchor) {
+    const ev = list[0].ev;
+    const p = startPopover(`group-pop ${kindClass(ev.kind)}`);
+    p.appendChild(el("h3", "pop-title", ev.title));
+    p.appendChild(el("p", "pop-venue", ev.venue));
+    p.appendChild(el("p", "pop-also", `${list.length} times this day. Pick one for details and +.`));
+    const ul = el("ul", "more-list");
+    for (const piece of list) {
+      const li = el("li");
+      const btn = el("button", `more-item ${kindClass(piece.ev.kind)}`);
+      btn.type = "button";
+      btn.appendChild(el("span", "b-time", fmtMin(piece.s)));
+      btn.appendChild(el("span", "b-title", timeRange(piece.ev)));
+      if (state.google.added.has(piece.ev.id)) btn.appendChild(el("span", "b-check", "✓"));
+      btn.addEventListener("click", (e) => { e.stopPropagation(); openPopover(piece.ev, anchor); });
+      li.appendChild(btn);
+      ul.appendChild(li);
+    }
+    p.appendChild(ul);
+    showPopover(p, anchor);
+  }
+
   function renderDays(keepPopover) {
     const main = document.getElementById("days");
     main.replaceChildren();
@@ -823,7 +1053,9 @@
       return;
     }
     const city = currentCity();
-    const venueEvents = (state.events.events || []).filter((e) => e.city === city.key);
+    const f = filters();
+    const cityEvents = (state.events.events || []).filter((e) => e.city === city.key);
+    const venueEvents = cityEvents.filter((e) => passesFilters(e, f));
     const cal = state.google.cal || [];
 
     const today = todayIn(city.tz);
@@ -832,7 +1064,10 @@
     const leftByDay = piecesByDay(venueEvents, today, lastDay, now, true);
     const rightByDay = piecesByDay(cal, today, lastDay, now, false);
 
-    if (!venueEvents.length) {
+    if (cityEvents.length && !venueEvents.length) {
+      main.appendChild(el("p", "notice", "No events match the current filters."));
+    }
+    if (!cityEvents.length) {
       const msg = (state.events.cities || []).some((c) => c.key === city.key)
         ? `No upcoming events collected for ${city.name} yet.`
         : `${city.name} isn't collected yet. It will appear here once its venues are added.`;
@@ -882,6 +1117,7 @@
 
   function render(keepPopover) {
     renderCitySwitch();
+    renderFilters();
     renderAuth();
     renderCityBanner();
     if (!state.events && !state.loadError) return;
@@ -971,6 +1207,16 @@
       p.appendChild(el("p", "pop-also", "Also listed by " + ev.also_listed_by.join(", ")));
     }
 
+    const hides = el("div", "pop-hides");
+    const hv = el("button", "hide-btn", "Hide this venue");
+    hv.type = "button";
+    hv.addEventListener("click", (e) => { e.stopPropagation(); hide("venues", ev.venue); });
+    const ht = el("button", "hide-btn", "Hide this title");
+    ht.type = "button";
+    ht.addEventListener("click", (e) => { e.stopPropagation(); hide("titles", normTitle(ev.title)); });
+    hides.appendChild(hv);
+    hides.appendChild(ht);
+
     const actions = el("div", "pop-actions");
     const href = safeHref(ev.url);
     if (href) {
@@ -1010,6 +1256,7 @@
     });
     actions.appendChild(add);
     p.appendChild(actions);
+    p.appendChild(hides);
     showPopover(p, anchor);
   }
 
@@ -1030,7 +1277,8 @@
       if (!ev.gcal && state.google.added.has(ev.id)) btn.appendChild(el("span", "b-check", "✓"));
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
-        if (ev.gcal) openCalPopover(ev, anchor);
+        if (piece.group) openGroupPopover(piece.group, anchor);
+        else if (ev.gcal) openCalPopover(ev, anchor);
         else openPopover(ev, anchor);
       });
       li.appendChild(btn);
