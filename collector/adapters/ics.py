@@ -68,6 +68,29 @@ def fetch(source, ctx: Context) -> str:
     return text
 
 
+# Windows time zone names some calendar systems (e.g. FIU's) put in TZID, mapped to IANA.
+WINDOWS_TZ = {
+    "Eastern Time (US & Canada)": "America/New_York",
+    "Eastern Standard Time": "America/New_York",
+    "US Eastern Standard Time": "America/Indianapolis",
+    "Central Time (US & Canada)": "America/Chicago",
+    "Central Standard Time": "America/Chicago",
+    "Mountain Time (US & Canada)": "America/Denver",
+    "Mountain Standard Time": "America/Denver",
+    "Pacific Time (US & Canada)": "America/Los_Angeles",
+    "Pacific Standard Time": "America/Los_Angeles",
+}
+_TZID_RE = re.compile(r'(TZID[=:])"?([^";:\r\n]+?)"?(?=[;:\r\n])')
+
+
+def fix_windows_tzids(text: str) -> str:
+    def swap(m: re.Match) -> str:
+        name = m.group(2).strip()
+        return m.group(1) + WINDOWS_TZ.get(name, m.group(2)) if name in WINDOWS_TZ else m.group(0)
+
+    return _TZID_RE.sub(swap, text)
+
+
 def _text(component, name: str) -> str | None:
     value = component.get(name)
     if value is None:
@@ -81,7 +104,7 @@ def _dt(component, name: str) -> datetime | date | None:
 
 
 def parse(payload: str, source, ctx: Context) -> list[RawEvent]:
-    cal = icalendar.Calendar.from_ical(payload)
+    cal = icalendar.Calendar.from_ical(fix_windows_tzids(payload))
     occurrences = recurring_ical_events.of(cal, skip_bad_series=True).between(
         ctx.window_start, ctx.window_end
     )
