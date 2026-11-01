@@ -49,7 +49,7 @@ sources:
     city: miami
     kind: tech
     method: ics
-    url: https://refreshmiami.com/events/?ical=1   # TODO(verify): standard The Events Calendar iCal export
+    url: "webcal://refreshmiami.com/?post_type=tribe_events&ical=1&eventDisplay=list"
     page: https://refreshmiami.com/events/
     aggregator: true
     priority: 10
@@ -59,7 +59,7 @@ sources:
     city: miami
     kind: community
     method: ics
-    url: null   # TODO(Jason): city discovery page may have no feed; paste one here if luma.com/miami offers it
+    url: "https://api.luma.com/ics/get?entity=discover&id=discplace-fSrrRYurTwydAGK"
     page: https://luma.com/miami
     aggregator: true
     priority: 5
@@ -126,10 +126,17 @@ sources:
     page: https://www.eventbrite.com/o/121856689354
     location: Key Biscayne
 
+  - key: the-bass
+    name: The Bass
+    city: miami
+    kind: museum
+    method: ics
+    url: "webcal://thebass.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+    page: https://thebass.org/events/
+
   # ---------- Later steps (step 4): not collected yet ----------
-  - {key: venture-cafe, name: Venture Café Miami, city: miami, kind: tech, method: custom, enabled: false, page: "https://venturecafemiami.org"}
+  # (Venture Café Miami removed: closed.)
   - {key: jmof, name: Jewish Museum of Florida-FIU, city: miami, kind: museum, method: ics, enabled: false, url: null, page: "https://calendar.fiu.edu/jmof"}
-  - {key: the-bass, name: The Bass, city: miami, kind: museum, method: custom, enabled: false, page: "https://thebass.org/events/"}
   - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://pamm.org/events"}
   - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}
   - {key: ica-miami, name: ICA Miami, city: miami, kind: museum, method: custom, enabled: false, page: "https://icamiami.org/calendar/"}
