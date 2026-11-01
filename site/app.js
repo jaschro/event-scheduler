@@ -1111,31 +1111,88 @@
     }
   }
 
+  function linkTo(url, text) {
+    const href = safeHref(url);
+    if (!href) return el("span", null, text);
+    const a = el("a", null, text);
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    return a;
+  }
+
+  function fmtDay(iso) {
+    if (!iso) return null;
+    const d = String(iso).slice(0, 10);
+    return /^\d{4}-\d{2}-\d{2}$/.test(d) ? fmtDate(d, { month: "short", day: "numeric", year: "numeric" }) : null;
+  }
+
+  function footerSection(title, rows, cls) {
+    const wrap = el("section", `foot-section ${cls}`);
+    wrap.appendChild(el("h3", "foot-head", `${title} (${rows.length})`));
+    const ul = el("ul");
+    rows.forEach((r) => ul.appendChild(r));
+    wrap.appendChild(ul);
+    return wrap;
+  }
+
+  // Footer, for the city on screen: last update, failures, saved feed copies, and hosts we can't check.
   function renderFooter() {
     const f = document.getElementById("footer");
     f.replaceChildren();
     const gen = state.events && state.events.generated_at;
-    const tz = currentCity().tz;
+    const city = currentCity();
     const when = gen
-      ? new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })
+      ? new Intl.DateTimeFormat("en-US", { timeZone: city.tz, weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })
           .format(new Date(gen))
       : "not yet";
     f.appendChild(el("p", "updated", `Last updated ${when}`));
 
-    const sources = (state.status && state.status.sources) || {};
-    const failed = Object.entries(sources).filter(([, s]) => s.result === "failed");
+    const all = Object.entries((state.status && state.status.sources) || {}).filter(([, s]) => !s.city || s.city === city.key);
+
+    const failed = all.filter(([, s]) => s.result === "failed");
     if (failed.length) {
-      const wrap = el("div", "failed");
-      wrap.appendChild(el("p", "failed-head", `${failed.length} source${failed.length > 1 ? "s" : ""} failed on the last run:`));
-      const ul = el("ul");
-      for (const [key, s] of failed) {
+      f.appendChild(footerSection("Failed on the last run", failed.map(([key, s]) => {
         const li = el("li");
-        li.appendChild(el("strong", null, s.name || key));
-        if (s.error) li.appendChild(el("span", "err", " — " + s.error));
+        li.appendChild(linkTo(s.page, s.name || key));
+        if (s.error) li.appendChild(el("span", "err", ` — ${s.error}`));
+        const last = fmtDay(s.last_success);
+        li.appendChild(el("span", "foot-date", last ? ` · last worked ${last}` : " · hasn't worked yet"));
+        return li;
+      }), "failed"));
+    }
+
+    const manual = all.filter(([, s]) => s.manual);
+    if (manual.length) {
+      const sec = footerSection("Manual updates", manual.map(([key, s]) => {
+        const li = el("li");
+        li.appendChild(linkTo(s.page, s.name || key));
+        const saved = fmtDay(s.manual.saved);
+        li.appendChild(el("span", "foot-date", saved ? ` · saved copy from ${saved}` : " · saved copy"));
+        if (s.manual.download) {
+          li.appendChild(el("span", null, " · "));
+          li.appendChild(linkTo(s.manual.download, "download a fresh copy"));
+        }
+        return li;
+      }), "manual");
+      sec.appendChild(el("p", "foot-note", "These sites block automated reading, so their calendars come from a copy downloaded in a browser. Download a fresh copy and replace the file in feeds/ to update."));
+      f.appendChild(sec);
+    }
+
+    const blocked = all.filter(([, s]) => s.blocked);
+    if (blocked.length) {
+      const det = el("details", "foot-section blocked");
+      const sum = el("summary", "foot-head", `Not able to check (${blocked.length})`);
+      det.appendChild(sum);
+      const ul = el("ul");
+      for (const [key, s] of blocked.sort((a, b) => (a[1].name || a[0]).localeCompare(b[1].name || b[0]))) {
+        const li = el("li");
+        li.appendChild(linkTo(s.page, s.name || key));
+        li.appendChild(el("span", "err", ` — ${s.blocked}`));
         ul.appendChild(li);
       }
-      wrap.appendChild(ul);
-      f.appendChild(wrap);
+      det.appendChild(ul);
+      f.appendChild(det);
     }
   }
 

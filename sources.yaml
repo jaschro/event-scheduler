@@ -16,6 +16,8 @@
 #   enabled    false = not collected yet (adapter is a later build step)
 #   filter     optional {include: [regex...], exclude: [regex...]} on title+description
 #   location   optional default location when the feed gives none
+#   blocked    why a host can't be collected (shown on the page under "Not able to check")
+#   download   for saved feed copies (url: file:feeds/...): where to download a fresh copy
 #   page       human page for the venue (fallback event link)
 
 settings:
@@ -292,8 +294,8 @@ sources:
         - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"
 
   # ---------- Not collectable yet (see README "Blocked sources") ----------
-  - {key: pamm, name: PAMM, city: miami, kind: art, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
-  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: art, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners
+  - {key: pamm, name: PAMM, city: miami, kind: art, method: custom, enabled: false, page: "https://www.pamm.org/events", blocked: "Pages refuse automated readers (403); its API lists events without dates"}
+  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: art, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html", blocked: "Site doesn't accept connections from GitHub's servers"}
 
   # ======================= New York (from nyc_sources.yaml, Nov 1 2026) =======================
   # ---------- NYC Step 1: feeds ----------
@@ -336,7 +338,9 @@ sources:
     city: nyc
     kind: talks
     method: ics
-    url: "file:feeds/ccny-ssa.ics"   # saved copy (site answers 403 to the collector); refresh: download events.ics, replace the file
+    url: "file:feeds/ccny-ssa.ics"   # saved copy: the site answers 403 to the collector
+    download: "https://ssa.ccny.cuny.edu/events.ics"   # where to get a fresh copy in a browser
+    saved: "2026-11-01"                                # date of the saved copy (update when replacing it)
     page: https://ssa.ccny.cuny.edu/events/
     filter:
       fields: title
@@ -373,6 +377,7 @@ sources:
     url: "https://now.fordham.edu/events/category/jewish-life/?ical=1"
     page: https://now.fordham.edu/events/category/jewish-life/
     enabled: false
+    blocked: "Site refuses automated readers (403)"
 
   - key: nyc-ny-landmarks
     name: "New York Landmarks Conservancy"
@@ -388,7 +393,9 @@ sources:
     city: nyc
     kind: talks
     method: ics
-    url: "file:feeds/cfa-ny.ics"     # saved copy (robots.txt bars the collector); refresh: download the iCal export, replace the file
+    url: "file:feeds/cfa-ny.ics"     # saved copy: robots.txt bars the collector
+    download: "https://cfany.org/events/?ical=1"       # where to get a fresh copy in a browser
+    saved: "2026-11-01"                                # date of the saved copy (update when replacing it)
     page: https://cfany.org/events/
 
 
@@ -403,7 +410,7 @@ sources:
     page: "https://www.myjewishlearning.com/the-hub/category/new-york"
 
   # ---------- NYC Later: page readers (some have a JSON API noted) ----------
-  - {key: nyc-columbia-gsapp, name: "Columbia GSAPP", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.arch.columbia.edu/events"}
+  - {key: nyc-columbia-gsapp, name: "Columbia GSAPP", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.arch.columbia.edu/events", blocked: "robots.txt forbids automated reading"}
   - key: nyc-cooper-union-arch
     name: "Cooper Union School of Architecture"
     city: nyc
@@ -417,7 +424,7 @@ sources:
       item: "li"
       title: "h3"
       link: "h3 a"
-  - {key: nyc-nyu-furman, name: "NYU Furman Center", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.furmancenter.org/events/"}   # JSON: https://www.furmancenter.org/wp-json/wp/v2/event
+  - {key: nyc-nyu-furman, name: "NYU Furman Center", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.furmancenter.org/events/", blocked: "Site refuses automated readers (403)"}
   - key: nyc-pratt-arch
     name: "Pratt Institute School of Architecture"
     city: nyc
@@ -441,10 +448,10 @@ sources:
       item_up: 4
       title: "h3"
       link: "h3 a"
-  - {key: nyc-ai-now, name: "AI Now Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://ainowinstitute.org/news/events"}   # dead or stale, see csv
-  - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: tech, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
-  - {key: nyc-cornell-tech, name: "Cornell Tech", city: nyc, kind: tech, method: custom, enabled: false, page: "https://tech.cornell.edu/events/"}
-  - {key: nyc-cuny-gc, name: "Graduate Center, CUNY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.gc.cuny.edu/events"}
+  - {key: nyc-ai-now, name: "AI Now Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://ainowinstitute.org/news/events", blocked: "No current events listed (stale page)"}
+  - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: tech, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/", blocked: "Site refuses automated readers (403)"}
+  - {key: nyc-cornell-tech, name: "Cornell Tech", city: nyc, kind: tech, method: custom, enabled: false, page: "https://tech.cornell.edu/events/", blocked: "No events visible, even in a browser"}
+  - {key: nyc-cuny-gc, name: "Graduate Center, CUNY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.gc.cuny.edu/events", blocked: "Site refuses automated readers (403)"}
   - key: nyc-jts
     name: "Jewish Theological Seminary (JTS)"
     city: nyc
@@ -463,7 +470,7 @@ sources:
     page: "https://archleague.org/events"
     params:
       link_pattern: "/event/[^/]+/?$"
-  - {key: nyc-bwaf, name: "Beverly Willis Architecture Foundation", city: nyc, kind: talks, method: custom, enabled: false, page: "https://bwaf.org/"}   # dead or stale, see csv
+  - {key: nyc-bwaf, name: "Beverly Willis Architecture Foundation", city: nyc, kind: talks, method: custom, enabled: false, page: "https://bwaf.org/", blocked: "No current events listed (stale page)"}
   - key: nyc-aiany
     name: "Center for Architecture (AIANY)"
     city: nyc
@@ -477,8 +484,8 @@ sources:
       when: "h3.EventNameS"
       events: "h2.EventNameL"
       time: "div.time"
-  - {key: nyc-ipa, name: "Institute for Public Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://instituteforpublicarchitecture.org/Whats-On"}
-  - {key: nyc-icaa-ny, name: "Institute of Classical Architecture & Art, NY Chapter", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.classicist.org/ny/"}
+  - {key: nyc-ipa, name: "Institute for Public Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://instituteforpublicarchitecture.org/Whats-On", blocked: "Event tickets are on a site whose robots.txt forbids automated reading"}
+  - {key: nyc-icaa-ny, name: "Institute of Classical Architecture & Art, NY Chapter", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.classicist.org/ny/", blocked: "robots.txt forbids automated reading"}
   - key: nyc-mas
     name: "Municipal Art Society of New York"
     city: nyc
@@ -501,7 +508,7 @@ sources:
     page: "https://buildingcongress.com/events/"
     params:
       wp_endpoint: "https://buildingcongress.com/wp-json/wp/v2/event"
-  - {key: nyc-noma-ny, name: "NOMA-NY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://nomany.org/events/"}
+  - {key: nyc-noma-ny, name: "NOMA-NY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://nomany.org/events/", blocked: "Site unreachable"}
   - key: nyc-rpa
     name: "Regional Plan Association"
     city: nyc
@@ -567,7 +574,7 @@ sources:
       item: "div.module-content"
       title: "h2"
       link: "a.button"
-  - {key: nyc-fpa, name: "Foreign Policy Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.fpa.org/"}   # dead or stale, see csv
+  - {key: nyc-fpa, name: "Foreign Policy Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.fpa.org/", blocked: "Site refuses automated readers (403)"}
   - key: nyc-paley-center
     name: "Paley Center for Media"
     city: nyc
@@ -580,8 +587,8 @@ sources:
       item: "article.CalendarEvent__item"
       title: "h2.CalendarEvent__title"
       link: "a.Button"
-  - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar"}
-  - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.moma.org/calendar"}
+  - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar", blocked: "Site answers 'too many requests' (429)"}
+  - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.moma.org/calendar", blocked: "Site refuses automated readers (403)"}
   - key: nyc-club-free-time
     name: "Club Free Time"
     city: nyc
@@ -615,7 +622,7 @@ sources:
       when: "div.evdatetime"
       item: "a"
       title: "div.evtit"
-  - {key: nyc-tikvah, name: "Tikvah Fund", city: nyc, kind: talks, method: custom, enabled: false, page: "https://tikvah.org/events"}   # dead or stale, see csv
+  - {key: nyc-tikvah, name: "Tikvah Fund", city: nyc, kind: talks, method: custom, enabled: false, page: "https://tikvah.org/events", blocked: "Events page no longer exists (404)"}
   - key: nyc-hartman
     name: "Shalom Hartman Institute of North America"
     city: nyc
@@ -626,9 +633,9 @@ sources:
     params:
       wp_endpoint: "https://www.hartman.org.il/wp-json/wp/v2/event"
       query: {"location": 20709}
-  - {key: nyc-ajc, name: "American Jewish Committee (AJC)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.ajc.org/newyork"}
-  - {key: nyc-jewish-currents, name: "Jewish Currents", city: nyc, kind: talks, method: custom, enabled: false, page: "https://jewishcurrents.org/events"}
-  - {key: nyc-uja, name: "UJA-Federation of New York", city: nyc, kind: community, method: custom, enabled: false, page: "https://www.ujafedny.org/get-involved/attend-an-event"}
+  - {key: nyc-ajc, name: "American Jewish Committee (AJC)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.ajc.org/newyork", blocked: "robots.txt forbids automated reading"}
+  - {key: nyc-jewish-currents, name: "Jewish Currents", city: nyc, kind: talks, method: custom, enabled: false, page: "https://jewishcurrents.org/events", blocked: "Site refuses automated readers (403)"}
+  - {key: nyc-uja, name: "UJA-Federation of New York", city: nyc, kind: community, method: custom, enabled: false, page: "https://www.ujafedny.org/get-involved/attend-an-event", blocked: "No events visible, even in a browser"}
   - key: nyc-ncjw-ny
     name: "National Council of Jewish Women NY"
     city: nyc
@@ -638,12 +645,12 @@ sources:
     page: "https://ncjwny.org/events"
     params:
       link_pattern: "/event/[^/]+/?$"
-  - {key: nyc-congress-jewish-culture, name: "Congress for Jewish Culture", city: nyc, kind: music, method: custom, enabled: false, page: "https://congressforjewishculture.org/events"}
+  - {key: nyc-congress-jewish-culture, name: "Congress for Jewish Culture", city: nyc, kind: music, method: custom, enabled: false, page: "https://congressforjewishculture.org/events", blocked: "Lists mostly past events"}
 
   # ---------- NYC Later: headless browser ----------
-  - {key: nyc-columbia-calendar, name: "Columbia University (general calendar)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://events.columbia.edu/"}
-  - {key: nyc-columbia-sipa, name: "Columbia SIPA", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.sipa.columbia.edu/communities-connections/events"}
-  - {key: nyc-parsons, name: "The New School / Parsons", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.newschool.edu/parsons/events/"}
+  - {key: nyc-columbia-calendar, name: "Columbia University (general calendar)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://events.columbia.edu/", blocked: "robots.txt forbids automated reading"}
+  - {key: nyc-columbia-sipa, name: "Columbia SIPA", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.sipa.columbia.edu/communities-connections/events", blocked: "Site refuses automated readers (403)"}
+  - {key: nyc-parsons, name: "The New School / Parsons", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.newschool.edu/parsons/events/", blocked: "Site answers 'too many requests' (429)"}
   - key: nyc-ohny
     name: "Open House New York"
     city: nyc
@@ -655,10 +662,10 @@ sources:
       when: "a p[class*='leading-[1.4]']"
       title: "h3"
       time_next: true
-  - {key: nyc-storefront, name: "Storefront for Art and Architecture", city: nyc, kind: art, method: browser, enabled: false, page: "https://storefrontnews.org/"}
-  - {key: nyc-asia-society, name: "Asia Society (New York)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://asiasociety.org/new-york/events"}
+  - {key: nyc-storefront, name: "Storefront for Art and Architecture", city: nyc, kind: art, method: browser, enabled: false, page: "https://storefrontnews.org/", blocked: "Site unreachable"}
+  - {key: nyc-asia-society, name: "Asia Society (New York)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://asiasociety.org/new-york/events", blocked: "Cloudflare bot check ('Just a moment...')"}
   - {key: nyc-econ-club-ny, name: "Economic Club of New York", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.econclubny.org/web/pages/club-calendar"}
-  - {key: nyc-brooklyn-museum, name: "Brooklyn Museum", city: nyc, kind: art, method: browser, enabled: false, page: "https://www.brooklynmuseum.org/calendar"}
+  - {key: nyc-brooklyn-museum, name: "Brooklyn Museum", city: nyc, kind: art, method: browser, enabled: false, page: "https://www.brooklynmuseum.org/calendar", blocked: "Site answers 'too many requests' (429)"}
   - key: nyc-92ny
     name: "92nd Street Y (92NY)"
     city: nyc
@@ -670,9 +677,9 @@ sources:
       when: "div.eyebrow-text"
       title: ".bottomcard-header"
       link: "a[href]"
-  - {key: nyc-nypl, name: "New York Public Library", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.nypl.org/events/calendar?location=4"}
-  - {key: nyc-thoughtgallery, name: "ThoughtGallery", city: nyc, kind: talks, method: browser, enabled: false, aggregator: true, page: "https://thoughtgallery.org"}
-  - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: art, method: browser, enabled: false, page: "https://mjhnyc.org/current-events"}
+  - {key: nyc-nypl, name: "New York Public Library", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.nypl.org/events/calendar?location=4", blocked: "No events listed in the Schwarzman Building view"}
+  - {key: nyc-thoughtgallery, name: "ThoughtGallery", city: nyc, kind: talks, method: browser, enabled: false, aggregator: true, page: "https://thoughtgallery.org", blocked: "Cloudflare bot check ('Just a moment...')"}
+  - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: art, method: browser, enabled: false, page: "https://mjhnyc.org/current-events", blocked: "Site refuses automated readers (403)"}
 
   # ---------- NYC: Ticketmaster Discovery API ----------
   - key: ticketmaster-nyc

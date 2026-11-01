@@ -439,6 +439,14 @@ button { font: inherit; color: inherit; }
 .footer { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .footer p { margin: 0 0 4px; }
 .failed ul { margin: 4px 0 0; padding-left: 18px; }
+.foot-section { margin-top: 12px; }
+.foot-head { font-size: 12px; font-weight: 600; color: var(--text); margin: 0 0 4px; cursor: default; }
+details.foot-section > summary { cursor: pointer; }
+.foot-section ul { margin: 4px 0 0; padding-left: 18px; }
+.foot-section li { margin: 2px 0; }
+.foot-section a { color: var(--accent); }
+.foot-date, .foot-note { color: var(--muted); }
+.foot-note { margin: 4px 0 0; font-size: 12px; }
 .failed .err { color: var(--muted); }
 .failed strong { color: var(--text); font-weight: 600; }
 

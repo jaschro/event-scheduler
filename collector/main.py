@@ -171,6 +171,7 @@ def run(
             "name": src.name,
             "city": src.city,
             "method": src.method,
+            "page": src.page,
             "last_run": fetched_at,
             "last_success": before.get("last_success"),
         }
@@ -181,9 +182,13 @@ def run(
                 continue
             reason = "disabled in sources.yaml" if not src.enabled else f"no '{src.method}' adapter yet"
             entry.update(result="skipped", event_count=0, error=reason)
+            if src.blocked:
+                entry["blocked"] = src.blocked
             status[src.key] = entry
             continue
 
+        if (src.url or "").startswith("file:"):
+            entry["manual"] = {"download": src.download, "saved": src.saved}
         attempted += 1
         try:
             events = futures[src.key].result(timeout=timeout)
