@@ -1,0 +1,7 @@
+requests==2.34.2
+PyYAML==6.0.3
+icalendar==7.3.0
+recurring-ical-events==3.8.2
+python-dateutil==2.9.0.post0
+tzdata==2026.6
+pytest==9.2.0

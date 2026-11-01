@@ -1,0 +1,44 @@
+[
+ {
+  "id": "f74eb3804d87eec0",
+  "title": "Truffle & Barolo Dinner",
+  "venue": "El Carajo",
+  "kind": "food and wine",
+  "start": "2026-11-05T19:30:00-05:00",
+  "end": "2026-11-05T22:30:00-05:00",
+  "all_day": false,
+  "description": "Five courses paired with Piedmont wines.",
+  "url": "https://www.eventbrite.com/e/truffle-barolo-dinner-tickets-1001",
+  "location": "El Carajo, 2465 SW 17th Ave, Miami, FL 33145",
+  "price": {
+   "free": false,
+   "min": 150.0,
+   "text": "$150.00 – $185.00"
+  },
+  "source": "el-carajo",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "9bae0a574ea76568",
+  "title": "Full Moon Beach Yoga",
+  "venue": "El Carajo",
+  "kind": "food and wine",
+  "start": "2026-11-12T19:00:00-05:00",
+  "end": "2026-11-12T20:30:00-05:00",
+  "all_day": false,
+  "description": "Bring a towel.",
+  "url": "https://www.eventbrite.com/e/full-moon-yoga-1002",
+  "location": null,
+  "price": {
+   "free": true,
+   "min": 0.0,
+   "text": "Free (sold out)"
+  },
+  "source": "el-carajo",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ }
+]
