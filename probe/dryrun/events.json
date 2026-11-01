@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T05:28:23+00:00",
+ "generated_at": "2026-11-01T05:38:22+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -52,7 +52,7 @@
    },
    "source": "mbjcc",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -61,7 +61,7 @@
    "venue": "ICA Miami",
    "kind": "museum",
    "start": "2026-11-01T11:00:00-05:00",
-   "end": "2026-11-01T19:00:00-05:00",
+   "end": null,
    "all_day": false,
    "description": "Join Ms. Krystal at ICA Miami on Sunday, November 1, 2026, for a bilingual musical storytime exploring nature and community. Free tickets; reservations required.",
    "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-storytelling-with-ms-krystal-20261101/",
@@ -73,7 +73,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -94,7 +94,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -124,7 +124,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-01T13:00:00-05:00",
-   "end": null,
+   "end": "2026-11-01T15:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -136,7 +136,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -145,7 +145,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-01T15:45:00-05:00",
-   "end": null,
+   "end": "2026-11-01T18:15:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -157,7 +157,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -250,7 +250,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-01T18:30:00-05:00",
-   "end": null,
+   "end": "2026-11-01T21:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -262,7 +262,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -292,7 +292,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-01T21:15:00-05:00",
-   "end": null,
+   "end": "2026-11-01T23:45:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -304,7 +304,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -397,7 +397,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-02T19:00:00-05:00",
-   "end": null,
+   "end": "2026-11-02T21:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -409,7 +409,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -418,7 +418,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-02T21:30:00-05:00",
-   "end": null,
+   "end": "2026-11-03T00:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -430,7 +430,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -544,7 +544,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-03T19:00:00-05:00",
-   "end": null,
+   "end": "2026-11-03T21:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -556,7 +556,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -565,7 +565,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-03T21:30:00-05:00",
-   "end": null,
+   "end": "2026-11-04T00:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -577,7 +577,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -598,7 +598,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -640,7 +640,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -796,7 +796,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-04T19:00:00-05:00",
-   "end": null,
+   "end": "2026-11-04T21:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043259~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/take-me-home",
@@ -808,7 +808,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -838,7 +838,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-04T21:00:00-05:00",
-   "end": null,
+   "end": "2026-11-04T23:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/fjord",
@@ -850,7 +850,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -871,7 +871,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -943,7 +943,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-05T18:00:00-05:00",
-   "end": null,
+   "end": "2026-11-05T20:30:00-05:00",
    "all_day": false,
    "description": "",
    "url": "https://www.o-cinema.org/events/miami-film-festival-gems-2026",
@@ -955,7 +955,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -976,7 +976,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1123,7 +1123,7 @@
    },
    "source": "mbjcc",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1165,7 +1165,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1186,7 +1186,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1216,7 +1216,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-06T18:00:00-05:00",
-   "end": null,
+   "end": "2026-11-06T20:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -1228,7 +1228,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1417,7 +1417,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1459,7 +1459,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1468,7 +1468,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-06T21:15:00-05:00",
-   "end": null,
+   "end": "2026-11-06T23:45:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -1480,7 +1480,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1501,7 +1501,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1543,7 +1543,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1594,7 +1594,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-07T14:00:00-05:00",
-   "end": null,
+   "end": "2026-11-07T16:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -1606,7 +1606,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1657,7 +1657,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-07T17:15:00-05:00",
-   "end": null,
+   "end": "2026-11-07T19:45:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -1669,7 +1669,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1732,7 +1732,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1762,7 +1762,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-07T20:30:00-05:00",
-   "end": null,
+   "end": "2026-11-07T23:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -1774,7 +1774,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1816,7 +1816,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1858,7 +1858,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1879,7 +1879,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1900,7 +1900,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1921,7 +1921,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1942,7 +1942,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1984,7 +1984,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -1993,7 +1993,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-08T14:00:00-05:00",
-   "end": null,
+   "end": "2026-11-08T16:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2005,7 +2005,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2026,7 +2026,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2047,7 +2047,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2056,7 +2056,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-08T17:15:00-05:00",
-   "end": null,
+   "end": "2026-11-08T19:45:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2068,7 +2068,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2140,7 +2140,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-08T20:30:00-05:00",
-   "end": null,
+   "end": "2026-11-08T23:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2152,7 +2152,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2308,7 +2308,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-09T19:00:00-05:00",
-   "end": null,
+   "end": "2026-11-09T21:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2320,7 +2320,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2404,7 +2404,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2476,7 +2476,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-10T21:15:00-05:00",
-   "end": null,
+   "end": "2026-11-10T23:45:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2488,7 +2488,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2581,7 +2581,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-11T19:00:00-05:00",
-   "end": null,
+   "end": "2026-11-11T21:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2593,7 +2593,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2805,7 +2805,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2868,7 +2868,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2877,7 +2877,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-12T19:00:00-05:00",
-   "end": null,
+   "end": "2026-11-12T21:30:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -2889,7 +2889,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2910,7 +2910,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2931,7 +2931,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2952,7 +2952,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -2973,7 +2973,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3078,7 +3078,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3204,7 +3204,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3225,7 +3225,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3234,7 +3234,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-14T12:00:00-05:00",
-   "end": null,
+   "end": "2026-11-14T14:30:00-05:00",
    "all_day": false,
    "description": "",
    "url": "https://www.o-cinema.org/events/dinorah-de-jesus-rodriguez-retrospective-novia-del-mediodia",
@@ -3246,7 +3246,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3318,7 +3318,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-14T16:30:00-05:00",
-   "end": null,
+   "end": "2026-11-14T19:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -3330,7 +3330,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3423,7 +3423,7 @@
    "venue": "O Cinema South Beach",
    "kind": "film",
    "start": "2026-11-14T19:30:00-05:00",
-   "end": null,
+   "end": "2026-11-14T22:00:00-05:00",
    "all_day": false,
    "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
    "url": "https://www.o-cinema.org/events/la-bola-negra",
@@ -3435,7 +3435,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3456,7 +3456,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   },
   {
@@ -3477,7 +3477,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:28:23+00:00",
+   "fetched_at": "2026-11-01T05:38:22+00:00",
    "city": "miami"
   }
  ]
