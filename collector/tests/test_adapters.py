@@ -135,3 +135,19 @@ def test_eventbrite_error_message_is_readable():
     src = next(s for s in cfg.sources if s.key == "el-carajo")
     with pytest.raises(RuntimeError, match="400: There are errors with your arguments"):
         eventbrite.fetch(src, ctx)
+
+
+def test_saved_feed_copies_read_from_repo():
+    """Sources pointing at feeds/ read the saved copy instead of fetching."""
+    cfg = config()
+    from .helpers import context
+
+    for key in ("nyc-ccny-ssa", "nyc-cfa-ny"):
+        src = next(s for s in cfg.sources if s.key == key)
+        assert src.url.startswith("file:feeds/")
+        text = ics.fetch(src, context(cfg, "nyc"))
+        assert text.startswith("BEGIN:VCALENDAR")
+    ccny = run_adapter(ics, ics.fetch(next(s for s in cfg.sources if s.key == "nyc-ccny-ssa"), context(cfg, "nyc")), cfg, "nyc-ccny-ssa")
+    titles = [e["title"] for e in ccny]
+    assert "Colloquium: Why Housing Matters" in titles
+    assert not any("Info Session" in t or "School Tour" in t for t in titles)

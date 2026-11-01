@@ -1,0 +1,455 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CFA Society New York - ECPv6.0.13.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CFA Society New York
+X-ORIGINAL-URL:https://cfany.org
+X-WR-CALDESC:Events for CFA Society New York
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261104T173000
+DTEND;TZID=America/New_York:20261105T210000
+DTSTAMP:20261101T095804
+CREATED:20261002T203524Z
+LAST-MODIFIED:20261002T203524Z
+UID:102142-1793813400-1793912400@cfany.org
+SUMMARY:Intro to Data Visualization and Business Analytics with Microsoft Power BI - Cognitir
+DESCRIPTION:There are no prerequisites for this course\, though some may find it helpful to have experience with Microsoft Excel and Power Query\, as Power BI uses similar formulas and frameworks. \nOverviewStrong data culture is a sine qua non for effective organizations in the digital age\, and proprietary data insights are increasingly becoming the most important asset such organizations can accrue. Additionally\, firms that are invested in crafting a compelling\, authentic narrative from their data are uniquely positioned to establish enduring brands\, often thriving in the dynamic markets and uncertain times we find ourselves in. When it comes to communicating such insights in service of a great mission or brand\, there are few things that can beat a striking data visualization. \nOver the course of a single day\, we invite participants to explore an exciting and extensible data visualization framework (Microsoft Power BI) that allows finance and business professionals to create reports and dashboards on top of their existing data products. Participants will learn how to gather relevant data from sample spreadsheets\, overcome common data preparation obstacles\, and build an interactive dashboard they can publish to the web. \nAt the conclusion of the workshop\, participants will have developed their own web dashboard that they can readily adapt to their own professional contexts\, and which they can then use to obtain better insights into their own work and/or share it with their co-workers. \nMember$419if registered by 10/04Non-Member$519if registered by 10/04Course Curriculum×Course Curriculum\n\nIntroduction\n\nWalkthrough- what is Microsoft Power BI?\nSuccess stories and use cases\nHow companies and individuals have used dashboards successfully to become more data-driven\nInitial Setup\nReview of popular resources for Power BI\n\n\nConnecting Data and Transforming Data in Power BI\n\nHow does Power BI connect to our data?\nHow might we clean and transform our data to prepare it for a dashboard?\nWhat is Power Query and how does it work?\nUpdating and modifying data loads\nCustomizing a table we’ve loaded\nCustomizing and adding columns to a table\n\n\nTable Relationships and Data Models\n\nIntroduction to the Relationships pane in Power BI\nHow does one establish relationships?\nCardinality of relationships\nFact and Dimension tables\nBasic schema types (data models) and normalization\n\n\nData Analysis with DAX and M \n\nM and Power Query\nDAX and the Data pane\nWhen to use M and when to use DAX\nCommon M transformations\nCommon DAX transformations\nMeasures\, filters\, and contexts\n\n\nData Visualization\n\nIntro to the Report pane\nTiles\, tabs\, and filters\nCommon visualizations and their use cases\nFormatting a visual\nSlicers and Interactions\nStyling and Accessibility\n\n\nSummative Project\, Exit Review\, and Next Steps\n\nCloseCourse Developers×Course Developers\nJonathan Karp \nJon is a former science teacher and current business analyst at Teach For America\, leading projects focused on data and foundational technologies. Since 2016\, Jon has spearheaded efforts to revamp reporting\, analytics\, and data integration systems at TFA\, including significant work with SQL\, Power BI\, and data modeling. Prior to his work in IT\, Jon taught for four years with Teach For America in St. Louis\, MO\, also serving as science department chair during his final year. He received a Bachelor of Science in Earth and Ocean Sciences from Duke University\, where he cut his teeth on climate and chemical oceanography datasets. \n\nDavid Haber \nDavid has led programming workshops at the undergraduate and graduate levels\, at blue chip companies\, and world renowned management consulting firms. \nDavid has experience working with both startups and large corporations. He has filled several leading roles in technology startups. David also worked on optimizing large-scale payment processing systems at Deutsche Bank in Singapore. \nDavid holds an MEng (First-Class Honours) in Computer Science from Imperial College London (UK) where he focused on statistical machine learning. He presented his work at international conferences and won several awards for his work. During his studies\, he also served as a teaching assistant at Imperial College where he helped undergraduate students master fundamental computer science concepts. \n\nNeal Kumar\, CFA \nAt Cognitir\, Neal leads strategy & business development initiatives as well as product management. \nOutside of Cognitir\, Neal consults C-level teams and senior business managers on a variety of strategic topics ranging from M&A to marketing. He also leads training seminars (financial modeling) for Wall Street Prep and has consistently received top reviews from attendees and created two training courses that were used in seminars worldwide. Before his consulting and training careers\, Neal taught secondary mathematics in St. Louis Public Schools (USA) as a Teach for America Corps Member. Prior to joining Teach For America\, Neal worked in investment banking at Lazard\, JPMorgan\, and Houlihan Lokey. \nNeal received his MBA from London Business School (UK) and BBA in Finance from the University of Notre Dame (USA). He is also a CFA Charterholder and a Member of the CFA Institute Education Advisory Committee (EAC) Working Body where he helps shape CFA Program Content. \nCloseAbout Cognitir×About Cognitir\nCognitir (pronounced: cog-ni-teer) was founded by David Haber and Neal Kumar in August 2015 because both founders are passionate about teaching and find joy in helping others acquire knowledge. The main reason for this is simple: knowledge is a key ingredient in fostering innovation. If individuals can learn skills and problem solving techniques that help them solve the world’s toughest problems\, what types of innovation will the world experience? The possibilities are endless. \n\nCourse and Contact Information\nLevel: Beginner\nPrerequisite: None \nDuration: 1 Day (7 hours)\ninfo@cognitir.com\n+1 908 505 5991 (US)\nwww.cognitir.com \nCloseAdditional DetailsWho Is This ForThe target audience for this course is finance and business professionals\, but the skills we teach here are transferable across many disciplines. If any of the following points apply to you\, you will most likely find this course useful: \n\nIn my current role\, I spend a lot of time creating reports and/or surfacing the insights they contain. \nI often need to copy and paste data between different Excel spreadsheets to build simple charts on top of it. \nI’m responsible for manually updating the data sources for my team’s regular snapshots and briefs\, and want to reclaim that time. \nI want to conduct my organization’s\, team’s\, or own personal work more effectively by becoming more data-driven. \nI always want to have a current view on certain key metrics for which my company already stores relevant data. \nI want to learn how to incorporate data design and visualization principles into my core practice as a professional. \n\nWhat This Course Offers\nHands-on data visualization experience Microsoft Power BI and its Power Query engine \nEvery participant leaves with a working dashboard that they can connect to their organization’s data sources \nInsights on how best to automate tedious data workflows with web dashboards \nOverview of data sourcing\, preparation\, and visualization pitfalls \nCourse notes\, certificate of completion\, and post-seminar email support for 1 year \nAn engaging and practical training approach with a qualified instructor with relevant technical\, business\, and educational experiences
+URL:https://cfany.org/event/intro-to-data-visualization-and-business-analytics-with-microsoft-power-bi-cognitir-4/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Other Industry Event,Other Industry Events,Virtual Events & Programming
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T190000
+DTSTAMP:20261101T095804
+CREATED:20260303T154009Z
+LAST-MODIFIED:20260303T154009Z
+UID:96705-1793815200-1793818800@cfany.org
+SUMMARY:CFA Society New York Book Club: Marketcrafters by Chris Hughes
+DESCRIPTION:OverviewThe CFA Society New York Book Club® meets every other month and is designed to be an informal group discussion on a multitude of investment related topics. The author is not present as this is simply a discussion on the book of the month to help members further digest the material and meet other like-minded CFA Society NY members. We will generally have 2-3 books planned in advance so members can pick and choose which ones they are interested in reading prior to the meeting. Overall\, a way to build on our investment knowledge and meet other members. \nTitle: Marketcrafters: The 100-Year Struggle to Shape the American Economy \nAuthor: Chris Hughes \nFor many decades\, a sacred myth has ruled the minds of policymakers and business leaders: free markets\, untouched by the soiled hands of government\, bring us pros­perity and stability. Economist and writer Chris Hughes demolishes this fantasy by chronicling the hidden history of American capitalism: a centuries-long tradition of industrial policy where the state’s guiding hand has been essential to prosperity. Markets do not exist in a vacuum but are the product of a deliberate political order\, a practice he calls “marketcraft.” \nThis groundbreaking book takes readers through the high-stakes evolution of our most critical industries\, from the state-led management of our banking and financial systems to the intentional development of energy\, aviation\, healthcare\, and semiconductor markets. American government has always done far more than just react to “market failures.” Tracing a lineage from Alexander Hamilton to the architects of Trump and Biden industrial policies\, Hughes introduces the “marketcrafters”—the technicians and organizers who combined expertise with judgment to cultivate the economy like a garden. By studying their triumphs and failures\, we can pursue a smarter industrial policy for the future. \nAs we navigate the transformative potential of artificial intelligence and the urgent demands of the climate crisis\, this book serves as an essential road map for harnessing the power of markets to build a stable\, inclusive\, and abundant future for all Americans.
+URL:https://cfany.org/event/cfa-society-new-york-book-club-marketcrafters-by-chris-hughes/
+LOCATION:Virtual Only
+CATEGORIES:Book Club & Author Series,CFA Society NY Event,Committee Meeting,Free for Members,Global Passport,Group Meeting,Interest Group Meetings,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2024/12/Copy-of-new-web-tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T193000
+DTSTAMP:20261101T095804
+CREATED:20251125T193850Z
+LAST-MODIFIED:20251125T193850Z
+UID:94100-1793815200-1793820600@cfany.org
+SUMMARY:Performance & Risk Analytics Group Meeting
+DESCRIPTION:Group DescriptionThe Performance & Risk Analytics Group (PRAG) brings together investment performance measurement & investment risk management professionals engaged in the asset management industry. It’s diverse membership consists of\, but is not limited to\, practitioners from asset management firms\, as well as service & software providers. The group meets on a monthly basis to discuss relevant topics and provides networking and continuing education opportunities through its planned events. \nIf you would like to participate in this group\, or attend industry events and networking opportunities\, you can also join our LinkedIn Group.  \nJOIN THIS GROUP
+URL:https://cfany.org/event/performance-risk-analytics-group-meeting-56/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group Meetings,Performance & Risk Analytics,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T193000
+DTSTAMP:20261101T095804
+CREATED:20251125T200213Z
+LAST-MODIFIED:20251125T200213Z
+UID:94131-1793815200-1793820600@cfany.org
+SUMMARY:Institutional Asset Management Group Meeting
+DESCRIPTION:Group DescriptionThe Institutional Asset Management Group brings together professionals engaged in the management\, oversight\, and/or advisement of institutional investments. Its diverse member base includes investment consultants\, plan sponsors\, insurance professionals\, risk managers\, derivative product specialists\, and portfolio managers and analysts in a wide variety of asset classes. The group nurtures a rich exchange of ideas and information by connecting professionals who are broadly in the same field\, but would not otherwise collaborate and network with one another. \n JOIN THIS GROUP
+URL:https://cfany.org/event/institutional-asset-management-group-meeting-69/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Institutional Asset Management,Interest Group Meetings,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261105T120000
+DTEND;TZID=America/New_York:20261105T130000
+DTSTAMP:20261101T095804
+CREATED:20261015T164855Z
+LAST-MODIFIED:20261029T151616Z
+UID:102431-1793880000-1793883600@cfany.org
+SUMMARY:CFA Society New York Lunch & Learn Series
+DESCRIPTION:Overview\n \n\nFiera Capital is hosting the Fiera Comox Natural Capital Luncheon in partnership with CFA Society of New York\, covering key benefits of Natural Capital\, opportunities\, and risks. \n\n \n\nSarah Gal and Ben Lee\, Senior Principals at Fiera Comox\, will provide meaningful insights on the role of Agriculture & Sustainable Timberland asset classes in institutional portfolios and their growing relevance in today’s investment landscape. \n\nAttendees can expect a practical\, educational discussion on the investment case for natural capital\, its diversification potential\, and its evolving role within diversified portfolios. \n \n\n\n$115.2B(1)\nmulti-asset boutique investment firm\n\n\nOne of the largest\nopen-ended farmland funds globally(2)\n\n\nFiera Comox is the specialized natural capital GP within Fiera Capital’s $115.2B(1) multi-asset boutique investment firm. Fiera Comox Agriculture is one of the largest open-ended farmland funds globally(2) and has historically outperformed the NCREIF Farmland Index. In addition\, Fiera Comox Agriculture counts various U.S. tier 1 public pension funds as LPs and has broad support from prominent specialist consulting firms. \n \nThis Lunch & Learn will provide:\n\n1\nA deep dive into the potential benefits and opportunities of investing in Agriculture and Sustainable Timberland\n2\nCase studies highlighting the characteristics and performance drivers of these asset classes; and\n3\nThe opportunities and risks investors should consider.\n\n\nFeatured Speakers:\n\n\nSarah Gal \nSenior Principal\, Agriculture — Fiera Comox \nSarah has over a decade of experience in the institutional and direct agriculture industry. Prior to Fiera Comox\, Sarah held senior consulting roles at both Callan and Aon Hewitt. Most recently\, Sarah was a Senior Vice President\, Real Assets at Callan\, a leading institutional investment consulting firm\, where she was responsible for the firm’s farmland investment research. In this role\, she also worked with clients on real assets strategic planning\, investment research\, and asset class education. \nIn addition to her institutional experience in farmland\, Sarah has direct agriculture experience having managed a large dairy heifer growing operation for a dairy and cropping farm in Wisconsin. \nSarah holds a Bachelor of Science\, College of Agriculture with a concentration in Food Animal Science from the University of Illinois at Urbana-Champaign. \n\n\n\n\nBen Lee \nSenior Principal\, Timberland — Fiera Comox \nBen has a leading role in the sourcing\, due diligence and execution of new investment opportunities for the portfolio. Additionally\, Ben is actively involved in the management of assets across the portfolio and provides strategic oversight for portfolio companies. Ben has broad executive experience in the timberland and resource development industry. \nHe was most recently SVP\, Corporate Development & General Counsel for Mosaic Forest Management (“Mosaic”)\, Canada’s leading timberland manager with 585\,000 hectares (1.45 million acres) of privately owned forest\, where he was an executive for 9 years and led the pursuit of strategic growth opportunities for Mosaic (including M&A and non-timber opportunities) while overseeing the legal and governance functions. Ben played a leading role in the 2018 multi-billion transaction that brought together Island Timberlands and TimberWest to create Mosaic. He also played an integral part of the development\, launch and marketing of the largest nature-based carbon credit project in Canada. \nPrior to that\, he spent over 4 years at Goldcorp Inc. (TSX / NYSE) in a senior legal role\, where he led and managed the successful execution of over $12B in acquisition\, disposition\, joint venture and financing transactions. Before that\, he worked for over 5 years in the M&A / Securities Law Group of Fasken LLP\, a Canadian national law firm. \nIn 2019\, Ben was named 2019 Western Canada General Counsel “Dealmaker of the Year” for his integral role in the multi-billion-dollar transaction that brought together Island Timberlands and TimberWest to create Mosaic. In 2018\, Ben was named one of LEXPERT Canada’s “Top Under 40 Rising Stars”. \nBen holds a common law degree (LLB) from the University of Ottawa\, and Bachelor of Arts (political science) from McGill University. \n\n\n\nSponsor:
+URL:https://cfany.org/event/cfa-society-new-york-lunch-learn-series-18/
+LOCATION:CFA Society New York\, 1540 Broadway\, New York City\, NY\, 10036\, United States
+CATEGORIES:CFA Candidates,CFA Society NY Event,Conference,Free for Members,Member Exclusive Rate,Other Industry Events,Student
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/02/web-still-lunch-and-learn.png
+GEO:40.7579565;-73.9846558
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=CFA Society New York 1540 Broadway New York City NY 10036 United States;X-APPLE-RADIUS=500;X-TITLE=1540 Broadway:geo:-73.9846558,40.7579565
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261109T180000
+DTEND;TZID=America/New_York:20261109T190000
+DTSTAMP:20261101T095804
+CREATED:20251125T193129Z
+LAST-MODIFIED:20261022T135300Z
+UID:94075-1794247200-1794250800@cfany.org
+SUMMARY:Value Investing Group Meeting
+DESCRIPTION:The Value Investing Group provides a forum for the application and modification of Benjamin Graham’s principles as well as for other value investment approaches. The group’s focus is on organizing both one-off as well as regular events such as the bi-monthly value investment round-table\, the annual Ben Graham conference and the value investing workshop. \nJOIN THIS GROUP
+URL:https://cfany.org/event/value-investing-group-meeting-40/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,Value Investing,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261110T173000
+DTEND;TZID=America/New_York:20261110T190000
+DTSTAMP:20261101T095804
+CREATED:20251125T201050Z
+LAST-MODIFIED:20251125T201050Z
+UID:94155-1794331800-1794337200@cfany.org
+SUMMARY:Wealth Management Group Meeting
+DESCRIPTION:Group DescriptionThe Wealth Management (WM) Volunteer Interest Group is a dynamic community dedicated to advancing the expertise\, professionalism\, and innovation of finance professionals serving high-net-worth individuals\, families\, and themselves. Wealth management requires more than just investment expertise—it demands holistic solutions integrating portfolio management\, estate planning\, tax strategies\, behavioral finance\, and risk management. Our mission is to foster a collaborative and forward-thinking environment where investment professionals can enhance their expertise\, engage with top industry leaders\, stay ahead of market trends\, exchange best practices\, and develop leadership opportunities within the CFA Society New York Community. Through roundtables\, workshops\, networking\, and research contributions\, we provide unparalleled access to exclusive insights and a powerful network of professionals shaping the future of wealth management. Our members include professionals seeking to deepen their knowledge and impact. Whether you are an experienced professional or new to the field\, WM empowers you to grow\, lead\, and thrive in delivering exceptional client solutions. \nJoin Group
+URL:https://cfany.org/event/wealth-management-group-meeting-20/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group Meetings,Private Wealth Management,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261110T173000
+DTEND;TZID=America/New_York:20261110T200000
+DTSTAMP:20261101T095804
+CREATED:20260914T200523Z
+LAST-MODIFIED:20261030T202013Z
+UID:101520-1794331800-1794340800@cfany.org
+SUMMARY:The Hedge Fund Landscape: Risk Mitigation\, AI Integration\, and Mega Funds
+DESCRIPTION:OverviewThis panel explores how institutional investors are positioning hedge fund allocations within a total portfolio framework\, examining shifting demand\, manager selection dynamics\, market competition\, and the growing role of AI in investment strategies and the evolving hedge fund landscape. \n\n  \n    🎯 Target Audience\n  \n  \n    Senior leaders in investment management\, including investment officers and investment analysts.\n   \n\n  \n    Key Discussion Topics\n  \n\n  \n\n    \n      \n        📊\n      \n      \n        Portfolio Integration: How institutional allocators are deploying hedge funds to manage risk\, enhance diversification\, and drive total portfolio returns.\n       \n    \n\n    \n      \n        🔥\n      \n      \n        In-Demand Strategies: The primary hedge fund strategies currently attracting the most capital from US institutional investors.\n       \n    \n\n    \n      \n        🏛️\n      \n      \n        Large Manager Dominance: How the flight to scale gives established mega-managers greater leverage to command higher management fees and enforce longer lockup terms.\n       \n    \n\n    \n      \n        🚀\n      \n      \n        The Emerging Manager Edge: Strategies emerging and boutique managers are using to compete with industry giants for institutional mindshare and capital.\n       \n    \n\n  \nAgenda5:30 PM | REGISTRATION \n\nIntroduction by: Yoshiko Yamaguchi\, CFA\, Founder and CEO\, Soya Japan \n5:55 PM | KEYNOTE SPEAKER \nChris Mandas\, CFA\, CAIA\, Director\, Hedge Funds\, Cliffwater \n\n6:15 PM | PANEL DISCUSSION \nPanelists \nJames Bell\, Senior Consultant & Director – Hedge Fund Research\, Crewcial Partners \nEvan Frazier\, CFA\,CAIA\, Senior Research Analyst\, Marquette Associates  \nTetiana Kyslytsyna\, CAIA\, Hedge Fund Investment Specialist\, UBS Unified Global Alternatives  \nChris Mandas\, CFA\, CAIA\, Director\, Hedge Funds\, Cliffwater \nColleen Silver\, CFA\, Head of Alternative Investment Product\, Truist Wealth \n\n6:45 PM | Q&A  \n\n6:55 PM | CLOSING REMARKS \nScott Treacy\, CFA\, Senior Associate\, Campion Capital \n\n7:00 PM | NETWORKING RECEPTION
+URL:https://cfany.org/event/the-hedge-fund-landscape-risk-mitigation-ai-integration-and-mega-funds/
+LOCATION:Hybrid-CFA Society NY\, 1540 Broadway\, 10th Fl\, New York\, NY\, 10036\, United States
+CATEGORIES:Alternative Investments,CFA Society NY Event,Conference / Seminar,Interest Group,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2026/09/ChatGPT-Image-Sep-23-2026-04_42_20-PM.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261111T090000
+DTEND;TZID=America/New_York:20261113T170000
+DTSTAMP:20261101T095804
+CREATED:20260624T172743Z
+LAST-MODIFIED:20260629T184946Z
+UID:99310-1794387600-1794589200@cfany.org
+SUMMARY:Financial & Valuation Modeling - Wall Street Prep
+DESCRIPTION:Presented by Wall Street Prep | Hosted at CFA Society New York \nBoot Camp DetailsOverviewScheduleAdditional InformationOverviewThis boot camp is an intensive virtual training program where trainees learn financial and valuation modeling in Excel using an intuitive\, step-by-step approach. Participants will use real case studies to build financial models from scratch the way it is done at financial institutions. The program is a synthesis of Excel modeling\, navigating through various financial reports\, and the application of accounting\, corporate finance\, and valuation courses.Schedule\nEach day of this boot camp will run from 9a-5p (ET). There will be a 1-hour lunch break as well as a midmorning and midafternoon break daily. \nAdditional Information\nWhat’s Included \nComprehensive training materials (manuals and online exercises)\, Detailed reusable modifiable Excel model templates\, Unlimited e-mail support for content-related questions for 12 months post-seminar. \n\nPrerequisites \nThis seminar presumes knowledge of financial accounting (at least 1 semester or equivalent). Participants without this background must enroll in and complete the Accounting Crash Course prior to attending the seminar. \n\nCPE Credit\nEarn 27 CPE Credits for this Seminar \nWall Street Prep is registered with the National Association of State Boards of Accountancy (NASBA) as a sponsor of continuing professional education on the National Registry of CPE Sponsors. State boards of accountancy have final authority on the acceptance of individual courses for CPE credit. Complaints regarding registered sponsors may be submitted to the National Registry of CPE Sponsors through its website: www.nasbaregistry.org. \n\nEarn a Certification in Financial Modeling \nCompletion of this boot camp will earn you a Certification in Financial & Valuation Modeling from Wall Street’s #1 training firm. This globally recognized certification demonstrates proficiency in Financial Modeling\, DCF\, Comps and M&A. \nFull Boot Camp (Recommended)$$2\,799Days 1 and 2 Only$$2\,299Early Registration Ends October 11.                      $200 will be added to registration options after October 11.                                            Early Registration Ends October 11.                      $200 will be added to registration options after October 11.                                            AgendaPlease note: Each daily session goes from 9AM – 5PM EST \n\nDay 1 | FINANCIAL STATEMENT MODELING \nYou will develop a 3-statement model completely from scratch\, inputting historical data and assumptions to project out financial statements by selecting\, locating\, and developing appropriate projection drivers. \n\nAI in Practice → We’ll use AI to interrogate projection assumptions\, surface logical inconsistencies in the model\, and pressure-test whether the drivers you’ve chosen actually hold up — so you build with conviction\, not just speed. \n\n\nDay 2 | DCF MODELING \nParticipants learn how to value the company step-by-step\, including how to estimate the weighted average cost of capital (WACC) in the real world\, how to implement commonly used approaches to calculating terminal value\, and how to use data tables to analyze a broad range of scenarios given different assumptions. \n\nAI in Practice →We’ll bring AI into the valuation process to challenge key inputs\, explore how sensitive your output is to WACC and terminal value assumptions\, and stress-test the story your model is telling before you’re asked to defend it. \n\n\nDay 3 | M&A MODELING \nParticipants will build a merger model in Excel to reflect the pro forma impact of various acquisition scenarios. Key topics covered include a quick test of accretion / dilution in all-stock deals\, pricing structures (exchange ratios\, collars\, “walk-away” rights)\, purchase accounting\, and the step-by-step allocation of purchase price. \n\nAI in Practice →We’ll use AI to sharpen thinking around deal structure\, probe the assumptions behind accretion and dilution\, and evaluate whether a transaction genuinely creates value — or just appears to on paper. \n\n\nOnline | PRE-SEMINAR EXCEL TRAINING \n\nThis boot camp assumes proficiency in Excel. Enrollment includes access to our popular Excel Crash Course for those who need an Excel refresher. \n\n\nOnline | POST-SEMINAR ONLINE ACCESS \n\nEnrollment includes lifetime access to the following online course(s): Financial Statement Modeling\, DCF Modeling\, Comps Modeling\, M&A Modeling\, LBO Modeling \n\nView Full Syllabus\n×Course Syllabus\nFinancial Statement Modeling\nYou will develop a 3-statement model completely from scratch\, inputting historical data and assumptions to project out financial statements by selecting\, locating\, and developing appropriate projection drivers. \nAI in Practice → We’ll use AI to interrogate projection assumptions\, surface logical inconsistencies in the model\, and pressure-test whether the drivers you’ve chosen actually hold up — so you build with conviction\, not just speed. \nReview key Excel skills for financial modeling \n\nBasic Excel techniques and keyboard shortcuts\nThe most accurate way to perform Excel’s basic functions without the mouse\nCustomize Excel’s default settings for effective modeling\n\nLearn to format and structure financial models to limit errors and simplify auditing \n\nStandard modeling structures and formulas\nBest practices in modeling\nLearn the correct way to check models for errors\, accuracy and integrity\nCheck and fix circular reference and iteration problems (#REF)\nTools for formula checking and auditing\n\nLearn how to present financial statement model \n\nCreate a ratios page\nPrepare a model for distribution\nLearn summary and sensitivity analysis using data tables\n\nFinancial statement model development \n\nLearn to build projection drivers\nLearn to integrate assumptions into financial models – learn what makes a good assumption\nBuild core statements:\n\nCash flow statement\nBalance sheet\nIncome statement\n\n\nBuild supporting schedules:\n\nDebt schedule\nWorking capital\nInterest schedule\nRetained earnings\nPP&E analysis\n\n\nUnderstand the interconnectivity of the core financial statements and learn how the cash flow statement\, income statement\, and balance sheet are linked.\nLearn to apply automatic “balance checks”\nUnderstand treatment of non-recurring charges and tax implications on financial models\nUnderstand implications of new FASB regulations on financial models used by investment banks and other financial institutions.\n\n\nDCF Modeling\nParticipants learn how to value the company step-by-step\, including how to estimate the weighted average cost of capital (WACC) in the real world\, how to implement commonly used approaches to calculating terminal value\, and how to use data tables to analyze a broad range of scenarios given different assumptions. \n\nAI in Practice → We’ll bring AI into the valuation process to challenge key inputs\, explore how sensitive your output is to WACC and terminal value assumptions\, and stress-test the story your model is telling before you’re asked to defend it.\n\nValuation methodologies deconstructed \n\nLearn market-based valuation\, including comparable company analysis and comparable transaction analysis using appropriate equity and enterprise value multiples (PE\, EV/EBITDA\, etc.)\nIntrinsic valuation\, including DCF and LBO (floor) valuation\nPresentation of valuation results using sensitivity analysis and data tables\n\nEnterprise value relationships \n\nParticipants learn to identify and analyze the elements of the financial statement that are key to the value of an enterprise\, including:\n\nMarket capitalization\nEnterprise value\nOptions\nPreferred stock\nMinority interests\nDebt\nCash and marketable securities\nTreasury Stock Method of Calculating Diluted Shares Outstanding\n\n\n\nCalculate free cash flows using the unlevered valuation approach \n\nUse previously built model to derive unlevered earnings and unlevered free cash flow\nHandle working capital items\, deferred taxes and long-term accruals \n\nDiscount the cash flows \n\nLearn how to derive a discount rate by deriving the cost of debt and the cost of equity\nDerive the cost of capital using CAPM\nSelect the correct discount rates\n\nCalculate the value \n\nEstimating terminal value\nCalculating enterprise value\nUsing the enterprise value to determine implied share prices\n\nSensitivity analysis \n\nAnalyze key input assumptions at various sensitivities\n\n\nM&A Modeling\nParticipants will build a merger model in Excel to reflect the pro forma impact of various acquisition scenarios. Key topics covered include a quick test of accretion / dilution in all-stock deals\, pricing structures (exchange ratios\, collars\, “walk-away” rights)\, purchase accounting\, and the step-by-step allocation of purchase price. \n\n AI in Practice → We’ll use AI to sharpen thinking around deal structure\, probe the assumptions behind accretion and dilution\, and evaluate whether a transaction genuinely creates value — or just appears to on paper.\n\nBuilding a robust merger model \n\nSetting up a control area for assumptions\nInputting deal assumptions (% cash vs. stock considerations\, purchase premium\, asset write-ups\, advisory fees\, financing fees\, and severance fees)\nCalculating shares outstanding using the treasury stock method\nAppropriate treatment of convertible securities\nAllocating purchase price and calculating goodwill\nPreparing the pushed-down balance sheet\nMaking pro forma balance sheet adjustments\nCalculating sources & uses of funds\nInputting operating & synergy projections\nCalculating the stub year period\nBuilding a pro forma income statement and making appropriate deal-related adjustments to arrive at accretion/dilution per share\nError-checking a merger model and inserting circuit breaker switches where appropriate\nSensitivity analysis: EPS accretion/dilution in stock vs. cash deal; interest rate assumptions\, premium paid\nPre-tax synergies required to break-even\, and break-even PE analysis\nRevenue\, EBITDA\, and Net Income contribution analysis\n\nAdvanced merger accounting \n\nUnderstanding the differences between asset sales (including 338h10 elections) and stock sales\nTaxation issues\, including deferred taxes created by the step-up of asset values\nLegal considerations in acquisitions\n\nCloseAdditional DetailsWho is this boot camp for? \n\nInvestment banking analysts and associates\nPrivate equity\, asset management and hedge fund associates\nCorporate finance and business development professionals\nMBA students and business undergraduates\nAnyone seeking to improve their financial modeling skill set
+URL:https://cfany.org/event/financial-valuation-modeling-wall-street-prep-6/
+LOCATION:CFA Society New York\, 1540 Broadway\, New York City\, NY\, 10036\, United States
+CATEGORIES:CFA Society NY Event,Other Industry Event,Other Industry Events,Virtual Events & Programming
+ATTACH;FMTTYPE=image/jpeg:https://cfany.org/wp-content/uploads/2026/06/logo_WallStreetPrep-560x217-1.jpg
+GEO:40.7579565;-73.9846558
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=CFA Society New York 1540 Broadway New York City NY 10036 United States;X-APPLE-RADIUS=500;X-TITLE=1540 Broadway:geo:-73.9846558,40.7579565
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261111T120000
+DTEND;TZID=America/New_York:20261111T130000
+DTSTAMP:20261101T095804
+CREATED:20251125T201548Z
+LAST-MODIFIED:20251125T201548Z
+UID:94170-1794398400-1794402000@cfany.org
+SUMMARY:International Investment Group Meeting
+DESCRIPTION:Group DescriptionThe International Investing Volunteer Interest Group is a dynamic community dedicated to advancing global investment expertise. As financial markets become increasingly interconnected\, investors must navigate geopolitical risks\, currency fluctuations\, and evolving regulations to uncover international opportunities. \nJOIN THIS GROUP
+URL:https://cfany.org/event/international-investment-group-meeting-9/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,International Investments,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/10/Copy-of-VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T190000
+DTSTAMP:20261101T095804
+CREATED:20261016T180309Z
+LAST-MODIFIED:20261016T182627Z
+UID:102463-1794506400-1794510000@cfany.org
+SUMMARY:Professional Development & Leadership Group Meeting
+DESCRIPTION:Group DescriptionThe Professional Development & Leadership (PDL) Volunteer Interest Group plays a critical role in helping investment professionals successfully navigate career transitions\, build leadership skills\, and future-proof themselves in a rapidly changing industry. This group is designed for professionals exploring career transitions\, mentoring opportunities\, seeking leadership opportunities\, strengthening workplace skills\, or simply building their long-term career strategy. Given the evolution of the investment profession\, impacted by technology\, globalization\, regulatory changes\, and new skill demands\, career development has become an increasingly urgent priority.\n\n\n\nFor our November 12th meeting\, the topic will be negotiation skills. This session will be an introduction and primer on negotiation. The 60-minute session will focus on what is “negotiation” and the types of negotiations\, and the personas of negotiation.  The session will cover pre-negotiation mindset\, preparation\, and defining desired and acceptable objectives or outcomes.\n\n\n  \nJOIN THIS GROUP
+URL:https://cfany.org/event/copy-of-professional-development-leadership-group-meeting-4/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group Meetings,Professional Development & Leadership,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261117T120000
+DTEND;TZID=America/New_York:20261117T130000
+DTSTAMP:20261101T095804
+CREATED:20260317T140445Z
+LAST-MODIFIED:20260331T145742Z
+UID:96993-1794916800-1794920400@cfany.org
+SUMMARY:Alternative Investment Group Meeting
+DESCRIPTION:Group DescriptionThe mission of the Alternative Investments Group is to provide a forum for the discussion and analysis of nontraditional investment approaches\, including all forms of hedge funds\, funds of funds\, private equity\, structured products\, institutional real estate\, and other investments not typically available in the retail marketplace. \nIf you would like to participate in this group or attend industry events and networking opportunities join our LinkedIn Group. \n JOIN THIS GROUP
+URL:https://cfany.org/event/alternative-investment-group-meeting-44/
+LOCATION:Virtual Only
+CATEGORIES:Alternative Investments,CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261117T173000
+DTEND;TZID=America/New_York:20261117T200000
+DTSTAMP:20261101T095804
+CREATED:20260916T141657Z
+LAST-MODIFIED:20261013T160229Z
+UID:101539-1794936600-1794945600@cfany.org
+SUMMARY:2026/2027 CFA Institute Research Challenge Kickoff
+DESCRIPTION:OverviewThe CFA Institute Research Challenge is an annual global competition that provides university students with hands-on mentoring and intensive training in financial analysis and professional ethics. Each student will be tested on their analytical\, valuation\, report writing\, and presentation skills. They gain real-world experience as they assume the role of a research analyst. \nShare this with your friends + peers!\n\nHow it Works\n\n\nLocal level competitions are organized and judged by CFA Institute society members and volunteers who function as local hosts. \n\n\n\nThe winning university team from each local competition advances to the sub-regional competition.\n\n\n\nThe sub-regional\, regional\, and global competitions are hosted by CFA Institute in the Americas; the Asia Pacific; and the Europe\, Middle East\, and Africa regions.\n\n\n\nThe winning teams from each sub-regional competition advance to the regional competition. Regional winners advance to the Global Final\, where one team emerges as the global champion.\n\n\n\n\nView the sub-region breakdown (PDF)\n\n\nGet the fact card (PDF)\n\n\nView the Official Rules (PDF)\n\nBecome a student member for only $25 and attend members-only events!   \nStudent Application – CFA Society New York Agenda5: 30 PM | REGISTRATION \n\n6:00 PM | INTRODUCTION FROM CFA SOCIETY NEW YORK \n\n6:05 PM | THE CFA EXAM EXPLAINED \n\n6:45 PM | COMPETITON RULES/SUBJECT COMPANY REVEAL \n\n\n\n7:15 PM | GENERAL Q&A \n\n\n\n7:20 PM | CLOSING REMARKS \n\n\n\n\n\n\n7:25 PM | RECEPTION
+URL:https://cfany.org/event/2026-2027-cfa-institute-research-challenge-kickoff/
+LOCATION:Hybrid-CFA Society NY\, 1540 Broadway\, 10th Fl\, New York\, NY\, 10036\, United States
+CATEGORIES:CFA Candidates,CFA Society NY Event,Conference,Free for Members,Member Exclusive Rate,Other Industry Events,Student,Young Leaders
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2026/09/ChatGPT-Image-Sep-23-2026-04_36_11-PM.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261118T180000
+DTEND;TZID=America/New_York:20261118T193000
+DTSTAMP:20261101T095804
+CREATED:20251125T212002Z
+LAST-MODIFIED:20251125T212002Z
+UID:94219-1795024800-1795030200@cfany.org
+SUMMARY:Investment Strategy Roundtable
+DESCRIPTION:Group DescriptionThe CFA Society New York Investment Strategy Roundtable (the Roundtable) is a series of monthly meetings on current events and market insights. Driven by the diversity of its participants’ expertise and led by volunteer presenters\, the Roundtable fosters an open discussion between members on their views and focuses. Past topics include Chinese consumer loan securitization\, Dallas residential real estate boom\, pre- and post-election market sentiment and the broader implication of manufacturing automation on sector rotation. Whether you are an investment professional\, academician or market enthusiast\, you will surely find something new at the Roundtable. \nJOIN THIS GROUP
+URL:https://cfany.org/event/investment-strategy-roundtable-53/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,NYSSA Investment Strategy Roundtable®,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261118T180000
+DTEND;TZID=America/New_York:20261118T193000
+DTSTAMP:20261101T095804
+CREATED:20251125T212027Z
+LAST-MODIFIED:20251125T212027Z
+UID:94221-1795024800-1795030200@cfany.org
+SUMMARY:Investment Strategy Roundtable
+DESCRIPTION:Group DescriptionThe CFA Society New York Investment Strategy Roundtable (the Roundtable) is a series of monthly meetings on current events and market insights. Driven by the diversity of its participants’ expertise and led by volunteer presenters\, the Roundtable fosters an open discussion between members on their views and focuses. Past topics include Chinese consumer loan securitization\, Dallas residential real estate boom\, pre- and post-election market sentiment and the broader implication of manufacturing automation on sector rotation. Whether you are an investment professional\, academician or market enthusiast\, you will surely find something new at the Roundtable. \nJOIN THIS GROUP
+URL:https://cfany.org/event/investment-strategy-roundtable-54/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,NYSSA Investment Strategy Roundtable®,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261119T120000
+DTEND;TZID=America/New_York:20261119T163000
+DTSTAMP:20261101T095804
+CREATED:20260927T154956Z
+LAST-MODIFIED:20260927T154956Z
+UID:101940-1795089600-1795105800@cfany.org
+SUMMARY:4th Annual CWIM Global Summit: “Connect\, Collaborate\, Celebrate 2026” (Co-Hosted by CFA Societies Mexico\, New York\, Singapore\, Switzerland)
+DESCRIPTION:OverviewCollaborative WIM’s final event of the year — the fourth annual Global Summit —will take place virtually on Thursday\, November 19th between 12:00PM – 4:30PM EST. Co-hosted by CFA Societies Mexico\, New York\, Singapore\, and Switzerland\, alongside Collaborative WIM\, this complimentary half-day event will bring together a global community of investment professionals\, industry leaders\, and emerging voices across finance. \nDesigned to inspire meaningful dialogue and connection\, the summit will feature thought-provoking conversations\, interactive discussions\, and actionable insights focused on leadership\, career growth\, innovation\, and the evolving future of the investment industry. \nWhat You’ll Gain\n\nActionable insights to support your professional growth and personal development \nHear from global changemakers and industry leaders driving impact across organizations and markets \nEngage in live discussions with peers from around the world and expand your global network \nExplore new perspectives on leadership\, collaboration\, and the future of finance \n\nWe encourage you to invite your colleagues and peers to join this dynamic and interactive global experience. Gain actionable insights to guide your career journey and personal development as you gather for an inspiring virtual half-day event: the fourth annual Collaborative WIM Global Summit! \nFor more information\, please email team@collaborativewim.org.\nCFA Institute Qualified Activity: Eligible for 4.5 PL credit hours \nCWIM Event SitePresented By:
+URL:https://cfany.org/event/4th-annual-cwim-global-summit-connect-collaborate-celebrate-2026-co-hosted-by-cfa-societies-mexico-new-york-singapore-switzerland/
+LOCATION:Virtual Only
+CATEGORIES:Other Industry Event,Other Industry Events,Value Investing,Virtual Events & Programming
+ATTACH;FMTTYPE=image/webp:https://cfany.org/wp-content/uploads/2026/09/Cover6.webp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261201T173000
+DTEND;TZID=America/New_York:20261201T200000
+DTSTAMP:20261101T095804
+CREATED:20261021T155849Z
+LAST-MODIFIED:20261026T195315Z
+UID:93849-1796146200-1796155200@cfany.org
+SUMMARY:2026 Annual Employment Outlook
+DESCRIPTION:OverviewThe Annual Employment Outlook is a must-attend event for CFA Society New York members and non-members poised for career transitions. Whether you’re actively seeking a new role or laying the groundwork for future opportunities\, this event provides essential knowledge and perspectives. Dive into the latest industry trends and gain a competitive edge with guidance from top financial sector leaders.  \nAgenda5:30 PM | REGISTRATION \n\n5:55 PM | INTRODUCTION \n \n\n6:00 PM | EMPLOYMENT PANEL DISCUSSION \nModerator \nLiliana Kleyman\, CFA\, Finance Manager\, XTX Markets \nPanelists  \nMary Kate Arturi\, Managing Director\, Head of Financial Services and Investment Management\, True Search \n\n6:50 PM | Q&A \n\n6:55 PM | CLOSING REMARKS \n\n7:00 PM | NETWORKING RECEPTION \nAdditional DetailsLearning Outcomes \n\nUnderstanding Market Dynamics\nPredicting Future Trends\nNetworking and Collaboration\nSkill Alignment and Enhancement
+URL:https://cfany.org/event/2026-annual-employment-outlook/
+LOCATION:Hybrid-CFA Society NY\, 1540 Broadway\, 10th Fl\, New York\, NY\, 10036\, United States
+CATEGORIES:Career Development,CFA Society NY Event,Conference,Conference / Seminar,Global Passport,Student,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/08/new-web-tile-3.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261202T120000
+DTEND;TZID=America/New_York:20261202T130000
+DTSTAMP:20261101T095804
+CREATED:20261002T205054Z
+LAST-MODIFIED:20261008T205510Z
+UID:102145-1796212800-1796216400@cfany.org
+SUMMARY:CFA Society New York Lunch & Learn Series
+DESCRIPTION:OverviewJoin us for a complimentary Lunch and Learn Session featuring a presenter and conversation on a range of topics. \n\n\nThis week\, our speaker will address \nMulti-Asset Credit: Navigating Today’s Credit Opportunity Set \nThe Lunch & Learn will provide an overview of the evolving multi-asset credit landscape and the different ways investors can access opportunities across high yield\, bank loans\, and structured credit\, exploring how investors can enhance returns and manage risk by more tactically allocating across a broader opportunity set in credit. The session will provide an update on how the liquid credit markets have drastically changed in the recent years and why investors need to revisit them now. We will discuss the spectrum of MAC approaches\, from more traditional liquid strategies to diversified\, opportunistic\, and public-private solutions\, and the portfolio considerations associated with each. \nWe will also share our current perspective on credit markets\, highlighting where we see relative value today and how a flexible\, cross-asset approach can help investors navigate changing market conditions and identify opportunities across the capital structure. Attendees will also gain insights into the benefits of incorporating European credit into portfolios\, where it can offer valuable diversification\, potential downside protection\, and relative value opportunities versus US markets. \n\nFeatured Speakers:\n\n\nJim Fitzpatrick \nCIO\, North America & Head of Global Loans — CQS Investment Management \nJames (Jim) Fitzpatrick is CIO North America and Head of Global Loans. Jim leads the dedicated loans team\, with portfolio managers and analysts based in both London and New York. He is responsible for managing the firm’s loan mandates\, including those within a variety of multi-asset credit funds and collateralized loan obligations. \nPrior to joining CQS in August 2015\, Jim was a Portfolio Manager within the Senior Secured Loan Group at Invesco\, focusing on separately managed institutional accounts and commingled funds. His previous experience at Invesco also included serving as a Senior Credit Analyst specializing in healthcare\, housing\, and leisure investments. \nJim holds a Bachelor of Science in Business from Wake Forest University. \n\n\n\n\nMark McKeown\, CFA \nHead of US Liquid Distribution — Manulife | CQS Investment Management \nMr. McKeown joined Manulife CQS in 2026 to lead US distribution efforts for the flagship Multi Asset Credit strategy and other liquid credit solutions. Prior to joining the firm\, he was Managing Principal and Head of Fixed Income Research at Meketa\, where he led the Fixed Income Public Markets Research Team and served as a Research Consultant to institutional clients utilizing his multi-asset credit expertise in structuring bond portfolios. \nHis prior experience includes corporate credit research analyst roles at hedge funds and allocator roles at family offices. Earlier in his career\, he worked as an Equity Research Analyst at Morgan Stanley. \nMark holds a Bachelor of Science in Finance from Providence College and is a Chartered Financial Analyst® charterholder. \n\n\n\nSponsor:
+URL:https://cfany.org/event/cfa-society-new-york-lunch-learn-series-17/
+LOCATION:CFA Society New York\, 1540 Broadway\, New York City\, NY\, 10036\, United States
+CATEGORIES:CFA Candidates,CFA Society NY Event,Conference,Free for Members,Member Exclusive Rate,Other Industry Events,Student
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/02/web-still-lunch-and-learn.png
+GEO:40.7579565;-73.9846558
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=CFA Society New York 1540 Broadway New York City NY 10036 United States;X-APPLE-RADIUS=500;X-TITLE=1540 Broadway:geo:-73.9846558,40.7579565
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261202T180000
+DTEND;TZID=America/New_York:20261202T193000
+DTSTAMP:20261101T095804
+CREATED:20251125T193922Z
+LAST-MODIFIED:20251125T193922Z
+UID:94102-1796234400-1796239800@cfany.org
+SUMMARY:Performance & Risk Analytics Group Meeting
+DESCRIPTION:Group DescriptionThe Performance & Risk Analytics Group (PRAG) brings together investment performance measurement & investment risk management professionals engaged in the asset management industry. It’s diverse membership consists of\, but is not limited to\, practitioners from asset management firms\, as well as service & software providers. The group meets on a monthly basis to discuss relevant topics and provides networking and continuing education opportunities through its planned events. \nIf you would like to participate in this group\, or attend industry events and networking opportunities\, you can also join our LinkedIn Group.  \nJOIN THIS GROUP
+URL:https://cfany.org/event/performance-risk-analytics-group-meeting-57/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group Meetings,Performance & Risk Analytics,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261202T180000
+DTEND;TZID=America/New_York:20261202T193000
+DTSTAMP:20261101T095804
+CREATED:20251125T200242Z
+LAST-MODIFIED:20251125T200242Z
+UID:94133-1796234400-1796239800@cfany.org
+SUMMARY:Institutional Asset Management Group Meeting
+DESCRIPTION:Group DescriptionThe Institutional Asset Management Group brings together professionals engaged in the management\, oversight\, and/or advisement of institutional investments. Its diverse member base includes investment consultants\, plan sponsors\, insurance professionals\, risk managers\, derivative product specialists\, and portfolio managers and analysts in a wide variety of asset classes. The group nurtures a rich exchange of ideas and information by connecting professionals who are broadly in the same field\, but would not otherwise collaborate and network with one another. \n JOIN THIS GROUP
+URL:https://cfany.org/event/institutional-asset-management-group-meeting-70/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Institutional Asset Management,Interest Group Meetings,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261203T173000
+DTEND;TZID=America/New_York:20261203T200000
+DTSTAMP:20261101T095804
+CREATED:20240815T204141Z
+LAST-MODIFIED:20261026T200813Z
+UID:85580-1796319000-1796328000@cfany.org
+SUMMARY:Insurance Company Chief Investment Officer Roundtable
+DESCRIPTION:OverviewAn Asset Owner Series™ Event \nA marquee event featuring discussion by Insurance Company Chief Investment Officers on how the insurance industry manages political and economic uncertainty\, asset allocation strategies\, and best practices in Liability Driven Investing (LDI). \nLDI is a highly specialized strategy requiring unique skills\, a long-term perspective\, and ongoing protection against inflation\, volatility\, and interest rate risk. Hear how some of the market’s most prominent practitioners manage these challenges and maximize opportunities for their portfolios. \nPanelists will include Met Life\, HarbourVest\, Sunlife and others. Attendees include AMICA\, Global Atlantic\, Enstar\, the Hartford\, Liberty Mutual\, Manulife\, New York Life\, QBE\, CV Starr\, TIAA\, Zurich. \nAgenda5:30 PM | REGISTRATION \n\n6:00 PM | INTRODUCTION \n\n6:05 PM | PANEL DISCUSSION \nModerator \nMadhavi Chugh\, CFA\, Global C-Head of Insurance\, MetLife Investment Management \nPanelist \n Bill Cole\, CFA\, CAIA\, Principal and Private Credit Specialist\, HarbourVest \nKerry O’Brien\, Head of Multi-Asset Solutions\, MetLife Investment Management \n\n7:00 PM | Q&A \n\n7:10 PM | CLOSING REMARKS \n\n7:15 PM | NETWORKING RECEPTION \nGold Sponsors:Silver Sponsors:
+URL:https://cfany.org/event/insurance-company-chief-investment-officer-roundtable/
+LOCATION:CFA Society New York\, 1540 Broadway\, New York City\, NY\, 10036\, United States
+CATEGORIES:AOS Original,CFA Society NY Event,Conference / Seminar,Virtual Events & Programming
+GEO:40.7579565;-73.9846558
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=CFA Society New York 1540 Broadway New York City NY 10036 United States;X-APPLE-RADIUS=500;X-TITLE=1540 Broadway:geo:-73.9846558,40.7579565
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261207T180000
+DTEND;TZID=America/New_York:20261207T190000
+DTSTAMP:20261101T095804
+CREATED:20251125T193200Z
+LAST-MODIFIED:20251125T193200Z
+UID:94077-1796666400-1796670000@cfany.org
+SUMMARY:Value Investing Group Meeting
+DESCRIPTION:The Value Investing Group provides a forum for the application and modification of Benjamin Graham’s principles as well as for other value investment approaches. The group’s focus is on organizing both one-off as well as regular events such as the bi-monthly value investment round-table\, the annual Ben Graham conference and the value investing workshop. \nJOIN THIS GROUP
+URL:https://cfany.org/event/value-investing-group-meeting-41/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,Value Investing,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261208T173000
+DTEND;TZID=America/New_York:20261208T190000
+DTSTAMP:20261101T095804
+CREATED:20251125T201114Z
+LAST-MODIFIED:20251125T201114Z
+UID:94157-1796751000-1796756400@cfany.org
+SUMMARY:Wealth Management Group Meeting
+DESCRIPTION:Group DescriptionThe Wealth Management (WM) Volunteer Interest Group is a dynamic community dedicated to advancing the expertise\, professionalism\, and innovation of finance professionals serving high-net-worth individuals\, families\, and themselves. Wealth management requires more than just investment expertise—it demands holistic solutions integrating portfolio management\, estate planning\, tax strategies\, behavioral finance\, and risk management. Our mission is to foster a collaborative and forward-thinking environment where investment professionals can enhance their expertise\, engage with top industry leaders\, stay ahead of market trends\, exchange best practices\, and develop leadership opportunities within the CFA Society New York Community. Through roundtables\, workshops\, networking\, and research contributions\, we provide unparalleled access to exclusive insights and a powerful network of professionals shaping the future of wealth management. Our members include professionals seeking to deepen their knowledge and impact. Whether you are an experienced professional or new to the field\, WM empowers you to grow\, lead\, and thrive in delivering exceptional client solutions. \nJoin Group
+URL:https://cfany.org/event/wealth-management-group-meeting-21/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group Meetings,Private Wealth Management,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261208T173000
+DTEND;TZID=America/New_York:20261208T203000
+DTSTAMP:20261101T095804
+CREATED:20260624T154543Z
+LAST-MODIFIED:20260831T193927Z
+UID:99274-1796751000-1796761800@cfany.org
+SUMMARY:The New Investment Playbook: Macro Resilience\, AI\, and the Future of Capital Markets
+DESCRIPTION:OverviewThe investment landscape is undergoing a profound transformation. The Federal Reserve has entered a definitive new era of leadership\, and with this transition comes a fundamental recalibration of global macro strategy. At the same time\, heightened geopolitical uncertainty\, rapid advances in artificial intelligence\, and shifting capital flows are forcing investors to rethink traditional approaches to portfolio construction and risk management. \nCFA Society New York convenes a distinguished panel of investment leaders and market practitioners for a timely discussion on the forces shaping the next decade of capital markets. Moderated by Anthony Scaramucci\, Founder and Managing Partner of SkyBridge Capital\, this panel will explore how institutional investors are adapting to an evolving macroeconomic regime\, technological disruption\, and changing market structures. \nPanelists will examine the implications of the Federal Reserve’s new leadership\, the investment opportunities emerging from artificial intelligence\, the evolution of alternative investments\, and the challenges of preserving and generating alpha in a rapidly changing world. Through an engaging and interactive discussion\, attendees will gain actionable insights into the trends\, risks\, and opportunities expected to define the future of investing. \nIn keeping with CFA Society New York’s mission to deliver industry-leading content\, this event provides a premier forum for investment professionals to engage with leading voices at the intersection of macroeconomics\, innovation\, and capital markets \nAgenda5:30 PM | REGISTRATION \n\n6:00 PM | WELCOMING REMARKS \nStephan Puhlmann\, CFA\, CPA\, Director of Accounting and Finance\, SRCP \n\n6:05 PM | PANEL DISCUSSION \nMODERATOR \nAnthony Scaramucci\, Founder and Managing Partner\, SkyBridge Capital \nPANELIST \nJodie Gunzberg\, CFA\, Managing Partner\, InFi Strategies \nShahrukh Khan\, Editor in Chief\, Cash and Carried \nScott Treacy\, CFA\, Senior Associate\, Campion Capital \n\n7:15 PM | Q&A \n\n7:25 PM | CLOSING REMARKS \nAlton Crooks\, CFA\, Chair\, Business Management Group \n\n7:30 PM | NETWORKING RECEPTION
+URL:https://cfany.org/event/the-new-investment-playbook-macro-resilience-ai-and-the-future-of-capital-markets/
+LOCATION:Hybrid-CFA Society NY\, 1540 Broadway\, 10th Fl\, New York\, NY\, 10036\, United States
+CATEGORIES:Business Management,CFA Society NY Event,Conference / Seminar,Global Passport,Student,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2026/06/ChatGPT-Image-Jun-24-2026-at-03_35_51-PM.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261209T080000
+DTEND;TZID=America/New_York:20261211T170000
+DTSTAMP:20261101T095804
+CREATED:20260624T172855Z
+LAST-MODIFIED:20260629T185000Z
+UID:99311-1796803200-1797008400@cfany.org
+SUMMARY:Financial & Valuation Modeling - Wall Street Prep
+DESCRIPTION:Presented by Wall Street Prep | Hosted at CFA Society New York \nBoot Camp DetailsOverviewScheduleAdditional InformationOverviewThis boot camp is an intensive virtual training program where trainees learn financial and valuation modeling in Excel using an intuitive\, step-by-step approach. Participants will use real case studies to build financial models from scratch the way it is done at financial institutions. The program is a synthesis of Excel modeling\, navigating through various financial reports\, and the application of accounting\, corporate finance\, and valuation courses.Schedule\nEach day of this boot camp will run from 9a-5p (ET). There will be a 1-hour lunch break as well as a midmorning and midafternoon break daily. \nAdditional Information\nWhat’s Included \nComprehensive training materials (manuals and online exercises)\, Detailed reusable modifiable Excel model templates\, Unlimited e-mail support for content-related questions for 12 months post-seminar. \n\nPrerequisites \nThis seminar presumes knowledge of financial accounting (at least 1 semester or equivalent). Participants without this background must enroll in and complete the Accounting Crash Course prior to attending the seminar. \n\nCPE Credit\nEarn 27 CPE Credits for this Seminar \nWall Street Prep is registered with the National Association of State Boards of Accountancy (NASBA) as a sponsor of continuing professional education on the National Registry of CPE Sponsors. State boards of accountancy have final authority on the acceptance of individual courses for CPE credit. Complaints regarding registered sponsors may be submitted to the National Registry of CPE Sponsors through its website: www.nasbaregistry.org. \n\nEarn a Certification in Financial Modeling \nCompletion of this boot camp will earn you a Certification in Financial & Valuation Modeling from Wall Street’s #1 training firm. This globally recognized certification demonstrates proficiency in Financial Modeling\, DCF\, Comps and M&A. \nFull Boot Camp (Recommended)$$2\,799Days 1 and 2 Only$$2\,299Early Registration Ends November 9.                      $200 will be added to registration options after November 9.                                            Early Registration Ends November 9.                      $200 will be added to registration options after November 9.                                            AgendaPlease note: Each daily session goes from 8AM – 5PM EST \n\nDay 1 | FINANCIAL STATEMENT MODELING \nYou will develop a 3-statement model completely from scratch\, inputting historical data and assumptions to project out financial statements by selecting\, locating\, and developing appropriate projection drivers. \n\nAI in Practice → We’ll use AI to interrogate projection assumptions\, surface logical inconsistencies in the model\, and pressure-test whether the drivers you’ve chosen actually hold up — so you build with conviction\, not just speed. \n\n\nDay 2 | DCF MODELING \nParticipants learn how to value the company step-by-step\, including how to estimate the weighted average cost of capital (WACC) in the real world\, how to implement commonly used approaches to calculating terminal value\, and how to use data tables to analyze a broad range of scenarios given different assumptions. \n\nAI in Practice →We’ll bring AI into the valuation process to challenge key inputs\, explore how sensitive your output is to WACC and terminal value assumptions\, and stress-test the story your model is telling before you’re asked to defend it. \n\n\nDay 3 | M&A MODELING \nParticipants will build a merger model in Excel to reflect the pro forma impact of various acquisition scenarios. Key topics covered include a quick test of accretion / dilution in all-stock deals\, pricing structures (exchange ratios\, collars\, “walk-away” rights)\, purchase accounting\, and the step-by-step allocation of purchase price. \n\nAI in Practice →We’ll use AI to sharpen thinking around deal structure\, probe the assumptions behind accretion and dilution\, and evaluate whether a transaction genuinely creates value — or just appears to on paper. \n\n\nOnline | PRE-SEMINAR EXCEL TRAINING \n\nThis boot camp assumes proficiency in Excel. Enrollment includes access to our popular Excel Crash Course for those who need an Excel refresher. \n\n\nOnline | POST-SEMINAR ONLINE ACCESS \n\nEnrollment includes lifetime access to the following online course(s): Financial Statement Modeling\, DCF Modeling\, Comps Modeling\, M&A Modeling\, LBO Modeling \n\nView Full Syllabus\n×Course Syllabus\nFinancial Statement Modeling\nYou will develop a 3-statement model completely from scratch\, inputting historical data and assumptions to project out financial statements by selecting\, locating\, and developing appropriate projection drivers. \nAI in Practice → We’ll use AI to interrogate projection assumptions\, surface logical inconsistencies in the model\, and pressure-test whether the drivers you’ve chosen actually hold up — so you build with conviction\, not just speed. \nReview key Excel skills for financial modeling \n\nBasic Excel techniques and keyboard shortcuts\nThe most accurate way to perform Excel’s basic functions without the mouse\nCustomize Excel’s default settings for effective modeling\n\nLearn to format and structure financial models to limit errors and simplify auditing \n\nStandard modeling structures and formulas\nBest practices in modeling\nLearn the correct way to check models for errors\, accuracy and integrity\nCheck and fix circular reference and iteration problems (#REF)\nTools for formula checking and auditing\n\nLearn how to present financial statement model \n\nCreate a ratios page\nPrepare a model for distribution\nLearn summary and sensitivity analysis using data tables\n\nFinancial statement model development \n\nLearn to build projection drivers\nLearn to integrate assumptions into financial models – learn what makes a good assumption\nBuild core statements:\n\nCash flow statement\nBalance sheet\nIncome statement\n\n\nBuild supporting schedules:\n\nDebt schedule\nWorking capital\nInterest schedule\nRetained earnings\nPP&E analysis\n\n\nUnderstand the interconnectivity of the core financial statements and learn how the cash flow statement\, income statement\, and balance sheet are linked.\nLearn to apply automatic “balance checks”\nUnderstand treatment of non-recurring charges and tax implications on financial models\nUnderstand implications of new FASB regulations on financial models used by investment banks and other financial institutions.\n\n\nDCF Modeling\nParticipants learn how to value the company step-by-step\, including how to estimate the weighted average cost of capital (WACC) in the real world\, how to implement commonly used approaches to calculating terminal value\, and how to use data tables to analyze a broad range of scenarios given different assumptions. \n\nAI in Practice → We’ll bring AI into the valuation process to challenge key inputs\, explore how sensitive your output is to WACC and terminal value assumptions\, and stress-test the story your model is telling before you’re asked to defend it.\n\nValuation methodologies deconstructed \n\nLearn market-based valuation\, including comparable company analysis and comparable transaction analysis using appropriate equity and enterprise value multiples (PE\, EV/EBITDA\, etc.)\nIntrinsic valuation\, including DCF and LBO (floor) valuation\nPresentation of valuation results using sensitivity analysis and data tables\n\nEnterprise value relationships \n\nParticipants learn to identify and analyze the elements of the financial statement that are key to the value of an enterprise\, including:\n\nMarket capitalization\nEnterprise value\nOptions\nPreferred stock\nMinority interests\nDebt\nCash and marketable securities\nTreasury Stock Method of Calculating Diluted Shares Outstanding\n\n\n\nCalculate free cash flows using the unlevered valuation approach \n\nUse previously built model to derive unlevered earnings and unlevered free cash flow\nHandle working capital items\, deferred taxes and long-term accruals \n\nDiscount the cash flows \n\nLearn how to derive a discount rate by deriving the cost of debt and the cost of equity\nDerive the cost of capital using CAPM\nSelect the correct discount rates\n\nCalculate the value \n\nEstimating terminal value\nCalculating enterprise value\nUsing the enterprise value to determine implied share prices\n\nSensitivity analysis \n\nAnalyze key input assumptions at various sensitivities\n\n\nM&A Modeling\nParticipants will build a merger model in Excel to reflect the pro forma impact of various acquisition scenarios. Key topics covered include a quick test of accretion / dilution in all-stock deals\, pricing structures (exchange ratios\, collars\, “walk-away” rights)\, purchase accounting\, and the step-by-step allocation of purchase price. \n\n AI in Practice → We’ll use AI to sharpen thinking around deal structure\, probe the assumptions behind accretion and dilution\, and evaluate whether a transaction genuinely creates value — or just appears to on paper.\n\nBuilding a robust merger model \n\nSetting up a control area for assumptions\nInputting deal assumptions (% cash vs. stock considerations\, purchase premium\, asset write-ups\, advisory fees\, financing fees\, and severance fees)\nCalculating shares outstanding using the treasury stock method\nAppropriate treatment of convertible securities\nAllocating purchase price and calculating goodwill\nPreparing the pushed-down balance sheet\nMaking pro forma balance sheet adjustments\nCalculating sources & uses of funds\nInputting operating & synergy projections\nCalculating the stub year period\nBuilding a pro forma income statement and making appropriate deal-related adjustments to arrive at accretion/dilution per share\nError-checking a merger model and inserting circuit breaker switches where appropriate\nSensitivity analysis: EPS accretion/dilution in stock vs. cash deal; interest rate assumptions\, premium paid\nPre-tax synergies required to break-even\, and break-even PE analysis\nRevenue\, EBITDA\, and Net Income contribution analysis\n\nAdvanced merger accounting \n\nUnderstanding the differences between asset sales (including 338h10 elections) and stock sales\nTaxation issues\, including deferred taxes created by the step-up of asset values\nLegal considerations in acquisitions\n\nCloseAdditional DetailsWho is this boot camp for? \n\nInvestment banking analysts and associates\nPrivate equity\, asset management and hedge fund associates\nCorporate finance and business development professionals\nMBA students and business undergraduates\nAnyone seeking to improve their financial modeling skill set
+URL:https://cfany.org/event/financial-valuation-modeling-wall-street-prep-7/
+LOCATION:CFA Society New York\, 1540 Broadway\, New York City\, NY\, 10036\, United States
+CATEGORIES:CFA Society NY Event,Other Industry Event,Other Industry Events,Virtual Events & Programming
+ATTACH;FMTTYPE=image/jpeg:https://cfany.org/wp-content/uploads/2026/06/logo_WallStreetPrep-560x217-1.jpg
+GEO:40.7579565;-73.9846558
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=CFA Society New York 1540 Broadway New York City NY 10036 United States;X-APPLE-RADIUS=500;X-TITLE=1540 Broadway:geo:-73.9846558,40.7579565
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261209T180000
+DTEND;TZID=America/New_York:20261209T190000
+DTSTAMP:20261101T095804
+CREATED:20261015T202832Z
+LAST-MODIFIED:20261015T203000Z
+UID:102459-1796839200-1796842800@cfany.org
+SUMMARY:Professional Development & Leadership Group Meeting
+DESCRIPTION:Group DescriptionThe Professional Development & Leadership (PDL) Volunteer Interest Group plays a critical role in helping investment professionals successfully navigate career transitions\, build leadership skills\, and future-proof themselves in a rapidly changing industry. This group is designed for professionals exploring career transitions\, mentoring opportunities\, seeking leadership opportunities\, strengthening workplace skills\, or simply building their long-term career strategy. Given the evolution of the investment profession\, impacted by technology\, globalization\, regulatory changes\, and new skill demands\, career development has become an increasingly urgent priority.\n\n JOIN THIS GROUP
+URL:https://cfany.org/event/copy-of-professional-development-leadership-group-meeting/
+LOCATION:Virtual Only
+CATEGORIES:CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group Meetings,Professional Development & Leadership,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261215T120000
+DTEND;TZID=America/New_York:20261215T130000
+DTSTAMP:20261101T095804
+CREATED:20251125T192727Z
+LAST-MODIFIED:20260331T145445Z
+UID:94063-1797336000-1797339600@cfany.org
+SUMMARY:Alternative Investment Group Meeting
+DESCRIPTION:Group DescriptionThe mission of the Alternative Investments Group is to provide a forum for the discussion and analysis of nontraditional investment approaches\, including all forms of hedge funds\, funds of funds\, private equity\, structured products\, institutional real estate\, and other investments not typically available in the retail marketplace. \nIf you would like to participate in this group or attend industry events and networking opportunities join our LinkedIn Group. \n JOIN THIS GROUP
+URL:https://cfany.org/event/alternative-investment-group-meeting-40/
+LOCATION:Virtual Only
+CATEGORIES:Alternative Investments,CFA Society NY Event,Committee Meeting,Free for Members,Group Meeting,Interest Group,Interest Group Meetings,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/04/VIG-Tile.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T203000
+DTSTAMP:20261101T095804
+CREATED:20261022T205436Z
+LAST-MODIFIED:20261022T205436Z
+UID:102528-1799947800-1799958600@cfany.org
+SUMMARY:2027 New Year Market Outlook
+DESCRIPTION:OverviewThis signature event convenes top industry experts to examine the latest trends shaping today’s financial markets. Attendees will gain valuable insights into the current and forward-looking market environment\, hear perspectives from leading firms and organizations\, and connect with peers across the investment community. Don’t miss this opportunity to stay informed and engaged as we navigate the year ahead. \nAgenda5:30 PM | REGISTRATION \n\n6:00 PM | INTRODUCTION \nLeo Schmidt\, CFA\, Chair of the Institutional Asset Management Group\, CFA Society New York \n\n6:05 PM | PANEL DISCUSSION \nModerator \nPanelists \n\n7:15 PM | Q&A \n\n7:25 PM | CLOSING REMARKS \nLeo Schmidt\, CFA\, Chair of the Institutional Asset Management Group\, CFA Society New York \n\n7:30 PM | NETWORKING RECEPTION \n\nAlcohol service is restricted to attendees 21 years of age or older. Government- issued photo ID  will  be required.Silver Sponsor:Bronze Sponsor:
+URL:https://cfany.org/event/2027-new-year-market-outlook/
+LOCATION:Hybrid-CFA Society NY\, 1540 Broadway\, 10th Fl\, New York\, NY\, 10036\, United States
+CATEGORIES:CFA Society NY Event,Conference / Seminar,Global Passport,Institutional Asset Management,Virtual Events & Programming
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2025/10/mo.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20270126T180000
+DTEND;TZID=America/New_York:20270126T193000
+DTSTAMP:20261101T095804
+CREATED:20260624T183653Z
+LAST-MODIFIED:20261023T182850Z
+UID:99334-1800986400-1800991800@cfany.org
+SUMMARY:Leading with Feedback that Motivates Others
+DESCRIPTION:OverviewEffective organizational leaders\, regardless of title\, provide specific and timely feedback to those they interact with to motivate them and to change behavior\, when necessary. During this workshop\, you will review and practice using a simple model for providing meaningful feedback that works\, regardless of whether feedback recipients are subordinates\, peers\, or superiors. \nIn turn\, developing your own skills and fostering a culture of feedback and improvement requires asking for and accepting feedback from others about your own performance. \nDuring this highly interactive workshop\, you will practice giving and receiving feedback that improves individual and team performance. \nLearning Outcomes: \n\nExplain the value of providing immediate feedback to motivate others\nDescribe and explain the impact of specific behaviors to a feedback recipient\nPractice providing and receiving on-the-spot feedback\nCreate a comfortable environment for providing non-judgmental feedback\n\nAgenda6:00 PM | WELCOMING REMARKS \nBob Wieczorek\, CFA\, Chief XP3RT\, Training and Consulting Consortium\, LLC \n\n6:10 PM | KENOTE SPEAKER \nLaura Smith Dunaief\, CPTM\, CLO and Founder\, CareerCraft \n\n7:10 PM | Q&A \n\n7:25 PM | CLOSING REMARKS \nBob Wieczorek\, CFA\, Chief XP3RT\, Training and Consulting Consortium\, LLC
+URL:https://cfany.org/event/leading-with-feedback-that-motivates-others/
+LOCATION:CFA Society New York\, 1540 Broadway\, New York City\, NY\, 10036\, United States
+CATEGORIES:Career Development,CFA Society NY Event,Conference / Seminar,Global Passport,Professional Development & Leadership,Student
+ATTACH;FMTTYPE=image/png:https://cfany.org/wp-content/uploads/2026/06/Copy-of-web-tile.png
+GEO:40.7579565;-73.9846558
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=CFA Society New York 1540 Broadway New York City NY 10036 United States;X-APPLE-RADIUS=500;X-TITLE=1540 Broadway:geo:-73.9846558,40.7579565
+END:VEVENT
+END:VCALENDAR

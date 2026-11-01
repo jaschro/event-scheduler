@@ -130,3 +130,14 @@ show at one venue into one card listing its times.
 Categories (merged Nov 2026): Art & museums, Tech (incl. science), Wellness (incl.
 outdoors), Film, Stage, Music, Talks, Community, Food & wine, Sports. Older names in
 sources.yaml are folded in automatically. The Miami Beach Botanical Garden is switched off.
+
+## Saved feed copies (feeds/)
+
+Some sites refuse automated fetching but offer an iCal download in a browser. For those,
+a downloaded copy lives in `feeds/` and the source points at it with `url: "file:feeds/…"`:
+
+- `feeds/ccny-ssa.ics`: CCNY Spitzer School of Architecture (site answers 403)
+- `feeds/cfa-ny.ics`: CFA Society New York (robots.txt disallows the iCal export)
+
+They don't update on their own. To refresh, download the feed again and replace the file
+(or hand it to Claude).

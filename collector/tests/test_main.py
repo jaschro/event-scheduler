@@ -27,8 +27,16 @@ class FakeSession:
         raise ConnectionError(f"unreachable: {url}")
 
 
+def offline(cfg):
+    """These tests simulate the network; saved feed copies (file:) would succeed without it."""
+    for s in cfg.sources:
+        if (s.url or "").startswith("file:"):
+            s.enabled = False
+    return cfg
+
+
 def test_run_writes_files_keeps_failed_sources_and_skips_unchanged(tmp_path):
-    cfg = config()
+    cfg = offline(config())
     hello = next(s for s in cfg.sources if s.key == "hello-miami")
     hello.url = "https://feeds.test/hello.ics"
     manatech = next(s for s in cfg.sources if s.key == "manatech")
@@ -73,7 +81,7 @@ def test_run_writes_files_keeps_failed_sources_and_skips_unchanged(tmp_path):
 
 
 def test_run_fails_only_when_every_source_fails(tmp_path):
-    cfg = config()
+    cfg = offline(config())
     rc = run(cfg, tmp_path, now_utc=NOW, session=FakeSession({}), secrets={})
     assert rc == 1
     status = json.loads((tmp_path / "status.json").read_text())

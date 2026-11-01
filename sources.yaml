@@ -336,8 +336,12 @@ sources:
     city: nyc
     kind: talks
     method: ics
-    url: "https://ssa.ccny.cuny.edu/events.ics"
+    url: "file:feeds/ccny-ssa.ics"   # saved copy (site answers 403 to the collector); refresh: download events.ics, replace the file
     page: https://ssa.ccny.cuny.edu/events/
+    filter:
+      fields: title
+      exclude:
+        - "(?i)\\b(info session|school tour|open house|live chat|admissions)\\b"
 
   # feed not verified from here; check on first run
   - key: nyc-columbia-iijs
@@ -384,7 +388,7 @@ sources:
     city: nyc
     kind: talks
     method: ics
-    url: "https://cfany.org/events/?ical=1"
+    url: "file:feeds/cfa-ny.ics"     # saved copy (robots.txt bars the collector); refresh: download the iCal export, replace the file
     page: https://cfany.org/events/
 
 

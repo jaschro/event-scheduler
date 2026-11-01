@@ -58,6 +58,15 @@ def fetch(source, ctx: Context) -> str:
         url = luma_feed_url(source.luma_calendar, ctx)
     if not url:
         raise SourceNotConfigured("no iCal feed URL set in sources.yaml")
+    if url.startswith("file:"):
+        # A saved copy kept in the repo (feeds/), for sites that refuse automated fetching.
+        from pathlib import Path
+
+        path = Path(__file__).resolve().parents[2] / url[len("file:"):]
+        text = path.read_text(encoding="utf-8")
+        if "BEGIN:VCALENDAR" not in text[:2000]:
+            raise ValueError(f"{path.name} is not an iCalendar file")
+        return text
     if url.startswith("webcal://"):
         url = "https://" + url[len("webcal://"):]
     resp = ctx.session.get(url)
