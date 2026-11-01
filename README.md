@@ -6,8 +6,9 @@ See [SPEC.md](SPEC.md) for the full brief.
 
 ## Status
 
-Build step 1 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
-status file and the scheduled workflow. The page comes in step 2.
+Build steps 1-2 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
+status file and scheduled workflow; and the page (day bands, time grid, event blocks,
+popovers, city switch, footer). Google sign-in and the "+" come in step 3.
 
 ## Layout
 
@@ -21,6 +22,7 @@ collector/polite.py       user agent, 1 request/second per host, robots.txt
 collector/tests/          saved samples + expected output per adapter
 data/events.json          output (committed by the workflow)
 data/status.json          per-source result, count, error, last success
+site/                     the page: index.html, app.js, styles.css, config.js
 .github/workflows/collect.yml
 ```
 
@@ -41,6 +43,14 @@ EVENTBRITE_TOKEN=... python -m collector.main          # all sources
 ```bash
 python -m collector.main --only manatech hello-miami   # just some
 ```
+
+View the page locally (serves the repo root so the page finds ../data/):
+
+```bash
+python -m http.server 8000
+```
+
+then open http://localhost:8000/site/
 
 Regenerate an adapter's expected output after an intended change:
 `UPDATE_EXPECTED=1 python -m pytest collector/tests`, then review the diff.
