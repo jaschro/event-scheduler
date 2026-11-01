@@ -822,7 +822,7 @@
   const KIND_LABELS = {
     tech: "Tech", art: "Art & museums", film: "Film", stage: "Stage", music: "Music",
     talks: "Talks", "food and wine": "Food & wine", wellness: "Wellness",
-    community: "Community", sports: "Sports",
+    community: "Community", sports: "Sports", architecture: "Architecture",
   };
 
   function filterKey(city) {

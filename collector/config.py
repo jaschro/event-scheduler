@@ -10,7 +10,7 @@ import yaml
 
 KINDS = {
     "tech", "art", "film", "stage", "music", "talks",
-    "food and wine", "wellness", "community", "sports",
+    "food and wine", "wellness", "community", "sports", "architecture",
 }
 # Merged categories (Nov 2026): older names still accepted and folded in.
 KIND_ALIASES = {"museum": "art", "science": "tech", "outdoors": "wellness"}
