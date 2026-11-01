@@ -9,9 +9,11 @@ from zoneinfo import ZoneInfo
 import yaml
 
 KINDS = {
-    "tech", "museum", "art", "film", "stage", "music", "talks", "science",
-    "food and wine", "wellness", "community", "outdoors", "sports",
+    "tech", "art", "film", "stage", "music", "talks",
+    "food and wine", "wellness", "community", "sports",
 }
+# Merged categories (Nov 2026): older names still accepted and folded in.
+KIND_ALIASES = {"museum": "art", "science": "tech", "outdoors": "wellness"}
 METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster", "wprest"}
 
 DEFAULT_SETTINGS = {
@@ -79,14 +81,14 @@ def load_config(path: str | Path) -> Config:
             key=s["key"],
             name=s["name"],
             city=s["city"],
-            kind=s["kind"],
+            kind=KIND_ALIASES.get(s["kind"], s["kind"]),
             method=s["method"],
             enabled=s.get("enabled", True),
             url=s.get("url"),
             organizer_id=str(s["organizer_id"]) if s.get("organizer_id") else None,
             luma_calendar=s.get("luma_calendar"),
             reader=s.get("reader"),
-            default_minutes=s.get("default_minutes") or by_kind.get(s["kind"]),
+            default_minutes=s.get("default_minutes") or by_kind.get(KIND_ALIASES.get(s["kind"], s["kind"])),
             params=s.get("params") or {},
             page=s.get("page"),
             location=s.get("location"),
