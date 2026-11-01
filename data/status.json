@@ -1,19 +1,19 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T04:56:45+00:00",
+ "generated_at": "2026-11-01T06:00:45+00:00",
  "summary": {
-  "attempted": 15,
-  "ok": 15,
-  "failed": 0,
-  "events": 103
+  "attempted": 35,
+  "ok": 33,
+  "failed": 2,
+  "events": 2386
  },
  "sources": {
   "miamibeach-arts": {
    "name": "City of Miami Beach Arts Calendar",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 25,
    "error": null
@@ -22,8 +22,8 @@
    "name": "Refresh Miami",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 24,
    "error": null
@@ -32,8 +32,8 @@
    "name": "Luma Miami",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 6,
    "error": null
@@ -42,8 +42,8 @@
    "name": "ManaTech",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 3,
    "error": null
@@ -52,8 +52,8 @@
    "name": "Hello Miami",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 4,
    "error": null
@@ -62,8 +62,8 @@
    "name": "Miami AI Hub",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 0,
    "error": null
@@ -72,8 +72,8 @@
    "name": "El Carajo",
    "city": "miami",
    "method": "eventbrite",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 0,
    "error": null
@@ -82,8 +82,8 @@
    "name": "840 Miami",
    "city": "miami",
    "method": "eventbrite",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 1,
    "error": null
@@ -92,8 +92,8 @@
    "name": "Healthyme.Love",
    "city": "miami",
    "method": "eventbrite",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 1,
    "error": null
@@ -102,8 +102,8 @@
    "name": "UM Rosenstiel (Johnson Center)",
    "city": "miami",
    "method": "eventbrite",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 1,
    "error": null
@@ -112,8 +112,8 @@
    "name": "The Bass",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 10,
    "error": null
@@ -122,8 +122,8 @@
    "name": "Jewish Museum of Florida-FIU",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 0,
    "error": null
@@ -132,8 +132,8 @@
    "name": "Frost Science",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 4,
    "error": null
@@ -142,8 +142,8 @@
    "name": "Miami Beach Bandshell",
    "city": "miami",
    "method": "ics",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 8,
    "error": null
@@ -152,17 +152,127 @@
    "name": "Books & Books",
    "city": "miami",
    "method": "eventbrite",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
    "result": "ok",
    "event_count": 17,
+   "error": null
+  },
+  "ica-miami": {
+   "name": "ICA Miami",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 3,
+   "error": null
+  },
+  "oolite": {
+   "name": "Oolite Arts",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 8,
+   "error": null
+  },
+  "o-cinema": {
+   "name": "O Cinema South Beach",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 26,
+   "error": null
+  },
+  "miami-new-drama": {
+   "name": "Miami New Drama (Colony)",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 7,
+   "error": null
+  },
+  "nws": {
+   "name": "New World Center / NWS",
+   "city": "miami",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 5,
+   "error": null
+  },
+  "mbjcc": {
+   "name": "Miami Beach JCC",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 2,
+   "error": null
+  },
+  "mb-botanical": {
+   "name": "Miami Beach Botanical Garden",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 11,
+   "error": null
+  },
+  "rubell": {
+   "name": "Rubell Museum",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 0,
+   "error": null
+  },
+  "gables-cinema": {
+   "name": "Coral Gables Art Cinema",
+   "city": "miami",
+   "method": "jsonld",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 26,
+   "error": null
+  },
+  "arsht": {
+   "name": "Arsht Center",
+   "city": "miami",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 7,
+   "error": null
+  },
+  "ticketmaster-miami": {
+   "name": "Ticketmaster (Miami area)",
+   "city": "miami",
+   "method": "ticketmaster",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 52,
    "error": null
   },
   "pamm": {
    "name": "PAMM",
    "city": "miami",
    "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
@@ -172,111 +282,621 @@
    "name": "Wolfsonian-FIU",
    "city": "miami",
    "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "ica-miami": {
-   "name": "ICA Miami",
-   "city": "miami",
+  "nyc-columbia-law": {
+   "name": "Columbia Law School",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 10,
+   "error": null
+  },
+  "nyc-columbia-business": {
+   "name": "Columbia Business School",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 51,
+   "error": null
+  },
+  "nyc-cbs-real-estate": {
+   "name": "Columbia Business School - Real Estate (Milstein Center)",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 0,
+   "error": null
+  },
+  "nyc-ccny-ssa": {
+   "name": "CCNY Spitzer School of Architecture",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "failed",
+   "event_count": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://ssa.ccny.cuny.edu/events.ics"
+  },
+  "nyc-columbia-iijs": {
+   "name": "Columbia Institute for Israel and Jewish Studies",
+   "city": "nyc",
    "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 2,
+   "error": null
+  },
+  "nyc-yeshiva-u": {
+   "name": "Yeshiva University",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 36,
+   "error": null
+  },
+  "nyc-fordham-jewish": {
+   "name": "Fordham Center for Jewish Studies",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "rubell": {
-   "name": "Rubell Museum",
-   "city": "miami",
+  "nyc-ny-landmarks": {
+   "name": "New York Landmarks Conservancy",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 1,
+   "error": null
+  },
+  "nyc-cfa-ny": {
+   "name": "CFA Society New York",
+   "city": "nyc",
+   "method": "ics",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "failed",
+   "event_count": 0,
+   "error": "RobotsDisallowed: robots.txt disallows https://cfany.org/events/?ical=1"
+  },
+  "nyc-ny-jewish-week": {
+   "name": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "city": "nyc",
+   "method": "tribe",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-columbia-gsapp": {
+   "name": "Columbia GSAPP",
+   "city": "nyc",
    "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "oolite": {
-   "name": "Oolite Arts",
-   "city": "miami",
+  "nyc-cooper-union-arch": {
+   "name": "Cooper Union School of Architecture",
+   "city": "nyc",
    "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "o-cinema": {
-   "name": "O Cinema South Beach",
-   "city": "miami",
+  "nyc-nyu-furman": {
+   "name": "NYU Furman Center",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-pratt-arch": {
+   "name": "Pratt Institute School of Architecture",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-nyu-stern": {
+   "name": "NYU Stern School of Business",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-ai-now": {
+   "name": "AI Now Institute",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-nyu-cds": {
+   "name": "NYU Center for Data Science",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-cornell-tech": {
+   "name": "Cornell Tech",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-cuny-gc": {
+   "name": "Graduate Center, CUNY",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-jts": {
+   "name": "Jewish Theological Seminary (JTS)",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-arch-league": {
+   "name": "Architectural League of New York",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-bwaf": {
+   "name": "Beverly Willis Architecture Foundation",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-aiany": {
+   "name": "Center for Architecture (AIANY)",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-ipa": {
+   "name": "Institute for Public Architecture",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-icaa-ny": {
+   "name": "Institute of Classical Architecture & Art, NY Chapter",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-mas": {
+   "name": "Municipal Art Society of New York",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-ny-building-congress": {
+   "name": "New York Building Congress",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-noma-ny": {
+   "name": "NOMA-NY",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-rpa": {
+   "name": "Regional Plan Association",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-skyscraper-museum": {
+   "name": "The Skyscraper Museum",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-urban-design-forum": {
+   "name": "Urban Design Forum",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-van-alen": {
+   "name": "Van Alen Institute",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-cfr": {
+   "name": "Council on Foreign Relations",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-carnegie-council": {
+   "name": "Carnegie Council for Ethics in International Affairs",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-fpa": {
+   "name": "Foreign Policy Association",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-paley-center": {
+   "name": "Paley Center for Media",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-met": {
+   "name": "Metropolitan Museum of Art",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-moma": {
+   "name": "Museum of Modern Art (MoMA)",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-club-free-time": {
+   "name": "Club Free Time",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-cjh": {
+   "name": "Center for Jewish History",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-yivo": {
+   "name": "YIVO Institute for Jewish Research",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-tikvah": {
+   "name": "Tikvah Fund",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-hartman": {
+   "name": "Shalom Hartman Institute of North America",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-ajc": {
+   "name": "American Jewish Committee (AJC)",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-jewish-currents": {
+   "name": "Jewish Currents",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-uja": {
+   "name": "UJA-Federation of New York",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-ncjw-ny": {
+   "name": "National Council of Jewish Women NY",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-congress-jewish-culture": {
+   "name": "Congress for Jewish Culture",
+   "city": "nyc",
+   "method": "custom",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-columbia-calendar": {
+   "name": "Columbia University (general calendar)",
+   "city": "nyc",
    "method": "browser",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "gables-cinema": {
-   "name": "Coral Gables Art Cinema",
-   "city": "miami",
+  "nyc-columbia-sipa": {
+   "name": "Columbia SIPA",
+   "city": "nyc",
    "method": "browser",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "arsht": {
-   "name": "Arsht Center",
-   "city": "miami",
-   "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": null,
-   "result": "skipped",
-   "event_count": 0,
-   "error": "disabled in sources.yaml"
-  },
-  "miami-new-drama": {
-   "name": "Miami New Drama (Colony)",
-   "city": "miami",
-   "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
-   "last_success": null,
-   "result": "skipped",
-   "event_count": 0,
-   "error": "disabled in sources.yaml"
-  },
-  "nws": {
-   "name": "New World Center / NWS",
-   "city": "miami",
+  "nyc-parsons": {
+   "name": "The New School / Parsons",
+   "city": "nyc",
    "method": "browser",
-   "last_run": "2026-11-01T04:56:45+00:00",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "mbjcc": {
-   "name": "Miami Beach JCC",
-   "city": "miami",
-   "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+  "nyc-ohny": {
+   "name": "Open House New York",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
   },
-  "mb-botanical": {
-   "name": "Miami Beach Botanical Garden",
-   "city": "miami",
-   "method": "custom",
-   "last_run": "2026-11-01T04:56:45+00:00",
+  "nyc-storefront": {
+   "name": "Storefront for Art and Architecture",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
    "last_success": null,
    "result": "skipped",
    "event_count": 0,
    "error": "disabled in sources.yaml"
+  },
+  "nyc-asia-society": {
+   "name": "Asia Society (New York)",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-econ-club-ny": {
+   "name": "Economic Club of New York",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-brooklyn-museum": {
+   "name": "Brooklyn Museum",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-92ny": {
+   "name": "92nd Street Y (92NY)",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-nypl": {
+   "name": "New York Public Library",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-thoughtgallery": {
+   "name": "ThoughtGallery",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "nyc-mjh": {
+   "name": "Museum of Jewish Heritage",
+   "city": "nyc",
+   "method": "browser",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": null,
+   "result": "skipped",
+   "event_count": 0,
+   "error": "disabled in sources.yaml"
+  },
+  "ticketmaster-nyc": {
+   "name": "Ticketmaster (New York)",
+   "city": "nyc",
+   "method": "ticketmaster",
+   "last_run": "2026-11-01T06:00:45+00:00",
+   "last_success": "2026-11-01T06:00:45+00:00",
+   "result": "ok",
+   "event_count": 2037,
+   "error": null
   }
  }
 }
