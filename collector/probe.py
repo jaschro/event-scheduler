@@ -26,24 +26,22 @@ BROWSER_KEYS = {"o-cinema", "gables-cinema", "nws"}
 # Round 2: specific follow-up URLs per source (feeds, detail pages, alternate hosts).
 EXTRA_URLS = {
     "gables-cinema": [
-        "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=d14c295b-aa15-457f-8923-60a571db98a8&",
-        "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&",
+        "https://prod3.agileticketing.net/websales/feed.ashx?guid=1e59984b-ce2f-4c41-87f7-3f13ba11a892&showslist=true&withmedia=false&format=json&v=latest",
+        "https://gablescinema.com/calendar/",
     ],
-    "pamm": ["https://www.pamm.org/wp-json/", "https://www.pamm.org/wp-json/wp/v2/types", "https://www.pamm.org/sitemap_index.xml"],
-    "wolfsonian": ["http://wolfsonian.org/", "https://wolfsonian.fiu.edu/"],
-    "miami-new-drama": [
-        "https://tickets.miaminewdrama.org/miaminewdrama/api/v3/events",
-        "https://tickets.miaminewdrama.org/miaminewdrama/api/v3/instances",
+    "pamm": [
+        "https://www.pamm.org/wp-json/wp/v2/event?per_page=30&orderby=date",
+        "https://www.pamm.org/wp-json/wp/v2/types/event",
     ],
-    "mbjcc": ["https://mbjcc.org/sitemap.xml", "https://mbjcc.org/events/mega-game-night/"],
-    "nws": [
-        "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/music-in-motion/",
-        "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/debussys-influence/",
+    "mbjcc": [
+        "https://mbjcc.org/sitemap/post-sitemap.xml",
+        "https://mbjcc.org/wp-json/wp/v2/types",
+        "https://mbjcc.org/wp-json/wp/v2/posts?per_page=20&search=event",
+        "https://mbjcc.org/events/",
     ],
-    "arsht": ["https://www.arshtcenter.org/robots.txt"],
 }
 # Round 2: sources to render in a browser, capturing every XHR/fetch response.
-BROWSER2_KEYS = {"arsht"}
+BROWSER2_KEYS = {"gables-cinema", "mbjcc"}
 EVENT_WORDS = re.compile(r"event|exhibit|show|performance|program|calendar|film|concert", re.I)
 
 
@@ -164,7 +162,7 @@ def render(src, d: Path) -> dict:
 
 
 def extra(src, session, out: Path) -> dict:
-    d = out / src.key / "extra3"
+    d = out / src.key / "extra4"
     res = []
     for i, url in enumerate(EXTRA_URLS.get(src.key, []), 1):
         r = try_get(session, url, check_robots=not url.endswith("robots.txt"))
@@ -174,7 +172,7 @@ def extra(src, session, out: Path) -> dict:
             body = r["resp"].text
             ext = "json" if "json" in r["type"] else ("ics" if "calendar" in r["type"] else ("xml" if "xml" in r["type"] else "html"))
             save(d / f"x{i:02d}.{ext}", body)
-            entry["file"] = f"extra3/x{i:02d}.{ext}"
+            entry["file"] = f"extra4/x{i:02d}.{ext}"
             entry["bytes"] = len(body)
             if ext == "html":
                 entry["jsonld_events"] = len(find_events(body))
@@ -186,7 +184,7 @@ def render2(src, out: Path) -> dict:
     """Render, accept cookie banners, scroll, and record every XHR/fetch response."""
     from playwright.sync_api import sync_playwright
 
-    d = out / src.key / "browser3"
+    d = out / src.key / "browser4"
     result: dict = {"requests": []}
     with sync_playwright() as p:
         b = p.chromium.launch()
@@ -271,7 +269,7 @@ def main(argv=None) -> int:
             summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS))
         except Exception as e:  # noqa: BLE001
             summary.append({"key": src.key, "error": f"{type(e).__name__}: {e}"[:300]})
-    save(out / ("summary3.json" if args.round2 else "summary.json"), summary)
+    save(out / ("summary4.json" if args.round2 else "summary.json"), summary)
     for s in summary:
         print(json.dumps({k: s.get(k) for k in ("key", "jsonld_events", "tribe_api", "wordpress")})[:300])
     return 0
