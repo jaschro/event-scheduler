@@ -279,6 +279,26 @@ button { font: inherit; color: inherit; }
 }
 .cal-banner.error { color: var(--now); }
 
+/* "+N more" */
+.block.more {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: inset 0 0 0 1px var(--line-strong), 0 0 0 1px var(--bg);
+  font-weight: 600;
+  justify-content: center;
+}
+.more-list { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 3px; }
+.more-item {
+  width: 100%; display: grid; grid-template-columns: auto 1fr; column-gap: 6px; text-align: left;
+  border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; font-size: 12px;
+  background: var(--kb, var(--surface)); color: var(--ki, var(--text)); position: relative;
+}
+.more-item.cal { background: var(--gc); color: #fff; }
+.more-item .b-time { font-weight: 600; }
+.more-item .b-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.more-item .b-venue { grid-column: 2; font-size: 11px; opacity: 0.8; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.more-item .b-check { position: absolute; right: 8px; top: 4px; }
+
 /* ---------- popover ---------- */
 
 .popover {

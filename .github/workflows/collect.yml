@@ -72,6 +72,9 @@ jobs:
           mkdir -p _site/data
           cp -r site/. _site/
           cp data/events.json data/status.json _site/data/
+          # Version the page's own files so browsers and the Pages cache pick up each publish.
+          v="${GITHUB_SHA::8}"
+          sed -i -E "s#(href|src)=\"(styles\.css|config\.js|app\.js)\"#\1=\"\2?v=$v\"#g" _site/index.html
 
       - name: Upload Pages artifact
         if: steps.site.outputs.has_site == 'true'

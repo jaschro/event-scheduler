@@ -106,4 +106,5 @@ def test_timed_entry_slots_collapse_to_one_per_day():
     out = collapse_timed_entry(slots + show)
     balloon = [e for e in out if e.title == "Balloon Museum"]
     assert len(balloon) == 1 and balloon[0].description.startswith("Timed entry: 16 entry times")
+    assert balloon[0].all_day and not isinstance(balloon[0].start, datetime)  # goes in the all-day strip
     assert len([e for e in out if e.title == "Hamilton"]) == 2  # real performances stay separate
