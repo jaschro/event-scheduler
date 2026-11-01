@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T06:18:35+00:00",
+ "generated_at": "2026-11-01T13:55:52+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -77,48 +77,6 @@
     "text": null
    },
    "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "8cbafdfffc58fe03",
-   "title": "ALEGRIA HALLOWEEN WEEKEND / ALEGRIA + VIVA, DJ Rob Phillips, DJ Jerac",
-   "venue": "Palladium Times Square",
-   "kind": "community",
-   "start": "2026-10-31T22:00:00-04:00",
-   "end": "2026-11-01T14:00:00-05:00",
-   "all_day": false,
-   "description": "ALEGRIA HALLOWEEN WEEKEND 2026 / ALEGRIA + VIVAALEGRIA HALLOWEEN WEEKEND NYC 2026 Halloween falls on a Saturday this year, and ALEGRIA is ready to celebrate with the return of one of our biggest and most anticipated weekends of the year! Join us on Saturday, October 31st --- Halloween Night --- for ALEGRIA HALLOWEEN, followed by VIVA Afterhours on Sunday morning, November 1st. Two back-to-back events, four incredible DJs and 16 hours of nonstop music celebrating Halloween in New York City. For more than two decades, ALEGRIA HALLOWEEN has become a NYC tradition, known for its incredible…",
-   "url": "https://www.ticketweb.com/event/alegria-halloween-weekend-alegria-palladium-times-square-tickets/14285164",
-   "location": "1515 Broadway, New York City",
-   "price": {
-    "free": false,
-    "min": 76.15,
-    "text": "$76 – $220"
-   },
-   "source": "ticketmaster-nyc",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "a4977ac757e35312",
-   "title": "Reggae Fest Halloween at Brooklyn Paramount $5000 Costume Contest",
-   "venue": "Brooklyn Paramount",
-   "kind": "music",
-   "start": "2026-10-31T23:30:00-04:00",
-   "end": "2026-11-01T04:00:00-05:00",
-   "all_day": false,
-   "description": "EPIC LEAGUE ENTERTAINMENT\nPRESENTS\nREGGAE FEST HALLOWEEN COSTUME PARTY\n\n$5000 COSTUME CONTEST\n\nPARTY FROM 11:30PM TO 4AM\n\nDANCEHALL * REGGAE * SOCA * AFROBEATS AND MORE\n\nDRESSCODE: COSTUMES ARE MANDATORY. IF YOU DO NOT HAVE A FULL COSTUME THE DRESSCODE IS STILL IN EFFECT. YOU WILL HAVE TO PAY $50 UPCHARGE AT THE BOX OFFICE (EVEN IF YOU HAVE A TICKET) IF YOU DO NOT HAVE ON A FULL CUSTOME. WEARING A BASIC MASK IS NOT A FULL COST",
-   "url": "https://www.universe.com/events/reggae-fest-halloween-at-brooklyn-paramount-5000-costume-contest-tickets-17NW32?ref=ticketmaster",
-   "location": "385 Flatbush Ave. Extension, Brooklyn",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "ticketmaster-nyc",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "nyc"
@@ -206,27 +164,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
-  },
-  {
-   "id": "614edb433a65424f",
-   "title": "Madison Square Garden Tour Experience",
-   "venue": "Madison Square Garden",
-   "kind": "community",
-   "start": "2026-11-01T00:00:00-04:00",
-   "end": "2026-11-02T00:00:00-05:00",
-   "all_day": true,
-   "description": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). Access to the Knicks and Rangers locker rooms may be restricted due to venue activity. Tour schedule and content subject to change without notice.",
-   "url": "https://www.ticketmaster.com/madison-square-garden-tour-experience-new-york-new-york-11-01-2026/event/3B00645191C1284E",
-   "location": "7th Ave & 32nd Street, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "ticketmaster-nyc",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
   },
   {
    "id": "01495bb31d6a121a",
