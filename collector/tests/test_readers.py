@@ -208,3 +208,40 @@ def test_club_free_time_jsonld():
     events = run_adapter(jsonld, [(url, page("clubfreetime.html"))], cfg, "nyc-club-free-time")
     assert len(events) > 10
     check_expected("clubfreetime", events)
+
+
+LISTING_PAGES = {
+    "nyc-cooper-union-arch": "listing_cooper-union-arch.html",
+    "nyc-nyu-stern": "listing_nyu-stern.html",
+    "nyc-aiany": "listing_aiany.html",
+    "nyc-mas": "listing_mas.html",
+    "nyc-rpa": "listing_rpa.html",
+    "nyc-skyscraper-museum": "listing_skyscraper-museum.html",
+    "nyc-cfr": "listing_cfr.html",
+    "nyc-carnegie-council": "listing_carnegie-council.html",
+    "nyc-paley-center": "listing_paley-center.html",
+    "nyc-cjh": "listing_cjh.html",
+    "nyc-yivo": "listing_yivo.html",
+}
+
+
+def test_listing_reader_pages():
+    """The general listing reader against each NYC host's saved page."""
+    import pytest
+
+    cfg = config()
+    results = {}
+    for key, name in LISTING_PAGES.items():
+        events = run_adapter(custom, page(name), cfg, key)
+        results[key] = events
+        assert all(e["city"] == "nyc" and e["title"] for e in events), key
+    # Spot checks against what the pages show.
+    gct = [e for e in results["nyc-mas"] if e["title"] == "Grand Central Terminal"]
+    assert "2026-11-04T11:00:00-05:00" in [e["start"] for e in gct]
+    assert all(e["price"]["min"] == 15.0 for e in gct)
+    assert any(e["title"].startswith("Fire and Clay") and e["start"] == "2026-11-10T18:00:00-05:00"
+               for e in results["nyc-skyscraper-museum"])
+    assert any(e["start"] == "2026-11-14T11:00:00-05:00" and e["end"] == "2026-11-14T16:00:00-05:00"
+               for e in results["nyc-rpa"])
+    assert len(results["nyc-aiany"]) >= 5
+    check_expected("listing_nyc", {k: [list(t) for t in summary(v)] for k, v in results.items()})
