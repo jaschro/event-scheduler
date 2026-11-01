@@ -297,6 +297,14 @@ sources:
     method: ics
     url: "https://groups.gsb.columbia.edu/ical/cbs/ical_cbs.ics"
     page: https://events.business.columbia.edu/
+    filter:
+      fields: title     # match titles only; real talks mention "recruiting" etc. in descriptions
+      exclude:
+        - "(?i)\\b(drop-in|advising|counseling|office hours)\\b"
+        - "(?i)\\bexecutive education\\b|\\bmodeling course\\b|\\bheadshots?\\b"
+        - "(?i)\\b(team lunch|training|technicals prep|reschedule[d]?)\\b"
+        - "(?i)\\btrek\\b|\\brecruiting\\b|^AMA:|bone marrow drive"
+        - "(?i)^(beijing|chicago|los angeles|south florida|san francisco|boston|washington|london|hong kong|miami)\\s*:"
 
   - key: nyc-cbs-real-estate
     name: "Columbia Business School - Real Estate (Milstein Center)"
@@ -319,8 +327,8 @@ sources:
     name: "Columbia Institute for Israel and Jewish Studies"
     city: nyc
     kind: talks
-    method: ics
-    url: "https://www.iijs.columbia.edu/upcoming-events?format=ical"
+    method: custom          # Squarespace site: its events collection as JSON (?format=ical returns HTML)
+    reader: squarespace
     page: https://www.iijs.columbia.edu/upcoming-events
 
   - key: nyc-yeshiva-u
@@ -429,7 +437,7 @@ sources:
     aggregator: true
     priority: 5
     page: https://www.ticketmaster.com/discover/new-york
-    params: {latlong: "40.7549,-73.9840", radius: 8}    # Manhattan, nearby Brooklyn/Queens
+    params: {latlong: "40.7549,-73.9840", radius: 6}    # Manhattan and nearby Brooklyn/Queens (8 mi reached NJ)
     filter:
       exclude:
         - "(?i)\\bparking\\b"

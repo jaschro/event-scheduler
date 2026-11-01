@@ -168,7 +168,7 @@ def in_window(event: dict[str, Any], now: datetime, window_end: datetime, defaul
 def passes_filter(event: dict[str, Any], rules: dict[str, list[str]]) -> bool:
     if not rules:
         return True
-    hay = f"{event['title']}\n{event['description']}"
+    hay = event["title"] if rules.get("fields") == "title" else f"{event['title']}\n{event['description']}"
     include = rules.get("include") or []
     exclude = rules.get("exclude") or []
     if include and not any(re.search(p, hay) for p in include):

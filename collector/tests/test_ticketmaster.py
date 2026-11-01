@@ -75,3 +75,35 @@ def test_venue_listing_wins_and_borrows_ticketmaster_time():
     assert winner["source"] == "arsht" and winner["also_listed_by"] == ["ticketmaster-miami"]
     assert winner["all_day"] is False and winner["start"] == "2026-11-12T20:00:00-05:00"  # time borrowed
     assert winner["price"]["min"] == 45.0  # gap filled
+
+
+def test_real_sample_page():
+    """A saved Discovery API response for the Miami area (key removed)."""
+    import json
+
+    from .helpers import FIXTURES, check_expected
+
+    payload = json.loads((FIXTURES / "ticketmaster_miami_sample.json").read_text(encoding="utf-8"))
+    assert "apikey" not in json.dumps(payload).lower()
+    cfg = config()
+    events = run_adapter(ticketmaster, payload, cfg, "ticketmaster-miami")
+    assert events and all(e["venue"] and e["venue"] != "Ticketmaster (Miami area)" for e in events)
+    assert not any("parking" in e["title"].lower() for e in events)
+    check_expected("ticketmaster_miami", events)
+
+
+def test_timed_entry_slots_collapse_to_one_per_day():
+    from datetime import datetime
+
+    from collector.adapters.ticketmaster import collapse_timed_entry
+    from collector.normalize import RawEvent
+
+    slots = [RawEvent(source_id=f"B{i}", title="Balloon Museum", venue="Balloon Museum NYC",
+                      start=datetime(2026, 11, 5, 10, 0) .replace(minute=0, hour=10 + i // 2), end=None)
+             for i in range(16)]
+    show = [RawEvent(source_id="S1", title="Hamilton", venue="Richard Rodgers Theatre", start=datetime(2026, 11, 5, 14)),
+            RawEvent(source_id="S2", title="Hamilton", venue="Richard Rodgers Theatre", start=datetime(2026, 11, 5, 20))]
+    out = collapse_timed_entry(slots + show)
+    balloon = [e for e in out if e.title == "Balloon Museum"]
+    assert len(balloon) == 1 and balloon[0].description.startswith("Timed entry: 16 entry times")
+    assert len([e for e in out if e.title == "Hamilton"]) == 2  # real performances stay separate

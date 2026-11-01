@@ -31,6 +31,7 @@ SEGMENT_KIND = {
 GENRE_KIND = {"comedy": "stage", "theatre": "stage", "dance": "stage", "opera": "music",
               "classical": "music", "fine art": "art", "children's theatre": "stage", "lecture/seminar": "talks"}
 SKIP_STATUS = {"cancelled", "canceled", "postponed", "offsale"}
+TIMED_ENTRY_MIN = 4  # this many same-title slots at one venue on one day = timed-entry tickets
 
 
 def _utc(dt: datetime) -> str:
@@ -99,6 +100,29 @@ def _start(dates: dict[str, Any]):
     return None
 
 
+def collapse_timed_entry(events: list[RawEvent]) -> list[RawEvent]:
+    """Attractions sell a ticket per entry slot (every 15-30 minutes); show one item per day instead."""
+    groups: dict[tuple, list[RawEvent]] = {}
+    for ev in events:
+        day = ev.start.date() if isinstance(ev.start, datetime) else ev.start
+        groups.setdefault((ev.title.casefold(), (ev.venue or "").casefold(), day), []).append(ev)
+    out: list[RawEvent] = []
+    for group in groups.values():
+        timed = [e for e in group if isinstance(e.start, datetime)]
+        if len(timed) < TIMED_ENTRY_MIN:
+            out += group
+            continue
+        timed.sort(key=lambda e: e.start)
+        first, last = timed[0], timed[-1]
+        span = f"{first.start:%-I:%M %p} – {last.start:%-I:%M %p}"
+        note = f"Timed entry: {len(timed)} entry times, {span}."
+        first.end = last.end or last.start
+        first.source_id = f"{first.source_id}@day"
+        first.description = f"{note}\n\n{first.description}" if first.description else note
+        out.append(first)
+    return out
+
+
 def parse(payload: list[dict[str, Any]], source, ctx: Context) -> list[RawEvent]:
     out: list[RawEvent] = []
     seen: set[str] = set()
@@ -143,4 +167,4 @@ def parse(payload: list[dict[str, Any]], source, ctx: Context) -> list[RawEvent]
                 price_min=float(low) if low is not None else None,
                 price_text=text,
             ))
-    return out
+    return collapse_timed_entry(out)
