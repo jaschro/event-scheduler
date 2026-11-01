@@ -168,4 +168,17 @@ def parse(payload: list[dict[str, Any]], source, ctx: Context) -> list[RawEvent]
                 price_min=float(low) if low is not None else None,
                 price_text=text,
             ))
-    return collapse_timed_entry(out)
+    return collapse_timed_entry(only_listed_venues(out, source))
+
+
+def only_listed_venues(events: list[RawEvent], source) -> list[RawEvent]:
+    """Keep only events at venues we already follow (params.venues: regexes on the venue name).
+
+    Ticketmaster covers everything it sells in an area; the point here is the hosts on our
+    own lists, so sports, stadium tours, nightly shows and clubs elsewhere are left out."""
+    import re
+
+    patterns = [re.compile(p, re.I) for p in (source.params.get("venues") or [])]
+    if not patterns:
+        return events
+    return [e for e in events if e.venue and any(p.search(e.venue) for p in patterns)]
