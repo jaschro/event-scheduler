@@ -250,6 +250,68 @@
     return placed;
   }
 
+  // ---------- card columns (venue events) ----------
+  //
+  // Each venue event is a fixed-height card at its start time (title + venue), not a block as
+  // tall as its duration. Cards that would touch go into side-by-side columns: each card takes
+  // the leftmost free column, and a run of touching cards shares the width equally. Beyond
+  // maxCardColumns, the last column becomes "+N more" cards (merged while they touch).
+  function layoutCards(items) {
+    const h = CFG.cardMinutes || 44;
+    const maxCols = Math.max(2, CFG.maxCardColumns || 4);
+    const sorted = items
+      .map((it) => ({ ...it, e: it.s + h, ve: it.s + h }))
+      .sort((a, b) => a.s - b.s || a.ev.title.localeCompare(b.ev.title));
+
+    // 1. Group into runs of touching cards, assigning each to its leftmost free column.
+    const runs = [];
+    let run = null;
+    for (const it of sorted) {
+      if (!run || it.s >= run.bottom) {
+        run = { items: [], colBottoms: [], bottom: 0 };
+        runs.push(run);
+      }
+      let col = run.colBottoms.findIndex((b) => b <= it.s);
+      if (col === -1) {
+        col = run.colBottoms.length;
+        run.colBottoms.push(0);
+      }
+      run.colBottoms[col] = it.ve;
+      run.bottom = Math.max(run.bottom, it.ve);
+      it.col = col;
+      run.items.push(it);
+    }
+
+    // 2. Size each run; fold extra columns into "+N more" cards in the last column.
+    const placed = [];
+    for (const r of runs) {
+      const cols = Math.min(r.colBottoms.length, maxCols);
+      const width = 1 / cols;
+      let more = null;
+      for (const it of r.items) {
+        if (r.colBottoms.length > maxCols && it.col >= maxCols - 1) {
+          if (!more || it.s >= more.ve) {
+            more = { overflow: [], s: it.s, e: it.s + h, ve: it.s + h, left: (maxCols - 1) * width, width, z: 2 };
+            placed.push(more);
+          }
+          more.overflow.push(it);
+          more.e = more.ve = Math.max(more.ve, it.ve);
+          continue;
+        }
+        it.left = it.col * width;
+        it.width = width;
+        it.z = 1;
+        it.nested = false;
+        placed.push(it);
+      }
+    }
+    // A "+1 more" would hide a single card behind a click: show that card instead.
+    return placed.map((p) => {
+      if (!p.overflow || p.overflow.length !== 1) return p;
+      return { ...p.overflow[0], left: p.left, width: p.width, z: 1, nested: false };
+    });
+  }
+
   // ---------- state ----------
 
   const state = {
@@ -701,7 +763,8 @@
       band.appendChild(strip);
     }
 
-    const timed = left.timed.concat(right.timed);
+    const leftCards = layoutCards(left.timed);
+    const timed = leftCards.concat(right.timed);
     if (timed.length) {
       let first = DAY_MIN;
       let last = 0;
@@ -726,7 +789,7 @@
       grid.appendChild(gutter);
 
       const lc = el("div", "col col-events");
-      for (const piece of layoutColumn(left.timed)) {
+      for (const piece of leftCards) {
         lc.appendChild(piece.overflow ? renderOverflow(piece, bandStart) : renderBlock(piece, bandStart));
       }
       grid.appendChild(lc);

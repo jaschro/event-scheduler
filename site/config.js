@@ -16,7 +16,9 @@ window.APP_CONFIG = {
   minBlockPx: 20,          // shortest block, so short items stay clickable
   sideBySideMinutes: 30,   // overlapping items starting this close share the width
   nestIndent: 0.12,
-  maxLanes: 3,             // at most this many side by side; the rest go in a "+N more" block
+  cardMinutes: 44,         // venue events are cards this tall (in minutes of the grid), placed at their start
+  maxCardColumns: 4,       // at most this many card columns; the rest go in "+N more" cards
+  maxLanes: 3,             // my calendar: at most this many side by side; the rest go in a "+N more" block
   maxDepth: 2,             // at most this many levels of nesting
   longEventHours: 10,      // timed items at least this long go in the all-day strip        // later items inside a longer one: indent as a share of column width
   noEndDisplayMinutes: 60, // block length on the page for events with no end time
