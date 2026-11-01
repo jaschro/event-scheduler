@@ -259,6 +259,21 @@ sources:
     page: https://www.miamiandbeaches.com/thing-to-do/arts-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269
     location: "Adrienne Arsht Center, 1300 Biscayne Blvd, Miami"
 
+  # Ticketmaster Discovery API (TICKETMASTER_API_KEY secret). Aggregator: venue listings win in dedupe.
+  - key: ticketmaster-miami
+    name: Ticketmaster (Miami area)
+    city: miami
+    kind: music             # default; each event gets its own kind and venue from Ticketmaster
+    method: ticketmaster
+    aggregator: true
+    priority: 5
+    page: https://www.ticketmaster.com/discover/miami
+    params: {latlong: "25.7900,-80.2000", radius: 12}   # Miami, Miami Beach, Coral Gables
+    filter:
+      exclude:
+        - "(?i)\\bparking\\b"
+        - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"
+
   # ---------- Not collectable yet (see README "Blocked sources") ----------
   - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
   - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners
@@ -404,3 +419,18 @@ sources:
   - {key: nyc-nypl, name: "New York Public Library", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.nypl.org/events/calendar?location=4"}
   - {key: nyc-thoughtgallery, name: "ThoughtGallery", city: nyc, kind: talks, method: browser, enabled: false, aggregator: true, page: "https://thoughtgallery.org"}
   - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: museum, method: browser, enabled: false, page: "https://mjhnyc.org/current-events"}
+
+  # ---------- NYC: Ticketmaster Discovery API ----------
+  - key: ticketmaster-nyc
+    name: Ticketmaster (New York)
+    city: nyc
+    kind: music
+    method: ticketmaster
+    aggregator: true
+    priority: 5
+    page: https://www.ticketmaster.com/discover/new-york
+    params: {latlong: "40.7549,-73.9840", radius: 8}    # Manhattan, nearby Brooklyn/Queens
+    filter:
+      exclude:
+        - "(?i)\\bparking\\b"
+        - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"

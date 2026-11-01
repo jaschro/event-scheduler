@@ -10,9 +10,9 @@ import yaml
 
 KINDS = {
     "tech", "museum", "art", "film", "stage", "music", "talks", "science",
-    "food and wine", "wellness", "community", "outdoors",
+    "food and wine", "wellness", "community", "outdoors", "sports",
 }
-METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser"}
+METHODS = {"ics", "eventbrite", "tribe", "jsonld", "custom", "browser", "ticketmaster"}
 
 DEFAULT_SETTINGS = {
     "days_ahead": 14,
@@ -44,6 +44,7 @@ class Source:
     luma_calendar: str | None = None
     reader: str | None = None
     default_minutes: int | None = None  # assumed length when an event gives no end time
+    params: dict[str, Any] = field(default_factory=dict)  # adapter-specific settings
     page: str | None = None
     location: str | None = None
     aggregator: bool = False
@@ -86,6 +87,7 @@ def load_config(path: str | Path) -> Config:
             luma_calendar=s.get("luma_calendar"),
             reader=s.get("reader"),
             default_minutes=s.get("default_minutes") or by_kind.get(s["kind"]),
+            params=s.get("params") or {},
             page=s.get("page"),
             location=s.get("location"),
             aggregator=bool(s.get("aggregator", False)),

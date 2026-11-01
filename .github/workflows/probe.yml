@@ -42,10 +42,25 @@ jobs:
       - name: Dry-run collector (no commit to main)
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
         run: |
           mkdir -p probe/dryrun
           cp data/events.json data/status.json probe/dryrun/ 2>/dev/null || true
           python -m collector.main --data probe/dryrun || true
+
+      - name: Save a small Ticketmaster sample (key removed)
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os, requests, pathlib
+          key = os.environ.get("TICKETMASTER_API_KEY", "")
+          if key:
+              r = requests.get("https://app.ticketmaster.com/discovery/v2/events.json",
+                               params={"apikey": key, "latlong": "25.7900,-80.2000", "radius": 12, "unit": "miles",
+                                       "size": 25, "sort": "date,asc"}, timeout=30)
+              pathlib.Path("probe/ticketmaster_sample_miami.json").write_text(r.text.replace(key, "REDACTED"))
+          PY
 
       - name: Commit results to this branch
         run: |

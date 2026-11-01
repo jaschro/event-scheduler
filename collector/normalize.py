@@ -35,6 +35,8 @@ class RawEvent:
     price_min: float | None = None
     price_text: str | None = None
     all_day: bool | None = None  # inferred from start type when None
+    venue: str | None = None     # aggregators: the event's real venue (default: source name)
+    kind: str | None = None      # aggregators: per-event kind (default: source kind)
 
 
 def strip_html(text: str | None) -> str:
@@ -132,8 +134,8 @@ def build_event(raw: RawEvent, *, source, city, fetched_at: str) -> dict[str, An
     return {
         "id": make_id(source.key, raw.source_id, title, start_iso),
         "title": title,
-        "venue": source.name,
-        "kind": source.kind,
+        "venue": plain_one_line(raw.venue) or source.name,
+        "kind": raw.kind or source.kind,
         "start": start_iso,
         "end": iso(end) if end else None,
         "all_day": all_day,
