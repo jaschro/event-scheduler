@@ -22,6 +22,21 @@ from .polite import PoliteSession, RobotsDisallowed
 
 ROOT = Path(__file__).resolve().parent.parent
 BROWSER_KEYS = {"o-cinema", "gables-cinema", "nws"}
+
+# Round 2: specific follow-up URLs per source (feeds, detail pages, alternate hosts).
+EXTRA_URLS = {
+    "gables-cinema": [
+        "https://prod3.agileticketing.net/websales/feed.ashx?guid=d14c295b-aa15-457f-8923-60a571db98a8&showslist=true&withmedia=false&format=json&v=latest",
+        "https://prod3.agileticketing.net/websales/feed.ashx?guid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&showslist=true&withmedia=false&format=json&v=latest",
+    ],
+    "mb-botanical": ["https://www.mbgarden.org/calendar?format=json"],
+    "wolfsonian": ["https://www.wolfsonian.org/whats-on/events/index.html", "https://www.wolfsonian.org/"],
+    "ica-miami": ["https://icamiami.org/calendar/sheroanawe-hakihiiwe-opening/"],
+    "miami-new-drama": ["https://miaminewdrama.org/shows-events/gandhi-and-the-jew/"],
+    "pamm": ["https://www.pamm.org/robots.txt"],
+}
+# Round 2: sources to render in a browser, capturing every XHR/fetch response.
+BROWSER2_KEYS = {"arsht", "nws", "mbjcc", "ica-miami", "miami-new-drama"}
 EVENT_WORDS = re.compile(r"event|exhibit|show|performance|program|calendar|film|concert", re.I)
 
 
@@ -141,10 +156,91 @@ def render(src, d: Path) -> dict:
     return result
 
 
+def extra(src, session, out: Path) -> dict:
+    d = out / src.key / "extra"
+    res = []
+    for i, url in enumerate(EXTRA_URLS.get(src.key, []), 1):
+        r = try_get(session, url, check_robots=not url.endswith("robots.txt"))
+        entry = {k: v for k, v in r.items() if k != "resp"}
+        entry["request"] = url
+        if r["ok"]:
+            body = r["resp"].text
+            ext = "json" if "json" in r["type"] else ("ics" if "calendar" in r["type"] else "html")
+            save(d / f"x{i:02d}.{ext}", body)
+            entry["file"] = f"extra/x{i:02d}.{ext}"
+            entry["bytes"] = len(body)
+            if ext == "html":
+                entry["jsonld_events"] = len(find_events(body))
+        res.append(entry)
+    return {"extra": res}
+
+
+def render2(src, out: Path) -> dict:
+    """Render, accept cookie banners, scroll, and record every XHR/fetch response."""
+    from playwright.sync_api import sync_playwright
+
+    d = out / src.key / "browser2"
+    result: dict = {"requests": []}
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        page = b.new_page(user_agent="Mozilla/5.0 (X11; Linux x86_64) EventSchedulerBot/0.1 (+https://github.com/jaschro/event-scheduler)")
+        n = 0
+
+        def on_response(resp):
+            nonlocal n
+            if resp.request.resource_type not in ("xhr", "fetch", "document"):
+                return
+            entry = {"url": resp.url[:400], "status": resp.status, "type": resp.headers.get("content-type", "")[:60],
+                     "kind": resp.request.resource_type, "method": resp.request.method}
+            if resp.request.resource_type in ("xhr", "fetch") and n < 60:
+                try:
+                    body = resp.text()
+                    n += 1
+                    entry["file"] = f"r{n:02d}.txt"
+                    entry["bytes"] = len(body)
+                    save(d / entry["file"], body[:500_000])
+                except Exception:  # noqa: BLE001
+                    pass
+            result["requests"].append(entry)
+
+        page.on("response", on_response)
+        try:
+            page.goto(src.page, wait_until="networkidle", timeout=60_000)
+            for label in ("Accept", "Accept All", "Allow all", "I agree", "OK"):
+                btn = page.get_by_role("button", name=label, exact=True)
+                if btn.count():
+                    try:
+                        btn.first.click(timeout=2000)
+                        break
+                    except Exception:  # noqa: BLE001
+                        pass
+            for _ in range(4):
+                page.mouse.wheel(0, 3000)
+                page.wait_for_timeout(1200)
+            for label in ("Load More", "Load more", "Show More", "View More"):
+                btn = page.get_by_text(label, exact=True)
+                if btn.count():
+                    try:
+                        btn.first.click(timeout=3000)
+                        page.wait_for_timeout(2500)
+                    except Exception:  # noqa: BLE001
+                        pass
+            page.wait_for_load_state("networkidle", timeout=20_000)
+            html = page.content()
+            save(d / "rendered.html", html)
+            result["rendered_bytes"] = len(html)
+            result["jsonld_events"] = len(find_events(html))
+        except Exception as e:  # noqa: BLE001
+            result["error"] = f"{type(e).__name__}: {e}"[:300]
+        b.close()
+    return result
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--out", default=str(ROOT / "probe"))
+    ap.add_argument("--round2", action="store_true", help="follow-up URLs and browser network capture")
     args = ap.parse_args(argv)
     cfg = load_config(ROOT / "sources.yaml")
     session = PoliteSession(cfg.settings["user_agent"], delay=1.0, timeout=30)
@@ -158,10 +254,16 @@ def main(argv=None) -> int:
             continue
         print(f"probing {src.key} ...", flush=True)
         try:
+            if args.round2:
+                info = {"key": src.key, **extra(src, session, out)}
+                if src.key in BROWSER2_KEYS:
+                    info["browser2"] = render2(src, out)
+                summary.append(info)
+                continue
             summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS))
         except Exception as e:  # noqa: BLE001
             summary.append({"key": src.key, "error": f"{type(e).__name__}: {e}"[:300]})
-    save(out / "summary.json", summary)
+    save(out / ("summary2.json" if args.round2 else "summary.json"), summary)
     for s in summary:
         print(json.dumps({k: s.get(k) for k in ("key", "jsonld_events", "tribe_api", "wordpress")})[:300])
     return 0
