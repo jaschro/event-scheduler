@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T05:47:58+00:00",
+ "generated_at": "2026-11-01T05:50:33+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -36,8 +36,29 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "3ef98cef250170e1",
+   "title": "Journey to Día de Muertos",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-01T00:00:00-04:00",
+   "end": "2026-11-02T00:00:00-05:00",
+   "all_day": true,
+   "description": "Calpulli Mexican Dance Company combines traditional dance, folk songs and classical music in a family-friendly story inspired by Día de Muertos. The performance takes place Sunday, November 1 at the Adrienne Arsht Center as part of the Arsht for Miami series. Alongside its theatrical narrative, the program introduces audiences to the history, symbolism and traditions associated with the Mexican holiday.\n\nDía de los Muertos follows Lupita and Raul, a loving couple separated by treachery and death. Lupita journeys into Mictlán, the underworld of Aztec mythology, where she encounters its…",
+   "url": "https://www.miamiandbeaches.com/event/journey-to-dia-de-muertos/41937",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
   },
   {
    "id": "ded73dafb481d759",
@@ -57,7 +78,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -78,7 +99,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -120,7 +141,7 @@
    },
    "source": "mbjcc",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -141,7 +162,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -162,7 +183,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -204,7 +225,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -225,7 +246,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -330,7 +351,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -372,7 +393,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -414,7 +435,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -498,7 +519,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -519,7 +540,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -540,7 +561,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -561,7 +582,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -582,7 +603,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -603,7 +624,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -624,7 +645,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -666,7 +687,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -708,7 +729,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -729,7 +750,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -750,7 +771,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -834,7 +855,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -855,7 +876,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -876,7 +897,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -897,7 +918,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -918,7 +939,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -939,7 +960,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -960,7 +981,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1002,7 +1023,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1023,7 +1044,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1044,7 +1065,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1086,7 +1107,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1107,7 +1128,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1128,7 +1149,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1149,7 +1170,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1170,7 +1191,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1191,7 +1212,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1212,7 +1233,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1254,7 +1275,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1296,7 +1317,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1380,7 +1401,7 @@
    },
    "source": "nyc-ny-landmarks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1422,7 +1443,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1443,7 +1464,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1464,7 +1485,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1506,7 +1527,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1527,7 +1548,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "36a3779bcc7bdf41",
+   "title": "God of Carnage",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-05T00:00:00-05:00",
+   "end": "2026-11-22T00:00:00-05:00",
+   "all_day": true,
+   "description": "A sharply comic portrait of social etiquette unraveling comes to the Adrienne Arsht Center as part of the Theater Up Close series. Running on select dates from November 5 through 22, God of Carnage is presented by Zoetic Stage and the Adrienne Arsht Center.\n\nWritten by Yasmina Reza and translated by Christopher Hampton, the play follows two sets of Brooklyn parents who meet to discuss a playground fight between their sons. What begins as a controlled conversation about responsibility and civility gradually breaks down into accusations, conflict and alcohol-fueled chaos.\n\nThe production opens…",
+   "url": "https://www.miamiandbeaches.com/event/god-of-carnage/40014",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 66.69,
+    "text": "$66.69"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1548,7 +1590,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1569,7 +1611,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1590,7 +1632,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1611,7 +1653,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1653,7 +1695,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1674,7 +1716,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1695,7 +1737,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1716,7 +1758,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1737,7 +1779,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1758,7 +1800,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1779,7 +1821,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1800,7 +1842,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1821,7 +1863,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1884,7 +1926,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1905,7 +1947,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1926,7 +1968,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -1968,7 +2010,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -1989,7 +2031,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2073,7 +2115,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2115,7 +2157,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2136,7 +2178,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2178,7 +2220,7 @@
    },
    "source": "mbjcc",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2220,7 +2262,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2241,7 +2283,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2262,8 +2304,29 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "32c1698eca6db13d",
+   "title": "Jobim and the Music of Brazil",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-06T00:00:00-05:00",
+   "end": "2026-11-07T00:00:00-05:00",
+   "all_day": true,
+   "description": "Bossa nova, samba and choro receive an orchestral jazz treatment in a tribute to Antônio Carlos “Tom” Jobim and the music of Brazil. The concert takes place Friday, November 6 at the Adrienne Arsht Center, opening the 2026-27 Jazz Roots Series. The program anticipates the centennial of the composer whose work helped bring bossa nova to international audiences.\n\nGrammy and Latin Grammy Award-winning pianist and vocalist Eliane Elias joins clarinetist Anat Cohen, Brazilian jazz group Trio da Paz and pianist Shelly Berg, with symphonic accompaniment by the Frost School of Music’s Henry Mancini…",
+   "url": "https://www.miamiandbeaches.com/event/jobim-and-the-music-of-brazil/41745",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 52.65,
+    "text": "$52.65"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
   },
   {
    "id": "b80f07b1804f2950",
@@ -2283,7 +2346,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2304,7 +2367,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2325,7 +2388,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2346,11 +2409,11 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
-   "id": "325b38f0fada360c",
+   "id": "0b64e48660371459",
    "title": "Once Upon a Time in Harlem",
    "venue": "Coral Gables Art Cinema",
    "kind": "film",
@@ -2358,8 +2421,8 @@
    "end": "2026-11-06T15:45:00-05:00",
    "all_day": false,
    "description": "",
-   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1029401~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
-   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
    "price": {
     "free": null,
     "min": null,
@@ -2367,7 +2430,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2392,7 +2455,7 @@
    "city": "miami"
   },
   {
-   "id": "9a4ee3a0f6033771",
+   "id": "2ee5dd89004131fc",
    "title": "Offside",
    "venue": "Coral Gables Art Cinema",
    "kind": "film",
@@ -2400,8 +2463,8 @@
    "end": "2026-11-06T18:00:00-05:00",
    "all_day": false,
    "description": "",
-   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1044129~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
-   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
    "price": {
     "free": null,
     "min": null,
@@ -2409,7 +2472,28 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ec3d5bbf12827b27",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-06T17:45:00-05:00",
+   "end": "2026-11-06T20:15:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2430,7 +2514,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2619,7 +2703,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2661,7 +2745,28 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9ed5ffe01e92e502",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-06T20:00:00-05:00",
+   "end": "2026-11-06T22:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2682,7 +2787,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "4d3690e38e4fc2bc",
+   "title": "Quinteto Astor Piazzolla",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-07T00:00:00-05:00",
+   "end": "2026-11-08T00:00:00-05:00",
+   "all_day": true,
+   "description": "Astor Piazzolla’s nuevo tango legacy comes to the Knight Concert Hall through a performance by the ensemble dedicated to preserving and extending his work. Quinteto Astor Piazzolla performs Saturday, November 7 at the Adrienne Arsht Center as part of the 2026-2027 Live at Knight series. The program features music from the quintet’s new album, Le Grand Tango .\n\nFormed to honor the work of Argentine bandoneon player and composer Astor Piazzolla, the quintet has toured internationally for more than 25 years and has won Latin Grammy Awards for Best Tango Album in 2019 and 2023. The ensemble’s…",
+   "url": "https://www.miamiandbeaches.com/event/quinteto-astor-piazzolla/40340",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 40.95,
+    "text": "$40.95"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2703,7 +2829,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2724,7 +2850,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2766,7 +2892,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2787,7 +2913,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -2809,6 +2935,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "71cdaf3c9689a4d2",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-07T13:15:00-05:00",
+   "end": "2026-11-07T15:45:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2850,11 +2997,11 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
-   "id": "abf635d1dd21bd49",
+   "id": "92150dc61fb53f03",
    "title": "Ida",
    "venue": "Coral Gables Art Cinema",
    "kind": "film",
@@ -2862,8 +3009,8 @@
    "end": "2026-11-07T17:45:00-05:00",
    "all_day": false,
    "description": "",
-   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043282~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
-   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
    "price": {
     "free": null,
     "min": null,
@@ -2871,7 +3018,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2934,7 +3081,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "1105ef46e60c38b5",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-07T17:30:00-05:00",
+   "end": "2026-11-07T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -2980,6 +3148,27 @@
    "city": "miami"
   },
   {
+   "id": "c596ac5288c797a6",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-07T19:45:00-05:00",
+   "end": "2026-11-07T22:15:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
    "id": "7be1f3bc6b24fcf9",
    "title": "Gandhi and the Jew",
    "venue": "Miami New Drama (Colony)",
@@ -2997,7 +3186,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3039,11 +3228,11 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
-   "id": "2eebea1bde2dc7ed",
+   "id": "f6884b4e0ed4ffc0",
    "title": "Body Double",
    "venue": "Coral Gables Art Cinema",
    "kind": "film",
@@ -3051,8 +3240,8 @@
    "end": "2026-11-08T00:30:00-05:00",
    "all_day": false,
    "description": "",
-   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043061~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
-   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
    "price": {
     "free": null,
     "min": null,
@@ -3060,7 +3249,28 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "2290786364a19e2a",
+   "title": "Live on the Plaza: Jean Caze Trio",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-08T00:00:00-05:00",
+   "end": "2026-11-09T00:00:00-05:00",
+   "all_day": true,
+   "description": "Haitian rhythms, jazz improvisation and Afro-Caribbean melodies come together in an outdoor performance by trumpeter and composer Jean Caze at the Adrienne Arsht Center. Presented Sunday, November 8 as part of the Live on the Plaza series, the concert features the Jean Caze Trio on the Parker and Vann Thomson Plaza for the Arts.\n\nCaze blends Haitian musical traditions with American jazz, drawing on Afro-Caribbean grooves, lyrical trumpet lines and improvisation. His performance career has included appearances with artists such as Herbie Hancock, Aretha Franklin, Arturo Sandoval, Mariah Carey…",
+   "url": "https://www.miamiandbeaches.com/event/live-on-the-plaza-jean-caze-trio/42818",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 29.25,
+    "text": "$29.25"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3102,7 +3312,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3144,7 +3354,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3165,7 +3375,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3186,7 +3396,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3207,7 +3417,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3228,11 +3438,11 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
-   "id": "432df046fb071fad",
+   "id": "e4d30e57b15e5534",
    "title": "The Color Purple",
    "venue": "Coral Gables Art Cinema",
    "kind": "film",
@@ -3240,8 +3450,8 @@
    "end": "2026-11-08T14:30:00-05:00",
    "all_day": false,
    "description": "",
-   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=988000~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
-   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
    "price": {
     "free": null,
     "min": null,
@@ -3249,7 +3459,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3291,7 +3501,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3312,7 +3522,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3333,7 +3543,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3354,7 +3564,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3375,7 +3585,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3421,6 +3631,27 @@
    "city": "miami"
   },
   {
+   "id": "3e9f89d509453b65",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-08T18:30:00-05:00",
+   "end": "2026-11-08T21:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
    "id": "f8ac2e424f7cf44b",
    "title": "Fall For Dance NOW!",
    "venue": "Miami Beach Bandshell",
@@ -3459,7 +3690,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "38c34bb6e639f5b7",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-08T20:45:00-05:00",
+   "end": "2026-11-08T23:15:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3480,7 +3732,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3501,7 +3753,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3543,7 +3795,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3564,7 +3816,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3585,7 +3837,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3606,7 +3858,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3627,7 +3879,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3648,7 +3900,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3669,7 +3921,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3690,7 +3942,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3711,7 +3963,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3774,8 +4026,29 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "a67ef7c3b32a4621",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-09T17:30:00-05:00",
+   "end": "2026-11-09T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
   },
   {
    "id": "3cc0066481c0744e",
@@ -3795,7 +4068,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3816,7 +4089,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3921,7 +4194,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -3942,7 +4215,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3963,7 +4236,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -3984,7 +4257,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4005,7 +4278,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4047,7 +4320,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4068,7 +4341,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4089,7 +4362,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4110,7 +4383,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4131,7 +4404,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4152,7 +4425,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4173,7 +4446,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4194,7 +4467,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4215,7 +4488,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4236,8 +4509,29 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "740c2f82197c40f0",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-10T17:30:00-05:00",
+   "end": "2026-11-10T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
   },
   {
    "id": "dd31facafe780b9b",
@@ -4299,7 +4593,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -4383,7 +4677,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4404,7 +4698,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4425,7 +4719,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4446,7 +4740,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4467,7 +4761,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -4530,7 +4824,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4551,7 +4845,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4593,7 +4887,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4614,7 +4908,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4635,7 +4929,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4656,7 +4950,7 @@
    },
    "source": "nyc-columbia-law",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4677,7 +4971,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4698,7 +4992,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4723,6 +5017,27 @@
    "city": "miami"
   },
   {
+   "id": "e94af1bd5b65f2c2",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-11T17:30:00-05:00",
+   "end": "2026-11-11T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
    "id": "062226ecd6278501",
    "title": "New York: WHAT'S YOUR STORY? How to Become More Memorable and Referable for What’s Next",
    "venue": "Columbia Business School",
@@ -4740,7 +5055,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4761,7 +5076,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4782,7 +5097,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4803,7 +5118,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4824,7 +5139,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4845,7 +5160,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -4887,7 +5202,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4933,6 +5248,27 @@
    "city": "miami"
   },
   {
+   "id": "705fc46afd9ec820",
+   "title": "Common With Nu Deco Ensemble",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-12T00:00:00-05:00",
+   "end": "2026-11-13T00:00:00-05:00",
+   "all_day": true,
+   "description": "Common joins Nu Deco Ensemble for a genre-crossing concert that brings hip-hop, orchestral performance and cinematic songwriting to the Knight Concert Hall. The performance takes place Thursday, November 12 at the Adrienne Arsht Center as part of the 2026-2027 Live at Knight series. Conducted by Sam Hyken, the one-night program features selections from Common’s catalog arranged with Nu Deco’s hybrid orchestral sound.\n\nCommon’s career spans music, film, television, theater, writing and activism. Since his 1992 debut album Can I Borrow a Dollar? , he has become known for thoughtful lyricism and…",
+   "url": "https://www.miamiandbeaches.com/event/common-with-nu-deco-ensemble/40341",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
    "id": "dbb40628604c1236",
    "title": "PE Program Breakfast Series Fall 2026 Session 7, Guest Alexandra Linden `08",
    "venue": "Columbia Business School",
@@ -4950,7 +5286,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -4992,7 +5328,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5057,7 +5393,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5078,7 +5414,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5099,7 +5435,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5120,7 +5456,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5141,7 +5477,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5163,6 +5499,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "3c04c8a0a4264ef6",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-12T17:00:00-05:00",
+   "end": "2026-11-12T19:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5204,7 +5561,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5225,7 +5582,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5267,7 +5624,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5288,7 +5645,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5309,7 +5666,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5372,7 +5729,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5393,7 +5750,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5414,8 +5771,29 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "f2a90f80d73fe181",
+   "title": "Union County",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-12T19:15:00-05:00",
+   "end": "2026-11-12T21:45:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
   },
   {
    "id": "41b7a961aac47ec9",
@@ -5435,7 +5813,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5456,7 +5834,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5477,7 +5855,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5498,7 +5876,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5519,7 +5897,28 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "45f87da7431cbcb3",
+   "title": "Pivotal180: Renewables Project Finance Modeling Course",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-13T09:00:00-05:00",
+   "end": "2026-11-13T15:00:00-05:00",
+   "all_day": false,
+   "description": "Pivotal180, the industry leading renewable energy financial modeling training experts, will be coming to campus for a 2-day crash course to prepare students to recruit for clean energy finance roles. The program will provide students with critical climate and project finance skills to enable them to be successful in both interviews and careers in the space.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153241",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153241",
+   "location": "Kravis Hall, Kravis 490 - Gantcher Classroom, 655 W 130th St, Columbia Business School , New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5540,7 +5939,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5561,7 +5960,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5582,7 +5981,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5603,8 +6002,29 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "76c523ae7f6f1b83",
+   "title": "Queen at Sea",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-13T16:00:00-05:00",
+   "end": "2026-11-13T18:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
   },
   {
    "id": "90b4ff475021ae18",
@@ -5624,7 +6044,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "nyc"
   },
   {
@@ -5646,6 +6066,27 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "fac3d0b471e00e20",
+   "title": "Fatherland",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-13T18:30:00-05:00",
+   "end": "2026-11-13T21:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5729,7 +6170,49 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ed8302d00f8ad488",
+   "title": "Fatherland",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-13T20:30:00-05:00",
+   "end": "2026-11-13T23:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "c2d618eccc70cc0e",
+   "title": "Lucia di Lammermoor",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-14T00:00:00-05:00",
+   "end": "2026-11-17T00:00:00-05:00",
+   "all_day": true,
+   "description": "A forbidden romance, a forged betrayal and a forced marriage drive Donizetti’s bel canto tragedy toward one of opera’s most psychologically intense scenes. Florida Grand Opera opens its 2026-2027 season with performances Saturday, November 14, Sunday, November 15 and Tuesday, November 17 at the Adrienne Arsht Center. Set amid a bitter family feud, Lucia di Lammermoor pairs demanding vocal writing with a story of political ambition, manipulation and emotional collapse.\n\nLucia has secretly pledged herself to Edgardo, the sworn enemy of her family, but her brother Enrico is determined to arrange…",
+   "url": "https://www.miamiandbeaches.com/event/lucia-di-lammermoor/41938",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 31.59,
+    "text": "$31.59"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5855,7 +6338,28 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "2acf6396b6d00614",
+   "title": "Fantastic Mr. Fox",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-14T11:00:00-05:00",
+   "end": "2026-11-14T13:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5876,7 +6380,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5897,7 +6401,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5922,6 +6426,27 @@
    "city": "miami"
   },
   {
+   "id": "8460a73bc8d203bb",
+   "title": "Queen at Sea",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-14T13:00:00-05:00",
+   "end": "2026-11-14T15:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
    "id": "0e65a193b0ecca03",
    "title": "Bass Babies | November 14",
    "venue": "The Bass",
@@ -5940,6 +6465,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "cf5fb7d4eff652ca",
+   "title": "Fatherland",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-14T15:30:00-05:00",
+   "end": "2026-11-14T18:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -5981,7 +6527,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -6024,6 +6570,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "07fc155a0ceaec4d",
+   "title": "Queen at Sea",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-14T17:30:00-05:00",
+   "end": "2026-11-14T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -6086,7 +6653,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "507b835a7e4f5b21",
+   "title": "Fatherland",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-14T20:00:00-05:00",
+   "end": "2026-11-14T22:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -6107,7 +6695,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   },
   {
@@ -6128,7 +6716,28 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "fetched_at": "2026-11-01T05:50:33+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "37ee44d1002bbcd4",
+   "title": "Under the Silver Lake",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-14T22:00:00-05:00",
+   "end": "2026-11-15T00:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:50:33+00:00",
    "city": "miami"
   }
  ]
