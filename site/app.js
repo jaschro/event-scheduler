@@ -820,9 +820,9 @@
   // search, and "group repeats" (one card per film/show per day, listing its times).
 
   const KIND_LABELS = {
-    tech: "Tech", museum: "Museums", art: "Art", film: "Film", stage: "Stage", music: "Music",
-    talks: "Talks", science: "Science", "food and wine": "Food & wine", wellness: "Wellness",
-    community: "Community", outdoors: "Outdoors", sports: "Sports",
+    tech: "Tech", art: "Art & museums", film: "Film", stage: "Stage", music: "Music",
+    talks: "Talks", "food and wine": "Food & wine", wellness: "Wellness",
+    community: "Community", sports: "Sports",
   };
 
   function filterKey(city) {
@@ -898,6 +898,22 @@
     const chips = el("div", "chips");
     chips.setAttribute("role", "group");
     chips.setAttribute("aria-label", "Kinds of events");
+    const setKinds = (hidden) => {
+      f.kinds = hidden;
+      saveFilters();
+      renderFilters();
+      renderDays();
+    };
+    const all = el("button", "chip-cmd", "All");
+    all.type = "button";
+    all.title = "Show every kind";
+    all.addEventListener("click", () => setKinds([]));
+    const none = el("button", "chip-cmd", "None");
+    none.type = "button";
+    none.title = "Hide every kind";
+    none.addEventListener("click", () => setKinds(kinds.slice()));
+    chips.appendChild(all);
+    chips.appendChild(none);
     for (const k of kinds) {
       const on = !f.kinds.includes(k);
       const c = el("button", `chip-toggle ${kindClass(k)}${on ? " on" : ""}`, KIND_LABELS[k] || k);
@@ -910,7 +926,15 @@
         renderFilters();
         renderDays();
       });
-      chips.appendChild(c);
+      const only = el("button", "chip-only", "only");
+      only.type = "button";
+      only.title = `Show only ${KIND_LABELS[k] || k}`;
+      only.setAttribute("aria-label", `Show only ${KIND_LABELS[k] || k}`);
+      only.addEventListener("click", (e) => { e.stopPropagation(); setKinds(kinds.filter((x) => x !== k)); });
+      const wrap = el("span", "chip-wrap");
+      wrap.appendChild(c);
+      wrap.appendChild(only);
+      chips.appendChild(wrap);
     }
     bar.appendChild(chips);
 
@@ -1333,6 +1357,9 @@
     render();
     try {
       state.events = await fetchJson("events.json");
+      // Merged categories: fold older names in data collected before the change.
+      const alias = { museum: "art", science: "tech", outdoors: "wellness" };
+      for (const ev of state.events.events || []) ev.kind = alias[ev.kind] || ev.kind;
     } catch (e) {
       state.loadError = e.message;
     }
