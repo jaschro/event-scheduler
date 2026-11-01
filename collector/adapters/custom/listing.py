@@ -6,6 +6,8 @@ link and any separate time from there:
     when:   CSS selector for the date (or date + time) element          (required)
     item:   selector the container matches (closest ancestor), or
     item_up: how many parents to climb from the date element instead
+            (default: the nearest ancestor that contains the title)
+    time_next: true when the time is in the element right after the date
     title:  selector for the title inside the container                 (required)
     link:   selector for the link inside the container (default: the title's link,
             the container itself if it is a link, else its first link)
@@ -32,6 +34,10 @@ PRICE_RE = re.compile(r"\$\s?(\d+(?:\.\d\d)?)")
 
 
 def fetch(source, ctx) -> str:
+    if source.method == "browser":  # listing built by script: render it first
+        from .common import render_page
+
+        return render_page(source.url or source.page, ctx, wait_ms=int(source.params.get("wait_ms", 6000)))
     return get_page(source, ctx)
 
 
@@ -41,10 +47,16 @@ def _container(node, p):
             if getattr(anc, "name", None) and soupsieve.match(p["item"], anc):
                 return anc
         return None
-    el = node
-    for _ in range(int(p.get("item_up", 2))):
-        el = el.parent if el is not None else None
-    return el
+    if p.get("item_up") is not None:
+        el = node
+        for _ in range(int(p["item_up"])):
+            el = el.parent if el is not None else None
+        return el
+    # Default: the nearest ancestor that also contains the title.
+    for anc in node.parents:
+        if getattr(anc, "name", None) and anc.select_one(p["title"]) is not None:
+            return anc
+    return None
 
 
 def _link(box, title_el, p, base):
@@ -57,6 +69,8 @@ def _link(box, title_el, p, base):
         a = box
     if a is None:
         a = box.find("a", href=True)
+    if a is None:
+        a = box.find_parent("a", href=True)  # the whole card is the link
     href = a.get("href") if a is not None else None
     return urljoin(base, href) if href and not href.startswith(("#", "mailto:", "javascript:")) else base
 
@@ -102,6 +116,9 @@ def parse(payload: str, source, ctx):
         title_el = box.select_one(p["title"])
         title = text_of(title_el)
         when = text_of(node)
+        if p.get("time_next"):  # time printed in the next element, e.g. "Mon, Nov 9, 2026" / "6–9 PM"
+            nxt = node.find_next_sibling()
+            when = f"{when} {text_of(nxt)}"
         if p.get("time"):
             when = f"{when} {text_of(box.select_one(p['time']))}"
         key = (title, when)
@@ -111,4 +128,13 @@ def parse(payload: str, source, ctx):
         url = _link(box, title_el, p, base)
         price = text_of(box.select_one(p["price"])) if p.get("price") else None
         out += _events(when, ctx, title=title, url=url, location=source.location, price_text=price)
-    return out
+    return drop_dateonly_twins(out)
+
+
+def drop_dateonly_twins(events):
+    """A page may show one event twice (a featured banner with only a date, a card with the
+    time): when the same title and day also appear with a time, drop the date-only copy."""
+    from datetime import datetime
+
+    timed = {(e.title.casefold(), e.start.date()) for e in events if isinstance(e.start, datetime)}
+    return [e for e in events if isinstance(e.start, datetime) or (e.title.casefold(), e.start) not in timed]

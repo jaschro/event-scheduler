@@ -437,8 +437,24 @@ sources:
   - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: tech, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
   - {key: nyc-cornell-tech, name: "Cornell Tech", city: nyc, kind: tech, method: custom, enabled: false, page: "https://tech.cornell.edu/events/"}
   - {key: nyc-cuny-gc, name: "Graduate Center, CUNY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.gc.cuny.edu/events"}
-  - {key: nyc-jts, name: "Jewish Theological Seminary (JTS)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.jtsa.edu/events"}   # JSON: https://www.jtsa.edu/wp-json/wp/v2/post_event
-  - {key: nyc-arch-league, name: "Architectural League of New York", city: nyc, kind: talks, method: custom, enabled: false, page: "https://archleague.org/events"}
+  - key: nyc-jts
+    name: "Jewish Theological Seminary (JTS)"
+    city: nyc
+    kind: talks
+    method: custom          # event pages read for date/time (custom/detail.py)
+    reader: detail
+    page: "https://www.jtsa.edu/events"
+    params:
+      wp_endpoint: "https://www.jtsa.edu/wp-json/wp/v2/post_event"
+  - key: nyc-arch-league
+    name: "Architectural League of New York"
+    city: nyc
+    kind: talks
+    method: custom          # event pages read for date/time (custom/detail.py)
+    reader: detail
+    page: "https://archleague.org/events"
+    params:
+      link_pattern: "/event/[^/]+/?$"
   - {key: nyc-bwaf, name: "Beverly Willis Architecture Foundation", city: nyc, kind: talks, method: custom, enabled: false, page: "https://bwaf.org/"}   # dead or stale, see csv
   - key: nyc-aiany
     name: "Center for Architecture (AIANY)"
@@ -468,7 +484,15 @@ sources:
       title: ".item-title"
       link: ".item-title a"
       price: ".event_prices"
-  - {key: nyc-ny-building-congress, name: "New York Building Congress", city: nyc, kind: talks, method: custom, enabled: false, page: "https://buildingcongress.com/events/"}
+  - key: nyc-ny-building-congress
+    name: "New York Building Congress"
+    city: nyc
+    kind: talks
+    method: custom          # event pages read for date/time (custom/detail.py)
+    reader: detail
+    page: "https://buildingcongress.com/events/"
+    params:
+      wp_endpoint: "https://buildingcongress.com/wp-json/wp/v2/event"
   - {key: nyc-noma-ny, name: "NOMA-NY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://nomany.org/events/"}
   - key: nyc-rpa
     name: "Regional Plan Association"
@@ -495,7 +519,15 @@ sources:
       item: "article"
       title: "h2.entry-title"
       link: "h2 a"
-  - {key: nyc-urban-design-forum, name: "Urban Design Forum", city: nyc, kind: talks, method: custom, enabled: false, page: "https://urbandesignforum.org/events/"}
+  - key: nyc-urban-design-forum
+    name: "Urban Design Forum"
+    city: nyc
+    kind: talks
+    method: custom          # event pages read for date/time (custom/detail.py)
+    reader: detail
+    page: "https://urbandesignforum.org/events/"
+    params:
+      wp_endpoint: "https://urbandesignforum.org/wp-json/wp/v2/event"
   - key: nyc-van-alen
     name: "Van Alen Institute"
     city: nyc
@@ -576,23 +608,60 @@ sources:
       item: "a"
       title: "div.evtit"
   - {key: nyc-tikvah, name: "Tikvah Fund", city: nyc, kind: talks, method: custom, enabled: false, page: "https://tikvah.org/events"}   # dead or stale, see csv
-  - {key: nyc-hartman, name: "Shalom Hartman Institute of North America", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.hartman.org.il/events/"}   # JSON: https://www.hartman.org.il/wp-json/wp/v2/event?location=20709
+  - key: nyc-hartman
+    name: "Shalom Hartman Institute of North America"
+    city: nyc
+    kind: talks
+    method: custom          # event pages read for date/time (custom/detail.py)
+    reader: detail
+    page: "https://www.hartman.org.il/events/"
+    params:
+      wp_endpoint: "https://www.hartman.org.il/wp-json/wp/v2/event"
+      query: {"location": 20709}
   - {key: nyc-ajc, name: "American Jewish Committee (AJC)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.ajc.org/newyork"}
   - {key: nyc-jewish-currents, name: "Jewish Currents", city: nyc, kind: talks, method: custom, enabled: false, page: "https://jewishcurrents.org/events"}
   - {key: nyc-uja, name: "UJA-Federation of New York", city: nyc, kind: community, method: custom, enabled: false, page: "https://www.ujafedny.org/get-involved/attend-an-event"}
-  - {key: nyc-ncjw-ny, name: "National Council of Jewish Women NY", city: nyc, kind: community, method: custom, enabled: false, page: "https://ncjwny.org/events"}
+  - key: nyc-ncjw-ny
+    name: "National Council of Jewish Women NY"
+    city: nyc
+    kind: community
+    method: custom          # event pages read for date/time (custom/detail.py)
+    reader: detail
+    page: "https://ncjwny.org/events"
+    params:
+      link_pattern: "/event/[^/]+/?$"
   - {key: nyc-congress-jewish-culture, name: "Congress for Jewish Culture", city: nyc, kind: music, method: custom, enabled: false, page: "https://congressforjewishculture.org/events"}
 
   # ---------- NYC Later: headless browser ----------
   - {key: nyc-columbia-calendar, name: "Columbia University (general calendar)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://events.columbia.edu/"}
   - {key: nyc-columbia-sipa, name: "Columbia SIPA", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.sipa.columbia.edu/communities-connections/events"}
   - {key: nyc-parsons, name: "The New School / Parsons", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.newschool.edu/parsons/events/"}
-  - {key: nyc-ohny, name: "Open House New York", city: nyc, kind: talks, method: browser, enabled: false, page: "https://ohny.org/calendar"}
+  - key: nyc-ohny
+    name: "Open House New York"
+    city: nyc
+    kind: talks
+    method: browser          # script-built listing rendered with Playwright (custom/listing.py)
+    reader: listing
+    page: "https://ohny.org/calendar"
+    params:
+      when: "a p[class*='leading-[1.4]']"
+      title: "h3"
+      time_next: true
   - {key: nyc-storefront, name: "Storefront for Art and Architecture", city: nyc, kind: art, method: browser, enabled: false, page: "https://storefrontnews.org/"}
   - {key: nyc-asia-society, name: "Asia Society (New York)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://asiasociety.org/new-york/events"}
   - {key: nyc-econ-club-ny, name: "Economic Club of New York", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.econclubny.org/web/pages/club-calendar"}
   - {key: nyc-brooklyn-museum, name: "Brooklyn Museum", city: nyc, kind: art, method: browser, enabled: false, page: "https://www.brooklynmuseum.org/calendar"}
-  - {key: nyc-92ny, name: "92nd Street Y (92NY)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.92ny.org/whats-on/events"}
+  - key: nyc-92ny
+    name: "92nd Street Y (92NY)"
+    city: nyc
+    kind: talks
+    method: browser          # script-built listing rendered with Playwright (custom/listing.py)
+    reader: listing
+    page: "https://www.92ny.org/whats-on/events"
+    params:
+      when: "div.eyebrow-text"
+      title: ".bottomcard-header"
+      link: "a[href]"
   - {key: nyc-nypl, name: "New York Public Library", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.nypl.org/events/calendar?location=4"}
   - {key: nyc-thoughtgallery, name: "ThoughtGallery", city: nyc, kind: talks, method: browser, enabled: false, aggregator: true, page: "https://thoughtgallery.org"}
   - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: art, method: browser, enabled: false, page: "https://mjhnyc.org/current-events"}

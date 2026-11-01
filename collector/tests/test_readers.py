@@ -245,3 +245,34 @@ def test_listing_reader_pages():
                for e in results["nyc-rpa"])
     assert len(results["nyc-aiany"]) >= 5
     check_expected("listing_nyc", {k: [list(t) for t in summary(v)] for k, v in results.items()})
+
+
+def test_detail_reader_event_pages():
+    """Event pages read for title, date and time (custom/detail.py), one saved page per host."""
+    from .helpers import context
+
+    cfg = config()
+    cases = {
+        "nyc-urban-design-forum": ("detail_udf.html", "Living Routes Ideas Launch", "2026-11-12 18:30:00", "2026-11-12 20:30:00"),
+        "nyc-hartman": ("detail_hartman.html", "James Loeffler: Exceptional Hatred", "2026-11-12 20:00:00", "2026-11-12 21:15:00"),
+        "nyc-ny-building-congress": ("detail_building_congress.html", "Council on Innovation and Best Practices", "2026-10-29 08:30:00", "2026-10-29 08:45:00"),
+        "nyc-ncjw-ny": ("detail_ncjw.html", "November 17: Understanding Hoarding Behaviors and How They Affect The Family", "2026-11-17 17:30:00", "2026-11-17 20:00:00"),
+        "nyc-arch-league": ("detail_archleague.html", "From Field to Form: Ocean Flora", "2026-11-11 18:30:00", "None"),
+        "nyc-jts": ("detail_jts.html", None, "2027-02-11 14:00:00", "2027-02-11 15:30:00"),
+    }
+    for key, (name, title, start, end) in cases.items():
+        src = next(s for s in cfg.sources if s.key == key)
+        raw = custom.parse({"https://example.org/e/": page(name)}, src, context(cfg, "nyc"))
+        assert len(raw) == 1, key
+        if title:
+            assert raw[0].title == title, key
+        assert (str(raw[0].start), str(raw[0].end)) == (start, end), key
+
+
+def test_browser_listings_92ny_ohny():
+    cfg = config()
+    ohny = run_adapter(custom, page("browser_ohny.html"), cfg, "nyc-ohny")
+    assert [(e["title"], e["start"], e["url"]) for e in ohny if e["start"].startswith("2026-11-09")] == [
+        ("New York: Shadows of the Past", "2026-11-09T18:00:00-05:00", "https://ohny.org/activity/ny-episode-9")]
+    ny92 = run_adapter(custom, page("browser_92ny.html"), cfg, "nyc-92ny")
+    assert any(e["title"].startswith("Ask Rabbi David") and e["start"] == "2026-11-04T12:00:00-05:00" for e in ny92)
