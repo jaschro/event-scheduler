@@ -135,21 +135,49 @@ sources:
     url: "webcal://thebass.org/?post_type=tribe_events&ical=1&eventDisplay=list"
     page: https://thebass.org/events/
 
+  - key: jmof
+    name: Jewish Museum of Florida-FIU
+    city: miami
+    kind: museum
+    method: ics
+    url: "webcal://calendar.fiu.edu/jmof/calendar/ics"
+    page: https://calendar.fiu.edu/jmof
+
+  - key: frost-science
+    name: Frost Science
+    city: miami
+    kind: science
+    method: ics
+    url: "https://www.frostscience.org/events/?ical=1"
+    page: https://www.frostscience.org/calendar-events/
+
+  - key: bandshell
+    name: Miami Beach Bandshell
+    city: miami
+    kind: music
+    method: ics
+    url: "webcal://miamibeachbandshell.com/events/?ical=1"
+    page: https://miamibeachbandshell.com/events/
+
+  - key: books-and-books
+    name: Books & Books
+    city: miami
+    kind: talks
+    method: eventbrite
+    organizer_id: "16479775533"
+    page: https://www.eventbrite.com/o/books-books-16479775533
+
   # ---------- Later steps (step 4): not collected yet ----------
   # (Venture Café Miami removed: closed.)
-  - {key: jmof, name: Jewish Museum of Florida-FIU, city: miami, kind: museum, method: ics, enabled: false, url: null, page: "https://calendar.fiu.edu/jmof"}
   - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://pamm.org/events"}
   - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}
   - {key: ica-miami, name: ICA Miami, city: miami, kind: museum, method: custom, enabled: false, page: "https://icamiami.org/calendar/"}
   - {key: rubell, name: Rubell Museum, city: miami, kind: museum, method: custom, enabled: false, page: "https://rubellmuseum.org/support/member-events"}
-  - {key: frost-science, name: Frost Science, city: miami, kind: science, method: custom, enabled: false, page: "https://frostscience.org/calendar-events/"}
   - {key: oolite, name: Oolite Arts, city: miami, kind: art, method: custom, enabled: false, page: "https://oolitearts.org/calendar/"}
   - {key: o-cinema, name: O Cinema South Beach, city: miami, kind: film, method: browser, enabled: false, page: "https://o-cinema.org/o-cinema-south-beach"}
   - {key: gables-cinema, name: Coral Gables Art Cinema, city: miami, kind: film, method: browser, enabled: false, page: "https://gablescinema.com/calendar/"}
   - {key: arsht, name: Arsht Center, city: miami, kind: stage, method: custom, enabled: false, page: "https://arshtcenter.org/calendar/"}
   - {key: miami-new-drama, name: Miami New Drama (Colony), city: miami, kind: stage, method: custom, enabled: false, page: "https://miaminewdrama.org/shows-events/"}
-  - {key: bandshell, name: Miami Beach Bandshell, city: miami, kind: music, method: custom, enabled: false, page: "https://miamibeachbandshell.com/events/"}
   - {key: nws, name: New World Center / NWS, city: miami, kind: music, method: browser, enabled: false, page: "https://nws.edu/tickets/concerts-and-events/"}
-  - {key: books-and-books, name: Books & Books, city: miami, kind: talks, method: custom, enabled: false, page: "https://shop.booksandbooks.com/events"}
   - {key: mbjcc, name: Miami Beach JCC, city: miami, kind: community, method: custom, enabled: false, page: "https://mbjcc.org/events"}
   - {key: mb-botanical, name: Miami Beach Botanical Garden, city: miami, kind: outdoors, method: custom, enabled: false, page: "https://mbgarden.org/calendar"}
