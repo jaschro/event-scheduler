@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T14:05:32+00:00",
+ "generated_at": "2026-11-01T14:15:40+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -5054,10 +5054,8 @@
     "text": null
    },
    "source": "manatech",
-   "also_listed_by": [
-    "refresh-miami"
-   ],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:15:40+00:00",
    "city": "miami"
   },
   {
