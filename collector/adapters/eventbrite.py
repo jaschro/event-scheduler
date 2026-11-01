@@ -4,6 +4,8 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Any
 
+import requests
+
 from ..normalize import RawEvent
 from .base import Context, SourceNotConfigured
 
@@ -18,20 +20,24 @@ def fetch(source, ctx: Context) -> list[dict[str, Any]]:
     if not source.organizer_id:
         raise SourceNotConfigured("no organizer_id set in sources.yaml")
     pages: list[dict[str, Any]] = []
+    # Only parameters the "events by organizer" endpoint documents; it answers 400 to others
+    # (such as time_filter). "live" means published and not yet ended.
     params = {
         "status": "live",
         "order_by": "start_asc",
-        "time_filter": "current_future",
+        "only_public": "true",
         "expand": "venue,ticket_availability",
-        "page_size": 50,
     }
     for _ in range(MAX_PAGES):
-        resp = ctx.session.get(
-            f"{API}/organizers/{source.organizer_id}/events/",
-            params=params,
-            headers={"Authorization": f"Bearer {token}"},
-            check_robots=False,  # official, authenticated API
-        )
+        try:
+            resp = ctx.session.get(
+                f"{API}/organizers/{source.organizer_id}/events/",
+                params=params,
+                headers={"Authorization": f"Bearer {token}"},
+                check_robots=False,  # official, authenticated API
+            )
+        except requests.HTTPError as exc:
+            raise RuntimeError(f"Eventbrite API {_describe(exc.response)}") from None
         data = resp.json()
         pages.append(data)
         pag = data.get("pagination") or {}
@@ -39,6 +45,19 @@ def fetch(source, ctx: Context) -> list[dict[str, Any]]:
             break
         params["continuation"] = pag["continuation"]
     return pages
+
+
+def _describe(resp) -> str:
+    """Status plus Eventbrite's own error text, without echoing the request URL."""
+    if resp is None:
+        return "error"
+    detail = ""
+    try:
+        body = resp.json()
+        detail = body.get("error_description") or body.get("error") or ""
+    except ValueError:
+        detail = (resp.text or "")[:200]
+    return f"{resp.status_code}: {detail}".rstrip(": ")
 
 
 def _when(block: dict[str, Any] | None) -> datetime | None:
