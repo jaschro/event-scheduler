@@ -25,22 +25,19 @@ BROWSER_KEYS = {"o-cinema", "gables-cinema", "nws"}
 
 # Round 2: specific follow-up URLs per source (feeds, detail pages, alternate hosts).
 EXTRA_URLS: dict[str, list[str]] = {
-    "arsht": [
-        "https://www.miamiandbeaches.com/thing-to-do/arts-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269",
-        "https://www.miamiandbeaches.com/events",
-    ],
-    "pamm": ["https://www.miamiandbeaches.com/things-to-do/arts-culture/top-miami-museums-to-visit-on-vacation"],
-    "gables-cinema": [
-        "https://miamiandbeaches.com/l/arts-and-culture/coral-gables-art-cinema/4180",
-        "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&",
-    ],
+    "nyc-jts": ["https://www.jtsa.edu/event/biblical-hebrew-iv-spring-2027-afternoon/", "https://www.jtsa.edu/events/"],
+    "nyc-urban-design-forum": ["https://urbandesignforum.org/event/equality-and-the-city-bogotas-sustainable-urbanism/",
+                               "https://urbandesignforum.org/event/living-routes-ideas-launch/"],
+    "nyc-ny-building-congress": ["https://buildingcongress.com/event/council-on-innovation-and-best-practices-10/"],
+    "nyc-hartman": ["https://www.hartman.org.il/event/two-democracies-one-uncertain-future/",
+                    "https://www.hartman.org.il/event/james-loeffler-exceptional-hatred/"],
+    "nyc-arch-league": ["https://archleague.org/event/from-field-to-form-ocean-flora/"],
+    "nyc-ncjw-ny": ["https://ncjwny.org/event/hoarding-behaviors/"],
+    "nyc-ipa": ["https://secure.givelively.org/event/institute-for-public-architectire/2026-ipa-fellows-halloween-party-haunted-block-house"],
 }
-RENDER_URL = {
-    "gables-cinema": "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&",
-    "arsht": "https://www.miamiandbeaches.com/events",
-}
+RENDER_URL: dict[str, str] = {}
 # Round 2: sources to render in a browser, capturing every XHR/fetch response.
-BROWSER2_KEYS = {"gables-cinema", "arsht"}
+BROWSER2_KEYS = {"nyc-92ny", "nyc-nypl", "nyc-ohny", "nyc-econ-club-ny", "nyc-cornell-tech", "nyc-uja", "nyc-arch-league"}
 EVENT_WORDS = re.compile(r"event|exhibit|show|performance|program|calendar|film|concert", re.I)
 
 
@@ -161,7 +158,7 @@ def render(src, d: Path) -> dict:
 
 
 def extra(src, session, out: Path) -> dict:
-    d = out / src.key / "extra6"
+    d = out / src.key / "extra7"
     res = []
     for i, url in enumerate(EXTRA_URLS.get(src.key, []), 1):
         r = try_get(session, url, check_robots=not url.endswith("robots.txt"))
@@ -171,7 +168,7 @@ def extra(src, session, out: Path) -> dict:
             body = r["resp"].text
             ext = "json" if "json" in r["type"] else ("ics" if "calendar" in r["type"] else ("xml" if "xml" in r["type"] else "html"))
             save(d / f"x{i:02d}.{ext}", body)
-            entry["file"] = f"extra6/x{i:02d}.{ext}"
+            entry["file"] = f"extra7/x{i:02d}.{ext}"
             entry["bytes"] = len(body)
             if ext == "html":
                 entry["jsonld_events"] = len(find_events(body))
@@ -183,7 +180,7 @@ def render2(src, out: Path) -> dict:
     """Render, accept cookie banners, scroll, and record every XHR/fetch response."""
     from playwright.sync_api import sync_playwright
 
-    d = out / src.key / "browser6"
+    d = out / src.key / "browser7"
     result: dict = {"requests": []}
     with sync_playwright() as p:
         b = p.chromium.launch()
@@ -270,7 +267,7 @@ def main(argv=None) -> int:
             summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS))
         except Exception as e:  # noqa: BLE001
             summary.append({"key": src.key, "error": f"{type(e).__name__}: {e}"[:300]})
-    save(out / ("summary6.json" if args.round2 else "summary.json"), summary)
+    save(out / ("summary7.json" if args.round2 else "summary.json"), summary)
     for s in summary:
         print(json.dumps({k: s.get(k) for k in ("key", "jsonld_events", "tribe_api", "wordpress")})[:300])
     return 0
