@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T14:38:38+00:00",
+ "generated_at": "2026-11-01T14:54:31+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -85,7 +85,7 @@
    "id": "04f067a628a56145",
    "title": "Publishing Architecture at The Cooper Union",
    "venue": "Cooper Union School of Architecture",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-10-29T00:00:00-04:00",
    "end": "2026-11-26T00:00:00-05:00",
    "all_day": true,
@@ -99,7 +99,7 @@
    },
    "source": "nyc-cooper-union-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -586,6 +586,27 @@
    "city": "nyc"
   },
   {
+   "id": "bb0cd3b78327f5d2",
+   "title": "A New Heaven and a New Earth: How the Bible Cultivates Hope for the Future",
+   "venue": "Jewish Theological Seminary (JTS)",
+   "kind": "talks",
+   "start": "2026-11-02T13:00:00-05:00",
+   "end": "2026-11-02T14:10:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.jtsa.edu/event/how-bible-cultivates-hope-future/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "f54c91d9dc1fe8da",
    "title": "Moonlighter FabLab: Maker Club Afterschool Enrichment - 2026-2027",
    "venue": "City of Miami Beach Arts Calendar",
@@ -673,7 +694,7 @@
    "id": "b67a4e00521ed4c3",
    "title": "The Floating City: Rome Between Land and Water",
    "venue": "Pratt Institute School of Architecture",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-02T18:15:00-05:00",
    "end": "2026-11-11T20:00:00-05:00",
    "all_day": false,
@@ -687,7 +708,7 @@
    },
    "source": "nyc-pratt-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -1531,6 +1552,27 @@
    "city": "nyc"
   },
   {
+   "id": "5150104fb7838c99",
+   "title": "Ask Rabbi David: An Open Conversation with Rabbi David Ingber",
+   "venue": "92nd Street Y (92NY)",
+   "kind": "talks",
+   "start": "2026-11-04T12:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.92ny.org/class/ask-rabbi-david-an-open-conversation-with-rabbi-david-ingber",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-92ny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "d2fc4508dffdb98b",
    "title": "Lunch 'n Learn with Adam Fuller",
    "venue": "Yeshiva University",
@@ -1807,7 +1849,7 @@
    "id": "798a97a7e65c4664",
    "title": "Book Talk: Claying Architecture, Making Machine and Material Kin",
    "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-04T18:00:00-05:00",
    "end": "2026-11-04T20:00:00-05:00",
    "all_day": false,
@@ -1821,14 +1863,14 @@
    },
    "source": "nyc-aiany",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
    "id": "510c989119aa37ee",
    "title": "Claying Architecture: Book Talk",
    "venue": "Pratt Institute School of Architecture",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-04T18:00:00-05:00",
    "end": "2026-11-04T20:00:00-05:00",
    "all_day": false,
@@ -1842,7 +1884,7 @@
    },
    "source": "nyc-pratt-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -1870,7 +1912,7 @@
    "id": "7a938d3d4da4ab46",
    "title": "Methods of Measurement: Health, Safety, Welfare in Architecture and Happy Hour",
    "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-04T18:00:00-05:00",
    "end": "2026-11-04T20:00:00-05:00",
    "all_day": false,
@@ -1884,14 +1926,14 @@
    },
    "source": "nyc-aiany",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
    "id": "b8812c8e2c1922dd",
    "title": "Minds behind Storied Architecture Studio Share Their Book, JSa: Built in Mexico City (+ Signing)",
    "venue": "Club Free Time",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-04T18:00:00-05:00",
    "end": "2026-11-04T19:45:00-05:00",
    "all_day": false,
@@ -1905,7 +1947,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -2053,6 +2095,27 @@
    "source": "nyc-cjh",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:38:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "71abfd4c414fd3fd",
+   "title": "MA in Spiritual Care and Counseling Open House",
+   "venue": "Jewish Theological Seminary (JTS)",
+   "kind": "talks",
+   "start": "2026-11-04T18:30:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.jtsa.edu/event/scc-open-house-fall-2026/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -3172,7 +3235,7 @@
    "id": "5bfa3983237cc600",
    "title": "Princeton Archeologist Discusses the Traveling Craftsmen of Ancient Greece",
    "venue": "Club Free Time",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-05T19:30:00-05:00",
    "end": "2026-11-05T21:00:00-05:00",
    "all_day": false,
@@ -3186,7 +3249,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -3340,7 +3403,7 @@
    "id": "fbe9cfaf7a811878",
    "title": "Women in Architecture Leadership Breakfast with Lissa So",
    "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-06T08:00:00-05:00",
    "end": "2026-11-06T09:00:00-05:00",
    "all_day": false,
@@ -3354,7 +3417,7 @@
    },
    "source": "nyc-aiany",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -4975,6 +5038,27 @@
    "city": "nyc"
   },
   {
+   "id": "d0eb6aa68c51cec4",
+   "title": "Ask Us Anything: The MFA @ JTS",
+   "venue": "Jewish Theological Seminary (JTS)",
+   "kind": "talks",
+   "start": "2026-11-09T12:00:00-05:00",
+   "end": "2026-11-09T13:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.jtsa.edu/event/ask-us-anything-mfa-jts/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b3994f0db7d05996",
    "title": "Lunch and Crafts",
    "venue": "Columbia Law School",
@@ -5122,6 +5206,27 @@
    "city": "nyc"
   },
   {
+   "id": "aeff19550f80ec22",
+   "title": "Rabbinic Futures, Short and Long Term",
+   "venue": "Jewish Theological Seminary (JTS)",
+   "kind": "talks",
+   "start": "2026-11-09T13:00:00-05:00",
+   "end": "2026-11-09T14:10:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.jtsa.edu/event/rabbinic-futures-short-long-term/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "068f272efad84517",
    "title": "Moonlighter FabLab: Maker Club Afterschool Enrichment - 2026-2027",
    "venue": "City of Miami Beach Arts Calendar",
@@ -5209,7 +5314,7 @@
    "id": "9f8bd2cb195cd625",
    "title": "Book Launch: Junior Architects",
    "venue": "Van Alen Institute",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-09T18:00:00-05:00",
    "end": "2026-11-09T20:00:00-05:00",
    "all_day": false,
@@ -5223,7 +5328,7 @@
    },
    "source": "nyc-van-alen",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -5353,10 +5458,31 @@
    "city": "miami"
   },
   {
+   "id": "91f88413e1136a95",
+   "title": "New York: Shadows of the Past",
+   "venue": "Open House New York",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T21:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://ohny.org/activity/ny-episode-9",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-ohny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "88c35a6cc316dfd3",
    "title": "Hayley Eber: Digesting What Matters",
    "venue": "Pratt Institute School of Architecture",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-09T18:15:00-05:00",
    "end": "2026-11-09T20:00:00-05:00",
    "all_day": false,
@@ -5370,7 +5496,7 @@
    },
    "source": "nyc-pratt-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -5791,6 +5917,27 @@
    "source": "nyc-club-free-time",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:30:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "9b58d603029b35f9",
+   "title": "Designing at Scale: Lessons from London's Elizabeth Line",
+   "venue": "Urban Design Forum",
+   "kind": "talks",
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": "2026-11-10T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://urbandesignforum.org/event/designing-at-scale-lessons-from-londons-elizabeth-line/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-urban-design-forum",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
@@ -6529,6 +6676,27 @@
    "city": "nyc"
   },
   {
+   "id": "9e884ddb9cff81a2",
+   "title": "From Field to Form: Ocean Flora",
+   "venue": "Architectural League of New York",
+   "kind": "talks",
+   "start": "2026-11-11T18:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://archleague.org/event/from-field-to-form-ocean-flora/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-arch-league",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "4baff8e6176f9778",
    "title": "In Dialogue With: Sally Poolat MBA '14",
    "venue": "Yeshiva University",
@@ -6674,6 +6842,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
+  },
+  {
+   "id": "8e7efa4bcad4ef3f",
+   "title": "MA in Ritual Leadership Open House",
+   "venue": "Jewish Theological Seminary (JTS)",
+   "kind": "talks",
+   "start": "2026-11-11T19:00:00-05:00",
+   "end": "2026-11-11T20:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.jtsa.edu/event/ma-religious-leadership-open-house-2026/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
   },
   {
    "id": "e5a9c03d4823b88b",
@@ -7308,6 +7497,27 @@
    "city": "nyc"
   },
   {
+   "id": "4394fba2aaba8090",
+   "title": "Living Routes Ideas Launch",
+   "venue": "Urban Design Forum",
+   "kind": "talks",
+   "start": "2026-11-12T18:30:00-05:00",
+   "end": "2026-11-12T20:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://urbandesignforum.org/event/living-routes-ideas-launch/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-urban-design-forum",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T14:54:31+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "1c89ad44af612148",
    "title": "MacArthur Fellow Shares Discusses Her Creative Career",
    "venue": "Club Free Time",
@@ -7647,7 +7857,7 @@
    "id": "70170d48195cbced",
    "title": "GA/LA/UD Virtual Information Session II",
    "venue": "Pratt Institute School of Architecture",
-   "kind": "talks",
+   "kind": "architecture",
    "start": "2026-11-13T12:00:00-05:00",
    "end": "2026-11-13T14:00:00-05:00",
    "all_day": false,
@@ -7661,7 +7871,7 @@
    },
    "source": "nyc-pratt-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
+   "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
   },
   {
