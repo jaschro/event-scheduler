@@ -245,14 +245,22 @@ sources:
     name: Coral Gables Art Cinema
     city: miami
     kind: film
-    method: custom          # "Coming soon" screenings on its calendar page (partial; full schedule is on Agile Ticketing)
-    reader: gables
+    method: jsonld          # its Agile Ticketing "full calendar" page carries schema.org Event data per screening
+    url: "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&"
     page: https://gablescinema.com/calendar/
     location: "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables"
 
+  - key: arsht
+    name: Arsht Center
+    city: miami
+    kind: stage
+    method: custom          # its own calendar blocks bots; listed via the Greater Miami tourism site (dates, times when given)
+    reader: simpleview
+    page: https://www.miamiandbeaches.com/thing-to-do/arts-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269
+    location: "Adrienne Arsht Center, 1300 Biscayne Blvd, Miami"
+
   # ---------- Not collectable yet (see README "Blocked sources") ----------
   - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
-  - {key: arsht, name: Arsht Center, city: miami, kind: stage, method: custom, enabled: false, page: "https://arshtcenter.org/calendar/"}  # bot protection blocks its events API
   - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners
 
   # ======================= New York (from nyc_sources.yaml, Nov 1 2026) =======================

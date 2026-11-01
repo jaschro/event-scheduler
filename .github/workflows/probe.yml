@@ -36,6 +36,7 @@ jobs:
         run: python -m pytest -q collector/tests
 
       - name: Probe
+        if: contains(github.event.head_commit.message, '[round1]') || contains(github.event.head_commit.message, '[round2]')
         run: python -m collector.probe ${{ contains(github.event.head_commit.message, '[round2]') && '--round2' || '' }}
 
       - name: Dry-run collector (no commit to main)

@@ -148,3 +148,26 @@ def test_squarespace_events():
     events = run_adapter(custom, json.loads(page("squarespace.json")), cfg, "mb-botanical")
     assert events and all(e["url"].startswith("https://www.mbgarden.org/calendar/") for e in events)
     check_expected("squarespace", events)
+
+
+def test_gables_agile_calendar_jsonld():
+    cfg = config()
+    url = next(s for s in cfg.sources if s.key == "gables-cinema").url
+    events = run_adapter(jsonld, [(url, page("gables_agile_list.html"))], cfg, "gables-cinema")
+    assert events and all(e["venue"] == "Coral Gables Art Cinema" for e in events)
+    first = next(e for e in events if e["title"] == "Once Upon a Time in Harlem")
+    assert first["start"] == "2026-11-06T13:15:00-05:00"
+    assert first["end"] == "2026-11-06T15:45:00-05:00"  # 2.5-hour film default
+    check_expected("gables", events)
+
+
+def test_arsht_via_miamiandbeaches():
+    cfg = config()
+    payload = {"listing": page("arsht_miamiandbeaches.html"), "details": {}}
+    events = run_adapter(custom, payload, cfg, "arsht")
+    titles = [e["title"] for e in events]
+    assert "God of Carnage" in titles and "Jobim and the Music of Brazil" in titles
+    carnage = next(e for e in events if e["title"] == "God of Carnage")
+    assert carnage["all_day"] and carnage["start"].startswith("2026-11-05")
+    assert "Through Nov 22, 2026" in carnage["description"]
+    check_expected("arsht", events)
