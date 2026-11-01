@@ -385,13 +385,30 @@ sources:
 
 
   # ---------- NYC Later: WordPress Events Calendar API ----------
-  - {key: nyc-ny-jewish-week, name: "New York Jewish Week / JTA (My Jewish Learning Hub)", city: nyc, kind: community, method: tribe, enabled: false, url: "https://www.myjewishlearning.com/wp-json/tribe/events/v1/events?categories=new-york", aggregator: true, page: "https://www.myjewishlearning.com/the-hub/category/new-york"}
+  - key: nyc-ny-jewish-week
+    name: "New York Jewish Week / JTA (My Jewish Learning Hub)"
+    city: nyc
+    kind: community
+    method: tribe           # The Events Calendar API, New York category
+    url: "https://www.myjewishlearning.com/wp-json/tribe/events/v1/events?categories=new-york"
+    aggregator: true
+    page: "https://www.myjewishlearning.com/the-hub/category/new-york"
 
   # ---------- NYC Later: page readers (some have a JSON API noted) ----------
   - {key: nyc-columbia-gsapp, name: "Columbia GSAPP", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.arch.columbia.edu/events"}
   - {key: nyc-cooper-union-arch, name: "Cooper Union School of Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://cooper.edu/architecture/events-and-exhibitions"}
   - {key: nyc-nyu-furman, name: "NYU Furman Center", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.furmancenter.org/events/"}   # JSON: https://www.furmancenter.org/wp-json/wp/v2/event
-  - {key: nyc-pratt-arch, name: "Pratt Institute School of Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.pratt.edu/events/"}   # JSON: https://www.pratt.edu/wp-json/wp/v2/event?school=33
+  - key: nyc-pratt-arch
+    name: "Pratt Institute School of Architecture"
+    city: nyc
+    kind: talks
+    method: wprest          # WordPress API (Event Organiser dates), School of Architecture only
+    page: "https://www.pratt.edu/events/"
+    params:
+      endpoint: "https://www.pratt.edu/wp-json/wp/v2/event"
+      start: meta._eventorganiser_schedule_start_start.0
+      end: meta._eventorganiser_schedule_start_finish.0
+      query: {school: 33}
   - {key: nyc-nyu-stern, name: "NYU Stern School of Business", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.stern.nyu.edu/experience-stern/events"}
   - {key: nyc-ai-now, name: "AI Now Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://ainowinstitute.org/news/events"}   # dead or stale, see csv
   - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: tech, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
@@ -409,14 +426,26 @@ sources:
   - {key: nyc-rpa, name: "Regional Plan Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://rpa.org/events/upcoming"}
   - {key: nyc-skyscraper-museum, name: "The Skyscraper Museum", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.skyscraper.org/programs/"}
   - {key: nyc-urban-design-forum, name: "Urban Design Forum", city: nyc, kind: talks, method: custom, enabled: false, page: "https://urbandesignforum.org/events/"}
-  - {key: nyc-van-alen, name: "Van Alen Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.vanalen.org/events/"}
+  - key: nyc-van-alen
+    name: "Van Alen Institute"
+    city: nyc
+    kind: talks
+    method: wprest          # WordPress API; dates in ACF fields
+    page: "https://www.vanalen.org/events/"
+    params: {endpoint: "https://www.vanalen.org/wp-json/wp/v2/events", start: acf.start_date_time, end: acf.end_date_time}
   - {key: nyc-cfr, name: "Council on Foreign Relations", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.cfr.org/events"}
   - {key: nyc-carnegie-council, name: "Carnegie Council for Ethics in International Affairs", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.carnegiecouncil.org/events"}
   - {key: nyc-fpa, name: "Foreign Policy Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.fpa.org/"}   # dead or stale, see csv
   - {key: nyc-paley-center, name: "Paley Center for Media", city: nyc, kind: film, method: custom, enabled: false, page: "https://www.paleycenter.org/events"}
   - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar"}
   - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.moma.org/calendar"}
-  - {key: nyc-club-free-time, name: "Club Free Time", city: nyc, kind: talks, method: custom, enabled: false, aggregator: true, page: "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures"}
+  - key: nyc-club-free-time
+    name: "Club Free Time"
+    city: nyc
+    kind: talks
+    method: jsonld          # schema.org Event data on the free talks & lectures page
+    aggregator: true
+    page: "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures"
   - {key: nyc-cjh, name: "Center for Jewish History", city: nyc, kind: talks, method: custom, enabled: false, page: "https://programs.cjh.org/"}
   - {key: nyc-yivo, name: "YIVO Institute for Jewish Research", city: nyc, kind: talks, method: custom, enabled: false, page: "https://yivo.org/Calendar?show=evs"}
   - {key: nyc-tikvah, name: "Tikvah Fund", city: nyc, kind: talks, method: custom, enabled: false, page: "https://tikvah.org/events"}   # dead or stale, see csv

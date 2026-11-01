@@ -28,7 +28,8 @@ def source(cfg, key) -> Source:
 
 
 def run_adapter(adapter, payload, cfg, key):
-    return process_payload(adapter, payload, source(cfg, key), context(cfg), cfg, FETCHED_AT)
+    src = source(cfg, key)
+    return process_payload(adapter, payload, src, context(cfg, src.city), cfg, FETCHED_AT)
 
 
 def check_expected(name, actual):

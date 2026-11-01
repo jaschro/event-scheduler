@@ -171,3 +171,40 @@ def test_arsht_via_miamiandbeaches():
     assert carnage["all_day"] and carnage["start"].startswith("2026-11-05")
     assert "Through Nov 22, 2026" in carnage["description"]
     check_expected("arsht", events)
+
+
+def test_wprest_van_alen_acf_dates():
+    from collector.adapters import wprest
+
+    cfg = config()
+    events = run_adapter(wprest, [json.loads(page("wp_vanalen.json"))], cfg, "nyc-van-alen")
+    assert events and all(e["url"].startswith("https://www.vanalen.org/events/") for e in events)
+    check_expected("wp_vanalen", events)
+
+
+def test_wprest_pratt_event_organiser_dates():
+    from collector.adapters import wprest
+
+    cfg = config()
+    events = run_adapter(wprest, [json.loads(page("wp_pratt.json"))], cfg, "nyc-pratt-arch")
+    assert events and all(e["city"] == "nyc" for e in events)
+    check_expected("wp_pratt", events)
+
+
+def test_tribe_ny_jewish_week_keeps_category_query():
+    from collector.adapters.tribe import source_query
+
+    cfg = config()
+    src = next(s for s in cfg.sources if s.key == "nyc-ny-jewish-week")
+    assert source_query(src) == {"categories": "new-york"}
+    events = run_adapter(tribe, [json.loads(page("tribe_nyjw.json"))], cfg, "nyc-ny-jewish-week")
+    assert events
+    check_expected("tribe_nyjw", events)
+
+
+def test_club_free_time_jsonld():
+    cfg = config()
+    url = next(s for s in cfg.sources if s.key == "nyc-club-free-time").page
+    events = run_adapter(jsonld, [(url, page("clubfreetime.html"))], cfg, "nyc-club-free-time")
+    assert len(events) > 10
+    check_expected("clubfreetime", events)

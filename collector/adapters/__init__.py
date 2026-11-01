@@ -1,4 +1,4 @@
-from . import custom, eventbrite, ics, jsonld, ticketmaster, tribe
+from . import custom, eventbrite, ics, jsonld, ticketmaster, tribe, wprest
 
 # method name in sources.yaml -> adapter module.
 # "custom" and "browser" both dispatch to the per-venue module named by `reader`.
@@ -10,4 +10,5 @@ ADAPTERS = {
     "custom": custom,
     "browser": custom,
     "ticketmaster": ticketmaster,
+    "wprest": wprest,
 }
