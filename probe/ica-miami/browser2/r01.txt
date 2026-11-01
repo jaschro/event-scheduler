@@ -1,0 +1,1 @@
+{"config":{"err":1,"ins":1,"spa":1,"sr":0,"srs":0,"st":1,"sts":1,"log":2,"logapi":2},"app":{"agents":[{"entityGuid":"NTYzMzQ5fEJST1dTRVJ8QVBQTElDQVRJT058MTEyMDQwMDkxNw"}],"igp":"","nrServerTime":1793510175651}}

@@ -1,0 +1,1 @@
+{"clientName":"miaminewdrama","apiEndpoint":"https://tickets.miaminewdrama.org/miaminewdrama/api/v3/","currencyChar":"$","currencyDecimalPlaces":2,"spektrixHost":"tickets.miaminewdrama.org","loginUrl":"https://miaminewdrama.org/login/","timeoutMinutes":"20","enabled":true}

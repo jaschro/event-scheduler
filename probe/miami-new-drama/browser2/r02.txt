@@ -1,0 +1,1 @@
+{"consenttype":"optout","region":"us","version":"7.6.7","forceEnableStats":false,"banner_version":"73"}

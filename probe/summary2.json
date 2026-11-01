@@ -1,0 +1,1063 @@
+[
+ {
+  "key": "pamm",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.pamm.org/robots.txt",
+    "type": "text/plain; charset=utf-8",
+    "request": "https://www.pamm.org/robots.txt",
+    "file": "extra/x01.html",
+    "bytes": 170,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "wolfsonian",
+  "extra": [
+   {
+    "ok": false,
+    "status": null,
+    "error": "ConnectionError: HTTPSConnectionPool(host='www.wolfsonian.org', port=443): Max retries exceeded with url: /whats-on/events/index.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.wolfsonian.org', port=443): Failed to resolve 'www.wolfsonian.org' ([Errno -3] Temporary failure in name res",
+    "request": "https://www.wolfsonian.org/whats-on/events/index.html"
+   },
+   {
+    "ok": false,
+    "status": null,
+    "error": "ConnectionError: HTTPSConnectionPool(host='www.wolfsonian.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.wolfsonian.org', port=443): Failed to resolve 'www.wolfsonian.org' ([Errno -3] Temporary failure in name resolution)\"))",
+    "request": "https://www.wolfsonian.org/"
+   }
+  ]
+ },
+ {
+  "key": "ica-miami",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://icamiami.org/calendar/sheroanawe-hakihiiwe-opening/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://icamiami.org/calendar/sheroanawe-hakihiiwe-opening/",
+    "file": "extra/x01.html",
+    "bytes": 122919,
+    "jsonld_events": 1
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://icamiami.org/calendar/",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=696701258.1793510174&gtm=45He6as1v76396830za200zd76396830xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&ae=g&auid=696701258.1793510174&dt=Calendar%20Archive%20-%20Institute%20of%20Contemporary%20Art%2C%20Miami&en=page_view&dl=https%3A%2F%2Ficamiami.org%2Fcalendar%2F&scrsrc=www.googletagmanager.com&rnd=642660444.1793510174&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6as1v76396830za200zd76396830xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~11593",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/measurement/conversion?random=1793510173782&cv=11&tid=G-V1WG96JTZG&fst=1793510173782&fmt=8&en=page_view&gtm=45je6as1v876352858za20ozb76396830zd76396830xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121191155~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Ficamiami.org%2Fcalendar%2F&gacid=",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1WG96JTZG&gtm=45je6as1v876352858za20ozb76396830zd76396830xf1&_p=1793510173397&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&are=1&cid=438443454.1793510174&frm=0&pscdl=noapi&rcb=18&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/measurement/1p-conversion/?random=167669777&cv=11&tid=G-V1WG96JTZG&fst=1793510173782&fmt=8&en=page_view&gtm=45je6as1v876352858za20ozb76396830zd76396830xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121191155~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Ficamiami.org%2Fcalendar%2F&gacid=",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://bam.nr-data.net/browser/connect/2/1f60e454c2?a=991944275&v=1.324.1&s=50c067ef4598b720",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 210
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/1f60e454c2?a=991944275&v=1.324.1&to=MVYEbUJYWEBUBUBdDggcJUxDTVleGidGVwkPRQMZHRl1UlkDWlAAFA%3D%3D&rst=2505&s=50c067ef4598b720&ref=https://icamiami.org/calendar/&ptid=aa61e900f830915b",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r02.txt",
+     "bytes": 24
+    },
+    {
+     "url": "https://bam.nr-data.net/rum/2/1f60e454c2?a=991944275&v=1.324.1&to=MVYEbUJYWEBUBUBdDggcJUxDTVleGidGVwkPRQMZHRl1UlkDWlAAFA%3D%3D&rst=2502&s=50c067ef4598b720&ref=https://icamiami.org/calendar/&ptid=aa61e900f830915b&af=err,spa,xhr,stn,ins&ap=270&be=118&fe=1841&dc=437&fp=293&fcp=293&perf=%7B%22timing%22:%7B%22of%22:1793510173192,%22n%22:0,%22f%22:0,%22dn%22:2,%22dne%22:3,%22c%22:3,%22s%22:7,%22ce%22:97",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r03.txt",
+     "bytes": 24
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/1f60e454c2?a=991944275&v=1.324.1&to=MVYEbUJYWEBUBUBdDggcJUxDTVleGidGVwkPRQMZHRl1UlkDWlAAFA%3D%3D&rst=2509&s=50c067ef4598b720&ref=https://icamiami.org/calendar/&ptid=aa61e900f830915b",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r04.txt",
+     "bytes": 24
+    },
+    {
+     "url": "https://bam.nr-data.net/jserrors/1/1f60e454c2?a=991944275&v=1.324.1&to=MVYEbUJYWEBUBUBdDggcJUxDTVleGidGVwkPRQMZHRl1UlkDWlAAFA%3D%3D&rst=2507&s=50c067ef4598b720&ref=https://icamiami.org/calendar/&ptid=aa61e900f830915b",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r05.txt",
+     "bytes": 24
+    },
+    {
+     "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=1f60e454c2&type=BrowserSessionChunk&app_id=991944275&protocol_version=0&timestamp=1793510173314&attributes=entityGuid%3DNTYzMzQ5fEJST1dTRVJ8QVBQTElDQVRJT058MTEyMDQwMDkxNw%26harvestId%3D50c067ef4598b720_aa61e900f830915b_1%26trace.firstTimestamp%3D1793510173314%26trace.lastTimestamp%3D1793510175806%26trace.nodes%3D116%26trace.originTimesta",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r06.txt",
+     "bytes": 24
+    }
+   ],
+   "rendered_bytes": 184731,
+   "jsonld_events": 1
+  }
+ },
+ {
+  "key": "rubell",
+  "extra": []
+ },
+ {
+  "key": "oolite",
+  "extra": []
+ },
+ {
+  "key": "o-cinema",
+  "extra": []
+ },
+ {
+  "key": "gables-cinema",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://prod3.agileticketing.net/websales/feed.ashx?guid=d14c295b-aa15-457f-8923-60a571db98a8&showslist=true&withmedia=false&format=json&v=latest",
+    "type": "application/json; charset=utf-8",
+    "request": "https://prod3.agileticketing.net/websales/feed.ashx?guid=d14c295b-aa15-457f-8923-60a571db98a8&showslist=true&withmedia=false&format=json&v=latest",
+    "file": "extra/x01.json",
+    "bytes": 242
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://prod3.agileticketing.net/websales/feed.ashx?guid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&showslist=true&withmedia=false&format=json&v=latest",
+    "type": "application/json; charset=utf-8",
+    "request": "https://prod3.agileticketing.net/websales/feed.ashx?guid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&showslist=true&withmedia=false&format=json&v=latest",
+    "file": "extra/x02.json",
+    "bytes": 242
+   }
+  ]
+ },
+ {
+  "key": "arsht",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://arshtcenter.org/calendar/",
+     "status": 301,
+     "type": "",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.arshtcenter.org/calendar/",
+     "status": 302,
+     "type": "",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.arshtcenter.org/calendar/?date=2026-11-01",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://15662505.fls.doubleclick.net/activityi;src=15662505;type=sitev0;cat=arsht0;rcb=2;ord=1;num=7459868814778;npa=0;auiddc=2013391501.1793510189;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6at0h2v9228306802z86411057za20gzb6411057zd6411057xeaxf1;gcd=13l3l3l3l1l1;dma",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=15662505;type=sitev0;cat=arsht0;rcb=2;ord=1;num=7459868814778;npa=0;auiddc=2013391501.1793510189;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6at0h2v9228306802z86411057za20gzb6411057zd6411057xeaxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2013391501.1793510189&gtm=45He6at0h2v6411057za200zd6411057xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&auid=2013391501.1793510189&dt=Calendar%20%7C%20The%20Arsht&en=page_view&dl=https%3A%2F%2Fwww.arshtcenter.org%2Fcalendar%2F%3Fdate%3D2026-11-01&scrsrc=www.googletagmanager.com&rnd=903983226.1793510189&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6at0h2v6411057za200zd6411057xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1782445105&t=pageview&_s=1&dl=https%3A%2F%2Fwww.arshtcenter.org%2Fcalendar%2F%3Fdate%3D2026-11-01&ul=en-us&dt=Calendar%20%7C%20The%20Arsht&sr=1280x720&vp=1280x720&_u=YEBAAEABAAAAACAAI~&jid=582482058&gjid=1259008006&cid=1977997632.1793510189&tid=UA-5148237-2&_gid=120035046.1793510189&_r=1&_slc=1&gtm=45He6at0h2n71T2LRHLv6411057za200zd6411057xf",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 3
+    },
+    {
+     "url": "https://www.arshtcenter.org/Static/img/adage-sprite.svg",
+     "status": 200,
+     "type": "image/svg+xml",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 12042
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&auid=2013391501.1793510189&dt=Calendar%20%7C%20The%20Arsht&tid=DC-15662505&en=page_view&dl=https%3A%2F%2Fwww.arshtcenter.org%2Fcalendar%2F%3Fdate%3D2026-11-01&scrsrc=www.googletagmanager.com&rnd=903983226.1793510189&navt=n&npa=0&gtm=45fe6at0h2v9228306802za20ozb6411057zd6411057xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~1",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JMVWWTJ1BS&gtm=45je6at0h2v9105689679za20ozb6411057zd6411057xf1&_p=1793510188722&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=1977997632.1793510189&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_icvxii2z01wf&event=PageVisit",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/sa.jpeg",
+     "status": 200,
+     "type": "image/jpeg",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r03.txt",
+     "bytes": 251
+    },
+    {
+     "url": "https://www.google.com/gmp/conversion/_dc_unique_id=3999496544573725066;_dc_ptd=ChEI8KOW1wYQ9I_xtKuWp-6TARIfANkPczTn9GxBeUTQpwefcRSNmvwpFcoo_3DjfpAm7w;_dc_time=1793510189;src=15662505;type=sitev0;cat=arsht0;rcb=2;ord=1;num=7459868814778;npa=0;auiddc=2013391501.1793510189;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linu",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://c.amazon-adsystem.com/aat/amzn.js",
+     "status": 200,
+     "type": "application/javascript",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r04.txt",
+     "bytes": 36123
+    },
+    {
+     "url": "https://c.amazon-adsystem.com/aat/amzn.js",
+     "status": 200,
+     "type": "application/javascript",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r05.txt",
+     "bytes": 36123
+    },
+    {
+     "url": "https://s.amazon-adsystem.com/iu3?pid=1bf43769-fd0b-44d4-94d6-98a29e68d74a&event=PageView&gtmVersion=3.5&ts=1793510189664&eventSource=amzn.js&uuid=c7866768-8099-41c2-914c-fb9246f4db4a",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.googleadservices.com/pagead/conversion/17061587867/?random=1793510189733&cv=11&fst=1793510189733&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6at0h2z86411057za20gzb6411057zd6411057xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ar",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r06.txt",
+     "bytes": 3434
+    },
+    {
+     "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17061587867/?random=1246152237&cv=11&fst=1793510189733&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6at0h2z86411057za20gzb6411057zd6411057xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://v.arshtcenter.org/collect",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r07.txt",
+     "bytes": 36
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=XDbR9bgzYgamKCe5q8YQuw&is_js=true&landing_url=https%3A%2F%2Fwww.arshtcenter.org%2Fcalendar%2F%3Fdate%3D2026-11-01%26layout%3DA&t=Calendar%20%7C%20The%20Arsht&tip=TXuuutqPLLM0kwOM4VdoAh8kNCGUpNVEc8Wh7SRHiQk&host=https%3A%2F%2Fwww.arshtcenter.org&sa_conv_data_css_value=%27CiQwMWExOTU4OS1hN2MzLTc0OGQtYTA2NS05MjY1NTgwMWVhNGMQBBoCTkEgNg%27&sa_conv_data_image_",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r08.txt",
+     "bytes": 185
+    },
+    {
+     "url": "https://cf-enrich.prod.verisoul.ai/",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r09.txt",
+     "bytes": 11
+    },
+    {
+     "url": "https://www.google.com/pagead/1p-conversion/17061587867/?random=1246152237&cv=11&fst=1793510189733&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6at0h2z86411057za20gzb6411057zd6411057xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.arshtcenter.",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://capig.stape.us/events/46250537f2a1f33f77a502c63dd0f5d61cf6dddef7e50296972a2a85d9c375fa",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ara.paa-reporting-advertising.amazon/aat?pid=1bf43769-fd0b-44d4-94d6-98a29e68d74a&event=PageView&gtmVersion=3.5&ts=1793510189664&eventSource=amzn.js&uuid=c7866768-8099-41c2-914c-fb9246f4db4a",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r10.txt",
+     "bytes": 2
+    },
+    {
+     "url": "https://signals.gnet.prod.verisoul.ai/network-signals",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r11.txt",
+     "bytes": 386
+    },
+    {
+     "url": "https://capig.stape.us/events/46250537f2a1f33f77a502c63dd0f5d61cf6dddef7e50296972a2a85d9c375fa",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://signals.gnet.prod.verisoul.ai/network-signals/tls/frame?id=a83d422ef2e71fc0ec357f09",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.arshtcenter.org/api/verisoul/UpdateVerisoulSessionIdAndAuthenticateSession?sessionId=f35b3ce9-7ec6-4b2a-809f-6fb366fd7818&checkSessionInformation=false",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r12.txt",
+     "bytes": 4
+    },
+    {
+     "url": "https://signals.gnet.prod.verisoul.ai/network-signals/tls/done?id=a83d422ef2e71fc0ec357f09",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://signals.gnet.prod.verisoul.ai/network-signals",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r13.txt",
+     "bytes": 33
+    },
+    {
+     "url": "https://www.arshtcenter.org/I-Our-Malc-Weape-afrangd-will-Kinstriend-healiue?d=www.arshtcenter.org",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r14.txt",
+     "bytes": 693
+    },
+    {
+     "url": "https://signals.gnet.prod.verisoul.ai/network-signals",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.arshtcenter.org/ace-api/events/filter?name=categories&start=2026-11-01&end=2027-11-01&promoCode=",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r15.txt",
+     "bytes": 3329
+    },
+    {
+     "url": "https://md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws/events?cee=no",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://insight.adsrvr.org/track/cei?advertiser_id=c0tczvn&cookie_sync=1&upv=3.0.0&upid=70i4f8u&ref=https%3A%2F%2Fwww.arshtcenter.org%2Fcalendar%2F%3Fdate%3D2026-11-01",
+     "status": 302,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://match.adsrvr.org/track/cei?advertiser_id=c0tczvn&cookie_sync=1&upv=3.0.0&upid=70i4f8u&ref=https%3a%2f%2fwww.arshtcenter.org&redirect=1",
+     "status": 200,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://insight.adsrvr.org/track/realtimeconversion",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r16.txt",
+     "bytes": 36
+    },
+    {
+     "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm&google_sc&google_hm=ZTA1OTRkNzItNDg5YS00MTNkLTllNmMtZDg5OGEyNjgyMzMz&gdpr=0&gdpr_consent=&ttd_tdid=e0594d72-489a-413d-9e6c-d898a2682333",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://match.adsrvr.org/track/cmf/google?g_uuid=&gdpr=0&gdpr_consent=&ttd_tdid=e0594d72-489a-413d-9e6c-d898a2682333&google_gid=CAESEJsJ9B7zCmfeHqV6gJPUAXQ&google_cver=1",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://pixel.rubiconproject.com/tap.php?v=8981&nid=2307&put=e0594d72-489a-413d-9e6c-d898a2682333&gdpr=0&gdpr_consent=&expires=30&next=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Frubicon",
+     "status": 302,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://match.adsrvr.org/track/cmf/rubicon?gdpr=0",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=e0594d72-489a-413d-9e6c-d898a2682333",
+     "status": 307,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253a%252f%252fmatch.adsrvr.org%252ftrack%252fcmf%252fappnexus%253fttd%253d1%2526anid%253d%2524UID%26ttd_tdid%3De0594d72-489a-413d-9e6c-d898a2682333",
+     "status": 302,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=5653985393156640782&ttd_tdid=e0594d72-489a-413d-9e6c-d898a2682333",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://signals.gnet.prod.verisoul.ai/network-signals",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.arshtcenter.org/ace-api/events/filter?name=location&start=2026-11-01&end=2027-11-01&promoCode=",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r17.txt",
+     "bytes": 455
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JMVWWTJ1BS&gtm=45je6at0h2v9105689679za20gzb6411057zd6411057xf1&_p=1793510188722&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQ&ae=a&are=1&cid=1977997632.1793510189&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://tags.srv.stackadapt.com/js_tracking?url=https%3A%2F%2Fwww.arshtcenter.org%2Fcalendar%2F&uid=XDbR9bgzYgamKCe5q8YQuw&v=1&host=https%3A%2F%2Fwww.arshtcenter.org&l_src=&l_src_d=&u_src=&u_src_d=&shop=false",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r18.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://translate.googleapis.com/element/log?format=json&hasfast=true&authuser=0",
+     "status": 200,
+     "type": "text/plain; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r19.txt",
+     "bytes": 131
+    },
+    {
+     "url": "https://www.arshtcenter.org/ace-api/events/filter?name=location&start=2026-11-01&end=2027-11-01&promoCode=",
+     "status": 403,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.arshtcenter.org/ace-api/events/filter?name=categories&start=2026-11-01&end=2027-11-01&promoCode=",
+     "status": 403,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.arshtcenter.org/ace-api/events/filter?name=location&start=2026-11-01&end=2027-11-01&promoCode=",
+     "status": 403,
+     "type": "text/html",
+     "kind": "fetch",
+     "method": "GET"
+    }
+   ],
+   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\nnavigating to \"https://arshtcenter.org/calendar/\", waiting until \"networkidle\"\n"
+  }
+ },
+ {
+  "key": "miami-new-drama",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://miaminewdrama.org/show/gandhi-and-the-jew/",
+    "type": "text/html; charset=UTF-8",
+    "request": "https://miaminewdrama.org/shows-events/gandhi-and-the-jew/",
+    "file": "extra/x01.html",
+    "bytes": 128139,
+    "jsonld_events": 0
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://miaminewdrama.org/shows-events/",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-67N5BH4XDC&gtm=45Pe6as1v899825100za208zd899825100xf1&_p=1793510246741&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&ecid=470136815&_eu=AAAAAGAC&are=1&cid=884487711.1793510247&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Li",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://tickets.miaminewdrama.org/miaminewdrama/api/v3/basket?$expand=customer,ticketSubscriptions,merchandiseItems/stockItem,donations/fund,tickets/band,tickets/event,tickets/instance,tickets/offer,tickets/type,membershipSubscriptions/membership,giftVouchers",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 514
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=251170529.1793510247&gtm=45He6as1v833854446za200zd833854446xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&ae=g&auid=251170529.1793510247&dt=Shows%20%26%20Events%20-%20Miami%20New%20Drama&en=page_view&dl=https%3A%2F%2Fmiaminewdrama.org%2Fshows-events%2F&scrsrc=www.googletagmanager.com&rnd=1116719825.1793510247&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6as1v833854446za200zd833854446xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~11889792",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://widgets.givebutter.com/ping/z0p0YqoiVhcrbmwE",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://miaminewdrama.org/wp-json/complianz/v1/banner?lang=en&locale=en_US&token=eiouv",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 103
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&auid=251170529.1793510247&dt=Shows%20%26%20Events%20-%20Miami%20New%20Drama&tid=AW-452074148&dl=https%3A%2F%2Fmiaminewdrama.org%2Fshows-events%2F&scrsrc=www.googletagmanager.com&rnd=1116719825.1793510247&navt=n&npa=0&_tu=CA&gtm=45be6as1z8833854446za20gzb833854446zd833854446xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~11593846",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/452074148/?random=1793510247294&cv=11&fst=1793510247294&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6as1z8833854446za20gzb833854446zd833854446xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120385422~120469145~120469153~121191153~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Fmiaminewdrama.org%2Fshows-events%",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://miaminewdrama.org/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.527395507314356:1793506757:2xq4kaGxOo82bi1d_zdwv_LmlU6DeL4_theo_qhseao/a5386edd28dcbadd",
+     "status": 200,
+     "type": "text/plain; charset=UTF-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r03.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://tickets.miaminewdrama.org/miaminewdrama/api/v3/webcomponents/json",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r04.txt",
+     "bytes": 273
+    },
+    {
+     "url": "https://7s-d309b5b93ece4e188e0aa4e9c7906f0f.ecs.us-west-1.on.aws/events?cee=no",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 115956,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "nws",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://nws.edu/tickets/concerts-and-events/",
+     "status": 301,
+     "type": "",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.nws.edu/tickets/concerts-and-events/",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://consentcdn.cookiebot.com/consentconfig/b5cd7564-52db-479e-9c69-bf1798055965/settings.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 603
+    },
+    {
+     "url": "https://consentcdn.cookiebot.com/sdk/bc-v5.min.html",
+     "status": 200,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=790090584.1793510255&gtm=45He6as1v76405884za200zd76405884xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=790090584.1793510255&dt=Concerts%20and%20Events&en=page_view&dl=https%3A%2F%2Fwww.nws.edu%2Ftickets%2Fconcerts-and-events%2F&scrsrc=www.googletagmanager.com&rnd=587928513.1793510255&navt=n&npa=0&us_privacy=1---&ep.ads_data_redaction=0&gdid=dMWZhNz&gtm=45He6as1v76405884za200zd76405884xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/measurement/conversion?random=1793510255546&cv=11&tid=G-JB7LG1Y9HD&fst=1793510255546&fmt=8&en=session_start&gtm=45je6as1v882517326z876405884za20gzb76405884zd76405884xecxf1&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121191155~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.nws.ed",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JB7LG1Y9HD&gtm=45je6as1v882517326z876405884za20gzb76405884zd76405884xf1&_p=1793510255202&_gaz=1&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&gdid=dMWZhNz&ecid=1599356592&_eu=AAAAAGAC&_prs=ok&are=1&cid=1511217420.1793510256&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/measurement/1p-conversion/?random=801121435&cv=11&tid=G-JB7LG1Y9HD&fst=1793510255546&fmt=8&en=session_start&gtm=45je6as1v882517326z876405884za20gzb76405884zd76405884xecxf1&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121191155~121246026~121246034~123691370&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.nws.ed",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JB7LG1Y9HD&gtm=45je6as1v882517326z876405884za20gzb76405884zd76405884xf1&_p=1793510255202&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&gdid=dMWZhNz&ecid=1599356592&_eu=AAAAAGQC&are=1&cid=1511217420.1793510256&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.nws.edu/Static/img/adage-sprite.svg",
+     "status": 200,
+     "type": "image/svg+xml",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 16620
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JB7LG1Y9HD&gtm=45je6as1v882517326za20gzb76405884zd76405884xf1&_p=1793510255202&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&gdid=dMWZhNz&ecid=1599356592&_eu=AEAAAGQC&ae=a&are=1&cid=1511217420.1793510256&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JB7LG1Y9HD&gtm=45je6as1v882517326z876405884za20gzb76405884zd76405884xf1&_p=1793510255202&_gaz=1&gcs=G111&gcd=13n3n3T3n5l1&npa=0&dma=0&gdid=dMWZhNz&ecid=1599356592&_eu=AAAAAGQC&are=1&cid=1511217420.1793510256&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-JB7LG1Y9HD&gtm=45je6as1v882517326z876405884za20gzb76405884zd76405884xf1&_p=1793510255202&gcs=G111&gcd=13n3n3T3n5l1&npa=0&dma=0&gdid=dMWZhNz&ecid=1599356592&_eu=AAAAAGQC&are=1&cid=1511217420.1793510256&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 232941,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "mbjcc",
+  "extra": [],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://mbjcc.org/events",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 1588
+    },
+    {
+     "url": "https://mbjcc.org/events?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 1621
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-ZFKXWLHEH0&gtm=45je6as1v9230537129za20ozb9253708759zd9253708759xf1&_p=1793510265464&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=609219942.1793510266&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Le3JewsAAAAAPh5iG-oF-XDqHwBcQyFk9d_hQ_k&co=aHR0cHM6Ly9tYmpjYy5vcmc6NDQz&hl=en&type=image&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&theme=light&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=30000&cb=8byu28h9uy3",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://h.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r03.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&k=6Le3JewsAAAAAPh5iG-oF-XDqHwBcQyFk9d_hQ_k&bft=0dAFcWeA7Z8w02zk52CSk9B541TkHrA_JeTmhgLbIrxLmc6In2Jbh86jpARvJEwCH1Zd4vGTcPc_yYkyalNlZXuFLG5SMKnIeDOQ",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 301,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/lunch-and-learn?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/blog/?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 308,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/wednesdays-at-the-j?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u/games/?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 308,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/blog?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/literary-events?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u/games?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://h.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r04.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 301,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 301,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u?_rsc=YOAhSj08-Y8dsjxP",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://h.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r05.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://h.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r06.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://mbjcc.org/api/blog-feed",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r07.txt",
+     "bytes": 3786
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://mbjcc.org/arts-and-culture/jcc-u",
+     "status": 200,
+     "type": "text/x-component",
+     "kind": "fetch",
+     "method": "GET"
+    }
+   ],
+   "rendered_bytes": 271202,
+   "jsonld_events": 0
+  }
+ },
+ {
+  "key": "mb-botanical",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.mbgarden.org/calendar?format=json",
+    "type": "application/json;charset=utf-8",
+    "request": "https://www.mbgarden.org/calendar?format=json",
+    "file": "extra/x01.json",
+    "bytes": 661292
+   }
+  ]
+ }
+]
