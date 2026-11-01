@@ -1,0 +1,65 @@
+[
+ {
+  "id": "7e5b3c08c584c491",
+  "title": "Family Sundays at ICA Miami: Movement & Music with Paloma Dueñas",
+  "venue": "ICA Miami",
+  "kind": "museum",
+  "start": "2026-11-08T00:00:00-05:00",
+  "end": "2026-11-09T00:00:00-05:00",
+  "all_day": true,
+  "description": "",
+  "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-music-movement-with-paloma-duenas-20261108/",
+  "location": "ICA Miami, 61 NE 41st St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "ica-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "61767c432aa98373",
+  "title": "Learning Watercolors with Alejandro Piñeiro Bello",
+  "venue": "ICA Miami",
+  "kind": "museum",
+  "start": "2026-11-08T00:00:00-05:00",
+  "end": "2026-11-09T00:00:00-05:00",
+  "all_day": true,
+  "description": "",
+  "url": "https://icamiami.org/calendar/learning-watercolors-with-alejandro-pineiro-bello/",
+  "location": "ICA Miami, 61 NE 41st St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "ica-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "09c9ca0fb131c64d",
+  "title": "Family Sundays at ICA Miami: Art Making with Paloma",
+  "venue": "ICA Miami",
+  "kind": "museum",
+  "start": "2026-11-15T00:00:00-05:00",
+  "end": "2026-11-16T00:00:00-05:00",
+  "all_day": true,
+  "description": "",
+  "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-art-making-with-paloma-20261115/",
+  "location": "ICA Miami, 61 NE 41st St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "ica-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ }
+]

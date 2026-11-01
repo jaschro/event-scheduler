@@ -30,7 +30,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install playwright==1.48.0
           python -m playwright install --with-deps chromium
 
       - name: Tests

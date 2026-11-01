@@ -167,17 +167,80 @@ sources:
     organizer_id: "16479775533"
     page: https://www.eventbrite.com/o/books-books-16479775533
 
-  # ---------- Later steps (step 4): not collected yet ----------
-  # (Venture Café Miami removed: closed.)
-  - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://pamm.org/events"}
-  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}
-  - {key: ica-miami, name: ICA Miami, city: miami, kind: museum, method: custom, enabled: false, page: "https://icamiami.org/calendar/"}
-  - {key: rubell, name: Rubell Museum, city: miami, kind: museum, method: custom, enabled: false, page: "https://rubellmuseum.org/support/member-events"}
-  - {key: oolite, name: Oolite Arts, city: miami, kind: art, method: custom, enabled: false, page: "https://oolitearts.org/calendar/"}
-  - {key: o-cinema, name: O Cinema South Beach, city: miami, kind: film, method: browser, enabled: false, page: "https://o-cinema.org/o-cinema-south-beach"}
+  # ---------- Step 4: venues without a feed (method chosen by probing, see README) ----------
+  - key: ica-miami
+    name: ICA Miami
+    city: miami
+    kind: museum
+    method: custom          # listing tiles + schema.org JSON-LD on each event page
+    reader: ica
+    page: https://icamiami.org/calendar/
+    location: "ICA Miami, 61 NE 41st St, Miami"
+
+  - key: oolite
+    name: Oolite Arts
+    city: miami
+    kind: art
+    method: custom          # listing tiles with date/time text
+    reader: oolite
+    page: https://oolitearts.org/calendar/
+    location: "Oolite Arts, 75 NW 72nd St, Miami"
+
+  - key: o-cinema
+    name: O Cinema South Beach
+    city: miami
+    kind: film
+    method: custom          # showtimes are in the server HTML; no browser needed
+    reader: ocinema
+    page: https://www.o-cinema.org/o-cinema-south-beach
+    location: "O Cinema South Beach, 1130 Washington Ave, Miami Beach"
+
+  - key: miami-new-drama
+    name: Miami New Drama (Colony)
+    city: miami
+    kind: stage
+    method: custom          # Spektrix ticketing API: one entry per performance
+    reader: spektrix
+    url: https://tickets.miaminewdrama.org/miaminewdrama/api/v3
+    page: https://miaminewdrama.org/shows-events/
+    location: "Colony Theatre, 1040 Lincoln Rd, Miami Beach"
+
+  - key: nws
+    name: New World Center / NWS
+    city: miami
+    kind: music
+    method: browser         # listing built by script (Playwright); times from each concert page
+    reader: nws
+    page: "https://www.nws.edu/tickets/concerts-and-events/"
+    location: "New World Center, 500 17th St, Miami Beach"
+
+  - key: mbjcc
+    name: Miami Beach JCC
+    city: miami
+    kind: community
+    method: custom          # event pages found via the site's sitemap
+    reader: mbjcc
+    page: https://mbjcc.org/events
+
+  - key: mb-botanical
+    name: Miami Beach Botanical Garden
+    city: miami
+    kind: outdoors
+    method: custom          # Squarespace events collection as JSON (?format=json)
+    reader: squarespace
+    page: https://www.mbgarden.org/calendar
+    location: "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach"
+
+  - key: rubell
+    name: Rubell Museum
+    city: miami
+    kind: museum
+    method: custom          # <h3>/<h5> blocks; page stale since August, so usually 0 events
+    reader: rubell
+    page: https://rubellmuseum.org/support/member-events
+
+  # ---------- Not collectable yet (see README "Blocked sources") ----------
   - {key: gables-cinema, name: Coral Gables Art Cinema, city: miami, kind: film, method: browser, enabled: false, page: "https://gablescinema.com/calendar/"}
-  - {key: arsht, name: Arsht Center, city: miami, kind: stage, method: custom, enabled: false, page: "https://arshtcenter.org/calendar/"}
-  - {key: miami-new-drama, name: Miami New Drama (Colony), city: miami, kind: stage, method: custom, enabled: false, page: "https://miaminewdrama.org/shows-events/"}
-  - {key: nws, name: New World Center / NWS, city: miami, kind: music, method: browser, enabled: false, page: "https://nws.edu/tickets/concerts-and-events/"}
-  - {key: mbjcc, name: Miami Beach JCC, city: miami, kind: community, method: custom, enabled: false, page: "https://mbjcc.org/events"}
-  - {key: mb-botanical, name: Miami Beach Botanical Garden, city: miami, kind: outdoors, method: custom, enabled: false, page: "https://mbgarden.org/calendar"}
+  - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
+  - {key: arsht, name: Arsht Center, city: miami, kind: stage, method: custom, enabled: false, page: "https://arshtcenter.org/calendar/"}  # bot protection blocks its events API
+  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners

@@ -1,0 +1,270 @@
+{
+ "upcoming": [
+  {
+   "id": "6ad771289a9f950e52a059c5",
+   "title": "Pilates in the Garden (Tuesdays) ",
+   "startDate": 1793759400691,
+   "endDate": 1793763000691,
+   "fullUrl": "/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad0f53207586c4da18f9928",
+   "title": "Tai Chi in the Garden (Wednesdays) ",
+   "startDate": 1793804400122,
+   "endDate": 1793808000122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-gygfs-7z262",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad771bf67371e41a955b839",
+   "title": "Pilates in the Garden (Thursdays) ",
+   "startDate": 1793889000597,
+   "endDate": 1793892600597,
+   "fullUrl": "/calendar/pilates-in-the-garden-ylxxa-mhamp",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad0f58c8b6c137307562df8",
+   "title": "Tai Chi in the Garden (Fridays) ",
+   "startDate": 1793977200122,
+   "endDate": 1793980800122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-b9w98-zy4pd-pwwkx-f2hjg-wc24l",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad1002f17d4af696801f679",
+   "title": "In the Lab: The Little Wetland",
+   "startDate": 1794063600550,
+   "endDate": 1794069000550,
+   "fullUrl": "/calendar/in-the-lab-the-little-wetland",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad77265e1eb612097a628d2",
+   "title": "Sound Bath Meditation with Franci",
+   "startDate": 1794148200122,
+   "endDate": 1794151800122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-yynen-wmy7h-8d2hd-k4dnm-j3ssk-nj5la-6dlrr-zfwga",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad78ee1a58dbf4c0a17223a",
+   "title": "Gentle Vinyasa Yoga with Franci",
+   "startDate": 1794151800122,
+   "endDate": 1794155400122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-yynen-zbxp8-r5gtt-8h75p-5696k-kgetp-3y9zr-hcahd-eples-clyh3",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6acfda0e4e33df636c084a4d",
+   "title": "From Plant to Music",
+   "startDate": 1794153600223,
+   "endDate": 1794247200223,
+   "fullUrl": "/calendar/simplifying-sourdough-baking-9kw6a-lmer9",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ac16a9fc00ee628a395319d",
+   "title": "The Art of Belonging: A Friendsgiving HypnoExpression ",
+   "startDate": 1794164400300,
+   "endDate": 1794173400300,
+   "fullUrl": "/calendar/the-art-of-belonging-a-friendsgiving-hypnoexpression",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad0f5a6a9d84147f6122c0b",
+   "title": "Tai Chi in the Garden (Fridays) ",
+   "startDate": 1794582000122,
+   "endDate": 1794585600122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-b9w98-zy4pd-pwwkx-f2hjg-wc24l-554k7",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad77204d822c916278aa3b7",
+   "title": "Stillness in Motion ",
+   "startDate": 1794586500348,
+   "endDate": 1794590100348,
+   "fullUrl": "/calendar/stillness-in-motion-ramc4-ztyrc-yrz8p",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad78e9a60788f4b9e2227ce",
+   "title": "Sound Bath Meditation with Franci",
+   "startDate": 1794753000122,
+   "endDate": 1794756600122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-yynen-wmy7h-8d2hd-k4dnm-j3ssk-nj5la-6dlrr-xfg3c",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ad78efe014026574c78c996",
+   "title": "Gentle Vinyasa Yoga with Franci",
+   "startDate": 1794756600122,
+   "endDate": 1794760200122,
+   "fullUrl": "/calendar/tai-chi-in-the-garden-wednesdays-yynen-zbxp8-r5gtt-8h75p-5696k-kgetp-3y9zr-hcahd-eples-clyh3-44x3d",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  },
+  {
+   "id": "6ac7f4c7ced1bc3688420909",
+   "title": "Hand Embroidery ",
+   "startDate": 1794758400300,
+   "endDate": 1794769200300,
+   "fullUrl": "/calendar/the-art-of-belonging-a-friendsgiving-hypnoexpression-g7pjk",
+   "excerpt": "",
+   "location": {
+    "mapZoom": 12.0,
+    "mapLat": 40.7207559,
+    "mapLng": -74.0007613,
+    "markerLat": 40.7207559,
+    "markerLng": -74.0007613,
+    "addressTitle": "",
+    "addressLine1": "",
+    "addressLine2": "",
+    "addressCountry": ""
+   }
+  }
+ ]
+}

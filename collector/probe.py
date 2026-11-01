@@ -24,24 +24,12 @@ ROOT = Path(__file__).resolve().parent.parent
 BROWSER_KEYS = {"o-cinema", "gables-cinema", "nws"}
 
 # Round 2: specific follow-up URLs per source (feeds, detail pages, alternate hosts).
-EXTRA_URLS = {
-    "gables-cinema": [
-        "https://prod3.agileticketing.net/websales/feed.ashx?guid=1e59984b-ce2f-4c41-87f7-3f13ba11a892&showslist=true&withmedia=false&format=json&v=latest",
-        "https://gablescinema.com/calendar/",
-    ],
-    "pamm": [
-        "https://www.pamm.org/wp-json/wp/v2/event?per_page=30&orderby=date",
-        "https://www.pamm.org/wp-json/wp/v2/types/event",
-    ],
-    "mbjcc": [
-        "https://mbjcc.org/sitemap/post-sitemap.xml",
-        "https://mbjcc.org/wp-json/wp/v2/types",
-        "https://mbjcc.org/wp-json/wp/v2/posts?per_page=20&search=event",
-        "https://mbjcc.org/events/",
-    ],
+EXTRA_URLS: dict[str, list[str]] = {}
+RENDER_URL = {
+    "gables-cinema": "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=1faa2e3d-ec46-4512-9cc3-67d71f7a3e74&",
 }
 # Round 2: sources to render in a browser, capturing every XHR/fetch response.
-BROWSER2_KEYS = {"gables-cinema", "mbjcc"}
+BROWSER2_KEYS = {"gables-cinema"}
 EVENT_WORDS = re.compile(r"event|exhibit|show|performance|program|calendar|film|concert", re.I)
 
 
@@ -184,7 +172,7 @@ def render2(src, out: Path) -> dict:
     """Render, accept cookie banners, scroll, and record every XHR/fetch response."""
     from playwright.sync_api import sync_playwright
 
-    d = out / src.key / "browser4"
+    d = out / src.key / "browser5"
     result: dict = {"requests": []}
     with sync_playwright() as p:
         b = p.chromium.launch()
@@ -210,7 +198,7 @@ def render2(src, out: Path) -> dict:
 
         page.on("response", on_response)
         try:
-            page.goto(src.page, wait_until="domcontentloaded", timeout=60_000)
+            page.goto(RENDER_URL.get(src.key, src.page), wait_until="domcontentloaded", timeout=60_000)
             page.wait_for_timeout(15_000)
             for label in ("Accept", "Accept All", "Allow all", "I agree", "OK"):
                 btn = page.get_by_role("button", name=label, exact=True)
@@ -269,7 +257,7 @@ def main(argv=None) -> int:
             summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS))
         except Exception as e:  # noqa: BLE001
             summary.append({"key": src.key, "error": f"{type(e).__name__}: {e}"[:300]})
-    save(out / ("summary4.json" if args.round2 else "summary.json"), summary)
+    save(out / ("summary5.json" if args.round2 else "summary.json"), summary)
     for s in summary:
         print(json.dumps({k: s.get(k) for k in ("key", "jsonld_events", "tribe_api", "wordpress")})[:300])
     return 0
