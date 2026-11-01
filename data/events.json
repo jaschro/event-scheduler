@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T14:15:40+00:00",
+ "generated_at": "2026-11-01T14:26:08+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -127,7 +127,7 @@
    "id": "c887f1a6e726a8ff",
    "title": "Family Sundays at ICA Miami: Storytelling with Ms. Krystal",
    "venue": "ICA Miami",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-01T11:00:00-05:00",
    "end": null,
    "all_day": false,
@@ -141,7 +141,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:18:35+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -169,7 +169,7 @@
    "id": "6fae264109262224",
    "title": "Open Studio",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-01T12:30:00-05:00",
    "end": "2026-11-01T16:30:00-05:00",
    "all_day": false,
@@ -183,7 +183,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -922,27 +922,6 @@
    "city": "miami"
   },
   {
-   "id": "777330ec3bf4fefb",
-   "title": "Pilates in the Garden (Tuesdays)",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-03T21:30:00-05:00",
-   "end": "2026-11-03T22:30:00-05:00",
-   "all_day": false,
-   "description": "Step away from the everyday and reconnect with your body in the beautiful surroundings of the Miami Beach Botanical Garden.\nJoin The Pilates Place Studios for a rejuvenating Classical Mat Pilates class led by Victoria Collins , rooted in the original method developed by Joseph Pilates. This full-body practice combines mindful movement, focused breathing, core strength, mobility, and control to leave you feeling stronger, longer, and more connected to your body.\nWhether you are new to Pilates or have been practicing for years, this class offers an opportunity to experience the timeless Pilates…",
-   "url": "https://www.mbgarden.org/calendar/pilates-in-the-garden-tuesdays-c7jbf-sxfxe",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
    "id": "66f210838d6c10a1",
    "title": "WIRED World Fair: A Festival of the Future",
    "venue": "Refresh Miami",
@@ -983,27 +962,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "92fd7b9b70c5861d",
-   "title": "Tai Chi in the Garden (Wednesdays)",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-04T10:00:00-05:00",
-   "end": "2026-11-04T11:00:00-05:00",
-   "all_day": false,
-   "description": "Join teacher Silvia Salinas, AP, for Tai Chi in the Garden. The class takes place weekly from 10:00 am - 11:00 am in the Banyan Ballroom or on the patio/lawn (weather permitting).\nDesigned for beginners, but also enjoyable for long-time practitioners, this class focuses on the foundation of the movements. The health benefits of Tai Chi include improved flexibility, strength, and balance. Through its fluid movements, Tai Chi stimulates deep breathing and blood circulation without straining the heart and other muscles, making it safe for all physical levels.\nGeneral Admission Price: $18 |…",
-   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-gygfs-7z262",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
   },
   {
    "id": "6b9a2bca2283084a",
@@ -1303,7 +1261,7 @@
    "id": "6796a08cb04502eb",
    "title": "Ocean Memories: 2026 Artist in Residence Event",
    "venue": "UM Rosenstiel (Johnson Center)",
-   "kind": "science",
+   "kind": "tech",
    "start": "2026-11-04T18:30:00-05:00",
    "end": "2026-11-04T20:30:00-05:00",
    "all_day": false,
@@ -1317,7 +1275,7 @@
    },
    "source": "um-rosenstiel",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -1573,27 +1531,6 @@
    "city": "nyc"
   },
   {
-   "id": "97ae426dbf554ea9",
-   "title": "Pilates in the Garden (Thursdays)",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-05T09:30:00-05:00",
-   "end": "2026-11-05T10:30:00-05:00",
-   "all_day": false,
-   "description": "Find your center in the Garden. A classical mat Pilates class designed to strengthen, lengthen & refresh your body & mind.\nStep away from the everyday and reconnect with your body in the beautiful surroundings of the Miami Beach Botanical Garden.\nJoin The Pilates Place Studios for a rejuvenating Classical Mat Pilates class led by Victoria Collins, rooted in the original method developed by Joseph Pilates. This full-body practice combines mindful movement, focused breathing, core strength, mobility, and control to leave you feeling stronger, longer, and more connected to your body.\nWhether you…",
-   "url": "https://www.mbgarden.org/calendar/pilates-in-the-garden-ylxxa-mhamp",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
    "id": "ca0cfe2dd2233882",
    "title": "AI makes fake invoices look real: can someone email as you? | Raileon AI Lab",
    "venue": "Refresh Miami",
@@ -1765,7 +1702,7 @@
    "id": "94d92d437c9d39b3",
    "title": "Bass Babies | November 5",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-05T14:00:00-05:00",
    "end": "2026-11-05T15:00:00-05:00",
    "all_day": false,
@@ -1779,7 +1716,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -1975,7 +1912,7 @@
    "id": "31445be5bbce382d",
    "title": "An Evening of Discovery: The Science Behind Pixar",
    "venue": "Frost Science",
-   "kind": "science",
+   "kind": "tech",
    "start": "2026-11-05T18:30:00-05:00",
    "end": "2026-11-05T22:00:00-05:00",
    "all_day": false,
@@ -1989,7 +1926,7 @@
    },
    "source": "frost-science",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -2243,27 +2180,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "be98cebd4418e478",
-   "title": "Tai Chi in the Garden (Fridays)",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-06T10:00:00-05:00",
-   "end": "2026-11-06T11:00:00-05:00",
-   "all_day": false,
-   "description": "Join teacher Silvia Salinas, AP, for Tai Chi in the Garden. The class takes place weekly from 10:00 am - 11:00 am in the Banyan Ballroom or on the patio/lawn (weather permitting).\nDesigned for beginners, but also enjoyable for long-time practitioners, this class focuses on the foundation of the movements. The health benefits of Tai Chi include improved flexibility, strength, and balance. Through its fluid movements, Tai Chi stimulates deep breathing and blood circulation without straining the heart and other muscles, making it safe for all physical levels.\nGeneral Admission Price: $18 |…",
-   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-b9w98-zy4pd-pwwkx-f2hjg-wc24l",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
   },
   {
    "id": "0b64e48660371459",
@@ -2728,31 +2644,10 @@
    "city": "nyc"
   },
   {
-   "id": "e89580e983052368",
-   "title": "In the Lab: The Little Wetland",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-07T10:00:00-05:00",
-   "end": "2026-11-07T11:30:00-05:00",
-   "all_day": false,
-   "description": "The ecological intimacy of a swamp, none of the physical inconveniences. In the Lab: The Little Wetland brings children face-to-face with living swamp flora, including aquatic carnivorous plants. Children study the plants in individual aquariums, then come together to create a miniature living wetland in a shallow vessel.\n\nAbout Sasha Sikaffy:\nSasha S. Sikaffy, M.S., is an environmental scientist and educator informed by years spent in coral reef fieldwork and marine science education.\nHer work considers how children come to know the living world through direct ecological encounter—attention…",
-   "url": "https://www.mbgarden.org/calendar/in-the-lab-the-little-wetland",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
    "id": "5773f52ed143db08",
    "title": "Member Morning: The Science Behind Pixar",
    "venue": "Frost Science",
-   "kind": "science",
+   "kind": "tech",
    "start": "2026-11-07T10:00:00-05:00",
    "end": "2026-11-07T11:00:00-05:00",
    "all_day": false,
@@ -2766,7 +2661,7 @@
    },
    "source": "frost-science",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -2794,7 +2689,7 @@
    "id": "5af7ea483f42ec15",
    "title": "Open Studio",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-07T12:30:00-05:00",
    "end": "2026-11-07T16:30:00-05:00",
    "all_day": false,
@@ -2808,7 +2703,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -2836,7 +2731,7 @@
    "id": "73feed78889b0ef6",
    "title": "Bass Babies | November 7",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-07T14:00:00-05:00",
    "end": "2026-11-07T15:00:00-05:00",
    "all_day": false,
@@ -2850,7 +2745,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -2920,7 +2815,7 @@
    "id": "bf1f78f7af4b7fa0",
    "title": "The Bass Highlight Tours",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-07T17:00:00-05:00",
    "end": "2026-11-07T17:45:00-05:00",
    "all_day": false,
@@ -2934,7 +2829,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -3169,31 +3064,10 @@
    "city": "miami"
   },
   {
-   "id": "70e9da5aed71b86e",
-   "title": "Sound Bath Meditation with Franci",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-08T09:30:00-05:00",
-   "end": "2026-11-08T10:30:00-05:00",
-   "all_day": false,
-   "description": "This immersive soothing sound session is designed to soothe the nervous system and support deep rest. The vibrations of sound help ease tension in the body and invite the nervous system into a more restorative state, offering moments of insight and a deeper connection to the body’s innate wisdom. The effects of this practice often continue throughout the day and sometimes into the week. Gentle breathwork and, at times, loving-kindness meditation may also be woven into these sessions.\nGeneral Admission Price: $22 | Member Price: $20\n\nRegister",
-   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-yynen-wmy7h-8d2hd-k4dnm-j3ssk-nj5la-6dlrr-zfwga",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
    "id": "d9e30a7808f50451",
    "title": "Tech Lab Club: Animation (Session 3)",
    "venue": "Frost Science",
-   "kind": "science",
+   "kind": "tech",
    "start": "2026-11-08T10:00:00-05:00",
    "end": "2026-11-08T14:00:00-05:00",
    "all_day": false,
@@ -3207,35 +3081,14 @@
    },
    "source": "frost-science",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "58ce1d9c76479116",
-   "title": "Gentle Vinyasa Yoga with Franci",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-08T10:30:00-05:00",
-   "end": "2026-11-08T11:30:00-05:00",
-   "all_day": false,
-   "description": "A slow, meditative vinyasa practice guided by yogic breath. This class emphasizes subtle body awareness and nervous system support, with helpful verbal cues and gentle assists offered throughout the practice. Through this inward attention, we reconnect with the body’s innate wisdom and integrate that deeper essence into the rhythm of daily life. Each session closes with a longer savasana to rest deeply and absorb the nurturing energy of the garden, supporting integration.\n“It’s not a performance, it’s an inward journey.”\nGeneral Admission Price: $22 | Member Price: $20\n\nRegister",
-   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-yynen-zbxp8-r5gtt-8h75p-5696k-kgetp-3y9zr-hcahd-eples-clyh3",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
    "id": "6343cc3cc88cb8a3",
    "title": "Family Sundays at ICA Miami: Movement & Music with Paloma Dueñas",
    "venue": "ICA Miami",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-08T11:00:00-05:00",
    "end": null,
    "all_day": false,
@@ -3249,35 +3102,14 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "31a6307e0ce32501",
-   "title": "From Plant to Music",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-08T11:00:00-05:00",
-   "end": "2026-11-09T13:00:00-05:00",
-   "all_day": false,
-   "description": "Join Miami-based musician and artist Bruno Esposito for a hands-on exploration of how plant materials become music. Discover the guacharaca, its Indigenous roots and role in Colombian Caribbean traditions, and the natural materials behind gaitas, maracas, and drums. Explore how plants, craftsmanship, rhythm, and culture come together to create sound.\n\nThis special Subtropicalist gathering is free and open to all Garden Circle Members to attend!",
-   "url": "https://www.mbgarden.org/calendar/simplifying-sourdough-baking-9kw6a-lmer9",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
    "id": "543354132936b9ab",
    "title": "Learning Watercolors with Alejandro Piñeiro Bello",
    "venue": "ICA Miami",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-08T11:00:00-05:00",
    "end": null,
    "all_day": false,
@@ -3291,7 +3123,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -3340,7 +3172,7 @@
    "id": "42abd8727729e34c",
    "title": "Open Studio",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-08T12:30:00-05:00",
    "end": "2026-11-08T16:30:00-05:00",
    "all_day": false,
@@ -3354,7 +3186,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -3395,27 +3227,6 @@
     "text": null
    },
    "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "478d1d46d16e224f",
-   "title": "The Art of Belonging: A Friendsgiving HypnoExpression",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-08T14:00:00-05:00",
-   "end": "2026-11-08T16:30:00-05:00",
-   "all_day": false,
-   "description": "HypnoExpression: Meditate • Create • Elevate\nCurated by Joanne Burgess , Founder of Flight of Minds\nA heart-opening afternoon of hypnotherapy meditation, creative expression through art, and somatic dance - each woven together to soothe loneliness, deepen connection, and awaken the power of community.\nThrough guided hypnomeditation, guests will gently release emotional walls and open the heart to authentic connection. They will then bring their inner world to life through expressive art - a visual reflection of belonging, gratitude, and shared humanity. The journey continues in a joyful…",
-   "url": "https://www.mbgarden.org/calendar/the-art-of-belonging-a-friendsgiving-hypnoexpression",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
@@ -4537,7 +4348,7 @@
    "id": "dfdfa410979325cf",
    "title": "ReeFLorida Symposium 2026",
    "venue": "Frost Science",
-   "kind": "science",
+   "kind": "tech",
    "start": "2026-11-11T00:00:00-05:00",
    "end": "2026-11-14T00:00:00-05:00",
    "all_day": true,
@@ -4551,7 +4362,7 @@
    },
    "source": "frost-science",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -5054,8 +4865,10 @@
     "text": null
    },
    "source": "manatech",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:15:40+00:00",
+   "also_listed_by": [
+    "refresh-miami"
+   ],
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -5146,7 +4959,7 @@
    "id": "0739c5f72af849b6",
    "title": "Bass Babies | November 12",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-12T14:00:00-05:00",
    "end": "2026-11-12T15:00:00-05:00",
    "all_day": false,
@@ -5160,7 +4973,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -5540,48 +5353,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "e468b6a54f230d52",
-   "title": "Tai Chi in the Garden (Fridays)",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-13T10:00:00-05:00",
-   "end": "2026-11-13T11:00:00-05:00",
-   "all_day": false,
-   "description": "Join teacher Silvia Salinas, AP, for Tai Chi in the Garden. The class takes place weekly from 10:00 am - 11:00 am in the Banyan Ballroom or on the patio/lawn (weather permitting).\nDesigned for beginners, but also enjoyable for long-time practitioners, this class focuses on the foundation of the movements. The health benefits of Tai Chi include improved flexibility, strength, and balance. Through its fluid movements, Tai Chi stimulates deep breathing and blood circulation without straining the heart and other muscles, making it safe for all physical levels.\nGeneral Admission Price: $18 |…",
-   "url": "https://www.mbgarden.org/calendar/tai-chi-in-the-garden-wednesdays-96fny-e446d-3t36t-lr2y7-ezz8k-a66rt-b9w98-zy4pd-pwwkx-f2hjg-wc24l-554k7",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ca589dae9af732e7",
-   "title": "Stillness in Motion",
-   "venue": "Miami Beach Botanical Garden",
-   "kind": "outdoors",
-   "start": "2026-11-13T11:15:00-05:00",
-   "end": "2026-11-13T12:15:00-05:00",
-   "all_day": false,
-   "description": "Find your way back to the present moment through movement, breath, and mindfulness. Set within the living sanctuary of the Garden.\n\nMove through intentional Vinyasa sequences that build functional strength and fluid mobility, anchored in the breath. This is a practice that meets you where you are. Mat required. Water and sunscreen recommended.\n\nAbout Carolina Jayaram:\n\nA yoga and meditation practitioner for 25 years and a teacher for six, Carolina Jayaram has found these practices to be a steady source of inner wisdom, balance, and renewal. Trained in the Jivamukti and rooted in Patanjali…",
-   "url": "https://www.mbgarden.org/calendar/stillness-in-motion-ramc4-ztyrc-yrz8p",
-   "location": "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mb-botanical",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
   },
   {
    "id": "77b685a979812485",
@@ -6009,7 +5780,7 @@
    "id": "2610f4080cfc68c9",
    "title": "Open Studio",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-14T12:30:00-05:00",
    "end": "2026-11-14T16:30:00-05:00",
    "all_day": false,
@@ -6023,7 +5794,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -6051,7 +5822,7 @@
    "id": "0e65a193b0ecca03",
    "title": "Bass Babies | November 14",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-14T14:00:00-05:00",
    "end": "2026-11-14T15:00:00-05:00",
    "all_day": false,
@@ -6065,7 +5836,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
@@ -6156,7 +5927,7 @@
    "id": "610281bac32449f9",
    "title": "The Bass Highlight Tours",
    "venue": "The Bass",
-   "kind": "museum",
+   "kind": "art",
    "start": "2026-11-14T17:00:00-05:00",
    "end": "2026-11-14T17:45:00-05:00",
    "all_day": false,
@@ -6170,7 +5941,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
+   "fetched_at": "2026-11-01T14:26:08+00:00",
    "city": "miami"
   },
   {
