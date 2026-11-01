@@ -22,6 +22,7 @@ jobs:
     timeout-minutes: 30
     outputs:
       has_site: ${{ steps.site.outputs.has_site }}
+      all_failed: ${{ steps.collect.outputs.all_failed }}
     steps:
       - uses: actions/checkout@v4.2.2
 
@@ -41,8 +42,8 @@ jobs:
         id: collect
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
-        # Exit 1 means every source failed. Still commit status.json so the failure is visible,
-        # then fail the job at the end (and skip deploying).
+        # Exit 1 means every source failed. Still commit and publish, so the failures show in
+        # the page footer; the "report" job then marks the run as failed.
         run: python -m collector.main || echo "all_failed=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit data if it changed
@@ -75,12 +76,6 @@ jobs:
         with:
           path: _site
 
-      - name: Fail if every source failed
-        if: steps.collect.outputs.all_failed == 'true'
-        run: |
-          echo "::error::Every source failed; see data/status.json"
-          exit 1
-
   deploy:
     needs: collect
     if: needs.collect.outputs.has_site == 'true'
@@ -91,3 +86,13 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4.0.5
+
+  report:
+    needs: [collect, deploy]
+    if: always() && needs.collect.outputs.all_failed == 'true'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Fail because every source failed
+        run: |
+          echo "::error::Every source failed; see data/status.json or the page footer"
+          exit 1

@@ -61,7 +61,8 @@ Regenerate an adapter's expected output after an intended change:
 - Window: today 00:00 through 14 days ahead (city time zone); ended events dropped.
 - Recurring iCal events are expanded per occurrence; overrides and exclusions honoured.
 - A failed source keeps its last good events; the failure is recorded in `status.json`.
-  The run exits non-zero only if every attempted source failed.
+  The collector exits non-zero only if every attempted source failed; the workflow still
+  publishes the page (failures show in its footer) and then marks the run as failed.
 - Data files are rewritten only when something other than timestamps changed, so the
   workflow commits only real changes.
 - Sources marked `enabled: false` are later build steps and show as `skipped`.
