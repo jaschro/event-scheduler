@@ -244,6 +244,7 @@ def render2(src, out: Path) -> dict:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*")
+    ap.add_argument("--city", help="only sources in this city")
     ap.add_argument("--out", default=str(ROOT / "probe"))
     ap.add_argument("--round2", action="store_true", help="follow-up URLs and browser network capture")
     args = ap.parse_args(argv)
@@ -259,6 +260,8 @@ def main(argv=None) -> int:
             continue
         if not keys and src.enabled:
             continue
+        if args.city and src.city != args.city:
+            continue
         print(f"probing {src.key} ...", flush=True)
         try:
             if args.round2:
@@ -267,7 +270,7 @@ def main(argv=None) -> int:
                     info["browser2"] = render2(src, out)
                 summary.append(info)
                 continue
-            summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS))
+            summary.append(probe_source(src, session, out, src.key in BROWSER_KEYS or src.method == "browser"))
         except Exception as e:  # noqa: BLE001
             summary.append({"key": src.key, "error": f"{type(e).__name__}: {e}"[:300]})
     save(out / ("summary6.json" if args.round2 else "summary.json"), summary)
