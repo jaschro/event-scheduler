@@ -1,0 +1,614 @@
+[
+ {
+  "key": "gables-cinema",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.miamiandbeaches.com/l/arts-and-culture/coral-gables-art-cinema/4180",
+    "type": "text/html; charset=utf-8",
+    "request": "https://miamiandbeaches.com/l/arts-and-culture/coral-gables-art-cinema/4180",
+    "file": "extra6/x01.html",
+    "bytes": 199169,
+    "jsonld_events": 0
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&",
+    "type": "text/html; charset=utf-8",
+    "request": "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&",
+    "file": "extra6/x02.html",
+    "bytes": 139921,
+    "jsonld_events": 66
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TFHQ2MCVV6&gtm=45je6as1v9115344153za208zd9115344153xf1&_p=1793512016205&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=313112624.1793512016&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1675703520&t=pageview&_s=1&dl=https%3A%2F%2Fprod3.agileticketing.net%2Fwebsales%2Fpages%2Flist.aspx%3Fepguid%3Df7359319-db5b-45d1-b3ba-679d43a57b78%26&ul=en-us&dt=Coral%20Gables%20Art%20Cinema%20-%20Calendar&sr=1280x720&vp=1280x720&_u=YADAAEALAAAAACAAI~&jid=2873369&gjid=814916774&cid=313112624.1793512016&tid=UA-68049618-1&_gid=1866139628.179",
+     "status": 200,
+     "type": "text/plain",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r01.txt",
+     "bytes": 15
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-FTE0FKSFVD&gtm=45je6as1v9134515761za20gxf1&_p=1793512016205&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&_ng=1&are=1&cid=313112624.1793512016&frm=0&ir=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&ta",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TFHQ2MCVV6&gtm=45je6as1v9115344153za200zd9115344153xf1&_p=1793512016205&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=313112624.1793512016&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_e",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-FTE0FKSFVD&gtm=45je6as1v9134515761za20gxf1&_p=1793512016205&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGQC&_ng=1&are=1&cid=313112624.1793512016&frm=0&ir=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=115938",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 149885,
+   "jsonld_events": 66
+  }
+ },
+ {
+  "key": "pamm",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.miamiandbeaches.com/things-to-do/art-and-culture/museums/top-miami-museums",
+    "type": "text/html; charset=utf-8",
+    "request": "https://www.miamiandbeaches.com/things-to-do/arts-culture/top-miami-museums-to-visit-on-vacation",
+    "file": "extra6/x01.html",
+    "bytes": 219800,
+    "jsonld_events": 0
+   }
+  ]
+ },
+ {
+  "key": "arsht",
+  "extra": [
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.miamiandbeaches.com/l/arts-and-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269",
+    "type": "text/html; charset=utf-8",
+    "request": "https://www.miamiandbeaches.com/thing-to-do/arts-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269",
+    "file": "extra6/x01.html",
+    "bytes": 450703,
+    "jsonld_events": 0
+   },
+   {
+    "ok": true,
+    "status": 200,
+    "url": "https://www.miamiandbeaches.com/events",
+    "type": "text/html; charset=utf-8",
+    "request": "https://www.miamiandbeaches.com/events",
+    "file": "extra6/x02.html",
+    "bytes": 402709,
+    "jsonld_events": 0
+   }
+  ],
+  "browser2": {
+   "requests": [
+    {
+     "url": "https://www.miamiandbeaches.com/events",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://cdn.cookielaw.org/consent/4216d68b-2869-487a-8f22-0f583ea86f6d/4216d68b-2869-487a-8f22-0f583ea86f6d.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r01.txt",
+     "bytes": 5751
+    },
+    {
+     "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r02.txt",
+     "bytes": 71
+    },
+    {
+     "url": "https://cdn.cookielaw.org/consent/4216d68b-2869-487a-8f22-0f583ea86f6d/019c009c-b6b0-7433-8823-9977fbc261ec/en.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r03.txt",
+     "bytes": 320581
+    },
+    {
+     "url": "https://s.yimg.com/wi/config/10210531.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r04.txt",
+     "bytes": 2
+    },
+    {
+     "url": "https://y72zzu5ph1-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(5.56.0)%3B%20Lite%20(5.56.0)%3B%20Browser%3B%20instantsearch.js%20(4.108.0)%3B%20Vue%20(3.5.30)%3B%20Vue%20InstantSearch%20(4.28.1)%3B%20JS%20Helper%20(3.29.2)&x-algolia-api-key=5e4bcf58cf63891970b05737e1ec0e1b&x-algolia-application-id=Y72ZZU5PH1",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r05.txt",
+     "bytes": 39030
+    },
+    {
+     "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/otFlat.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r06.txt",
+     "bytes": 15298
+    },
+    {
+     "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/v2/otPcCenter.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r07.txt",
+     "bytes": 67860
+    },
+    {
+     "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/otCookieSettingsButton.json",
+     "status": 200,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r08.txt",
+     "bytes": 4883
+    },
+    {
+     "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/otCommonStyles.css",
+     "status": 200,
+     "type": "text/css",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r09.txt",
+     "bytes": 27144
+    },
+    {
+     "url": "https://y72zzu5ph1-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(5.56.0)%3B%20Lite%20(5.56.0)%3B%20Browser%3B%20instantsearch.js%20(4.108.0)%3B%20Vue%20(3.5.30)%3B%20Vue%20InstantSearch%20(4.28.1)%3B%20JS%20Helper%20(3.29.2)&x-algolia-api-key=5e4bcf58cf63891970b05737e1ec0e1b&x-algolia-application-id=Y72ZZU5PH1",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r10.txt",
+     "bytes": 44773
+    },
+    {
+     "url": "https://y72zzu5ph1-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(5.56.0)%3B%20Lite%20(5.56.0)%3B%20Browser%3B%20instantsearch.js%20(4.108.0)%3B%20Vue%20(3.5.30)%3B%20Vue%20InstantSearch%20(4.28.1)%3B%20JS%20Helper%20(3.29.2)&x-algolia-api-key=5e4bcf58cf63891970b05737e1ec0e1b&x-algolia-application-id=Y72ZZU5PH1",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r11.txt",
+     "bytes": 43623
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldy63slAAAAAAUDJdU2sntxSDtGlaVqWidzDmwH&co=aHR0cHM6Ly93d3cubWlhbWlhbmRiZWFjaGVzLmNvbTo0NDM.&hl=en&v=NhfdZHzre166o-vFZrWsq3yu&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=1cuo13f3jw3k",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldy63slAAAAAAUDJdU2sntxSDtGlaVqWidzDmwH&co=aHR0cHM6Ly93d3cubWlhbWlhbmRiZWFjaGVzLmNvbTo0NDM.&hl=en&v=NhfdZHzre166o-vFZrWsq3yu&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=nlgnl07e6i4b",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://15461507.fls.doubleclick.net/activityi;src=15461507;type=engage0;cat=engag0;rcb=19;ord=1672676846181;npa=0;auiddc=1642739943.1793512050;gdid=dYWJhMj;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6at0h2v9220639482z8895514807za20gzb895514807zd895514807xeaxf1;gcs=G",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+     "status": 200,
+     "type": "image/svg+xml",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r12.txt",
+     "bytes": 497
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=15461507;type=engage0;cat=engag0;rcb=19;ord=1672676846181;npa=0;auiddc=1642739943.1793512050;gdid=dYWJhMj;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6at0h2v9220639482z8895514807za20gzb895514807zd895514807xeaxf1;gcs=G111;gcd=13t",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://l.sharethis.com/pview?event=pview&hostname=www.miamiandbeaches.com&location=%2Fevents&product=custom-share-buttons&url=https%3A%2F%2Fwww.miamiandbeaches.com%2Fevents&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Miami%20Events%20%26%20Festivals%20%7C%20Miami%20%26%20Miami%20Beach&cms=unknown&publisher=597740c3a1c36a0011f0f154&sop=true&version=st_sop.js&lang=en&descr",
+     "status": 301,
+     "type": "text/html; charset=utf-8",
+     "kind": "xhr",
+     "method": "GET"
+    },
+    {
+     "url": "https://175a786f54e9c7d184927b35900e0de9.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+     "status": 200,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=1642739943.1793512050&dt=Miami%20Events%20%26%20Festivals%20%7C%20Miami%20%26%20Miami%20Beach&en=page_view&dl=https%3A%2F%2Fwww.miamiandbeaches.com%2Fevents&scrsrc=www.googletagmanager.com&rnd=289388524.1793512050&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6at0h2v895514807za200zd895514807xeaxf1&gcs=G111&gcd=13t3t3t3t5l1",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1642739943.1793512050&gtm=45He6at0h2v895514807za200zd895514807xeaxf1&fmt=8",
+     "status": 204,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-1VC2VXWH12&gtm=45je6at0h2v882932115za20ozb895514807zd895514807xf1&_p=1793512048339&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AAAAAGAC&are=1&cid=9808485.1793512050&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&ua",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r13.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://l.sharethis.com/sc?event=pview&hostname=www.miamiandbeaches.com&location=%2Fevents&product=custom-share-buttons&url=https%3A%2F%2Fwww.miamiandbeaches.com%2Fevents&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Miami%20Events%20%26%20Festivals%20%7C%20Miami%20%26%20Miami%20Beach&cms=unknown&publisher=597740c3a1c36a0011f0f154&sop=true&version=st_sop.js&lang=en&descript",
+     "status": 200,
+     "type": "text/plain; charset=utf-8",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r14.txt",
+     "bytes": 161
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2009130883890364&correlator=4390357535005966&eid=122881618%2C122881756%2C122881952&output=ldjh&gdfp_req=1&vrg=202610280101&ptt=17&impl=fifs&iu_parts=114645642%2C2023_Basic_Native_1%2C2023_Basic_Native_2&enc_prev_ius=%2F0%2F1%2C%2F0%2F2&prev_iu_szs=320x50%2C320x50&fluid=height%2Cheight&ifi=4&dids=div-gpt-ad-1677862005258-1~div-gpt-ad-167786200",
+     "status": 200,
+     "type": "text/plain; charset=UTF-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r15.txt",
+     "bytes": 1744
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2009130883890364&correlator=4390357535005966&eid=122881618%2C122881756%2C122881952&output=ldjh&gdfp_req=1&vrg=202610280101&ptt=17&impl=fifs&iu_parts=114645642%2CSECT_OTHER_300x250%2C2024_728x90&enc_prev_ius=%2F0%2F1%2C%2F0%2F1%2C%2F0%2F2&prev_iu_szs=300x250%2C300x250%2C728x90&ifi=1&dids=div-gpt-ad-1674853035952-0~div-gpt-ad-1674853035952-1~di",
+     "status": 200,
+     "type": "text/plain; charset=UTF-8",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r16.txt",
+     "bytes": 237592
+    },
+    {
+     "url": "https://www.google.com/gmp/conversion/_dc_unique_id=12775905146546006723;_dc_ptd=ChEI8KOW1wYQ9I_xtKuWp-6TARIfANkPczTTGQsu_lxkGHugig07VYkTeAxeExkn9Neb0w;_dc_time=1793512050;src=15461507;type=engage0;cat=engag0;rcb=19;ord=1672676846181;npa=0;auiddc=1642739943.1793512050;gdid=dYWJhMj;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuyNxrUtHI7D9DRQgMDuUY-7Hz4SbDU1yX1z8CKWHdde1zY2_hlDt7z9wnP8AdMa_usxWXEYwLm1Gk79ZnDZ5PbT-0uyJzZCANXUvslbyo96vGuSpMG6g3BoCKpq-OuT0nComobGzxyF62-Td6cYLSocPSSHiA_c78uP8fhHa-VOvyJOw13-EnUyoiT2U5fgNL6xGFCKo4WNG8gCawU3ZoO4aJCKCsaeJXacyadZ8Rr6MEsTCeqJrFnBVSKVdNRrKQochV4XUjcgLU85b6UcfHheCYt5m94vCWr65PLD9orvTf-bSCVN-McVNF6rQHN895l66xKdM_vO-pgbrpYyo9L",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsv0oMPzghdpPlc6_DP1xgE0dketGPP709hnzJy1Or1CMgtJVhBM8UvOoXSbD9m9ZsGGHKgKrG--A9uiE4IkBIGKBxdMt65TDFu23YwQ-gA3c3s4wf-AL1newaKChZqgXtX3S4Y8RZB9uqj2snjyQF_1W-b7-fGQKq6kH81GgjoreatLOzSKv3xy35vlnP8YZbnEXF0ERJpxQw9Brt22q08WDOdNVkcPYmBfdEftcUh3kU-GYB27G6Bv8QjEZLLp9G_95DQ-3NxGw2BP8-HdWHPNz6LdBjDPFy1kSnzHJu0pxKuFTa5O17QkPNm_NIt0Su7OGLNe-MUG7MUWxOe1RsA4",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstH1QCkhuNNLm0i7Xqjsi7yog0GbN-b7XYK_NBZlVqz-7Z5DgNwC-4Wq1IWJkFnReBhgOEuaisIyHfJPua27gN97QVrJ8K1etikoo3_1nFp1XIbMzkc2oIu97LG5CCRc1FYowdV2X4vzL0FS-76Oz32dal3MUH7uC4YuMClO3NC71zZrCU24b92eaqxNvDxjEfkYznsOXj4g1UFiWm04U6JEOEPUqNo9iWJV8qWUxGFHbWoXMZvR3DQqjdQYvzltAxTOYJapyKR9XaNwAOM-ax-UBYniayDfaAS6am4p0owOmdmPlAefoHKNqMcoIP0urpmaafiTovS8kVfI4GCBlf1",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4",
+     "status": 204,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWgD",
+     "status": 204,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4",
+     "status": 204,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWgD",
+     "status": 204,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4",
+     "status": 204,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWgD",
+     "status": 204,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstTYqoy5K6W52iXvvu9fT7y3pIdERjIjG4FvG7fK1Uf3UTLEuc-wuHx0UvnKv-KrbLssF-PHZdpY1EvrmFGmzTaijfG_TbSfa-ceMf2eSoLdi19ANix_IJXweU-PenNLUPBlL_jCX2TW5GkXFIY05X25D1ACIyANECA9Y6lZb4VtjvdbAfyr4iiX0MHMiKcSIwWXGe-5_ncZKErQ4QXJuUSUuNUgOo1MtqP3tz4Pb_VscpVpaoK-d6Dqa1tLb5yd9_zHkNVAg0DK00jWy2lP3bQUdZe2y6FGkoy-oHwFyadkcyYSPuRsXXyS4OoNpl5lGNyGJXexmBSFd54tkf_R1uq",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsvzuRNAdrN1_drh2uzpX6KwU3-7Z_LYyLv4L2eKl_f06CMEJoJN7ZiS-xfNiYoKz9_u2MVHt3nN2BaMnIUN4W8tOuH8clPFKz4pogMuGmuujQriLXs6qO3vh2ozGthztoPJyJcGgl8Ld8gT4ztm8uWs2jLXU5E0yk-bIMLPdeHtQfGMGWkH0DgtCQs1cCizkpUSJMkbXbeZBxvtgdMZ86xtJmMR7_-o48zwSnkvreDketGqMKUkxerbn_CpRmx3AH-7Auiep7A_ieW-OyDJTWLlnXXaJuP5QTacRWLaGQbZObfSH39pZrxLhrYBY3SBBa06tEQJw5f-oNQb5HDEV-Al",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsv8T_OP2jsKTTJUcuUFzQhIUhhWZgXoJ8Y726rqVYUSx0c_o5HHOaO50nHDD4oIHuBqVzh_i0Z3uMp7B8IrbbjLoTYzkt7Xq7mg-dVQF8ebSDwL1OB08vLhRQWAFvcTKRQzXISiUB0r7xvpojZkdu48ejsuo3j-Add5BmmO-u8cbGCXvtiK8lcbSV9Lu4eB78ylITeKvPhZPabBr2J6ZELS2OGBMMUH36WeXydZDYrWm43v6uZX_MAV9gltrWKC_XrgxaQVfpHg53xY0bkVXA63mW7yY8MBswHqsdSyEtheKo7YFm7bPJnyx64uXYYLGGGyS_bG5VDvr3PnvdzKQkKv",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610280101&st=env&sjk=2009130883890364",
+     "status": 200,
+     "type": "application/json; charset=UTF-8",
+     "kind": "xhr",
+     "method": "GET",
+     "file": "r17.txt",
+     "bytes": 17742
+    },
+    {
+     "url": "https://ep2.adtrafficquality.google/sodar/sodar2/257/runner.html",
+     "status": 200,
+     "type": "text/html",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/aframe",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://eastus-8.in.applicationinsights.azure.com//v2/track",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r18.txt",
+     "bytes": 64
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r19.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync",
+     "status": 302,
+     "type": "",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync?cookieQ=1",
+     "status": 200,
+     "type": "text/html;charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r20.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-1VC2VXWH12&gtm=45je6at0h2v882932115za20gzb895514807zd895514807xf1&_p=1793512048339&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AEIAAGQC&are=1&cid=9808485.1793512050&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.miamiandbeaches.com/api/consent/update",
+     "status": 200,
+     "type": "",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://chat.satis.fi/Default/SavePopupInformation",
+     "status": 201,
+     "type": "application/json",
+     "kind": "fetch",
+     "method": "POST",
+     "file": "r21.txt",
+     "bytes": 21
+    },
+    {
+     "url": "https://prod-satisfilabs-resources-gcs.satis.fi/ClientAssets/ThemeFiles/popuptheme-15939.css?v=cd94504c-9818-4f65-82db-d6c36ac2f04f",
+     "status": 200,
+     "type": "text/css",
+     "kind": "fetch",
+     "method": "GET",
+     "file": "r22.txt",
+     "bytes": 2162
+    },
+    {
+     "url": "https://15461507.fls.doubleclick.net/activityi;src=15461507;type=engage0;cat=engag0;rcb=19;ord=3190981788130;npa=0;auiddc=1642739943.1793512050;gdid=dYWJhMj;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6at0h2v9220639482z8895514807za20gzb895514807zd895514807xeaxf1;gcs=G",
+     "status": 200,
+     "type": "text/html; charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=15461507;type=engage0;cat=engag0;rcb=19;ord=3190981788130;npa=0;auiddc=1642739943.1793512050;gdid=dYWJhMj;uaa=x64;uab=64;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6at0h2v9220639482z8895514807za20gzb895514807zd895514807xeaxf1;gcs=G111;gcd=13v",
+     "status": 302,
+     "type": "text/html; charset=UTF-8",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://www.google.com/gmp/conversion/_dc_unique_id=13939040486372114660;_dc_ptd=ChEI8KOW1wYQ9I_xtKuWp-6TARIfANkPczQk8CRpmNT5uraZJSckBfzgfy-RZ04dNqyhMw;_dc_time=1793512066;cid=CAQS4gEAQM4h3Gxgvwm_JjFGf_VZxiOJPMBG9UGNUmIJpbLX-ECm5YPou8hXmfF26Nemr-X7lJRMQ4FUy_AD9nTzLrc5wSf9lLW_K_5Dt7Zp8D-ifVUEz9XqKhPLC2pAjstxC8TCOz0d8yiXOgv1r7K_uZc3P8JUuoaXc_jdw1ysl0ZTonV2oS6zbbcwKNK6-Om9RVRMETZqlw44rlwhHv1SzJnP_Ayw",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://eastus-8.in.applicationinsights.azure.com//v2/track",
+     "status": 200,
+     "type": "application/json; charset=utf-8",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r23.txt",
+     "bytes": 64
+    },
+    {
+     "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync",
+     "status": 200,
+     "type": "text/html;charset=UTF-8",
+     "kind": "document",
+     "method": "GET"
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r24.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsvP7tGNi4QqaVRobBaHavmL7nzwIZJeuyOUL-JXhQI6WgZFpLEdc-DAJevjZVsgeedN4IghLIGZnqKwHftAnFykUDxGvjHSpGc_DnCqjaTTJ0LSJfp7S3I4RnOe-phcXxW-IUv9UOP3l9a1MML1JaAIfnGev1I26Th3A_kICc5SixilSp8rsn3nKhonhWb-&sig=Cg0ArKJSzOdHP1IVDzoMEAE&id=lidar2&mcvt=1000&p=8987,276,9077,1004&tm=17077.5&tu=16077.799999999988&mtos=0,1000,1000,1000,1000&tos=0,1000,0,0,0&",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-1VC2VXWH12&gtm=45je6at0h2v882932115z8895514807za20gzb895514807zd895514807xf1&_p=1793512048339&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AAAAAGQC&are=1&cid=9808485.1793512050&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linu",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjss0ZKNE7Y3p5WXKifbcilsVjVO_N1OwKyBrTdNkbLJnHp0Uu7VyaDd3lXaKHocRbcsMrAc2Bi2Nxm55fW_zOe-MUmGrXKPaD3S18dPXTF9vNzwS_bxcdzUilubO8HX0Feq46LU9-42DJZi2qVn8TywRsJ_5tGxWAE-HVWG9S8vVpvYx1sAS2W3q8l9kxT_S&sig=Cg0ArKJSzLpFtaH6wtlfEAE&id=lidar2&mcvt=1000&p=11206,324,11456,624&tm=18348.5&tu=17348.899999999994&mtos=1000,1000,1000,1000,1000&tos=1000,0,0,",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjssynJCxsp48BHLMJ7xbixzVyA90Zt2ojruwsPLKPDQnfXpAkmd345hMaZlTlhSv3YybguUdiwmGNex1uuPDHgRF_gbcAANQzKiA_d4ToVDwMIm6JKSArU8g7ZbOLw16wBLWuKUVw9Iy-NZrPbtrMUMwCh-Sp0x6FprIqslRCVgDye1VjuSqtwVIJvDJl6pg&sig=Cg0ArKJSzP5m3i4o5aJtEAE&id=lidar2&mcvt=1003&p=11206,656,11456,956&tm=18320.20000000001&tu=17317.600000000006&mtos=1003,1003,1003,1003,1003&tos",
+     "status": 200,
+     "type": "image/gif",
+     "kind": "fetch",
+     "method": "GET"
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "status": 204,
+     "type": "",
+     "kind": "xhr",
+     "method": "POST",
+     "file": "r25.txt",
+     "bytes": 0
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-1VC2VXWH12&gtm=45je6at0h2v882932115za20gzb895514807zd895514807xf1&_p=1793512048339&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AEAAAGQC&ae=a&are=1&cid=9808485.1793512050&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x64&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv",
+     "status": 204,
+     "type": "text/plain",
+     "kind": "fetch",
+     "method": "POST"
+    }
+   ],
+   "rendered_bytes": 624936,
+   "jsonld_events": 0
+  }
+ }
+]

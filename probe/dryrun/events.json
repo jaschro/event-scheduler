@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T05:38:22+00:00",
+ "generated_at": "2026-11-01T05:47:58+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -10,9 +10,77 @@
    "key": "miami",
    "name": "Miami",
    "tz": "America/New_York"
+  },
+  {
+   "key": "nyc",
+   "name": "New York",
+   "tz": "America/New_York"
   }
  ],
  "events": [
+  {
+   "id": "095bc67381cd0fc8",
+   "title": "New York: All Night Diner: Problem First Entrepreneurship Program",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-10-28T18:00:00-04:00",
+   "end": "2027-01-29T21:00:00-05:00",
+   "all_day": false,
+   "description": "All Night Diner brings together a small cohort of alumni from Columbia, Cornell, MIT, and Brown who are interested in entrepreneurship but want to start further upstream than the typical startup program. Applications are open for curious, ambitious people who want to investigate consequential problems and find something worth building.\n\nThis is an in-person Bootcamp for alumni of Columbia University, Cornell University, M.I.T., and Brown.\n\nOver three months, including nine in-person sessions and ten all-cohort sit-down dinners, participants use a disciplined framework to investigate…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153175",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "ded73dafb481d759",
+   "title": "IBC West Coast Trek",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-01T02:05:00-05:00",
+   "end": "2026-11-03T14:55:00-05:00",
+   "all_day": false,
+   "description": "The Investment Banking Club’s West Coast Trek will take place in the San Francisco Bay Area with employer visits scheduled on November 2–3, 2026. The trek will provide CBS students with the opportunity to visit investment banks, meet professionals across firms, and learn more about investment banking opportunities on the West Coast.\n\nAfter you have completed the registration, please proceed to join this invite-only WhatsApp group for the IBC West Coast Trek for all updates and notifications:\n\nhttps://chat.whatsapp.com/DbO2ne7dDIRIjG6LgLgoyC?s=cl&p=a&mlu=4&ilr=4&iam=0\n---\nEvent Details…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147375",
+   "location": "San Francisco Bay Area",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "da701136e4367f9a",
+   "title": "CENTRAL OPEN HOUSE 2026",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-01T09:00:00-05:00",
+   "end": "2026-11-01T13:00:00-05:00",
+   "all_day": false,
+   "description": "Organization: YUHS GIRLS\nSubmitter Name: Lewin, Menachem\nSubmitter Phone: 646-592-4101\nSubmitter Email: mlewin@yu.edu\nLocation: Off-Campus Location Name:: CENTRAL HIGH SCHOOL\nLocation: Off-Campus Location Address:: 86-86 PALO ALTO\nHOLIS , NY 11423\nEvent Locator: 2026-ABDMMV\n\nCENTRAL OPEN HOUSE 2026",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Off Campus",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
   {
    "id": "65e84ab5f9cdd9b4",
    "title": "Lincoln Road Farmer's Market",
@@ -52,7 +120,7 @@
    },
    "source": "mbjcc",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -61,7 +129,7 @@
    "venue": "ICA Miami",
    "kind": "museum",
    "start": "2026-11-01T11:00:00-05:00",
-   "end": null,
+   "end": "2026-11-01T19:00:00-05:00",
    "all_day": false,
    "description": "Join Ms. Krystal at ICA Miami on Sunday, November 1, 2026, for a bilingual musical storytime exploring nature and community. Free tickets; reservations required.",
    "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-storytelling-with-ms-krystal-20261101/",
@@ -73,7 +141,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -94,7 +162,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -136,7 +204,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -157,7 +225,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -262,7 +330,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -304,7 +372,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -327,6 +395,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "f9d394625770b3b2",
+   "title": "Israel Spring 2027: Trip Info Session",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-02T12:30:00-05:00",
+   "end": "2026-11-02T13:30:00-05:00",
+   "all_day": false,
+   "description": "Join us to learn about itrek's upcoming Law, Policy, and National Security spring break trip to Israel. This heavily subsidized program is built for students with no prior experience or connection to Israel or Judaism, and offers rare access to influential legal, policy, and national security leaders across the ideological spectrum.\n\nProfessor Nadav Eyal, award-winning Israeli journalist and Senior Research Scholar at SIPA, and Professor Matthew Waxman will discuss the trip, what participants can expect, and the issues we’ll explore.\n---\nEvent Details…",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929447",
+   "location": "Jerome Green Hall 105, 435 W 116th St, New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "f54c91d9dc1fe8da",
@@ -409,8 +498,113 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "93ded6285b9e1d3e",
+   "title": "Midrash, Creativity, and Linguistics",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": "2026-11-02T20:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: A Seminar on Midrash, Creativity, and Experimental Linguistics\nOrganization: BERNARD REVEL GRADUATE SCHOOL\nSubmitter Name: Twersky, Sara\nSubmitter Phone: 718-644-5975\nSubmitter Email: sara.twersky@yu.edu\nEvent Locator: 2026-ABDWXT\n\nA Seminar on Midrash, Creativity, and Experimental Linguistics\nThis seminar presents the latest research emerging out of a project on God, Language and Diversity based at the University of Cambridge:\nhttps://www.interfaith.cam.ac.uk/research/current-research-projects/god-language-and-diversity-god-and-human-speech\n\nThe project explores connections…",
+   "url": "https://www.interfaith.cam.ac.uk/research/current-research-projects/god-language-and-diversity-god-and-human-speech",
+   "location": "Wilf-Furst Hall-F308 Revel Lounge, Wilf-Rubin Hall-Shul",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e068f8deae37c480",
+   "title": "Sy Syms Honors Professional Development",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": "2026-11-02T21:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Sy Syms Honors Professional Development Series: Networking & Outreach\nOrganization: Shevet Glaubach Center, HONORS PROGRAMS, SY SYMS SCHOOL OF BUSINESS\nSubmitter Name: Kandis, Sara\nSubmitter Email: sara.kandis@yu.edu\nEvent Locator: 2026-ABDXKD\n\nThis event is open to Sy Syms School of Business Honors Students.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Belfer Hall-Sky Cafe",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "d32724fd5be74d46",
+   "title": "Torah with the Roshei Yeshiva",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": "2026-11-02T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Torah with the Roshei Yeshiva\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSG\n\nTorah with the Roshei Yeshiva",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "2363587721de0758",
+   "title": "Writers Guild November Meeting",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-02T19:00:00-05:00",
+   "end": "2026-11-02T21:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Writers Guild November Meeting\nOrganization: STUDENT LIFE\nSubmitter Name: Isack, Deborah\nSubmitter Email: debbie.isack@yu.edu\nEvent Locator: 2026-ABDXMK\n\nWe will be going over stories written for the provided prompt and giving constructive criticism.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-215 Lexington-501 Gottesman Board of Trustees Room",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "48bd2ca5ad50f61b",
+   "title": "How to Reverse Aging (In Mice)",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-02T20:30:00-05:00",
+   "end": "2026-11-02T21:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: How to Reverse Aging (in mice)\nOrganization: STUDENT LIFE\nSubmitter Name: Isack, Deborah\nSubmitter Email: debbie.isack@yu.edu\nEvent Locator: 2026-ABDXZD\n\nCome join the Scientific Journalism Society for another exciting discussion led by your peers! Le arn how histone deacetylase experiments are contributing to slowing the mechanisms of aging in mice, and how experiments regarding specific enhancers of genes can help us learn how to extend lifespans. Enjoy great food and even better conversation!",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-308",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "aac0b759c14c5b9c",
@@ -430,7 +624,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -455,6 +649,27 @@
    "city": "miami"
   },
   {
+   "id": "16a05a1e9766a405",
+   "title": "Midterms Breakfast",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-03T08:30:00-05:00",
+   "end": "2026-11-03T10:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-Nagel Lobby",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "aefc3e55f43e2bde",
    "title": "Build to Scale and Position for Value and Exit",
    "venue": "Luma Miami",
@@ -474,6 +689,69 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "57dd04cf57bd6ed3",
+   "title": "Executive Education: MEC",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-03T09:00:00-05:00",
+   "end": "2026-11-03T17:00:00-05:00",
+   "all_day": false,
+   "description": "Executive Education: MEC\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153648",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153648",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "3c22debfb523c660",
+   "title": "CMC Drop-In Advising",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-03T12:30:00-05:00",
+   "end": "2026-11-03T13:30:00-05:00",
+   "all_day": false,
+   "description": "These sessions are designed for students to ask any questions without making a prior appointment.\n\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145835",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145835",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "3f8708fa91b3290b",
+   "title": "CLABLA Law Firm Month - Cleary Gottlieb",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-03T16:00:00-05:00",
+   "end": "2026-11-03T17:30:00-05:00",
+   "all_day": false,
+   "description": "Come meet with attorneys at Cleary Gottlieb! We will be meeting with attorneys from the Latin American practice.\n\n*Attendance Policy*\n1. Mandatory registration: Please register only if you are certain you can attend, to allow more participants the opportunity to join.\n2. ⁠No-Show Policy: If you register for an event and (a) do not show up or (b) do not notify us according to the Communication point below, you will be ineligible to register for other events organized by CLABLA. No exceptions will be made.\n3. ⁠Communication: If you can't make it, please notify us at least 24 hours in advance…",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929451",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "ea1fd31efdf28f99",
@@ -539,6 +817,27 @@
    "city": "miami"
   },
   {
+   "id": "5a8273601e702fdd",
+   "title": "Installation of Straus Chair",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-03T18:30:00-05:00",
+   "end": "2026-11-03T20:30:00-05:00",
+   "all_day": false,
+   "description": "Organization: INSTITUTIONAL ADVANCEMENT\nSubmitter Name: Luft, Denise\nSubmitter Email: denise.luft@yu.edu\nEvent Locator: 2026-ABDXSM\n\nInstallation of Professor Moshe Krakowski as the Gwendolyn and Joseph Chair in Jewish Education.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Belfer Hall-Sky Cafe",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "b47260c3b3a7096a",
    "title": "FJORD",
    "venue": "O Cinema South Beach",
@@ -556,8 +855,71 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "5ba33154128a130c",
+   "title": "Torat Chesed",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": "2026-11-03T20:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Torat Chesed: From Inspiration to Impact\nOrganization: The Pava Center\nSubmitter Name: Weissman, Avital N.\nSubmitter Email: avital.weissman@yu.edu\nEvent Locator: 2026-ABDXND\n\nSAVE THE DATE!!!\nFirst Ever Pava Center for Women's Torah Scholarship and Office of Torah and Spiritual Life Stern Community Event\nTORAT CHESED: FROM INSPIRATION TO IMPACT\n\nJoin us for a conversation with four exceptional women whose organizations bring Torah to life through chesed, compassion, and responsibility for others.\n\nThey’ll share the stories behind their organizations, how they turned an idea into…",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "14d211a9133ec95f",
+   "title": "Tuesday Night Live",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-03T19:00:00-05:00",
+   "end": "2026-11-03T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Tuesday Night Live\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSH\n\nTuesday Night Live",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "86daf85b7d0f9599",
+   "title": "YU Real Estate Event",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-03T20:00:00-05:00",
+   "end": "2026-11-03T21:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: YU Real Estate Event\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZDG\n\nWe are looking to educate our members about acquisitions.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Rubin Hall-Shul",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "e30b7d6bd145780f",
@@ -577,7 +939,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -598,7 +960,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -623,6 +985,48 @@
    "city": "miami"
   },
   {
+   "id": "915a2526201f3b57",
+   "title": "Midterms Breakfast",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-04T08:30:00-05:00",
+   "end": "2026-11-04T09:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-Nagel Lobby",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "c59d48bf702f4f53",
+   "title": "Executive Education: MEC",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T09:00:00-05:00",
+   "end": "2026-11-04T12:00:00-05:00",
+   "all_day": false,
+   "description": "Executive Education: MEC\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153649",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153649",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "92fd7b9b70c5861d",
    "title": "Tai Chi in the Garden (Wednesdays)",
    "venue": "Miami Beach Botanical Garden",
@@ -640,7 +1044,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -665,6 +1069,153 @@
    "city": "miami"
   },
   {
+   "id": "d2fc4508dffdb98b",
+   "title": "Lunch 'n Learn with Adam Fuller",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-04T12:00:00-05:00",
+   "end": "2026-11-04T13:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Lunch 'n Learn with Adam Fuller\nOrganization: STRAUS CENTER, JAY & JEANIE SCHOTTENSTEIN HONOR PROG\nSubmitter Name: Feldman, Talia\nSubmitter Email: talia.feldman@yu.edu\nEvent Locator: 2026-ABDTTV\n\nLunch 'n Learn with Adam Fuller",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Belfer Hall-511 Straus Center Conference Room",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "fa12632623b8b91b",
+   "title": "\"Art & Science of Execution\" Roundtable Lunch Series: Jenna Kirschner '20 (Chief of Staff, Global Operations, HelloFresh)",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T12:30:00-05:00",
+   "end": "2026-11-04T14:00:00-05:00",
+   "all_day": false,
+   "description": "The Deming Center at Columbia Business School invites you to attend a sit-down lunch in conversation with Jenna Kirschner '20 (Chief of Staff, Global Operations, HelloFresh) as part of its “The Art and Science of Execution” Roundtable Series. The lunch will be open to the first 25 students who sign up. Once filled, students can join a waitlist to attend. Please reach out deming@gsb.columbia.edu with any questions.\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146008",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146008",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a0e2fa7feca6a145",
+   "title": "Sports Industry Networking & Recruiting Workshop with CMC",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T12:30:00-05:00",
+   "end": "2026-11-04T13:30:00-05:00",
+   "all_day": false,
+   "description": "Join SBA and Diane Matuzak of the Career Management Center for a lunch workshop on networking and recruiting tips and best practices for sports internships and full-time roles.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152653",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152653",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a5df5ffb73261150",
+   "title": "Adam Smith in the Age of AI: The Wealth of Nations at 250",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T12:45:00-05:00",
+   "end": "2026-11-04T13:45:00-05:00",
+   "all_day": false,
+   "description": "250 years after the publication of Adam Smith’s \"The Wealth of Nations,\" artificial intelligence is raising fundamental questions about competition, jobs, global trade, and economic prosperity.\n\nJoin Columbia Business School professors Glenn Hubbard and Tano Santos for a conversation exploring how Smith’s ideas can help us understand today’s economic and political challenges. Taking place the day after the 2026 midterm elections, the discussion will consider the implications of technological change for businesses, workers, and global markets, and what these developments might mean for the…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145437",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "f457e2db5a28c2dd",
+   "title": "AI in Leadership Luncheon Series: Navigation Risk, Trust, and Innovation with Rumman Chowdhury",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T12:45:00-05:00",
+   "end": "2026-11-04T13:45:00-05:00",
+   "all_day": false,
+   "description": "AI in Leadership Luncheon Series: Navigation Risk, Trust, and Innovation\nWednesday, November 4, 2026 | 12:45 – 1:45 PM (Lunch will be provided)\nRoom 840, Kravis Hall, Columbia Business School\nFeaturing: Rumman Chowdhury, CEO & Founder, Humane Intelligence\nModerator: Chris LaSala, Sr. Lecturer in Discipline, Columbia Business School\n\nCo-sponsors: AI in Business Initiative, Bernstein Center for Leadership and Ethics, , Columbia Business School\n\nNote: This event is limited to Columbia Business School community members and Columbia affiliates. Please be advised that this event may be…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146933",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "4c3f3e68f6d51b29",
+   "title": "Lorica Demo: AI-Powered Site Selection for Energy and Data Centers",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T13:00:00-05:00",
+   "end": "2026-11-04T14:00:00-05:00",
+   "all_day": false,
+   "description": "Lorica speeds up energy and data center development by automating site screening across power, land, and permitting. It pairs that screening with expert consultants who carry projects through steps like permits and interconnection applications.\n\nAlex Glaubach founded Lorica after roles at the Department of Energy, investing at Insight Partners, and work at startups. He’ll give a live demo of the platform, showing how developers approach origination and development. He’ll then take open Q&A on the energy and data center development landscape and his path from investing to the public sector to…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147796",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "ac5c62e62400f662",
+   "title": "WSSW SGA Meeting",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-04T13:00:00-05:00",
+   "end": "2026-11-04T14:00:00-05:00",
+   "all_day": false,
+   "description": "Organization: WURZWEILER SCHOOL OF SOCIAL WORK\nSubmitter Name: Finkelstein, Mindy\nSubmitter Email: mindy.finkelstein@yu.edu\nEvent Locator: 2026-ABDTSL\n\nThe WURZWEILER SCHOOL OF SOCIAL WORK STUDENT GOVERNMENT ASSOCIATION\nOpen Meetings for ALL Students\n\nLearn about the Student Government Association, share your ideas, connect with other students, and explore ways to get involved in the Wurzweiler community.\nOpen Meeting Dates for 2026-2027 Academic Year:\n9/16/26, 10/14/26, 11/4/26, 12/2/26, 1/6/27, 2/3/27, 3/10/27, 4/7/27, 5/19/27,\nJoin Us on Zoom- ZOOM link provided in email from…",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Online Event",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "61094f5d6dad2e48",
    "title": "Running a Business? Get your Week Back. Let AI Handle the Busywork. Workshop for Entrepreneurs and Small Business Owners",
    "venue": "Refresh Miami",
@@ -686,6 +1237,27 @@
    "city": "miami"
   },
   {
+   "id": "a07a8e19d950396c",
+   "title": "Club Hour Shiur",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-04T14:45:00-05:00",
+   "end": "2026-11-04T15:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Club Hour Shiur\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSF\n\nClub Hour Shiur",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Koch Auditorium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "4ecd796446b2f624",
    "title": "Moonlighter FabLab: Maker Club Afterschool Enrichment - 2026-2027",
    "venue": "City of Miami Beach Arts Calendar",
@@ -705,6 +1277,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "c940ff12f706cc07",
+   "title": "Transatlantic Συν-Ergies: Energy, Capital & Global Ventures",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T21:00:00-05:00",
+   "all_day": false,
+   "description": "Join the Hellenic Business Society for an evening on the future of the U.S.–Greece partnership in energy, investment, and innovation. The event is co-organized by The American College of Greece, the Hellenic-American Chamber of Commerce, and AmCham Greece, under the auspices of the Consulate General of Greece in New York.\n\nSpeakers will discuss how energy security, geopolitics, technology, and access to capital are coming together. Topics include Greece’s growing role as an energy gateway to Southeast Europe, how AI and data centers are driving electricity demand, and the opportunities this…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153619",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "55744e882705679e",
@@ -770,6 +1363,27 @@
    "city": "miami"
   },
   {
+   "id": "9f6c69bf0a139d5a",
+   "title": "2026 Living Landmarks Celebration",
+   "venue": "New York Landmarks Conservancy",
+   "kind": "talks",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": "2026-11-04T22:00:00-05:00",
+   "all_day": false,
+   "description": "The Living Landmarks Celebration recognizes exceptional New Yorkers who give back to the City we love.\nHONOREES\nDurst Family (Helena Durst and Nan A. Rothschild)\nJamee and Peter Gregory\nJane Hartley and Ralph Schlosstein\nLL COOL J\nCrystal McCrary McGuire and Raymond J. McGuire\nPeter Marino\nHonorary Chairs – Marina Kellen French ’21, Peter Malkin ‘12, and Barbara Tober ’19\nHost –Stephen Lash\n\nEvent Location\nThe Plaza, 768 Fifth Avenue, Manhattan\nDate/Time\nNovember 4, 2026\n7:00 – 10:00 PM\nMore info\nPlease contact Carla Eilo.\nClick here to learn more about the Living Landmarks Celebration from…",
+   "url": "https://nylandmarks.org/event/2026-living-landmarks-celebration/",
+   "location": "The Plaza, 768 5th Ave, New York, NY, 10019, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-ny-landmarks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "bc9ff7d510654c65",
    "title": "An Evening with Schneider K. Rancy in conversation with Andrew Boryga",
    "venue": "Books & Books",
@@ -791,6 +1405,27 @@
    "city": "miami"
   },
   {
+   "id": "d3be4caf4c22af85",
+   "title": "BCSG Midterm Study Hall",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": "2026-11-04T21:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: BCSG Midterm Study Hall\nOrganization: STUDENT LIFE\nSubmitter Name: Isack, Deborah\nSubmitter Email: debbie.isack@yu.edu\nEvent Locator: 2026-ABDWXS\n\nCome study with your peers",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Koch Auditorium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "f96e8b5df9187009",
    "title": "TAKE ME HOME",
    "venue": "O Cinema South Beach",
@@ -808,8 +1443,29 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "b7cb79b34d90fb6d",
+   "title": "Wednesday Night Torah Programming",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": "2026-11-04T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Wednesday Night Torah Programming\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSJ\n\nWednesday Night Torah Programming",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "549e378637ac3701",
@@ -833,6 +1489,27 @@
    "city": "miami"
   },
   {
+   "id": "33ff6eef824c8d74",
+   "title": "CBS RFC x CWiB Networking Event",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-04T20:30:00-05:00",
+   "end": "2026-11-04T23:00:00-05:00",
+   "all_day": false,
+   "description": "WE'RE GOIN DOWNTOWN: The CBS Rugby Football Club and Columbia Women in Business will be hosting a networking event at Off the Wagon (Greenwich Village) on Wednesday November 4th at 8:30 PM. In compliance with the school's alcohol policy, light food (wings, mozzarella sticks, fries, quesadillas) will be served along with a limited open bar (beer, wine, soda).\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153358",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153358",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "7239dd4d0cc774e4",
    "title": "FJORD",
    "venue": "O Cinema South Beach",
@@ -850,8 +1527,71 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "3e50f6656a377fc1",
+   "title": "Coffee Hour: Women in REA x Columbia GSAPP",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T07:30:00-05:00",
+   "end": "2026-11-05T08:30:00-05:00",
+   "all_day": false,
+   "description": "Join CBS REA and WiRED (Women in Real Estate Development at Columbia GSAPP) for a casual morning coffee. We’re bringing together women in real estate across MBA and the MS RED programs to meet each other, swap stories about classes and recruiting, and start building a network before the spring conference.\n\n**CBS Students will receive $10 coffee subsidy**\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152544",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152544",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "679de8b58b89cb39",
+   "title": "PE Program Breakfast Series Fall 2026 Session 6, Guest Dmitriy Fotiyev `14",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T07:30:00-05:00",
+   "end": "2026-11-05T09:00:00-05:00",
+   "all_day": false,
+   "description": "Weekly breakfast series\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=144662",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=144662",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "992747199716b50a",
+   "title": "Midterms Breakfast",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-05T08:30:00-05:00",
+   "end": "2026-11-05T10:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-Nagel Lobby",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "97ae426dbf554ea9",
@@ -871,7 +1611,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -894,6 +1634,195 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "d5c5f2be5261de8f",
+   "title": "MRKT Fall Seminar Series - Tesary Lin (Boston University)",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T12:15:00-05:00",
+   "end": "2026-11-05T14:00:00-05:00",
+   "all_day": false,
+   "description": "MRKT Fall Seminar Series - The seminar is open to the Marketing division and the public. External speakers are invited to present their research to the MRKT faculty, PhD students, visiting scholars, and guests.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=142534",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=142534",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "bad038b8c06bad4d",
+   "title": "Can AI Be Trusted With Government Work? Testing, Oversight, and Accountability in the Public Sector",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-05T12:30:00-05:00",
+   "end": "2026-11-05T13:30:00-05:00",
+   "all_day": false,
+   "description": "State legislatures, city halls, and county offices are already experimenting with generative AI usage. But who decides whether AI tools can be trusted with public work? And who answers when they get it wrong?\n\nJoin Columbia Law's own Professor Neel Guha, whose research examines why AI regulation so often misses its target and why legal AI remains largely untested, and Faiz Surani of Caldera PBC, who studied AI hallucinations in legal research before building AI tools for government agencies. Both worked on the 2023 publication \"AI Regulation Has Its Own Alignment Problem: The Technical and…",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929413",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "005eb8f345581708",
+   "title": "CMC Drop-In Advising",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T12:30:00-05:00",
+   "end": "2026-11-05T13:30:00-05:00",
+   "all_day": false,
+   "description": "These sessions are designed for students to ask any questions without making a prior appointment.\n\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145836",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145836",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "6a3addcb8c3a2d46",
+   "title": "Econ Lunch Seminar",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T12:30:00-05:00",
+   "end": "2026-11-05T14:00:00-05:00",
+   "all_day": false,
+   "description": "The Economics Division has a weekly seminar each Thursday with a new speaker each week.\nThe Economics Division only provides lunch for B-School faculty and BusEc PhD students only.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=142565",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=142565",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "21d2caf27d0b358b",
+   "title": "OJC Judicial Speaker Series: Judge Jenny Rivera and Justice Rachel Wainer Apter",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-05T12:30:00-05:00",
+   "end": "2026-11-05T13:30:00-05:00",
+   "all_day": false,
+   "description": "Every year, CLS graduates clerk in state courts from New York to Alaska. State courts see approximately 95% of all cases filed in the United States, and offer exposure to a wide variety of case types and legal issues. Please join the Office of Judicial Careers for a conversation with state court jurists to discuss the benefits of clerking for state courts.\n\nSpeakers\nJudge Jenny Rivera (New York Court of Appeals)\nJustice Rachel Wainer Apter (New Jersey Supreme Court)\n\nPlease reach out to judicialcareers@law.columbia.edu with any questions or issues regarding this event.\n\nFor more information…",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929368",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b00e3bddde29a475",
+   "title": "From Big Tech to K-Beauty: A Fireside Chat with Sora Lee",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T12:45:00-05:00",
+   "end": "2026-11-05T14:00:00-05:00",
+   "all_day": false,
+   "description": "A first-generation Korean American and self-made millionaire, Sora Lee spent 14 years leading marketing at Netflix, Meta and TikTok, most recently as Global Head of Product Marketing for Creative Solutions at TikTok. She is also the creator behind @soraunni (-700K followers) and a star of Netflix's Love After Divorce. Her content has drawn more than 200 million views, and she has spoken at Harvard Business School and TEDxSeoul. Today, she puts that experience to work building her own beauty brand, JIYU, and growth agency, Kurated, which has helped brands including Medicube, TIRTIR and VT…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=151075",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "77ad532f90424af3",
+   "title": "Harnessing AI for Innovation and Global Impact: A Conversation with James Manyika",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T12:45:00-05:00",
+   "end": "2026-11-05T13:45:00-05:00",
+   "all_day": false,
+   "description": "Featuring: James Manyika, President, Research, Labs, Technology & Society, Google & Alphabet\nModerator: Costis Maglaras, Dean of Columbia Business School and David and Lyn Silfen Professor of Business\n\nEvent Information\n\nThis is an in-person-only event open to Columbia University community members and invited guests. The event will not be live-streamed.\n\nAdmission is first come, first served and subject to space availability. Due to high demand and limited capacity in Cooperman Commons, an overflow room will be available once the main event space reaches capacity.\n\nLunch will be provided…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153818",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "6c54f6a7ee94f73a",
+   "title": "Team Lunch",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T12:45:00-05:00",
+   "end": "2026-11-05T14:00:00-05:00",
+   "all_day": false,
+   "description": "Team-only lunch ahead of our upcoming tournament. We’ll use the time to review match rules, team strategy, roles and expectations, logistics for the day, and any key details everyone should know before kickoff.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153610",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153610",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "acbe317f31adab74",
+   "title": "Katz Tech Workshop: Interview Prep",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-05T13:30:00-05:00",
+   "end": "2026-11-05T14:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Katz Tech Workshop: Interview Prep for Tech Roles\nOrganization: Shevet Glaubach Center, KATZ COLLEGE OF SCIENCE AND HEALTH\nSubmitter Name: Perez, John\nSubmitter Email: john.perez@yu.edu\nSponsor: Co-Sponsoring Organizations:: Katz College\nEvent Locator: 2026-ABDXTZ\n\nKatz students and alumni, you're invited to join the Shevet Glaubach Center STEM Career Advisers for this in-person workshop focused on interview preparation for TECH roles.\nThis workshop will cover:\n\nbest practices for behavioral interviews for tech roles,\n\nhow to approach the technical rounds\n\npractice answering…",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-205 Lexington- 402",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "94d92d437c9d39b3",
@@ -938,6 +1867,27 @@
    "city": "miami"
   },
   {
+   "id": "62449a12e9ab3b33",
+   "title": "Legacying Forward: An Evening with EEmine Sabancı Kamışlı",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T17:45:00-05:00",
+   "end": "2026-11-05T20:00:00-05:00",
+   "all_day": false,
+   "description": "An evening with Emine Sabanci celebrating 10 years of the Global Family Enterprise Program.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=147707",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147707",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "413f95c454458a3d",
    "title": "BEDFORD PARK (Miami Film Festival GEMS 2026)",
    "venue": "O Cinema South Beach",
@@ -955,7 +1905,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -976,7 +1926,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -999,6 +1949,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "cce504b68716d8d4",
+   "title": "The Business of Robotics: How Robotics is Reshaping Work and Industry",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T20:00:00-05:00",
+   "all_day": false,
+   "description": "The Business of Robotics: How Robotics is Reshaping Work and Industry\nThursday, November 5, 2026 | Panel 6:00 – 7:00 PM | Reception 7:00 – 8:00 PM\nRoom 1040, Kravis Hall, Columbia Business School\n\nFeaturing:\nDaisy Cai '07, General Partner, B Capital\nJeff Cardenas, CEO, Apptronik\nYou Liang Tan, Co-Founder, Dream Labs\n\nThis new series explores the emerging robotics economy and what it means for companies, leaders, and workers. The panel will feature Daisy Cai of B Capital, Jeff Cardenas of Apptronik, and You Liang Tan of Dream Labs. Apptronik develops humanoid robots designed to work alongside…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146419",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "4aab91d960fbb43d",
+   "title": "Unpacking the 2026 Midterm Elections: Implications for the US & Korea",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T18:00:00-05:00",
+   "end": "2026-11-05T19:00:00-05:00",
+   "all_day": false,
+   "description": "Hybrid Event\nUnpacking the 2026 Midterm Elections: Implications for the US & Korea\nThursday, November 5, 2026 | 6:00 PM (ET)\nThe Korea Society (350 Madison Avenue, 24th Floor, New York, NY 10017)\n\nFeaturing:\nFormer Representative John Katko (R-NY, 2015-2023)\nFormer Representative Kathy Manning (D-NC, 2021-2025)\n\nModerator: Abraham Kim, President and CEO, The Korea Society\n\nCo-sponsored by The Korea Society and FMC’s Congressional Study Group on Korea (CSGK)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153537",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153537",
+   "location": "350 Madison Avenue, 24th Floor New York, NY 10017",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "33fa7990cfc8e9fb",
@@ -1064,6 +2056,27 @@
    "city": "miami"
   },
   {
+   "id": "76f0ef8776211058",
+   "title": "CLABLA Law Firm Month - Simpson Thacher",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-05T18:30:00-05:00",
+   "end": "2026-11-05T19:30:00-05:00",
+   "all_day": false,
+   "description": "Come meet with attorneys at Simpson Thacher! We will be meeting with attorneys from the Latin American practice.\n\n*Attendance Policy*\n1. Mandatory registration: Please register only if you are certain you can attend, to allow more participants the opportunity to join.\n2. ⁠No-Show Policy: If you register for an event and (a) do not show up or (b) do not notify us according to the Communication point below, you will be ineligible to register for other events organized by CLABLA. No exceptions will be made.\n3. ⁠Communication: If you can't make it, please notify us at least 48 hours in advance…",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929454",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "06d2ccd332228888",
    "title": "hack night v0.188 - South Beach",
    "venue": "Hello Miami",
@@ -1083,6 +2096,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "2510fb7060e63571",
+   "title": "Napa Wine: Ehlers Estate",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-05T18:30:00-05:00",
+   "end": "2026-11-05T20:45:00-05:00",
+   "all_day": false,
+   "description": "Join us for a tasting led by Adam Casto, head winemaker at Ehlers Estate! Nestled in the heart of Napa Valley, Ehlers Estate has a fierce passion for excellence in winemaking. They care about the details and take our craft seriously. They're ensuring a bright future for our winery and never lose focus on sustainability and innovation.\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929462",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929462",
+   "location": "JG 107, 435 W 116th St, New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "8a4105eb452e4ea8",
+   "title": "New York: CBS4A - Reclaiming Joy, An Evening with Dr. Judith Joseph",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T18:30:00-05:00",
+   "end": "2026-11-05T20:30:00-05:00",
+   "all_day": false,
+   "description": "​The Columbia Business School African American Alumni Association (4A) and Columbia Business School have partnered to invite alumni and select students to an intimate conversation with Dr. Judith Joseph, a board-certified psychiatrist, researcher, and New York Times bestselling author of High Functioning: Overcome Your Hidden Depression and Reclaim Your Joy, the first book to define High-Functioning Depression (HFD). She holds both an MD and an MBA from Columbia, which makes this a homecoming as much as an author talk.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=147522",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147522",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "793e27d8a055a743",
@@ -1123,7 +2178,7 @@
    },
    "source": "mbjcc",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1148,6 +2203,27 @@
    "city": "miami"
   },
   {
+   "id": "5ff58d7ad5731986",
+   "title": "Thursday Night Torah Programming",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-05T19:00:00-05:00",
+   "end": "2026-11-05T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Thursday Night Torah Programming\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSK\n\nThursday Night Torah Programming",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "346b0025c4070527",
    "title": "Gandhi and the Jew",
    "venue": "Miami New Drama (Colony)",
@@ -1165,8 +2241,71 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "27b9e1fa74d29e00",
+   "title": "SABA - Diwali Night ✨",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-05T20:00:00-05:00",
+   "end": "2026-11-06T02:00:00-05:00",
+   "all_day": false,
+   "description": "SABA presents: Diwali Night 2026!!!\n\nJoin us for the most anticipated night of the year as we celebrate the Festival of Lights together! Expect an evening filled with delicious Indian food, drinks, music, and lively dance performances, plus a few surprises along the way!\n\nDate: 5 November\nVenue: HK Hall\nDress code: Festive Indian wear! Traditional outfits encouraged, but not mandatory\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152672",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152672",
+   "location": "HK Hall, 605 W 48th St, New York, NY 10036, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b80f07b1804f2950",
+   "title": "Age of Influence - 2026 CWIB Conference (Main)",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-06T08:00:00-05:00",
+   "end": "2026-11-06T17:30:00-05:00",
+   "all_day": false,
+   "description": "Join us for the 33rd Annual Columbia Women in Business Conference!\n\nCWiB’s 2026 Conference, The Age of Influence: The Women Driving Markets and Shaping Culture, will take place at Columbia Business School on Friday, November 6, 2026.\n\nThis all-day gathering brings together Columbia Business School students, alumni, and a broader community of leaders to celebrate the voices, experiences, and accomplishments of women and non-binary individuals across industries, roles, and generations.\n\nThis year’s theme, The Age of Influence, explores the many ways women are shaping the future of business…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=151392",
+   "location": "Cooperman Commons, David Geffen Hall – Columbia Business School, 645 West 130th Street, New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a11c2d94f4d3cffe",
+   "title": "CBS FC Training",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-06T10:00:00-05:00",
+   "end": "2026-11-06T12:00:00-05:00",
+   "all_day": false,
+   "description": "Fall Training\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=144238",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=144238",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "be98cebd4418e478",
@@ -1186,7 +2325,49 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e2d746111dca74f9",
+   "title": "Real Estate Finance reschedule",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-06T12:30:00-05:00",
+   "end": "2026-11-06T14:00:00-05:00",
+   "all_day": false,
+   "description": "Real Estate Finance reschedule\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152595",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152595",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "325b38f0fada360c",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-06T13:15:00-05:00",
+   "end": "2026-11-06T15:45:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1029401~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
+   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1211,6 +2392,27 @@
    "city": "miami"
   },
   {
+   "id": "9a4ee3a0f6033771",
+   "title": "Offside",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-06T15:30:00-05:00",
+   "end": "2026-11-06T18:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1044129~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
+   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "miami"
+  },
+  {
    "id": "65f20d5ae0c18daa",
    "title": "LA BOLA NEGRA",
    "venue": "O Cinema South Beach",
@@ -1228,7 +2430,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1417,7 +2619,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1459,7 +2661,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1480,8 +2682,29 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "30c3ae0a1b78916c",
+   "title": "CLS Fall Escape",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-07T09:30:00-05:00",
+   "end": "2026-11-07T19:30:00-05:00",
+   "all_day": false,
+   "description": "Apple Picking & Hudson Valley Day Trip\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929337",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929337",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "e89580e983052368",
@@ -1501,7 +2724,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1543,8 +2766,29 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "c43378a6e8da309e",
+   "title": "AMA: EMBA International Seminars",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-07T11:30:00-05:00",
+   "end": "2026-11-07T12:30:00-05:00",
+   "all_day": false,
+   "description": "Wondering what the international seminars are like? EMBA ‘27 students will share their experiences and answer your questions, so you’re ready when your options are announced.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153162",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153162",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "5af7ea483f42ec15",
@@ -1606,7 +2850,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "abf635d1dd21bd49",
+   "title": "Ida",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-07T15:15:00-05:00",
+   "end": "2026-11-07T17:45:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043282~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
+   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1669,7 +2934,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1732,7 +2997,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1774,7 +3039,28 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "2eebea1bde2dc7ed",
+   "title": "Body Double",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-07T22:00:00-05:00",
+   "end": "2026-11-08T00:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043061~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
+   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1816,7 +3102,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1858,7 +3144,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1879,7 +3165,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1900,7 +3186,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1921,7 +3207,7 @@
    },
    "source": "ica-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1942,7 +3228,28 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "432df046fb071fad",
+   "title": "The Color Purple",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-08T12:00:00-05:00",
+   "end": "2026-11-08T14:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=988000~1e59984b-ce2f-4c41-87f7-3f13ba11a892&",
+   "location": "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -1984,7 +3291,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2005,7 +3312,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2026,7 +3333,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2047,7 +3354,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2068,7 +3375,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2152,8 +3459,50 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "17c2ca9c7d01eae6",
+   "title": "Columbia Business School School Update with Dean Costis Maglaras",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T05:00:00-05:00",
+   "end": "2026-11-09T07:00:00-05:00",
+   "all_day": false,
+   "description": "Join fellow CBS Alumni in Beijing for a school update and networking reception with Dean Costis Maglaras!\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152360",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152360",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "7cf4f81b608209a5",
+   "title": "Midterms Breakfast",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-09T08:30:00-05:00",
+   "end": "2026-11-09T10:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-Nagel Lobby",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "6648e3d5600e2c2a",
@@ -2175,6 +3524,195 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "e14068e4a577d394",
+   "title": "Counseling Drop-In Hours w. Dr. Laura Gonzalez",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T11:00:00-05:00",
+   "end": "2026-11-09T14:00:00-05:00",
+   "all_day": false,
+   "description": "**NO APPOINTMENT REQUIRED**\n**LAST STUDENT WILL BE SEEN AT 1:30pm**\n\nNeed to talk? Students can drop-in every Monday from 11am-2pm to chat with Dr. Laura Gonzalez, our on-site counselor.\nThis is an opportunity for students to balance how they navigate academics, recruiting, social activities, and their personal lives during their time at CBS.\n\nDr. Laura Gonzalez brings extensive clinical experience and approaches her work from a psychodynamic and relational cultural framework, valuing the importance of relationships and the impact of one’s environment on their life. Laura is bilingual…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145695",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b3994f0db7d05996",
+   "title": "Lunch and Crafts",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-09T12:00:00-05:00",
+   "end": "2026-11-09T13:30:00-05:00",
+   "all_day": false,
+   "description": "Join the House of Bobbitt for lunch and crafts\nMonday November 9, 2026\n12:00 p.m. - 1:30 p.m.\nWJWH 103\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929464",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929464",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "5b2a4750f4721cf0",
+   "title": "Leading through disruption: fireside chat with Luigi Gubitosi",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:30:00-05:00",
+   "end": "2026-11-09T13:45:00-05:00",
+   "all_day": false,
+   "description": "You’re invited to a Fireside Chat with Luigi Gubitosi, Partner at Advent International, former CEO of TIM (Telecom Italia, Italy’s largest telecommunications company) and former Director General of RAI (Italy’s national public broadcaster) - one of the few executives to have steered Italy’s most complex institutions through restructuring, from telecoms and public broadcasting to Alitalia, where he served as Extraordinary Commissioner.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152905",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152905",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b4f0c7538b60c1e4",
+   "title": "Lunch and Learn - Relay Investments",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:30:00-05:00",
+   "end": "2026-11-09T14:00:00-05:00",
+   "all_day": false,
+   "description": "The First 100 Days and Beyond, with Robin Mohapatra of Relay Investments\n\nOnce you own the business, the real work begins. In this session, Robin Mohapatra of Relay Investments shares the operator's side of ETA, drawing on his own seven years running a company he acquired through the search fund model. He will walk through the first 100 days as a new CEO, how to work productively with your board, and what the operator journey actually feels like from the inside, including the surprises, the hard calls, and the parts that only make sense once you are in the seat.\n\nRobin is an Operating Partner…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145185",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "22a918110415f1c1",
+   "title": "Pricing for Competitive Advantage in the Age of AI",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:30:00-05:00",
+   "end": "2026-11-09T14:00:00-05:00",
+   "all_day": false,
+   "description": "Pricing for Competitive Advantage in the Age of AI\nMonday, November 9 | 12:30–2:00 p.m. | Columbia Business School\n\nJoin the Deming Center for Operational Innovation and Excellence for a conversation that brings together faculty and industry leaders on one of the most important decisions any business makes: how to set prices.\n\nHear from leading experts Maxime Cohen, Professor at McGill University; Jeff Bladt, Senior Vice President of Pricing and Marketplace at Playlist, the parent company of ClassPass; and other industry practitioners, in a conversation moderated by Assaf Zeevi, Kravis…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=143531",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "d7b2cfd481ad94b4",
+   "title": "Wellness Investor Fireside Chat with Grace Verrier, Investor at Manna Tree Partners",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:30:00-05:00",
+   "end": "2026-11-09T14:00:00-05:00",
+   "all_day": false,
+   "description": "As a partnership between Health & Wellness Club and the Private Equity Club, join us for a fireside with Grace Verrier, a Senior Associate on the investments team at Manna Tree Partners, a growth equity and private equity firm focused on health and wellness consumer brands. Manna Tree backs category-leading companies like Vital Farms, Good Culture and Plant People, with a thesis centered on empowering consumers to live better, longer. Grace is also CBS alum, former member of the Health & Wellness Club who came from JPM Consumer & Retail banking before moving to Manna Tree Partners.\n\nLunch…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147371",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "727ce30d8e2fe583",
+   "title": "Women's Network: Technicals Prep",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:30:00-05:00",
+   "end": "2026-11-09T14:00:00-05:00",
+   "all_day": false,
+   "description": "IB technical question preparation session.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153626",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153626",
+   "location": "Kravis Hall, Kravis 890 - Zalaznick Classroom, Uris Hall, 3022 Broadway, New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "38262e2f558af374",
+   "title": "AI Native: The Mandate to Transform Your Company - A Book Talk with Kai-Fu Lee",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:45:00-05:00",
+   "end": "2026-11-09T13:45:00-05:00",
+   "all_day": false,
+   "description": "Featuring: Kai-Fu Lee CC' 83, Founder & CEO, 01.AI; Chairman, Sinovation Ventures\nModerator: Stephan Meier, James P. Gorman Professor of Business, Columbia Business School\n\nEvent Information\n\nThis is an in-person-only event open to Columbia University community members and invited guests. The event will not be live-streamed.\n\nAdmission is first come, first served and subject to space availability. Due to high demand and limited capacity in Cooperman Commons, an overflow room will be available once the main event space reaches capacity.\n\nLunch will be provided following the…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153833",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "4a1f039f76763b6d",
+   "title": "AI Native: The Mandate to Transform Your Company - A Book Talk with Kai-Fu Lee",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T12:45:00-05:00",
+   "end": "2026-11-09T13:45:00-05:00",
+   "all_day": false,
+   "description": "AI Native: The Mandate to Transform Your Company – A Book Talk with Kai-Fu Lee\nMonday, November 9, 2026 | 12:45 – 1:45 PM\nCooperman Commons, Geffen Hall, Columbia Business School\n\nFeaturing: Kai-Fu Lee CC' 83, Founder & CEO, 01.AI; Chairman, Sinovation Ventures\nModerator: Stephan Meier, James P. Gorman Professor of Business, Columbia Business School\n\nNotes: This in-person-only event will be held at Columbia Business School in Geffen Hall's Cooperman Commons and is limited to Columbia Business School community members and invited guests. Invitations are non-transferable. Registration links are…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145367",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "068f272efad84517",
@@ -2217,6 +3755,69 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "324b3a22134aad04",
+   "title": "Marcia Robbins Wilf Lecture Series",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-09T17:00:00-05:00",
+   "end": "2026-11-09T21:00:00-05:00",
+   "all_day": false,
+   "description": "Organization: STERN COLLEGE FOR WOMEN\nSubmitter Name: Brooks, Alison\nSubmitter Email: alison.brooks@yu.edu\nLocation: Off-Campus Location Name:: Center for Jewish History\nLocation: Off-Campus Location Address:: YU Museum\nEvent Locator: 2026-ABDMFD\n\nThe Mischlinge Exposé",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Off Campus",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "3cc0066481c0744e",
+   "title": "Beijing: School Update & Alumni Reception with Dean Costis Maglaras",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join fellow CBS Alumni in Beijing for a school update and networking reception with Dean Costis Maglaras!\n\nColumbia Business School Alumni in China are invited to attend a special alumni event in Beijing! At this event, you will have the opportunity to connect with local alumni and hear a school update from Dean Costis Maglaras.\n\nThis event is sponsored by Lihong Wang ’99 & Zhihong Li ’99.\n\nEvent Schedule\n\n6:00 - 6:30 pm: Check-in & pre-event mingling\n\n6:30 pm: Formal program begins\n\n7:15 pm: Program ends, Networking reception begins\n---\nEvent Details…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153240",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "be8b815859fc2c24",
+   "title": "Inside the AI-Powered VC: How Investors Are Actually Using AI",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T19:00:00-05:00",
+   "all_day": false,
+   "description": "AI is quickly becoming part of the venture capital toolkit, but what does that actually look like in practice?\n\nThis session will bring together VC investors for a practical look at how they’re incorporating AI into their day-to-day work. Each investor will give a short presentation highlighting a real use case from their workflow from sourcing and market research to diligence, portfolio support, and internal operations—including what they’re using, how they’re using it, and where AI still falls short.\n\nFollowing the presentations, we’ll bring the investors together for a conversation about…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153247",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "881ae8e90fd79957",
@@ -2320,8 +3921,92 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "01543f30fcc79295",
+   "title": "Torah with the Roshei Yeshiva",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-09T19:00:00-05:00",
+   "end": "2026-11-09T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Torah with the Roshei Yeshiva\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSG\n\nTorah with the Roshei Yeshiva",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "377801e45f34bc0f",
+   "title": "Implementing AI Mode on Google Search",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T20:00:00-05:00",
+   "end": "2026-11-09T21:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for a virtual evening with EMBA alumna Aysha Ansari ’26, who led the GTM strategy for AI Mode on Google Search. She'll provide an inside look at what it takes to deliver AI-powered product enhancements to market and at scale.\n\nThrough an engaging conversation and Q&A, Aysha will share practical lessons from her experience—exploring how AI capabilities move from idea to product, the challenges teams encounter along the way, and what leaders should consider when building and launching AI-driven experiences.\n\nCome ready to learn, ask questions, and gain real-world perspective on turning…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146373",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "464d795f77f93177",
+   "title": "Los Angeles: Alumni Mixer",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T21:00:00-05:00",
+   "end": "2026-11-09T23:00:00-05:00",
+   "all_day": false,
+   "description": "Join us at 71Above for an evening of connection between Columbia Business School and Columbia Law School alumni in Southern California! Reconnect with former classmates and make new connections over cocktails this November.\n\nDate: Monday, November 9,\nTime: 2026 6-8 pm PDT\nLocation: 71Above, 633 W 5th St 71st floor, Los Angeles, CA 90071\n\nYou may register here\n\nPlease reach out to Megan Duffy at md4299@columbia.edu with any inquiries.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153237",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153237",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "db022dd6aa880bdf",
+   "title": "Los Angeles: CBS x Columbia Law School Alumni Mixer",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-09T21:00:00-05:00",
+   "end": "2026-11-09T23:00:00-05:00",
+   "all_day": false,
+   "description": "Two Columbia schools, one powerful network.\n\nJoin us on Monday, November 9, at 71Above in Los Angeles for a special mixer held by Columbia Business and Law schools for alumni from both schools.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152647",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152647",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "348832719011f320",
@@ -2343,6 +4028,216 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "4654282eaa4e0ab0",
+   "title": "Minyan & Mocha",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-10T08:00:00-05:00",
+   "end": "2026-11-10T09:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Minyan & Mocha\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDSRQ\n\nJoin your classmates at Aderet El for Davening and then sharing words of torah over coffee",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Off Campus",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "165b375c3768581e",
+   "title": "Beyond Reported Earnings: Sustainable Performance versus Optionality",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T11:30:00-05:00",
+   "end": "2026-11-10T12:00:00-05:00",
+   "all_day": false,
+   "description": "Financial statements offer valuable insights into a company's performance, but how can investors and finance professionals look beyond reported earnings to better assess its value?\n\nUnderstanding a company's value requires evaluating both its ability to sustain financial performance and its potential to capitalize on future opportunities. Factors such as financial flexibility, recurring revenue, and operating leverage can influence these dimensions in different ways, creating important implications for risk and valuation.\n\nJoin Columbia Business School's Doron Nissim, Ernst & Young Professor…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153258",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "6ab05507f631197e",
+   "title": "Gift of Life Bone Marrow Drive",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:00:00-05:00",
+   "end": "2026-11-10T14:00:00-05:00",
+   "all_day": false,
+   "description": "Joining the Gift of Life registry is a simple way to potentially save a life. Thousands of patients battling blood cancers and other diseases rely on finding a matching donor for a stem cell or marrow transplant - and you could be that match! All it takes is a quick cheek swab to get on the registry and be ready to help someone in need.\n\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=151469",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=151469",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e5dee448ef833e9b",
+   "title": "\"Art & Science of Execution\" Roundtable Lunch Series: Erin Vigil '18 (Director of Operations, Burlington Stores, Inc.)",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:30:00-05:00",
+   "end": "2026-11-10T14:00:00-05:00",
+   "all_day": false,
+   "description": "The Deming Center at Columbia Business School invites you to attend a sit-down lunch in conversation with Erin Vigil '18 (Director of Operations, Burlington Stores, Inc.) as part of its “The Art and Science of Execution” Roundtable Series. The lunch will be open to the first 25 students who sign up. Once filled, students can join a waitlist to attend. Please reach out deming@gsb.columbia.edu with any questions.\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153337",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153337",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b02d4981bf587c44",
+   "title": "CMC Drop-In Advising",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:30:00-05:00",
+   "end": "2026-11-10T13:30:00-05:00",
+   "all_day": false,
+   "description": "These sessions are designed for students to ask any questions without making a prior appointment.\n\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145837",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145837",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "06434d8f1974c7b2",
+   "title": "Lunch and Learn - Ventura",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:30:00-05:00",
+   "end": "2026-11-10T14:00:00-05:00",
+   "all_day": false,
+   "description": "Henry has spent 4 plus years at Ventura CP, participating in a range of debt and equity transactions as well as deep operational advisory, and serves as an Investment Committee advisor at Promotora DAC. He holds an MBA from the Kellogg School of Management. Roberto brings 15 plus years of active investing experience. He was a successful searcher and board advisor of a property management business acquired through a traditional search fund, and is now CEO of a multi family office in Mexico. He was previously a hedge fund manager and equity research analyst, holds an MBA from IE Business…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145197",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "5203efec5555ca4f",
+   "title": "Building a Global Beverage Brand Across Cultures: The Rise of Japanese Green Tea Giant ITO EN",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:45:00-05:00",
+   "end": "2026-11-10T13:45:00-05:00",
+   "all_day": false,
+   "description": "Building a Global Beverage Brand Across Cultures: The Rise of Japanese Green Tea Giant ITO EN\nTuesday, November 10, 2026 | 12:45 – 1:45 PM (Lunch will be provided)\nRoom 420, Geffen Hall, Columbia Business School\n\nFeaturing: Yosuke J.O. Honjo, CEO & Founder, ITO EN US Group\n\nModerator: Ryoko Ogino, Managing Director; Co-Founder, Japanese Management Leadership Program, CJEB\n\nCo-sponsors: Coffee & Tea Club; Family Business Club; Gourmet Club; Marketing Association of Columbia; and Retail and Luxury Goods Club, Columbia Business School\n\nOutreach Partner: Global Family Enterprise Program, Columbia…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=142463",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "23ab9ba75281bb9a",
+   "title": "Equity by Design For Every Body (PPIL): Spotlight on how to be an inclusive leader for all with Adina Sterling",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:45:00-05:00",
+   "end": "2026-11-10T13:30:00-05:00",
+   "all_day": false,
+   "description": "This fireside chat with Professor Sterling explores the challenges and the opportunities of leading that way. DCIC wants to facilitate a conversation highlighting the complexities of inclusion around disability and chronic illness, specifically disclosure risk, invisible and fluctuating conditions, evaluation bias, and inclusion fatigue, and we want to provide concrete moves a peer or a leader can make.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152240",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152240",
+   "location": "Kravis Hall, Kravis 890 - Zalaznick Classroom, 655 W 130th St, Columbia Business School , New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "35f38584ba9900e6",
+   "title": "The Sweet Side of Scaling: A Chat with Magnolia Bakery’s CEO Nathan Louer",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T12:45:00-05:00",
+   "end": "2026-11-10T14:00:00-05:00",
+   "all_day": false,
+   "description": "You know the banana pudding. Now meet the person taking it global.\n\nNathan Louer was named CEO of Magnolia Bakery in February 2026, after serving as chief brand officer at Jamba and working at Jimmy John’s. He took the helm during a big year: the brand is celebrating its 30th anniversary, and it started as a small bakery on a cobblestone corner in the West Village in 1996.\n\nToday it’s much more than a corner shop. Magnolia runs 40 international bakeries and 10 U.S. locations, and is opening its first U.S. franchised stores in the back half of 2026, in cities like Salt Lake City, Las Vegas…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152518",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e6b385e7e3fe4515",
+   "title": "Welltower: The Apsley Site Tour",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T13:00:00-05:00",
+   "end": "2026-11-10T14:30:00-05:00",
+   "all_day": false,
+   "description": "Join the REA for a tour of Welltower's premier senior housing building developed in collaboration with Hines. This tour provides an inside look at the 19-story UWS development, focusing on its design, amenities, and senior living operations.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153662",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153662",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "dd31facafe780b9b",
@@ -2404,7 +4299,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2471,6 +4366,90 @@
    "city": "miami"
   },
   {
+   "id": "4ada3cbb6ea6b385",
+   "title": "Maybe Happy Ending - Broadway Show",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T20:40:00-05:00",
+   "all_day": false,
+   "description": "Join Arts Society to watch the 2025 Tony winner for Best Musical, and one of the most talked-about shows on Broadway right now.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=147750",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147750",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "127b1a9c013e5214",
+   "title": "Tuesday Night Live",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Tuesday Night Live\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSH\n\nTuesday Night Live",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "62afcb99c4a11a06",
+   "title": "All Things YU Information Session",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-10T20:00:00-05:00",
+   "end": "2026-11-10T21:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: All Things YU Information Session\nOrganization: ADMISSIONS\nSubmitter Name: Feigenbaum, Dena\nSubmitter Phone: 646-592-4440\nSubmitter Email: dena.feigenbaum@yu.edu\nEvent Locator: 2026-ABDNMZ\n\nJoin Sydney Beberman, Assistant Director of Undergraduate Admissions, for an informative overview of everything Yeshiva University has to offer. Sydney will discuss YU's academic programs, unique opportunities, vibrant campus environment, and student life, providing an inside look at the undergraduate experience.\nThis session is open to high school juniors and seniors who want to get a head…",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Online Event",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "fdecbd76ae17277a",
+   "title": "PLC Meet the Deans",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-10T20:00:00-05:00",
+   "end": "2026-11-10T21:00:00-05:00",
+   "all_day": false,
+   "description": "Organization: INSTITUTIONAL ADVANCEMENT\nSubmitter Name: Luft, Denise\nSubmitter Email: denise.luft@yu.edu\nEvent Locator: 2026-ABDWGN\n\nParents' Leadership Council - Meet the Deans Zoom Webinar",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Online Event",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "ff60364711de4ca7",
    "title": "LA BOLA NEGRA",
    "venue": "O Cinema South Beach",
@@ -2488,7 +4467,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2534,6 +4513,48 @@
    "city": "miami"
   },
   {
+   "id": "99f87de76b36a17a",
+   "title": "Midterms Breakfast",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-11T08:30:00-05:00",
+   "end": "2026-11-11T10:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-Nagel Lobby",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "9dc8a2053ac4aeed",
+   "title": "iLabs Local Trek",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-11T10:00:00-05:00",
+   "end": "2026-11-11T12:30:00-05:00",
+   "all_day": false,
+   "description": "We will have the opportunity to explore the R&D laboratories, see products running on the manufacturing lines, and gain a behind-the-scenes look at how beauty concepts move from ideation and formulation through development, scale-up, and commercial production. A discussion focused on beauty industry trends, product innovation, and the process of bringing new products to market will also be hosted. iLabs' COO will also be joining us for the tour!\n\nStudents may not miss class to attend this event and participation is limited to students who do not have class conflicts.\n\nIMPORTANT: please wear…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153623",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "ee69cbeda6c9f088",
    "title": "Moonlighter FabLab :",
    "venue": "City of Miami Beach Arts Calendar",
@@ -2553,6 +4574,132 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "801835b4eb516bdb",
+   "title": "GMA Professional Headshots",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-11T12:00:00-05:00",
+   "end": "2026-11-11T14:00:00-05:00",
+   "all_day": false,
+   "description": "Stay tuned for the sign-up in the WhatsApp group chat. Headshots will be 5 minutes per person, and the last 30 minutes will be left for walk-ins.\nDress Code: Business Formal\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154010",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=154010",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "4effa0300d7d825f",
+   "title": "Fireside Chat with with Raffaello D’Andrea",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-11T12:30:00-05:00",
+   "end": "2026-11-11T13:45:00-05:00",
+   "all_day": false,
+   "description": "Fireside Chat with with Raffaello D’Andrea: From Drones to Autonomous Systems: How AI is Transforming Supply Chain Automation\nWednesday, November 11, 2026 | 12:45 – 1:45 PM\n620 Geffen Hall, Columbia Business School\n\nFeaturing: Raffaello D’Andrea, CEO & Founder, Verity\n\nNote: This event is limited to Columbia Business School community members and Columbia affiliates.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145192",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145192",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "fcf7718c671fb1a3",
+   "title": "Mandatory: OIE & SGARB Training Make-Up Session",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-11T12:30:00-05:00",
+   "end": "2026-11-11T13:30:00-05:00",
+   "all_day": false,
+   "description": "Our records show that your organization and journal did not attend the required Office of Institutional Equity (OIE) and Student Group Accountability Review Board (SGARB) training. As a result, you are required to attend the make-up session below.\n\nAttendance will be checked.\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929385",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929385",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "f3781b7ba4a46810",
+   "title": "OJC Judicial Speaker Series: Judge Jeannette Vargas (SDNY)",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-11T12:30:00-05:00",
+   "end": "2026-11-11T13:30:00-05:00",
+   "all_day": false,
+   "description": "Join the Office of Judicial Careers in welcoming the Honorable Jeannette A. Vargas (U.S. District Court, Southern District of New York) for a discussion on her path to the bench and advice for aspiring clerks.\n\nPlease reach out to judicialcareers@law.columbia.edu with any questions or issues regarding this event.\n\nFor more information about our programs, events, and services, visit us at law.columbia.edu/careers/judicial-careers.\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929367",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929367",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "17e8778af02002fb",
+   "title": "Product Management Panel with Amazon, Audible & Casper (acq. by Ode from Anthropic)",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-11T12:30:00-05:00",
+   "end": "2026-11-11T14:00:00-05:00",
+   "all_day": false,
+   "description": "Join the Tech Club for a panel with PMs from Ode (by Anthropic), Amazon and Audible. We'll be discussing a typical Day in the Life, how the roles of PMs are changing with AI & the new opportunities for MBAs in product management.\n\nWe'll be hosting Elizabeth Peng from Casper, Riya Patel from Audible and Lucienne Drinot from Amazon to share perspectives on Product from three very different companies.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153738",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153738",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "59dedbb296d60c6c",
+   "title": "Club Hour Shiur",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-11T14:45:00-05:00",
+   "end": "2026-11-11T15:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Club Hour Shiur\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSF\n\nClub Hour Shiur",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Koch Auditorium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "bace8a8bdcac2ceb",
@@ -2576,6 +4723,111 @@
    "city": "miami"
   },
   {
+   "id": "062226ecd6278501",
+   "title": "New York: WHAT'S YOUR STORY? How to Become More Memorable and Referable for What’s Next",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-11T18:00:00-05:00",
+   "end": "2026-11-11T19:00:00-05:00",
+   "all_day": false,
+   "description": "Your experience may open the door. Your story determines what people remember.\n\nAs careers progress, opportunities increasingly come through conversations, introductions and referrals. The question is: when your name comes up, what do people say about you?\n\nIn this interactive 60-minute session, Brand Anthropologist Anouk Pappers will challenge participants to look at how they present themselves and how others experience their professional reputation.\n\nMs. Pappers is a brand anthropologist who brings more than 20 years of experience in corporate reputation and storytelling and has interviewed…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145396",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "9bebf1a3ac5d3125",
+   "title": "South Florida: Columbia x Wharton x Rosa Negra",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-11T18:00:00-05:00",
+   "end": "2026-11-11T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with fellow Columbia and Wharton grads in Miami!\nWho: CBS & Wharton Alumni based in South Florida\nWhat: Alumni Mixer\nWhen: Nov 11th 2026, 6-8pm\nWhere: Rosa Negra (1346 S Miami Ave, Miami, FL 33130)\nHow: Ticketed registration required - space is limited.\nCash bar; welcome drink served.\nValet parking available on-premises. All ticket sales final.\n\nYou may register here.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153260",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153260",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "ef588121c000d078",
+   "title": "Speaker Event for the Pava Center",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-11T18:00:00-05:00",
+   "end": "2026-11-11T19:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Speaker Event for the Pava Center with Professor Smadar Rosensweig\nOrganization: The Pava Center\nSubmitter Name: Weissman, Avital N.\nSubmitter Email: avital.weissman@yu.edu\nEvent Locator: 2026-ABDTPP\n\nThe Pava Center will host the next Speaker Event in its Pava Center series for Pava Students. This event will be a book talk with Professor Smadar Rosensweig.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-615 GPATS Classroom",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "1d889fcd0e043492",
+   "title": "Columbia Law School Admissions Visit",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-11T18:30:00-05:00",
+   "end": "2026-11-11T19:30:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Columbia Law School Admissions Visit\nOrganization: Shevet Glaubach Center\nSubmitter Name: Kandis, Sara\nSubmitter Email: sara.kandis@yu.edu\nEvent Locator: 2026-ABDXQM\n\nMeet with and learn from a CLS Admissions representative",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-215 Lexington-501 Gottesman Board of Trustees Room",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "4baff8e6176f9778",
+   "title": "In Dialogue With: Sally Poolat MBA '14",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-11T18:30:00-05:00",
+   "end": "2026-11-11T21:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: In Dialogue With: Sally Poolat '14SB (MBA)\nOrganization: SY SYMS SCHOOL OF BUSINESS, HONORS PROGRAMS, The Lieberman Center\nSubmitter Name: Tannenbaum, Joseph\nSubmitter Email: sj.tannenbaum@yu.edu\nSponsor: Co-Sponsoring Organizations:: Syms Honors, Syms Graduate Programs, Lieberman-Mitzner Center\nEvent Locator: 2026-ABDTQC\n\nHear from Sally Poolat, a Sy Syms MBA alumna ('14) and former FedEx executive who currently serves as the Regional Director of U.S. Development at Leket Israel.\nWhat will be discussed?\nSally will discuss her career journey, the experience of making aliyah, the…",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-215 Lexington-Yagoda Commons",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "fedd797ba9eea34f",
    "title": "LA BOLA NEGRA",
    "venue": "O Cinema South Beach",
@@ -2593,7 +4845,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2616,6 +4868,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
+  },
+  {
+   "id": "e5a9c03d4823b88b",
+   "title": "Wednesday Night Torah Programming",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-11T19:00:00-05:00",
+   "end": "2026-11-11T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Wednesday Night Torah Programming\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSJ\n\nWednesday Night Torah Programming",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "b51f5b4f7076d5f5",
@@ -2660,6 +4933,27 @@
    "city": "miami"
   },
   {
+   "id": "dbb40628604c1236",
+   "title": "PE Program Breakfast Series Fall 2026 Session 7, Guest Alexandra Linden `08",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T07:30:00-05:00",
+   "end": "2026-11-12T09:00:00-05:00",
+   "all_day": false,
+   "description": "Weekly breakfast series\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=144663",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=144663",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "7e985b11da7d42c5",
    "title": "CTO & CPO Breakfast",
    "venue": "Refresh Miami",
@@ -2679,6 +4973,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
    "city": "miami"
+  },
+  {
+   "id": "0064f6a236b60b8c",
+   "title": "Midterms Breakfast",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-12T08:30:00-05:00",
+   "end": "2026-11-12T10:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-Nagel Lobby",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "bcb74d38552e3f3c",
@@ -2725,6 +5040,111 @@
    "city": "miami"
   },
   {
+   "id": "2291f7d106997cad",
+   "title": "\"Art & Science of Execution\" Roundtable Lunch Series: Richard Jaffe '92 (Operating Partner, Overton Venture Capital)",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T14:00:00-05:00",
+   "all_day": false,
+   "description": "The Deming Center at Columbia Business School invites you to attend a sit-down lunch in conversation with Richard Jaffe '92 (Operating Partner, Overton Venture Capital) as part of its “The Art and Science of Execution” Roundtable Series. The lunch will be open to the first 25 students who sign up. Once filled, students can join a waitlist to attend. Please reach out deming@gsb.columbia.edu with any questions.\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=151394",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=151394",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "9abc7c355858e6cf",
+   "title": "CMC Drop-In Advising",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T13:30:00-05:00",
+   "all_day": false,
+   "description": "These sessions are designed for students to ask any questions without making a prior appointment.\n\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145838",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145838",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "cc47b365eaf6b385",
+   "title": "Econ Lunch Seminar",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T14:00:00-05:00",
+   "all_day": false,
+   "description": "The Economics Division has a weekly seminar each Thursday with a new speaker each week.\nThe Economics Division only provides lunch for B-School faculty and BusEc PhD students only.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=142566",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=142566",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "092c7ea3a223ebc8",
+   "title": "Fireside Chat with Maggie Wu: Inside Manhattan Luxury Real Estate",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T14:00:00-05:00",
+   "all_day": false,
+   "description": "Maggie Wu has closed more than $800 million in Manhattan real estate and ranks in the top 0.1% of agents nationally. You might know her from Season 1 of Netflix’s Owning Manhattan. She now leads The W Team at Compass, ranked #7 among small teams in the city. Join us for a fireside chat on how she broke into one of the toughest markets in the country, built her own team, and earned the trust of clients buying and selling some of New York’s most expensive homes.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152633",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=152633",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "aa74c04b4478a101",
+   "title": "Lunch and Learn - Panel on Committed Capital Vehicles",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T14:00:00-05:00",
+   "all_day": false,
+   "description": "Panel with international investors about committed capital vehicles\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145198",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145198",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "0739c5f72af849b6",
    "title": "Bass Babies | November 12",
    "venue": "The Bass",
@@ -2767,6 +5187,48 @@
    "city": "miami"
   },
   {
+   "id": "78549391e5629890",
+   "title": "Fireside chat with Dominique Senequier, CEO and Founder of Ardian",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T17:30:00-05:00",
+   "end": "2026-11-12T19:15:00-05:00",
+   "all_day": false,
+   "description": "Co sponsored with French Connection Club and PE Club\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=144671",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=144671",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b4eb9fe4cdaaf999",
+   "title": "Economic Statecraft: Financial Power, Sanctions, and Geoeconomics",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T17:45:00-05:00",
+   "end": "2026-11-12T19:45:00-05:00",
+   "all_day": false,
+   "description": "The DACH Society, in collaboration with the Columbia Business, Law, and Geopolitics Society (CBLGS), is organizing a panel discussion exploring the growing importance of economic statecraft in international relations, particularly for Germany, Europe, and the broader global economic order.\n\nThe discussion will examine how governments are increasingly using sanctions, financial tools, export controls, tariffs, and industrial policy to pursue strategic objectives, and what these developments mean for markets, businesses, and international economic relations.\n\nThe panel will feature Professor…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=154017",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "4a0d5d0d5634d920",
    "title": "European Startups in Miami: Panel Night",
    "venue": "Refresh Miami",
@@ -2805,8 +5267,50 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "edbd372d0db0d3f6",
+   "title": "Quant Lens Speaker Series - Ashwin Thapar, DE Shaw - Reception",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T21:00:00-05:00",
+   "all_day": false,
+   "description": "Reception after Ashwin Thapar's Talk\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146620",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146620",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b2cc6ec569eaa0a6",
+   "title": "Quant Lens Speaker Series - Ashwin Thapar, Head of Multi-Asset Class Investing, D. E. Shaw Investment Management",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": "2026-11-12T19:00:00-05:00",
+   "all_day": false,
+   "description": "Ashwin Thapar from DE Shaw will speak to the students and alumni\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146619",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146619",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "a7281eb98df71a46",
@@ -2868,7 +5372,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2889,8 +5393,50 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "65a25b7f00dccad2",
+   "title": "Thursday Night Torah Programming",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": "2026-11-12T22:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Thursday Night Torah Programming\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSK\n\nThursday Night Torah Programming",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "41b7a961aac47ec9",
+   "title": "Chicago: Veterans Week Celebration",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-12T20:00:00-05:00",
+   "end": "2026-11-12T23:00:00-05:00",
+   "all_day": false,
+   "description": "Join the CBS Alumni Club of Chicago for Veterans Week as we celebrate and honor a fellow Columbia Business School alumni who has served our country!\n\nWe’ll gather at one of Chicago’s welcoming American Legion posts, a cozy, community-oriented space staffed by veterans, including several women. All CBS alumni and their guests are invited to stop by for a casual evening of camaraderie, connection, and appreciation as we thank one of our own for their service.\n\nCash bar available.\n\nRSVP confirms only to Chicago Club Leader: Zoran Lazarevic '00\n\nRSVP list closes at 24:00 before event\n\nWe look…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153651",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "c00c01f1520acb7d",
@@ -2910,8 +5456,29 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "5dd0a65bdb4dac78",
+   "title": "Men's Undergraduate Torah Studies",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-12T20:00:00-05:00",
+   "end": "2026-11-12T21:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Men's Undergraduate Torah Studies Information Session\nOrganization: ADMISSIONS\nSubmitter Name: Feigenbaum, Dena\nSubmitter Phone: 646-592-4440\nSubmitter Email: dena.feigenbaum@yu.edu\nEvent Locator: 2026-ABDXVG\n\nJoin Rabbi Yosef Kalinsky for an inside look at Undergraduate Torah Studies on YU’s Wilf Campus. Rabbi Kalinsky will discuss the Torah learning opportunities available to students, the role of the beit midrash in campus life, and how students can balance serious Torah study with a rigorous university education.\nThe session will conclude with a live Q&A.\nRegistration link…",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Online Event",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "9e36a7ffc4fb285a",
@@ -2931,8 +5498,50 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "382bb6be1e3ec90f",
+   "title": "The Future of National Security Summit: Capital & Tech",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-13T08:00:00-05:00",
+   "end": "2026-11-13T17:00:00-05:00",
+   "all_day": false,
+   "description": "The Future of National Security Summit brings together the institutions that provide long-term, foundational capital, the companies building at scale across industries critical to American security, and the government leaders who shape the mission. The program follows the arsenal from start to finish: funding it, building it through U.S. and allied strategic manufacturing, and operating it by fielding and integrating new capabilities. An afternoon series, Securing the Stack, offers concurrent sessions on aerospace, energy, autonomy, and space, and a closing keynote looks at the road ahead for…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=147171",
+   "location": "David Geffen Hall at Columbia Business School, 645 West 130th Street, New York, NY 10027, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "c395d445f3da861a",
+   "title": "CBS FC Training",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-13T10:00:00-05:00",
+   "end": "2026-11-13T12:00:00-05:00",
+   "all_day": false,
+   "description": "Fall Training\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=144239",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=144239",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "e468b6a54f230d52",
@@ -2952,7 +5561,7 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -2973,8 +5582,50 @@
    },
    "source": "mb-botanical",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
+  },
+  {
+   "id": "77b685a979812485",
+   "title": "AI and Organizational Economics Seminar Series",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-13T12:30:00-05:00",
+   "end": "2026-11-13T14:00:00-05:00",
+   "all_day": false,
+   "description": "Columbia Business School's AI in Business Initiative convenes leading scholars for a monthly workshop series presenting the latest research on how AI affects organizational economics and labor markets. This is a cross-divisional seminar with the Economics Division sponsored by the AI in Business Initiative at CBS, open to all CBS faculty and PhD students. Sessions run on roughly four Fridays each semester, from 12:30 to 1:45pm, with slots to meet one-on-one with the speaker before and after each talk.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146166",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146166",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "90b4ff475021ae18",
+   "title": "New York Distilling Co: Visit & Conversation with Tom Potter '83, CEO & Brooklyn Brewery Co-Founder",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-13T17:00:00-05:00",
+   "end": "2026-11-13T19:00:00-05:00",
+   "all_day": false,
+   "description": "Join the CBS Cocktails & Spirits Club for an evening at New York Distilling Company in Bushwick with co-founder Tom Potter ‘83.\n\nTom started out as a banker before co-founding Brooklyn Brewery in 1987 and turning it into one of the country’s best-known craft beer brands. In 2011 he did it again with New York Distilling Company, bringing back the city’s pre-Prohibition distilling tradition with whiskey and gin made from New York–grown grain.\n\nImmerse yourself in the distilling process on the production floor from grain to glass, hear Tom’s story from CBS to booze, then join an open discussion…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=153604",
+   "location": "New York Distilling Company, 573 Johnson Ave, Brooklyn 11237, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T05:47:58+00:00",
+   "city": "nyc"
   },
   {
    "id": "c0d763657b13f96c",
@@ -3078,7 +5729,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3204,7 +5855,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3225,7 +5876,7 @@
    },
    "source": "oolite",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3246,7 +5897,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3330,7 +5981,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3435,7 +6086,7 @@
    },
    "source": "o-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3456,7 +6107,7 @@
    },
    "source": "miami-new-drama",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   },
   {
@@ -3477,7 +6128,7 @@
    },
    "source": "nws",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T05:38:22+00:00",
+   "fetched_at": "2026-11-01T05:47:58+00:00",
    "city": "miami"
   }
  ]
