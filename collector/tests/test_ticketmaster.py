@@ -33,6 +33,8 @@ PAGE = [{
 
 def test_parse_events_kinds_venues_prices():
     cfg = config()
+    src = next(s for s in cfg.sources if s.key == "ticketmaster-miami")
+    src.params = {k: v for k, v in src.params.items() if k != "venues"}  # parsing only, no venue list
     events = run_adapter(ticketmaster, PAGE, cfg, "ticketmaster-miami")
     by = {e["title"]: e for e in events}
     assert set(by) == {"Common with Nu Deco Ensemble", "Inter Miami CF vs. Orlando City"}  # cancelled, parking, repeat dropped
@@ -86,6 +88,8 @@ def test_real_sample_page():
     payload = json.loads((FIXTURES / "ticketmaster_miami_sample.json").read_text(encoding="utf-8"))
     assert "apikey" not in json.dumps(payload).lower()
     cfg = config()
+    src = next(s for s in cfg.sources if s.key == "ticketmaster-miami")
+    src.params = {k: v for k, v in src.params.items() if k != "venues"}
     events = run_adapter(ticketmaster, payload, cfg, "ticketmaster-miami")
     assert events and all(e["venue"] and e["venue"] != "Ticketmaster (Miami area)" for e in events)
     assert not any("parking" in e["title"].lower() for e in events)
@@ -108,3 +112,10 @@ def test_timed_entry_slots_collapse_to_one_per_day():
     assert len(balloon) == 1 and balloon[0].description.startswith("Timed entry: 16 entry times")
     assert balloon[0].all_day and not isinstance(balloon[0].start, datetime)  # goes in the all-day strip
     assert len([e for e in out if e.title == "Hamilton"]) == 2  # real performances stay separate
+
+
+def test_only_events_at_listed_venues():
+    cfg = config()
+    events = run_adapter(ticketmaster, PAGE, cfg, "ticketmaster-miami")
+    # Common is at the Arsht (listed); Inter Miami at Chase Stadium is not.
+    assert [e["title"] for e in events] == ["Common with Nu Deco Ensemble"]
