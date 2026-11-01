@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T04:53:16+00:00",
+ "generated_at": "2026-11-01T04:55:20+00:00",
  "window": {
   "start": "2026-11-01",
   "days": 14
@@ -53,6 +53,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e9fdd5c745c17b31",
+   "title": "An Evening with Laura Childs Gill in conversation with Caroline Cabrera",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-01T17:00:00-05:00",
+   "end": "2026-11-01T18:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author Laura Childs Gill for the release of her new book, WHAT A HOUSE CAN HOLD.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-laura-childs-gill-in-conversation-with-caroline-cabrera-tickets-1993024493912",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
@@ -200,6 +221,27 @@
    "source": "refresh-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "47aac83771daa35e",
+   "title": "An Evening with Deesha Philyaw in conversation with Chantel Acevedo",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-02T18:30:00-05:00",
+   "end": "2026-11-02T19:30:00-05:00",
+   "all_day": false,
+   "description": "Join us with award-winning author Deesha Philyaw for the release of her new fiction anthology, NEW STORIES FROM THE SOUTH 2026",
+   "url": "https://www.eventbrite.com/e/an-evening-with-deesha-philyaw-in-conversation-with-chantel-acevedo-tickets-2002085462513",
+   "location": "Books & Books in Coconut Grove, 3409 Main Hwy, Coconut Grove, FL 33133",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
@@ -434,6 +476,48 @@
    "city": "miami"
   },
   {
+   "id": "6796a08cb04502eb",
+   "title": "Ocean Memories: 2026 Artist in Residence Event",
+   "venue": "UM Rosenstiel (Johnson Center)",
+   "kind": "science",
+   "start": "2026-11-04T18:30:00-05:00",
+   "end": "2026-11-04T20:30:00-05:00",
+   "all_day": false,
+   "description": "Explore Juana Meneses’s ocean-inspired art and join her artist talk, hosted by the Robert K. Johnson Center for Marine Conservation.",
+   "url": "https://www.eventbrite.com/e/ocean-memories-2026-artist-in-residence-event-tickets-2003347443131",
+   "location": "Rosenstiel School of Marine, Atmospheric, and Earth Science, Rickenbacker Causeway, Key Biscayne, FL 33149",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "um-rosenstiel",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "bc9ff7d510654c65",
+   "title": "An Evening with Schneider K. Rancy in conversation with Andrew Boryga",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-04T19:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author Schneider K. Rancy for the release of his new novel, BEYOND THE BATHS OF STARS.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-schneider-k-rancy-in-conversation-with-andrew-boryga-tickets-1994711610122",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
    "id": "549e378637ac3701",
    "title": "SoundScape Cinema Series: Project Hail Mary",
    "venue": "City of Miami Beach Arts Calendar",
@@ -623,6 +707,69 @@
    "city": "miami"
   },
   {
+   "id": "793e27d8a055a743",
+   "title": "University of Miami’s MFA First-Year Reading in Coconut Grove!",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-05T18:30:00-05:00",
+   "end": "2026-11-05T19:30:00-05:00",
+   "all_day": false,
+   "description": "Join us in Coconut Grove as we partner with UM's Creative Writing MFA Poetry & Fiction students to present their First-Year Reading!",
+   "url": "https://www.eventbrite.com/e/university-of-miamis-mfa-first-year-reading-in-coconut-grove-tickets-2003081471603",
+   "location": "Books & Books in Coconut Grove, 3409 Main Hwy, Coconut Grove, FL 33133",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "0b948230aa864391",
+   "title": "The Radiance | An Evening with Ayad Akhtar",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-05T19:00:00-05:00",
+   "end": "2026-11-05T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author and playwright Ayad Akhtar for the release of his new novel, THE RADIANCE.",
+   "url": "https://www.eventbrite.com/e/the-radiance-an-evening-with-ayad-akhtar-tickets-1986007884043",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "401f7aa48659187e",
+   "title": "Caracola Path to the Inner Self Retreat Sebastian, Florida",
+   "venue": "Healthyme.Love",
+   "kind": "wellness",
+   "start": "2026-11-06T15:00:00-05:00",
+   "end": "2026-11-08T12:00:00-05:00",
+   "all_day": false,
+   "description": "Chozen Eco Retreat & Sanctuary\nNovember 6th-8th",
+   "url": "https://www.eventbrite.com/e/caracola-path-to-the-inner-self-retreat-sebastian-florida-tickets-2002939971372",
+   "location": "ChoZen, 11115 Roseland Road, Sebastian, FL 32958",
+   "price": {
+    "free": false,
+    "min": 675.61,
+    "text": "675.61 USD – 2114.25 USD"
+   },
+   "source": "healthyme-love",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
    "id": "d5dae2bce78400db",
    "title": "Miami Immersion Program Demo Day - with Softex",
    "venue": "Refresh Miami",
@@ -686,6 +833,48 @@
    "city": "miami"
   },
   {
+   "id": "fafc4f19a40e3025",
+   "title": "A Meet & Greet with Matt McKenna",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-06T18:30:00-05:00",
+   "end": "2026-11-06T19:30:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening Meet & Greet with the founder of Imperial Moto coffee, Matt McKenna, for the release of his new book, IMPERIAL MOTO.",
+   "url": "https://www.eventbrite.com/e/a-meet-greet-with-matt-mckenna-tickets-2003157408733",
+   "location": "Books & Books in Coconut Grove, 3409 Main Hwy, Coconut Grove, FL 33133",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "1285135aacc11b6f",
+   "title": "An Evening with Meryl Shriver-Rice",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-06T19:00:00-05:00",
+   "end": "2026-11-06T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author Meryl Shriver-Rice for the release of her new book, DECOLONIAL APPROACHES TO DATA ETHICS AND RE-STORYING.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-meryl-shriver-rice-tickets-1987699682257",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
    "id": "246f74f2ced0d422",
    "title": "Beyond the Pages: The Vortex",
    "venue": "City of Miami Beach Arts Calendar",
@@ -725,6 +914,27 @@
    "source": "luma-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9c86d9087c296d2e",
+   "title": "Gallery Night | What Rests Between",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-06T19:00:00-05:00",
+   "end": "2026-11-06T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us as we welcome artist and filmmaker Dennis Scholl for the opening night of a new month-long gallery exhibition, What Rests Between.",
+   "url": "https://www.eventbrite.com/e/gallery-night-what-rests-between-tickets-2003718099775",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
@@ -809,6 +1019,27 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ea28038a7d13edd3",
+   "title": "An Evening with Jan Carson & Lucy Caldwell",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-07T17:00:00-05:00",
+   "end": "2026-11-07T18:00:00-05:00",
+   "all_day": false,
+   "description": "Partnered with the Consulate General of Ireland, join us and authors Jan Carson & Lucy Caldwell for the release of their new novels.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-jan-carson-lucy-caldwell-tickets-1987003445795",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
@@ -1085,6 +1316,90 @@
    "city": "miami"
   },
   {
+   "id": "881ae8e90fd79957",
+   "title": "New Moon Beach Mat Pilates, Yoga & Meditation | 840 Miami",
+   "venue": "840 Miami",
+   "kind": "wellness",
+   "start": "2026-11-09T18:00:00-05:00",
+   "end": "2026-11-09T19:30:00-05:00",
+   "all_day": false,
+   "description": "For over 8 consecutive years, this gathering has held space for your spiritual awakening. New Moon Yoga & Meditation",
+   "url": "https://www.eventbrite.com/e/new-moon-beach-mat-pilates-yoga-meditation-840-miami-tickets-2003857577958",
+   "location": "Jetty Lifeguard Tower, Jetty Lifeguard Tower, Miami Beach, FL 33139",
+   "price": {
+    "free": false,
+    "min": 0.0,
+    "text": "0.00 USD"
+   },
+   "source": "840-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "17356390ea7e4502",
+   "title": "An Evening with Camila Kerwin in conversation with Nadege Green",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-09T18:30:00-05:00",
+   "end": "2026-11-09T19:30:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with journalist and comics contributor Camila Kerwin for the release of her debut book, SOFT TARGETS.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-camila-kerwin-in-conversation-with-nadege-green-tickets-1998962254915",
+   "location": "Books & Books in Coconut Grove, 3409 Main Hwy, Coconut Grove, FL 33133",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "641c63173df58e89",
+   "title": "Caribbean Archipelagoes | An Evening with Yolanda Martínez-San Miguel",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-09T18:30:00-05:00",
+   "end": "2026-11-09T19:30:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author Yolanda Martínez-San Miguel as we discuss her recently released book, CARIBBEAN ARCHIPELAGOES.",
+   "url": "https://www.eventbrite.com/e/caribbean-archipelagoes-an-evening-with-yolanda-martinez-san-miguel-tickets-1999792730891",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9ea899b03dcc00b0",
+   "title": "Miami Writers Workshop: Critique Circle with R. M. Romero",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-09T18:30:00-05:00",
+   "end": "2026-11-09T21:30:00-05:00",
+   "all_day": false,
+   "description": "Join us at Books & Books in Coral Gables with international best selling author R. M Romero for an evening of writing craft & community!",
+   "url": "https://www.eventbrite.com/e/miami-writers-workshop-critique-circle-with-r-m-romero-tickets-1992841414316",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": false,
+    "min": 17.91,
+    "text": "17.91 USD"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
    "id": "348832719011f320",
    "title": "Fort Lauderdale Tech Meetup",
    "venue": "Refresh Miami",
@@ -1148,6 +1463,27 @@
    "city": "miami"
   },
   {
+   "id": "0d0091049744e29a",
+   "title": "Fiction Book Club in Coconut Grove!",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-10T18:30:00-05:00",
+   "end": "2026-11-10T20:00:00-05:00",
+   "all_day": false,
+   "description": "Our very own Katherine Wakefield leads a discussion of Ben Lerner's novel, TRANSCRIPTION.",
+   "url": "https://www.eventbrite.com/e/fiction-book-club-in-coconut-grove-tickets-2002746454558",
+   "location": "Books & Books in Coconut Grove, 3409 Main Hwy, Coconut Grove, FL 33133",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
    "id": "851fa1621eadf976",
    "title": "hack night v0.189 - Wynwood",
    "venue": "Hello Miami",
@@ -1166,6 +1502,27 @@
    "source": "hello-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8e28546b4e1c5b32",
+   "title": "An Evening with Joan Kron in conversation with Suzanne Slesin",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author and editor Joan Kron for the release of her new memoir, THE RENEGADE HOUSEWIVES OF POP ART.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-joan-kron-in-conversation-with-suzanne-slesin-tickets-2000638580851",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
@@ -1250,6 +1607,27 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "12eea706c2922a5d",
+   "title": "La Fuga del Ilusionista | Una Velada con Jorge Albertini",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-11T19:00:00-05:00",
+   "end": "2026-11-11T20:00:00-05:00",
+   "all_day": false,
+   "description": "Acompáñenos a una velada con el autor Jorge Albertini hablando de su nuevo libro, LA FUGA DEL ILLUSIONISTA.",
+   "url": "https://www.eventbrite.com/e/la-fuga-del-ilusionista-una-velada-con-jorge-albertini-tickets-2001891823333",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
@@ -1444,6 +1822,27 @@
    "city": "miami"
   },
   {
+   "id": "1d91ba8e8d33893c",
+   "title": "An Evening with Adrianne Calvo in conversation with Roxanne Vargas",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-12T19:00:00-05:00",
+   "end": "2026-11-12T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with chef and restaurateur Adrianne Calvo for the release of her new cookbook, MAXIMUM FLAVOR AT HOME.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-adrianne-calvo-in-conversation-with-roxanne-vargas-tickets-1998561002759",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": false,
+    "min": 37.01,
+    "text": "37.01 USD"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
+   "city": "miami"
+  },
+  {
    "id": "c0d763657b13f96c",
    "title": "Museum and a Movie | Salvatore: Shoemaker of Dreams",
    "venue": "City of Miami Beach Arts Calendar",
@@ -1483,6 +1882,27 @@
    "source": "bandshell",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T04:53:16+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8056b83933e56a87",
+   "title": "Restoration|An Evening with Carol Davis in conversation with Rosa Lowinger",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-13T19:00:00-05:00",
+   "end": "2026-11-13T20:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author Carol Davis to discuss her recently released novel, RESTORATION, accompanied by author Rosa Lowinger.",
+   "url": "https://www.eventbrite.com/e/restorationan-evening-with-carol-davis-in-conversation-with-rosa-lowinger-tickets-1996660105123",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-01T04:55:20+00:00",
    "city": "miami"
   },
   {
