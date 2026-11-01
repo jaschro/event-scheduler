@@ -396,7 +396,19 @@ sources:
 
   # ---------- NYC Later: page readers (some have a JSON API noted) ----------
   - {key: nyc-columbia-gsapp, name: "Columbia GSAPP", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.arch.columbia.edu/events"}
-  - {key: nyc-cooper-union-arch, name: "Cooper Union School of Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://cooper.edu/architecture/events-and-exhibitions"}
+  - key: nyc-cooper-union-arch
+    name: "Cooper Union School of Architecture"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://cooper.edu/architecture/events-and-exhibitions"
+    location: "The Cooper Union, 7 E 7th St, New York"
+    params:
+      when: "li time"
+      item: "li"
+      title: "h3"
+      link: "h3 a"
   - {key: nyc-nyu-furman, name: "NYU Furman Center", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.furmancenter.org/events/"}   # JSON: https://www.furmancenter.org/wp-json/wp/v2/event
   - key: nyc-pratt-arch
     name: "Pratt Institute School of Architecture"
@@ -409,7 +421,18 @@ sources:
       start: meta._eventorganiser_schedule_start_start.0
       end: meta._eventorganiser_schedule_start_finish.0
       query: {school: 33}
-  - {key: nyc-nyu-stern, name: "NYU Stern School of Business", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.stern.nyu.edu/experience-stern/events"}
+  - key: nyc-nyu-stern
+    name: "NYU Stern School of Business"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://www.stern.nyu.edu/experience-stern/events"
+    params:
+      when: "time"
+      item_up: 4
+      title: "h3"
+      link: "h3 a"
   - {key: nyc-ai-now, name: "AI Now Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://ainowinstitute.org/news/events"}   # dead or stale, see csv
   - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: tech, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
   - {key: nyc-cornell-tech, name: "Cornell Tech", city: nyc, kind: tech, method: custom, enabled: false, page: "https://tech.cornell.edu/events/"}
@@ -417,14 +440,61 @@ sources:
   - {key: nyc-jts, name: "Jewish Theological Seminary (JTS)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.jtsa.edu/events"}   # JSON: https://www.jtsa.edu/wp-json/wp/v2/post_event
   - {key: nyc-arch-league, name: "Architectural League of New York", city: nyc, kind: talks, method: custom, enabled: false, page: "https://archleague.org/events"}
   - {key: nyc-bwaf, name: "Beverly Willis Architecture Foundation", city: nyc, kind: talks, method: custom, enabled: false, page: "https://bwaf.org/"}   # dead or stale, see csv
-  - {key: nyc-aiany, name: "Center for Architecture (AIANY)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://calendar.aiany.org/"}   # JSON: https://calendar.aiany.org/wp-json/wp/v2/posts
+  - key: nyc-aiany
+    name: "Center for Architecture (AIANY)"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://calendar.aiany.org/"
+    location: "Center for Architecture, 536 LaGuardia Pl, New York"
+    params:
+      item: "div.day-block"
+      when: "h3.EventNameS"
+      events: "h2.EventNameL"
+      time: "div.time"
   - {key: nyc-ipa, name: "Institute for Public Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://instituteforpublicarchitecture.org/Whats-On"}
   - {key: nyc-icaa-ny, name: "Institute of Classical Architecture & Art, NY Chapter", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.classicist.org/ny/"}
-  - {key: nyc-mas, name: "Municipal Art Society of New York", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.mas.org/events/"}
+  - key: nyc-mas
+    name: "Municipal Art Society of New York"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://www.mas.org/events/"
+    params:
+      when: "div.event_date"
+      item: "div.event-item"
+      title: ".item-title"
+      link: ".item-title a"
+      price: ".event_prices"
   - {key: nyc-ny-building-congress, name: "New York Building Congress", city: nyc, kind: talks, method: custom, enabled: false, page: "https://buildingcongress.com/events/"}
   - {key: nyc-noma-ny, name: "NOMA-NY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://nomany.org/events/"}
-  - {key: nyc-rpa, name: "Regional Plan Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://rpa.org/events/upcoming"}
-  - {key: nyc-skyscraper-museum, name: "The Skyscraper Museum", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.skyscraper.org/programs/"}
+  - key: nyc-rpa
+    name: "Regional Plan Association"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://rpa.org/events/upcoming"
+    params:
+      when: ".card-event-small__date"
+      item: ".card-event-small"
+      title: ".card-event-small__heading"
+      link: "a[href]"
+  - key: nyc-skyscraper-museum
+    name: "The Skyscraper Museum"
+    city: nyc
+    kind: art
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://www.skyscraper.org/programs/"
+    location: "The Skyscraper Museum, 39 Battery Pl, New York"
+    params:
+      when: "span.date-time"
+      item: "article"
+      title: "h2.entry-title"
+      link: "h2 a"
   - {key: nyc-urban-design-forum, name: "Urban Design Forum", city: nyc, kind: talks, method: custom, enabled: false, page: "https://urbandesignforum.org/events/"}
   - key: nyc-van-alen
     name: "Van Alen Institute"
@@ -433,10 +503,43 @@ sources:
     method: wprest          # WordPress API; dates in ACF fields
     page: "https://www.vanalen.org/events/"
     params: {endpoint: "https://www.vanalen.org/wp-json/wp/v2/events", start: acf.start_date_time, end: acf.end_date_time}
-  - {key: nyc-cfr, name: "Council on Foreign Relations", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.cfr.org/events"}
-  - {key: nyc-carnegie-council, name: "Carnegie Council for Ethics in International Affairs", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.carnegiecouncil.org/events"}
+  - key: nyc-cfr
+    name: "Council on Foreign Relations"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://www.cfr.org/events"
+    params:
+      when: "article time"
+      item: "article"
+      title: "h3"
+      link: "h3 a"
+  - key: nyc-carnegie-council
+    name: "Carnegie Council for Ethics in International Affairs"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://www.carnegiecouncil.org/events"
+    params:
+      when: "p.subheading-2"
+      item: "div.module-content"
+      title: "h2"
+      link: "a.button"
   - {key: nyc-fpa, name: "Foreign Policy Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.fpa.org/"}   # dead or stale, see csv
-  - {key: nyc-paley-center, name: "Paley Center for Media", city: nyc, kind: film, method: custom, enabled: false, page: "https://www.paleycenter.org/events"}
+  - key: nyc-paley-center
+    name: "Paley Center for Media"
+    city: nyc
+    kind: film
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://www.paleycenter.org/events"
+    params:
+      when: "li.CalendarEvent__date"
+      item: "article.CalendarEvent__item"
+      title: "h2.CalendarEvent__title"
+      link: "a.Button"
   - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar"}
   - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.moma.org/calendar"}
   - key: nyc-club-free-time
@@ -446,8 +549,32 @@ sources:
     method: jsonld          # schema.org Event data on the free talks & lectures page
     aggregator: true
     page: "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures"
-  - {key: nyc-cjh, name: "Center for Jewish History", city: nyc, kind: talks, method: custom, enabled: false, page: "https://programs.cjh.org/"}
-  - {key: nyc-yivo, name: "YIVO Institute for Jewish Research", city: nyc, kind: talks, method: custom, enabled: false, page: "https://yivo.org/Calendar?show=evs"}
+  - key: nyc-cjh
+    name: "Center for Jewish History"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://programs.cjh.org/"
+    location: "Center for Jewish History, 15 W 16th St, New York"
+    params:
+      when: "div.dateblock .col-xs-7"
+      item: "div.row.program"
+      title: "h4"
+      time: ".datime"
+      link: "a[href*='/event/']"
+  - key: nyc-yivo
+    name: "YIVO Institute for Jewish Research"
+    city: nyc
+    kind: talks
+    method: custom          # general listing reader (custom/listing.py)
+    reader: listing
+    page: "https://yivo.org/Calendar?show=evs"
+    location: "YIVO, 15 W 16th St, New York"
+    params:
+      when: "div.evdatetime"
+      item: "a"
+      title: "div.evtit"
   - {key: nyc-tikvah, name: "Tikvah Fund", city: nyc, kind: talks, method: custom, enabled: false, page: "https://tikvah.org/events"}   # dead or stale, see csv
   - {key: nyc-hartman, name: "Shalom Hartman Institute of North America", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.hartman.org.il/events/"}   # JSON: https://www.hartman.org.il/wp-json/wp/v2/event?location=20709
   - {key: nyc-ajc, name: "American Jewish Committee (AJC)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.ajc.org/newyork"}
