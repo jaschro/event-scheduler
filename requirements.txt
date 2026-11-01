@@ -4,4 +4,7 @@ icalendar==7.3.0
 recurring-ical-events==3.8.2
 python-dateutil==2.9.0.post0
 tzdata==2026.6
+beautifulsoup4==4.12.3
+soupsieve==3.0.4
+playwright==1.48.0
 pytest==9.2.0

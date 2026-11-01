@@ -1,0 +1,71 @@
+name: Probe sources
+
+# Runs on pushes to probe/** branches: tries each method for the sources that have
+# no feed yet, then commits the saved pages and findings back to the same branch.
+on:
+  push:
+    branches: ["probe/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: probe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    if: "!contains(github.event.head_commit.message, '[skip probe]')"
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Tests
+        run: python -m pytest -q collector/tests
+
+      - name: Probe
+        if: contains(github.event.head_commit.message, '[round1]') || contains(github.event.head_commit.message, '[round2]')
+        run: python -m collector.probe ${{ contains(github.event.head_commit.message, '[round2]') && '--round2' || '' }}
+
+      - name: Dry-run collector (no commit to main)
+        env:
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          mkdir -p probe/dryrun
+          cp data/events.json data/status.json probe/dryrun/ 2>/dev/null || true
+          python -m collector.main --data probe/dryrun || true
+
+      - name: Save a small Ticketmaster sample (key removed)
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os, requests, pathlib
+          key = os.environ.get("TICKETMASTER_API_KEY", "")
+          if key:
+              r = requests.get("https://app.ticketmaster.com/discovery/v2/events.json",
+                               params={"apikey": key, "latlong": "25.7900,-80.2000", "radius": 12, "unit": "miles",
+                                       "size": 25, "sort": "date,asc"}, timeout=30)
+              pathlib.Path("probe/ticketmaster_sample_miami.json").write_text(r.text.replace(key, "REDACTED"))
+          PY
+
+      - name: Commit results to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A probe
+          git commit -m "Probe results [skip probe]" || exit 0
+          git push

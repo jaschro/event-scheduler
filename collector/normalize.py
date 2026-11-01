@@ -35,6 +35,8 @@ class RawEvent:
     price_min: float | None = None
     price_text: str | None = None
     all_day: bool | None = None  # inferred from start type when None
+    venue: str | None = None     # aggregators: the event's real venue (default: source name)
+    kind: str | None = None      # aggregators: per-event kind (default: source kind)
 
 
 def strip_html(text: str | None) -> str:
@@ -117,6 +119,8 @@ def build_event(raw: RawEvent, *, source, city, fetched_at: str) -> dict[str, An
             end = start + timedelta(days=1)
     if end is not None and end < start:
         end = None
+    if end is None and not all_day and getattr(source, "default_minutes", None):
+        end = start + timedelta(minutes=source.default_minutes)
 
     description_full = strip_html(raw.description)
     url = safe_url(raw.url) or first_url(description_full) or safe_url(source.page)
@@ -130,8 +134,8 @@ def build_event(raw: RawEvent, *, source, city, fetched_at: str) -> dict[str, An
     return {
         "id": make_id(source.key, raw.source_id, title, start_iso),
         "title": title,
-        "venue": source.name,
-        "kind": source.kind,
+        "venue": plain_one_line(raw.venue) or source.name,
+        "kind": raw.kind or source.kind,
         "start": start_iso,
         "end": iso(end) if end else None,
         "all_day": all_day,
@@ -164,7 +168,7 @@ def in_window(event: dict[str, Any], now: datetime, window_end: datetime, defaul
 def passes_filter(event: dict[str, Any], rules: dict[str, list[str]]) -> bool:
     if not rules:
         return True
-    hay = f"{event['title']}\n{event['description']}"
+    hay = event["title"] if rules.get("fields") == "title" else f"{event['title']}\n{event['description']}"
     include = rules.get("include") or []
     exclude = rules.get("exclude") or []
     if include and not any(re.search(p, hay) for p in include):

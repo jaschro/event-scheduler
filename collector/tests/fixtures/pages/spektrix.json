@@ -1,0 +1,312 @@
+{
+ "events": [
+  {
+   "id": "22601ARRLHTVCDDNCQVPHHJKHRLVJHGRP",
+   "name": "Cianuro Espumante",
+   "description": "A birthday celebration, a sudden death, and Hercule Poirot needs the audience's help to find the killer. The world's first Spanish-language Agatha Christie mystery — set in Miami, solved by you.\r\n",
+   "duration": 0,
+   "webUrl": "",
+   "firstInstanceDateTime": "2027-06-17T20:00:00",
+   "lastInstanceDateTime": "2027-07-18T15:00:00"
+  },
+  {
+   "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC",
+   "name": "Gandhi and the Jew",
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "duration": 0,
+   "webUrl": "",
+   "firstInstanceDateTime": "2026-11-05T20:00:00",
+   "lastInstanceDateTime": "2026-11-29T15:00:00"
+  },
+  {
+   "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM",
+   "name": "The Golem of Havana",
+   "description": "A young girl. A mythical protector. A revolution no one could stop. Set in late-1950s Havana, The Golem of Havana is a musical about the monsters we create to save us, and what happens when they can’t.\r\n",
+   "duration": 0,
+   "webUrl": "",
+   "firstInstanceDateTime": "2027-01-28T20:00:00",
+   "lastInstanceDateTime": "2027-03-07T15:00:00"
+  },
+  {
+   "id": "22201AVHLKLNNVQMTJHCGGPHJTVQHKKPM",
+   "name": "The Great Behind",
+   "description": "A Miami Cyrano. Same wit. Bigger hips. The Great Behind is a sharp, funny new play about the woman with all the right words for everyone but herself.\r\n",
+   "duration": 0,
+   "webUrl": "",
+   "firstInstanceDateTime": "2027-04-01T20:00:00",
+   "lastInstanceDateTime": "2027-04-25T15:00:00"
+  }
+ ],
+ "instances": [
+  {
+   "id": "85801AHLRGTDDCGCPTJSNCDVLVBKJKJNJ",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-05T20:00:00",
+   "startUtc": "2026-11-06T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85802ADBRKNPKDHMVRRNBJTVDGHVMVJNR",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-06T20:00:00",
+   "startUtc": "2026-11-07T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85401AKVGHJBBVJHHBGPNNNSVPKLGLDQL",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-07T20:00:00",
+   "startUtc": "2026-11-08T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85601ATTRSQHQPBGNRTKLKJJMRLPJKPBR",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-08T15:00:00",
+   "startUtc": "2026-11-08T20:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85203AVLQNPNQMHNSQTVNDGLBRCNRTBKV",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-12T20:00:00",
+   "startUtc": "2026-11-13T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85204ADHDDGTSVSSPNDNRDNJBLNGCBQNG",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-13T20:00:00",
+   "startUtc": "2026-11-14T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85402AVLQSSKKQCHSLKGQMHSQVCVMVSQS",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-14T20:00:00",
+   "startUtc": "2026-11-15T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85602AQTBRJQQRNSDJGBCHHCMLTMHHNTC",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-15T15:00:00",
+   "startUtc": "2026-11-15T20:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85205ACLNTGVCJRRLMQBVGHGTSDCHQDPD",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-19T20:00:00",
+   "startUtc": "2026-11-20T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85206ACGMRSHMBKTLBDPCQMVVCLNSTTVH",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-20T20:00:00",
+   "startUtc": "2026-11-21T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86001AQMSNDTJGPGTMPLNKVBHBTGJPNHN",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-21T14:00:00",
+   "startUtc": "2026-11-21T19:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85403ARMGGJGTHPKCRPNSBQLHHLPJRRMJ",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-21T20:00:00",
+   "startUtc": "2026-11-22T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85603ARPLQVRKMPNGNRLTJHNKLLQNDCCN",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-22T15:00:00",
+   "startUtc": "2026-11-22T20:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85208ALNMLRCVBTKJHVCVLCJKMNMDMQTR",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-27T20:00:00",
+   "startUtc": "2026-11-28T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86002APCMBKCDVMJMQDDBTLVDPBHLLBDB",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-28T14:00:00",
+   "startUtc": "2026-11-28T19:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85404AQPMPJHLHSCGGQLRQMKSVHVPMCNK",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-28T20:00:00",
+   "startUtc": "2026-11-29T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "85604AMRNRGBLNRGPPVLLLQKHPLLCLVMH",
+   "event": {
+    "id": "21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC"
+   },
+   "start": "2026-11-29T15:00:00",
+   "startUtc": "2026-11-29T20:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "87001ATNHRQCRQHKBKPTBSRTPVHCMNHHK",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-01-28T20:00:00",
+   "startUtc": "2027-01-29T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "87002AVMJDNBHBRQLVLTMGLGJSNVBQGMR",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-01-29T20:00:00",
+   "startUtc": "2027-01-30T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86401ASGLGPNTPVPNSMSDBCVPDQJHLHMN",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-01-30T20:00:00",
+   "startUtc": "2027-01-31T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86601AMRNRGKCHGPSJKLNVJQSVMVTGNJM",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-01-31T15:00:00",
+   "startUtc": "2027-01-31T20:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86203ATSHPHSCCSRQLSKJTBCCVNDGSCNK",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-04T20:00:00",
+   "startUtc": "2027-02-05T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86204ADVNHCDPPSHTBSCPQHRRVNTSBSMK",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-05T20:00:00",
+   "startUtc": "2027-02-06T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86801AQGMPJRRVSCVQHBPPKJPHDCLBDJG",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-06T14:00:00",
+   "startUtc": "2027-02-06T19:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86402AGNPQSPBCBMNKNDSVNGBMHQCNGSM",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-06T20:00:00",
+   "startUtc": "2027-02-07T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86602AMKJCBHLNQMSCNLPQHPVKMRLRNNB",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-07T15:00:00",
+   "startUtc": "2027-02-07T20:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86205ACCPTBTNJMTJTDTQQSSRNBJPHJNJ",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-11T20:00:00",
+   "startUtc": "2027-02-12T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86206AMDJRMHTVNDDRRCNMHQMLSRBBQGC",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-12T20:00:00",
+   "startUtc": "2027-02-13T01:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86802ACPSNTGGVBDMGGPKHTDRDGTBMGSV",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-13T14:00:00",
+   "startUtc": "2027-02-13T19:00:00",
+   "cancelled": false
+  },
+  {
+   "id": "86403ADHCCKKMCMQGNGHGVVMLPPJQHLPJ",
+   "event": {
+    "id": "22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM"
+   },
+   "start": "2027-02-13T20:00:00",
+   "startUtc": "2027-02-14T01:00:00",
+   "cancelled": false
+  }
+ ]
+}

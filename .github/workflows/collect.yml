@@ -33,7 +33,9 @@ jobs:
           cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
 
       - name: Adapter tests
         run: python -m pytest -q collector/tests
@@ -42,6 +44,7 @@ jobs:
         id: collect
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
         # Exit 1 means every source failed. Still commit and publish, so the failures show in
         # the page footer; the "report" job then marks the run as failed.
         run: python -m collector.main || echo "all_failed=true" >> "$GITHUB_OUTPUT"

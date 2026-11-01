@@ -6,17 +6,20 @@ See [SPEC.md](SPEC.md) for the full brief.
 
 ## Status
 
-Build steps 1-3 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
+Build steps 1-4 of 5 (SPEC.md section 9): the collector, feed sources, schema, dedupe,
 status file and scheduled workflow; the page (day bands, time grid, event blocks,
 popovers, city switch, footer); and Google sign-in with your calendar on the right and
-the "+" that adds an event (with duplicate prevention).
+the "+" that adds an event (with duplicate prevention); and page readers for the
+venues without a feed, Ticketmaster for both cities, and the New York sources.
 
 ## Layout
 
 ```
 sources.yaml              cities + one entry per venue
 collector/main.py         runs all sources, merges, writes data/
-collector/adapters/       ics.py, eventbrite.py (tribe, jsonld, custom readers come later)
+collector/adapters/       ics, eventbrite, tribe (The Events Calendar API), jsonld (schema.org),
+                          ticketmaster, custom/ (one reader per venue; whenparse.py reads date text)
+collector/probe.py        finds the cheapest working method for a source (runs on probe/** branches)
 collector/normalize.py    event schema, HTML stripping, time zones, ids
 collector/dedupe.py       same-id and cross-source merging
 collector/polite.py       user agent, 1 request/second per host, robots.txt
@@ -73,10 +76,46 @@ Regenerate an adapter's expected output after an intended change:
    into `sources.yaml` as `url`. (Or set `luma_calendar: <page name>` to have the
    collector look the feed up itself, using Luma's unofficial page lookup.)
 
-Done: feed links for Miami Beach arts, Refresh Miami, The Bass and the four Luma calendars; the
+Done: feed links for Miami Beach arts, Refresh Miami, The Bass and the four Luma calendars;
+`TICKETMASTER_API_KEY` secret; the
 `EVENTBRITE_TOKEN` Actions secret; Pages source set to GitHub Actions.
 
 Done: Google Cloud project with the Calendar API, consent screen in Testing with
 jasonchroman@gmail.com as the only test user, `calendar.events` scope, and a web OAuth
 client (origins `https://jaschro.github.io`, `http://localhost:8000`) whose public client
 id is in `site/config.js`.
+
+## How each Miami venue without a feed is collected (probed Nov 1, 2026)
+
+None of these sites runs The Events Calendar REST API. In order of preference:
+
+| Venue | Method |
+| --- | --- |
+| Coral Gables Art Cinema | schema.org JSON-LD on its Agile Ticketing "full calendar" page |
+| ICA Miami | listing page + schema.org JSON-LD on each event page (custom `ica`) |
+| Oolite Arts | custom HTML reader (`oolite`); weekly workshops expanded per session |
+| O Cinema South Beach | custom HTML reader (`ocinema`); showtimes are in the server HTML, no browser needed |
+| Miami New Drama | Spektrix ticketing API, one entry per performance (`spektrix`) |
+| New World Symphony | Playwright for the script-built listing, times from each concert page (`nws`) |
+| Miami Beach JCC | event pages found via the site's sitemap (`mbjcc`) |
+| Miami Beach Botanical Garden | Squarespace collection JSON (`squarespace`) |
+| Rubell Museum | custom HTML reader (`rubell`); page stale since August |
+| Arsht Center | via the Greater Miami tourism site's Arsht page (`simpleview`); dates only, times borrowed from Ticketmaster when the same show is listed there |
+
+Films with no end time are assumed to run 2.5 hours (`default_minutes_by_kind`).
+
+### Blocked sources
+
+- **PAMM**: its pages answer 403 to automated readers; its WordPress API lists events without dates.
+- **Wolfsonian-FIU**: the site does not accept connections from GitHub's runners.
+- **Arsht Center (own site)**: bot protection blocks its events API (hence the tourism-site route).
+- **NYC**: CCNY Spitzer answers 403; CFA Society NY's robots.txt disallows its iCal export.
+
+## Ticketmaster
+
+`ticketmaster-miami` and `ticketmaster-nyc` use the Discovery API with the
+`TICKETMASTER_API_KEY` secret, one query per day over the window. Each event keeps
+its own venue and a kind from Ticketmaster's classification. They are aggregators,
+so a venue's own listing wins in dedupe. Timed-entry attractions (a ticket every
+15–30 minutes) are collapsed to one item per day. Errors written to `status.json`
+are scrubbed of the key.

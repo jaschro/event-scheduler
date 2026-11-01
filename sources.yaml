@@ -24,14 +24,16 @@ settings:
   request_timeout_seconds: 30
   source_timeout_seconds: 120    # whole source, all pages
   default_duration_hours: 2      # used only for "has it ended?" when an event has no end
+  default_minutes_by_kind:       # end time assumed when a listing gives none (a source can set default_minutes)
+    film: 150
 
 cities:
   - key: miami
     name: Miami
     tz: America/New_York
-  # - key: nyc
-  #   name: New York
-  #   tz: America/New_York
+  - key: nyc
+    name: New York
+    tz: America/New_York
 
 sources:
   # ---------- Step 1: feeds ----------
@@ -167,17 +169,276 @@ sources:
     organizer_id: "16479775533"
     page: https://www.eventbrite.com/o/books-books-16479775533
 
-  # ---------- Later steps (step 4): not collected yet ----------
-  # (Venture Café Miami removed: closed.)
-  - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://pamm.org/events"}
-  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}
-  - {key: ica-miami, name: ICA Miami, city: miami, kind: museum, method: custom, enabled: false, page: "https://icamiami.org/calendar/"}
-  - {key: rubell, name: Rubell Museum, city: miami, kind: museum, method: custom, enabled: false, page: "https://rubellmuseum.org/support/member-events"}
-  - {key: oolite, name: Oolite Arts, city: miami, kind: art, method: custom, enabled: false, page: "https://oolitearts.org/calendar/"}
-  - {key: o-cinema, name: O Cinema South Beach, city: miami, kind: film, method: browser, enabled: false, page: "https://o-cinema.org/o-cinema-south-beach"}
-  - {key: gables-cinema, name: Coral Gables Art Cinema, city: miami, kind: film, method: browser, enabled: false, page: "https://gablescinema.com/calendar/"}
-  - {key: arsht, name: Arsht Center, city: miami, kind: stage, method: custom, enabled: false, page: "https://arshtcenter.org/calendar/"}
-  - {key: miami-new-drama, name: Miami New Drama (Colony), city: miami, kind: stage, method: custom, enabled: false, page: "https://miaminewdrama.org/shows-events/"}
-  - {key: nws, name: New World Center / NWS, city: miami, kind: music, method: browser, enabled: false, page: "https://nws.edu/tickets/concerts-and-events/"}
-  - {key: mbjcc, name: Miami Beach JCC, city: miami, kind: community, method: custom, enabled: false, page: "https://mbjcc.org/events"}
-  - {key: mb-botanical, name: Miami Beach Botanical Garden, city: miami, kind: outdoors, method: custom, enabled: false, page: "https://mbgarden.org/calendar"}
+  # ---------- Step 4: venues without a feed (method chosen by probing, see README) ----------
+  - key: ica-miami
+    name: ICA Miami
+    city: miami
+    kind: museum
+    method: custom          # listing tiles + schema.org JSON-LD on each event page
+    reader: ica
+    page: https://icamiami.org/calendar/
+    location: "ICA Miami, 61 NE 41st St, Miami"
+
+  - key: oolite
+    name: Oolite Arts
+    city: miami
+    kind: art
+    method: custom          # listing tiles with date/time text
+    reader: oolite
+    page: https://oolitearts.org/calendar/
+    location: "Oolite Arts, 75 NW 72nd St, Miami"
+
+  - key: o-cinema
+    name: O Cinema South Beach
+    city: miami
+    kind: film
+    method: custom          # showtimes are in the server HTML; no browser needed
+    reader: ocinema
+    page: https://www.o-cinema.org/o-cinema-south-beach
+    location: "O Cinema South Beach, 1130 Washington Ave, Miami Beach"
+
+  - key: miami-new-drama
+    name: Miami New Drama (Colony)
+    city: miami
+    kind: stage
+    method: custom          # Spektrix ticketing API: one entry per performance
+    reader: spektrix
+    url: https://tickets.miaminewdrama.org/miaminewdrama/api/v3
+    page: https://miaminewdrama.org/shows-events/
+    location: "Colony Theatre, 1040 Lincoln Rd, Miami Beach"
+
+  - key: nws
+    name: New World Center / NWS
+    city: miami
+    kind: music
+    method: browser         # listing built by script (Playwright); times from each concert page
+    reader: nws
+    page: "https://www.nws.edu/tickets/concerts-and-events/"
+    location: "New World Center, 500 17th St, Miami Beach"
+
+  - key: mbjcc
+    name: Miami Beach JCC
+    city: miami
+    kind: community
+    method: custom          # event pages found via the site's sitemap
+    reader: mbjcc
+    page: https://mbjcc.org/events
+
+  - key: mb-botanical
+    name: Miami Beach Botanical Garden
+    city: miami
+    kind: outdoors
+    method: custom          # Squarespace events collection as JSON (?format=json)
+    reader: squarespace
+    page: https://www.mbgarden.org/calendar
+    location: "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach"
+
+  - key: rubell
+    name: Rubell Museum
+    city: miami
+    kind: museum
+    method: custom          # <h3>/<h5> blocks; page stale since August, so usually 0 events
+    reader: rubell
+    page: https://rubellmuseum.org/support/member-events
+
+  - key: gables-cinema
+    name: Coral Gables Art Cinema
+    city: miami
+    kind: film
+    method: jsonld          # its Agile Ticketing "full calendar" page carries schema.org Event data per screening
+    url: "https://prod3.agileticketing.net/websales/pages/list.aspx?epguid=f7359319-db5b-45d1-b3ba-679d43a57b78&"
+    page: https://gablescinema.com/calendar/
+    location: "Coral Gables Art Cinema, 260 Aragon Ave, Coral Gables"
+
+  - key: arsht
+    name: Arsht Center
+    city: miami
+    kind: stage
+    method: custom          # its own calendar blocks bots; listed via the Greater Miami tourism site (dates, times when given)
+    reader: simpleview
+    page: https://www.miamiandbeaches.com/thing-to-do/arts-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269
+    location: "Adrienne Arsht Center, 1300 Biscayne Blvd, Miami"
+
+  # Ticketmaster Discovery API (TICKETMASTER_API_KEY secret). Aggregator: venue listings win in dedupe.
+  - key: ticketmaster-miami
+    name: Ticketmaster (Miami area)
+    city: miami
+    kind: music             # default; each event gets its own kind and venue from Ticketmaster
+    method: ticketmaster
+    aggregator: true
+    priority: 5
+    page: https://www.ticketmaster.com/discover/miami
+    params: {latlong: "25.7900,-80.2000", radius: 12}   # Miami, Miami Beach, Coral Gables
+    filter:
+      exclude:
+        - "(?i)\\bparking\\b"
+        - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"
+
+  # ---------- Not collectable yet (see README "Blocked sources") ----------
+  - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
+  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners
+
+  # ======================= New York (from nyc_sources.yaml, Nov 1 2026) =======================
+  # ---------- NYC Step 1: feeds ----------
+  # school-wide student-groups feed; expect club and internal events
+  - key: nyc-columbia-law
+    name: "Columbia Law School"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://connect.law.columbia.edu/ical/columbia-law/ical_columbia-law.ics"
+    page: https://www.law.columbia.edu/events
+
+  # school-wide student-groups feed; expect club and internal events
+  - key: nyc-columbia-business
+    name: "Columbia Business School"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://groups.gsb.columbia.edu/ical/cbs/ical_cbs.ics"
+    page: https://events.business.columbia.edu/
+    filter:
+      fields: title     # match titles only; real talks mention "recruiting" etc. in descriptions
+      exclude:
+        - "(?i)\\b(drop-in|advising|counseling|office hours)\\b"
+        - "(?i)\\bexecutive education\\b|\\bmodeling course\\b|\\bheadshots?\\b"
+        - "(?i)\\b(team lunch|training|technicals prep|reschedule[d]?)\\b"
+        - "(?i)\\btrek\\b|\\brecruiting\\b|^AMA:|bone marrow drive"
+        - "(?i)^(beijing|chicago|los angeles|south florida|san francisco|boston|washington|london|hong kong|miami)\\s*:"
+
+  - key: nyc-cbs-real-estate
+    name: "Columbia Business School - Real Estate (Milstein Center)"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://groups.gsb.columbia.edu/ical/cbs/ical_club_24179.ics"
+    page: https://groups.gsb.columbia.edu/events?group_ids=24179
+
+  - key: nyc-ccny-ssa
+    name: "CCNY Spitzer School of Architecture"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://ssa.ccny.cuny.edu/events.ics"
+    page: https://ssa.ccny.cuny.edu/events/
+
+  # feed not verified from here; check on first run
+  - key: nyc-columbia-iijs
+    name: "Columbia Institute for Israel and Jewish Studies"
+    city: nyc
+    kind: talks
+    method: custom          # Squarespace site: its events collection as JSON (?format=ical returns HTML)
+    reader: squarespace
+    page: https://www.iijs.columbia.edu/upcoming-events
+
+  - key: nyc-yeshiva-u
+    name: "Yeshiva University"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://25livepub.collegenet.com/calendars/25live-all-events.ics"
+    page: https://www.yu.edu/events/all
+    filter:
+      exclude:
+        - "(?i)\\bfolding chairs\\b"
+        - "(?i)\\b(basketball|volleyball|soccer|fencing|tennis|swimming|athletics)\\b"
+
+  # feed not verified from here; check on first run
+  - key: nyc-fordham-jewish
+    name: "Fordham Center for Jewish Studies"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://now.fordham.edu/events/category/jewish-life/?ical=1"
+    page: https://now.fordham.edu/events/category/jewish-life/
+    enabled: false
+
+  - key: nyc-ny-landmarks
+    name: "New York Landmarks Conservancy"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://nylandmarks.org/events/?ical=1"
+    page: https://nylandmarks.org/events/
+
+  # feed not verified from here; check on first run
+  - key: nyc-cfa-ny
+    name: "CFA Society New York"
+    city: nyc
+    kind: talks
+    method: ics
+    url: "https://cfany.org/events/?ical=1"
+    page: https://cfany.org/events/
+
+
+  # ---------- NYC Later: WordPress Events Calendar API ----------
+  - {key: nyc-ny-jewish-week, name: "New York Jewish Week / JTA (My Jewish Learning Hub)", city: nyc, kind: community, method: tribe, enabled: false, url: "https://www.myjewishlearning.com/wp-json/tribe/events/v1/events?categories=new-york", aggregator: true, page: "https://www.myjewishlearning.com/the-hub/category/new-york"}
+
+  # ---------- NYC Later: page readers (some have a JSON API noted) ----------
+  - {key: nyc-columbia-gsapp, name: "Columbia GSAPP", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.arch.columbia.edu/events"}
+  - {key: nyc-cooper-union-arch, name: "Cooper Union School of Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://cooper.edu/architecture/events-and-exhibitions"}
+  - {key: nyc-nyu-furman, name: "NYU Furman Center", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.furmancenter.org/events/"}   # JSON: https://www.furmancenter.org/wp-json/wp/v2/event
+  - {key: nyc-pratt-arch, name: "Pratt Institute School of Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.pratt.edu/events/"}   # JSON: https://www.pratt.edu/wp-json/wp/v2/event?school=33
+  - {key: nyc-nyu-stern, name: "NYU Stern School of Business", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.stern.nyu.edu/experience-stern/events"}
+  - {key: nyc-ai-now, name: "AI Now Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://ainowinstitute.org/news/events"}   # dead or stale, see csv
+  - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: science, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
+  - {key: nyc-cornell-tech, name: "Cornell Tech", city: nyc, kind: tech, method: custom, enabled: false, page: "https://tech.cornell.edu/events/"}
+  - {key: nyc-cuny-gc, name: "Graduate Center, CUNY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.gc.cuny.edu/events"}
+  - {key: nyc-jts, name: "Jewish Theological Seminary (JTS)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.jtsa.edu/events"}   # JSON: https://www.jtsa.edu/wp-json/wp/v2/post_event
+  - {key: nyc-arch-league, name: "Architectural League of New York", city: nyc, kind: talks, method: custom, enabled: false, page: "https://archleague.org/events"}
+  - {key: nyc-bwaf, name: "Beverly Willis Architecture Foundation", city: nyc, kind: talks, method: custom, enabled: false, page: "https://bwaf.org/"}   # dead or stale, see csv
+  - {key: nyc-aiany, name: "Center for Architecture (AIANY)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://calendar.aiany.org/"}   # JSON: https://calendar.aiany.org/wp-json/wp/v2/posts
+  - {key: nyc-ipa, name: "Institute for Public Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://instituteforpublicarchitecture.org/Whats-On"}
+  - {key: nyc-icaa-ny, name: "Institute of Classical Architecture & Art, NY Chapter", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.classicist.org/ny/"}
+  - {key: nyc-mas, name: "Municipal Art Society of New York", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.mas.org/events/"}
+  - {key: nyc-ny-building-congress, name: "New York Building Congress", city: nyc, kind: talks, method: custom, enabled: false, page: "https://buildingcongress.com/events/"}
+  - {key: nyc-noma-ny, name: "NOMA-NY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://nomany.org/events/"}
+  - {key: nyc-rpa, name: "Regional Plan Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://rpa.org/events/upcoming"}
+  - {key: nyc-skyscraper-museum, name: "The Skyscraper Museum", city: nyc, kind: museum, method: custom, enabled: false, page: "https://www.skyscraper.org/programs/"}
+  - {key: nyc-urban-design-forum, name: "Urban Design Forum", city: nyc, kind: talks, method: custom, enabled: false, page: "https://urbandesignforum.org/events/"}
+  - {key: nyc-van-alen, name: "Van Alen Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.vanalen.org/events/"}
+  - {key: nyc-cfr, name: "Council on Foreign Relations", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.cfr.org/events"}
+  - {key: nyc-carnegie-council, name: "Carnegie Council for Ethics in International Affairs", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.carnegiecouncil.org/events"}
+  - {key: nyc-fpa, name: "Foreign Policy Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.fpa.org/"}   # dead or stale, see csv
+  - {key: nyc-paley-center, name: "Paley Center for Media", city: nyc, kind: film, method: custom, enabled: false, page: "https://www.paleycenter.org/events"}
+  - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: museum, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar"}
+  - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: museum, method: custom, enabled: false, page: "https://www.moma.org/calendar"}
+  - {key: nyc-club-free-time, name: "Club Free Time", city: nyc, kind: talks, method: custom, enabled: false, aggregator: true, page: "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures"}
+  - {key: nyc-cjh, name: "Center for Jewish History", city: nyc, kind: talks, method: custom, enabled: false, page: "https://programs.cjh.org/"}
+  - {key: nyc-yivo, name: "YIVO Institute for Jewish Research", city: nyc, kind: talks, method: custom, enabled: false, page: "https://yivo.org/Calendar?show=evs"}
+  - {key: nyc-tikvah, name: "Tikvah Fund", city: nyc, kind: talks, method: custom, enabled: false, page: "https://tikvah.org/events"}   # dead or stale, see csv
+  - {key: nyc-hartman, name: "Shalom Hartman Institute of North America", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.hartman.org.il/events/"}   # JSON: https://www.hartman.org.il/wp-json/wp/v2/event?location=20709
+  - {key: nyc-ajc, name: "American Jewish Committee (AJC)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.ajc.org/newyork"}
+  - {key: nyc-jewish-currents, name: "Jewish Currents", city: nyc, kind: talks, method: custom, enabled: false, page: "https://jewishcurrents.org/events"}
+  - {key: nyc-uja, name: "UJA-Federation of New York", city: nyc, kind: community, method: custom, enabled: false, page: "https://www.ujafedny.org/get-involved/attend-an-event"}
+  - {key: nyc-ncjw-ny, name: "National Council of Jewish Women NY", city: nyc, kind: community, method: custom, enabled: false, page: "https://ncjwny.org/events"}
+  - {key: nyc-congress-jewish-culture, name: "Congress for Jewish Culture", city: nyc, kind: music, method: custom, enabled: false, page: "https://congressforjewishculture.org/events"}
+
+  # ---------- NYC Later: headless browser ----------
+  - {key: nyc-columbia-calendar, name: "Columbia University (general calendar)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://events.columbia.edu/"}
+  - {key: nyc-columbia-sipa, name: "Columbia SIPA", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.sipa.columbia.edu/communities-connections/events"}
+  - {key: nyc-parsons, name: "The New School / Parsons", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.newschool.edu/parsons/events/"}
+  - {key: nyc-ohny, name: "Open House New York", city: nyc, kind: talks, method: browser, enabled: false, page: "https://ohny.org/calendar"}
+  - {key: nyc-storefront, name: "Storefront for Art and Architecture", city: nyc, kind: art, method: browser, enabled: false, page: "https://storefrontnews.org/"}
+  - {key: nyc-asia-society, name: "Asia Society (New York)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://asiasociety.org/new-york/events"}
+  - {key: nyc-econ-club-ny, name: "Economic Club of New York", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.econclubny.org/web/pages/club-calendar"}
+  - {key: nyc-brooklyn-museum, name: "Brooklyn Museum", city: nyc, kind: museum, method: browser, enabled: false, page: "https://www.brooklynmuseum.org/calendar"}
+  - {key: nyc-92ny, name: "92nd Street Y (92NY)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.92ny.org/whats-on/events"}
+  - {key: nyc-nypl, name: "New York Public Library", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.nypl.org/events/calendar?location=4"}
+  - {key: nyc-thoughtgallery, name: "ThoughtGallery", city: nyc, kind: talks, method: browser, enabled: false, aggregator: true, page: "https://thoughtgallery.org"}
+  - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: museum, method: browser, enabled: false, page: "https://mjhnyc.org/current-events"}
+
+  # ---------- NYC: Ticketmaster Discovery API ----------
+  - key: ticketmaster-nyc
+    name: Ticketmaster (New York)
+    city: nyc
+    kind: music
+    method: ticketmaster
+    aggregator: true
+    priority: 5
+    page: https://www.ticketmaster.com/discover/new-york
+    params: {latlong: "40.7549,-73.9840", radius: 6}    # Manhattan and nearby Brooklyn/Queens (8 mi reached NJ)
+    filter:
+      exclude:
+        - "(?i)\\bparking\\b"
+        - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"

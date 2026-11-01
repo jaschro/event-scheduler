@@ -1,0 +1,128 @@
+[
+ {
+  "id": "0e5a680efe87bbc4",
+  "title": "Balance and Composure & Midrift in Miami",
+  "venue": "Lincoln's Beard",
+  "kind": "music",
+  "start": "2026-11-05T19:00:00-05:00",
+  "end": null,
+  "all_day": false,
+  "description": "",
+  "url": "https://www.ticketweb.com/event/balance-and-composure-midrift-lincolns-beard-tickets/14289914",
+  "location": "7360 SW 41st St. , Miami",
+  "price": {
+   "free": false,
+   "min": 35.73,
+   "text": "$36"
+  },
+  "source": "ticketmaster-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "f8d5c86552ccb8c4",
+  "title": "Miami Hurricanes Women's Basketball vs. Jacksonville Dolphins",
+  "venue": "Watsco Center at the University of Miami",
+  "kind": "sports",
+  "start": "2026-11-05T19:00:00-05:00",
+  "end": null,
+  "all_day": false,
+  "description": "",
+  "url": "https://www.ticketmaster.com/miami-hurricanes-womens-basketball-vs-jacksonville-coral-gables-florida-11-05-2026/event/0D0065376D3F2A02",
+  "location": "1245 Dauer Dr, Coral Gables",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "ticketmaster-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "4f5c8ec077cca4cb",
+  "title": "The Floozies",
+  "venue": "ZeyZey Miami",
+  "kind": "music",
+  "start": "2026-11-05T19:00:00-05:00",
+  "end": null,
+  "all_day": false,
+  "description": "",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIAb",
+  "location": "353 NE 61st St, Miami",
+  "price": {
+   "free": null,
+   "min": null,
+   "text": null
+  },
+  "source": "ticketmaster-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "acf3d6b2260f15a7",
+  "title": "Improv Acting 1 - Improv Scenework",
+  "venue": "Just the Funny",
+  "kind": "music",
+  "start": "2026-11-05T19:30:00-05:00",
+  "end": null,
+  "all_day": false,
+  "description": "Improv Acting 1 will meet for seven weeks -- every Thurday night from Nov. 5th at our theater located at 3119 Coral Way in Miami. The student performance will take place on the seventh Thursday night. The fourth class on Thanksgiving will take place the night before -- Wednesday night Nov. 25th. ***Register by November 1st receive a $25 discount off the regular $300 price! IMPROV ACTING 1 - Improv Scenework (meets one night a week, 7:30pm - 10:00pm) Just The Funny is Miami's leading, and most comprehensive, improv and sketch education resource. JTF's classes are professionally designed, fully…",
+  "url": "https://www.ticketweb.com/event/improv-acting-1-just-the-funny-tickets/14330064",
+  "location": "3119 Coral Way, Miami",
+  "price": {
+   "free": false,
+   "min": 296.88,
+   "text": "$297"
+  },
+  "source": "ticketmaster-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "d19404fc4771a12c",
+  "title": "Strawberry Girls & Andres in Miami",
+  "venue": "The Boombox Miami",
+  "kind": "music",
+  "start": "2026-11-06T18:00:00-05:00",
+  "end": null,
+  "all_day": false,
+  "description": "",
+  "url": "https://www.ticketweb.com/event/strawberry-girls-andres-in-the-boombox-miami-tickets/14372594",
+  "location": "4447 SW 75th Ave, Miami",
+  "price": {
+   "free": false,
+   "min": 24.05,
+   "text": "$24"
+  },
+  "source": "ticketmaster-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ },
+ {
+  "id": "9d7442471d9a605f",
+  "title": "Soulpax, Mid-Day Moon, Vania Junco, and Ceci Leon in Miami",
+  "venue": "Churchill's Pub",
+  "kind": "music",
+  "start": "2026-11-06T19:00:00-05:00",
+  "end": null,
+  "all_day": false,
+  "description": "This event is 18 and over. Any ticket holder unable to present valid identification indicating that they are at least 18 years of age will not be admitted to this event, and will not be eligible for a refund.",
+  "url": "https://www.ticketweb.com/event/soulpax-mid-day-moon-vania-churchills-pub-tickets/14305134",
+  "location": "5501 NE 2nd Ave Miami, FL 33137, Miami",
+  "price": {
+   "free": false,
+   "min": 21.84,
+   "text": "$22"
+  },
+  "source": "ticketmaster-miami",
+  "also_listed_by": [],
+  "fetched_at": "2026-11-03T17:00:00+00:00",
+  "city": "miami"
+ }
+]
