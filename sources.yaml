@@ -24,6 +24,8 @@ settings:
   request_timeout_seconds: 30
   source_timeout_seconds: 120    # whole source, all pages
   default_duration_hours: 2      # used only for "has it ended?" when an event has no end
+  default_minutes_by_kind:       # end time assumed when a listing gives none (a source can set default_minutes)
+    film: 150
 
 cities:
   - key: miami

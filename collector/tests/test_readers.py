@@ -105,6 +105,10 @@ def test_ocinema():
     events = run_adapter(custom, page("ocinema.html"), cfg, "o-cinema")
     assert events and all(e["venue"] == "O Cinema South Beach" for e in events)
     assert all(e["url"].startswith("https://www.o-cinema.org/events/") for e in events)
+    # Showtimes give no end: films are assumed to run 2.5 hours (default_minutes_by_kind.film).
+    from datetime import datetime, timedelta
+    assert all(datetime.fromisoformat(e["end"]) - datetime.fromisoformat(e["start"]) == timedelta(minutes=150)
+               for e in events)
     check_expected("ocinema", events)
 
 

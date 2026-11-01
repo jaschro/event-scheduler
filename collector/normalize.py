@@ -117,6 +117,8 @@ def build_event(raw: RawEvent, *, source, city, fetched_at: str) -> dict[str, An
             end = start + timedelta(days=1)
     if end is not None and end < start:
         end = None
+    if end is None and not all_day and getattr(source, "default_minutes", None):
+        end = start + timedelta(minutes=source.default_minutes)
 
     description_full = strip_html(raw.description)
     url = safe_url(raw.url) or first_url(description_full) or safe_url(source.page)

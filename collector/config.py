@@ -43,6 +43,7 @@ class Source:
     organizer_id: str | None = None
     luma_calendar: str | None = None
     reader: str | None = None
+    default_minutes: int | None = None  # assumed length when an event gives no end time
     page: str | None = None
     location: str | None = None
     aggregator: bool = False
@@ -69,6 +70,7 @@ def load_config(path: str | Path) -> Config:
     if not cities:
         raise ValueError("sources.yaml needs at least one city")
 
+    by_kind = settings.get("default_minutes_by_kind") or {}
     sources: list[Source] = []
     seen: set[str] = set()
     for s in raw.get("sources") or []:
@@ -83,6 +85,7 @@ def load_config(path: str | Path) -> Config:
             organizer_id=str(s["organizer_id"]) if s.get("organizer_id") else None,
             luma_calendar=s.get("luma_calendar"),
             reader=s.get("reader"),
+            default_minutes=s.get("default_minutes") or by_kind.get(s["kind"]),
             page=s.get("page"),
             location=s.get("location"),
             aggregator=bool(s.get("aggregator", False)),
