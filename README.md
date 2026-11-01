@@ -122,7 +122,11 @@ are scrubbed of the key.
 
 ## Page filters (venue events only; your calendar always shows everything)
 
-Remembered per city in your browser: kind chips, "Hide this venue" / "Hide this title"
+Remembered per city in your browser: kind chips (with All / None, and "only" on each chip), "Hide this venue" / "Hide this title"
 from an event's popup (undo under "Hidden"), text search, jump to date, and "One card
 per show per day" (on by default), which turns repeated showtimes of the same film or
 show at one venue into one card listing its times.
+
+Categories (merged Nov 2026): Art & museums, Tech (incl. science), Wellness (incl.
+outdoors), Film, Stage, Music, Talks, Community, Food & wine, Sports. Older names in
+sources.yaml are folded in automatically. The Miami Beach Botanical Garden is switched off.

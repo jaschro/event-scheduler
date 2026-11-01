@@ -5,8 +5,8 @@
 #   key        stable id, used as `source` in events.json (never rename once live)
 #   name       display name shown on the page as the venue
 #   city       key from the cities block
-#   kind       tech, museum, art, film, stage, music, talks, science,
-#              food and wine, wellness, community, outdoors
+#   kind       tech, art (incl. museums), film, stage, music, talks,
+#              food and wine, wellness, community, sports
 #   method     ics | eventbrite | (later: tribe | jsonld | custom | browser)
 #   url        feed URL (ics) ; organizer_id for eventbrite
 #   luma_calendar  Luma page name (luma.com/<name>); its iCal feed is looked up at run time
@@ -123,7 +123,7 @@ sources:
   - key: um-rosenstiel
     name: UM Rosenstiel (Johnson Center)
     city: miami
-    kind: science
+    kind: tech
     method: eventbrite
     organizer_id: "121856689354"
     page: https://www.eventbrite.com/o/121856689354
@@ -132,7 +132,7 @@ sources:
   - key: the-bass
     name: The Bass
     city: miami
-    kind: museum
+    kind: art
     method: ics
     url: "webcal://thebass.org/?post_type=tribe_events&ical=1&eventDisplay=list"
     page: https://thebass.org/events/
@@ -140,7 +140,7 @@ sources:
   - key: jmof
     name: Jewish Museum of Florida-FIU
     city: miami
-    kind: museum
+    kind: art
     method: ics
     url: "webcal://calendar.fiu.edu/jmof/calendar/ics"
     page: https://calendar.fiu.edu/jmof
@@ -148,7 +148,7 @@ sources:
   - key: frost-science
     name: Frost Science
     city: miami
-    kind: science
+    kind: tech
     method: ics
     url: "https://www.frostscience.org/events/?ical=1"
     page: https://www.frostscience.org/calendar-events/
@@ -173,7 +173,7 @@ sources:
   - key: ica-miami
     name: ICA Miami
     city: miami
-    kind: museum
+    kind: art
     method: custom          # listing tiles + schema.org JSON-LD on each event page
     reader: ica
     page: https://icamiami.org/calendar/
@@ -227,16 +227,17 @@ sources:
   - key: mb-botanical
     name: Miami Beach Botanical Garden
     city: miami
-    kind: outdoors
+    kind: wellness
     method: custom          # Squarespace events collection as JSON (?format=json)
     reader: squarespace
+    enabled: false          # turned off Nov 2026 (not wanted)
     page: https://www.mbgarden.org/calendar
     location: "Miami Beach Botanical Garden, 2000 Convention Center Dr, Miami Beach"
 
   - key: rubell
     name: Rubell Museum
     city: miami
-    kind: museum
+    kind: art
     method: custom          # <h3>/<h5> blocks; page stale since August, so usually 0 events
     reader: rubell
     page: https://rubellmuseum.org/support/member-events
@@ -287,8 +288,8 @@ sources:
         - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"
 
   # ---------- Not collectable yet (see README "Blocked sources") ----------
-  - {key: pamm, name: PAMM, city: miami, kind: museum, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
-  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: museum, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners
+  - {key: pamm, name: PAMM, city: miami, kind: art, method: custom, enabled: false, page: "https://www.pamm.org/events"}         # pages answer 403 to bots; API has no dates
+  - {key: wolfsonian, name: Wolfsonian-FIU, city: miami, kind: art, method: custom, enabled: false, page: "https://wolfsonian.org/whats-on/events/index.html"}  # site unreachable from GitHub runners
 
   # ======================= New York (from nyc_sources.yaml, Nov 1 2026) =======================
   # ---------- NYC Step 1: feeds ----------
@@ -393,7 +394,7 @@ sources:
   - {key: nyc-pratt-arch, name: "Pratt Institute School of Architecture", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.pratt.edu/events/"}   # JSON: https://www.pratt.edu/wp-json/wp/v2/event?school=33
   - {key: nyc-nyu-stern, name: "NYU Stern School of Business", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.stern.nyu.edu/experience-stern/events"}
   - {key: nyc-ai-now, name: "AI Now Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://ainowinstitute.org/news/events"}   # dead or stale, see csv
-  - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: science, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
+  - {key: nyc-nyu-cds, name: "NYU Center for Data Science", city: nyc, kind: tech, method: custom, enabled: false, page: "https://cds.nyu.edu/events-feed/"}   # JSON: https://cds.nyu.edu/wp-json/my-calendar/v1/events?from=2026-11-01&to=2027-01-31
   - {key: nyc-cornell-tech, name: "Cornell Tech", city: nyc, kind: tech, method: custom, enabled: false, page: "https://tech.cornell.edu/events/"}
   - {key: nyc-cuny-gc, name: "Graduate Center, CUNY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.gc.cuny.edu/events"}
   - {key: nyc-jts, name: "Jewish Theological Seminary (JTS)", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.jtsa.edu/events"}   # JSON: https://www.jtsa.edu/wp-json/wp/v2/post_event
@@ -406,15 +407,15 @@ sources:
   - {key: nyc-ny-building-congress, name: "New York Building Congress", city: nyc, kind: talks, method: custom, enabled: false, page: "https://buildingcongress.com/events/"}
   - {key: nyc-noma-ny, name: "NOMA-NY", city: nyc, kind: talks, method: custom, enabled: false, page: "https://nomany.org/events/"}
   - {key: nyc-rpa, name: "Regional Plan Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://rpa.org/events/upcoming"}
-  - {key: nyc-skyscraper-museum, name: "The Skyscraper Museum", city: nyc, kind: museum, method: custom, enabled: false, page: "https://www.skyscraper.org/programs/"}
+  - {key: nyc-skyscraper-museum, name: "The Skyscraper Museum", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.skyscraper.org/programs/"}
   - {key: nyc-urban-design-forum, name: "Urban Design Forum", city: nyc, kind: talks, method: custom, enabled: false, page: "https://urbandesignforum.org/events/"}
   - {key: nyc-van-alen, name: "Van Alen Institute", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.vanalen.org/events/"}
   - {key: nyc-cfr, name: "Council on Foreign Relations", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.cfr.org/events"}
   - {key: nyc-carnegie-council, name: "Carnegie Council for Ethics in International Affairs", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.carnegiecouncil.org/events"}
   - {key: nyc-fpa, name: "Foreign Policy Association", city: nyc, kind: talks, method: custom, enabled: false, page: "https://www.fpa.org/"}   # dead or stale, see csv
   - {key: nyc-paley-center, name: "Paley Center for Media", city: nyc, kind: film, method: custom, enabled: false, page: "https://www.paleycenter.org/events"}
-  - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: museum, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar"}
-  - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: museum, method: custom, enabled: false, page: "https://www.moma.org/calendar"}
+  - {key: nyc-met, name: "Metropolitan Museum of Art", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.metmuseum.org/events/calendar"}
+  - {key: nyc-moma, name: "Museum of Modern Art (MoMA)", city: nyc, kind: art, method: custom, enabled: false, page: "https://www.moma.org/calendar"}
   - {key: nyc-club-free-time, name: "Club Free Time", city: nyc, kind: talks, method: custom, enabled: false, aggregator: true, page: "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures"}
   - {key: nyc-cjh, name: "Center for Jewish History", city: nyc, kind: talks, method: custom, enabled: false, page: "https://programs.cjh.org/"}
   - {key: nyc-yivo, name: "YIVO Institute for Jewish Research", city: nyc, kind: talks, method: custom, enabled: false, page: "https://yivo.org/Calendar?show=evs"}
@@ -434,11 +435,11 @@ sources:
   - {key: nyc-storefront, name: "Storefront for Art and Architecture", city: nyc, kind: art, method: browser, enabled: false, page: "https://storefrontnews.org/"}
   - {key: nyc-asia-society, name: "Asia Society (New York)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://asiasociety.org/new-york/events"}
   - {key: nyc-econ-club-ny, name: "Economic Club of New York", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.econclubny.org/web/pages/club-calendar"}
-  - {key: nyc-brooklyn-museum, name: "Brooklyn Museum", city: nyc, kind: museum, method: browser, enabled: false, page: "https://www.brooklynmuseum.org/calendar"}
+  - {key: nyc-brooklyn-museum, name: "Brooklyn Museum", city: nyc, kind: art, method: browser, enabled: false, page: "https://www.brooklynmuseum.org/calendar"}
   - {key: nyc-92ny, name: "92nd Street Y (92NY)", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.92ny.org/whats-on/events"}
   - {key: nyc-nypl, name: "New York Public Library", city: nyc, kind: talks, method: browser, enabled: false, page: "https://www.nypl.org/events/calendar?location=4"}
   - {key: nyc-thoughtgallery, name: "ThoughtGallery", city: nyc, kind: talks, method: browser, enabled: false, aggregator: true, page: "https://thoughtgallery.org"}
-  - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: museum, method: browser, enabled: false, page: "https://mjhnyc.org/current-events"}
+  - {key: nyc-mjh, name: "Museum of Jewish Heritage", city: nyc, kind: art, method: browser, enabled: false, page: "https://mjhnyc.org/current-events"}
 
   # ---------- NYC: Ticketmaster Discovery API ----------
   - key: ticketmaster-nyc
