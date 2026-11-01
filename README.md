@@ -72,10 +72,9 @@ Regenerate an adapter's expected output after an intended change:
 1. ManaTech, Hello Miami and Miami AI Hub find their Luma feeds from the page name
    (`luma_calendar`). If that lookup ever breaks, paste each calendar's link as `url`:
    on each calendar page, "Add iCal Subscription", copy the link into `sources.yaml`.
-2. Miami Beach arts calendar: copy its iCal subscribe link into `sources.yaml`.
-3. Refresh Miami: confirm `https://refreshmiami.com/events/?ical=1` returns a feed.
-4. Eventbrite private token as the repository Actions secret `EVENTBRITE_TOKEN`.
-5. Settings → Pages → Source: "GitHub Actions" (needed from step 2, when there is a site).
+
+Done: feed links for Miami Beach arts, Refresh Miami, Luma Miami and The Bass; the
+`EVENTBRITE_TOKEN` Actions secret; Pages source set to GitHub Actions.
 
 Done: Google Cloud project with the Calendar API, consent screen in Testing with
 jasonchroman@gmail.com as the only test user, `calendar.events` scope, and a web OAuth
