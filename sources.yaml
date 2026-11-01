@@ -39,7 +39,7 @@ sources:
     city: miami
     kind: art
     method: ics
-    url: null   # TODO(Jason/verify): copy the iCal subscribe link from events.miamibeachfl.gov/arts-and-culture/
+    url: "webcal://events.miamibeachfl.gov/?post_type=tribe_events&ical=1&eventDisplay=list&tribe_events_cat=mbartsculture"
     page: https://events.miamibeachfl.gov/arts-and-culture/
     aggregator: true
     priority: 0   # lowest priority in dedupe
