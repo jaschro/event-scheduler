@@ -92,7 +92,7 @@ def test_luma_calendar_lookup():
 def test_windows_time_zone_names():
     cfg = config()
     payload = (
-        "BEGIN:VCALENDAR\r\nVERSION:2.0\r\n"
+        "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nX-WR-TIMEZONE:Eastern Time (US & Canada)\r\n"
         "BEGIN:VTIMEZONE\r\nTZID:Eastern Time (US & Canada)\r\n"
         "BEGIN:STANDARD\r\nDTSTART:16010101T020000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0500\r\n"
         "RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11\r\nEND:STANDARD\r\n"
@@ -100,7 +100,7 @@ def test_windows_time_zone_names():
         "RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\n"
         "BEGIN:VEVENT\r\nUID:fiu-1\r\nSUMMARY:Gallery Talk\r\n"
         "DTSTART;TZID=\"Eastern Time (US & Canada)\":20261105T180000\r\n"
-        "DTEND;TZID=Eastern Time (US & Canada):20261105T193000\r\n"
+        "DTEND;TZID=Eastern Time (US \r\n & Canada):20261105T193000\r\n"
         "END:VEVENT\r\nEND:VCALENDAR\r\n"
     )
     events = run_adapter(ics, payload, cfg, "jmof")

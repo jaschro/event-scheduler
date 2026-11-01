@@ -80,15 +80,24 @@ WINDOWS_TZ = {
     "Pacific Time (US & Canada)": "America/Los_Angeles",
     "Pacific Standard Time": "America/Los_Angeles",
 }
-_TZID_RE = re.compile(r'(TZID[=:])"?([^";:\r\n]+?)"?(?=[;:\r\n])')
+_TZ_LINE_RE = re.compile(r'((?:TZID|X-WR-TIMEZONE)[=:])"?([^";:\r\n]+?)"?(?=[;:\r\n]|$)', re.MULTILINE)
 
 
 def fix_windows_tzids(text: str) -> str:
+    """Swap Windows zone names for IANA ones in TZID parameters/properties and X-WR-TIMEZONE."""
+    # Unfold continuation lines first so a name split across lines is still found.
+    text = re.sub(r"\r?\n[ \t]", "", text)
+
     def swap(m: re.Match) -> str:
         name = m.group(2).strip()
-        return m.group(1) + WINDOWS_TZ.get(name, m.group(2)) if name in WINDOWS_TZ else m.group(0)
+        return m.group(1) + WINDOWS_TZ[name] if name in WINDOWS_TZ else m.group(0)
 
-    return _TZID_RE.sub(swap, text)
+    text = _TZ_LINE_RE.sub(swap, text)
+    # The "(US & Canada)" names are unambiguous; replace any left in other spots too.
+    for name, iana in WINDOWS_TZ.items():
+        if "(US & Canada)" in name:
+            text = text.replace(name, iana)
+    return text
 
 
 def _text(component, name: str) -> str | None:
