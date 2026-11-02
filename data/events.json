@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T15:22:45+00:00",
+ "generated_at": "2026-11-02T20:39:30+00:00",
  "window": {
-  "start": "2026-11-01",
+  "start": "2026-11-02",
   "days": 14
  },
  "cities": [
@@ -119,510 +119,6 @@
     "text": null
    },
    "source": "nyc-cooper-union-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:54:31+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "3ef98cef250170e1",
-   "title": "Journey to Día de Muertos",
-   "venue": "Arsht Center",
-   "kind": "stage",
-   "start": "2026-11-01T00:00:00-04:00",
-   "end": "2026-11-02T00:00:00-05:00",
-   "all_day": true,
-   "description": "Calpulli Mexican Dance Company combines traditional dance, folk songs and classical music in a family-friendly story inspired by Día de Muertos. The performance takes place Sunday, November 1 at the Adrienne Arsht Center as part of the Arsht for Miami series. Alongside its theatrical narrative, the program introduces audiences to the history, symbolism and traditions associated with the Mexican holiday.\n\nDía de los Muertos follows Lupita and Raul, a loving couple separated by treachery and death. Lupita journeys into Mictlán, the underworld of Aztec mythology, where she encounters its…",
-   "url": "https://www.miamiandbeaches.com/event/journey-to-dia-de-muertos/41937",
-   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "arsht",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "da701136e4367f9a",
-   "title": "CENTRAL OPEN HOUSE 2026",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-01T09:00:00-05:00",
-   "end": "2026-11-01T13:00:00-05:00",
-   "all_day": false,
-   "description": "Organization: YUHS GIRLS\nSubmitter Name: Lewin, Menachem\nSubmitter Phone: 646-592-4101\nSubmitter Email: mlewin@yu.edu\nLocation: Off-Campus Location Name:: CENTRAL HIGH SCHOOL\nLocation: Off-Campus Location Address:: 86-86 PALO ALTO\nHOLIS , NY 11423\nEvent Locator: 2026-ABDMMV\n\nCENTRAL OPEN HOUSE 2026",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Off Campus",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "65e84ab5f9cdd9b4",
-   "title": "Lincoln Road Farmer's Market",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-01T09:00:00-05:00",
-   "end": "2026-11-01T18:00:00-05:00",
-   "all_day": false,
-   "description": "On Meridian Avenue through Washington Avenue, local vendors gather along Lincoln Road to sell fruits, vegetables, fresh-cut flowers and more. Rain or shine, guests are welcome to explore the area to find regional treasures.\nEvery Sunday at 9:00 AM – 6:00 PM on Lincoln Road.",
-   "url": "https://events.miamibeachfl.gov/event/lincoln-road-farmers-market/2026-11-01/",
-   "location": "Lenox Avenue & Lincoln Road, Miami Beach, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "892e8545cb7cf319",
-   "title": "THE ART & SCIENCE OF LIVING WELL",
-   "venue": "Miami Beach JCC",
-   "kind": "community",
-   "start": "2026-11-01T10:00:00-05:00",
-   "end": "2026-11-01T11:30:00-05:00",
-   "all_day": false,
-   "description": "A 90-Minute Interactive Wellness Experience with Ariela Jason, CFMP\nWe live in a world of constant information, stimulation, and distraction. We know more about health than ever before, yet with so much noise around us, it can be surprisingly difficult to recognize what our own bodies and minds are trying to tell us.\nThe Art & Science of Living Well is an engaging 90-minute experience that brings together personal storytelling, functional medicine insights, brain health, science-informed wellness, and practical tools for everyday life.\nTogether, we’ll explore how everyday patterns around…",
-   "url": "https://mbjcc.org/events/the-art-science-of-living-well/",
-   "location": "Miami Beach JCC, 4221 Pine Tree Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mbjcc",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "7fb57cef633d63ac",
-   "title": "Art Deco Murray Hill / Gramercy",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-01T11:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/art-deco-murray-gramercy/",
-   "location": null,
-   "price": {
-    "free": false,
-    "min": 25.0,
-    "text": "Member: $25 | Non-member: $35"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "c887f1a6e726a8ff",
-   "title": "Family Sundays at ICA Miami: Storytelling with Ms. Krystal",
-   "venue": "ICA Miami",
-   "kind": "art",
-   "start": "2026-11-01T11:00:00-05:00",
-   "end": "2026-11-01T19:00:00-05:00",
-   "all_day": false,
-   "description": "Join Ms. Krystal at ICA Miami on Sunday, November 1, 2026, for a bilingual musical storytime exploring nature and community. Free tickets; reservations required.",
-   "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-storytelling-with-ms-krystal-20261101/",
-   "location": "Institute of Contemporary Art, Miami, 61 NE 41st Street, Miami, FL",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "ica-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ed0e24f930fcab53",
-   "title": "The Village: Sites, Stories, & Synagogues Walking Tour",
-   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
-   "kind": "community",
-   "start": "2026-11-01T11:00:00-05:00",
-   "end": "2026-11-01T13:00:00-05:00",
-   "all_day": false,
-   "description": "The Lower East Side Jewish Conservancy hosts a tour of the often-overlooked Jewish history of Greenwich Village, which stretches back more than 200 years. Stops include Congregation Darech Amuno, housed in a 150-year-old converted townhouse and in the Village since 1838; one of the oldest Jewish cemeteries in the country, hidden in plain sight on West 11th Street; and an early home of Temple Emanu-El in a converted Baptist Church on East 12th Street. The walk also traces the many Jewish musicians, artists, and activists who shaped the neighborhood alongside figures like Dylan, Springsteen…",
-   "url": "https://www.myjewishlearning.com/the-hub/the-village-sites-stories-synagogues-walking-tour/",
-   "location": null,
-   "price": {
-    "free": false,
-    "min": 25.0,
-    "text": "$25"
-   },
-   "source": "nyc-ny-jewish-week",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "9afa3e77f9c5d19b",
-   "title": "Concert for Kids: Spooky Symphony",
-   "venue": "New World Center / NWS",
-   "kind": "music",
-   "start": "2026-11-01T11:30:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/concert-for-kids-spooky-symphony/",
-   "location": "New World Center, 500 17th St, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nws",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "6fae264109262224",
-   "title": "Open Studio",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-01T12:30:00-05:00",
-   "end": "2026-11-01T16:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/open-studio/2026-11-01/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ac6daa95e995f220",
-   "title": "FJORD",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-01T13:00:00-05:00",
-   "end": "2026-11-01T15:30:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/fjord",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "cd91b1261375c36e",
-   "title": "Navigating the Fall 2026 NYC Art Scene",
-   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
-   "kind": "community",
-   "start": "2026-11-01T13:00:00-05:00",
-   "end": "2026-11-01T14:00:00-05:00",
-   "all_day": false,
-   "description": "The Community Scholar Program hosts artist Tobi Kahn for a virtual tour of New York City gallery exhibitions in Fall 2026. Participants visit multiple galleries, hear from curators and art historians, and are introduced to new artists and contemporary works. The tour is designed to sharpen the eye and deepen appreciation of what is current in the art world.",
-   "url": "https://www.myjewishlearning.com/the-hub/navigating-the-fall-2026-nyc-art-scene/",
-   "location": null,
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-ny-jewish-week",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "6f3a990a9b18d233",
-   "title": "Book Launch -- Absence/Presence: 30 Years of Day Without Art",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-01T14:00:00-05:00",
-   "end": "2026-11-01T16:00:00-05:00",
-   "all_day": false,
-   "description": "The afternoon will bring together former Visual AIDS staff and contributors to the book for a series of short conversations spanning the history of Day Without Art. Editors Kyle Croft and Risa Puleo will reflect on the project’s emergence and its first decade; Amy Sadao and Nelson Santos will discuss its evolution through the 2000s; and Ted Kerr and Elizabeth Koke will consider Day Without Art from the 2010s to the present. Together, the conversations will reflect on the people who sustained the project, and how its strategies have changed alongside the AIDS epidem",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "85d656d7a87cb3e5",
-   "title": "FJORD",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-01T15:45:00-05:00",
-   "end": "2026-11-01T18:15:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/fjord",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "e9fdd5c745c17b31",
-   "title": "An Evening with Laura Childs Gill in conversation with Caroline Cabrera",
-   "venue": "Books & Books",
-   "kind": "talks",
-   "start": "2026-11-01T17:00:00-05:00",
-   "end": "2026-11-01T18:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for an evening with author Laura Childs Gill for the release of her new book, WHAT A HOUSE CAN HOLD.",
-   "url": "https://www.eventbrite.com/e/an-evening-with-laura-childs-gill-in-conversation-with-caroline-cabrera-tickets-1993024493912",
-   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "books-and-books",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:55:20+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "41ea873ccb5083ba",
-   "title": "Cuerda & Clave at The Betsy Piano Bar",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-01T18:00:00-05:00",
-   "end": "2026-11-01T23:00:00-05:00",
-   "all_day": false,
-   "description": "The Betsy Piano Bar hosts Cuerda & Clave every Sunday from 6 PM to 11 PM as part of Miami Beach’s longest-running live jazz series—seven days a week, nine shows weekly.\nEnjoy the dynamic sounds of acclaimed pianist and composer Edgar Pantoja, whose music blends Cuban roots with global rhythms, alongside percussionist Gabriel Ramon Placido, a Puerto Rican artist with international orchestral and jazz experience. Together, they deliver a vibrant fusion of Latin jazz, improvisation, and world music.\nDetails & Reservations: thebetsyhotel.com/calendar",
-   "url": "https://events.miamibeachfl.gov/event/cuerda-clave-at-the-betsy-piano-bar/2026-11-01/",
-   "location": "betsey hotel, 1440 Ocean Dr, Miami Beach, Fl, 33139",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d0c4d8dc0b3260c9",
-   "title": "The Ocean Drive Promenade Music Series",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-01T18:00:00-05:00",
-   "end": "2026-11-01T19:30:00-05:00",
-   "all_day": false,
-   "description": "Ocean Drive Arts presents culturally rich experiences in the heart of beautiful Miami Beach. Featuring free concerts, visual art fairs, literary events, health & wellness activities and culinary activations, these family friendly programs celebrate the best of Miami Beach with exciting local talents. Events take place Sunday afternoons among the swaying palm trees wrapped in gentle ocean breezes on the Ocean Drive Promenade located between 14th Street and 14th Place. Take a stroll on one of America’s iconic boulevards to experience the best of arts and culture with Ocean Drive Arts.\nThe Ocean…",
-   "url": "https://events.miamibeachfl.gov/event/the-ocean-drive-promenade-music-series/2026-11-01/",
-   "location": "Lummus Park – 14 Street & Ocean Drive",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "98bc01e4b3e0d33f",
-   "title": "The Rocky Horror Picture Show meets Dia de Los Muertos",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-01T18:00:00-05:00",
-   "end": "2026-11-01T22:00:00-05:00",
-   "all_day": false,
-   "description": "Death has never looked so fabulous. This year, O Cinema’s annual screening returns with a Día de los Muertos celebration where fishnets meet flower crowns, glitter meets sugar skulls, and everyone is invited to do the Time Warp. Dress as your favorite Rocky character, create a glamorous calavera look, or mash them together for one unforgettable night of costumes, callbacks, music, and mayhem. Featuring Drag Queen TP Lords, shadowcast The Faithful Handymen, music by DJ Cavaliere Inesistente, Costume Contest, Community Altar, Virgin Sacrifice and more! FREE movie prop bags while supplies last…",
-   "url": "https://events.miamibeachfl.gov/event/the-rocky-horror-picture-show-meets-dia-de-los-muertos/",
-   "location": "Miami Beach Bandshell, 7275 Collins Avenue, Miami Beach, 33141, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "e1d3eca317747134",
-   "title": "FJORD",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-01T18:30:00-05:00",
-   "end": "2026-11-01T21:00:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/fjord",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8040685ba6800e65",
-   "title": "The Rocky Horror Picture Show & Day of the Dead",
-   "venue": "Miami Beach Bandshell",
-   "kind": "music",
-   "start": "2026-11-01T19:00:00-05:00",
-   "end": "2026-11-01T22:00:00-05:00",
-   "all_day": false,
-   "description": "Death has never looked so fabulous. This year, O Cinema’s annual screening returns with a Día de los Muertos celebration.",
-   "url": "https://miamibeachbandshell.com/event/the-rocky-horror-picture-show-day-of-the-dead/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "bandshell",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "1eefdbda8541cf29",
-   "title": "The Rocky Horror Picture Show - Ages 18+",
-   "venue": "Miami Beach Bandshell",
-   "kind": "stage",
-   "start": "2026-11-01T19:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZzrZ",
-   "location": "7275 Collins Avenue, Miami Beach FL 33141, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "ticketmaster-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "53c8bd3fa884e445",
-   "title": "FJORD",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-01T21:15:00-05:00",
-   "end": "2026-11-01T23:45:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041133~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/fjord",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "1f63fa5a644a8b7b",
-   "title": "Moonlighter FabLab: Homeschool STEAM Sessions - 2026-2027",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-02T10:30:00-05:00",
-   "end": "2026-11-02T12:30:00-05:00",
-   "all_day": false,
-   "description": "Supplement your homeschooling with quality project-based learning activities that introduce STEAM concepts for students ages 7-12.\n\nStudents will explore STEAM concepts, work on guided projects, share their progress, and learn how to reflect and document their work like real makers.\nStudents may bring a small snack for our short break periods; however, full lunches should not be brought to class.\nPrice: $425\nFormat: 6 sessions per package, once a week on Mondays (excluding holidays)\nTime: 10:30 AM – 1:30 PM\nFall Package 1 – (6 Sessions)\nSept 14, Sept 21, Sept 28, Oct 5, Oct 12, Oct 19\nFall…",
-   "url": "https://events.miamibeachfl.gov/event/homeschool-steam-sessions-2026-2027/2026-11-02/",
-   "location": "Moonlighter FabLab, 1661 Pennsylvania Ave, Miami Beach, FL, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "f9d394625770b3b2",
-   "title": "Israel Spring 2027: Trip Info Session",
-   "venue": "Columbia Law School",
-   "kind": "talks",
-   "start": "2026-11-02T12:30:00-05:00",
-   "end": "2026-11-02T13:30:00-05:00",
-   "all_day": false,
-   "description": "Join us to learn about itrek's upcoming Law, Policy, and National Security spring break trip to Israel. This heavily subsidized program is built for students with no prior experience or connection to Israel or Judaism, and offers rare access to influential legal, policy, and national security leaders across the ideological spectrum.\n\nProfessor Nadav Eyal, award-winning Israeli journalist and Senior Research Scholar at SIPA, and Professor Matthew Waxman will discuss the trip, what participants can expect, and the issues we’ll explore.\n---\nEvent Details…",
-   "url": "https://connect.law.columbia.edu/rsvp?id=1929447",
-   "location": "Jerome Green Hall 105, 435 W 116th St, New York, NY 10027, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-law",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "bb0cd3b78327f5d2",
-   "title": "A New Heaven and a New Earth: How the Bible Cultivates Hope for the Future",
-   "venue": "Jewish Theological Seminary (JTS)",
-   "kind": "talks",
-   "start": "2026-11-02T13:00:00-05:00",
-   "end": "2026-11-02T14:10:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://www.jtsa.edu/event/how-bible-cultivates-hope-future/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-jts",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
@@ -3295,6 +2791,27 @@
    "city": "miami"
   },
   {
+   "id": "9b679cbf4142e0b0",
+   "title": "Bridges In Sound Concert Series: That’s How the Light Gets In",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-05T19:00:00-05:00",
+   "end": "2026-11-05T21:00:00-05:00",
+   "all_day": false,
+   "description": "Congregation Rodeph Sholom hosts a concert marking Leonard Cohen’s tenth yahrzeit with New York performers Shira Averbuch, Dan Nadel, Meg Okura, and Satoshi Takeishi, along with special guests Cantor Chaim Dovid Berson, Cantor Shayna De Lowe, and Shira Bodnar. The concert series is sponsored by Congregation Rodeph Sholom and 92NY and co-sponsored by Congregation B’nai Jeshurun.",
+   "url": "https://www.myjewishlearning.com/the-hub/bridges-in-sound-concert-series-thats-how-the-light-gets-in/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 18.0,
+    "text": "$18"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "fe20538c9ba00a44",
    "title": "Mega Game Night",
    "venue": "Miami Beach JCC",
@@ -3566,6 +3083,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T14:54:31+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "5acb135c0abdb8ec",
+   "title": "MIA Sunset Harbor: Mysha x Maman Mornings",
+   "venue": "Luma Miami",
+   "kind": "community",
+   "start": "2026-11-06T09:30:00-05:00",
+   "end": "2026-11-06T11:00:00-05:00",
+   "all_day": false,
+   "description": "Get up-to-date information at: https://luma.com/hexofj8z\n\nAddress:\nmaman\nMiami Beach, Florida\nUnited States\n\nYou're invited to a new Mysha monthly ritual.\nIn partnership with Maman, we are excited to welcome you to Mysha x Maman Mornings - happening the first Friday of the month.\nThis is an informal, lightly facilitated morning experience... call it your standing Mysha local pod coffee.\nThis is an opportunity for a quick connection with like valued moms at a similar stage in their journey. Come fill your cup, literally and figuratively with the energy that you expect from this…",
+   "url": "https://luma.com/hexofj8z",
+   "location": "maman, 1874 Bay Rd, Miami Beach, FL 33139, USA",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "luma-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
   },
   {
    "id": "d3adbc4a66f443a7",
@@ -4177,6 +3715,27 @@
    "city": "miami"
   },
   {
+   "id": "fa9017d308e4b548",
+   "title": "Teen Workshop: Architectural Model Making (Grades 9-12)",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "architecture",
+   "start": "2026-11-07T10:00:00-05:00",
+   "end": "2026-11-07T16:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/07/teen-workshop-architectural-model-making-grades-9-12-8/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "dde7cb3859207789",
    "title": "Alebrije Makers: Form, Myth & Color",
    "venue": "Oolite Arts",
@@ -4196,6 +3755,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "7bcf7ad1f10cf7fa",
+   "title": "Walking Tour: Mid-Century Modernism Along Manhattan’s 53rd Street",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-07T10:30:00-05:00",
+   "end": "2026-11-07T12:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/07/walking-tour-mid-century-modernism-along-manhattans-53rd-street-8/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
   },
   {
    "id": "1bf50a39e21a3d4d",
@@ -4952,6 +4532,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "miami"
+  },
+  {
+   "id": "49b83a35a3ac0522",
+   "title": "Mock Trial Meeting",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-08T17:30:00-05:00",
+   "end": "2026-11-08T20:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Mock Trial Meeting\nOrganization: STUDENT LIFE\nSubmitter Name: Isack, Deborah\nSubmitter Email: debbie.isack@yu.edu\nEvent Locator: 2026-ABDZTW\n\nMock Trial Meeting",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Wilf-Glueck Center-417",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
   },
   {
    "id": "bdc29e0bd31b02fe",
@@ -6025,27 +5626,6 @@
    "city": "miami"
   },
   {
-   "id": "dd31facafe780b9b",
-   "title": "Stanford Entrepreneurs: Exited & Scaling Founders, Miami",
-   "venue": "ManaTech",
-   "kind": "tech",
-   "start": "2026-11-10T17:30:00-05:00",
-   "end": "2026-11-10T20:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/0ghujn2p\n\nAddress:\nCheck event page for more details.\n\nHosted by callmejz & Mana Tech",
-   "url": "https://luma.com/0ghujn2p",
-   "location": "https://luma.com/event/evt-tQmsCJHlRlFfuHc",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "manatech",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
    "id": "e8bf148406c0dd14",
    "title": "The Hedge Fund Landscape: Risk Mitigation, AI Integration, and Mega Funds",
    "venue": "CFA Society New York",
@@ -6340,6 +5920,48 @@
    "city": "miami"
   },
   {
+   "id": "1287dbf06a7c3788",
+   "title": "Knightcap at The Shelborne",
+   "venue": "Luma Miami",
+   "kind": "community",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T22:30:00-05:00",
+   "all_day": false,
+   "description": "Get up-to-date information at: https://luma.com/fsrdw8fr\n\nAddress:\nThe Shelborne By Proper\nMiami Beach, FL\nUnited States\n\nBack at The Shelborne! Hotel lobby vibes, chess & martinis.\nEight by eight 'til late.\n\nHosted by Knightcap Chess Club, Ian S & Marcos M",
+   "url": "https://luma.com/fsrdw8fr",
+   "location": "The Shelborne By Proper, 1801 Collins Ave, Miami Beach, FL 33139, USA",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "luma-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "269ba903b3f48aee",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-10T19:00:00-05:00",
+   "end": "2026-11-10T21:30:00-05:00",
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
    "id": "4ada3cbb6ea6b385",
    "title": "Maybe Happy Ending - Broadway Show",
    "venue": "Columbia Business School",
@@ -6527,27 +6149,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "ff60364711de4ca7",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-10T21:15:00-05:00",
-   "end": "2026-11-10T23:45:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
   },
   {
    "id": "09342e5050bba4a4",
@@ -9176,6 +8777,489 @@
    "source": "gables-cinema",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T06:00:45+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "214d0f7f0b2c84c7",
+   "title": "Grand Season Opening: The Steinway Artist Series I",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-15T00:00:00-05:00",
+   "end": "2026-11-16T00:00:00-05:00",
+   "all_day": true,
+   "description": "Pianist Tian Jiang joins the Miami Symphony Orchestra for a season-opening program of Romantic virtuosity and symphonic momentum at the Adrienne Arsht Center. Grand Season Opening: The Steinway Artist Series I takes place Sunday, November 15 in Knight Concert Hall.\n\nLed by music director and conductor Eduardo Marturet, the concert opens MISO’s 2026-27 season and introduces the orchestra’s Steinway Artist Series, a season-long focus on internationally recognized Steinway pianists and piano-centered repertoire. The series is designed to pair featured soloists with symphonic works, multipiano…",
+   "url": "https://www.miamiandbeaches.com/event/grand-season-opening-the-steinway-artist-series-i/41231",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 35.1,
+    "text": "$35.1"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "3563501310198cc3",
+   "title": "Lincoln Road Farmer's Market",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-15T09:00:00-05:00",
+   "end": "2026-11-15T18:00:00-05:00",
+   "all_day": false,
+   "description": "On Meridian Avenue through Washington Avenue, local vendors gather along Lincoln Road to sell fruits, vegetables, fresh-cut flowers and more. Rain or shine, guests are welcome to explore the area to find regional treasures.\nEvery Sunday at 9:00 AM – 6:00 PM on Lincoln Road.",
+   "url": "https://events.miamibeachfl.gov/event/lincoln-road-farmers-market/2026-11-15/",
+   "location": "Lenox Avenue & Lincoln Road, Miami Beach, 33139, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "a77e3dd2db509357",
+   "title": "MTA OPEN HOUSE 2026",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-15T09:00:00-05:00",
+   "end": "2026-11-15T16:00:00-05:00",
+   "all_day": false,
+   "description": "Organization: YUHS BOYS\nSubmitter Name: Lewin, Menachem\nSubmitter Email: mlewin@yu.edu\nSubmitter Phone: 646-592-4101\nEvent Locator: 2026-ABDLZK\n\nMTA OPEN HOUSE 2026",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Zysman Hall",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "cc964deafe99659f",
+   "title": "Women's Open House 2025 -BEREN Camp",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-15T09:00:00-05:00",
+   "end": "2026-11-15T16:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: Women's Open House 2026 -Beren Campus\nOrganization: ADMISSIONS\nSubmitter Name: Lewin, Menachem\nSubmitter Email: mlewin@yu.edu\nSubmitter Phone: 646-592-4101\nEvent Locator: 2026-ABDWAW\n\nWomen's Open House 2025 -BEREN Campus",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Israel Henry Beren Campus",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "62fddc1306237493",
+   "title": "Tech Lab Club: Animation (Session 4)",
+   "venue": "Frost Science",
+   "kind": "tech",
+   "start": "2026-11-15T10:00:00-05:00",
+   "end": "2026-11-15T14:00:00-05:00",
+   "all_day": false,
+   "description": "Science, Technology, and Immersive Storytelling",
+   "url": "https://www.frostscience.org/event/tech-lab-club-animation-session-4/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "frost-science",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "57f24d094a5cf825",
+   "title": "Family Sundays at ICA Miami: Art Making with Paloma",
+   "venue": "ICA Miami",
+   "kind": "art",
+   "start": "2026-11-15T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "Explore hands-on art making for all ages at ICA Miami’s Family Sundays. Experiment with folding, color, and spray bottles on Nov 15. Free admission with RSVP.",
+   "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-art-making-with-paloma-20261115/",
+   "location": "Institute of Contemporary Art, Miami, 61 NE 41st Street, Miami, FL",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "ica-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8491f8ccfc1097de",
+   "title": "Fantastic Mr. Fox",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-15T11:00:00-05:00",
+   "end": "2026-11-15T13:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "5e31ebe773d8f70d",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-15T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-15-2026/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a23d7451906aa486",
+   "title": "Histories of Social Housing in NYC",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-15T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/histories-of-social-housing/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "38a1da3b4e52cd73",
+   "title": "Open Studio",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-15T12:30:00-05:00",
+   "end": "2026-11-15T16:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/open-studio/2026-11-15/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "132101239d55fce2",
+   "title": "Queen at Sea",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-15T13:00:00-05:00",
+   "end": "2026-11-15T15:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "c747e7a964e9c648",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-15T14:00:00-05:00",
+   "end": "2026-11-15T16:30:00-05:00",
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8877384555a83df3",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-15T15:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ecf856d1fe94978b",
+   "title": "Fatherland",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-15T15:45:00-05:00",
+   "end": "2026-11-15T18:15:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "d8049efe3c15e3f8",
+   "title": "Fi-Sci | An Evening with Rhona Trauvitch in conversation with Leanne Wells",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-15T17:00:00-05:00",
+   "end": "2026-11-15T18:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with author Rhona Trauvitch for the release of her new book, FI-SCI: AVATARS OF SCIENCE IN FICTION.",
+   "url": "https://www.eventbrite.com/e/fi-sci-an-evening-with-rhona-trauvitch-in-conversation-with-leanne-wells-tickets-2000457337748",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "08e61e675a1fdb5d",
+   "title": "Workshops @ The Bass | Syntropy: Learning To See Is The First Step with Juan Pablo Bohorquez",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-15T17:00:00-05:00",
+   "end": "2026-11-15T19:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/workshops-the-bass-syntropy-learning-to-see-is-the-first-step-with-juan-pablo-bohorquez/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "5cf17e39972cecf8",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-15T17:15:00-05:00",
+   "end": "2026-11-15T19:45:00-05:00",
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "5292bba72f1e4d4c",
+   "title": "Queen at Sea",
+   "venue": "Coral Gables Art Cinema",
+   "kind": "film",
+   "start": "2026-11-15T17:45:00-05:00",
+   "end": "2026-11-15T20:15:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://gablescinema.com/calendar/",
+   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "gables-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8d3884b525c7914e",
+   "title": "Cuerda & Clave at The Betsy Piano Bar",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-15T18:00:00-05:00",
+   "end": "2026-11-15T23:00:00-05:00",
+   "all_day": false,
+   "description": "The Betsy Piano Bar hosts Cuerda & Clave every Sunday from 6 PM to 11 PM as part of Miami Beach’s longest-running live jazz series—seven days a week, nine shows weekly.\nEnjoy the dynamic sounds of acclaimed pianist and composer Edgar Pantoja, whose music blends Cuban roots with global rhythms, alongside percussionist Gabriel Ramon Placido, a Puerto Rican artist with international orchestral and jazz experience. Together, they deliver a vibrant fusion of Latin jazz, improvisation, and world music.\nDetails & Reservations: thebetsyhotel.com/calendar",
+   "url": "https://events.miamibeachfl.gov/event/cuerda-clave-at-the-betsy-piano-bar/2026-11-15/",
+   "location": "betsey hotel, 1440 Ocean Dr, Miami Beach, Fl, 33139",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "28263460a026e03d",
+   "title": "Live Arts Miami: Saami Brothers Qawwali",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-15T18:00:00-05:00",
+   "end": "2026-11-15T21:00:00-05:00",
+   "all_day": false,
+   "description": "Purchase Tickets\n\nLive Arts Miami’s MUNDO Live Music Series welcomes The Saami Brothers, among the world’s foremost Qawwali practitioners, for an evening of Sufi devotional music at the Miami Beach Bandshell.\nCarrying an unbroken musical lineage nearly 800 years old from Karachi, Pakistan, the Saami Brothers are hereditary musicians of the Qawwal Bacha Delhi Gharana, founded by 13th-century mystic and poet Amir Khusrau. Through hypnotic rhythms, soaring vocal improvisation, ecstatic call-and-response, and centuries-old poetry, Qawwali reaches toward wajd – a state of spiritual ecstasy and…",
+   "url": "https://events.miamibeachfl.gov/event/live-arts-miami-saami-brothers-qawwali/",
+   "location": "Miami Beach Bandshell, 7275 Collins Avenue, Miami Beach, 33141, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "389c4ee01d550846",
+   "title": "The Ocean Drive Promenade Music Series",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-15T18:00:00-05:00",
+   "end": "2026-11-15T19:30:00-05:00",
+   "all_day": false,
+   "description": "Ocean Drive Arts presents culturally rich experiences in the heart of beautiful Miami Beach. Featuring free concerts, visual art fairs, literary events, health & wellness activities and culinary activations, these family friendly programs celebrate the best of Miami Beach with exciting local talents. Events take place Sunday afternoons among the swaying palm trees wrapped in gentle ocean breezes on the Ocean Drive Promenade located between 14th Street and 14th Place. Take a stroll on one of America’s iconic boulevards to experience the best of arts and culture with Ocean Drive Arts.\nThe Ocean…",
+   "url": "https://events.miamibeachfl.gov/event/the-ocean-drive-promenade-music-series/2026-11-15/",
+   "location": "Lummus Park – 14 Street & Ocean Drive",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ee18a2f428dc9e4a",
+   "title": "The Saami Brothers",
+   "venue": "Miami Beach Bandshell",
+   "kind": "music",
+   "start": "2026-11-15T19:00:00-05:00",
+   "end": "2026-11-15T21:00:00-05:00",
+   "all_day": false,
+   "description": "Discover the sound of Sufi Devotion – these master practitioners of Qawwali bring an 800-year-old musical lineage from Pakistan to Miami Beach.",
+   "url": "https://miamibeachbandshell.com/event/the-saami-brothers/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "bandshell",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "206d5af5c8acb794",
+   "title": "LA BOLA NEGRA",
+   "venue": "O Cinema South Beach",
+   "kind": "film",
+   "start": "2026-11-15T20:30:00-05:00",
+   "end": "2026-11-15T23:00:00-05:00",
+   "all_day": false,
+   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
+   "url": "https://www.o-cinema.org/events/la-bola-negra",
+   "location": "O Cinema South Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "o-cinema",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-02T20:39:30+00:00",
    "city": "miami"
   }
  ]
