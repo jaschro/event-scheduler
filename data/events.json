@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T18:44:38+00:00",
+ "generated_at": "2026-11-16T20:51:12+00:00",
  "window": {
-  "start": "2026-11-12",
+  "start": "2026-11-16",
   "days": 14
  },
  "cities": [
@@ -37,27 +37,6 @@
    "source": "nyc-ccny-ssa",
    "also_listed_by": [],
    "fetched_at": "2026-11-01T15:02:06+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "dd4ac263af42b45d",
-   "title": "Primers for a Handmade Utopia",
-   "venue": "Cooper Union School of Architecture",
-   "kind": "talks",
-   "start": "2026-10-08T00:00:00-04:00",
-   "end": "2026-11-16T00:00:00-05:00",
-   "all_day": true,
-   "description": "",
-   "url": "https://cooper.edu/architecture/exhibitions/primers-handmade-utopia",
-   "location": "The Cooper Union, 7 E 7th St, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-cooper-union-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
    "city": "nyc"
   },
   {
@@ -187,2841 +166,25 @@
    "city": "nyc"
   },
   {
-   "id": "09342e5050bba4a4",
-   "title": "CloudFest Americas and NamesCon Global",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-11T00:00:00-05:00",
-   "end": "2026-11-13T00:00:00-05:00",
-   "all_day": true,
-   "description": "CloudFest Americas is part of the CloudFest global event series and serves as the convergence point for the Cloud and internet infrastructure ecosystem across the Americas. This is where the full value chain comes together to do business, form partnerships, share ideas, and celebrate the culture that powers the internet.\nThis festival is designed and built for the people and companies who power, scale, and support the internet. We are the internet infrastructure festival of the year—bringing CSPs, web hosters, MSPs, web agencies, corporate IT and the open-source landscape together in a…",
-   "url": "https://refreshmiami.com/event/cloudfest-americas/",
-   "location": "Ice Palace Studios, 1400 N Miami Ave, Miami, FL, 33136, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "dfdfa410979325cf",
-   "title": "ReeFLorida Symposium 2026",
-   "venue": "Frost Science",
-   "kind": "tech",
-   "start": "2026-11-11T00:00:00-05:00",
-   "end": "2026-11-14T00:00:00-05:00",
-   "all_day": true,
-   "description": "The annual gathering of researchers, conservationists, educators, and managers focused on Florida’s Coral Reef.",
-   "url": "https://www.frostscience.org/event/reeflorida-symposium-2026/",
-   "location": "Phillip and Patricia Frost Museum of Science, 1101 Biscayne Blvd, Miami, FL, 33132, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "frost-science",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ebb54386a13d252f",
-   "title": "Financial & Valuation Modeling - Wall Street Prep",
-   "venue": "CFA Society New York",
+   "id": "6c7f8ac274365940",
+   "title": "AI Safety and Governance",
+   "venue": "Council on Foreign Relations",
    "kind": "talks",
-   "start": "2026-11-11T09:00:00-05:00",
-   "end": "2026-11-13T17:00:00-05:00",
-   "all_day": false,
-   "description": "Presented by Wall Street Prep | Hosted at CFA Society New York\nBoot Camp DetailsOverviewScheduleAdditional InformationOverviewThis boot camp is an intensive virtual training program where trainees learn financial and valuation modeling in Excel using an intuitive, step-by-step approach. Participants will use real case studies to build financial models from scratch the way it is done at financial institutions. The program is a synthesis of Excel modeling, navigating through various financial reports, and the application of accounting, corporate finance, and valuation courses.Schedule\nEach day…",
-   "url": "https://cfany.org/event/financial-valuation-modeling-wall-street-prep-6/",
-   "location": "CFA Society New York, 1540 Broadway, New York City, NY, 10036, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-cfa-ny",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T15:02:06+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "705fc46afd9ec820",
-   "title": "Common With Nu Deco Ensemble",
-   "venue": "Arsht Center",
-   "kind": "stage",
-   "start": "2026-11-12T00:00:00-05:00",
-   "end": "2026-11-13T00:00:00-05:00",
-   "all_day": true,
-   "description": "Common joins Nu Deco Ensemble for a genre-crossing concert that brings hip-hop, orchestral performance and cinematic songwriting to the Knight Concert Hall. The performance takes place Thursday, November 12 at the Adrienne Arsht Center as part of the 2026-2027 Live at Knight series. Conducted by Sam Hyken, the one-night program features selections from Common’s catalog arranged with Nu Deco’s hybrid orchestral sound.\n\nCommon’s career spans music, film, television, theater, writing and activism. Since his 1992 debut album Can I Borrow a Dollar? , he has become known for thoughtful lyricism and…",
-   "url": "https://www.miamiandbeaches.com/event/common-with-nu-deco-ensemble/40341",
-   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "arsht",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "36a3779bcc7bdf41",
-   "title": "God of Carnage",
-   "venue": "Arsht Center",
-   "kind": "stage",
-   "start": "2026-11-12T00:00:00-05:00",
-   "end": "2026-11-22T00:00:00-05:00",
-   "all_day": true,
-   "description": "A sharply comic portrait of social etiquette unraveling comes to the Adrienne Arsht Center as part of the Theater Up Close series. Running on select dates from November 5 through 22, God of Carnage is presented by Zoetic Stage and the Adrienne Arsht Center.\n\nWritten by Yasmina Reza and translated by Christopher Hampton, the play follows two sets of Brooklyn parents who meet to discuss a playground fight between their sons. What begins as a controlled conversation about responsibility and civility gradually breaks down into accusations, conflict and alcohol-fueled chaos.\n\nThe production opens…",
-   "url": "https://www.miamiandbeaches.com/event/god-of-carnage/40014",
-   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
-   "price": {
-    "free": false,
-    "min": 66.69,
-    "text": "$66.69"
-   },
-   "source": "arsht",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "3fc1e3eb23473ff7",
-   "title": "The Power Broker: A Marathon Reading",
-   "venue": "Regional Plan Association",
-   "kind": "talks",
-   "start": "2026-11-12T00:00:00-05:00",
-   "end": "2026-11-13T00:00:00-05:00",
-   "all_day": true,
-   "description": "",
-   "url": "https://judgybaby.com/power-broker/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-rpa",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "0937f662227440d2",
-   "title": "Miami Fintech Club Coworking Day",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-12T10:00:00-05:00",
-   "end": "2026-11-12T18:00:00-05:00",
-   "all_day": false,
-   "description": "Miami Fintech Club Coworking Day at Mana Tech\n​Fintech founders, operators, investors, and innovators, we’re excited to partner with Mana Tech to bring the Miami Fintech Club community together for a day of coworking, collaboration, and meaningful connections in the heart of Downtown Miami.\n​Whether you’re building the next generation of financial services, scaling a startup, exploring new partnerships, or simply looking for a productive environment surrounded by fellow innovators, this is a great opportunity to connect with Miami’s growing fintech ecosystem.\n​What’s Included?\n​✅ Free…",
-   "url": "https://refreshmiami.com/event/miami-fintech-club-coworking-day-2/",
-   "location": "Mana Tech Loft 10, 21 SE 1st Ave # 10, Miami, FL, 33131, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "2291f7d106997cad",
-   "title": "\"Art & Science of Execution\" Roundtable Lunch Series: Richard Jaffe '92 (Operating Partner, Overton Venture Capital)",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T12:30:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "The Deming Center at Columbia Business School invites you to attend a sit-down lunch in conversation with Richard Jaffe '92 (Operating Partner, Overton Venture Capital) as part of its “The Art and Science of Execution” Roundtable Series. The lunch will be open to the first 25 students who sign up. Once filled, students can join a waitlist to attend. Please reach out deming@gsb.columbia.edu with any questions.\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=151394",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=151394",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "17964f6916aa0301",
-   "title": "CWiB Letter Writing",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T12:30:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "💌 Join CWiB Social Impact to write holiday cards for older New Yorkers! Citymeals on Wheels delivers nutritious meals and offers companionship to homebound older New Yorkers. A guest speaker from Citymeals will join us on Zoom to share more about the program.\n\n✍️ It only takes a few minutes to write a card, and we’d love for you to stop by and help us spread some holiday cheer! ❤️\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154370",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154370",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "cc47b365eaf6b385",
-   "title": "Econ Lunch Seminar",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T12:30:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "The Economics Division has a weekly seminar each Thursday with a new speaker each week.\nThe Economics Division only provides lunch for B-School faculty and BusEc PhD students only.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=142566",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=142566",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "092c7ea3a223ebc8",
-   "title": "Fireside Chat with Maggie Wu: Inside Manhattan Luxury Real Estate",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T12:30:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "Maggie Wu has closed more than $800 million in Manhattan real estate and ranks in the top 0.1% of agents nationally. You might know her from Season 1 of Netflix’s Owning Manhattan. She now leads The W Team at Compass, ranked #7 among small teams in the city. Join us for a fireside chat on how she broke into one of the toughest markets in the country, built her own team, and earned the trust of clients buying and selling some of New York’s most expensive homes.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=152633",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=152633",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "1aeb3801c92e1374",
-   "title": "GBC and E&I Lunch & Learn Series: Geothermal",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T12:30:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "Host: Climate Knowledge Initiative (CKI) in collaboration with the Green Business Club and Energy & Infrastructure Club\n\nAbout CKI: The Climate Knowledge Initiative (CKI) conducts rigorous techno-economic analyses and translates them into actionable, business-relevant insights to support informed decision-making on climate and energy solutions. Through research publications, online tools, and stakeholder engagement, CKI bridges the knowledge gap between academia and business leaders. With 15-20 fellows each term, a network of over 100 fellowship alumni, and seven flagship workshops engaging…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154255",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "aa74c04b4478a101",
-   "title": "Lunch and Learn - Panel on Committed Capital Vehicles",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T12:30:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "Panel with international investors about committed capital vehicles\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=145198",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=145198",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "f977c896f576f8d1",
-   "title": "Thursday Test Event",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T13:00:00-05:00",
-   "end": "2026-11-12T14:00:00-05:00",
-   "all_day": false,
-   "description": "test event\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154244",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154244",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "51128e9e74ae1141",
-   "title": "WSSW Lunch & Learn Series",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-12T13:15:00-05:00",
-   "end": "2026-11-12T14:15:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Lunch & Learn Series: AI use in Social Work Practice\nOrganization: WURZWEILER SCHOOL OF SOCIAL WORK\nSubmitter Name: Pendleton, Kayshala\nSubmitter Email: kayshala.pendleton@yu.edu\nEvent Locator: 2026-ABFABQ\n\nJoin the Wurzweiler School of Social Work for our Lunch & Learn Series!\n\nTake a break and join the Wurzweiler School of Social Work for an engaging series designed to share ideas and explore topics that inspire professional and personal growth. A kosher dairy lunch will be provided to students who pre-register for our in-person sessions.\n\nThe Wurzweiler Lunch & Learn Series…",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Wilf-Belfer Hall-921 Wurzweiler Multimedia Room",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "3b0579c43f45cd74",
-   "title": "Claude SMB Workshop with DX1st - Miami",
-   "venue": "Luma Miami",
-   "kind": "community",
-   "start": "2026-11-12T13:30:00-05:00",
-   "end": "2026-11-12T16:30:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/0ywomz65\n\nAddress:\nCheck event page for more details.\n\nLearn how to put Claude to work in your small business.\nThe Claude SMB Workshop in partnership with the AI Center at Barry University is coming to Miami, hosted by DX1st — an Approved Claude SMB Trainer organization.\nWe'll connect Claude to the tools you already use (QuickBooks, Shopify, Gusto, and more) and run real workflows together: answering leads, turning a voice memo into a priced proposal, closing the books, and a Monday brief that starts your week with cash, leads, and priorities in…",
-   "url": "https://luma.com/0ywomz65",
-   "location": "https://luma.com/event/evt-o3OLN9qIZ5CSXXs",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "luma-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "52aa0d18a3c84f28",
-   "title": "Paris: Using AI to Enhance Critical Thinking: The Future of Education at Columbia",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T13:30:00-05:00",
-   "end": "2026-11-12T16:00:00-05:00",
-   "all_day": false,
-   "description": "Columbia Business School Alumni are invited to attend a faculty event and reception featuring CBS Professor Dan Wang, and CAIsey Co-Founder, Jill Cohen!\n\nEducators everywhere worry that AI is killing students’ critical thinking, yet few define it, and fewer imagine using AI to exercise it in new ways. At Columbia Business School, we built and scaled a third path. CAiSEY, a voice-first AI discussion platform born at CBS, began as a new way for MBA students to prepare for case discussions by debating an AI partner that pushes back on their reasoning. This CBS innovation has since spread to more…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154521",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "0739c5f72af849b6",
-   "title": "Bass Babies | November 12",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-12T14:00:00-05:00",
-   "end": "2026-11-12T15:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/bass-babies-november-12/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8207ab23114bae92",
-   "title": "Dark Matter U: Justice, Pedagogy, Design Exhibition Visit and Discussion",
-   "venue": "Pratt Institute School of Architecture",
-   "kind": "architecture",
-   "start": "2026-11-12T14:00:00-05:00",
-   "end": "2026-11-12T15:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for a viewing of the new exhibition at the Center for Architecture, Dark Matter U: Justice, Pedagogy, Design (opens October 1, 2026). After the viewing, we’ll convene at Pratt Manhattan for a conversation about the exhibition. Transportation from the Center for Architecture to Pratt Manhattan takes about 10 minutes by car, 15 minutes by subway/bus, or 20 minutes by walking. Feel free to view the exhibition in advance and just join us for the conversation! This event is open to faculty, staff, and students. (Optional) Viewing: Thursday, November 12, 12pm–1:30pm. Discussion: Thursday…",
-   "url": "https://www.pratt.edu/events/dark-matter-u-justice-pedagogy-design-exhibition-visit-and-discussion/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-pratt-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "a364bc65aee6c8de",
-   "title": "Sholom Afternoons — Screening of ‘Ada: My Mother the Architect’ with Producer Hilla Medalia",
-   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
-   "kind": "community",
-   "start": "2026-11-12T14:00:00-05:00",
-   "end": "2026-11-12T16:00:00-05:00",
-   "all_day": false,
-   "description": "Congregation Rodeph Sholom launches Sholom Afternoons, a monthly gathering for learning, reflection, and community-building, with a screening of the documentary “Ada: My Mother the Architect” with producer Hilla Medalia. The film is a portrait of a mother and artist whose work continues to shape the State of Israel.",
-   "url": "https://www.myjewishlearning.com/the-hub/sholom-afternoons-screening-of-ada-my-mother-the-architect-with-producer-hilla-medalia/",
-   "location": null,
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-ny-jewish-week",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "3406ef0d3a86900e",
-   "title": "Queer Eye Personality Antoni Porowksi Hosts Discussion on LGBTQ+ Voices Shaping Contemporary Literature",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T17:00:00-05:00",
-   "end": "2026-11-12T19:00:00-05:00",
-   "all_day": false,
-   "description": "A special evening celebrating LGBTQ+ writers, storytelling, and community! This author panel brings together an exciting group of writers for a conversation about books, creativity, identity, and the experiences that shape their work. The evening will feature authors Alejandro Heredia, Haley Jakobson, Temim Fruchter, and Mayukh Sen, with Antoni Porowski spearheading the conversation. Together, they'll explore the stories we tell, the perspectives that shape contemporary literature, and the importance of creating space for LGBTQ+ voices.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "3ac1ee4f51e6e1a9",
-   "title": "Venture Capital Summit",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-12T17:00:00-05:00",
-   "end": "2026-11-12T19:00:00-05:00",
-   "all_day": false,
-   "description": "South Florida startups raised $4.13B in 2025 (+49% YoY), and Miami just cracked the top 16 global startup ecosystems. Network with Miami’s leading investors and entrepreneurs over drinks and appetizers, followed by a moderated VC panel discussion. Hosted by Miami Finance Forum and Florida Venture Forum, this year’s event is bigger than last year’s 150+ person sellout.",
-   "url": "https://refreshmiami.com/event/venture-capital-summit/",
-   "location": "Dua Miami, 1300 South Miami Avenue, Miami, FL, 33130, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "78549391e5629890",
-   "title": "Fireside chat with Dominique Senequier, CEO and Founder of Ardian",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T17:30:00-05:00",
-   "end": "2026-11-12T19:15:00-05:00",
-   "all_day": false,
-   "description": "Co sponsored with French Connection Club and PE Club\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=144671",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=144671",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "5d665a3d30d75abe",
-   "title": "Art History Talk: Discover the Life & legacy of Joan Miro",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T19:30:00-05:00",
-   "all_day": false,
-   "description": "Explore the life and work of an iconic modern artist. Miro's works are hard to classify but do express his pride in his Catalan heritage (references to Barcelona and the countryside) and his contempt for conventional art. The unconscious and subconscious interact with a child-like wonder and dreamlike imagery so he might be dubbed a surrealist.After 1920, he spent winters in Paris and summers on the family farm near Barcelona. He directly influenced Pollock, Calder, and Rothko. His themes are sex, humor, nature, excrement, and playfulness along with fear and anger. He worked in oil, gouache…",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "4a0d5d0d5634d920",
-   "title": "European Startups in Miami: Panel Night",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T21:00:00-05:00",
-   "all_day": false,
-   "description": "Eight European startups are spending a week in Miami to build a US network.\n​On Thursday night, Nov 12, we’re hosting a panel night with US GTM and AI experts and our co-host EVO at The LAB Miami. After a keynote, founders from some of the startups share a panel with speakers from Amazon, EY, MIT, private equity and others. Afterwards, connect with the speakers over snacks and drinks. The visiting startups are here for a week and are looking for US investors, customers, founders and potential partners to network with. If that’s you, join us.\n​Part of the first edition of Pitches and Palms…",
-   "url": "https://refreshmiami.com/event/european-startups-in-miami-panel-night/",
-   "location": "The LAB Miami, 400 NW 26th. St., Miami, FL, 33127",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d1d53af5246da6d5",
-   "title": "Film Screening: The Social Life of Small Urban Spaces",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/the-social-life-of-small-urban-spaces-11-12-2026/",
-   "location": null,
-   "price": {
-    "free": true,
-    "min": 15.0,
-    "text": "Member: Free | Non-member: $15"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "8db278acafd42e9a",
-   "title": "Miami | Claude Code Workshop with doxx.net",
-   "venue": "Luma Miami",
-   "kind": "community",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T21:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/claude-wavu\n\nAddress:\nThe DOCK\nMiami, FL\nUnited States\n\nJoin a Claude Community Event, organized by local enthusiasts for everyone who loves building with Claude!\nA Claude Code workshop for developers in Miami, Florida.\n\nAre your agents secure?\nYou and your agents are browsing, calling tools, and connecting to services all day long. But do you know where that traffic is going, what your agents can reach, and what is protecting them along the way?\nJoin us at The LAB Miami on November 12 with Barrett Lyon, founder of doxx.net.\nBarrett has spent…",
-   "url": "https://luma.com/claude-wavu",
-   "location": "The DOCK, 400 NW 26th St, Miami, FL 33127, USA",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "luma-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "70ef796e9cc9d0d8",
-   "title": "New Yorker-Featured Author Shares His Latest Novel, West of Loveland",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T19:00:00-05:00",
-   "all_day": false,
-   "description": "A conversation with Tom Drury to celebrate his new book, a novel that returns readers to the Midwest in a moving portrait of contemporary life in a small rural county. The conversation will be followed by a signing.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "96f0fa6c23d34265",
-   "title": "Panel: What a Way to Make a Living",
-   "venue": "Van Alen Institute",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "Policy, design, and development leaders envision how NYC’s Block by Block housing plan can move beyond unit production to foster better living.",
-   "url": "https://www.vanalen.org/events/what-a-way-to-make-a-living/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-van-alen",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "a1748dab4f6395c1",
-   "title": "Professional Development & Leadership Group Meeting",
-   "venue": "CFA Society New York",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T19:00:00-05:00",
-   "all_day": false,
-   "description": "Group DescriptionThe Professional Development & Leadership (PDL) Volunteer Interest Group plays a critical role in helping investment professionals successfully navigate career transitions, build leadership skills, and future-proof themselves in a rapidly changing industry. This group is designed for professionals exploring career transitions, mentoring opportunities, seeking leadership opportunities, strengthening workplace skills, or simply building their long-term career strategy. Given the evolution of the investment profession, impacted by technology, globalization, regulatory changes…",
-   "url": "https://cfany.org/event/copy-of-professional-development-leadership-group-meeting-4/",
-   "location": "Virtual Only",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-cfa-ny",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T15:02:06+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "edbd372d0db0d3f6",
-   "title": "Quant Lens Speaker Series - Ashwin Thapar, DE Shaw - Reception",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T21:00:00-05:00",
-   "all_day": false,
-   "description": "Reception after Ashwin Thapar's Talk\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146620",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=146620",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "b2cc6ec569eaa0a6",
-   "title": "Quant Lens Speaker Series - Ashwin Thapar, Head of Multi-Asset Class Investing, D. E. Shaw Investment Management",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": "2026-11-12T19:00:00-05:00",
-   "all_day": false,
-   "description": "Ashwin Thapar from DE Shaw will speak to the students and alumni\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146619",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=146619",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "9cda6c0155cf94e7",
-   "title": "The New Nuclear Weapons Debate",
-   "venue": "Carnegie Council for Ethics in International Affairs",
-   "kind": "talks",
-   "start": "2026-11-12T18:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://info.carnegiecouncil.org/new-nuclear-weapons-debate",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-carnegie-council",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "49243b62980331e6",
-   "title": "The Emerging Market Deal Landscape: Capital, Politics & Opportunity - PANEL",
-   "venue": "Columbia Law School",
-   "kind": "talks",
-   "start": "2026-11-12T18:25:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "We’re excited to invite you to CEMTPA’s first panel of the year: THE EMERGING MARKET DEAL LANDSCAPE: CAPITAL, POLITICS & OPPORTUNITY.\n\nOur panelists will explore which transactions are getting done in Latin America today, how recent political developments are shaping investment opportunities, and why a deal that works in one country may not work in another. Expect practical insights and perspectives from leading practitioners at the forefront of cross-border dealmaking, followed by an audience Q&A.\n\nDate: Thursday, November 12th. Register via the link below.\n\nLocation: Jerome Greene Hall…",
-   "url": "https://connect.law.columbia.edu/rsvp?id=1929497",
-   "location": "Jerome Greene Hall - Room 103, 435 W 116th St, New York, NY 10027, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-law",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "050e2cfc76958b8c",
-   "title": "Architectural Innovator Discusses the Discovery of Form (In Person AND Online!)",
-   "venue": "Club Free Time",
-   "kind": "architecture",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-12T20:30:00-05:00",
-   "all_day": false,
-   "description": "This presentation, by Mark West, will describe a practice that adopts methods of Finding rather than methods of Control. These include techniques of \"hallucinatory\" drawing utilizing the very human capacity for pareidolia, structural form-finding utilizing yielding and flexible materials, and somehow parallel sculptural findings as well. These are examples of how a longstanding fixation on Control may be softened and dissolved by surprisingly simple methods. The presentation will be followed by a Q & A.Since 1981, Mark West's practice in drawing and painting has preceded and accompanied his…",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "73e696c8cbb41f6f",
-   "title": "Best-Selling Historian Shares His New Book on the Middle East",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "The Cauldron, by Simon Sebag Montefiore, takes the reader on a spectacular journey from the Ottoman sultanate to the Trump presidency, from Morocco to Iran -- a panorama brought to life by an extraordinary cast of kings, warriors, poets, terrorists, and peacemakers. A master storyteller, Montefiore reveals the origins of the world we live in. Montefiore will appear in conversation with Tom Reiss, author of The Orientalist, The Black Count, and coming this spring, We Will Never Die, about the greatest rescue effort of World War II. “Vivid and monumental . . . could not [be] more essential” –…",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "a65bee7771b12fa3",
-   "title": "Build Fast, Stay Safe: Sandbox Architecture for AI Workloads",
-   "venue": "Refresh Miami",
-   "kind": "architecture",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-12T20:30:00-05:00",
-   "all_day": false,
-   "description": "REGISTER >>>>>> https://www.meetup.com/aws-miami-user-group/events/317120188/\nREGISTER >>>>>> https://www.meetup.com/aws-miami-user-group/events/317120188/\nREGISTER >>>>>> https://www.meetup.com/aws-miami-user-group/events/317120188/\nYou have an idea for an AI agent, a new RAG pipeline, or some other experiment, but getting a safe environment to build it takes longer than the experiment itself. Between account provisioning, IAM policy reviews, and the fear of runaway costs, most experiments never leave the whiteboard.\nIn this session, you’ll learn how teams set up isolated, disposable…",
-   "url": "https://refreshmiami.com/event/build-fast-stay-safe-sandbox-architecture-for-ai-workloads/",
-   "location": "AWS Office Wynwood, 95 NW 29th St, Miami, FL, 33127, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "a7281eb98df71a46",
-   "title": "hack night v0.190 - South Beach",
-   "venue": "Hello Miami",
-   "kind": "tech",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-13T00:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/hello-mk92\n\nAddress:\nMoonlighter FabLab, 1661 Pennsylvania Ave, Miami Beach\n\nHosted by Alie Gonzalez-Guyon & 3 others",
-   "url": "https://luma.com/hello-mk92",
-   "location": "Moonlighter FabLab, 1661 Pennsylvania Ave, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "hello-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "7b75fddafc8fb110",
-   "title": "Interdisciplinary Artist Shares His Techniques of \"Hallucinatory\" Drawing (In Person AND Online!)",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-12T20:30:00-05:00",
-   "all_day": false,
-   "description": "This presentation by Mark West will describe a practice that adopts methods of Finding rather than methods of Control. These include techniques of \"hallucinatory\" drawing utilizing the very human capacity for pareidolia, structural form-finding utilizing yielding and flexible materials, and somehow parallel sculptural findings as well. These are examples of how a longstanding fixation on Control may be softened and dissolved by surprisingly simple methods. The presentation will be followed by a Q & A.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "acde3364e0e7eac1",
-   "title": "MacArthur Fellow Discusses Her Creative Career",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "An evening with Maaza Mengiste. Mengiste will be in conversation with writer and translator Lars Horn. Maaza Mengiste is a novelist, essayist, and the recipient of a 2026 MacArthur Fellowship. She is the author of the novel, The Shadow King, which was shortlisted for the Booker Prize, and was an LA Times Book Prize Fiction finalist. Her debut novel, Beneath the Lion's Gaze, was selected by the Guardian as one of the 10 best contemporary African books.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "6c684f9aa7e1be03",
-   "title": "SEABA Dinner Pod #3 - Wayan",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-12T18:30:00-05:00",
-   "end": "2026-11-12T20:30:00-05:00",
-   "all_day": false,
-   "description": "Join SEABA for a dinner pod at Wayan, a French-accented Indonesian restaurant located in Nolita area.\n\nDate: 12 November\nTime: 6:30pm\nSubsidy: $20/person for SEABA members\nLocation: 20 Spring St, New York, NY 10012\n\nNote: Given Indonesian cuisine is a centered around family-style dining, dishes will be shared amongst those who are coming. Therefore, food bills will be split after subtracting the subsidies, drinks are on your own. Please be comfortable with this before signing up!\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154147",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154147",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "3632208be7951f71",
-   "title": "3 Artists Discuss Their New Exhibition",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T20:30:00-05:00",
-   "all_day": false,
-   "description": "A roundtable discussion with artists in residence, Derriann Pharr, Simonette Quamina, and Taylor Simmons, moderated by Studio Museum Assistant Curator Adria Gunter. To celebrate the opening of A sustained becoming: Studio Museum Artists in Residence 2026, hear the artists speak about work created during the residency program.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "c3c372d90520ce59",
-   "title": "American Book Award-Winning Poet Shares Her New Collection, The Ghost Forest",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "Kimiko Hahn in conversation with Sally Wen Mao. Kimiko Hahn introduces her new poetry collection The Ghost Forest. About the book: Opening with forty-three new formally inventive poems and leading the reader back in time through selections from her ten previous volumes, The Ghost Forest offers a contemplative and haunting narrative of a writer's artistic journey through craft and form while illuminating her personal history.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "1d91ba8e8d33893c",
-   "title": "An Evening with Adrianne Calvo in conversation with Roxanne Vargas",
-   "venue": "Books & Books",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for an evening with chef and restaurateur Adrianne Calvo for the release of her new cookbook, MAXIMUM FLAVOR AT HOME.",
-   "url": "https://www.eventbrite.com/e/an-evening-with-adrianne-calvo-in-conversation-with-roxanne-vargas-tickets-1998561002759",
-   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
-   "price": {
-    "free": false,
-    "min": 37.01,
-    "text": "37.01 USD"
-   },
-   "source": "books-and-books",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:55:20+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "47ef2403add5c7db",
-   "title": "ARE Boot Camp Fall 2026: Construction & Evaluation",
-   "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://calendar.aiany.org/2026/11/12/are-boot-camp-fall-2026-construction-evaluation/",
-   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-aiany",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "12f94e3284762d95",
-   "title": "Cuauhtémoc Medina",
-   "venue": "Oolite Arts",
-   "kind": "art",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T21:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://oolitearts.org/event/cuauhtemoc-medina/",
-   "location": "Oolite Arts, 75 NW 72nd St, Miami",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "oolite",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d64aa3c08e7c203d",
-   "title": "Diamonds of the Night",
-   "venue": "YIVO Institute for Jewish Research",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://yivo.org/Diamonds-of-the-Night",
-   "location": "YIVO, 15 W 16th St, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yivo",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "db95d5bd5532ba8a",
-   "title": "Diamonds of the Night – In-person Program",
-   "venue": "Center for Jewish History",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://programs.cjh.org/event/diamonds-2026-11-12",
-   "location": "Center for Jewish History, 15 W 16th St, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-cjh",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "20cd265858ccd8a2",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T21:30:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "4394fba2aaba8090",
-   "title": "Living Routes Ideas Launch",
-   "venue": "Urban Design Forum",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://urbandesignforum.org/event/living-routes-ideas-launch/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-urban-design-forum",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "ccd31e0c7777c7d0",
-   "title": "National Book Award Finalist Discusses How Literature Can Shape Radical Political Moments",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T21:00:00-05:00",
-   "all_day": false,
-   "description": "Over the past decade, Camonghne Felix has been at the center of American politics, working in strategy, communications, and as a speechwriter. Throughout it all, she has maintained her unwavering belief in language's foundational revolutionary potential, outside of its deployment for legislative and political ends. In Let the Poets Govern, she argues that Black radical poetic traditions model an ethical code and overcome entrenched structures of patriarchy and paternalism, inventing a new form that examines the historical and legislative, and the personal and poetic.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "65a25b7f00dccad2",
-   "title": "Thursday Night Torah Programming",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-12T19:00:00-05:00",
-   "end": "2026-11-12T22:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Thursday Night Torah Programming\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSK\n\nThursday Night Torah Programming",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "4b175ebaf3a59251",
-   "title": "Ari'el Stachel | A One-Man Show",
-   "venue": "Miami Beach JCC",
-   "kind": "community",
-   "start": "2026-11-12T19:30:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "A personal and moving one-man show by Tony Award–winning actor Ari’el Stachel about growing up as a Yemenite Israeli-American Jew, dealing with anxiety, and searching for belonging and self-acceptance.",
-   "url": "https://mbjcc.org/events/ariel-stachel-a-one-man-show/",
-   "location": "Miami Beach JCC, 4221 Pine Tree Dr, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "mbjcc",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "c00c01f1520acb7d",
-   "title": "Gandhi and the Jew",
-   "venue": "Miami New Drama (Colony)",
-   "kind": "stage",
-   "start": "2026-11-12T20:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
-   "url": "https://miaminewdrama.org/shows-events/",
-   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miami-new-drama",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "5dd0a65bdb4dac78",
-   "title": "Men's Undergraduate Torah Studies",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-12T20:00:00-05:00",
-   "end": "2026-11-12T21:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Men's Undergraduate Torah Studies Information Session\nOrganization: ADMISSIONS\nSubmitter Name: Feigenbaum, Dena\nSubmitter Phone: 646-592-4440\nSubmitter Email: dena.feigenbaum@yu.edu\nEvent Locator: 2026-ABDXVG\n\nJoin Rabbi Yosef Kalinsky for an inside look at Undergraduate Torah Studies on YU’s Wilf Campus. Rabbi Kalinsky will discuss the Torah learning opportunities available to students, the role of the beit midrash in campus life, and how students can balance serious Torah study with a rigorous university education.\nThe session will conclude with a live Q&A.\nRegistration link…",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Online Event",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "9e36a7ffc4fb285a",
-   "title": "South Florida Symphony Orchestra: Tchaikovsky, Shostakovich & Higdon",
-   "venue": "New World Center / NWS",
-   "kind": "music",
-   "start": "2026-11-13T00:00:00-05:00",
-   "end": "2026-11-14T00:00:00-05:00",
-   "all_day": true,
-   "description": "",
-   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/guest-presenters/south-florida-symphony-orchestra-nov-13/",
-   "location": "New World Center, 500 17th St, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nws",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "9ee5248450673c39",
-   "title": "8th Annual Gabelli-Columbia Business School Healthcare Symposium",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T08:00:00-05:00",
-   "end": "2026-11-13T12:30:00-05:00",
-   "all_day": false,
-   "description": "Gabelli Asset Management and Columbia Business School's Healthcare and Pharmaceutical Management Program (HPM) are pleased to invite you to the 8th Annual Gabelli-Columbia Business School Healthcare Symposium on Friday, November 13, 2026 from 8:00 AM - 12:30 PM ET at The Paley Center for Media NYC (25 W 52nd Street, New York, NY 10019).\n\nThe Gabelli-Columbia Business School Healthcare Symposium is an annual event that offers a platform for asset managers, investors, and healthcare leaders to discuss opportunities and challenges facing the sector including the exploration of investment…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154240",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "382bb6be1e3ec90f",
-   "title": "The Future of National Security Summit: Capital & Tech",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T08:00:00-05:00",
-   "end": "2026-11-13T17:00:00-05:00",
-   "all_day": false,
-   "description": "The Future of National Security Summit brings together the institutions that provide long-term, foundational capital, the companies building at scale across industries critical to American security, and the government leaders who shape the mission. The program follows the arsenal from start to finish: funding it, building it through U.S. and allied strategic manufacturing, and operating it by fielding and integrating new capabilities. An afternoon series, Securing the Stack, offers concurrent sessions on aerospace, energy, autonomy, and space, and a closing keynote looks at the road ahead for…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=147171",
-   "location": "David Geffen Hall at Columbia Business School, 645 West 130th Street, New York, NY 10027, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "16ae59f03a097ccc",
-   "title": "KBA IB Technicals",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T10:00:00-05:00",
-   "end": "2026-11-13T11:30:00-05:00",
-   "all_day": false,
-   "description": "1. Technical Q&A: Any technical questions or topics you’re struggling with\n2. Invite-Only Events: What to expect, how to prepare, and an open Q&A\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154508",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154508",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "86be3527613dc5c1",
-   "title": "Celebrating the Photography of Asian & Asian American Artists",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-13T11:00:00-05:00",
-   "end": "2026-11-13T12:00:00-05:00",
-   "all_day": false,
-   "description": "A deep dive into the diverse voices shaping contemporary photography. This class highlights the Photography Collection's rich holdings of Asian and Asian American artists, offering a rare opportunity to study these compelling works up close. The group will explore themes of memory, identity, and artistic innovation through the lenses of artists such as Binh Danh, Thomas Holton, Michael Jang, Dayanita Singh, and Madoka Takagi.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "70170d48195cbced",
-   "title": "GA/LA/UD Virtual Information Session II",
-   "venue": "Pratt Institute School of Architecture",
-   "kind": "architecture",
-   "start": "2026-11-13T12:00:00-05:00",
-   "end": "2026-11-13T14:00:00-05:00",
-   "all_day": false,
-   "description": "Join the Graduate Architecture, Landscape Architecture and Urban Design department for an engaging midday session featuring a special behind-the-scenes walkthrough of a prominent New York architecture and landscape firm, highlighting their current projects.\n\nYou’ll also hear from Pratt faculty and students about our studio culture, curriculum, and creative opportunities that come with studying and working in New York City.",
-   "url": "https://www.pratt.edu/events/ga-la-ud-virtual-information-session-2/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-pratt-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:54:31+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "77b685a979812485",
-   "title": "AI and Organizational Economics Seminar Series",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T12:30:00-05:00",
-   "end": "2026-11-13T14:00:00-05:00",
-   "all_day": false,
-   "description": "Columbia Business School's AI in Business Initiative convenes leading scholars for a monthly workshop series presenting the latest research on how AI affects organizational economics and labor markets. This is a cross-divisional seminar with the Economics Division sponsored by the AI in Business Initiative at CBS, open to all CBS faculty and PhD students. Sessions run on roughly four Fridays each semester, from 12:30 to 1:45pm, with slots to meet one-on-one with the speaker before and after each talk.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=146166",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=146166",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "e29f874fe8526f60",
-   "title": "Grand Central Terminal",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-13T12:30:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/grand-central-terminal-11-13-2026/",
-   "location": null,
-   "price": {
-    "free": false,
-    "min": 15.0,
-    "text": "Member: $15 | Non-member: $25"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "bb77b588f851b9ac",
-   "title": "ABA x Gourmet Club: Flushing Food Crawl",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T14:00:00-05:00",
-   "end": "2026-11-13T17:00:00-05:00",
-   "all_day": false,
-   "description": "Join ABA and Gourmet Club on November 13th for an epic food crawl through Flushing, Queens! Led by Flushing natives, we will be visiting several spots and trying everything from pan-fried pork buns to peking duck buns to egg tarts. We will cover a lot of ground so bring comfortable shoes and an empty stomach!\n\n⏰ 2:00pm | 📍 Meet at 34th St Penn Station LIRR\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153529",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=153529",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "62e18b8650c6c9a9",
-   "title": "Judd Foundation 101 Spring St. private tour",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T14:55:00-05:00",
-   "end": "2026-11-13T16:30:00-05:00",
-   "all_day": false,
-   "description": "Join us for a guided visit to 101 Spring Street, the SoHo home and studio of artist Donald Judd (1928–94). Judd bought the five-story cast-iron building in 1968 and lived and worked in it. It is the only surviving single-use cast-iron building of its era in the SoHo Cast-Iron Historic District, and it is listed on the National Register of Historic Places.\n\nThe visit is a chance to see the idea Judd called permanent installation. He placed each artwork and designed the building’s renovation to match, intending both to stay as they were. His work, furniture and collection remain where he put…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154106",
-   "location": "101 Spring St.",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "434c8e20432aaf93",
-   "title": "Curator’s Tour of The Invention of Park Avenue",
-   "venue": "The Skyscraper Museum",
-   "kind": "art",
-   "start": "2026-11-13T15:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.skyscraper.org/programs/curators-tour-of-the-invention-of-park-avenue/",
-   "location": "The Skyscraper Museum, 39 Battery Pl, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-skyscraper-museum",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "041fb3de30bd3a2c",
-   "title": "How Rod Serling and The Twilight Zone Transformed TV, with Serling biographer Alan Sepinwall",
-   "venue": "Paley Center for Media",
-   "kind": "film",
-   "start": "2026-11-13T16:00:00-05:00",
-   "end": "2026-11-13T18:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://www.universe.com/events/conversation-with-a-curator-how-the-twilight-zone-transformed-tv-tickets-DSHYC4?unii-trigger-open=DSHYC4&unii-access-key=GENERALPUBLIC",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-paley-center",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "90b4ff475021ae18",
-   "title": "New York Distilling Co: Visit & Conversation with Tom Potter '83, CEO & Brooklyn Brewery Co-Founder",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-13T17:00:00-05:00",
-   "end": "2026-11-13T19:00:00-05:00",
-   "all_day": false,
-   "description": "Join the CBS Cocktails & Spirits Club for an evening at New York Distilling Company in Bushwick with co-founder Tom Potter ‘83.\n\nTom started out as a banker before co-founding Brooklyn Brewery in 1987 and turning it into one of the country’s best-known craft beer brands. In 2011 he did it again with New York Distilling Company, bringing back the city’s pre-Prohibition distilling tradition with whiskey and gin made from New York–grown grain.\n\nImmerse yourself in the distilling process on the production floor from grain to glass, hear Tom’s story from CBS to booze, then join an open discussion…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=153604",
-   "location": "New York Distilling Company, 573 Johnson Ave, Brooklyn 11237, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "bac2f70968e5d6b0",
-   "title": "Sustainability Night",
-   "venue": "Pratt Institute School of Architecture",
-   "kind": "talks",
-   "start": "2026-11-13T17:00:00-05:00",
-   "end": "2026-11-13T20:00:00-05:00",
-   "all_day": false,
-   "description": "Join Pratt Institute’s Sustainable Environmental Systems (SES) program for Sustainability Night In, an evening celebrating student work, sustainability, and community. Enjoy sustainability themed trivia, three project spotlights featuring presentations from SES community members, and an open gallery showcasing student projects and research. Grab some food, meet fellow community members, and connect over the ideas and projects shaping a more sustainable future. Open to the public, this event is an opportunity to learn more about the SES program, celebrate student work, and build connections…",
-   "url": "https://www.pratt.edu/events/sustainability-night/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-pratt-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "56ad96e4aa77f095",
-   "title": "Genre Painter Shares His Latest Monograph (+ Signing)",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-13T18:00:00-05:00",
-   "end": "2026-11-13T19:00:00-05:00",
-   "all_day": false,
-   "description": "Doron Langberg to celebrates their book featuring more than 100 paintings spanning ten years of artistic practice. They will be in conversation with Gaby Collins-Fernández, followed by a signing.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "ec71db7891fdefab",
-   "title": "Industry Professionals Discuss How They Cultivate Sustainable Ecosystems for Filmmakers",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-13T18:00:00-05:00",
-   "end": "2026-11-13T22:00:00-05:00",
-   "all_day": false,
-   "description": "An engaging panel of filmmakers on navigating the tumultuous and changing landscape of entertainment to support filmmakers, artists, and creators.Panelists:Cassie Bradley (Creative Director, Impact Lounge)Brenda Vongova (President, UN Movie Society)Anuj Gupta (Founder & Managing Partner, WADR Law Firm)Sola Fasehun (Founder & Literary Manager, The Distribution Collective/TDC)Mehar Gujral (Producer, Gigantic Studios)Jodi Johnson (Founder, Thought Projectors Studio)Moderator: Jacqueline Pereda, on behalf of Latino Filmmakers Network/LFN",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "c0d763657b13f96c",
-   "title": "Museum and a Movie | Salvatore: Shoemaker of Dreams",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-13T18:00:00-05:00",
-   "end": "2026-11-13T21:00:00-05:00",
-   "all_day": false,
-   "description": "Discover the story of legendary designer Salvatore Ferragamo in Salvatore: Shoemaker of Dreams (2020), Luca Guadagnino’s documentary tracing his journey from southern Italy to Hollywood and Florence. Through archival footage and interviews, the film explores the craftsmanship, experimentation, and imagination that made Ferragamo “shoemaker to the stars.” Come early to see the exhibition Foot Notes: Shoes, Symbolism, and Society, featuring Ferragamo’s iconic 1938 Rainbow sandal, before settling in for a cinematic look at the life and legacy behind the design.\nPresented with the Miami Film…",
-   "url": "https://events.miamibeachfl.gov/event/museum-and-a-movie-salvatore-shoemaker-of-dreams/",
-   "location": "The Wolfsonian–FIU, 1001 Washington Avenue, Miami Beach, FL, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ddbe931c766c74e0",
-   "title": "Hot Mulligan",
-   "venue": "Miami Beach Bandshell",
-   "kind": "music",
-   "start": "2026-11-13T19:00:00-05:00",
-   "end": "2026-11-13T23:00:00-05:00",
-   "all_day": false,
-   "description": "With their latest album, The Sound a Body Makes When It’s Still, Hot Mulligan continues to push their sound forward while staying true to the scene and community that shaped them.",
-   "url": "https://miamibeachbandshell.com/event/hot-mulligan/",
-   "location": "7275 Collins Avenue, Miami Beach FL 33141, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "bandshell",
-   "also_listed_by": [
-    "ticketmaster-miami"
-   ],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8056b83933e56a87",
-   "title": "Restoration|An Evening with Carol Davis in conversation with Rosa Lowinger",
-   "venue": "Books & Books",
-   "kind": "talks",
-   "start": "2026-11-13T19:00:00-05:00",
-   "end": "2026-11-13T20:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for an evening with author Carol Davis to discuss her recently released novel, RESTORATION, accompanied by author Rosa Lowinger.",
-   "url": "https://www.eventbrite.com/e/restorationan-evening-with-carol-davis-in-conversation-with-rosa-lowinger-tickets-1996660105123",
-   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "books-and-books",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:55:20+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "5fbca7805f36306f",
-   "title": "TCHAIKOVSKY’S PIANO CONCERTO NO. 1 & SHOSTAKOVICH’S TWELFTH SYMPHONY",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-13T19:30:00-05:00",
-   "end": "2026-11-13T21:30:00-05:00",
-   "all_day": false,
-   "description": "TCHAIKOVSKY’S PIANO CONCERTO NO. 1 & SHOSTAKOVICH’S TWELFTH SYMPHONY With Higdon’s “Cathedrals” from All Things Majestic\nPyotr Ilyich Tchaikovsky (1840-1893) | Piano Concerto No. 1\nfeaturing Sheng Cai, piano\nDmitri Shostakovich (1906-1975) | Symphony No. 12, “The Year 1917” (SFSO Premiere)\nJennifer Higdon (1962-) | “Cathedrals” from All Things Majestic (SFSO Premiere)",
-   "url": "https://events.miamibeachfl.gov/event/tchaikovskys-piano-concerto-no-1-shostakovichs-twelfth-symphony/",
-   "location": "New World Center, 500 17th St, Miami Beach, FL, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "da04945be2b53e2c",
-   "title": "Gandhi and the Jew",
-   "venue": "Miami New Drama (Colony)",
-   "kind": "stage",
-   "start": "2026-11-13T20:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
-   "url": "https://miaminewdrama.org/shows-events/",
-   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miami-new-drama",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "c2d618eccc70cc0e",
-   "title": "Lucia di Lammermoor",
-   "venue": "Arsht Center",
-   "kind": "stage",
-   "start": "2026-11-14T00:00:00-05:00",
+   "start": "2026-11-16T00:00:00-05:00",
    "end": "2026-11-17T00:00:00-05:00",
    "all_day": true,
-   "description": "A forbidden romance, a forged betrayal and a forced marriage drive Donizetti’s bel canto tragedy toward one of opera’s most psychologically intense scenes. Florida Grand Opera opens its 2026-2027 season with performances Saturday, November 14, Sunday, November 15 and Tuesday, November 17 at the Adrienne Arsht Center. Set amid a bitter family feud, Lucia di Lammermoor pairs demanding vocal writing with a story of political ambition, manipulation and emotional collapse.\n\nLucia has secretly pledged herself to Edgardo, the sworn enemy of her family, but her brother Enrico is determined to arrange…",
-   "url": "https://www.miamiandbeaches.com/event/lucia-di-lammermoor/41938",
-   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
-   "price": {
-    "free": false,
-    "min": 31.59,
-    "text": "$31.59"
-   },
-   "source": "arsht",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "16ba37dfb224aece",
-   "title": "The Marketing AI Sprint",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-14T00:00:00-05:00",
-   "end": "2026-11-15T00:00:00-05:00",
-   "all_day": true,
-   "description": "A free creative challenge where Miami’s marketers build a complete campaign with AI for a good cause. No tech background needed.\n\nThe Marketing AI Sprint is a one-day live challenge for marketers, creators and storytellers. You’ll get a real brief from a real nonprofit and have four hours to build a complete campaign with AI. Then you may pitch it live to our judges.\nNo tech background needed. You bring what you know about your craft and your audience. You don’t need to arrive with an idea.",
-   "url": "https://refreshmiami.com/event/the-marketing-ai-sprint/",
-   "location": "The LAB Miami, 400 NW 26th. St., Miami, FL, 33127",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "a57c538a1c173843",
-   "title": "305 Cleanup: Backstage at the Bandshell",
-   "venue": "Miami Beach Bandshell",
-   "kind": "music",
-   "start": "2026-11-14T09:00:00-05:00",
-   "end": "2026-11-14T12:00:00-05:00",
-   "all_day": false,
-   "description": "Clean the beach, tour backstage, win prizes!",
-   "url": "https://miamibeachbandshell.com/event/305-cleanup-backstage-at-the-bandshell/",
+   "description": "",
+   "url": "https://www.cfr.org/event/ai-safety-and-governance",
    "location": null,
    "price": {
     "free": null,
     "min": null,
     "text": null
    },
-   "source": "bandshell",
+   "source": "nyc-cfr",
    "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d7d0aab7d34c5c32",
-   "title": "Building the AI-Native Company: a Half-Day Summit",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-14T09:00:00-05:00",
-   "end": "2026-11-14T14:45:00-05:00",
-   "all_day": false,
-   "description": "A practical, high-signal half-day summit for founders, CTOs, CPOs, engineering and product leaders, and senior technical operators who are already building with AI. Not an intro to AI.\nHosted by Misfit Labs and The LAB Miami. Breakfast and lunch included.\nThe day:\n9:00 Breakfast, welcome and kickoff: The State of AI-Assisted Engineering\n9:30 Case study: a real company, end to end\n11:00 Breakouts: scaling AI-native development, trust and reliability, product strategy, team design, and the AI engineering stack\n12:30 Lunch and table discussions\n1:30 Bring Your Hardest Problem: Ask the Misfits…",
-   "url": "https://refreshmiami.com/event/building-the-ai-native-company-a-half-day-summit/",
-   "location": "The DOCK Miami, 400 NW 26th St, Miami, FL, 33014, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "61b289ced3af9e51",
-   "title": "Miami | Opus 5.5 Build Day - Marketing Sprint",
-   "venue": "Luma Miami",
-   "kind": "community",
-   "start": "2026-11-14T09:30:00-05:00",
-   "end": "2026-11-14T17:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/claude-drvz\n\nAddress:\nThe LAB Miami\nType full address on rideshare app or GPS: 2750 NW 3rd Ave #24, Miami, FL 33127\nMiami, FL\nUnited States\n\nJoin a Claude Community Event, organized by local enthusiasts for everyone who loves building with Claude!\n\nClaude Community Miami: Opus 5.5 Build Day - Marketing Sprint\nWhat can Miami’s marketers build with AI in four hours for a real cause?\nBuild Day Marketing is a free, hands-on creative challenge where marketers, creators, founders, and storytellers use AI to build a complete campaign for a local…",
-   "url": "https://luma.com/claude-drvz",
-   "location": "The LAB Miami, 2750 NW 3rd Ave #24, Miami, FL 33127, USA",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "luma-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "db55a6c1e6157601",
-   "title": "3D Printing Basics at Moonlighter FabLab",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-14T10:00:00-05:00",
-   "end": "2026-11-14T12:00:00-05:00",
-   "all_day": false,
-   "description": "Monthly BASICS series is designed to teach you how to use the design software, machine controls, and various materials to create your own custom pieces with this digital fabrication technology. At the end of the session, you get to take home your creation!\nAll Materials Included\nAges 15+*",
-   "url": "https://events.miamibeachfl.gov/event/3d-printing-basics-at-moonlighter-fablab/2026-11-14/",
-   "location": "Moonlighter FabLab, 1661 Pennsylvania Ave, Miami Beach, FL, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "7dbffafccff5477d",
-   "title": "The Shades of Indigo Blue",
-   "venue": "Oolite Arts",
-   "kind": "art",
-   "start": "2026-11-14T10:00:00-05:00",
-   "end": "2026-11-14T15:00:00-05:00",
-   "all_day": false,
-   "description": "One-Day Workshop",
-   "url": "https://oolitearts.org/event/the-shades-of-indigo-blue/",
-   "location": "SOLD OUT",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "oolite",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "e24f4da30fad6994",
-   "title": "Walking Tour: Medieval Lower Manhattan",
-   "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
-   "start": "2026-11-14T10:30:00-05:00",
-   "end": "2026-11-14T12:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://calendar.aiany.org/2026/11/14/walking-tour-medieval-lower-manhattan-8/",
-   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-aiany",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "af28daa1016b578f",
-   "title": "Bilingual Conversation with Theater-Maker Carolina Cuervo",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": "2026-11-14T13:00:00-05:00",
-   "all_day": false,
-   "description": "An intimate conversation exploring the artist's work as a writer, playwright, screenwriter, showrunner, and creative artist.In conversation with Martha Schreiner, Carolina will take the audience behind the scenes of her work - from the first spark of an idea to developing characters, writing for theater and screen, collaborating with other artists, and navigating a career built around storytelling. This is not a masterclass or workshop. It’s a TALK. A chance to hear directly from an artist about her body of work, her experiences, her creative process — and the stories behind the stories.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "80a407061b26d512",
-   "title": "Celebrating the Photography of Asian & Asian American Artists",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": "2026-11-14T12:00:00-05:00",
-   "all_day": false,
-   "description": "A deep dive into the diverse voices shaping contemporary photography. This class highlights the Photography Collection's rich holdings of Asian and Asian American artists, offering a rare opportunity to study these compelling works up close. The group will explore themes of memory, identity, and artistic innovation through the lenses of artists such as Binh Danh, Thomas Holton, Michael Jang, Dayanita Singh, and Madoka Takagi.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "9bfc94b0cfbc28a5",
-   "title": "Conference in a Landmark Art Museum: Artistic Representations of the Body & Fashion",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": "2026-11-14T17:00:00-05:00",
-   "all_day": false,
-   "description": "Dive deep into themes found in the exhibition Costume Art through dynamic conversations and presentations by leading scholars, designers, artists, models, and more. Explore the indivisible connection between clothing and the body, and the complex interplay between artistic representations of the body and fashion as an embodied art form.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "b33ed0ec260c57cc",
-   "title": "Edgemere - Far Rockaway Walk & Talk to Build a Strong Parks System",
-   "venue": "Regional Plan Association",
-   "kind": "talks",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": "2026-11-14T16:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://www.eventbrite.com/e/edgemere-far-rockaway-walk-talk-to-build-a-strong-parks-system-tickets-2002305611986?aff=oddtdtcreator",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-rpa",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "f24d463f6bd9452e",
-   "title": "Family Program: Build a Lego City (Morning Session)",
-   "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": "2026-11-14T13:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://calendar.aiany.org/2026/11/14/family-program-build-a-lego-city-morning-session-4/",
-   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-aiany",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "ab91fade0c82f7a5",
-   "title": "Oolite Arts On the Move at Little Haiti Cultural Complex",
-   "venue": "Oolite Arts",
-   "kind": "art",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": "2026-11-14T13:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://oolitearts.org/event/oolite-arts-on-the-move-at-little-haiti-cultural-complex-2/",
-   "location": "Little Haiti Cultural Complex",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "oolite",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "270371303a98ceec",
-   "title": "Tenement Historic District: A History of Housing in Yorkville",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-14T11:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/tenement-historic-district/",
-   "location": null,
-   "price": {
-    "free": false,
-    "min": 25.0,
-    "text": "Member: $25 | Non-member: $35"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "c7c5c67bf82783fc",
-   "title": "Actors from Chicago Fire, FBI, & Law & Order Discuss Their Franchises & the Future of Network TV (+ Reception)",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-14T12:00:00-05:00",
-   "end": "2026-11-14T15:00:00-05:00",
-   "all_day": false,
-   "description": "Hanako Greensmith, Zeeko Zaki, and David Ajala have a discussion on carrying forward the legacy of Wolf Entertainment's iconic franchises. From creating memorable characters to bringing new energy to beloved series, these stars will share how they're helping shape the next generation of television heroes.NBCUniversal Reception to follow immediately after the Panel. Complimentary refreshments from 1:00pm-3:00pm.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "d0208f374dfb7c31",
-   "title": "DINORAH DE JESÚS RODRÍGUEZ RETROSPECTIVE: NOVIA DEL MEDIODÍA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-14T12:00:00-05:00",
-   "end": "2026-11-14T14:30:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1046000~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/dinorah-de-jesus-rodriguez-retrospective-novia-del-mediodia",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "33b40e9c78c6197c",
-   "title": "GCS Alumni Homecoming 2026",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-14T12:00:00-05:00",
-   "end": "2026-11-14T16:00:00-05:00",
-   "all_day": false,
-   "description": "GCS Alumni Homecoming 2026\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153592",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=153592",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "45fb5abaa65e62f2",
-   "title": "Miami AI Hackathon",
-   "venue": "ManaTech",
-   "kind": "tech",
-   "start": "2026-11-14T12:00:00-05:00",
-   "end": "2026-11-14T20:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/ogmxu9ya\n\nAddress:\nMiami Dade College\nMiami, FL\nUnited States\n\nHosted by Mel & 7 others",
-   "url": "https://luma.com/ogmxu9ya",
-   "location": "Miami Dade College, 300 NE 2nd Ave, Miami, FL 33132, USA",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "manatech",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "b4dd230ea8cb7933",
-   "title": "EA SPORTS FC 27",
-   "venue": "Paley Center for Media",
-   "kind": "film",
-   "start": "2026-11-14T12:30:00-05:00",
-   "end": "2026-11-14T15:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://www.paleycenter.org/events/paleygx-ea-sports-fc",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-paley-center",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "2610f4080cfc68c9",
-   "title": "Open Studio",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-14T12:30:00-05:00",
-   "end": "2026-11-14T16:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/open-studio/2026-11-14/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "73502b704f93d3a5",
-   "title": "Walking Tour: Madison Avenue, High Fashion, and Historic Preservation",
-   "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
-   "start": "2026-11-14T13:00:00-05:00",
-   "end": "2026-11-14T15:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://calendar.aiany.org/2026/11/14/walking-tour-madison-avenue-high-fashion-and-historic-preservation-47/",
-   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-aiany",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "0e65a193b0ecca03",
-   "title": "Bass Babies | November 14",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-14T14:00:00-05:00",
-   "end": "2026-11-14T15:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/bass-babies-november-14/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "852aca37c9fd794f",
-   "title": "Family Program: Build a Lego City (Afternoon Session)",
-   "venue": "Center for Architecture (AIANY)",
-   "kind": "talks",
-   "start": "2026-11-14T14:00:00-05:00",
-   "end": "2026-11-14T16:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://calendar.aiany.org/2026/11/14/family-program-build-a-lego-city-afternoon-session-4/",
-   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-aiany",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "b700dde3ff5cafd0",
-   "title": "Enduring Culture Spotlight: Neighborhood Heritage in West-Central Queens",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-14T14:30:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/enduring-culture-spotlight-neighborhood-heritage-in-west-central-queens/",
-   "location": null,
-   "price": {
-    "free": true,
-    "min": null,
-    "text": "Free!"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:38:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "d149cd7c4202f2d9",
-   "title": "Deadline Journalist & Comedians Discuss Creating Comedy in the Age of AI",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-14T15:00:00-05:00",
-   "end": "2026-11-14T16:30:00-05:00",
-   "all_day": false,
-   "description": "As joke theft enters the age of Al, comedians face an unsettling new threat: stolen material repackaged, monetized and amplified to millions of viewers. Deadline’s Matt Grobar will moderate a conversation at the New York Comedy Festival, with comedians Olivia Carter and Olga Namer, manager Logan Potter, and attorney Amanda Barkin about the emotional, financial, and career impact of stolen work, and what action can be taken against thieving Al accounts.Doors open at 2:30 PM. Lineup is subject to change. Under 17 must be accompanied by a parent/guardian. Please use discretion, as this event can…",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "1275c8a3b0bed98d",
-   "title": "Death Cafe Discussion Group",
-   "venue": "Club Free Time",
-   "kind": "talks",
-   "start": "2026-11-14T15:30:00-05:00",
-   "end": "2026-11-14T16:30:00-05:00",
-   "all_day": false,
-   "description": "An informal, group-directed discussion of death with no agenda, objectives or themes. The purpose of Death Cafe is \"to increase awareness of death with a view to helping people make the most of their (finite) lives.\" This is a discussion group rather than a grief support or counseling session.",
-   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
-   "location": "New York City ( NYC ), New York, NY",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "nyc-club-free-time",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:30:21+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "6d12ee4fa9c04e56",
-   "title": "Swayzepalooza: 10 Years. Still Weird.",
-   "venue": "Luma Miami",
-   "kind": "community",
-   "start": "2026-11-14T16:00:00-05:00",
-   "end": "2026-11-15T02:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/x7x608p8\n\nAddress:\nLincoln's Beard Brewing & Cocktails\nMiami, FL\nUnited States\n\nSwayzepalooza: 10 Years. Still Weird. is Lincoln’s Beard’s 10-year anniversary party. On November 14, we’re celebrating a decade of getting Weird at The Beard.\nExpect live music across multiple stages, local food collaborations, live art, limited drink releases, and a few surprises from the Lincoln’s Beard universe.\nCome celebrate the people and moments that made the last ten years what they were, and help us kick off what's coming next.\nSave your spot. Bring your…",
-   "url": "https://luma.com/x7x608p8",
-   "location": "Lincoln's Beard Brewing & Cocktails, 7360 SW 41st St, Miami, FL 33155, USA",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "luma-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "b1d257767da8d6ed",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-14T16:30:00-05:00",
-   "end": "2026-11-14T19:00:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "0f9ddbbe2e8e4760",
-   "title": "OnStage! presents Live En La Playa",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-14T17:00:00-05:00",
-   "end": "2026-11-14T22:00:00-05:00",
-   "all_day": false,
-   "description": "Saturday, November 14 • 5 PM\n📍 Lummus Park, Miami Beach\nThe City of Miami Beach celebrates a second year of OnStage!: Live En La Playa, spotlighting performances by local Latin-funk legends Spam Allstars and Afro-Caribbean Jazz by Tony & The Kings. Settle in for an evening at Lummus Park off 6th Street —bring a blanket, enjoy live music, listen to world sounds curated by Aaron Brown (Mr. Brown), Miami Is an Island, and Tiki Tumbao Records (Travis Acker and Lula Rios), and explore the outdoor record fair featuring vinyl from across Latin America and the Hispanic diaspora.\nLive En La Playa is…",
-   "url": "https://events.miamibeachfl.gov/event/onstage-live-en-la-playa/",
-   "location": "Lummus Park – 6th Street & Ocean Drive",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "610281bac32449f9",
-   "title": "The Bass Highlight Tours",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-14T17:00:00-05:00",
-   "end": "2026-11-14T17:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/the-bass-highlight-tours/2026-11-14/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T14:26:08+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8c9da32c4d449da5",
-   "title": "European Startups in Miami: Mixer Night",
-   "venue": "Refresh Miami",
-   "kind": "tech",
-   "start": "2026-11-14T19:00:00-05:00",
-   "end": "2026-11-14T22:00:00-05:00",
-   "all_day": false,
-   "description": "Eight European startups are spending a week in Miami to build a US network.\n​On Saturday night, Nov 14, we’re hosting a mixer with the founders, our hosts, co-host EVO and speakers from the week. Drinks and conversation at a bar in Miami. No slides! The visiting startups are looking for US investors, customers, founders and potential partners to talk to. If that’s you, join us.\n​Location: Nusr-Et Steakhouse (bar area)\n​Part of the first edition of Pitches and Palms (Nov 9–17), the Miami accelerator week for European founders. Full details on pitchesandpalms.com\n\n​Organized by…",
-   "url": "https://refreshmiami.com/event/european-startups-in-miami-mixer-night/",
-   "location": "Nusr-Et Steakhouse, 999 Brickell Ave, Miami, FL, 33131, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "refresh-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ca41247e71b1b897",
-   "title": "Rock Ensemble: Tribute to Doug Burris",
-   "venue": "Miami Beach Bandshell",
-   "kind": "music",
-   "start": "2026-11-14T19:00:00-05:00",
-   "end": "2026-11-14T22:00:00-05:00",
-   "all_day": false,
-   "description": "The annual tribute concert celebrating the life and legacy of legendary educator, musician, and rock and roll pioneer Doug Burris.",
-   "url": "https://miamibeachbandshell.com/event/miami-beach-rock-ensemble/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "bandshell",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T04:53:16+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "011239ba07a28e2d",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-14T19:30:00-05:00",
-   "end": "2026-11-14T22:00:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8c09eb5cab22c92e",
-   "title": "Gandhi and the Jew",
-   "venue": "Miami New Drama (Colony)",
-   "kind": "stage",
-   "start": "2026-11-14T20:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
-   "url": "https://miaminewdrama.org/shows-events/",
-   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miami-new-drama",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "268064454796a38e",
-   "title": "Mozart's Requiem",
-   "venue": "New World Center / NWS",
-   "kind": "music",
-   "start": "2026-11-14T20:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.nws.edu/tickets/concerts-and-events/2026-27-season/mozarts-requiem/",
-   "location": "New World Center, 500 17th St, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nws",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-01T06:00:45+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "214d0f7f0b2c84c7",
-   "title": "Grand Season Opening: The Steinway Artist Series I",
-   "venue": "Arsht Center",
-   "kind": "stage",
-   "start": "2026-11-15T00:00:00-05:00",
-   "end": "2026-11-16T00:00:00-05:00",
-   "all_day": true,
-   "description": "Pianist Tian Jiang joins the Miami Symphony Orchestra for a season-opening program of Romantic virtuosity and symphonic momentum at the Adrienne Arsht Center. Grand Season Opening: The Steinway Artist Series I takes place Sunday, November 15 in Knight Concert Hall.\n\nLed by music director and conductor Eduardo Marturet, the concert opens MISO’s 2026-27 season and introduces the orchestra’s Steinway Artist Series, a season-long focus on internationally recognized Steinway pianists and piano-centered repertoire. The series is designed to pair featured soloists with symphonic works, multipiano…",
-   "url": "https://www.miamiandbeaches.com/event/grand-season-opening-the-steinway-artist-series-i/41231",
-   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
-   "price": {
-    "free": false,
-    "min": 35.1,
-    "text": "$35.1"
-   },
-   "source": "arsht",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "3563501310198cc3",
-   "title": "Lincoln Road Farmer's Market",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-15T09:00:00-05:00",
-   "end": "2026-11-15T18:00:00-05:00",
-   "all_day": false,
-   "description": "On Meridian Avenue through Washington Avenue, local vendors gather along Lincoln Road to sell fruits, vegetables, fresh-cut flowers and more. Rain or shine, guests are welcome to explore the area to find regional treasures.\nEvery Sunday at 9:00 AM – 6:00 PM on Lincoln Road.",
-   "url": "https://events.miamibeachfl.gov/event/lincoln-road-farmers-market/2026-11-15/",
-   "location": "Lenox Avenue & Lincoln Road, Miami Beach, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "a77e3dd2db509357",
-   "title": "MTA OPEN HOUSE 2026",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-15T09:00:00-05:00",
-   "end": "2026-11-15T16:00:00-05:00",
-   "all_day": false,
-   "description": "Organization: YUHS BOYS\nSubmitter Name: Lewin, Menachem\nSubmitter Email: mlewin@yu.edu\nSubmitter Phone: 646-592-4101\nEvent Locator: 2026-ABDLZK\n\nMTA OPEN HOUSE 2026",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Zysman Hall",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "cc964deafe99659f",
-   "title": "Women's Open House 2025 -BEREN Camp",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-15T09:00:00-05:00",
-   "end": "2026-11-15T16:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Women's Open House 2026 -Beren Campus\nOrganization: ADMISSIONS\nSubmitter Name: Lewin, Menachem\nSubmitter Email: mlewin@yu.edu\nSubmitter Phone: 646-592-4101\nEvent Locator: 2026-ABDWAW\n\nWomen's Open House 2025 -BEREN Campus",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Israel Henry Beren Campus",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "62fddc1306237493",
-   "title": "Tech Lab Club: Animation (Session 4)",
-   "venue": "Frost Science",
-   "kind": "tech",
-   "start": "2026-11-15T10:00:00-05:00",
-   "end": "2026-11-15T14:00:00-05:00",
-   "all_day": false,
-   "description": "Science, Technology, and Immersive Storytelling",
-   "url": "https://www.frostscience.org/event/tech-lab-club-animation-session-4/",
-   "location": "FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "frost-science",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "57f24d094a5cf825",
-   "title": "Family Sundays at ICA Miami: Art Making with Paloma Dueñas",
-   "venue": "ICA Miami",
-   "kind": "art",
-   "start": "2026-11-15T11:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "Explore hands-on art making for all ages at ICA Miami’s Family Sundays. Experiment with folding, color, and spray bottles on Nov 15. Free admission with RSVP.",
-   "url": "https://icamiami.org/calendar/family-sundays-at-ica-miami-art-making-with-paloma-20261115/",
-   "location": "Institute of Contemporary Art, Miami, 61 NE 41st Street, Miami, FL",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "ica-miami",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "5e31ebe773d8f70d",
-   "title": "Grand Central Terminal",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-15T11:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/grand-central-terminal-11-15-2026/",
-   "location": null,
-   "price": {
-    "free": false,
-    "min": 15.0,
-    "text": "Member: $15 | Non-member: $25"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "a23d7451906aa486",
-   "title": "Histories of Social Housing in NYC",
-   "venue": "Municipal Art Society of New York",
-   "kind": "talks",
-   "start": "2026-11-15T11:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.mas.org/events/histories-of-social-housing/",
-   "location": null,
-   "price": {
-    "free": false,
-    "min": 25.0,
-    "text": "Member: $25 | Non-member: $35"
-   },
-   "source": "nyc-mas",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "b9128d1a1e63e549",
-   "title": "Asian Alumni Association: Diwali Celebration",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-15T12:00:00-05:00",
-   "end": "2026-11-15T15:00:00-05:00",
-   "all_day": false,
-   "description": "Click Here to Register!\n\nJoin the Cornell Asian Alumni Association (CAAA), the Harvard Asian American Alumni Alliance (H4A) and the Asian Columbia Alumni Association (ACAA) on November 15th from 12:00–3:00 PM at Utsav Restaurant.\n\nDiwali, also known as Deepavali, is the Indian Festival of Lights, symbolizing the victory of light over darkness and good over evil. The name “Deepavali” translates to “row of lights,” and communities across South and Southeast Asia, as well as around the world, observe this vibrant celebration.\n\nOur annual celebration will take place in a private room at Utsav and…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154385",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "173367671d859943",
-   "title": "BBSA Fall 2026 Photoshoot",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-15T12:00:00-05:00",
-   "end": "2026-11-15T15:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for the annual BBSA Photoshoot! We'll have two professional photographers capturing individual portraits, group photos, and candid moments with the BBSA community.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153255",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=153255",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "f9ef0c647e1ea5e8",
-   "title": "Writing Consultants Accountability Group",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-15T12:00:00-05:00",
-   "end": "2026-11-15T14:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Writing Accountability Groups- Hosted by WSSW Writing Consultants\nOrganization: WURZWEILER SCHOOL OF SOCIAL WORK\nSubmitter Name: Finkelstein, Mindy\nSubmitter Email: mindy.finkelstein@yu.edu\nEvent Locator: 2026-ABFACX\n\nAccountability Writing Groups (Virtual)\nAccountability Writing Groups are facilitated by WSSW Writing Consultants and provide Wurzweiler students with dedicated time to work on their writing alongside other Wurzweiler students. These virtual sessions are designed to offer a supportive and collaborative environment where students can establish writing goals, share…",
-   "url": "http://wssswriting.setmore.com/",
-   "location": "Online Event",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "38a1da3b4e52cd73",
-   "title": "Open Studio",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-15T12:30:00-05:00",
-   "end": "2026-11-15T16:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/open-studio/2026-11-15/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "c747e7a964e9c648",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-15T14:00:00-05:00",
-   "end": "2026-11-15T16:30:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8877384555a83df3",
-   "title": "Gandhi and the Jew",
-   "venue": "Miami New Drama (Colony)",
-   "kind": "stage",
-   "start": "2026-11-15T15:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
-   "url": "https://miaminewdrama.org/shows-events/",
-   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miami-new-drama",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d8049efe3c15e3f8",
-   "title": "Fi-Sci | An Evening with Rhona Trauvitch in conversation with Leanne Wells",
-   "venue": "Books & Books",
-   "kind": "talks",
-   "start": "2026-11-15T17:00:00-05:00",
-   "end": "2026-11-15T18:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for an evening with author Rhona Trauvitch for the release of her new book, FI-SCI: AVATARS OF SCIENCE IN FICTION.",
-   "url": "https://www.eventbrite.com/e/fi-sci-an-evening-with-rhona-trauvitch-in-conversation-with-leanne-wells-tickets-2000457337748",
-   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free"
-   },
-   "source": "books-and-books",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "08e61e675a1fdb5d",
-   "title": "Workshops @ The Bass | Syntropy: Learning To See Is The First Step with Juan Pablo Bohorquez",
-   "venue": "The Bass",
-   "kind": "art",
-   "start": "2026-11-15T17:00:00-05:00",
-   "end": "2026-11-15T19:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://thebass.org/event/workshops-the-bass-syntropy-learning-to-see-is-the-first-step-with-juan-pablo-bohorquez/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "the-bass",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "5cf17e39972cecf8",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-15T17:15:00-05:00",
-   "end": "2026-11-15T19:45:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "8d3884b525c7914e",
-   "title": "Cuerda & Clave at The Betsy Piano Bar",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-15T18:00:00-05:00",
-   "end": "2026-11-15T23:00:00-05:00",
-   "all_day": false,
-   "description": "The Betsy Piano Bar hosts Cuerda & Clave every Sunday from 6 PM to 11 PM as part of Miami Beach’s longest-running live jazz series—seven days a week, nine shows weekly.\nEnjoy the dynamic sounds of acclaimed pianist and composer Edgar Pantoja, whose music blends Cuban roots with global rhythms, alongside percussionist Gabriel Ramon Placido, a Puerto Rican artist with international orchestral and jazz experience. Together, they deliver a vibrant fusion of Latin jazz, improvisation, and world music.\nDetails & Reservations: thebetsyhotel.com/calendar",
-   "url": "https://events.miamibeachfl.gov/event/cuerda-clave-at-the-betsy-piano-bar/2026-11-15/",
-   "location": "betsey hotel, 1440 Ocean Dr, Miami Beach, Fl, 33139",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "28263460a026e03d",
-   "title": "Live Arts Miami: Saami Brothers Qawwali",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-15T18:00:00-05:00",
-   "end": "2026-11-15T21:00:00-05:00",
-   "all_day": false,
-   "description": "Purchase Tickets\n\nLive Arts Miami’s MUNDO Live Music Series welcomes The Saami Brothers, among the world’s foremost Qawwali practitioners, for an evening of Sufi devotional music at the Miami Beach Bandshell.\nCarrying an unbroken musical lineage nearly 800 years old from Karachi, Pakistan, the Saami Brothers are hereditary musicians of the Qawwal Bacha Delhi Gharana, founded by 13th-century mystic and poet Amir Khusrau. Through hypnotic rhythms, soaring vocal improvisation, ecstatic call-and-response, and centuries-old poetry, Qawwali reaches toward wajd – a state of spiritual ecstasy and…",
-   "url": "https://events.miamibeachfl.gov/event/live-arts-miami-saami-brothers-qawwali/",
-   "location": "Miami Beach Bandshell, 7275 Collins Avenue, Miami Beach, 33141, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "389c4ee01d550846",
-   "title": "The Ocean Drive Promenade Music Series",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-15T18:00:00-05:00",
-   "end": "2026-11-15T19:30:00-05:00",
-   "all_day": false,
-   "description": "Ocean Drive Arts presents culturally rich experiences in the heart of beautiful Miami Beach. Featuring free concerts, visual art fairs, literary events, health & wellness activities and culinary activations, these family friendly programs celebrate the best of Miami Beach with exciting local talents. Events take place Sunday afternoons among the swaying palm trees wrapped in gentle ocean breezes on the Ocean Drive Promenade located between 14th Street and 14th Place. Take a stroll on one of America’s iconic boulevards to experience the best of arts and culture with Ocean Drive Arts.\nThe Ocean…",
-   "url": "https://events.miamibeachfl.gov/event/the-ocean-drive-promenade-music-series/2026-11-15/",
-   "location": "Lummus Park – 14 Street & Ocean Drive",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "ee18a2f428dc9e4a",
-   "title": "The Saami Brothers",
-   "venue": "Miami Beach Bandshell",
-   "kind": "music",
-   "start": "2026-11-15T19:00:00-05:00",
-   "end": "2026-11-15T21:00:00-05:00",
-   "all_day": false,
-   "description": "Discover the sound of Sufi Devotion – these master practitioners of Qawwali bring an 800-year-old musical lineage from Pakistan to Miami Beach.",
-   "url": "https://miamibeachbandshell.com/event/the-saami-brothers/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "bandshell",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "393cb272c32640f1",
-   "title": "Writing Consultants Accountability Group",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-15T19:00:00-05:00",
-   "end": "2026-11-15T21:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Writing Accountability Groups- Hosted by WSSW Writing Consultants\nOrganization: WURZWEILER SCHOOL OF SOCIAL WORK\nSubmitter Name: Finkelstein, Mindy\nSubmitter Email: mindy.finkelstein@yu.edu\nEvent Locator: 2026-ABFACX\n\nAccountability Writing Groups (Virtual)\nAccountability Writing Groups are facilitated by WSSW Writing Consultants and provide Wurzweiler students with dedicated time to work on their writing alongside other Wurzweiler students. These virtual sessions are designed to offer a supportive and collaborative environment where students can establish writing goals, share…",
-   "url": "http://wssswriting.setmore.com/",
-   "location": "Online Event",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "206d5af5c8acb794",
-   "title": "LA BOLA NEGRA",
-   "venue": "O Cinema South Beach",
-   "kind": "film",
-   "start": "2026-11-15T20:30:00-05:00",
-   "end": "2026-11-15T23:00:00-05:00",
-   "all_day": false,
-   "description": "Tickets: https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041132~09326ce9-bfe7-4111-9b0c-59f6d32b5d7d&",
-   "url": "https://www.o-cinema.org/events/la-bola-negra",
-   "location": "O Cinema South Beach",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "o-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-02T20:39:30+00:00",
-   "city": "miami"
   },
   {
    "id": "8763cea213aeb33d",
@@ -3061,153 +224,6 @@
     "text": null
    },
    "source": "nyc-pratt-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "3fb9df3dbeee5975",
-   "title": "Midterms Breakfast",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-16T08:30:00-05:00",
-   "end": "2026-11-16T10:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Midterms Breakfast\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZFV\n\nStudents will have small pick me up light refreshments for a little over a week to enjoy during midterms.",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Wilf-Glueck Center-Nagel Lobby",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "d0f5aaa07ef1c003",
-   "title": "Moonlighter FabLab: Homeschool STEAM Sessions - 2026-2027",
-   "venue": "City of Miami Beach Arts Calendar",
-   "kind": "art",
-   "start": "2026-11-16T10:30:00-05:00",
-   "end": "2026-11-16T12:30:00-05:00",
-   "all_day": false,
-   "description": "Supplement your homeschooling with quality project-based learning activities that introduce STEAM concepts for students ages 7-12.\n\nStudents will explore STEAM concepts, work on guided projects, share their progress, and learn how to reflect and document their work like real makers.\nStudents may bring a small snack for our short break periods; however, full lunches should not be brought to class.\nPrice: $425\nFormat: 6 sessions per package, once a week on Mondays (excluding holidays)\nTime: 10:30 AM – 1:30 PM\nFall Package 1 – (6 Sessions)\nSept 14, Sept 21, Sept 28, Oct 5, Oct 12, Oct 19\nFall…",
-   "url": "https://events.miamibeachfl.gov/event/homeschool-steam-sessions-2026-2027/2026-11-16/",
-   "location": "Moonlighter FabLab, 1661 Pennsylvania Ave, Miami Beach, FL, 33139, United States",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miamibeach-arts",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "658e27144a082a60",
-   "title": "Carly Weinstein: Influence, Identity & the NYC Creator Economy",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T14:00:00-05:00",
-   "all_day": false,
-   "description": "Join JBSA for a moderated conversation with NYC creator and entrepreneur Carly Weinstein on personal branding, content creation, the creator economy, and building an authentic career. The discussion will also explore Jewish identity, community, and Carly’s personal and professional journey, followed by audience Q&A.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=153919",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=153919",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "03b2180da3289e71",
-   "title": "Fireside Chat with Ward Young ('13), Senior MD at Blackstone Group",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T14:00:00-05:00",
-   "all_day": false,
-   "description": "Fireside chat with Ward Young (CBS 2013)\n\nEdward (“Ward”) Young is a Senior Managing Director in Blackstone Strategic Partners. Mr. Young serves as the Chief Investment Officer of Blackstone GP Stakes, focusing on the acquisition of minority ownership interests in private-market alternative asset management firms.\n\nBefore joining Blackstone in 2019, Mr. Young spent more than 12 years at The Carlyle Group, where he focused on investments in the Infrastructure and Power sectors. Before joining Carlyle, he began his career at UBS Investment Bank.\n\nMr. Young received an A.B. in History and…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=152452",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "6d00657a95961dee",
-   "title": "Lunch and Learn: Highland Creek Partners",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T14:00:00-05:00",
-   "all_day": false,
-   "description": "Lunch and Learn: Successful Investment Cases, with Daniel Chen of Highland Creek Partners\n\nTheory is useful, but real deals are where the lessons live. Over lunch, Daniel Chen of Highland Creek Partners walks through successful investment cases from his career, unpacking what made them work, how value was actually created, and what searchers can take away from deals that delivered strong returns. Expect specific stories rather than abstractions, including the decisions, the operating moves, and the moments that turned a good business into a great outcome.\n\nDaniel is a Partner at Highland…",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=145199",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "385bda2acf8865bb",
-   "title": "National Security and the Transatlantic Relationship: A Conversation with Ambassador Rui Vinhas",
-   "venue": "Columbia Law School",
-   "kind": "talks",
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T13:30:00-05:00",
-   "all_day": false,
-   "description": "Join the National Security Law Society for a lunchtime conversation with the Permanent Representative of Portugal to the United Nations, Rui Vinhas, where you will hear about the status of the transatlantic relationship, future of NATO, and nature of European national security readiness. The conversation will be moderated by Professor Christina Hioureas (Partner, Foley Hoag).\n\nRSVP required.\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929478",
-   "url": "https://connect.law.columbia.edu/rsvp?id=1929478",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-law",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "4ae986875fd431b1",
-   "title": "Counseling Center Tabling and Giveaways",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-16T13:00:00-05:00",
-   "end": "2026-11-16T15:30:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Counseling Center Tabling and Giveaways\nOrganization: COUNSELING CENTER\nSubmitter Name: Schiffer, Miriam\nSubmitter Email: miriam.bluth@yu.edu\nEvent Locator: 2026-ABFAAM\n\ncome say hello to our counselors and grab a giveaway item!",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Beren-215 Lexington-1st Floor Lobby",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
    "also_listed_by": [],
    "fetched_at": "2026-11-05T18:34:58+00:00",
    "city": "nyc"
@@ -3297,8 +313,8 @@
    "city": "nyc"
   },
   {
-   "id": "e7ed568d55f1ac99",
-   "title": "Art Scholars & Curators Dicuss Si Lewen's Masterpieces at a Landmark Museum",
+   "id": "d8d8718122e1f172",
+   "title": "Art Scholars & Curators Discuss Si Lewen's Masterpieces at a Landmark Museum",
    "venue": "Club Free Time",
    "kind": "talks",
    "start": "2026-11-16T18:00:00-05:00",
@@ -3314,7 +330,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -3486,27 +502,6 @@
    "city": "nyc"
   },
   {
-   "id": "2d612586f8bf0b3c",
-   "title": "European Mixer",
-   "venue": "Columbia Business School",
-   "kind": "talks",
-   "start": "2026-11-16T19:00:00-05:00",
-   "end": "2026-11-16T21:00:00-05:00",
-   "all_day": false,
-   "description": "Join us for a European Mixer bringing together students from CBS and NYU! Whether you're European or simply interested in meeting people from across Europe, come enjoy a fun evening of conversations and new connections.\nA great opportunity to expand your network beyond CBS and meet fellow Europeans in NYC.\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154488",
-   "url": "https://groups.gsb.columbia.edu/rsvp?id=154488",
-   "location": "Sign in to download the location",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-columbia-business",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
    "id": "e78c6623d1bbb1af",
    "title": "LA BOLA NEGRA",
    "venue": "O Cinema South Beach",
@@ -3675,6 +670,27 @@
    "city": "miami"
   },
   {
+   "id": "c2d618eccc70cc0e",
+   "title": "Lucia di Lammermoor",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-17T00:00:00-05:00",
+   "end": "2026-11-18T00:00:00-05:00",
+   "all_day": true,
+   "description": "A forbidden romance, a forged betrayal and a forced marriage drive Donizetti’s bel canto tragedy toward one of opera’s most psychologically intense scenes. Florida Grand Opera opens its 2026-2027 season with performances Saturday, November 14, Sunday, November 15 and Tuesday, November 17 at the Adrienne Arsht Center. Set amid a bitter family feud, Lucia di Lammermoor pairs demanding vocal writing with a story of political ambition, manipulation and emotional collapse.\n\nLucia has secretly pledged herself to Edgardo, the sworn enemy of her family, but her brother Enrico is determined to arrange…",
+   "url": "https://www.miamiandbeaches.com/event/lucia-di-lammermoor/41938",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 31.59,
+    "text": "$31.59"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
    "id": "60780a525d70ea95",
    "title": "The Sound of Change: How Music Moves Climate and Culture",
    "venue": "NYU Stern School of Business",
@@ -3738,27 +754,6 @@
    "city": "nyc"
   },
   {
-   "id": "a0879746820d8efe",
-   "title": "Joint Public Building & Procurement and Transportation & Infrastructure Committees Meeting",
-   "venue": "New York Building Congress",
-   "kind": "talks",
-   "start": "2026-11-17T08:30:00-05:00",
-   "end": "2026-11-17T09:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://buildingcongress.com/event/joint-public-building-procurement-and-transportation-infrastructure-committees-meeting-2/",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-ny-building-congress",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
    "id": "7849f58730217910",
    "title": "Midterms Breakfast",
    "venue": "Yeshiva University",
@@ -3817,10 +812,8 @@
     "text": null
    },
    "source": "manatech",
-   "also_listed_by": [
-    "refresh-miami"
-   ],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "miami"
   },
   {
@@ -3929,6 +922,27 @@
    "city": "nyc"
   },
   {
+   "id": "06f5de5303898d58",
+   "title": "Lunch & Learn: ETA Across Latin America - Investing, Leadership & Local Perspectives",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-17T12:30:00-05:00",
+   "end": "2026-11-17T14:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for a Lunch & Learn with Henrique Duarte of KYR Capital and Daniel Fernández Abarno, Founder and Managing Director of ROU Partners, for a conversation on Entrepreneurship Through Acquisition (ETA) and the growing search fund ecosystem across Latin America.\n\nDrawing on their experiences as an investor and entrepreneur operating across the region, Henrique and Daniel will explore how the search fund model is adapted to different markets and how local culture, identity, and stakeholder perspectives shape the process of sourcing, investing in, acquiring, and ultimately leading a…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=146691",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "30431a31679c5181",
    "title": "Sustainable Operations Initiative Student Roundtable: Grace Farms’ Mission-Driven Model: Turning Ethical Supply Chains into Business Practice",
    "venue": "Columbia Business School",
@@ -4031,6 +1045,27 @@
    "source": "nyc-cjh",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "37fde9671a709305",
+   "title": "Tax Planning for Americans in the UK",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-17T13:30:00-05:00",
+   "end": "2026-11-17T15:30:00-05:00",
+   "all_day": false,
+   "description": "Tax Planning for Americans in the UK\n\nJoin us for an evening of expert insights, networking, and strategic discussion hosted by Withers, along with alumni from peer schools.\n​​​​​​​\nDate: Tuesday, November17\nTime: 6:30 PM - 8:30 PM GMT\nLocation: Withers, 20 Old Bailey, London, EC4M 7AN\nFee: Club Members: £10 / Non-Members: £15\n\nNavigating cross-border tax obligations between the United States and the United Kingdom presents unique complexities, from dual taxing rights and conflicting entity classifications to managing global wealth structures and UK property investments.\n\nFeatured Speakers &…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=154598",
+   "location": "Withers, 20 Old Bailey, London EC4M 7AN, United Kingdom",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -4349,6 +1384,27 @@
    "city": "nyc"
   },
   {
+   "id": "70b17fd913b512bd",
+   "title": "Award-Winning Architect Grapples with Realities of the Design World (In Person AND Online!)",
+   "venue": "Club Free Time",
+   "kind": "architecture",
+   "start": "2026-11-17T18:30:00-05:00",
+   "end": "2026-11-17T20:30:00-05:00",
+   "all_day": false,
+   "description": "A visiting lecture from Sean Lally. The lecture will be followed by a Q&A moderated by Michael Young.Architects love to be right. Yet, exploring a design world living with the glitches, snags, and unintended consequences of their ambitions might better serve not only the world they belong to but their own discipline.Lally is the author of The Air from Other Planets: A Brief History of Architecture to Come, and editor of Energies: New Material Boundaries: Architectural Design. Lally is the recipient of the Prince Charitable Trusts Rome Prize in landscape architecture from the American Academy…",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "cfdb2846944c352b",
    "title": "Book Launch: Between the River and the Railroad Tracks by Nicole R. Fleetwood (with Hanif Abdurraqib)",
    "venue": "Club Free Time",
@@ -4493,27 +1549,6 @@
    "source": "nyc-cjh",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "78bf066824c52747",
-   "title": "Visiting Lecture | Sean Lally: Snags, Glitches and Unintended Consequences",
-   "venue": "Cooper Union School of Architecture",
-   "kind": "talks",
-   "start": "2026-11-17T18:30:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://cooper.edu/events-and-exhibitions/events/visiting-lecture-sean-lally-snags-glitches-and-unintended",
-   "location": "The Cooper Union, 7 E 7th St, New York",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-cooper-union-arch",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
    "city": "nyc"
   },
   {
@@ -4958,27 +1993,6 @@
    "city": "nyc"
   },
   {
-   "id": "1e89ee8aacb8309c",
-   "title": "Ask Rabbi David: An Open Conversation with Rabbi David Ingber",
-   "venue": "92nd Street Y (92NY)",
-   "kind": "talks",
-   "start": "2026-11-18T12:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "description": "",
-   "url": "https://www.92ny.org/class/ask-rabbi-david-an-open-conversation-with-rabbi-david-ingber",
-   "location": null,
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-92ny",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
    "id": "674794604d234613",
    "title": "The William Davidson School Open House",
    "venue": "Jewish Theological Seminary (JTS)",
@@ -5018,6 +2032,27 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-05T18:34:58+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "688c1b7df05ec7d9",
+   "title": "Lunch and Learn: Ambit Partners",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-18T12:30:00-05:00",
+   "end": "2026-11-18T14:00:00-05:00",
+   "all_day": false,
+   "description": "Niel Wyma is a co-founder and partner at Ambit Partners, a dedicated Search Fund investor enabling entrepreneurship through acquisition in traditional and developing markets. Founded in 2020 with offices in Cape Town and Vancouver, Ambit backs entrepreneurs to find, buy and build enduring small and medium businesses around the world. Niel also teaches entrepreneurship through acquisition at GIBS and the University of Cape Town, and holds an MBA from INSEAD.\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154566",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=154566",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -5231,27 +2266,6 @@
    "city": "miami"
   },
   {
-   "id": "87c33ef66805c725",
-   "title": "The Coach Awards Miami 2026",
-   "venue": "ManaTech",
-   "kind": "tech",
-   "start": "2026-11-18T16:00:00-05:00",
-   "end": "2026-11-18T21:00:00-05:00",
-   "all_day": false,
-   "description": "Get up-to-date information at: https://luma.com/the-coach-awards\n\nAddress:\nMana Tech Loft 10\nMiami, FL\nUnited States\n\nHosted by Krystyna Mandrykina, Mana Tech & Kavir",
-   "url": "https://luma.com/the-coach-awards",
-   "location": "Mana Tech Loft 10, 21 SE 1st Ave #10, Miami, FL 33131, USA",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "manatech",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
    "id": "3dda3251354780f9",
    "title": "Novella Discussion: Recent Novel by Award-Winning Author",
    "venue": "Club Free Time",
@@ -5271,6 +2285,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-05T18:34:58+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "8ba4f4532f388d37",
+   "title": "The Coach Awards Miami 2026",
+   "venue": "ManaTech",
+   "kind": "tech",
+   "start": "2026-11-18T16:30:00-05:00",
+   "end": "2026-11-18T21:00:00-05:00",
+   "all_day": false,
+   "description": "Get up-to-date information at: https://luma.com/the-coach-awards\n\nAddress:\nMana Tech Loft 10\nMiami, FL\nUnited States\n\nHosted by Krystyna Mandrykina, Mana Tech & Kavir",
+   "url": "https://luma.com/the-coach-awards",
+   "location": "Mana Tech Loft 10, 21 SE 1st Ave #10, Miami, FL 33131, USA",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "manatech",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
   },
   {
    "id": "874a014530f130f6",
@@ -5543,6 +2578,27 @@
    "source": "nyc-cjh",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "707d83a6b5aa7ec6",
+   "title": "Getting To Know NYC's Bodega Cats with New Photo Book",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-18T19:00:00-05:00",
+   "end": "2026-11-18T20:30:00-05:00",
+   "all_day": false,
+   "description": "A discussion with Dan Rimada, the founder of the beloved archive Bodega Cats of New York (now a book with the same name), which led to bodega cat legislation in New York City and New York State!",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -5840,6 +2896,27 @@
    "city": "miami"
   },
   {
+   "id": "36a3779bcc7bdf41",
+   "title": "God of Carnage",
+   "venue": "Arsht Center",
+   "kind": "stage",
+   "start": "2026-11-19T00:00:00-05:00",
+   "end": "2026-11-22T00:00:00-05:00",
+   "all_day": true,
+   "description": "A sharply comic portrait of social etiquette unraveling comes to the Adrienne Arsht Center as part of the Theater Up Close series. Running on select dates from November 5 through 22, God of Carnage is presented by Zoetic Stage and the Adrienne Arsht Center.\n\nWritten by Yasmina Reza and translated by Christopher Hampton, the play follows two sets of Brooklyn parents who meet to discuss a playground fight between their sons. What begins as a controlled conversation about responsibility and civility gradually breaks down into accusations, conflict and alcohol-fueled chaos.\n\nThe production opens…",
+   "url": "https://www.miamiandbeaches.com/event/god-of-carnage/40014",
+   "location": "Adrienne Arsht Center for the Performing Arts of Miami-Dade County, 1300 Biscayne Blvd., Miami, FL",
+   "price": {
+    "free": false,
+    "min": 66.69,
+    "text": "$66.69"
+   },
+   "source": "arsht",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
    "id": "2c6800f545feb411",
    "title": "PE Program Breakfast Series Fall 2026 Session 8, Guest Charlie Velie `25",
    "venue": "Columbia Business School",
@@ -5901,6 +2978,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "dbaa31fc2210d8b2",
+   "title": "Founder Coffee Hour · Networking for Female Founders in Miami",
+   "venue": "Luma Miami",
+   "kind": "community",
+   "start": "2026-11-19T10:00:00-05:00",
+   "end": "2026-11-19T11:00:00-05:00",
+   "all_day": false,
+   "description": "Get up-to-date information at: https://luma.com/2pjlu2tf\n\nAddress:\nSable\nMiami, FL\nUnited States\n\nMiami is a hard city to make friends in, and it gets harder when you are building something that takes most of your week. This is the hour we keep for that, coffee with other female founders, name tags on, and a room you can come back to every other Thursday.\nThis is the one we point people to when they say they want to meet the club before they join, so bring a friend who has been curious.\nWhat the hour looks like\nEveryone grabs a coffee or a matcha at the counter and pays their own…",
+   "url": "https://luma.com/2pjlu2tf",
+   "location": "Sable, 2219 NW 2nd Ave, Miami, FL 33127, USA",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "luma-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
   },
   {
    "id": "d1035c10dd6289eb",
@@ -5984,6 +3082,27 @@
    "source": "nyc-columbia-business",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "5b41ce820ed5b79b",
+   "title": "Fully Charged: Electric Vehicles in New York",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-19T12:30:00-05:00",
+   "end": "2026-11-19T14:00:00-05:00",
+   "all_day": false,
+   "description": "Charging an EV in New York can be complicated. How are startups, utilities, and OEMs working together to solve this problem? This panel will bring together multiple expert perspectives on how New York (and other cities) can electrify vehicles and keep them charged!\n\n- Michael Maten, Director Policy and Energy Policy at General Motors\n- Becky Jin, Operations Manager, it's electric\n- Wes Gordon, Head of Acquisitions, Wildflower\nDress Code: Casual (jeans ok)\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154159",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=154159",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -6089,6 +3208,27 @@
    "source": "nyc-columbia-iijs",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "ee151eedec44405b",
+   "title": "270 Park Design Tour",
+   "venue": "Open House New York",
+   "kind": "talks",
+   "start": "2026-11-19T16:00:00-05:00",
+   "end": "2026-11-19T18:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://ohny.org/activity/270park",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-ohny",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -6365,6 +3505,27 @@
    "city": "miami"
   },
   {
+   "id": "0de805495814285f",
+   "title": "Covering America in a Time of Polarization: Journalism & the Future of Our Nation with Dana Bash and Juju Chang",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-19T18:30:00-05:00",
+   "end": "2026-11-19T20:00:00-05:00",
+   "all_day": false,
+   "description": "Congregation Rodeph Sholom presents a conversation with award-winning journalists Dana Bash and Juju Chang about covering America in a time of political polarization. Moderated by media strategist Ali Zelenko, the discussion explores the challenges of reporting in a divided nation.",
+   "url": "https://www.myjewishlearning.com/the-hub/covering-america-in-a-time-of-polarization-journalism-the-future-of-our-nation-with-dana-bash-and-juju-chang/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 36.0,
+    "text": "$36"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "d3dc1387957dc8db",
    "title": "hack night v0.192 - South Beach",
    "venue": "Hello Miami",
@@ -6404,6 +3565,27 @@
    "source": "nyc-cjh",
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "42fccee7b00d9369",
+   "title": "Italian Sparkling Wine",
+   "venue": "Columbia Law School",
+   "kind": "talks",
+   "start": "2026-11-19T18:30:00-05:00",
+   "end": "2026-11-19T20:45:00-05:00",
+   "all_day": false,
+   "description": "Join DeVinimus for an effervescent evening of Italian sparkling wines led by Sam Kass of Dalla Terra. Together, we’ll explore an array of sparkling styles—from crisp, elegant classics to vibrant new expressions—perfect for celebrating the season.\n---\nEvent Details: https://connect.law.columbia.edu/rsvp?id=1929519",
+   "url": "https://connect.law.columbia.edu/rsvp?id=1929519",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-law",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -6512,7 +3694,7 @@
    "city": "nyc"
   },
   {
-   "id": "0c73b26ba6e47d5d",
+   "id": "a23ab7a87db3b6bb",
    "title": "The Hunting Wives: Secrets, Scandal & Season 2",
    "venue": "Paley Center for Media",
    "kind": "film",
@@ -6520,7 +3702,7 @@
    "end": "2026-11-19T21:00:00-05:00",
    "all_day": false,
    "description": "",
-   "url": "https://www.universe.com/events/paleylive-the-hunting-wives-secrets-scandal-season-2-tickets-MPVZ1T?unii-trigger-open=MPVZ1T&unii-access-key=GENERALPUBLIC",
+   "url": "https://www.paleycenter.org/events/paleylive-the-hunting-wives",
    "location": null,
    "price": {
     "free": null,
@@ -6529,7 +3711,7 @@
    },
    "source": "nyc-paley-center",
    "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -6722,6 +3904,27 @@
    "city": "miami"
   },
   {
+   "id": "6300c5e84a6c2109",
+   "title": "Spatial Sound and Ambisonics | A Four-Workshop Series",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-19T21:00:00-05:00",
+   "end": "2026-11-19T22:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/spatial-sound-and-ambisonics-a-four-workshop-series/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
    "id": "22ec21d56d6ff61a",
    "title": "THE BASS DIALOGUES | Introducing PHILIPPE VERGNE",
    "venue": "The Bass",
@@ -6764,6 +3967,27 @@
    "city": "miami"
   },
   {
+   "id": "b2d824b7a6fcd7dd",
+   "title": "Continual Learning in Minds and Machines",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-20T07:00:00-05:00",
+   "end": "2026-11-20T19:00:00-05:00",
+   "all_day": false,
+   "description": "How can AI systems keep learning from experience?\n\nAn assistant working with a person or organization over time must remember past interactions, learn from limited feedback, and adapt as circumstances change. Continual learning studies how systems acquire new knowledge while preserving what remains useful. These questions connect AI research with the study of human learning and memory.\n\nCo-organized by Columbia Business School’s AI in Business Initiative and the NSF AI Institute for Artificial and Natural Intelligence (ARNI), this workshop brings together researchers in machine learning…",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=145193",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "25cc240c1fe5f3a4",
    "title": "Shabbos Sulam Project Sunshine",
    "venue": "Yeshiva University",
@@ -6782,6 +4006,48 @@
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "e58bc1adedcd755e",
+   "title": "Airbnb Office Visit",
+   "venue": "Columbia Business School",
+   "kind": "talks",
+   "start": "2026-11-20T10:20:00-05:00",
+   "end": "2026-11-20T12:00:00-05:00",
+   "all_day": false,
+   "description": "Join HTA for a visit to Airbnb’s New York office, hosted by CBS alum Humberto Pacheco, who leads Airbnb’s Homes business across the Americas and previously co-founded Naya Homes.\nDress Code: Business Casual\n---\nEvent Details: https://groups.gsb.columbia.edu/rsvp?id=154592",
+   "url": "https://groups.gsb.columbia.edu/rsvp?id=154592",
+   "location": "Sign in to download the location",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-columbia-business",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "383501fbc84ccfa8",
+   "title": "YUES Morgan Stanley Office Visit",
+   "venue": "Yeshiva University",
+   "kind": "talks",
+   "start": "2026-11-20T11:00:00-05:00",
+   "end": "2026-11-20T13:00:00-05:00",
+   "all_day": false,
+   "description": "Event Title: YUES Morgan Stanley Office Visit\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABFANJ\n\nSite Visit JP Morgan",
+   "url": "https://www.yu.edu/events/all",
+   "location": "Off Campus",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-yeshiva-u",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -6974,6 +4240,27 @@
    "city": "nyc"
   },
   {
+   "id": "5f7be9cffd3b67d3",
+   "title": "IP Law and Tech Startups: What Founders Need to Know",
+   "venue": "ManaTech",
+   "kind": "tech",
+   "start": "2026-11-20T18:00:00-05:00",
+   "end": "2026-11-20T21:00:00-05:00",
+   "all_day": false,
+   "description": "Get up-to-date information at: https://luma.com/yjud4h23\n\nAddress:\nMana Tech Loft 10\nMiami, FL\nUnited States\n\nHosted by Mana Tech",
+   "url": "https://luma.com/yjud4h23",
+   "location": "Mana Tech Loft 10, 21 SE 1st Ave #10, Miami, FL 33131, USA",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "manatech",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
    "id": "07ceee9f3a9e93ae",
    "title": "Fashion Museum Curator Discusses the Relationship between Dolls & Fashion",
    "venue": "Club Free Time",
@@ -6992,6 +4279,27 @@
    "source": "nyc-club-free-time",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "6deb1f88dcb16c06",
+   "title": "TGIS Friendsgiving: Sholom 20s & 30s Shabbat Service & Dinner",
+   "venue": "New York Jewish Week / JTA (My Jewish Learning Hub)",
+   "kind": "community",
+   "start": "2026-11-20T19:15:00-05:00",
+   "end": "2026-11-20T21:30:00-05:00",
+   "all_day": false,
+   "description": "Congregation Rodeph Sholom hosts a Friendsgiving Shabbat service and dinner for adults in their 20s and 30s, featuring music, gratitude and Thanksgiving favorites. The event is open to members and nonmembers, with tickets ranging from $25 to $45.",
+   "url": "https://www.myjewishlearning.com/the-hub/tgis-friendsgiving-sholom-20s-30s-shabbat-service-dinner/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "$25 – $45"
+   },
+   "source": "nyc-ny-jewish-week",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -7184,6 +4492,48 @@
    "city": "miami"
   },
   {
+   "id": "f912b53cab8c3c6c",
+   "title": "ALO COLLINS AVE: ALO RUNNERS CLUB",
+   "venue": "Luma Miami",
+   "kind": "community",
+   "start": "2026-11-21T10:30:00-05:00",
+   "end": "2026-11-21T11:30:00-05:00",
+   "all_day": false,
+   "description": "Get up-to-date information at: https://luma.com/n2taoyyf\n\nAddress:\n100 Lincoln Rd\nMiami Beach, FL\nUnited States\n\nIn celebration of our brand new sanctuary, ALO COLLINS AVE, we invite you to Step Into Stride with the ALO RUNNERs Club led by ALO Wellness Club instructor Stef Armstead.\nJoin us for a high-energy 5K run at ALO Collins Ave. All paces are welcome—whether you're a seasoned runner or just looking to move with intention. Set your pace, take a deep breath, and let the road become your moving meditation.\nPLEASE NOTE:\nThis event is RAIN OR SHINE.\nThere is no storage for belongings, so…",
+   "url": "https://luma.com/n2taoyyf",
+   "location": "100 Lincoln Rd, Miami Beach, FL 33139, USA",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "luma-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "5ecbdb0fb097b320",
+   "title": "Walking Tour: Privately Owned Public Spaces (POPS) in Midtown North",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-21T10:30:00-05:00",
+   "end": "2026-11-21T12:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/21/walking-tour-privately-owned-public-spaces-pops-in-midtown-north-5/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "941b0474d5f986f2",
    "title": "Discuss Your Favorite Romance Books with Fellow Readers",
    "venue": "Club Free Time",
@@ -7268,6 +4618,27 @@
    ],
    "fetched_at": "2026-11-12T18:44:38+00:00",
    "city": "miami"
+  },
+  {
+   "id": "27330e21729cf10c",
+   "title": "AI+A Series, Part 7: From World Models to the Built World",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-21T12:00:00-05:00",
+   "end": "2026-11-21T17:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/21/aia-series-part-7-from-world-models-to-the-built-world/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
   },
   {
    "id": "3c705fda549856fb",
@@ -7417,6 +4788,27 @@
    "city": "miami"
   },
   {
+   "id": "b8cef5b9deacad15",
+   "title": "Reimagining Justice Film Screening Series: The Alabama Solution",
+   "venue": "Center for Architecture (AIANY)",
+   "kind": "talks",
+   "start": "2026-11-21T15:00:00-05:00",
+   "end": "2026-11-21T18:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://calendar.aiany.org/2026/11/21/reimagining-justice-film-screening-series-the-alabama-solution/",
+   "location": "Center for Architecture, 536 LaGuardia Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-aiany",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "44f093e77e491b81",
    "title": "Lens-Based Artists & Photographers Share Insight on Their Practices",
    "venue": "Club Free Time",
@@ -7457,6 +4849,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "aaba403c1baa355c",
+   "title": "The Bass Highlight Tours",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-21T17:00:00-05:00",
+   "end": "2026-11-21T17:45:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/the-bass-highlight-tours/2026-11-21/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
   },
   {
    "id": "6b9637fa5649862a",
@@ -7627,25 +5040,25 @@
    "city": "miami"
   },
   {
-   "id": "c5529ca959296f48",
-   "title": "Family Workshop: Tick-Tock, Make a Clay Clock! (Ages 4+)",
-   "venue": "92nd Street Y (92NY)",
-   "kind": "talks",
-   "start": "2026-11-22T10:00:00-05:00",
-   "end": null,
+   "id": "045e1267bc233da7",
+   "title": "ALO RECOVERY WALK: ALO COLLINS AVE",
+   "venue": "Luma Miami",
+   "kind": "community",
+   "start": "2026-11-22T10:30:00-05:00",
+   "end": "2026-11-22T11:30:00-05:00",
    "all_day": false,
-   "description": "",
-   "url": "https://www.92ny.org/class/family-workshop-tick-tock-make-a-clay-clock",
-   "location": null,
+   "description": "Get up-to-date information at: https://luma.com/ww92nsp8\n\nAddress:\n100 Lincoln Rd\nMiami Beach, FL\nUnited States\n\nIn celebration of our brand new sanctuary, ALO Collins Ave, we invite you to begin your day with a mindful wellness walk—a moment to pause, re-center, and reconnect.\nLed by ALO Wellness Club instructor Shannon Giles this walk is designed to support recovery and well-being, offering space to move gently, breathe deeply, and return to yourself. Whether you come to ground, to restore, or simply to be present, this is your time to slow down and walk with intention.\nAfter the walk, join…",
+   "url": "https://luma.com/ww92nsp8",
+   "location": "100 Lincoln Rd, Miami Beach, FL 33139, USA",
    "price": {
     "free": null,
     "min": null,
     "text": null
    },
-   "source": "nyc-92ny",
+   "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "nyc"
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
   },
   {
    "id": "a208e98a0494b232",
@@ -8159,7 +5572,7 @@
    "start": "2026-11-23T18:00:00-05:00",
    "end": "2026-11-23T19:30:00-05:00",
    "all_day": false,
-   "description": "Raissa Bretaña and Dr. Hilary Davidson discuss Bretaña's new book. Nothing embodied the resplendence of the Gilded Age like the opulent fashions worn by the women of elite society. As vast fortunes were built by men who dominated finance and industry, it was women who brokered power in the social arena. With their well-appointed wardrobes, they achieved social prominence by ensuring they were elegantly and appropriately dressed for every luncheon, reception, promenade, and ball. It was an era marked by an increasingly style-conscious public, shaped by the expanding fashion press that reported…",
+   "description": "Raissa Bretana and Dr. Hilary Davidson discuss Bretana's new book. Nothing embodied the resplendence of the Gilded Age like the opulent fashions worn by the women of elite society. As vast fortunes were built by men who dominated finance and industry, it was women who brokered power in the social arena. With their well-appointed wardrobes, they achieved social prominence by ensuring they were elegantly and appropriately dressed for every luncheon, reception, promenade, and ball. It was an era marked by an increasingly style-conscious public, shaped by the expanding fashion press that reported…",
    "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
    "location": "New York City ( NYC ), New York, NY",
    "price": {
@@ -8169,7 +5582,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
   },
   {
@@ -8782,6 +6195,27 @@
    "city": "nyc"
   },
   {
+   "id": "657b75edf5b90c42",
+   "title": "Curator’s Tour of The Invention of Park Avenue",
+   "venue": "The Skyscraper Museum",
+   "kind": "art",
+   "start": "2026-11-25T15:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.skyscraper.org/programs/curators-tour-of-the-invention-of-park-avenue/",
+   "location": "The Skyscraper Museum, 39 Battery Pl, New York",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-skyscraper-museum",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "deb5982a7b23a7b5",
    "title": "Moonlighter FabLab: Maker Club Afterschool Enrichment - 2026-2027",
    "venue": "City of Miami Beach Arts Calendar",
@@ -8947,6 +6381,594 @@
    "source": "o-cinema",
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "b35d0ad931d0ce97",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-27T12:30:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-27-2026/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a1d3fc63d4a21654",
+   "title": "Thanksgiving Roller Disco",
+   "venue": "Miami Beach Bandshell",
+   "kind": "music",
+   "start": "2026-11-27T17:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "all_day": false,
+   "description": "Roller disco night at the Bandshell! Free admission, and the best disco tunes to help you get your groove on!",
+   "url": "https://miamibeachbandshell.com/event/thanksgiving-roller-disco/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "bandshell",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "e83685f7a429cef7",
+   "title": "An Evening with Kyle MacLachlan in conversation with Rene Rodriguez",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-27T19:00:00-05:00",
+   "end": "2026-11-27T20:00:00-05:00",
+   "all_day": false,
+   "description": "Partnered with Miami Film Festival, join us with renowned actor Kyle MacLachlan to celebrate the release of his memoir, FICTIONAL SELVES.",
+   "url": "https://www.eventbrite.com/e/an-evening-with-kyle-maclachlan-in-conversation-with-rene-rodriguez-tickets-2002155357571",
+   "location": "Bill Cosford Cinema, 5030 Brunson Drive, Coral Gables, FL 33146",
+   "price": {
+    "free": false,
+    "min": 50.49,
+    "text": "50.49 USD"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "da153c07e2f4e613",
+   "title": "Laser Evening",
+   "venue": "Frost Science",
+   "kind": "tech",
+   "start": "2026-11-27T19:00:00-05:00",
+   "end": "2026-11-27T23:00:00-05:00",
+   "all_day": false,
+   "description": "Movie Magic, Fleetwood Mac, Rush, Led Zeppelin",
+   "url": "https://www.frostscience.org/event/laser-evening-nov-27/",
+   "location": "Phillip and Patricia Frost Museum of Science, 1101 Biscayne Blvd, Miami, FL, 33132, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "frost-science",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "dedacbfcbb786e66",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-27T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "184cc042c72cb47f",
+   "title": "Meet Me in PALEYLAND!",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-28T00:00:00-05:00",
+   "end": "2027-01-11T00:00:00-05:00",
+   "all_day": true,
+   "description": "",
+   "url": "https://www.universe.com/events/paley-museum-admission-and-paleyland-paleygx-gaming-2026-tickets-YN5ZJG?unii-trigger-open=YN5ZJG&unii-access-key=GENERALPUBLIC",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "9d2c2d2cd1fecb32",
+   "title": "By the Numbers: Park Slope",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-28T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/by-the-numbers-park-slope/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "b4b50f7ae80a27d7",
+   "title": "Guided Poetry Discussion Group",
+   "venue": "Club Free Time",
+   "kind": "talks",
+   "start": "2026-11-28T12:00:00-05:00",
+   "end": "2026-11-28T13:00:00-05:00",
+   "all_day": false,
+   "description": "Love reading poetry but wish you had someone to discuss it with? This event features an hour of guided poetry reading and discussion in the library. Take in the views of the Hudson River as the group chats about poems new and old, classic and cutting-edge. Staff will provide poems for discussion, but contributions from participants are always welcome. A staff member will lead a discussion about a set of poems.",
+   "url": "https://www.clubfreetime.com/new-york-city-nyc/free-talks-lectures",
+   "location": "New York City ( NYC ), New York, NY",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "nyc-club-free-time",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a24b2fe522ca6bbf",
+   "title": "NHL 27 Gaming Tournament",
+   "venue": "Paley Center for Media",
+   "kind": "film",
+   "start": "2026-11-28T12:30:00-05:00",
+   "end": "2026-11-28T15:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://www.universe.com/events/paleygx-tournament-feat-ea-sports-nhl-27-museum-admission-free-paleygx-tickets-J07M6R?unii-trigger-open=J07M6R&unii-access-key=GENERALPUBLIC",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-paley-center",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "a3990609e262e7f8",
+   "title": "Open Studio",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-28T12:30:00-05:00",
+   "end": "2026-11-28T16:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/open-studio/2026-11-28/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "d8e479d053e0aaaa",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-28T14:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "19dcd647f1fb28ea",
+   "title": "The Bass Highlight Tours",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-28T17:00:00-05:00",
+   "end": "2026-11-28T17:45:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/the-bass-highlight-tours/2026-11-28/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "f3dd6190d99f840e",
+   "title": "Duelo",
+   "venue": "Miami Beach Bandshell",
+   "kind": "music",
+   "start": "2026-11-28T20:00:00-05:00",
+   "end": "2026-11-28T23:00:00-05:00",
+   "all_day": false,
+   "description": "Pioneers of romantic norteño music, Grupo Duelo brings their greatest hits for a night filled with passion and high-energy live performance.",
+   "url": "https://miamibeachbandshell.com/event/duelo/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "bandshell",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "3cb08110b3eb9cb6",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-28T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "6c63a401c834cab6",
+   "title": "Grupo Duelo",
+   "venue": "Miami Beach Bandshell",
+   "kind": "music",
+   "start": "2026-11-28T20:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK_v",
+   "location": "7275 Collins Avenue, Miami Beach FL 33141, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "ticketmaster-miami",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "5b83030750dadedc",
+   "title": "Lincoln Road Farmer's Market",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-29T09:00:00-05:00",
+   "end": "2026-11-29T18:00:00-05:00",
+   "all_day": false,
+   "description": "On Meridian Avenue through Washington Avenue, local vendors gather along Lincoln Road to sell fruits, vegetables, fresh-cut flowers and more. Rain or shine, guests are welcome to explore the area to find regional treasures.\nEvery Sunday at 9:00 AM – 6:00 PM on Lincoln Road.",
+   "url": "https://events.miamibeachfl.gov/event/lincoln-road-farmers-market/2026-11-29/",
+   "location": "Lenox Avenue & Lincoln Road, Miami Beach, 33139, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ff648bdff8222b24",
+   "title": "Museum Store Sunday",
+   "venue": "Frost Science",
+   "kind": "tech",
+   "start": "2026-11-29T10:00:00-05:00",
+   "end": "2026-11-29T17:00:00-05:00",
+   "all_day": false,
+   "description": "Celebrate creativity, curiosity, and the joy of giving at Frost Science.",
+   "url": "https://www.frostscience.org/event/museum-store-sunday-2026/",
+   "location": "Phillip and Patricia Frost Museum of Science, 1101 Biscayne Blvd, Miami, FL, 33132, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "frost-science",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "4e5ac61a5776b05f",
+   "title": "PRESENTED BY PUBLIC ART FUND: Between Tides",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-29T10:00:00-05:00",
+   "end": "2026-12-06T17:00:00-05:00",
+   "all_day": false,
+   "description": "SUN NOV 29–SUN DEC 6, 2026\n10 AM – 5 PM\nFree and open to the public. Ping-pong paddles and balls available to borrow.\n\nFollowing its highly popular summer 2026 exhibition at Rockaway Beach in New York City, Public Art Fund will bring a new presentation of Between Tides to Miami Beach during Miami Art Week and Art Basel Miami Beach. From November 29 through December 6, 2026, six playable sculptural ping-pong tables by Moko Fukuyama, Ilana Harris-Babou, Las Hermanas Iglesias, Carlos H. Matos, Amalia Pica, and SUPERFLEX will be installed in Collins Park, transforming it into a site of…",
+   "url": "https://events.miamibeachfl.gov/event/presented-by-public-art-fund-between-tides/",
+   "location": "Collins Park Bass Museum of Art – 2100 Collins Avenue",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "3c413403880bb461",
+   "title": "Art Deco Financial District",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-29T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/art-deco-financial-district-2/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 25.0,
+    "text": "Member: $25 | Non-member: $35"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "3ed6d2ac11efbce8",
+   "title": "Grand Central Terminal",
+   "venue": "Municipal Art Society of New York",
+   "kind": "talks",
+   "start": "2026-11-29T11:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "",
+   "url": "https://www.mas.org/events/grand-central-terminal-11-29-2026/",
+   "location": null,
+   "price": {
+    "free": false,
+    "min": 15.0,
+    "text": "Member: $15 | Non-member: $25"
+   },
+   "source": "nyc-mas",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "304dbff4e737f51b",
+   "title": "The Bass Free Community Day",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-29T12:00:00-05:00",
+   "end": "2026-11-29T17:00:00-05:00",
+   "all_day": false,
+   "description": "Families with children of all ages are invited to join us for Family Day—an afternoon of art-making, exploration, and fun! Activities include in-person projects in The Bass Creativity Center, where materials are provided to encourage hands-on creativity and experimentation. Families can also embark on a prompted art exploration of our current exhibitions using an art explorer guide—a playful scavenger hunt through the galleries, inviting participants to search for specific artworks, answer questions, and engage deeply with what they discover.\nEach Family Day includes special Art Cares…",
+   "url": "https://events.miamibeachfl.gov/event/the-bass-free-community-day/2026-11-29/",
+   "location": "The Bass Museum of Art, 2100 Collins Avenue, Miami Beach, 33139, United States",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "6ce943bf399cee25",
+   "title": "Open Studio",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-29T12:30:00-05:00",
+   "end": "2026-11-29T16:30:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/open-studio/2026-11-29/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "0d1761b89f684122",
+   "title": "Miami Art Week | Extended Museum Hours",
+   "venue": "The Bass",
+   "kind": "art",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T20:00:00-05:00",
+   "all_day": false,
+   "description": "",
+   "url": "https://thebass.org/event/miami-art-week-extended-museum-hours/2026-11-29/",
+   "location": null,
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "the-bass",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "381886ce95e0d27a",
+   "title": "An Afternoon with Dennis Scholl in conversation with Mitchell Kaplan",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-29T14:00:00-05:00",
+   "end": "2026-11-29T15:00:00-05:00",
+   "all_day": false,
+   "description": "Join us as we close out our latest month-long art exhibition, What Rests Between, with a conversation with visual artist Dennis Scholl.",
+   "url": "https://www.eventbrite.com/e/an-afternoon-with-dennis-scholl-in-conversation-with-mitchell-kaplan-tickets-2004132494240",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9a6702936e0459d3",
+   "title": "Gandhi and the Jew",
+   "venue": "Miami New Drama (Colony)",
+   "kind": "stage",
+   "start": "2026-11-29T15:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "description": "A friendship that changed the world. Before Gandhi became Gandhi, an unlikely bond with a Jewish architect helped him build the philosophy of nonviolence— until history's most unresolvable conflict tested everything they'd built together.",
+   "url": "https://miaminewdrama.org/shows-events/",
+   "location": "Colony Theatre, 1040 Lincoln Rd, Miami Beach",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-new-drama",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "ba59e85e0dc9be28",
+   "title": "Segments | Sergio Castiglione in conversation with Victor Deupi",
+   "venue": "Books & Books",
+   "kind": "talks",
+   "start": "2026-11-29T17:00:00-05:00",
+   "end": "2026-11-29T18:00:00-05:00",
+   "all_day": false,
+   "description": "Join us for an evening with photographer Sergio Castiglione for the release of his new photographic monograph, SEGMENTS.",
+   "url": "https://www.eventbrite.com/e/segments-sergio-castiglione-in-conversation-with-victor-deupi-tickets-2001072265012",
+   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
+   "price": {
+    "free": true,
+    "min": 0.0,
+    "text": "Free"
+   },
+   "source": "books-and-books",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "8c1e84c0e7c4adb5",
+   "title": "Cuerda & Clave at The Betsy Piano Bar",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-29T18:00:00-05:00",
+   "end": "2026-11-29T23:00:00-05:00",
+   "all_day": false,
+   "description": "The Betsy Piano Bar hosts Cuerda & Clave every Sunday from 6 PM to 11 PM as part of Miami Beach’s longest-running live jazz series—seven days a week, nine shows weekly.\nEnjoy the dynamic sounds of acclaimed pianist and composer Edgar Pantoja, whose music blends Cuban roots with global rhythms, alongside percussionist Gabriel Ramon Placido, a Puerto Rican artist with international orchestral and jazz experience. Together, they deliver a vibrant fusion of Latin jazz, improvisation, and world music.\nDetails & Reservations: thebetsyhotel.com/calendar",
+   "url": "https://events.miamibeachfl.gov/event/cuerda-clave-at-the-betsy-piano-bar/2026-11-29/",
+   "location": "betsey hotel, 1440 Ocean Dr, Miami Beach, Fl, 33139",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "c1a6611ad453670b",
+   "title": "The Ocean Drive Promenade Music Series",
+   "venue": "City of Miami Beach Arts Calendar",
+   "kind": "art",
+   "start": "2026-11-29T18:00:00-05:00",
+   "end": "2026-11-29T19:30:00-05:00",
+   "all_day": false,
+   "description": "Ocean Drive Arts presents culturally rich experiences in the heart of beautiful Miami Beach. Featuring free concerts, visual art fairs, literary events, health & wellness activities and culinary activations, these family friendly programs celebrate the best of Miami Beach with exciting local talents. Events take place Sunday afternoons among the swaying palm trees wrapped in gentle ocean breezes on the Ocean Drive Promenade located between 14th Street and 14th Place. Take a stroll on one of America’s iconic boulevards to experience the best of arts and culture with Ocean Drive Arts.\nThe Ocean…",
+   "url": "https://events.miamibeachfl.gov/event/the-ocean-drive-promenade-music-series/2026-11-29/",
+   "location": "Lummus Park – 14 Street & Ocean Drive",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miamibeach-arts",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "miami"
   }
  ]
