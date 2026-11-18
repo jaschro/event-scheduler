@@ -280,6 +280,8 @@ sources:
     city: miami
     kind: sports
     method: ics
+    enabled: false
+    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
     url: "https://ics.calendarlabs.com/1991/5dd280f0/Miami_Dolphins_Schedule.ics"
     page: https://www.miamidolphins.com/schedule/
 
@@ -732,6 +734,8 @@ sources:
     city: nyc
     kind: sports
     method: ics
+    enabled: false
+    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
     url: "https://ics.calendarlabs.com/1995/35bc6c46/New_York_Giants_Schedule.ics"
     page: https://www.giants.com/schedule/
 
@@ -740,6 +744,8 @@ sources:
     city: nyc
     kind: sports
     method: ics
+    enabled: false
+    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
     url: "https://ics.calendarlabs.com/1996/9a1a76ca/New_York_Jets_Schedule.ics"
     page: https://www.newyorkjets.com/schedule/
 
