@@ -280,9 +280,7 @@ sources:
     city: miami
     kind: sports
     method: ics
-    enabled: false
-    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
-    url: "https://ics.calendarlabs.com/1991/5dd280f0/Miami_Dolphins_Schedule.ics"
+    url: "webcal://teamcalendar.com/klKzFyQq79"   # TRIAL: same link given for Giants, Jets and Dolphins
     page: https://www.miamidolphins.com/schedule/
 
   # Ticketmaster Discovery API (TICKETMASTER_API_KEY secret). Aggregator: venue listings win in dedupe.
