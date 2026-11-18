@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T03:05:26+00:00",
+ "generated_at": "2026-11-18T03:34:15+00:00",
  "window": {
   "start": "2026-11-17",
   "days": 14
@@ -311,69 +311,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "15991a2cd11d9016",
-   "title": "New York Knicks at Toronto Raptors",
-   "venue": "New York Knicks",
-   "kind": "sports",
-   "start": "2026-11-17T19:30:00-05:00",
-   "end": "2026-11-17T22:30:00-05:00",
-   "all_day": false,
-   "description": "NBA Schedules brought to you by Don't Double Book Me.",
-   "url": "https://www.nba.com/knicks/schedule",
-   "location": "Scotiabank Arena, 50 Bay Street, Suite 500, Toronto, ON M5J 2L2, CA",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-knicks",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:05:26+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "7b7b31a58fa4a199",
-   "title": "eSports Group Presents: Super Smash Bros",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-17T20:30:00-05:00",
-   "end": "2026-11-17T22:30:00-05:00",
-   "all_day": false,
-   "description": "Event Title: eSports Group Presents: Super Smash Bros. Ultimate Tournament\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABFAKS\n\nSuper Smash Bros Tournament",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Wilf-Rubin Hall-Shul",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:05:26+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "35caf26a52d2121f",
-   "title": "TRIVIA NIGHT IN CORAL GABLES!",
-   "venue": "Books & Books",
-   "kind": "talks",
-   "start": "2026-11-17T21:00:00-05:00",
-   "end": "2026-11-17T22:30:00-05:00",
-   "all_day": false,
-   "description": "Join us for a fun-filled Trivia Night! Put your brain to the test and have the chance to win a special prize.",
-   "url": "https://www.eventbrite.com/e/trivia-night-in-coral-gables-tickets-2004030445008",
-   "location": "Books & Books, 265 Aragon Avenue, Coral Gables, FL 33134",
-   "price": {
-    "free": true,
-    "min": 0.0,
-    "text": "Free (sold out)"
-   },
-   "source": "books-and-books",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:05:26+00:00",
-   "city": "miami"
   },
   {
    "id": "0b1088b5e28c7233",
@@ -4011,6 +3948,27 @@
    "city": "miami"
   },
   {
+   "id": "ecc71860cde87369",
+   "title": "Dolphins at Bills",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-22T13:00:00-05:00",
+   "end": "2026-11-22T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/buffalo-bills/2026-11-22-1300-vs-miami-dolphins/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Highmark Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:34:15+00:00",
+   "city": "miami"
+  },
+  {
    "id": "5d24b9865c9e355e",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "venue": "O Cinema South Beach",
@@ -4093,6 +4051,48 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "miami"
+  },
+  {
+   "id": "93b471ec753b0934",
+   "title": "Jets at Chargers",
+   "venue": "New York Jets",
+   "kind": "sports",
+   "start": "2026-11-22T16:05:00-05:00",
+   "end": "2026-11-22T19:05:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/los-angeles-chargers/2026-11-22-1305-vs-new-york-jets/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "SoFi Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jets",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:34:15+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "bfe73f9b923cc852",
+   "title": "Jaguars at Giants",
+   "venue": "New York Giants",
+   "kind": "sports",
+   "start": "2026-11-22T16:25:00-05:00",
+   "end": "2026-11-22T19:25:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/new-york-giants/2026-11-22-1625-vs-jacksonville-jaguars/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "MetLife Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-giants",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:34:15+00:00",
+   "city": "nyc"
   },
   {
    "id": "997f6aa64695965b",
@@ -5919,6 +5919,69 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "9b1d5d67516f3e11",
+   "title": "Giants at Colts",
+   "venue": "New York Giants",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/indianapolis-colts/2026-11-29-1300-vs-new-york-giants/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Lucas Oil Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-giants",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:34:15+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "759d355964ea53bd",
+   "title": "Jets at Dolphins",
+   "venue": "New York Jets",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/miami-dolphins/2026-11-29-1300-vs-new-york-jets/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Hard Rock Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jets",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:34:15+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "81df4ef757350018",
+   "title": "Jets at Dolphins",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/miami-dolphins/2026-11-29-1300-vs-new-york-jets/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Hard Rock Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:34:15+00:00",
    "city": "miami"
   },
   {
