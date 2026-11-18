@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T03:14:12+00:00",
+ "generated_at": "2026-11-18T03:27:21+00:00",
  "window": {
   "start": "2026-11-17",
   "days": 14
@@ -4012,7 +4012,7 @@
   },
   {
    "id": "ecc71860cde87369",
-   "title": "[TeamCalendar.com] Dolphins en casa de Bills",
+   "title": "Dolphins at Bills",
    "venue": "Miami Dolphins",
    "kind": "sports",
    "start": "2026-11-22T13:00:00-05:00",
@@ -4028,7 +4028,7 @@
    },
    "source": "miami-dolphins",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:14:12+00:00",
+   "fetched_at": "2026-11-18T03:27:21+00:00",
    "city": "miami"
   },
   {
@@ -4116,9 +4116,9 @@
    "city": "miami"
   },
   {
-   "id": "d5b80654348eeb80",
-   "title": "[TeamCalendar.com] Jets en casa de Chargers",
-   "venue": "Miami Dolphins",
+   "id": "93b471ec753b0934",
+   "title": "Jets at Chargers",
+   "venue": "New York Jets",
    "kind": "sports",
    "start": "2026-11-22T16:05:00-05:00",
    "end": "2026-11-22T19:05:00-05:00",
@@ -4131,15 +4131,15 @@
     "min": null,
     "text": null
    },
-   "source": "miami-dolphins",
+   "source": "nyc-jets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:14:12+00:00",
-   "city": "miami"
+   "fetched_at": "2026-11-18T03:27:21+00:00",
+   "city": "nyc"
   },
   {
-   "id": "65277034be761d98",
-   "title": "[TeamCalendar.com] Giants recibe a Jaguars",
-   "venue": "Miami Dolphins",
+   "id": "bfe73f9b923cc852",
+   "title": "Jaguars at Giants",
+   "venue": "New York Giants",
    "kind": "sports",
    "start": "2026-11-22T16:25:00-05:00",
    "end": "2026-11-22T19:25:00-05:00",
@@ -4152,10 +4152,10 @@
     "min": null,
     "text": null
    },
-   "source": "miami-dolphins",
+   "source": "nyc-giants",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:14:12+00:00",
-   "city": "miami"
+   "fetched_at": "2026-11-18T03:27:21+00:00",
+   "city": "nyc"
   },
   {
    "id": "997f6aa64695965b",
@@ -5985,8 +5985,50 @@
    "city": "miami"
   },
   {
+   "id": "9b1d5d67516f3e11",
+   "title": "Giants at Colts",
+   "venue": "New York Giants",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/indianapolis-colts/2026-11-29-1300-vs-new-york-giants/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Lucas Oil Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-giants",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:27:21+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "759d355964ea53bd",
+   "title": "Jets at Dolphins",
+   "venue": "New York Jets",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/miami-dolphins/2026-11-29-1300-vs-new-york-jets/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Hard Rock Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-jets",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:27:21+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "81df4ef757350018",
-   "title": "[TeamCalendar.com] Dolphins recibe a Jets",
+   "title": "Jets at Dolphins",
    "venue": "Miami Dolphins",
    "kind": "sports",
    "start": "2026-11-29T13:00:00-05:00",
@@ -6002,28 +6044,7 @@
    },
    "source": "miami-dolphins",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:14:12+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "5899bde4b2392165",
-   "title": "[TeamCalendar.com] Giants en casa de Colts",
-   "venue": "Miami Dolphins",
-   "kind": "sports",
-   "start": "2026-11-29T13:00:00-05:00",
-   "end": "2026-11-29T16:00:00-05:00",
-   "all_day": false,
-   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/indianapolis-colts/2026-11-29-1300-vs-new-york-giants/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
-   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
-   "location": "Lucas Oil Stadium",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "miami-dolphins",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:14:12+00:00",
+   "fetched_at": "2026-11-18T03:27:21+00:00",
    "city": "miami"
   },
   {
