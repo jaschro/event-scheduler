@@ -272,7 +272,7 @@ sources:
     city: miami
     kind: sports
     method: ics
-    url: "https://ics.calendarlabs.com/1904/219da451/Miami_Heat_Schedule.ics"
+    url: "https://nbaschedules.com/miami-heat/schedule.ics"   # calendarlabs.com robots.txt bars the collector
     page: https://www.nba.com/heat/schedule
 
   - key: miami-dolphins
@@ -748,7 +748,7 @@ sources:
     city: nyc
     kind: sports
     method: ics
-    url: "https://ics.calendarlabs.com/1908/ab5def1c/New_York_Knicks_Schedule.ics"
+    url: "https://nbaschedules.com/new-york-knicks/schedule.ics"   # calendarlabs.com robots.txt bars the collector
     page: https://www.nba.com/knicks/schedule
 
   - key: nyc-nets
