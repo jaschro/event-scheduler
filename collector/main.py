@@ -64,7 +64,10 @@ def collect_source(src: Source, ctx: Context, cfg: Config, fetched_at: str) -> l
 def process_payload(adapter, payload, src: Source, ctx: Context, cfg: Config, fetched_at: str) -> list[dict[str, Any]]:
     hours = cfg.settings["default_duration_hours"]
     events = []
+    renames = [(re.compile(pat), repl) for pat, repl in (src.params.get("rename") or [])]
     for raw in adapter.parse(payload, src, ctx):
+        for pat, repl in renames:  # params.rename: [[regex, replacement], ...] applied to titles in order
+            raw.title = pat.sub(repl, raw.title or "")
         ev = build_event(raw, source=src, city=ctx.city, fetched_at=fetched_at)
         if ev and in_window(ev, ctx.now, ctx.window_end, hours) and passes_filter(ev, src.filter):
             events.append(ev)

@@ -151,3 +151,22 @@ def test_saved_feed_copies_read_from_repo():
     titles = [e["title"] for e in ccny]
     assert "Colloquium: Why Housing Matters" in titles
     assert not any("Info Session" in t or "School Tour" in t for t in titles)
+
+
+def test_teamcalendar_titles_renamed_and_split_by_team():
+    """teamcalendar.com: one Spanish calendar for three teams; each source keeps its team, titles normalized."""
+    cfg = config()
+    feed = (
+        "BEGIN:VCALENDAR\r\nVERSION:2.0\r\n"
+        "BEGIN:VEVENT\r\nUID:a\r\nSUMMARY:[TeamCalendar.com] Dolphins en casa de Bills\r\n"
+        "DTSTART:20261108T180000Z\r\nDTEND:20261108T210000Z\r\nEND:VEVENT\r\n"
+        "BEGIN:VEVENT\r\nUID:b\r\nSUMMARY:[TeamCalendar.com] Dolphins recibe a Jets\r\n"
+        "DTSTART:20261115T180000Z\r\nDTEND:20261115T210000Z\r\nEND:VEVENT\r\n"
+        "BEGIN:VEVENT\r\nUID:c\r\nSUMMARY:[TeamCalendar.com] Giants recibe a Jaguars\r\n"
+        "DTSTART:20261108T212500Z\r\nDTEND:20261109T002500Z\r\nEND:VEVENT\r\n"
+        "END:VCALENDAR\r\n"
+    )
+    titles = lambda key: [e["title"] for e in run_adapter(ics, feed, cfg, key)]  # noqa: E731
+    assert titles("miami-dolphins") == ["Dolphins at Bills", "Jets at Dolphins"]
+    assert titles("nyc-jets") == ["Jets at Dolphins"]
+    assert titles("nyc-giants") == ["Jaguars at Giants"]
