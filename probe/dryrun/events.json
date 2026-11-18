@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T02:47:50+00:00",
+ "generated_at": "2026-11-18T03:00:50+00:00",
  "window": {
   "start": "2026-11-17",
   "days": 14
@@ -204,7 +204,7 @@
    },
    "source": "arsht",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -288,7 +288,7 @@
    },
    "source": "nyc-cooper-union-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -309,91 +309,28 @@
    },
    "source": "nyc-rpa",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
-   "id": "3971a067b40d4277",
-   "title": "Blood Drive",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-17T08:00:00-05:00",
-   "end": "2026-11-17T22:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Wilf Blood Drive\nOrganization: STUDENT LIFE\nSubmitter Name: Felder Sugarman, Stephanie\nSubmitter Email: stephanie.sugarman@yu.edu\nEvent Locator: 2026-ABDXTQ\n\nNew York Blood Center Enterprises (NYBCe) is one of the largest community-based, non-profit blood collection and distribution organizations in the United States. We proudly serve as a vital community lifeline dedicated to serving patients and advancing global public health.",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Wilf-Morgenstern Hall-Basement Beit Midrash",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "4b5db9f5543205c6",
-   "title": "Set Up: Staff Service Recognition",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-17T09:00:00-05:00",
-   "end": "2026-11-17T22:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: 2026 Staff Service Recognition Ceremony\nOrganization: HUMAN RESOURCES\nSubmitter Name: Saunders, Laury\nSubmitter Email: laury.saunders@yu.edu\nEvent Locator: 2026-ABFAKA\n\nHonoring staff with service anniversaries in 2026 for their hard work and dedication to the University.",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Wilf-Belfer Hall-103 Weissberg Commons",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "7fb9274341172e82",
-   "title": "Tuesday Night Live",
-   "venue": "Yeshiva University",
-   "kind": "talks",
-   "start": "2026-11-17T19:00:00-05:00",
-   "end": "2026-11-17T22:00:00-05:00",
-   "all_day": false,
-   "description": "Event Title: Tuesday Night Live\nOrganization: STUDENT LIFE\nSubmitter Name: Fine, Azriel\nSubmitter Email: azriel.fine@yu.edu\nEvent Locator: 2026-ABDRSH\n\nTuesday Night Live",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Beren-245 Lexington-Lea and Leon Eisenberg Beit Midrash",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "nyc-yeshiva-u",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
-   "city": "nyc"
-  },
-  {
-   "id": "32e7b8e48d377142",
-   "title": "Code your First Game",
-   "venue": "Yeshiva University",
-   "kind": "talks",
+   "id": "15991a2cd11d9016",
+   "title": "New York Knicks at Toronto Raptors",
+   "venue": "New York Knicks",
+   "kind": "sports",
    "start": "2026-11-17T19:30:00-05:00",
-   "end": "2026-11-17T22:00:00-05:00",
+   "end": "2026-11-17T22:30:00-05:00",
    "all_day": false,
-   "description": "Event Title: Code Your First Game\nOrganization: STUDENT LIFE\nSubmitter Name: Reichenberg, Alana\nSubmitter Email: alana.reichenberg@yu.edu\nEvent Locator: 2026-ABDZCX\n\nThe purpose of this Code Your First Game is to serve as a kickoff event that will bring together students with various skills and backgrounds to learn how to create a game. The event will begin with a pizza dinner and introductions, where everyone can get to know each other at our first event this year, followed by a walkthrough assisted by Yosef Siegel on how to create the game Doodle Jump.",
-   "url": "https://www.yu.edu/events/all",
-   "location": "Beren-245 Lexington-915",
+   "description": "NBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Scotiabank Arena, 50 Bay Street, Suite 500, Toronto, ON M5J 2L2, CA",
    "price": {
     "free": null,
     "min": null,
     "text": null
    },
-   "source": "nyc-yeshiva-u",
+   "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-05T18:34:58+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -414,7 +351,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -435,7 +372,7 @@
    },
    "source": "books-and-books",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -750,7 +687,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -834,7 +771,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -939,7 +876,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -1191,7 +1128,7 @@
    },
    "source": "el-carajo",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -1256,6 +1193,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-05T18:34:58+00:00",
    "city": "nyc"
+  },
+  {
+   "id": "8cddde5a05349364",
+   "title": "Milwaukee Bucks at Miami Heat (ESPN)",
+   "venue": "Miami Heat",
+   "kind": "sports",
+   "start": "2026-11-18T19:00:00-05:00",
+   "end": "2026-11-18T22:00:00-05:00",
+   "all_day": false,
+   "description": "National TV: ESPN\n\nNBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/heat/schedule",
+   "location": "Kaseya Center, 601 Biscayne Blvd, Miami, FL 33132",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-heat",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "miami"
   },
   {
    "id": "ccc243182cd905ed",
@@ -1380,7 +1338,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -1401,7 +1359,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -1485,7 +1443,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -1590,7 +1548,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -1758,7 +1716,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -1968,7 +1926,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -2010,7 +1968,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -2052,7 +2010,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -2157,7 +2115,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -2493,7 +2451,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -2749,6 +2707,27 @@
    "city": "miami"
   },
   {
+   "id": "296dda8650077492",
+   "title": "New York Knicks at Minnesota Timberwolves (NBA TV)",
+   "venue": "New York Knicks",
+   "kind": "sports",
+   "start": "2026-11-19T20:00:00-05:00",
+   "end": "2026-11-19T23:00:00-05:00",
+   "all_day": false,
+   "description": "National TV: NBA TV\n\nNBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Target Center, 600 First Ave. North, Minneapolis, MN 55403",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-knicks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "181aa428bd0f324d",
    "title": "Bitter Christmas",
    "venue": "Coral Gables Art Cinema",
@@ -2766,7 +2745,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -2997,7 +2976,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3060,7 +3039,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3186,7 +3165,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3228,7 +3207,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -3291,7 +3270,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -3354,7 +3333,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3438,7 +3417,7 @@
    },
    "source": "nyc-ny-jewish-week",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -3459,7 +3438,7 @@
    },
    "source": "nyc-ny-jewish-week",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -3692,7 +3671,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3755,7 +3734,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -3881,7 +3860,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3923,7 +3902,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4028,7 +4007,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4051,6 +4030,27 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "miami"
+  },
+  {
+   "id": "afbfe45374596340",
+   "title": "Portland Trail Blazers at New York Knicks (NBA TV)",
+   "venue": "New York Knicks",
+   "kind": "sports",
+   "start": "2026-11-21T19:30:00-05:00",
+   "end": "2026-11-21T22:30:00-05:00",
+   "all_day": false,
+   "description": "National TV: NBA TV\n\nNBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Madison Square Garden, 7th Ave & 32nd Street, New York, NY 10001",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-knicks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "nyc"
   },
   {
    "id": "3ed8cd83f44fdabf",
@@ -4154,7 +4154,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4217,7 +4217,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4280,7 +4280,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4427,7 +4427,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4490,7 +4490,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4512,6 +4512,27 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "7872b802ac98744c",
+   "title": "Oklahoma City Thunder at Miami Heat",
+   "venue": "Miami Heat",
+   "kind": "sports",
+   "start": "2026-11-22T18:00:00-05:00",
+   "end": "2026-11-22T21:00:00-05:00",
+   "all_day": false,
+   "description": "NBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/heat/schedule",
+   "location": "Kaseya Center, 601 Biscayne Blvd, Miami, FL 33132",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-heat",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4557,6 +4578,27 @@
    "city": "miami"
   },
   {
+   "id": "92fb2a9df5891acc",
+   "title": "Indiana Pacers at New York Knicks",
+   "venue": "New York Knicks",
+   "kind": "sports",
+   "start": "2026-11-22T20:00:00-05:00",
+   "end": "2026-11-22T23:00:00-05:00",
+   "all_day": false,
+   "description": "NBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Madison Square Garden, 7th Ave & 32nd Street, New York, NY 10001",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-knicks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "6988da11db2b2771",
    "title": "Words We Live By, An Online Book Launch",
    "venue": "Yeshiva University",
@@ -4595,7 +4637,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4721,7 +4763,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4805,7 +4847,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5015,7 +5057,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -5057,7 +5099,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -5099,7 +5141,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5246,7 +5288,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5267,7 +5309,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5477,7 +5519,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5603,7 +5645,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5670,6 +5712,27 @@
    "city": "miami"
   },
   {
+   "id": "a59226c81599e96c",
+   "title": "Miami Heat at Philadelphia 76ers (ESPN)",
+   "venue": "Miami Heat",
+   "kind": "sports",
+   "start": "2026-11-25T17:00:00-05:00",
+   "end": "2026-11-25T20:00:00-05:00",
+   "all_day": false,
+   "description": "National TV: ESPN\n\nNBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/heat/schedule",
+   "location": "Xfinity Mobile Arena, 3601 South Broad St, Philadelphia, PA 19148",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-heat",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "miami"
+  },
+  {
    "id": "1a08d82863d21dc7",
    "title": "Bitter Christmas",
    "venue": "Coral Gables Art Cinema",
@@ -5687,7 +5750,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5775,6 +5838,27 @@
    "city": "miami"
   },
   {
+   "id": "e0bbefa00c335455",
+   "title": "Cleveland Cavaliers at New York Knicks",
+   "venue": "New York Knicks",
+   "kind": "sports",
+   "start": "2026-11-25T19:30:00-05:00",
+   "end": "2026-11-25T22:30:00-05:00",
+   "all_day": false,
+   "description": "NBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Madison Square Garden, 7th Ave & 32nd Street, New York, NY 10001",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-knicks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "968b054ca8dcbdb8",
    "title": "Brooklyn Nets at Milwaukee Bucks",
    "venue": "Brooklyn Nets",
@@ -5792,7 +5876,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -5855,7 +5939,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5897,7 +5981,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5918,7 +6002,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5939,7 +6023,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5981,7 +6065,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6002,7 +6086,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6065,7 +6149,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6090,6 +6174,48 @@
    "city": "miami"
   },
   {
+   "id": "0d8e87e1566b43b8",
+   "title": "Miami Heat at New York Knicks (Prime Video)",
+   "venue": "New York Knicks",
+   "kind": "sports",
+   "start": "2026-11-27T19:00:00-05:00",
+   "end": "2026-11-27T22:00:00-05:00",
+   "all_day": false,
+   "description": "National TV: Prime Video\n\nNBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Madison Square Garden, 7th Ave & 32nd Street, New York, NY 10001",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-knicks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "nyc"
+  },
+  {
+   "id": "31798ea0d2df1c45",
+   "title": "Miami Heat at New York Knicks (Prime Video)",
+   "venue": "Miami Heat",
+   "kind": "sports",
+   "start": "2026-11-27T19:00:00-05:00",
+   "end": "2026-11-27T22:00:00-05:00",
+   "all_day": false,
+   "description": "National TV: Prime Video\n\nNBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/heat/schedule",
+   "location": "Madison Square Garden, 7th Ave & 32nd Street, New York, NY 10001",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-heat",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "miami"
+  },
+  {
    "id": "3b2e69c787faec97",
    "title": "Brooklyn Nets at Toronto Raptors",
    "venue": "Brooklyn Nets",
@@ -6107,7 +6233,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -6149,7 +6275,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6212,7 +6338,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6317,7 +6443,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6338,7 +6464,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6380,7 +6506,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -6401,7 +6527,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6485,7 +6611,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6611,7 +6737,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6716,7 +6842,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6758,7 +6884,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6783,6 +6909,27 @@
    "city": "miami"
   },
   {
+   "id": "f90c7051a469c6f9",
+   "title": "Atlanta Hawks at New York Knicks",
+   "venue": "New York Knicks",
+   "kind": "sports",
+   "start": "2026-11-29T18:00:00-05:00",
+   "end": "2026-11-29T21:00:00-05:00",
+   "all_day": false,
+   "description": "NBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/knicks/schedule",
+   "location": "Madison Square Garden, 7th Ave & 32nd Street, New York, NY 10001",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "nyc-knicks",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "city": "nyc"
+  },
+  {
    "id": "8c1e84c0e7c4adb5",
    "title": "Cuerda & Clave at The Betsy Piano Bar",
    "venue": "City of Miami Beach Arts Calendar",
@@ -6801,6 +6948,27 @@
    "source": "miamibeach-arts",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "065793cad33bcc37",
+   "title": "Miami Heat at Cleveland Cavaliers",
+   "venue": "Miami Heat",
+   "kind": "sports",
+   "start": "2026-11-29T18:00:00-05:00",
+   "end": "2026-11-29T21:00:00-05:00",
+   "all_day": false,
+   "description": "NBA Schedules brought to you by Don't Double Book Me.",
+   "url": "https://www.nba.com/heat/schedule",
+   "location": "Rocket Arena, One Center Court, Cleveland, OH 44115",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-heat",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6842,7 +7010,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6863,7 +7031,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -6884,7 +7052,7 @@
    },
    "source": "miamibeach-arts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6905,7 +7073,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -6926,7 +7094,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -6947,7 +7115,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -6968,7 +7136,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6989,7 +7157,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7010,7 +7178,7 @@
    },
    "source": "nyc-jts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -7031,7 +7199,7 @@
    },
    "source": "miamibeach-arts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7052,7 +7220,7 @@
    },
    "source": "miamibeach-arts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7073,7 +7241,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7094,7 +7262,7 @@
    },
    "source": "refresh-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7115,7 +7283,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7136,7 +7304,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -7157,7 +7325,7 @@
    },
    "source": "manatech",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7178,7 +7346,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7199,7 +7367,7 @@
    },
    "source": "nyc-yivo",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -7220,7 +7388,7 @@
    },
    "source": "nyc-cjh",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -7241,7 +7409,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7262,7 +7430,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7283,7 +7451,7 @@
    },
    "source": "books-and-books",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7304,7 +7472,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   },
   {
@@ -7325,7 +7493,7 @@
    },
    "source": "gables-cinema",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -7346,7 +7514,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T02:47:50+00:00",
+   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "nyc"
   }
  ]
