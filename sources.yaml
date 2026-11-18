@@ -280,10 +280,16 @@ sources:
     city: miami
     kind: sports
     method: ics
-    enabled: false
-    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
-    url: "https://ics.calendarlabs.com/1991/5dd280f0/Miami_Dolphins_Schedule.ics"
+    url: "webcal://teamcalendar.com/klKzFyQq79"   # one calendar for Dolphins, Giants and Jets; filtered per team
     page: https://www.miamidolphins.com/schedule/
+    filter:
+      fields: title
+      include: ["\\bDolphins\\b"]
+    params:
+      rename:                                     # teamcalendar.com titles are Spanish: normalize them
+        - ['^\[TeamCalendar\.com\]\s*', '']
+        - ['^(.+?) en casa de (.+)$', '\1 at \2']          # "Dolphins en casa de Bills" -> "Dolphins at Bills"
+        - ['^(.+?) recibe a (.+)$', '\2 at \1']           # "Dolphins recibe a Jets" -> "Jets at Dolphins"
 
   # Ticketmaster Discovery API (TICKETMASTER_API_KEY secret). Aggregator: venue listings win in dedupe.
   - key: ticketmaster-miami
@@ -734,20 +740,32 @@ sources:
     city: nyc
     kind: sports
     method: ics
-    enabled: false
-    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
-    url: "https://ics.calendarlabs.com/1995/35bc6c46/New_York_Giants_Schedule.ics"
+    url: "webcal://teamcalendar.com/klKzFyQq79"   # one calendar for Dolphins, Giants and Jets; filtered per team
     page: https://www.giants.com/schedule/
+    filter:
+      fields: title
+      include: ["\\bGiants\\b"]
+    params:
+      rename:                                     # teamcalendar.com titles are Spanish: normalize them
+        - ['^\[TeamCalendar\.com\]\s*', '']
+        - ['^(.+?) en casa de (.+)$', '\1 at \2']          # "Dolphins en casa de Bills" -> "Dolphins at Bills"
+        - ['^(.+?) recibe a (.+)$', '\2 at \1']           # "Dolphins recibe a Jets" -> "Jets at Dolphins"
 
   - key: nyc-jets
     name: New York Jets
     city: nyc
     kind: sports
     method: ics
-    enabled: false
-    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
-    url: "https://ics.calendarlabs.com/1996/9a1a76ca/New_York_Jets_Schedule.ics"
+    url: "webcal://teamcalendar.com/klKzFyQq79"   # one calendar for Dolphins, Giants and Jets; filtered per team
     page: https://www.newyorkjets.com/schedule/
+    filter:
+      fields: title
+      include: ["\\bJets\\b"]
+    params:
+      rename:                                     # teamcalendar.com titles are Spanish: normalize them
+        - ['^\[TeamCalendar\.com\]\s*', '']
+        - ['^(.+?) en casa de (.+)$', '\1 at \2']          # "Dolphins en casa de Bills" -> "Dolphins at Bills"
+        - ['^(.+?) recibe a (.+)$', '\2 at \1']           # "Dolphins recibe a Jets" -> "Jets at Dolphins"
 
   - key: nyc-knicks
     name: New York Knicks
