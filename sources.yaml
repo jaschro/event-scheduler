@@ -266,6 +266,25 @@ sources:
     page: https://www.miamiandbeaches.com/thing-to-do/arts-culture/adrienne-arsht-center-for-the-performing-arts-of-miami-dade-county/3269
     location: "Adrienne Arsht Center, 1300 Biscayne Blvd, Miami"
 
+  # ---------- Sports schedules (iCal) ----------
+  - key: miami-heat
+    name: Miami Heat
+    city: miami
+    kind: sports
+    method: ics
+    url: "https://nbaschedules.com/miami-heat/schedule.ics"   # calendarlabs.com robots.txt bars the collector
+    page: https://www.nba.com/heat/schedule
+
+  - key: miami-dolphins
+    name: Miami Dolphins
+    city: miami
+    kind: sports
+    method: ics
+    enabled: false
+    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
+    url: "https://ics.calendarlabs.com/1991/5dd280f0/Miami_Dolphins_Schedule.ics"
+    page: https://www.miamidolphins.com/schedule/
+
   # Ticketmaster Discovery API (TICKETMASTER_API_KEY secret). Aggregator: venue listings win in dedupe.
   - key: ticketmaster-miami
     name: Ticketmaster (Miami area)
@@ -708,3 +727,40 @@ sources:
       exclude:
         - "(?i)\\bparking\\b"
         - "(?i)\\b(gift card|voucher|upgrade|add-on)\\b"
+
+  # ---------- NYC sports schedules (iCal) ----------
+  - key: nyc-giants
+    name: New York Giants
+    city: nyc
+    kind: sports
+    method: ics
+    enabled: false
+    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
+    url: "https://ics.calendarlabs.com/1995/35bc6c46/New_York_Giants_Schedule.ics"
+    page: https://www.giants.com/schedule/
+
+  - key: nyc-jets
+    name: New York Jets
+    city: nyc
+    kind: sports
+    method: ics
+    enabled: false
+    blocked: "calendarlabs.com's robots.txt bars automated reading; a downloaded copy can go in feeds/"
+    url: "https://ics.calendarlabs.com/1996/9a1a76ca/New_York_Jets_Schedule.ics"
+    page: https://www.newyorkjets.com/schedule/
+
+  - key: nyc-knicks
+    name: New York Knicks
+    city: nyc
+    kind: sports
+    method: ics
+    url: "https://nbaschedules.com/new-york-knicks/schedule.ics"   # calendarlabs.com robots.txt bars the collector
+    page: https://www.nba.com/knicks/schedule
+
+  - key: nyc-nets
+    name: Brooklyn Nets
+    city: nyc
+    kind: sports
+    method: ics
+    url: "https://nbaschedules.com/brooklyn-nets/schedule.ics"
+    page: https://www.nba.com/nets/schedule
