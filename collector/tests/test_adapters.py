@@ -159,11 +159,11 @@ def test_teamcalendar_titles_renamed_and_split_by_team():
     feed = (
         "BEGIN:VCALENDAR\r\nVERSION:2.0\r\n"
         "BEGIN:VEVENT\r\nUID:a\r\nSUMMARY:[TeamCalendar.com] Dolphins en casa de Bills\r\n"
-        "DTSTART:20261122T180000Z\r\nDTEND:20261122T210000Z\r\nEND:VEVENT\r\n"
+        "DTSTART:20261108T180000Z\r\nDTEND:20261108T210000Z\r\nEND:VEVENT\r\n"
         "BEGIN:VEVENT\r\nUID:b\r\nSUMMARY:[TeamCalendar.com] Dolphins recibe a Jets\r\n"
-        "DTSTART:20261129T180000Z\r\nDTEND:20261129T210000Z\r\nEND:VEVENT\r\n"
+        "DTSTART:20261115T180000Z\r\nDTEND:20261115T210000Z\r\nEND:VEVENT\r\n"
         "BEGIN:VEVENT\r\nUID:c\r\nSUMMARY:[TeamCalendar.com] Giants recibe a Jaguars\r\n"
-        "DTSTART:20261122T212500Z\r\nDTEND:20261123T002500Z\r\nEND:VEVENT\r\n"
+        "DTSTART:20261108T212500Z\r\nDTEND:20261109T002500Z\r\nEND:VEVENT\r\n"
         "END:VCALENDAR\r\n"
     )
     titles = lambda key: [e["title"] for e in run_adapter(ics, feed, cfg, key)]  # noqa: E731
