@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T03:00:50+00:00",
+ "generated_at": "2026-11-18T03:14:12+00:00",
  "window": {
   "start": "2026-11-17",
   "days": 14
@@ -204,7 +204,7 @@
    },
    "source": "arsht",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -288,7 +288,7 @@
    },
    "source": "nyc-cooper-union-arch",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -309,7 +309,7 @@
    },
    "source": "nyc-rpa",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -330,7 +330,7 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -351,7 +351,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -372,7 +372,7 @@
    },
    "source": "books-and-books",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -687,7 +687,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -752,27 +752,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-05T18:34:58+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "6bb9cb110642edb3",
-   "title": "Once Upon a Time in Harlem",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-18T15:15:00-05:00",
-   "end": "2026-11-18T17:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "b58a8a3dbf06f9c5",
@@ -856,27 +835,6 @@
    "source": "manatech",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d4c1c3e0e2453c9c",
-   "title": "Fatherland",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-18T17:30:00-05:00",
-   "end": "2026-11-18T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -1128,7 +1086,7 @@
    },
    "source": "el-carajo",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -1212,7 +1170,7 @@
    },
    "source": "miami-heat",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -1338,7 +1296,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -1359,7 +1317,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -1423,27 +1381,6 @@
    "source": "luma-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "bd2b8df80941324a",
-   "title": "Queen at Sea",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-18T19:30:00-05:00",
-   "end": "2026-11-18T22:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -1548,7 +1485,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -1716,7 +1653,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -1909,27 +1846,6 @@
    "city": "nyc"
   },
   {
-   "id": "e56980b7c2640199",
-   "title": "Fatherland",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-19T15:30:00-05:00",
-   "end": "2026-11-19T18:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "ee151eedec44405b",
    "title": "270 Park Design Tour",
    "venue": "Open House New York",
@@ -1968,7 +1884,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -1991,27 +1907,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "bed3fb797445b901",
-   "title": "Queen at Sea",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-19T17:30:00-05:00",
-   "end": "2026-11-19T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "cb7482a540ab8df0",
@@ -2115,7 +2010,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -2451,7 +2346,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -2724,29 +2619,8 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "181aa428bd0f324d",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-19T20:15:00-05:00",
-   "end": "2026-11-19T22:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "6300c5e84a6c2109",
@@ -2959,27 +2833,6 @@
    "city": "nyc"
   },
   {
-   "id": "992dcdc7802a908e",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-20T12:45:00-05:00",
-   "end": "2026-11-20T15:15:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "6788d65ceb0fdfe8",
    "title": "Historical Geographer Discusses What Has Influenced NYC's Culture & Identity",
    "venue": "Club Free Time",
@@ -3020,27 +2873,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "83bc87843e1389cd",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-20T15:30:00-05:00",
-   "end": "2026-11-20T18:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "b1b341ba71cf96e1",
@@ -3148,27 +2980,6 @@
    "city": "miami"
   },
   {
-   "id": "3ebdf75f77689ce1",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-20T18:15:00-05:00",
-   "end": "2026-11-20T20:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "07ceee9f3a9e93ae",
    "title": "Fashion Museum Curator Discusses the Relationship between Dolls & Fashion",
    "venue": "Club Free Time",
@@ -3207,7 +3018,7 @@
    },
    "source": "nyc-club-free-time",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -3270,7 +3081,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -3313,27 +3124,6 @@
    "source": "bandshell",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "2289f199aad523b8",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-20T21:00:00-05:00",
-   "end": "2026-11-20T23:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -3417,7 +3207,7 @@
    },
    "source": "nyc-ny-jewish-week",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -3438,7 +3228,7 @@
    },
    "source": "nyc-ny-jewish-week",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -3654,27 +3444,6 @@
    "city": "nyc"
   },
   {
-   "id": "017a8683433e0bd4",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-21T12:00:00-05:00",
-   "end": "2026-11-21T14:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "3c705fda549856fb",
    "title": "Get Smart on AI: Understanding AI as a Family",
    "venue": "Paley Center for Media",
@@ -3734,7 +3503,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -3843,27 +3612,6 @@
    "city": "miami"
   },
   {
-   "id": "a8209a670482ef95",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-21T14:30:00-05:00",
-   "end": "2026-11-21T17:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "b8cef5b9deacad15",
    "title": "Reimagining Justice Film Screening Series: The Alabama Solution",
    "venue": "Center for Architecture (AIANY)",
@@ -3883,27 +3631,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "d40c0b5cc872ce63",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-21T17:00:00-05:00",
-   "end": "2026-11-21T19:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "44f093e77e491b81",
@@ -3990,27 +3717,6 @@
    "city": "nyc"
   },
   {
-   "id": "3219cfe25eee0986",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-21T19:30:00-05:00",
-   "end": "2026-11-21T22:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "dbaf509439b14459",
    "title": "Denève: Prokofiev's Violin",
    "venue": "New World Center / NWS",
@@ -4049,7 +3755,7 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -4137,27 +3843,6 @@
    "city": "miami"
   },
   {
-   "id": "d5c7dfe4847ae806",
-   "title": "Out of Sight",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-21T22:00:00-05:00",
-   "end": "2026-11-22T00:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "053eb117e63db109",
    "title": "Barcelona Guitar Trio & Dance",
    "venue": "Arsht Center",
@@ -4217,7 +3902,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -4260,27 +3945,6 @@
    "source": "ica-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "7ce8d2cd0cf4e4b8",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-22T12:00:00-05:00",
-   "end": "2026-11-22T14:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -4347,6 +4011,27 @@
    "city": "miami"
   },
   {
+   "id": "ecc71860cde87369",
+   "title": "[TeamCalendar.com] Dolphins en casa de Bills",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-22T13:00:00-05:00",
+   "end": "2026-11-22T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/buffalo-bills/2026-11-22-1300-vs-miami-dolphins/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Highmark Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:14:12+00:00",
+   "city": "miami"
+  },
+  {
    "id": "5d24b9865c9e355e",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "venue": "O Cinema South Beach",
@@ -4410,27 +4095,6 @@
    "city": "nyc"
   },
   {
-   "id": "92bc2554de631ea3",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-22T14:45:00-05:00",
-   "end": "2026-11-22T17:15:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "cb3dbe95e88a9b1e",
    "title": "Gandhi and the Jew",
    "venue": "Miami New Drama (Colony)",
@@ -4449,6 +4113,48 @@
    "source": "miami-new-drama",
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "d5b80654348eeb80",
+   "title": "[TeamCalendar.com] Jets en casa de Chargers",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-22T16:05:00-05:00",
+   "end": "2026-11-22T19:05:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/los-angeles-chargers/2026-11-22-1305-vs-new-york-jets/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "SoFi Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:14:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "65277034be761d98",
+   "title": "[TeamCalendar.com] Giants recibe a Jaguars",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-22T16:25:00-05:00",
+   "end": "2026-11-22T19:25:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/new-york-giants/2026-11-22-1625-vs-jacksonville-jaguars/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "MetLife Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:14:12+00:00",
    "city": "miami"
   },
   {
@@ -4471,27 +4177,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "640214b5e8154236",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-22T17:30:00-05:00",
-   "end": "2026-11-22T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "417a0a6516c19f8f",
@@ -4532,7 +4217,7 @@
    },
    "source": "miami-heat",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -4595,7 +4280,7 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -4618,27 +4303,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-09T21:20:34+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "1286c775e5eec587",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-22T20:15:00-05:00",
-   "end": "2026-11-22T22:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "f4b774d71ec65d3f",
@@ -4746,27 +4410,6 @@
    "city": "nyc"
   },
   {
-   "id": "9cad46efb6326d0c",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-23T14:45:00-05:00",
-   "end": "2026-11-23T17:15:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "78657a8757ec61d3",
    "title": "Moonlighter FabLab: Maker Club Afterschool Enrichment - 2026-2027",
    "venue": "City of Miami Beach Arts Calendar",
@@ -4827,27 +4470,6 @@
    "source": "refresh-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "cc1aac410d1f22fd",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-23T17:30:00-05:00",
-   "end": "2026-11-23T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -5057,7 +4679,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -5099,7 +4721,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -5122,27 +4744,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "5564459184da8282",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-23T20:15:00-05:00",
-   "end": "2026-11-23T22:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "7dcd9e9dd7c2be56",
@@ -5269,48 +4870,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "2bc4db20bca17aef",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-24T14:45:00-05:00",
-   "end": "2026-11-24T17:15:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "60bb3a1f0fc25f64",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-24T17:30:00-05:00",
-   "end": "2026-11-24T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "691b227a6d1e61b8",
@@ -5502,27 +5061,6 @@
    "city": "miami"
   },
   {
-   "id": "7d42b2d249bb1c89",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-24T20:15:00-05:00",
-   "end": "2026-11-24T22:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "1be49709216f4c80",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "venue": "O Cinema South Beach",
@@ -5628,27 +5166,6 @@
    "city": "nyc"
   },
   {
-   "id": "a21ecccb26c3d003",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-25T14:45:00-05:00",
-   "end": "2026-11-25T17:15:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "bf84766885fc86d0",
    "title": "Club Hour Shiur",
    "venue": "Yeshiva University",
@@ -5729,28 +5246,7 @@
    },
    "source": "miami-heat",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "1a08d82863d21dc7",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-25T17:30:00-05:00",
-   "end": "2026-11-25T20:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -5855,7 +5351,7 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -5876,7 +5372,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -5922,27 +5418,6 @@
    "city": "miami"
   },
   {
-   "id": "18ad7b68dcecb055",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-25T20:15:00-05:00",
-   "end": "2026-11-25T22:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "5628d942c4b4c1a2",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "venue": "O Cinema South Beach",
@@ -5961,69 +5436,6 @@
    "source": "o-cinema",
    "also_listed_by": [],
    "fetched_at": "2026-11-12T18:44:38+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "e96279ad6e4bc1b1",
-   "title": "National Theatre Live: Golden Boy",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-26T11:00:00-05:00",
-   "end": "2026-11-26T13:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "b704691760fa453d",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-26T14:30:00-05:00",
-   "end": "2026-11-26T17:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "32a8c86a9ba9329c",
-   "title": "National Theatre Live: Golden Boy",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-27T11:00:00-05:00",
-   "end": "2026-11-27T13:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6046,48 +5458,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "eb02a24ad207090e",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-27T14:00:00-05:00",
-   "end": "2026-11-27T16:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "74e34bd4fc5c959f",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-27T16:30:00-05:00",
-   "end": "2026-11-27T19:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "a1d3fc63d4a21654",
@@ -6132,27 +5502,6 @@
    "city": "miami"
   },
   {
-   "id": "01be8eb42ec9d70d",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-27T19:00:00-05:00",
-   "end": "2026-11-27T21:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "da153c07e2f4e613",
    "title": "Laser Evening",
    "venue": "Frost Science",
@@ -6191,7 +5540,7 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -6212,7 +5561,7 @@
    },
    "source": "miami-heat",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -6233,7 +5582,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -6255,27 +5604,6 @@
    "source": "miami-new-drama",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "624adc1a1c1340d3",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-27T21:30:00-05:00",
-   "end": "2026-11-28T00:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6319,27 +5647,6 @@
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "a397a178f148226f",
-   "title": "National Theatre Live: Golden Boy",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-28T11:00:00-05:00",
-   "end": "2026-11-28T13:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "b4b50f7ae80a27d7",
@@ -6426,48 +5733,6 @@
    "city": "miami"
   },
   {
-   "id": "84f607e99308dd20",
-   "title": "Anastasia",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-28T14:15:00-05:00",
-   "end": "2026-11-28T16:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "4c27a84ced69ef28",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-28T16:45:00-05:00",
-   "end": "2026-11-28T19:15:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "19dcd647f1fb28ea",
    "title": "The Bass Highlight Tours",
    "venue": "The Bass",
@@ -6506,29 +5771,8 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "977f92c667db95bd",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-28T19:15:00-05:00",
-   "end": "2026-11-28T21:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "f3dd6190d99f840e",
@@ -6591,27 +5835,6 @@
    "source": "ticketmaster-miami",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "215334e24dffabed",
-   "title": "Blow Out",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-28T22:00:00-05:00",
-   "end": "2026-11-29T00:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6720,27 +5943,6 @@
    "city": "nyc"
   },
   {
-   "id": "d3cb4bb2fc61b420",
-   "title": "Edie Arnold Is a Loser",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-29T12:00:00-05:00",
-   "end": "2026-11-29T14:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "304dbff4e737f51b",
    "title": "The Bass Free Community Day",
    "venue": "City of Miami Beach Arts Calendar",
@@ -6780,6 +5982,48 @@
    "source": "the-bass",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "81df4ef757350018",
+   "title": "[TeamCalendar.com] Dolphins recibe a Jets",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/miami-dolphins/2026-11-29-1300-vs-new-york-jets/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Hard Rock Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:14:12+00:00",
+   "city": "miami"
+  },
+  {
+   "id": "5899bde4b2392165",
+   "title": "[TeamCalendar.com] Giants en casa de Colts",
+   "venue": "Miami Dolphins",
+   "kind": "sports",
+   "start": "2026-11-29T13:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "description": "Pásate a TeamCalendar Pro por 5 US$/mes.\nAsí se quita la marca TeamCalendar del título y se cargan los partidos de todo un año (en lugar de 60 días).\nhttps://TeamCalendar.com/es-es/app/klKzFyQq79\n\nCómo ver en Estados Unidos\nhttps://teamcalendar.com/es-es/nfl/indianapolis-colts/2026-11-29-1300-vs-new-york-giants/how-to-watch\n\nNOVEDADES - TeamCalendar ya incluye los calendarios de la Premier League inglesa y de las carreras de Formula 1™.\n\nMe llamo Scott Cate y soy el dueño de TeamCalendar, que dirijo desde marzo de 2024. Si tienes preguntas sobre el sitio, dímelo: siempre me alegra hablar con…",
+   "url": "https://TeamCalendar.com/es-es/app/klKzFyQq79",
+   "location": "Lucas Oil Stadium",
+   "price": {
+    "free": null,
+    "min": null,
+    "text": null
+   },
+   "source": "miami-dolphins",
+   "also_listed_by": [],
+   "fetched_at": "2026-11-18T03:14:12+00:00",
    "city": "miami"
   },
   {
@@ -6825,27 +6069,6 @@
    "city": "miami"
   },
   {
-   "id": "78d7981c3abeec3e",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-29T14:30:00-05:00",
-   "end": "2026-11-29T17:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "9a6702936e0459d3",
    "title": "Gandhi and the Jew",
    "venue": "Miami New Drama (Colony)",
@@ -6864,27 +6087,6 @@
    "source": "miami-new-drama",
    "also_listed_by": [],
    "fetched_at": "2026-11-16T20:51:12+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "4281413bbcd91637",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-29T17:00:00-05:00",
-   "end": "2026-11-29T19:30:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
    "city": "miami"
   },
   {
@@ -6926,7 +6128,7 @@
    },
    "source": "nyc-knicks",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -6968,7 +6170,7 @@
    },
    "source": "miami-heat",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -6993,27 +6195,6 @@
    "city": "miami"
   },
   {
-   "id": "e2af730d4efffa3e",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-29T19:30:00-05:00",
-   "end": "2026-11-29T22:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
    "id": "9becd778f05c8b16",
    "title": "Wilf Registration",
    "venue": "Yeshiva University",
@@ -7031,7 +6212,7 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7052,7 +6233,7 @@
    },
    "source": "miamibeach-arts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7073,7 +6254,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7094,7 +6275,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7115,7 +6296,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7136,7 +6317,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7157,7 +6338,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7178,7 +6359,7 @@
    },
    "source": "nyc-jts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7199,7 +6380,7 @@
    },
    "source": "miamibeach-arts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7220,28 +6401,7 @@
    },
    "source": "miamibeach-arts",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
-  },
-  {
-   "id": "d790886247ab3d04",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-30T16:30:00-05:00",
-   "end": "2026-11-30T19:00:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7262,7 +6422,7 @@
    },
    "source": "refresh-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7283,7 +6443,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7304,7 +6464,7 @@
    },
    "source": "nyc-columbia-business",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7325,7 +6485,7 @@
    },
    "source": "manatech",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7346,7 +6506,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7367,7 +6527,7 @@
    },
    "source": "nyc-yivo",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7388,7 +6548,7 @@
    },
    "source": "nyc-cjh",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   },
   {
@@ -7409,7 +6569,7 @@
    },
    "source": "luma-miami",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7430,7 +6590,7 @@
    },
    "source": "the-bass",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7451,7 +6611,7 @@
    },
    "source": "books-and-books",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "miami"
   },
   {
@@ -7472,29 +6632,8 @@
    },
    "source": "nyc-yeshiva-u",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
-  },
-  {
-   "id": "82241e96f7e508a6",
-   "title": "Bitter Christmas",
-   "venue": "Coral Gables Art Cinema",
-   "kind": "film",
-   "start": "2026-11-30T19:15:00-05:00",
-   "end": "2026-11-30T21:45:00-05:00",
-   "all_day": false,
-   "description": "",
-   "url": "https://gablescinema.com/calendar/",
-   "location": "Coral Gables Art Cinema, 260 Aragon Avenue, Coral Gables, FL",
-   "price": {
-    "free": null,
-    "min": null,
-    "text": null
-   },
-   "source": "gables-cinema",
-   "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
-   "city": "miami"
   },
   {
    "id": "59a51c0161dc972d",
@@ -7514,7 +6653,7 @@
    },
    "source": "nyc-nets",
    "also_listed_by": [],
-   "fetched_at": "2026-11-18T03:00:50+00:00",
+   "fetched_at": "2026-11-18T03:05:26+00:00",
    "city": "nyc"
   }
  ]
